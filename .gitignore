@@ -8,10 +8,6 @@ dist/
 # Virtual environments
 .venv
 
-# Data files
-data/*
-!data/.gitkeep
-
 # OS
 .DS_Store
 Thumbs.db
@@ -26,4 +22,6 @@ Thumbs.db
 
 # Node
 node_modules/
+
+# Cloned reference project
 /daily-arXiv-ai-enhanced/
