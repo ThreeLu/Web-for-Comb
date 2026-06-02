@@ -263,12 +263,12 @@ function renderPapers() {
 
 function renderExpand(p) {
     const fields = [
-        ['TL;DR', p.tldr],
-        ['Motivation', p.motivation],
-        ['Method', p.method],
-        ['Result', p.result],
-        ['Conclusion', p.conclusion],
-        ['Future Work', p.future_work],
+        ['一句话总结', p.tldr],
+        ['动机', p.motivation],
+        ['方法', p.method],
+        ['结果', p.result],
+        ['结论', p.conclusion],
+        ['未来工作', p.future_work],
     ];
     let html = '';
     fields.forEach(([label, val]) => {
