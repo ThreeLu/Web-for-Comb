@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ── Flatpickr ────────────────────────────────────────────
 function initFlatpickr() {
+    try {
     const input = document.getElementById('flatpickrInput');
     flatpickrInstance = flatpickr(input, {
         dateFormat: 'Y-m-d',
@@ -47,6 +48,7 @@ function initFlatpickr() {
     input.style.pointerEvents = 'none';
     input.style.width = '1px';
     input.style.height = '1px';
+    } catch(e) { console.warn('Flatpickr init failed:', e); }
 }
 
 document.getElementById('dateBtn').addEventListener('click', () => {
@@ -152,13 +154,15 @@ function renderPapers() {
 
     if (allPapers.length === 0) {
         container.innerHTML = '';
-        summary.classList.add('hidden');
+        if (summary) summary.classList.add('hidden');
         noPapers.classList.remove('hidden');
         return;
     }
     noPapers.classList.add('hidden');
-    summary.classList.remove('hidden');
-    summary.textContent = `${fmtDate(currentDate)} · ${allPapers.length} 篇`;
+    if (summary) {
+        summary.classList.remove('hidden');
+        summary.textContent = `${fmtDate(currentDate)} · ${allPapers.length} 篇`;
+    }
 
     let html = '';
     allPapers.forEach((p, i) => {
