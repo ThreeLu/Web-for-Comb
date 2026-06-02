@@ -1,0 +1,13 @@
+[project]
+name = "comb-search"
+version = "0.2.0"
+description = "Daily arXiv paper tracker for combinatorics and graph theory"
+authors = [
+    {name = "ThreeLu"},
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arxiv>=2.1.3",
+]
+license = "MIT"

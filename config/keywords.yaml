@@ -1,0 +1,101 @@
+# Comb-Search Keywords Configuration
+# Edit this file to add/remove keywords for paper filtering.
+# Keywords are matched case-insensitively in paper titles and abstracts.
+# Organized by research area for readability.
+
+keywords:
+  absorption_method:
+    - absorption method
+    - absorbing set
+    - absorber
+    - iterative absorption
+    - refined absorption
+    - distributive absorption
+    - addition structure
+    - flexible set
+    - reservoir method
+
+  hamilton_cycles:
+    - Hamilton cycle
+    - Hamiltonian cycle
+    - Hamiltonicity
+    - tight Hamilton cycle
+    - loose Hamilton cycle
+    - Berge Hamilton cycle
+    - Hamilton decomposition
+    - Hamilton path
+    - pancyclic
+    - Dirac-type
+    - robust Hamiltonicity
+    - resilience
+
+  rainbow:
+    - rainbow subgraph
+    - rainbow matching
+    - rainbow coloring
+    - rainbow Turán
+    - rainbow Ramsey
+    - rainbow saturation
+    - transversal
+    - rainbow spanning
+    - Gallai coloring
+
+  extremal:
+    - extremal combinatorics
+    - extremal graph
+    - Turán problem
+    - Turán number
+    - generalized Turán
+    - supersaturation
+    - stability method
+    - flag algebra
+    - container method
+    - hypergraph container
+    - spread measure
+    - Kahn-Kalai
+    - oriented graph
+    - oriented
+
+  ramsey:
+    - Ramsey number
+    - Ramsey theory
+    - Ramsey-Turán
+    - diagonal Ramsey
+    - multicolour Ramsey
+    - size Ramsey
+    - book graph
+    - Ramsey minimal
+    - Ramsey multiplicity
+    - induced Ramsey
+
+  random_graphs:
+    - random graph
+    - random perturbation
+    - probabilistic method
+    - nibble method
+    - semi-random
+    - threshold
+    - hitting time
+    - Lovász local lemma
+
+  designs:
+    - Steiner triple system
+    - combinatorial design
+    - Latin square
+    - Existence Conjecture
+    - block design
+    - resolvable design
+    - Ryser conjecture
+    - Brualdi-Stein
+
+  tools:
+    - regularity lemma
+    - blow-up lemma
+    - graph removal lemma
+    - hypergraph regularity
+    - additive combinatorics
+    - chromatic number
+    - list coloring
+    - bootstrap percolation
+    - graph minor
+    - treewidth

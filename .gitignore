@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data files
+data/*
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+
+# Node
+node_modules/
+/daily-arXiv-ai-enhanced/
