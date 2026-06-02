@@ -221,12 +221,9 @@ function renderPapers() {
 
     let html = '';
     sorted.forEach(p => {
-        const dot = p.matched ? '<span class="match-dot"></span>' : '<span class="match-dot" style="visibility:hidden"></span>';
         html += `
         <div class="paper-row" data-id="${esc(p.id)}">
             <div class="paper-row-inner">
-                ${dot}
-                <span class="paper-id"><a href="https://arxiv.org/abs/${esc(p.id)}" target="_blank" onclick="event.stopPropagation()">${esc(p.id)}</a></span>
                 <div class="paper-content">
                     <span class="paper-title" onclick="toggleExpand('${esc(p.id)}')">${esc(p.title)}</span>
                     <div class="paper-authors">${esc(p.authors)}</div>
