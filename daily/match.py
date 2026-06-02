@@ -83,20 +83,18 @@ def main():
                 continue
             papers.append(json.loads(line))
 
-    matched_count = 0
+    matched = []
     for p in papers:
         if match_paper(p, keywords, authors):
             p["matched"] = True
-            matched_count += 1
-        else:
-            p["matched"] = False
+            matched.append(p)
 
     with open(data_file, "w") as f:
-        for p in papers:
+        for p in matched:
             f.write(json.dumps(p, ensure_ascii=False) + "\n")
 
     print(
-        f"Matched: {matched_count}/{len(papers)} papers", file=sys.stderr
+        f"Kept: {len(matched)}/{len(papers)} matched papers (others discarded)", file=sys.stderr
     )
 
 
