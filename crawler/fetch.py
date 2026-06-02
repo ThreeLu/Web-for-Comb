@@ -43,15 +43,26 @@ def fetch_url(url: str) -> str:
 def parse_listing(html: str) -> list[dict]:
     """
     Parse arXiv listing page HTML.
+    Only extracts papers from the "New submissions" section
+    (skips cross-lists and replacements).
     Returns list of {id, title, authors, categories}.
     """
+    # Extract only the "New submissions" section
+    # Structure: <h3>New submissions</h3> ... <dt>/<dd> pairs ... <h3>Cross submissions</h3>
+    new_section_match = re.search(
+        r'<h3[^>]*>New submissions.*?</h3>(.*?)(?:<h3[^>]*>|$)',
+        html, re.DOTALL
+    )
+    if not new_section_match:
+        return []
+
+    section_html = new_section_match.group(1)
+
+    dt_blocks = re.findall(r'<dt>(.*?)</dt>', section_html, re.DOTALL)
+    dd_blocks = re.findall(r'<dd>(.*?)</dd>', section_html, re.DOTALL)
+
     papers = []
-
-    dt_blocks = re.findall(r'<dt>(.*?)</dt>', html, re.DOTALL)
-    dd_blocks = re.findall(r'<dd>(.*?)</dd>', html, re.DOTALL)
-
     for i, dt_html in enumerate(dt_blocks):
-        # Extract arXiv ID
         id_match = re.search(r'href\s*=\s*["\']/abs/(\d+\.\d+)["\']', dt_html)
         if not id_match:
             continue
@@ -62,30 +73,25 @@ def parse_listing(html: str) -> list[dict]:
         if i < len(dd_blocks):
             dd_html = dd_blocks[i]
 
-            # Title — match both single and double quotes
             title_match = re.search(
                 r'<div\s+class=[\"\']list-title[^\"\']*[\"\']>(.*?)</div>', dd_html, re.DOTALL
             )
             if title_match:
                 title = title_match.group(1).strip()
                 title = re.sub(r'<[^>]+>', '', title)
-                # Remove "Title:" prefix
                 title = re.sub(r'^Title:\s*', '', title)
                 title = re.sub(r'\s+', ' ', title).strip()
                 paper["title"] = title
 
-            # Authors — extract text from <a> tags
             auth_match = re.search(
                 r'<div\s+class=[\"\']list-authors[\"\']>(.*?)</div>', dd_html, re.DOTALL
             )
             if auth_match:
                 auth_html = auth_match.group(1).strip()
-                # Extract text from each <a> tag
                 author_names = re.findall(r'<a[^>]*>([^<]+)</a>', auth_html)
                 if author_names:
                     paper["authors"] = ", ".join(author_names)
 
-            # Categories
             subj_match = re.search(
                 r'<div\s+class=[\"\']list-subjects[\"\']>(.*?)</div>', dd_html, re.DOTALL
             )
