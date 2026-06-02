@@ -23,20 +23,17 @@
             <a href="https://github.com/ThreeLu/Web-for-Comb" class="header-link" target="_blank">Comb-Search</a>
         </div>
         <div class="header-right">
-            <button id="searchToggle" class="icon-btn" title="Search">🔍</button>
             <button id="dateBtn" class="date-btn">
                 <span id="dateDisplay">—</span>
                 <span class="date-arrow">▾</span>
             </button>
         </div>
     </div>
-    <div id="searchBar" class="search-bar hidden">
-        <input type="text" id="searchInput" placeholder="Search title, author, abstract...">
-    </div>
     <div id="datePicker" class="date-picker-popup hidden">
         <input type="text" id="flatpickrInput" data-input>
     </div>
 </header>
+<div id="daySummary" class="day-summary hidden"></div>
 
 <main id="main">
     <div id="loading" class="state-msg">Loading…</div>

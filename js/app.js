@@ -1,27 +1,17 @@
 /**
  * Comb-Search — Frontend
- *
- * Minimal academic paper list:
- * - Date picker (top right)
- * - Search box (toggle via magnifier)
- * - Compact arXiv-style paper rows with inline expansion
- * - Matched papers get a subtle dot (no reason exposed)
- * - Bottom trend bar
  */
 
 // ── State ────────────────────────────────────────────────
 let availableDates = [];
 let currentDate = '';
-let allPapers = [];          // all papers loaded for current date(s)
-let filteredPapers = [];     // after search filtering
-let expandedId = null;       // currently expanded paper id
+let allPapers = [];
+let expandedId = null;
 let flatpickrInstance = null;
-let searchQuery = '';
 
 // ── Init ─────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
     initFlatpickr();
-    initSearch();
     fetchAvailableDates().then(() => {
         if (availableDates.length > 0) {
             loadDate(availableDates[0]);
@@ -63,45 +53,6 @@ function hideDatePicker() {
     document.getElementById('datePicker').classList.add('hidden');
 }
 
-// ── Search ───────────────────────────────────────────────
-function initSearch() {
-    const toggle = document.getElementById('searchToggle');
-    const bar = document.getElementById('searchBar');
-    const input = document.getElementById('searchInput');
-
-    toggle.addEventListener('click', () => {
-        bar.classList.toggle('hidden');
-        if (!bar.classList.contains('hidden')) {
-            input.focus();
-        } else {
-            input.value = '';
-            searchQuery = '';
-            applySearch();
-        }
-    });
-
-    input.addEventListener('input', () => {
-        searchQuery = input.value.trim().toLowerCase();
-        applySearch();
-    });
-}
-
-function applySearch() {
-    if (searchQuery === '') {
-        filteredPapers = [...allPapers];
-    } else {
-        filteredPapers = allPapers.filter(p => {
-            const hay = [
-                p.title, p.authors, p.summary, p.id,
-                p.tldr || '', p.motivation || '', p.method || '',
-                p.result || '', p.conclusion || '', p.future_work || ''
-            ].join(' ').toLowerCase();
-            return hay.includes(searchQuery);
-        });
-    }
-    renderPapers();
-}
-
 // ── Data Loading ─────────────────────────────────────────
 async function fetchAvailableDates() {
     try {
@@ -127,10 +78,7 @@ async function fetchAvailableDates() {
 async function loadDate(date) {
     currentDate = date;
     expandedId = null;
-    searchQuery = '';
-    document.getElementById('searchInput').value = '';
     document.getElementById('dateDisplay').textContent = fmtDate(date);
-    document.getElementById('searchBar').classList.add('hidden');
 
     showLoading();
     try {
@@ -138,18 +86,15 @@ async function loadDate(date) {
         const resp = await fetch(url);
         if (!resp.ok || resp.status === 404) {
             allPapers = [];
-            filteredPapers = [];
             renderPapers();
             return;
         }
         const text = await resp.text();
         allPapers = parseJSONL(text, date);
-        filteredPapers = [...allPapers];
         renderPapers();
     } catch (e) {
         console.error('Failed to load papers:', e);
         allPapers = [];
-        filteredPapers = [];
         renderPapers();
     }
 }
@@ -195,39 +140,35 @@ function renderPapers() {
     document.getElementById('loading').classList.add('hidden');
     const container = document.getElementById('papers');
     const noPapers = document.getElementById('noPapers');
-    const noMatch = document.getElementById('noMatch');
+    const summary = document.getElementById('daySummary');
 
     if (allPapers.length === 0) {
         container.innerHTML = '';
+        summary.classList.add('hidden');
         noPapers.classList.remove('hidden');
-        noMatch.classList.add('hidden');
         return;
     }
     noPapers.classList.add('hidden');
-
-    if (filteredPapers.length === 0 && searchQuery) {
-        container.innerHTML = '';
-        noMatch.classList.remove('hidden');
-        return;
-    }
-    noMatch.classList.add('hidden');
-
-    // Sort: matched first
-    const sorted = [...filteredPapers].sort((a, b) => {
-        if (a.matched && !b.matched) return -1;
-        if (!a.matched && b.matched) return 1;
-        return 0;
-    });
+    summary.classList.remove('hidden');
+    summary.textContent = `${fmtDate(currentDate)} · ${allPapers.length} 篇`;
 
     let html = '';
-    sorted.forEach(p => {
+    allPapers.forEach((p, i) => {
+        const cats = (p.categories || []).join(', ');
         html += `
         <div class="paper-row" data-id="${esc(p.id)}">
             <div class="paper-row-inner">
+                <span class="paper-num">${i + 1}.</span>
                 <div class="paper-content">
                     <span class="paper-title" onclick="toggleExpand('${esc(p.id)}')">${esc(p.title)}</span>
-                    <div class="paper-authors">${esc(p.authors)}</div>
+                    <div class="paper-meta">
+                        <span class="paper-authors">${esc(p.authors)}</span>
+                        <span class="paper-cats">${esc(cats)}</span>
+                    </div>
                 </div>
+                <a href="https://arxiv.org/abs/${esc(p.id)}" target="_blank" class="arxiv-link" title="Open on arXiv" onclick="event.stopPropagation()">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
             </div>
             <div class="paper-expand" id="expand-${esc(p.id)}">
                 ${renderExpand(p)}
@@ -434,20 +375,11 @@ document.addEventListener('click', (e) => {
     }
 });
 
-// Keyboard: Escape to close search, collapse expanded paper
+// Keyboard: Escape to collapse expanded paper
 document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-        if (expandedId) {
-            const el = document.getElementById('expand-' + expandedId);
-            if (el) el.classList.remove('open');
-            expandedId = null;
-        }
-        const bar = document.getElementById('searchBar');
-        if (!bar.classList.contains('hidden')) {
-            bar.classList.add('hidden');
-            document.getElementById('searchInput').value = '';
-            searchQuery = '';
-            applySearch();
-        }
+    if (e.key === 'Escape' && expandedId) {
+        const el = document.getElementById('expand-' + expandedId);
+        if (el) el.classList.remove('open');
+        expandedId = null;
     }
 });
