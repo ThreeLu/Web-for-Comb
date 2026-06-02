@@ -2,139 +2,188 @@
 """
 arXiv paper fetcher for Comb-Search.
 
-Fetches new papers from arXiv for specified categories using the arXiv API.
-Outputs JSONL with full paper metadata: id, title, authors, abstract,
-categories, submitted date, and arXiv URLs.
+Scrapes arXiv listing pages (/list/{cat}/new) for new papers.
+Fetches abstracts individually from /abs/{id} pages.
 """
 
 import argparse
 import json
+import re
+import ssl
 import sys
+import time
+import urllib.request
+import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
-import arxiv
-
+# macOS SSL
+ssl._create_default_https_context = ssl._create_unverified_context
 
 CATEGORIES = ["math.CO", "math.NT", "math.PR", "cs.DM"]
+BASE_URL = "https://arxiv.org"
+HEADERS = {"User-Agent": "Comb-Search/0.2"}
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(
-        description="Fetch today's arXiv papers for combinatorics categories"
-    )
-    parser.add_argument(
-        "--date",
-        type=str,
-        help="Date in YYYY-MM-DD format (default: today UTC)",
-    )
-    parser.add_argument(
-        "--output-dir",
-        type=str,
-        default="data",
-        help="Output directory for JSONL files (default: data/)",
-    )
-    parser.add_argument(
-        "--categories",
-        type=str,
-        nargs="+",
-        default=CATEGORIES,
-        help=f"arXiv categories to fetch (default: {', '.join(CATEGORIES)})",
-    )
-    return parser.parse_args()
+    p = argparse.ArgumentParser(description="Fetch arXiv papers")
+    p.add_argument("--date", type=str, help="Date YYYY-MM-DD")
+    p.add_argument("--output-dir", type=str, default="data")
+    p.add_argument("--categories", type=str, nargs="+", default=CATEGORIES)
+    return p.parse_args()
 
 
-def paper_to_dict(paper: arxiv.Result) -> dict:
-    """Convert an arxiv.Result to our standard JSONL dict."""
-    return {
-        "id": paper.get_short_id(),
-        "title": paper.title,
-        "authors": [a.name for a in paper.authors],
-        "summary": paper.summary,
-        "categories": list(paper.categories),
-        "published": paper.published.isoformat(),
-        "updated": paper.updated.isoformat(),
-        "abs": paper.entry_id,
-        "pdf": paper.pdf_url,
-        "comment": paper.comment or "",
-        "journal_ref": paper.journal_ref or "",
-        "doi": paper.doi or "",
-    }
+def fetch_url(url: str) -> str:
+    """Fetch a URL and return decoded HTML."""
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read().decode("utf-8", errors="replace")
 
 
-def fetch_papers(categories: list[str], target_date: str) -> list[dict]:
+def parse_listing(html: str) -> list[dict]:
     """
-    Fetch all new papers for the given categories on target_date.
-
-    Uses arxiv.Search to query the arXiv API, sorted by submitted date,
-    filtering to papers that appeared on the target date.
+    Parse arXiv listing page HTML.
+    Returns list of {id, title, authors, categories}.
     """
-    target = datetime.fromisoformat(target_date).replace(
-        tzinfo=timezone.utc
-    )
-    # We search a window: from target_date 00:00 to target_date 23:59 UTC
-    # arXiv API doesn't support exact date filtering, so we get today's
-    # new submissions by querying each category's /list/new equivalent.
+    papers = []
 
+    dt_blocks = re.findall(r'<dt>(.*?)</dt>', html, re.DOTALL)
+    dd_blocks = re.findall(r'<dd>(.*?)</dd>', html, re.DOTALL)
+
+    for i, dt_html in enumerate(dt_blocks):
+        # Extract arXiv ID
+        id_match = re.search(r'href\s*=\s*["\']/abs/(\d+\.\d+)["\']', dt_html)
+        if not id_match:
+            continue
+        arxiv_id = id_match.group(1)
+
+        paper = {"id": arxiv_id, "title": "", "authors": "", "categories": []}
+
+        if i < len(dd_blocks):
+            dd_html = dd_blocks[i]
+
+            # Title — match both single and double quotes
+            title_match = re.search(
+                r'<div\s+class=[\"\']list-title[^\"\']*[\"\']>(.*?)</div>', dd_html, re.DOTALL
+            )
+            if title_match:
+                title = title_match.group(1).strip()
+                title = re.sub(r'<[^>]+>', '', title)
+                # Remove "Title:" prefix
+                title = re.sub(r'^Title:\s*', '', title)
+                title = re.sub(r'\s+', ' ', title).strip()
+                paper["title"] = title
+
+            # Authors — extract text from <a> tags
+            auth_match = re.search(
+                r'<div\s+class=[\"\']list-authors[\"\']>(.*?)</div>', dd_html, re.DOTALL
+            )
+            if auth_match:
+                auth_html = auth_match.group(1).strip()
+                # Extract text from each <a> tag
+                author_names = re.findall(r'<a[^>]*>([^<]+)</a>', auth_html)
+                if author_names:
+                    paper["authors"] = ", ".join(author_names)
+
+            # Categories
+            subj_match = re.search(
+                r'<div\s+class=[\"\']list-subjects[\"\']>(.*?)</div>', dd_html, re.DOTALL
+            )
+            if subj_match:
+                subj_text = subj_match.group(1).strip()
+                subj_text = re.sub(r'<[^>]+>', '', subj_text)
+                cats = re.findall(r'\(([a-z-]+\.[A-Z]{2})\)', subj_text)
+                paper["categories"] = list(dict.fromkeys(cats))
+
+        papers.append(paper)
+
+    return papers
+
+
+def fetch_abstract(arxiv_id: str) -> str:
+    """Fetch paper abstract from /abs/{id} page."""
+    try:
+        html = fetch_url(f"{BASE_URL}/abs/{arxiv_id}")
+    except Exception:
+        return ""
+
+    m = re.search(
+        r'<blockquote class="abstract[^"]*">\s*<span class="descriptor">Abstract:</span>\s*(.*?)</blockquote>',
+        html,
+        re.DOTALL,
+    )
+    if not m:
+        return ""
+
+    abstract = m.group(1).strip()
+    abstract = re.sub(r'<[^>]+>', '', abstract)
+    abstract = re.sub(r'\s+', ' ', abstract)
+    return abstract.strip()
+
+
+def run(categories: list[str], target_date: str, output_dir: str) -> int:
+    """Main fetch logic. Returns number of papers fetched."""
     all_papers = []
     seen_ids = set()
 
     for cat in categories:
         print(f"Fetching {cat}...", file=sys.stderr)
-        # arXiv listings show papers in reverse chronological order.
-        # We query by category and check the submitted date.
-        search = arxiv.Search(
-            query=f"cat:{cat}",
-            sort_by=arxiv.SortCriterion.SubmittedDate,
-            max_results=500,  # safety limit per category
-        )
+        try:
+            html = fetch_url(f"{BASE_URL}/list/{cat}/new")
+        except Exception as e:
+            print(f"  Error: {e}", file=sys.stderr)
+            continue
+
+        papers = parse_listing(html)
+        print(f"  → {len(papers)} papers listed", file=sys.stderr)
 
         count = 0
-        for paper in search.results():
-            paper_date = paper.published.date().isoformat()
-            if paper_date == target_date:
-                pid = paper.get_short_id()
-                if pid not in seen_ids:
-                    seen_ids.add(pid)
-                    all_papers.append(paper_to_dict(paper))
-                    count += 1
+        for i, p in enumerate(papers):
+            pid = p["id"]
+            if pid in seen_ids:
+                continue
+            seen_ids.add(pid)
 
-        print(f"  -> {count} new papers in {cat}", file=sys.stderr)
+            # Rate-limit: pause every 10 requests
+            if i > 0 and i % 10 == 0:
+                time.sleep(1)
 
-    return all_papers
+            abstract = fetch_abstract(pid)
+            authors_list = [a.strip() for a in p.get("authors", "").split(",") if a.strip()]
 
+            all_papers.append({
+                "id": pid,
+                "title": p.get("title", ""),
+                "authors": authors_list,
+                "summary": abstract,
+                "categories": p.get("categories", [cat]),
+                "published": target_date,
+                "abs": f"{BASE_URL}/abs/{pid}",
+                "pdf": f"{BASE_URL}/pdf/{pid}",
+                "comment": "",
+                "journal_ref": "",
+                "doi": "",
+            })
+            count += 1
 
-def main():
-    args = parse_args()
-    target_date = args.date or datetime.now(timezone.utc).strftime(
-        "%Y-%m-%d"
-    )
+        print(f"  → {count} papers with abstracts", file=sys.stderr)
 
-    print(f"Target date: {target_date}", file=sys.stderr)
-    print(
-        f"Categories: {', '.join(args.categories)}", file=sys.stderr
-    )
-
-    papers = fetch_papers(args.categories, target_date)
-    print(
-        f"\nTotal unique papers: {len(papers)}", file=sys.stderr
-    )
-
-    # Ensure output directory exists
-    out_dir = Path(args.output_dir)
+    # Save
+    out_dir = Path(output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
-
-    # Write JSONL
     out_file = out_dir / f"{target_date}.jsonl"
+
     with open(out_file, "w", encoding="utf-8") as f:
-        for paper in papers:
+        for paper in all_papers:
             f.write(json.dumps(paper, ensure_ascii=False) + "\n")
 
-    print(f"Saved to {out_file}", file=sys.stderr)
-
-    # Print paper count for the shell script to read
-    print(len(papers))
+    print(f"\nTotal: {len(all_papers)} → {out_file}", file=sys.stderr)
+    return len(all_papers)
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    target_date = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    print(f"Date: {target_date}", file=sys.stderr)
+    total = run(args.categories, target_date, args.output_dir)
+    print(total)
