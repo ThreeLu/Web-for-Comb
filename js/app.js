@@ -166,17 +166,13 @@ function renderPapers() {
 
     let html = '';
     allPapers.forEach((p, i) => {
-        const cats = (p.categories || []).join(', ');
         html += `
         <div class="paper-row" data-id="${esc(p.id)}">
             <div class="paper-row-inner">
                 <span class="paper-num">${i + 1}.</span>
                 <div class="paper-content">
                     <span class="paper-title" onclick="toggleExpand('${esc(p.id)}')">${esc(p.title)}</span>
-                    <div class="paper-meta">
-                        <span class="paper-authors">${esc(p.authors)}</span>
-                        <span class="paper-cats">${esc(cats)}</span>
-                    </div>
+                    <div class="paper-authors">${esc(p.authors)}</div>
                 </div>
                 <a href="https://arxiv.org/abs/${esc(p.id)}" target="_blank" class="arxiv-link" title="Open on arXiv" onclick="event.stopPropagation()">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
