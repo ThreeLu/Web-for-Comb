@@ -1,34 +1,26 @@
 # Comb-Search
 
 Daily arXiv paper tracker for combinatorics and graph theory.
-Personalized paper discovery for a PhD student in extremal combinatorics,
-Hamilton cycles, rainbow subgraphs, and related areas.
 
-## Quick Start
+## Daily workflow
 
-### Daily workflow
-When you say **"开始跑今天的流程"** (or "run today's workflow"):
+When you say **"开始跑今天的流程"**:
 
-1. **Fetch**: `python crawler/fetch.py` — pulls today's new papers from arXiv
-   (categories: math.CO, math.NT, math.PR, cs.DM)
-2. **Dedup**: Removes papers already seen in the last 7 days
-3. **Summarize**: Claude Code reads `daily/summarization_prompt.md` and generates
-   English summaries for each paper (TL;DR, Motivation, Method, Result, Conclusion, Future Work)
-4. **Convert**: `python to_md/convert.py` — JSONL to Markdown
-5. **Deploy**: Git commit and push → GitHub Pages auto-deploys
+1. Run `bash daily/run.sh` — fetches papers, deduplicates, matches keywords
+2. Read `daily/summarization_prompt.md`
+3. For each paper in `data/{today}.jsonl`, generate English summary (TL;DR,
+   Motivation, Method, Result, Conclusion, Future Work). Output to
+   `data/{today}_ai_enhanced.jsonl`
+4. Rerun `bash daily/run.sh` to complete matching + markdown + file list
+5. `git push origin main` to deploy
 
-### Adding/removing tracked authors
-Edit `config/authors.yaml` — one name per line under `authors:`.
+## Config
 
-### Adding/removing tracked keywords
-Edit `config/keywords.yaml` — keywords grouped by research area.
+- **Keywords**: `config/keywords.yaml` — edit to add/remove
+- **Authors**: `config/authors.yaml` — edit to add/remove
+- Changes take effect next time you run the pipeline
 
-### Site structure
-- `index.html` — main paper listing with category/keyword/author filters
-- `statistic.html` — keyword trends and paper statistics (Chart.js + D3.js)
-- `settings.html` — manage your keyword/author preferences (saved to localStorage)
+## Deploy
 
-## Deployment
-- **Repository**: https://github.com/ThreeLu/Web-for-Comb
-- **Live site**: https://threelu.github.io/Web-for-Comb/
-- **Data**: JSONL files stored in `data/`, served via GitHub raw content
+- Repo: https://github.com/ThreeLu/Web-for-Comb
+- Site: https://threelu.github.io/Web-for-Comb/
