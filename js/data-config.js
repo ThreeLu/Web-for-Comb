@@ -1,17 +1,13 @@
 /**
  * Data Source Configuration — Comb-Search
+ *
+ * Uses relative paths served by GitHub Pages (same domain, no CORS).
+ * Falls back to raw.githubusercontent.com for local development.
  */
 
 const DATA_CONFIG = {
-    repoOwner: 'ThreeLu',
-    repoName: 'Web-for-Comb',
-    dataBranch: 'main',
-
-    getDataBaseUrl: function() {
-        return `https://raw.githubusercontent.com/${this.repoOwner}/${this.repoName}/${this.dataBranch}`;
-    },
-
     getDataUrl: function(filePath) {
-        return `${this.getDataBaseUrl()}/${filePath}`;
+        // Use relative path — GitHub Pages serves everything from the repo root
+        return filePath;
     }
 };
