@@ -15,7 +15,15 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchAvailableDates().then(() => {
         if (availableDates.length > 0) {
             loadDate(availableDates[0]);
+        } else {
+            document.getElementById('loading').classList.add('hidden');
+            document.getElementById('noPapers').classList.remove('hidden');
+            document.getElementById('noPapers').textContent = 'Failed to load data. Check back later.';
         }
+    }).catch(() => {
+        document.getElementById('loading').classList.add('hidden');
+        document.getElementById('noPapers').classList.remove('hidden');
+        document.getElementById('noPapers').textContent = 'Failed to load data. Check back later.';
     });
     fetchTrend();
 });
