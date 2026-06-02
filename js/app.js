@@ -255,7 +255,35 @@ function renderPapers() {
                     {left: '\\(', right: '\\)', display: false},
                     {left: '\\[', right: '\\]', display: true}
                 ],
-                throwOnError: false
+                throwOnError: false,
+                macros: {
+                    "\\exstar": "\\mathrm{ex}^*",
+                    "\\ex": "\\mathrm{ex}",
+                    "\\Ftor": "F_t",
+                    "\\Ft": "F_t",
+                    "\\Wn": "W_n",
+                    "\\Cn": "C_n",
+                    "\\E": "\\mathbb{E}",
+                    "\\P": "\\mathbb{P}",
+                    "\\R": "\\mathbb{R}",
+                    "\\N": "\\mathbb{N}",
+                    "\\Z": "\\mathbb{Z}",
+                    "\\cL": "\\mathcal{L}",
+                    "\\cC": "\\mathcal{C}",
+                    "\\cB": "\\mathcal{B}",
+                    "\\cF": "\\mathcal{F}",
+                    "\\cG": "\\mathcal{G}",
+                    "\\cH": "\\mathcal{H}",
+                    "\\cP": "\\mathcal{P}",
+                    "\\cS": "\\mathcal{S}",
+                    "\\cT": "\\mathcal{T}",
+                    "\\calL": "\\mathcal{L}",
+                    "\\calC": "\\mathcal{C}",
+                    "\\calF": "\\mathcal{F}",
+                    "\\calG": "\\mathcal{G}",
+                    "\\calH": "\\mathcal{H}",
+                    "\\calP": "\\mathcal{P}",
+                }
             });
         } catch(e) {}
     }
@@ -315,7 +343,35 @@ function toggleExpand(id) {
                     {left: '\\(', right: '\\)', display: false},
                     {left: '\\[', right: '\\]', display: true}
                 ],
-                throwOnError: false
+                throwOnError: false,
+                macros: {
+                    "\\exstar": "\\mathrm{ex}^*",
+                    "\\ex": "\\mathrm{ex}",
+                    "\\Ftor": "F_t",
+                    "\\Ft": "F_t",
+                    "\\Wn": "W_n",
+                    "\\Cn": "C_n",
+                    "\\E": "\\mathbb{E}",
+                    "\\P": "\\mathbb{P}",
+                    "\\R": "\\mathbb{R}",
+                    "\\N": "\\mathbb{N}",
+                    "\\Z": "\\mathbb{Z}",
+                    "\\cL": "\\mathcal{L}",
+                    "\\cC": "\\mathcal{C}",
+                    "\\cB": "\\mathcal{B}",
+                    "\\cF": "\\mathcal{F}",
+                    "\\cG": "\\mathcal{G}",
+                    "\\cH": "\\mathcal{H}",
+                    "\\cP": "\\mathcal{P}",
+                    "\\cS": "\\mathcal{S}",
+                    "\\cT": "\\mathcal{T}",
+                    "\\calL": "\\mathcal{L}",
+                    "\\calC": "\\mathcal{C}",
+                    "\\calF": "\\mathcal{F}",
+                    "\\calG": "\\mathcal{G}",
+                    "\\calH": "\\mathcal{H}",
+                    "\\calP": "\\mathcal{P}",
+                }
             });
         } catch(e) {}
     }

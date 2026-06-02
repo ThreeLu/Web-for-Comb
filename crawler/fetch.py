@@ -20,7 +20,12 @@ from pathlib import Path
 # macOS SSL
 ssl._create_default_https_context = ssl._create_unverified_context
 
-CATEGORIES = ["math.CO", "math.NT", "math.PR", "cs.DM"]
+CATEGORIES = ["math.CO", "math.NT", "math.PR"]
+
+# Papers must have at least one of these in their category list to be kept.
+# This filters out pure probability / statistics / CS papers that aren't
+# cross-listed to combinatorics or number theory.
+REQUIRED_CATEGORIES = {"math.CO", "math.NT"}
 BASE_URL = "https://arxiv.org"
 HEADERS = {"User-Agent": "Comb-Search/0.2"}
 
@@ -184,7 +189,16 @@ def run(categories: list[str], target_date: str, output_dir: str) -> int:
             })
             count += 1
 
-        print(f"  → {count} papers with abstracts", file=sys.stderr)
+            print(f"  → {count} papers with abstracts", file=sys.stderr)
+
+    # Filter: keep only papers with at least one required category
+    before = len(all_papers)
+    all_papers = [
+        p for p in all_papers
+        if REQUIRED_CATEGORIES & set(p["categories"])
+    ]
+    if before != len(all_papers):
+        print(f"  Category filter: {before} → {len(all_papers)} papers kept", file=sys.stderr)
 
     # Save
     out_dir = Path(output_dir)
