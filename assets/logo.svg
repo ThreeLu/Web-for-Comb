@@ -1,42 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1a1a2e"/>
-      <stop offset="100%" stop-color="#16213e"/>
-    </linearGradient>
-    <!-- Cross gradient -->
-    <linearGradient id="cross" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#d4a574"/>
-      <stop offset="100%" stop-color="#e8c97a"/>
-    </linearGradient>
-    <!-- Subtle glow -->
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#e8c97a" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#e8c97a" stop-opacity="0"/>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5">
+      <stop offset="0%" stop-color="#FCE4C8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F49A5A" stop-opacity="0"/>
     </radialGradient>
   </defs>
-
-  <!-- Rounded square background -->
-  <rect x="8" y="8" width="240" height="240" rx="32" ry="32" fill="url(#bg)"/>
-
-  <!-- Subtle glow behind cross -->
-  <circle cx="128" cy="128" r="90" fill="url(#glow)"/>
-
-  <!-- Main cross (+) -->
-  <g stroke="url(#cross)" stroke-width="5" stroke-linecap="round" fill="none">
-    <!-- Vertical bar -->
-    <line x1="128" y1="40" x2="128" y2="216"/>
-    <!-- Horizontal bar -->
-    <line x1="40" y1="128" x2="216" y2="128"/>
-  </g>
-
-  <!-- Small circle at center (subtle ichthys/alpha-omega feel) -->
-  <circle cx="128" cy="128" r="8" fill="none" stroke="url(#cross)" stroke-width="2.5"/>
-
-  <!-- Tiny decorative dots at cross tips -->
-  <circle cx="128" cy="40" r="3" fill="url(#cross)"/>
-  <circle cx="128" cy="216" r="3" fill="url(#cross)"/>
-  <circle cx="40" cy="128" r="3" fill="url(#cross)"/>
-  <circle cx="216" cy="128" r="3" fill="url(#cross)"/>
+  <!-- Background -->
+  <rect x="4" y="4" width="248" height="248" rx="36" fill="#1a1a2e"/>
+  <circle cx="128" cy="100" r="85" fill="url(#glow)"/>
+  <!-- Face -->
+  <circle cx="128" cy="105" r="75" fill="#F49A5A" stroke="#D2691E" stroke-width="4"/>
+  <!-- Eyes -->
+  <circle cx="98" cy="92" r="14" fill="#2D1B0E"/>
+  <circle cx="103" cy="88" r="5.5" fill="white"/>
+  <circle cx="158" cy="92" r="14" fill="#2D1B0E"/>
+  <circle cx="163" cy="88" r="5.5" fill="white"/>
+  <!-- Smile -->
+  <path d="M98 135 Q128 170 158 135" stroke="#2D1B0E" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Blush -->
+  <ellipse cx="78" cy="115" rx="10" ry="6" fill="#E8836E" opacity="0.5"/>
+  <ellipse cx="178" cy="115" rx="10" ry="6" fill="#E8836E" opacity="0.5"/>
 </svg>

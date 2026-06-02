@@ -173,13 +173,13 @@ header {
 }
 .arxiv-link {
     flex-shrink: 0; color: var(--text-tertiary);
-    padding: 4px; border-radius: var(--radius);
+    padding: 3px; border-radius: var(--radius);
     display: flex; align-items: center;
-    opacity: 0;
-    transition: opacity 0.15s;
+    opacity: 0.35;
+    transition: opacity 0.15s, transform 0.15s;
 }
-.paper-row:hover .arxiv-link { opacity: 0.6; }
-.arxiv-link:hover { opacity: 1 !important; color: var(--link); }
+.paper-row:hover .arxiv-link { opacity: 0.7; }
+.arxiv-link:hover { opacity: 1 !important; transform: scale(1.15); }
 
 .day-summary {
     font-size: 0.82rem; color: var(--text-tertiary);
