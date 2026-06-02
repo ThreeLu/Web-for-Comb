@@ -81,7 +81,7 @@ def parse_listing(html: str) -> list[dict]:
                 title = re.sub(r'<[^>]+>', '', title)
                 title = re.sub(r'^Title:\s*', '', title)
                 title = re.sub(r'\s+', ' ', title).strip()
-                paper["title"] = title
+                paper["title"] = unescape_html(title)
 
             auth_match = re.search(
                 r'<div\s+class=[\"\']list-authors[\"\']>(.*?)</div>', dd_html, re.DOTALL
@@ -106,6 +106,18 @@ def parse_listing(html: str) -> list[dict]:
     return papers
 
 
+def unescape_html(text: str) -> str:
+    """Unescape common HTML entities in arXiv abstracts."""
+    return (text
+        .replace('&gt;', '>')
+        .replace('&lt;', '<')
+        .replace('&amp;', '&')
+        .replace('&quot;', '"')
+        .replace('&#39;', "'")
+        .replace('&apos;', "'")
+    )
+
+
 def fetch_abstract(arxiv_id: str) -> str:
     """Fetch paper abstract from /abs/{id} page."""
     try:
@@ -124,7 +136,7 @@ def fetch_abstract(arxiv_id: str) -> str:
     abstract = m.group(1).strip()
     abstract = re.sub(r'<[^>]+>', '', abstract)
     abstract = re.sub(r'\s+', ' ', abstract)
-    return abstract.strip()
+    return unescape_html(abstract.strip())
 
 
 def run(categories: list[str], target_date: str, output_dir: str) -> int:
