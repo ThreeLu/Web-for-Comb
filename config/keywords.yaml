@@ -98,3 +98,7 @@ keywords:
     - bootstrap percolation
     - graph minor
     - treewidth
+
+  algebraic_graph_theory:
+    - Cayley graph
+    - Cayley graphs
