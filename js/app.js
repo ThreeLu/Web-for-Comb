@@ -175,13 +175,10 @@ function renderPapers() {
                     <div class="paper-authors">${esc(p.authors)}</div>
                 </div>
                 <a href="https://arxiv.org/abs/${esc(p.id)}" target="_blank" class="arxiv-link" title="Open on arXiv" onclick="event.stopPropagation()">
-                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="12" cy="10" r="9" fill="#F49A5A" stroke="#D2691E" stroke-width="1.2"/>
-                        <circle cx="8.5" cy="8.5" r="1.8" fill="#3D2B1F"/>
-                        <circle cx="9.1" cy="8" r="0.7" fill="white"/>
-                        <circle cx="15.5" cy="8.5" r="1.8" fill="#3D2B1F"/>
-                        <circle cx="16.1" cy="8" r="0.7" fill="white"/>
-                        <path d="M8 14 Q12 18 16 14" stroke="#3D2B1F" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                        <polyline points="15 3 21 3 21 9"/>
+                        <line x1="10" y1="14" x2="21" y2="3"/>
                     </svg>
                 </a>
             </div>
