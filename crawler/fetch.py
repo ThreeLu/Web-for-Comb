@@ -20,12 +20,12 @@ from pathlib import Path
 # macOS SSL
 ssl._create_default_https_context = ssl._create_unverified_context
 
-CATEGORIES = ["math.CO", "math.NT", "math.PR"]
+CATEGORIES = ["math.CO", "math.NT", "math.PR", "math.GR"]
 
 # Papers must have at least one of these in their category list to be kept.
 # This filters out pure probability / statistics / CS papers that aren't
-# cross-listed to combinatorics or number theory.
-REQUIRED_CATEGORIES = {"math.CO", "math.NT"}
+# cross-listed to combinatorics, number theory, or group theory.
+REQUIRED_CATEGORIES = {"math.CO", "math.NT", "math.GR"}
 BASE_URL = "https://arxiv.org"
 HEADERS = {"User-Agent": "Comb-Search/0.2"}
 
