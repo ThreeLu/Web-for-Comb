@@ -1,0 +1,6 @@
+--- PAPER 37/86 ---
+ID: 2606.09415
+Title: On the chromatic number of the union of comparability graphs
+Authors: Maria Chudnovsky, Linda Cook, James Davies, Seokbeom Kim, Sang-il Oum
+Categories: math.CO
+Abstract: Resolving in a strong sense an old problem of Gyárfás from the 1980s on the union of two perfect graphs, we prove that for every pair of positive integers $d$ and $k$, there is a graph $G$ with clique number $k$ and chromatic number $k^d$ that is the union of $d$ comparability graphs.

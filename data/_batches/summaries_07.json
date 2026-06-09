@@ -1,0 +1,20 @@
+[
+  {
+    "id": "2606.09524",
+    "tldr": "本文给出了 quartic-free A-群（阶不被任意 $p^4$ 整除且 Sylow 子群皆交换的有限群）的显式结构，并确定了可解 quartic-free A-群的导出长度。",
+    "motivation": "A-群（Sylow 子群皆交换）和 quartic-free 群是有限群论中两个自然的结构条件。两者的交集形成了具有良好结构性质的群类，完整分类有助于理解有限群的体系。",
+    "method": "利用有限群的结构理论，对 Sylow 子群按素数分解并分析其交换性约束。在 quartic-free 条件下（$p^4\\nmid |G|$），Sylow 子群的阶至多 $p^3$，限制了可能的结构。通过逐素数分析和半直积分解导出显式结构。",
+    "result": "给出了 quartic-free A-群的显式结构描述。同时确定了可解 quartic-free A-群的导出长度。",
+    "conclusion": "该结果完整描述了一类具有良好算术和结构性质的有限群，填补了有限群分类体系中的一个具体空白。",
+    "future_work": "探索 quartic-free A-群的其他群论不变量（如共轭类数、特征标表），以及推广到 quintic-free 等更高次无幂条件。"
+  },
+  {
+    "id": "2606.09702",
+    "tldr": "本文开发了计算双曲 3-orbifold 群的第二同调群的有效方法，应用于 Weeks 流形相关格，证明其绝对 profinite 刚性并构造了 Grothendieck 对。",
+    "motivation": "第二同调群在 3-流形群的 profinite 刚性研究中起核心作用。虽然一般理论蕴含双曲 3-orbifold 群的同调理论上可计算，但算法不实际。有效的计算方法对具体的刚性问题至关重要。",
+    "method": "对作为双曲有理同调 3-球面基本群的有限扩张的 orbifold 群，开发计算 $H_2$ 的有效方法。利用群扩张的 Lyndon-Hochschild-Serre 谱序列和拓扑/组合论证。应用于 Weeks 流形 $\\mathcal{W}$ 的具体计算。",
+    "result": "(1) 开发了计算特定 3-orbifold 群 $H_2$ 的有效方法；(2) 对 $\\pi_1(\\mathcal{W})$ 与其在 $\\mathrm{PSL}_2(\\mathbb{C})$ 中正规化子之间的所有余紧格，计算了 $H_2$；(3) 证明了这些格的绝对 profinite 刚性，完成了 Bridson-McReynolds-Reid-Spitler 的工作；(4) 确定了 $H_2(\\Gamma_{\\mathcal{O}},\\mathbb{Z})\\cong\\mathbb{Z}/2\\mathbb{Z}$，回答了 Bridson-Reid 的问题；(5) 在 $\\Gamma_{\\mathcal{O}}^1\\times\\Gamma_{\\mathcal{O}}^1$ 中构造了 Grothendieck 对；(6) 计算了一些 Fibonacci 流形 $M_n$ 的基本群的有限扩张的 $H_2$。",
+    "conclusion": "该结果将 3-orbifold 群的 profinite 刚性研究推进到了具体可计算的阶段，并通过构造 Grothendieck 对连接了群论刚性问题和 3-流形拓扑。",
+    "future_work": "将计算方法推广到更广泛的 3-orbifold 群类，以及利用 Grothendieck 对探索 profinite 刚性的边界。"
+  }
+]

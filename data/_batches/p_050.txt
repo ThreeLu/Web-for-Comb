@@ -1,0 +1,6 @@
+--- PAPER 51/86 ---
+ID: 2606.08024
+Title: Monogenity of Fibonacci polynomials and Lucas polynomials
+Authors: Han Chen, Weizhe Guo, Haojie Hong
+Categories: math.NT
+Abstract: We investigate the monogenity of irreducible factors of the Fibonacci polynomials $F_n(x)$ and the Lucas polynomials $L_n(x)$. Our main results show that for every odd positive integer $n$, all irreducible factors of $F_n(x)$ are monogenic, and for every even positive integer $n$, all irreducible factors of $L_n(x)$ are monogenic.

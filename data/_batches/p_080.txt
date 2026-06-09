@@ -1,0 +1,6 @@
+--- PAPER 81/86 ---
+ID: 2606.08007
+Title: On varieties where $\mathrm{CS}\mathfrak{X}$ implies $\mathfrak{X}\mathrm{T}$
+Authors: Omar Al-Raisi, Mohammad Shahryari
+Categories: math.GR
+Abstract: In our previous work \cite{Omar-Shah2}, we initiated the study of $\CSX$- and $\XT$-groups associated with a fixed variety $\X$. A group belongs to the former class if all of its maximal $\X$-subgroups are malnormal, and to the latter if any two $\X$-subgroups with nontrivial intersection generate an $\X$-subgroup. In general, $\CSX$ does not imply $\XT$, however as shown in \cite{Omar-Shah2}, some varieties do satisfy this implication. In this article, we provide additional examples of varieties for which $\CSX$ implies $\XT$.

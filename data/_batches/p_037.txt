@@ -1,0 +1,6 @@
+--- PAPER 38/86 ---
+ID: 2606.09437
+Title: The maximum number of two 4-vertex graphs in planar graphs
+Authors: Wei Liu, Lin Sun, Jianliang Wu
+Categories: math.CO
+Abstract: Let $f(n,H)$ be the maximum number of copies of a graph $H$ in a planar graph of order $n$. When $H$ is a connected graph on four vertices, $f(n,H)$ has been completely determined except for two cases: $K_{1,3}^+$ (the claw graph $K_{1,3}$ with one additional edge) and $K_4^-$ (the complete graph $K_4$ with one edge removed). Here, we address these two cases and establish that for all $n\ge4$, $$f(n,K_{1,3}^+) = 4n^2-12n-4 \textrm{ and } f(n,K_4^-) =\frac{1}{2}(n^2+9n-40).$$

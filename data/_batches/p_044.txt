@@ -1,0 +1,6 @@
+--- PAPER 45/86 ---
+ID: 2606.09801
+Title: On the generalized Turán number of complete bipartite graphs
+Authors: Oliver Janzer, Sean Longbrake, Liana Yepremyan
+Categories: math.CO, cs.DM
+Abstract: For graphs $F$ and $H$, the generalized Turán number $\mathrm{ex}(n,F,H)$ denotes the maximum number of copies of $F$ in an $H$-free graph on $n$ vertices. We prove that if $s\in \{2,3\}$, $s< a\leq b$ and $t$ is sufficiently large, then $\mathrm{ex}(n,K_{a,b},K_{s,t})=\Theta(n^s)$. The $s=2$, $a=b=3$ case of this result answers a question of Spiro. Proving another conjecture of Spiro, we show that for every graph $F$ with at least one edge, there exist infinitely many real numbers $r$ such that $\mathrm{ex}(n,F,H)=\Theta(n^r)$ holds for some graph $H$.

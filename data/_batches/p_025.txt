@@ -1,0 +1,6 @@
+--- PAPER 26/86 ---
+ID: 2606.08772
+Title: Pairwise meets of antichains in $\mathbb{Z}^d$
+Authors: Guillermo Rey
+Categories: math.CO
+Abstract: The meet of two points in $\mathbb{Z}^d$ is their coordinatewise minimum. We show that every finite antichain $A$ in $\mathbb{Z}^d$ has at least $c_d |A|^{d/(d-1)}$ distinct pairwise meets, where $c_d > 0$ depends only on $d$, and that the exponent $d/(d-1)$ is best possible. As a corollary we obtain an isoperimetric inequality for downsets: every finite downset $D$ in $\mathbb{Z}^d_{\geq 0}$ satisfies $|D| \geq c_d |\max(D)|^{d/(d-1)}$, where $\max(D)$ is its set of maximal elements. By prime factorization the meet bound also yields a lower bound on greatest common divisors: a primitive set of $N$ integers supported on at most $d$ primes has at least $c_d N^{d/(d-1)}$ distinct pairwise gcds.

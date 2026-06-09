@@ -1,0 +1,6 @@
+--- PAPER 25/86 ---
+ID: 2606.08762
+Title: Many holes but no large one: maximizing $k$-holes while forbidding $(k+1)$-holes
+Authors: Martin Andričík, Alica Dományová, Adam Džavoronok, Aleksa Džuklevski, Matouš Šafránek
+Categories: math.CO
+Abstract: We study the maximal number $m_{k,\ell,n}$ of empty convex $k$-gons ($k$-holes) determined by an $n$-point set in the plane in general position that contains no empty convex $\ell~$-gon, focusing on the first nontrivial case $\ell=k+1$. Our main result determines the exact value in the small-excess regime: for $n=k+a$ with $a\le k/2-1$, we prove $m_{k,k+1,k+a}=2^a.$ We also describe the extremal configurations attaining equality. Beyond this exact range, we provide upper and lower bounds in the proportional regime $n=\alpha k$ and in the regime where $k$ is fixed and $n$ goes to infinity. In the last mentioned regime we prove that $m_{k,k+1,n}=\Omega_k(n^{\lfloor\frac{k}{3}\rfloor})$ and $m_{k,k+1,n}=O_k(n^{\lceil\frac{k}{2}\rceil+1}).$

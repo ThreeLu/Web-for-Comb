@@ -1,0 +1,6 @@
+--- PAPER 48/86 ---
+ID: 2606.07885
+Title: Weighted Recursions for the Smallest Parts Function
+Authors: Matthew Ortiz
+Categories: math.NT
+Abstract: We establish new polynomial-weighted recursions for Andrews' smallest parts function. Our results use the generating series for the spt function, a harmonic Maass form of weight 3/2, paired with the Dedekind eta function. Unlike previous work, we use the Rankin-Cohen bracket to obtain modular forms of weight larger than 2. This introduces a nontrivial quasimodular component, which we determine for the relevant weights. We apply the holomorphic projection operator and the vanishing of cusp form spaces of small enough weight to obtain our results.

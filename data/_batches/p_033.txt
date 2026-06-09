@@ -1,0 +1,6 @@
+--- PAPER 34/86 ---
+ID: 2606.09158
+Title: The Size of the Intersection of $q$-ary Hamming Balls
+Authors: Ville Junnila, Tero Laihonen, Tuomo Lehtilä, Pavan Padavu Devaraj
+Categories: math.CO, cs.DM
+Abstract: The interest in studying the size of the intersection of multiple $q$-ary Hamming balls has grown due to the recent advances in DNA-based data storage systems. We present an exact formula for the cardinality of the intersection of $s$ Hamming balls of varying radii over a $q$-ary alphabet. It is known that the distances between the center points of the Hamming balls are not enough, in general, to determine the size of the intersection. Based on our formula, we are able to find more refined structural properties of the center points for determining the exact size of the intersection. Moreover, we also analyze the size of the intersection for sufficiently large $n$. When $s=3$, we give the necessary and sufficient conditions (for all $q\ge 2$, $q\neq 6$ and sufficiently large $n$) to obtain the maximum size of the intersection when the center points of the Hamming balls have a given minimum distance and demonstrate how to compute it using our general formula.

@@ -1,0 +1,6 @@
+--- PAPER 18/86 ---
+ID: 2606.08449
+Title: Smith normal forms for coalescences at cospectral vertices
+Authors: Yi-Zheng Fan, Kuo Zhang, Wei Wang
+Categories: math.CO
+Abstract: Let $L_\mu(G)=A(G)-\mu D(G)$ be the generalized $\mu$-adjacency matrix of a finite graph $G$. Fan, Xing, Zhang, and Wang constructed pairs of non-degree-similar trees for which the Smith normal forms of the matrices $tI-L_\mu(G)$ over $\mathbb{Q}(\mu)[t]$ coincide, and conjectured that their construction remains valid when the attached rooted path is replaced by an arbitrary rooted tree. We prove this conjecture as a consequence of a more general coalescence theorem: if a finite graph $H$ has two vertices $u$ and $v$ that are cospectral for $L_\mu(H)$, then, for every finite rooted graph $R$ with root $r$, the matrices \[ tI-L_\mu(R(r)\odot H(u)) \quad\text{and}\quad tI-L_\mu(R(r)\odot H(v)) \] have the same Smith normal form over $\mathbb{Q}(\mu)[t]$, where $\odot$ denotes coalescence of rooted graphs. The proof uses an orthogonal intertwiner over a real closed extension field.

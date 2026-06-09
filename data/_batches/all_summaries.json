@@ -1,0 +1,776 @@
+[
+  {
+    "id": "2606.07668",
+    "tldr": "本文研究带标签树的 contraction display 计数问题，建立了有界碰撞核心框架，并证明了 $\\mu_T(m)$ 的指数包含估计。",
+    "motivation": "该问题源于 Reversal-Wilf 问题中对 support-count 序列的研究。带标签树的 contraction 包含关系是组合计数中的基本问题，与树的子结构计数和枚举组合学密切相关。之前对于 $\\mu_T(m)$ 的渐近行为缺乏精确估计。",
+    "method": "通过 marked displays 和 collision moments 来刻画 contraction displays。使用 survivor split-system 准则判定 $T\\preceq U$，利用 degree sequence 给出 marked display 计数的闭公式，并通过 bounded collision-core 定理和 contraction-diamond 定理建立有限碰撞核心框架。",
+    "result": "主要结果包括：(1) $T\\preceq U$ 的 survivor split-system 准则；(2) marked display 计数 $C_1(T;m)$ 用 degree sequence 表达的闭公式；(3) bounded collision-core 定理：任意 $n$ 顶点树的 $k$-overlay state 收缩到至多 $k(n-1)+1$ 顶点的核心；(4) 指数包含估计 $\\mu_T(m)=m^{m-2}\\left(1-O_T(e^{-c_Tm})\\right)$。",
+    "conclusion": "这些结果给出了 Reversal-Wilf 问题的有限碰撞核心框架，为理解带标签树之间的 contraction 包含关系提供了结构性的刻画。",
+    "future_work": "论文提出的未解决问题包括：support-count 相等是否决定碰撞轮廓，以及下 contraction 数据能从有界核心轮廓中解码出多少信息。"
+  },
+  {
+    "id": "2606.07748",
+    "tldr": "本文引入有向图的 partial order decomposition number (pod)，证明有界 pod 的 digraph 类是 polynomially $\\chi$-bounded，并应用于 tournaments 解决了多个猜想。",
+    "motivation": "有向图的 $\\chi$-boundedness 是图论中的重要概念，研究 dichromatic number 与 clique number 的关系。对于 tournaments，Aubian 等人提出了 substitution closure 下的 $\\chi$-boundedness 问题，Gutowski 和 Rams 提出了 directed clique number 下界的猜想。",
+    "method": "定义 pod(D) 为将弧集分解为偏序的最小个数，证明 $\\chi(D)\\le \\omega(D)^{pod(D)}$。利用偏序结构和 substitution 操作对 tournaments 进行分类讨论，结合组合论证和多项式下界构造。",
+    "result": "(1) 任意有界 pod 的有向图类是 polynomially $\\chi$-bounded；(2) 有界 dichromatic number 的 tournament 类在 substitution 下封闭仍是 polynomially $\\chi$-bounded；(3) 有界 dimension 的 poset tournaments 是 $\\chi$-bounded；(4) 对 Gutowski-Rams 猜想的肯定回答：构造了一族 tournaments 的 directed clique number 多项式下界；(5) 有界 pod 的 tournaments 有有界 domination number。",
+    "conclusion": "pod 参数为有向图的 $\\chi$-boundedness 研究提供了新的统一视角，成功连接了 tournaments、偏序和 substitution 等不同研究方向。",
+    "future_work": "探索 pod 与其他有向图参数的关系，以及 pod 概念在更广泛有向图类上的应用。研究一般有向图的 pod 与 dichromatic number 之间的精确界限。"
+  },
+  {
+    "id": "2606.07806",
+    "tldr": "本文证明了正密度的 order type 必然包含大规模的 blow-up 结构：若 $\\rho$ 在 $P$ 上有正密度，则 $P$ 中存在 $k$ 个大子集使得任意跨子集选取的 $k$ 元组都有相同的 order type。",
+    "motivation": "Order type 是点集配置的组合等价关系，捕捉了点集的凸性和组合性质。正密度条件下的结构性结果是组合几何中的核心问题，与 Szemerédi 型结论和 Ramsey 理论中的 regularity 方法密切相关。",
+    "method": "使用组合几何和 Ramsey 型论证。从正密度的 order type 出发，通过多次提取大子集并保证跨子集的一致性，构造出满足 blow-up 属性的 $k$ 个不相交大子集 $X_1,\\dots,X_k$。",
+    "result": "存在常数 $c>0$（仅依赖于 $d,\\delta,k,\\kappa$）和 $P$ 的 $k$ 个不相交子集 $X_1,\\dots,X_k$，每个大小至少 $c\\cdot n$，使得任意选取 $x_i\\in X_i$，$(x_1,\\dots,x_k)$ 有与 $\\rho$ 相同的 order type 和颜色模式。",
+    "conclusion": "该结果建立了正密度 order type 与 blow-up 结构之间的必然联系，为理解高维点集配置的组合结构提供了新工具。",
+    "future_work": "探索常数 $c$ 的最优下界，以及将结果推广到更大的 $k>d+1$ 的情形。研究其他组合结构中的类似 blow-up 现象。"
+  },
+  {
+    "id": "2606.07844",
+    "tldr": "本文构造了两族 3-正则平面图作为 Pohl-Warnsdorf 算法的概念性反例，并给出了 Hamiltonian 路径数量的闭式公式。",
+    "motivation": "Pohl-Warnsdorf 算法是寻找 Hamilton 路径的经典启发式算法，理解其失效模式对于图算法设计和 Hamilton 性研究有重要意义。3-正则平面图的 Hamilton 路径计数也是一个自然的组合计数问题。",
+    "method": "构造两族无穷的 3-正则平面图族，分析其结构和 Hamilton 路径的对称性，利用组合计数和递推关系导出闭式公式。",
+    "result": "给出了两族 3-正则平面图中 Hamiltonian 路径数量的闭式计算公式，这两族图均为 Pohl-Warnsdorf 算法的概念性对手。",
+    "conclusion": "这些构造为理解 Pohl-Warnsdorf 算法的局限性提供了具体的图例，同时丰富了 3-正则平面图的 Hamilton 路径计数理论。",
+    "future_work": "探索其他启发式 Hamilton 搜索算法在这些图族上的表现，以及将这些构造推广到 $k$-正则平面图。"
+  },
+  {
+    "id": "2606.07918",
+    "tldr": "本文部分解决了 Green 提出的问题：在 $\\mathbb{F}_2^n$ 被划分为 $K$ 个子集时，某个 $A_i+A_i$ 是否包含小余维数的陪集？在两种特殊情形下给出了肯定回答。",
+    "motivation": "Green 的问题连接了加性组合与向量空间上的和集结构。该问题即使在 $K=3$ 时也不已知，反映了和集包含大结构（陪集）这一核心困难。",
+    "method": "针对 Hamming 球的特殊结构，利用 Fourier 分析和加性组合方法。通过分析不同基下 Hamming 球的和集结构，以及小密度 Hamming 球的性质来证明陪集包含。",
+    "result": "在两种特殊情形下证明了 Green 问题的肯定回答：(1) $A_1,A_2$ 是相对于不同基、半径 $r<n/2-7$ 的 Hamming 球；(2) $A_1$ 是充分小常数密度的 Hamming 球。",
+    "conclusion": "虽然在一般情况下 Green 问题仍然开放，但这些特殊情形提供了结构性的证据和可能的攻击方向。",
+    "future_work": "解决 $K=3$ 的一般情况，以及探索非 Hamming 球结构的划分。研究陪集余维数的最优界限。"
+  },
+  {
+    "id": "2606.07946",
+    "tldr": "本文研究了 max-convolution 不等式，通过 Stolarsky 均值的比较证明了 geometric block case，推进了 Bourgain 等人关于积集中和集大小问题的研究。",
+    "motivation": "该 max-convolution 不等式蕴含 Bourgain、Dilworth、Ford、Konyagin 和 Kutzarova 提出的关于积集中和集大小的肯定答案。该问题位于加性组合与分析的交叉点。",
+    "method": "利用 Stolarsky 均值的比较方法，将一般 geometric block case 约化为两参数 $(t^r, t^s)$ 的比较问题。通过分析序列的单调性和极值性质完成证明。还处理了 perturbation 和两个非零项的特殊情形。",
+    "result": "对所有 $m\\in\\mathbb{N}$ 证明了 geometric block case $x=(1,t,\\dots,t^r,0,\\dots,0)$ 和 $y=(1,t,\\dots,t^s,0,\\dots,0)$ 的 max-convolution 不等式，其中 $t\\in[0,1]$。还验证了某些扰动情形和一个序列仅有两个非零项的情形。",
+    "conclusion": "该结果向完全解决 Bourgain 等人的问题迈出了重要一步，证明了最具挑战性的 geometric block case。Stolarsky 均值的应用也为类似不等式提供了新方法。",
+    "future_work": "完全证明一般情形的 max-convolution 不等式，从而解决 Bourgain 等人的问题。探索该方法在其他卷积不等式中的应用。"
+  },
+  {
+    "id": "2606.07990",
+    "tldr": "本文研究经典排列、André 排列和 Simsun 排列上三变量统计量 (des, maj, inv) 的联合分布，通过最小元素位置递推得到生成函数的显式递推关系。",
+    "motivation": "排列统计量的联合分布是组合计数中的经典课题。(des, maj, inv) 三变量统计量统一了 descent、major index 和 inversion number 三个基本统计量，其联合分布由 Gessel 用 MacMahon 技巧得到。",
+    "method": "通过将排列按最小元素位置进行分解，建立生成函数的递推关系。这种方法统一处理了经典排列、第一类和第二类 André 排列以及 Simsun 排列。",
+    "result": "给出了多类排列上 (des, maj, inv) 的联合生成函数的显式递推关系。在经典排列情形，递推关系重新导出了 Gessel 的结果，但使用了更初等的方法（不需要 MacMahon 的技巧）。",
+    "conclusion": "该递推方法为理解 (des, maj, inv) 联合分布提供了新的组合视角，且能统一处理多种排列类。",
+    "future_work": "将该递推方法应用于其他排列类（如 alternating permutations、vexillary permutations 等），探索统计量之间的进一步关系。"
+  },
+  {
+    "id": "2606.08054",
+    "tldr": "本文完全解决了 Csikvári 关于最大匹配根的猜想，并将其推广到 $k$-uniform hypergraphs，证明了最大匹配根的精确上界。",
+    "motivation": "Csikvári 在 2011 年证明阈值图最大化匹配根，并猜想极值图应\"尽可能像星图\"。该猜想 15 年来未被解决，且推广到超图是自然的延伸。",
+    "method": "使用匹配多项式理论和组合极值方法。通过对超图的边数和匹配数进行分析，建立最大匹配根的上下界，并刻画等式成立的条件。",
+    "result": "(1) 对任意有 $m$ 条边的 $k$-图 $\\mathcal{H}$，最大匹配根满足 $\\lambda(\\mathcal{H})\\le m^{1/k}$，等式成立当且仅当 $\\mathcal{H}$ 是 intersecting；(2) 对 $k=2$（图），去孤立点后极值图必为星图 $K_{1,m}$ 或三角形，确认了 Csikvári 猜想；(3) 若匹配数 $\\nu(\\mathcal{H})\\ge 2$，给出更紧的上界。",
+    "conclusion": "该结果完整解决了 Csikvári 的猜想，并首次将匹配根理论系统推广到超图，开辟了新的研究方向。",
+    "future_work": "研究超图中其他谱参数与匹配数的关系。探索匹配根在化学图论和网络分析中的应用。"
+  },
+  {
+    "id": "2606.08058",
+    "tldr": "本文在 Giscard-Rochet 的 trace monoid 框架下建立了 Ihara zeta 函数的新行列式公式，其维度等于线有向图中无回溯简单圈的个数。",
+    "motivation": "Ihara zeta 函数是图论和数论中的重要对象，其行列式表示是核心问题。Giscard 和 Rochet 的 hike monoid 代数框架为统一各种行列式公式提供了新语言。",
+    "method": "使用 hike monoid 环上的 Cayley 行列式，建立代数层面的一般行列式公式。通过自然环同态将 hike 长度赋值，将抽象公式具体化为 Ihara zeta 函数的行列式表示。",
+    "result": "(1) 代数层面：在 hike monoid 环上给出用 Cayley 行列式表达的一般公式，统一了多种已知行列式表示；(2) 具体层面：证明了 Ihara zeta 函数的倒数可表示为行列式，其维度等于线有向图的无回溯简单圈数。",
+    "conclusion": "该结果提供了 Ihara zeta 函数的更紧凑的行列式表示，维度从之前的边数降到了简单圈数。hike monoid 框架的统一视角也为其他 zeta 函数的研究提供了模板。",
+    "future_work": "将该方法推广到其他类型的图 zeta 函数（如 Bartholdi zeta 函数），以及探索行列式公式的计算复杂度和在谱图论中的应用。"
+  },
+  {
+    "id": "2606.08061",
+    "tldr": "本文研究标准化 Laplacian 的距 1 第二大谱间隙，建立了与经典 Cheeger 常数的关系，并引入新的 Cheeger 型常数及其概率解释。",
+    "motivation": "标准化 Laplacian 的谱间隙在随机游走、expander 图和 Ramanujan 图中起关键作用。第二大谱间隙（距 1）是比通常的谱间隙更精细的谱参数，但之前缺乏类似 Cheeger 不等式的几何刻画。",
+    "method": "将第二大谱间隙与经典 Cheeger 常数和 dual Cheeger 常数联系起来。引入新的 Cheeger 型常数，该常数通过两步随机游走有自然的概率解释。利用谱图论和变分方法建立尖锐不等式。",
+    "result": "(1) 建立了第二大谱间隙与经典 Cheeger 常数和 dual Cheeger 常数的关系；(2) 引入新的 Cheeger 型常数，具有两步随机游走的概率解释；(3) 对该新常数证明了类似经典 Cheeger 不等式的尖锐不等式。",
+    "conclusion": "这些不等式将几何/组合性质（Cheeger 切割）与精细的谱性质（第二大谱间隙）联系起来，丰富了对图 Laplace 谱的理解。",
+    "future_work": "探索该新常数在其他图类（如随机图、无标度网络）上的行为，以及第二大谱间隙在算法应用（如聚类、社区发现）中的作用。"
+  },
+  {
+    "id": "2606.08127",
+    "tldr": "本文证明了无穷词的 palindrome 复杂度和 factor 复杂度之间的新关系：若非最终周期，则 $\\lim_{n\\to\\infty} \\frac{{\\rm Pal}(n)\\log({\\rm Pal}(n)+1)}{\\rho(n)} = 0$，且分子本质上最优。",
+    "motivation": "Palindrome 复杂度和 factor 复杂度是词组合学中两个基本的复杂度度量。两者之间的关系此前研究不够精确，尤其缺乏渐近紧确的界。",
+    "method": "利用词组合学中的组合论证，分析 palindrome 和 factor 的结构关系。通过构造性方法证明分子的最优性。",
+    "result": "若非最终周期的无穷词，则 $\\lim_{n\\to\\infty} \\frac{{\\rm Pal}(n)\\log({\\rm Pal}(n)+1)}{\\rho(n)} = 0$。此外证明了分子 ${\\rm Pal}(n)\\log({\\rm Pal}(n)+1)$ 在该不等式中本质上是最优的。",
+    "conclusion": "该结果首次在 log 因子的精度下建立了 palindrome 复杂度相对于 factor 复杂度的渐近上界，解决了词组合学中的一个基本问题。",
+    "future_work": "探索该不等式在特定词类（如 Sturmian 词、自动序列）中的精确化。研究更高维的词（如二维词）的类似复杂度关系。"
+  },
+  {
+    "id": "2606.08163",
+    "tldr": "本文研究了在强化谱条件下图中三角形数量的下界，证明了 $\\rho_1\\ge\\sqrt{m}+c$ 条件下至少存在 $s$ 个三角形，并刻画了极值图。",
+    "motivation": "谱 Mantel 定理的定量精细化是极值图论的活跃方向。Ning 和 Zhai 已给出 $\\rho_1\\ge\\sqrt{m}$ 时的三角形数量下界，但在更强条件下能否保证更多三角形是自然的问题。Li、Feng 和 Peng 提出了相关猜想。",
+    "method": "利用谱图论方法，结合邻接矩阵的谱分析和特征值不等式。通过分析谱半径与三角形数量的关系，利用极值论证和稳定性分析刻画极值结构。",
+    "result": "对任意常数 $c\\in(0,\\frac{1}{2}]$，若 $m$ 充分大且 $\\rho_1^2\\ge m-1+\\frac{2s}{\\rho_1-1}$，则图 $G$ 至少有 $s$ 个三角形。特别当 $s=\\frac{m-1}{2}$ 时，解决了 Li、Feng 和 Peng 的猜想。还刻画了达到最小三角形数的极值图。",
+    "conclusion": "该结果在谱 Mantel 定理的方向上给出了更精细的定量下界，建立了谱半径超出 $\\sqrt{m}$ 的程度与三角形数量之间的精确关系。",
+    "future_work": "研究其他子图（如 $C_4$、$K_r$）的类似谱条件下的计数下界。探索谱间隙与其他图参数的关系。"
+  },
+  {
+    "id": "2606.08279",
+    "tldr": "本文证明了每个由具有平面连通分量的局部有限 Borel 图生成的保测等价关系都是 sofic 的，特别地，每个单模随机平面图都是 sofic 的。",
+    "motivation": "Soficity 是群论和遍历论中的核心概念，Elek-Lippner 的 sofic 等价关系框架将 soficity 推广到了 Borel 等价关系。单模随机平面图的 soficity 是重要问题，Angel-Hutchcroft-Nachmias-Ray 和 Timár 的工作需要额外假设。",
+    "method": "研究具有平面分量的 Borel 单纯复形，通过树状覆盖空间进行逼近。关键工具是 Dunwoody 引入的平面单纯复形上的典范 track 族，用于构造覆盖。",
+    "result": "每个具有平面连通分量的局部有限 Borel 图生成的保测等价关系都是 sofic 的。特别地，每个单模随机平面图都是 sofic 的，去除了前人工作中的额外假设。",
+    "conclusion": "该结果完整解决了单模随机平面图的 soficity 问题，将 soficity 结果推广到了最一般的平面情形。",
+    "future_work": "探索非平面情形下的类似 soficity 结果，以及 soficity 在随机平面图的其他性质（如渗流、谱性质）中的应用。"
+  },
+  {
+    "id": "2606.08338",
+    "tldr": "本文研究了完全二叉树的离散时间 treatment number，证明了深度 8-10 的完全二叉树 treatment number 为 3，并构造了 treatment number 为 2 的深度 7 反例。",
+    "motivation": "Treatment number 是 arXiv:2408.0531 引入的图参数，来自为顶点分配颜色的确定性过程。它与路径宽度的上界关系 $\\tau(H)\\le\\lceil\\frac{1+pw(H)}{2}\\rceil$ 已被建立，但等式何时成立是开放问题。",
+    "method": "刻画了完全二叉树 $BT(d)$ 中边界大小不超过 3 的所有顶点子集，利用该刻画精确计算 treatment number。结合 cut-vertex 分解和路径宽度方法建立新上界。",
+    "result": "(1) $\\tau(BT(d))=3$ 对 $8\\le d\\le 10$ 成立，等号在路径宽度上界中成立；(2) $\\tau(BT(7))=2$，突破了路径宽度上界给的 $\\le 3$；(3) 构造了边界大小有限但 treatment number 无界的无穷图族。",
+    "conclusion": "结果表明 treatment number 的行为比路径宽度上界所暗示的更复杂，cut-vertex 结构可以显著影响 treatment number。",
+    "future_work": "确定更大深度的完全二叉树的 treatment number，以及研究一般树的 treatment number 的精确刻画。"
+  },
+  {
+    "id": "2606.08396",
+    "tldr": "本文为 Zhang-Zhang 分类中 26 个 (14641) 型双 Ore 扩张代数建立了显式的 PBW 正规序理论，获得了闭式公式和 Stirling 型三角数组。",
+    "motivation": "PBW 正规序是非交换代数中的基本问题。Zhang-Zhang 的 (14641) 型双 Ore 扩张分类给出了 26 个正则代数，但其 PBW 正规序的显式理论尚未建立。",
+    "method": "按 $x_1\\prec x_2\\prec y_1\\prec y_2$ 的序，导出内部关系的两字母闭式公式。建立混合词、PBW 单项式乘积、正规块幂和非交换多项式的递推系数系统。内部系数大多是量子或斜交换的，Jordan 族产生 Lah-Whitney（从而 Stirling 型）三角数组。配有 SageMath 实现。",
+    "result": "为 26 个 (14641) 型双 Ore 扩张正则代数建立了完整的 PBW 正规序理论，包含所有内部关系的闭式公式和各类组合结构的递推系数系统。",
+    "conclusion": "这项工作统一处理了该分类中所有代数的正规序问题，揭示了与 Stirling 型组合数的深层联系。",
+    "future_work": "将该方法推广到 Zhang-Zhang 分类中的其他类型，探索 PBW 正规序与其他组合结构（如对称函数、Young 表）的联系。"
+  },
+  {
+    "id": "2606.08401",
+    "tldr": "本文证明了 Jackson 的 Chvátal-Erdős 型条件下有向图 Hamilton 圈存在性的多项式界：$f_2(a)\\le 2a^3+2$，大幅改进了原有的超指数界。",
+    "motivation": "Jackson 在 1987 年证明 $f_2(a)\\le 2^a(a+2)!$ 并询问是否有更好的界，提示线性界可能。Kühn 和 Osthus 观察到即使多项式界也很有趣。该问题在有向图 Hamilton 理论中已开放 30 多年。",
+    "method": "利用有向图的连通性和独立性条件进行组合论证。通过分析无公共有向 2-圈的最大顶点集与连通度的关系，构造 Hamilton 圈。",
+    "result": "$f_2(a)\\le 2a^3+2$，将 Jackson 的超指数上界大幅改进为多项式界。",
+    "conclusion": "这是 Jackson 问题 30 多年来的重大进展，首次给出了多项式上界。但是否存在线性界仍然是开放问题。",
+    "future_work": "进一步降低多项式次数，甚至证明线性界。探索类似条件下其他有向图结构（如 Hamilton 路、因式）的存在性。"
+  },
+  {
+    "id": "2606.08429",
+    "tldr": "本文研究了 West 栈排序映射下 highly sorted 排列的 $n=2m-4$ 情形，给出了 $s^{m-4}(S_{2m-4})$ 的完整刻画和计数公式。",
+    "motivation": "Defant 在 2020 年刻画并计数了 $n\\ge 2m-3$ 情形的 $s^{n-m}(S_n)$。对于 $n=2m-2$ 结果为 Bell 数 $B_m$，但 $n=2m-3$ 出现额外排列。$n=2m-4$ 情形更复杂，Defant 提出了刻画问题。",
+    "method": "通过分析栈排序过程对排列结构的约束，分类讨论 $2m-4$ 情形下出现的多种额外排列形式，利用组合计数和递推方法。",
+    "result": "刻画了 $s^{m-4}(S_{2m-4})$，并证明其大小为 $B_m+\\frac{m^2+7m-28}{2}$（$m\\ge 5$）。回答了 Defant 关于 $2m-4$ 情形的提问。还发现了 $2m-5$ 情形与 $2m-3$ 和 $2m-4$ 情形之间的行为差异。",
+    "conclusion": "该结果完成了 highly sorted 排列的第二个非平凡情形的完整分析，揭示了随着 $n$ 减小排列结构逐渐丰富的模式。",
+    "future_work": "继续探索 $n=2m-5$ 及更小情形的刻画和计数，建立统一的生成函数框架。"
+  },
+  {
+    "id": "2606.08449",
+    "tldr": "本文证明了图的广义邻接矩阵的 Smith 标准形的 coalescence 定理：若两顶点共谱，则在其上粘合相同根图的 Smith 标准形相同。",
+    "motivation": "Fan、Xing、Zhang 和 Wang 构造了非度相似的树对，其 $tI-L_\\mu(G)$ 的 Smith 标准形相同，并猜想当附着的根路径替换为任意根树时结论仍成立。Smith 标准形在图谱理论中用于研究图的同构和相似不变量。",
+    "method": "使用实闭扩域上的正交 intertwiner 方法。证明若 $H$ 中两个顶点 $u,v$ 对 $L_\\mu(H)$ 是共谱的，则粘合相同根图 $R$ 后的矩阵保持 Smith 标准形等价。",
+    "result": "证明了更一般的 coalescence 定理：若 $u,v$ 在 $H$ 中对 $L_\\mu(H)$ 共谱，则对任意根图 $R$，$tI-L_\\mu(R(r)\\odot H(u))$ 和 $tI-L_\\mu(R(r)\\odot H(v))$ 在 $\\mathbb{Q}(\\mu)[t]$ 上有相同的 Smith 标准形。原猜想为特例。",
+    "conclusion": "该定理为构造具有相同 Smith 标准形的图对提供了系统的 coalescence 方法，深化了对图矩阵不变量在粘合操作下行为的理解。",
+    "future_work": "探索 Smith 标准形在其他图操作（如笛卡尔积、强积）下的行为，以及与其他图谱不变量（如特征值、特征向量）的联系。"
+  },
+  {
+    "id": "2606.08502",
+    "tldr": "本文给出了图具有 $H_b$-因子的充分条件：基于边数的下界和基于无符号 Laplacian 谱半径的下界，均以最小度为参数。",
+    "motivation": "$H_b$-因子是图的生成子图，要求每个顶点的度在 $\\{1,3,5,\\dots,b-1,b\\}$ 中。Lu 和 Wang 给出了基于奇分量数的充分条件，但边数和谱条件下的充分条件尚未有人研究。",
+    "method": "利用极值图论和谱图论方法。基于奇分量数的结构分析导出边数下界。利用无符号 Laplacian 谱半径与边数的关系（通过 Rayleigh 商和特征值不等式）导出谱条件。",
+    "result": "(1) 建立了 $n$ 顶点连通图在给定最小度下具有 $H_b$-因子的边数下界；(2) 建立了 $n$ 顶点 2-连通图在给定最小度下具有 $H_b$-因子的无符号 Laplacian 谱半径下界。",
+    "conclusion": "这些条件从边数和谱两个角度给出了 $H_b$-因子存在性的新充分条件，丰富了图因子理论。",
+    "future_work": "探索其他谱参数（如邻接谱半径、距离谱半径）在 $H_b$-因子及其他因子问题中的应用。研究条件是否也是必要的。"
+  },
+  {
+    "id": "2606.08506",
+    "tldr": "本文建立了 $f(n,k)$（几乎平衡的有序 biclique 覆盖的最小尺寸）对一般 $k$ 的几乎紧的界。",
+    "motivation": "$f(n,k)$ 是 biclique 覆盖问题的重要变体：每个边被覆盖 1 到 $k$ 次且要求方向平衡。$k=1$ 时为 Graham-Pollak 定理（$n-1$），$k=2$ 时已知 $c_1n^{1/2}\\le f(n,2)\\le c_2 n^{1/2+o(1)}$，但一般 $k$ 的情况未研究。",
+    "method": "利用代数方法（邻接矩阵的分解和秩论证）得到下界。利用概率方法和显式构造得到上界。",
+    "result": "对一般 $k$ 建立了 $f(n,k)$ 的几乎紧的上下界，将 $k=2$ 的已知结果推广到一般情形。",
+    "conclusion": "该结果完整地描述了 $f(n,k)$ 对一般 $k$ 的渐近行为，连接了 Graham-Pollak 理论和有序覆盖问题。",
+    "future_work": "在上下界之间消除 $n^{o(1)}$ 因子的差距，获得精确的渐近公式。"
+  },
+  {
+    "id": "2606.08523",
+    "tldr": "本文证明了 $t$-一致超图的可实现性问题在压缩表示的度数序列下是固定参数可解的（FPT），参数为 $(k,t)$，其中 $k$ 是不同度数的个数。",
+    "motivation": "$t$-超图可实现性对每个固定 $t>2$ 是 NP-complete 的。但实际中许多度数序列的度数种类有限（压缩表示），FPT 算法可以处理度数跨度大但种类少的情形。",
+    "method": "将超边按度数类别分解为类型，产生有界维度的 spectrum 表示。使用 balancing hinge-flips 证明每个可行的 spectrum 可转化为度数序列的实现。问题转化为整数规划可行性问题，变量数为 $\\binom{t+k-1}{k-1}$。应用 Lenstra 定理得到 FPT 算法。",
+    "result": "$t$-一致超图可实现性在参数 $(k,t)$ 下是 FPT 的，运行时间为 $f(k,t)\\cdot\\text{poly}(L)$，其中 $L$ 是压缩输入的编码长度。",
+    "conclusion": "该结果将可处理性从之前的有界范围制度大幅推广到度数种类有界的情形，即使度数跨度很大也能高效处理。",
+    "future_work": "改进 $f(k,t)$ 的具体形式，探索更一般的压缩表示（如度数分布的区间表示）下的可处理性。"
+  },
+  {
+    "id": "2606.08624",
+    "tldr": "本文利用 Watson 的 ${}_{8}\\phi_7$ 变换和 creative microscoping 方法，建立了两族模 cyclotomic 多项式三次和四次幂的 $q$-超同余式。",
+    "motivation": "$q$-超同余式是 $q$-级数和数论交叉领域的前沿课题，推广了经典超同余式。Guo 和 Zudilin 的 creative microscoping 方法是近年来的重要工具。Watson 变换是基本超几何级数中的核心恒等式。",
+    "method": "利用 Watson 的 ${}_{8}\\phi_7$ 变换作为核心工具，结合 Guo 和 Zudilin 的 creative microscoping 方法构造参数族，最后应用互素多项式的中国剩余定理完成证明。",
+    "result": "建立了两族 $q$-超同余式，分别模 cyclotomic 多项式的三次幂和四次幂成立。",
+    "conclusion": "这些结果丰富了 $q$-超同余式的系统理论，展示了 Watson 变换与 microscoping 方法的强大组合效果。",
+    "future_work": "探索更高次幂的 $q$-超同余式，以及将这些方法应用于其他基本超几何变换（如 Jackson 变换、Bailey 变换）。"
+  },
+  {
+    "id": "2606.08709",
+    "tldr": "本文证明了有限向量空间上相交族的大点度界：$d_{\\points{k^2}}(\\mathcal{F})\\le\\qbinom{n-2}{k-2}$，并改进了 Huang-Rao 度数定理的 $q$-模拟。",
+    "motivation": "Frankl-Wang 和 Huang-Rao 最近在集合系统中建立了相交族的点度序统计量的上界。将这些结果推广到向量空间（$q$-模拟）是自然的，但直接的 $q$-模拟会失败，需要修正。",
+    "method": "利用向量空间上的组合论证和 Ihringer-Kupavskii 的结构定理。分析了向量空间版的 Hilton-Milner 构造，发现 $\\points{k+1}$ 个点的度数可以超过 $\\qbinom{n-2}{k-2}$，从而导出修正界。对于更大的度数指标，利用饱和 Frankl-Hilton-Milner 族给出猜想性的精确界。",
+    "result": "(1) $n\\ge 2k+1$ 时 $d_{\\points{k^2}}(\\mathcal{F})\\le\\qbinom{n-2}{k-2}$；(2) 对固定 $q$、充分大 $k$ 和 $n>3k$，证明了修正界 $d_{1+\\points{k+1}}(\\mathcal{F})\\le\\qbinom{n-2}{k-2}$；(3) 对更大 $i$ 给出猜想性精确界及其反例必须满足的两个必要条件。",
+    "conclusion": "该结果建立了向量空间相交族点度理论的基本框架，揭示了集合情形和向量空间情形之间的微妙差异。",
+    "future_work": "证明或反驳对任意 $i$ 的猜想性精确界。探索向量空间上相交族的其他极值问题。"
+  },
+  {
+    "id": "2606.08724",
+    "tldr": "本文证明了 ranked cactus 偏序集是 EL-shellable 的，由此得出等距 cactus 空间原点的 link 的 proper part 具有球面楔的同伦型。",
+    "motivation": "Ranked cactus 偏序集是最近引入的组合结构，其极大链对应于二叉 ranked cactus，可用于构造等距 cactus 空间。EL-shellability 是偏序集的重要拓扑性质，蕴含 Cohen-Macaulay 性和同伦型信息。",
+    "method": "通过构造显式的 EL-labeling 证明 ranked cactus 偏序集满足 EL-shellability 条件。利用 shellability 的一般理论推出 link 的同伦型结论。",
+    "result": "Ranked cactus 偏序集 $\\mathfrak{P}(X)$ 是 EL-shellable 的。因此，等距 cactus 空间原点的 link 的 proper part 具有球面楔的同伦型。",
+    "conclusion": "该结果为 ranked cactus 偏序集建立了重要的拓扑性质，将其纳入了 shellable 偏序集的框架，为后续的拓扑和组合研究奠定了基础。",
+    "future_work": "研究 ranked cactus 偏序集的其他拓扑不变量（如同调群、Möbius 函数），以及与其他已知 shellable 偏序集（如划分格、子空间格）的联系。"
+  },
+  {
+    "id": "2606.08762",
+    "tldr": "本文研究平面 $n$ 点集在禁止 $(k+1)$-hole 条件下所能确定的最大 $k$-hole 数量 $m_{k,k+1,n}$，在 small-excess regime 给出了精确值 $2^a$。",
+    "motivation": "Erdős-Szekeres 型空凸多边形问题是离散几何的核心课题。禁止大空洞对空洞数量的影响是理解点集结构与空洞分布关系的关键。$\\ell=k+1$ 是第一个非平凡情形。",
+    "method": "利用点集几何的组合论证和极值构造。在 small-excess regime（$n=k+a$, $a\\le k/2-1$）通过递推和归纳得到精确公式。在比例 regime 和固定 $k$ 的 regime 通过构造性和分析方法给出上下界。",
+    "result": "(1) Small-excess regime：$m_{k,k+1,k+a}=2^a$（$a\\le k/2-1$），并刻画了极值配置；(2) 比例 regime 和固定 $k$/$n\\to\\infty$ regime 的上下界；(3) 固定 $k$ 时 $m_{k,k+1,n}=\\Omega_k(n^{\\lfloor k/3\\rfloor})$ 且 $O_k(n^{\\lceil k/2\\rceil+1})$。",
+    "conclusion": "该结果精确描述了小超出 regime 下 $k$-hole 的最大数量，揭示了禁止更大空洞时的小空洞数量的增长规律。",
+    "future_work": "缩小固定 $k$ regime 中上下界之间的差距，以及探索 $\\ell>k+1$ 的更一般情形。"
+  },
+  {
+    "id": "2606.08772",
+    "tldr": "本文证明了 $\\mathbb{Z}^d$ 中有限反链的 pairwise meets 数量的下界 $c_d|A|^{d/(d-1)}$，指数 $d/(d-1)$ 是最优的，并推出下降集的等周不等式和本原集的 gcd 下界。",
+    "motivation": "$\\mathbb{Z}^d$ 中反链的 meet 结构在序论和组合几何中具有基本重要性。将 meet 数量与反链大小联系起来是自然的极值问题，且与下降集的等周不等式和数论中本原集的 gcd 分布有深刻联系。",
+    "method": "利用组合/几何论证，通过投影和迭代方法建立 meet 数量的下界。利用整除偏序的 $d$ 维乘积结构进行归约。",
+    "result": "(1) $\\mathbb{Z}^d$ 中任意有限反链至少有 $c_d|A|^{d/(d-1)}$ 个不同的 pairwise meets，指数最优；(2) 推论：下降集等周不等式 $|D|\\ge c_d|\\max(D)|^{d/(d-1)}$；(3) 推论：支持在至多 $d$ 个素数上的本原整数集至少有 $c_d N^{d/(d-1)}$ 个不同 pairwise gcd。",
+    "conclusion": "该结果统一了序组合、离散几何和数论中的三个看似无关的下界问题，揭示了 $d/(d-1)$ 指数的普遍性。",
+    "future_work": "确定最优常数 $c_d$ 的值，以及探索连续版本（$\\mathbb{R}^d$ 中的类似问题）。"
+  },
+  {
+    "id": "2606.08809",
+    "tldr": "本文完整分类了有限域 $\\mathbb{F}_{p^2}$ 上一族三项置换多项式的所有参数对，得到了三个显式族。",
+    "motivation": "置换多项式在有限域理论、密码学和编码理论中有重要应用。三项式是实践中计算效率最高的选择，但对其置换性质的完整分类通常很困难。",
+    "method": "利用 AGW (Akhbari-Ghiyasvand-Wang) 准则将置换性质转化为有理函数的性质。研究与单位圆 $\\mu_{p+1}$ 上诱导的有理函数相关联的四次代数曲线的性质。",
+    "result": "完全确定了所有使 $f_{\\lambda_1,\\lambda_2}(x)=x^{p^2-p+1}+\\lambda_1x^{p^2}+\\lambda_2x^{2p-1}$ 为 $\\mathbb{F}_{p^2}$ 上置换多项式的 $(\\lambda_1,\\lambda_2)$ 对。分类包含三个显式族：二项情形 $\\lambda_1=0$ 和两个由 $\\lambda_2=c\\lambda_1^3$ 及范数条件定义的三项族。",
+    "conclusion": "该分类完整解决了一族重要三项式的置换性质刻画问题，为类似三项式的分类提供了方法论模板。",
+    "future_work": "将该方法推广到其他指数组合的三项式或四项式置换多项式的分类。"
+  },
+  {
+    "id": "2606.08834",
+    "tldr": "本文研究 Dyck 路径的 area 和 water-capacity 联合统计量，通过 upper-hull 分解得到精确的四变量高度展开式，并证明了生成函数在开正方形内的长度收敛半径。",
+    "motivation": "Dyck 路径的 area 统计量是经典对象，water capacity 是较新的统计量。两者的联合分布在统计物理（如聚合物模型）中有应用。Upper hull 分解提供了组合和分析的桥梁。",
+    "method": "利用有界高度的面积多项式和连分数工具进行计数。Upper-hull 分解产生 area-capacity 耦合替换，得到按高度水平索引的分母分支的四变量高度展开。在 $0<p,q<1$ 开正方形内证明长度收敛半径是正实分母分支的最小值。证明结合了一致正规收敛、Perron 根表示和加权路径谱半径的区间对数次模性定理。",
+    "result": "(1) 获得 area-capacity 联合生成函数的精确四变量高度展开，分母分支按高度水平索引；(2) 证明了 $G(x,1,p,q)$ 的长度半径是最小正实分母分支；(3) 在对角线 $p=q=s$ 上，经典 Chebyshev 特化给出显式的分支交叉和 Dyck 临界点处 $(1-s)^{2/3}$ 的分支包络累积律。",
+    "conclusion": "该结果建立了 area 和 capacity 联合分布的完整分析框架，揭示了生成函数分母分支的精细结构。",
+    "future_work": "探索其他路径族（如 Motzkin 路径、Schröder 路径）的类似联合统计量，以及在首通渗流模型中的应用。"
+  },
+  {
+    "id": "2606.08913",
+    "tldr": "本文完整解决了 Guiduli 的遗传密度约束下图谱半径的渐近精确上界问题，对所有 $1<p\\le 2$ 给出了尖锐的渐近界及最优常数。",
+    "motivation": "Guiduli 在 1996 年提出：若 $n$ 顶点图的所有子图满足 $e(H)\\le c|V(H)|^2$，是否必有 $\\lambda(G)\\le 2cn$？更一般地，将指数 2 替换为 $p<2$ 后如何？该问题连接了极值图论和谱图论。",
+    "method": "利用稀疏 graphon 算子估计将遗传 $p$-密度界转化为尖锐的谱界。对 $1<p<3/2$、$p=3/2$ 和 $3/2<p<2$ 三种 regime 分别处理，最优常数通过有限核上的精确变分问题刻画。临界指数 $p=3/2$ 处的相变由估计中的技术原因解释。",
+    "result": "对所有 $1<p\\le 2$ 给出了 $\\lambda(G)\\le$（最优常数）$\\times d_p(G)\\times$（$n$ 的适当函数）的渐近精确上界：(1) $1<p<3/2$：$O(d_p(G)\\sqrt{n})$；(2) $p=3/2$：$O(d_p(G)\\sqrt{n\\log n})$；(3) $3/2<p<2$：$O(d_p(G)n^{p-1})$。所有常数均为最优。端点 $p=2$ 由 Wilf 定理给出精确有限-$n$ 界。",
+    "conclusion": "完整解决了 Guiduli 的幂律问题在渐近意义下的尖锐形式（包含精确的首项常数），揭示了临界指数 $p=3/2$ 处的相变现象。",
+    "future_work": "获得非渐近（精确有限 $n$）的界，以及探索其他谱参数（如无符号 Laplacian 谱半径）在类似约束下的行为。"
+  },
+  {
+    "id": "2606.08958",
+    "tldr": "本文证明了单调 Boolean 函数的谱相关不等式 $\\mathrm{Cov}(f,g)\\ge 2\\sum_{S\\neq\\emptyset}|S|\\hat f(S)^2\\hat g(S)^2$，证实了 Friedgut-Kahn-Kalai-Keller 的 Fourier 分析猜想。",
+    "motivation": "Talagrand 相关不等式是 Harris-Kleitman 不等式的定量加强。Friedgut、Kahn、Kalai 和 Keller 提出了 Fourier 分析版本的猜想，该不等式在 Boolean 函数分析和理论计算机科学中有重要应用。",
+    "method": "结合逆向 Bonami-Beckner 不等式和 Young 卷积不等式证明主要不等式。还建立了尖锐的点态不等式：确定了对所有 $f,g:\\{0,1\\}^n\\to[0,1]$ 使 $\\langle f,T_\\rho g\\rangle\\ge c_{\\rho,n}\\|f*g\\|_2^2$ 成立的最优常数 $c_{\\rho,n}$。",
+    "result": "(1) $\\mathrm{Cov}(f,g)\\ge 2\\sum_{S\\neq\\emptyset}|S|\\hat f(S)^2\\hat g(S)^2$ 对所有单调 Boolean 函数成立；(2) 确定 $c_{\\rho,n}$：对 $0\\le\\rho\\le 1/2$ 为 $1$，对 $1/2<\\rho<1$ 为 $(2(1-\\rho))^n$，对 $\\rho=1$ 为 $0$；(3) 积分后得到稍微改进的界。",
+    "conclusion": "该结果证实了 Boolean 函数分析中的一个重要猜想，建立了单调函数协方差与谱权重之间的精确数量关系。",
+    "future_work": "探索非单调 Boolean 函数的类似不等式，以及这些不等式的算法应用（如学习理论、硬度放大）。"
+  },
+  {
+    "id": "2606.08991",
+    "tldr": "本文分类并计数了最小非平凡旋转 Hamming 距离为 2 的二元项链，给出 HT、SP、SUB 三类闭式计数公式。",
+    "motivation": "二元项链是组合计数中的经典对象，旋转 Hamming 距离在编码理论和组合设计中具有重要性。最小非平凡距离为 2 是周期性情形后的第一个正距离层。",
+    "method": "通过固定优先级约定，将距离达到 2 的非零位移集合分类为 half-turn (HT)、single-pair (SP) 和 subgroup-pattern (SUB) 三类。证明 residual multi-pair (MP) 类为空。使用 Möbius-totient 除数和公式和商-背景范式进行计数。",
+    "result": "(1) 距离-2 项链分为 HT、SP、SUB 三类，MP 类为空；(2) 给出三类的闭式计数公式和 $|D_2(n)|$ 的显式 Möbius-totient 除数和公式；(3) 对奇素数长度 $p$，每个距离-2 项链旋转等价于素数圈上的算术区间，$|D_2(p)|=(p^2-4p+7)/2$。",
+    "conclusion": "该分类完整刻画了距离-2 二元项链的组合结构，为更大距离的分类提供了方法论。",
+    "future_work": "推广到最小距离 $\\ge 3$ 的二元项链的分类和计数，以及 $q$-ary 项链的类似问题。"
+  },
+  {
+    "id": "2606.09045",
+    "tldr": "本文研究有限函数嵌入到低次多项式函数的问题：证明了所有一元函数可嵌入 1 次多项式、二元 Kronecker delta 可嵌入 4 次多项式，且存在不能嵌入任意给定次数的二元函数。",
+    "motivation": "该问题来自 $k$-邻域元胞自动机：有限函数嵌入到低次多项式可实现字母表扩大但保持转移规则。多项式表示对理解和实现元胞自动机至关重要。所有结果在 Lean 4 中形式化验证。",
+    "method": "通过构造显式的单射 $j: X\\to R$ 和多项式 $g$ 实现嵌入。一元情形给出线性多项式的显式构造。二元 Kronecker delta 需要 4 次多项式。不可嵌入性的证明通过组合/代数论证得到一般下界。",
+    "result": "(1) 每个一元函数 $f:X\\to X$ 可嵌入到总次数为 1 的多项式；(2) 每个二元 Kronecker delta 可嵌入到总次数为 4 的多项式；(3) 对任意 $d$，存在不能嵌入到任意总次数 $\\le d$ 的多项式的二元函数。所有结果在 Lean 4 + Mathlib 中验证。",
+    "conclusion": "该结果刻画了有限函数多项式表示的代数能力与限制，为元胞自动机的代数实现理论奠定了基础。",
+    "future_work": "确定二元函数的最小嵌入次数谱，以及探索更大元数函数的嵌入理论。"
+  },
+  {
+    "id": "2606.09066",
+    "tldr": "本文证明了图的二染色可通过至多 $3n$ 次局部反转相互转化，该界是紧的，且构造性证明给出了多项式时间算法。",
+    "motivation": "局部反转是图上染色变换的基本操作。Sabidussi 1987 年给出 $6n+3$ 上界，最近改进为 $4n-3$ 和 $\\lfloor(11n-3)/2\\rfloor$。精确的最优界是自然的问题。",
+    "method": "构造性组合证明：通过分析局部反转在顶点上的效应，设计将任意染色转化为目标染色的算法，利用图的结构（特别是无孤立点的条件）保证每次局部反转至少\"修正\"适当数量的顶点。",
+    "result": "任意无孤立点的 $n$ 顶点图的任意两个二染色可通过至多 $3n$ 次局部反转相互转化。该界是最优的：完全图和星图需要恰好 $3n$ 次。构造性证明给出多项式时间算法。",
+    "conclusion": "该结果建立了局部反转染色转化的精确最坏情形界，终结了该问题自上界 $6n+3$ 以来的改进路线。",
+    "future_work": "研究其他图类（如平面图、度有界图）的更优界，以及局部反转在其他染色问题（如列表染色、边染色）中的应用。"
+  },
+  {
+    "id": "2606.09158",
+    "tldr": "本文给出了 $q$-ary Hamming 球交集大小的精确公式，分析了足以确定交集大小的中心点结构性质，并对 $s=3$ 给出了最大交集的特征。",
+    "motivation": "由于 DNA 数据存储系统的最新进展，多个 Hamming 球交集大小的研究变得重要。已知仅靠中心点之间的距离一般不足以确定交集大小。",
+    "method": "利用组合计数和包含-排除原理导出 $s$ 个不同半径 Hamming 球交集的精确基数公式。基于该公式分析中心点的更精细结构性质。对 $s=3$ 的情形，给出在给定中心点最小距离下取得最大交集的充要条件。",
+    "result": "(1) $s$ 个 $q$-ary Hamming 球交集的精确大小公式；(2) 确定了比距离更精细的、足以确定交集大小的结构性质；(3) 对 $s=3$，在所有 $q\\ge 2$、$q\\neq 6$ 和充分大 $n$ 下，给出了中心点给定最小距离时取得最大交集的充要条件和计算方法。",
+    "conclusion": "该公式和结构特征为 DNA 存储系统的编码设计提供了精确的数学工具。",
+    "future_work": "推广到一般 $s>3$ 的最大交集特征，以及探索非充分大 $n$（小长度）情形的精确结果。"
+  },
+  {
+    "id": "2606.09231",
+    "tldr": "本文系统研究了受限图同态诱导的偏序结构，比较了 11 种受限同态序的核、间隙、有限对偶性和普适性等性质。",
+    "motivation": "图同态序是图论和序论的经典研究对象，具有核、间隙、普适性等丰富结构。各种受限同态（单同态、嵌入、满同态、局部单射等）的偏序性质此前缺乏系统比较。",
+    "method": "对 11 种受限同态分别分析其偏序的结构性质：典范核的存在性、past/future-finiteness、普适性、间隙和有限对偶性。将多个已有论证重组并推广到统一的受限同态序框架中。",
+    "result": "(1) 确定了满同态和满射同态的核，将满同态核与 point-determining 图联系起来；(2) 刻画了满同态序中的间隙；(3) 对多个单边有限序给出了有限障碍界；(4) 局部单射同态以所有连通图为核，在度精细化假设下允许无穷链密度，有显式间隙见证，且在有限连通二部次立方 cactus 图上已普适。",
+    "conclusion": "该系统的比较研究揭示了哪些现象是普通同态特有的，哪些是更一般的序论机制的后果。",
+    "future_work": "探索其他受限同态（如顶点传递同态、保距同态）的类似序结构，以及受限同态序在约束满足问题（CSP）中的应用。"
+  },
+  {
+    "id": "2606.09321",
+    "tldr": "本文证明了 Ballantine-Beck-Merca-Sagan 猜想 19 的部分结果：无条件证明了 (i) 和 (iii)，条件性地将 (iv) 等价于 pre_2 的单射性，并将 (ii) 的剩余部分归约为 Hickerson 猜想。",
+    "motivation": "Ballantine 等人在 arXiv:2409.11268 中提出了关于初等对称划分映射 pre_k 的像与四个 OEIS 序列关系的四个恒等式猜想（猜想 19），连接了划分理论和组合序列。",
+    "method": "利用整数划分的组合分析、生成函数方法和初等对称函数理论。对 (i) 和 (iii) 给出直接的组合证明。对 (iv) 证明其等价于 pre_2 的单射性（同一论文的猜想 1）。对 (ii) 将组合部分无条件证明，剩余部分归约为 Hickerson 2006 年关于 Huffman 编码的 OEIS 猜想。",
+    "result": "(1) 无条件证明了猜想 19 的 (i) 和 (iii)（并纠正了 (iii) 语句中的一个符号错误：应为 $\\chi(\\mathrm{Im}P_3(n))=A213213(n)-1$）；(2) 在 pre_2 单射的假设下证明了 (iv)，且该假设与 (iv) 等价；(3) 将 (ii) 的剩余内容归约为 Dean Hickerson 的 OEIS 猜想。",
+    "conclusion": "大大推进了初等对称划分与 OEIS 序列关系的理解，揭示了这些组合恒等式与划分映射单射性和 Huffman 编码之间的深层联系。",
+    "future_work": "证明 pre_2 的单射性（等价于证明 (iv)），以及解决 Hickerson 的 Huffman 编码猜想。"
+  },
+  {
+    "id": "2606.09415",
+    "tldr": "本文以强形式解决了 Gyárfás 1980 年代的旧问题：证明了存在团数为 $k$、色数为 $k^d$ 的图，且该图是 $d$ 个 comparability graph 的并。",
+    "motivation": "Gyárfás 在 1980 年代提出了两个完美图之并的色数问题。完美图的并何时有大的色数与团数之比是图论中的基本问题，与 $\\chi$-boundedness 理论密切相关。",
+    "method": "通过显式构造 comparability graphs 的并来达到所需的色数与团数之比。每个 comparability graph 贡献一个因子，$d$ 个并实现 $k^d$ 的色数。",
+    "result": "对任意正整数 $d$ 和 $k$，存在团数为 $k$、色数为 $k^d$ 的图 $G$，且 $G$ 是 $d$ 个 comparability graph 的并。",
+    "conclusion": "该结果在最强可能的形式下解决了 Gyárfás 问题，表明 comparability graphs 的并可以具有任意大的色数与团数之比。",
+    "future_work": "研究其他完美图子类（如弦图、二部图）的并的色数行为，以及探索更精细的界限。"
+  },
+  {
+    "id": "2606.09437",
+    "tldr": "本文解决了平面图中两个 4 顶点图（$K_{1,3}^+$ 和 $K_4^-$）的最大拷贝数问题，给出了 $f(n,K_{1,3}^+)$ 和 $f(n,K_4^-)$ 的精确公式。",
+    "motivation": "平面图中确定子图的最大拷贝数是极值图论的经典问题。对连通 4 顶点图，除 $K_{1,3}^+$ 和 $K_4^-$ 外的所有情形已被确定。这两个剩余情形是完成该分类的最后拼图。",
+    "method": "利用平面图的结构性质（欧拉公式、边数上界）和极值构造。通过分析 $K_{1,3}^+$ 和 $K_4^-$ 在平面图中的约束条件，建立递推和不等式，得到精确的极值函数。",
+    "result": "$f(n,K_{1,3}^+)=4n^2-12n-4$ 且 $f(n,K_4^-)=\\frac{1}{2}(n^2+9n-40)$，对所有 $n\\ge 4$ 成立。",
+    "conclusion": "该结果完成了平面图中所有连通 4 顶点图的最大拷贝数问题的完整分类。",
+    "future_work": "探索平面图中 5 顶点子图的类似问题，以及在其他图类（如可平面化图、外平面图）中的推广。"
+  },
+  {
+    "id": "2606.09518",
+    "tldr": "本文构造了 Mubayi 超饱和猜想中 Ma-Yuan 问题的强反例：证明存在图 $F$（含圈）使得 $h_F(n,1)<c(n,F)$，否定了单边等式的猜想。",
+    "motivation": "Mubayi 超饱和猜想预测 $h_F(n,q)\\ge q\\,c(n,F)$（在稳定性假设下）。Ma 和 Yuan 构造了 $q\\ge 4$ 的反例，但询问是否单边等式 $h_F(n,1)=c(n,F)$ 对含圈图总成立。",
+    "method": "构造了一族图 $H_t$：将 $t$ 顶点路径的每条边替换为 $3t$-page book，不同路径边的 page 顶点不变。通过分析加一条边后产生的 $H_t$ 拷贝数，证明存在比极值图加边更优的添加方式。",
+    "result": "对每个 $t\\ge 6$，存在无穷多 $n$ 使得 $h_{H_t}(n,1)<c(n,H_t)$。而且取 $t$ 充分大时，比值 $h_{H_t}(n,1)/c(n,H_t)$ 可任意小。",
+    "conclusion": "否定了 Ma-Yuan 关于单边等式对含圈图总成立的猜想，表明即使 $q=1$ 时 Mubayi 型下界也可能失败。",
+    "future_work": "确定哪些图类满足 $h_F(n,1)=c(n,F)$，以及建立 $h_F(n,1)$ 的一般下界理论。"
+  },
+  {
+    "id": "2606.09733",
+    "tldr": "本文研究了固定匹配数的 $K_r$-饱和图的最小边数，对充分大 $n$ 给出了精确下界并刻画了等式成立的极值图。",
+    "motivation": "Erdős-Hajnal-Moon 和 Zykov 的经典结果给出了 $K_r$-饱和图的最小边数。在此基础上增加匹配数约束是自然的精细化，连接了饱和图理论与匹配理论。",
+    "method": "利用饱和图的结构限制和匹配数条件进行组合极值分析。通过分析图的结构（特别是与最大匹配相关的组件）推导边数下界，并构造达到下界的图族。",
+    "result": "对充分大 $n$，$n$ 顶点 $K_r$-饱和图 $G$（匹配数 $\\nu(G)=s$）的边数下界为：$s=r-1$ 时 $e(G)\\ge (r-1)n-\\frac{r}{2}(r-1)-1$；$s>r-1$ 时 $e(G)\\ge (r-1)n+(s-r)^2-\\frac{1}{2}(r+2)(r-3)-5$。完全刻画了达到等式成立的图。",
+    "conclusion": "该结果完整描述了固定匹配数下 $K_r$-饱和图的极值结构，揭示了匹配数约束对最小边数的精确影响。",
+    "future_work": "研究其他图 $H$（非团）的 $H$-饱和图在固定匹配数下的类似问题。"
+  },
+  {
+    "id": "2606.09736",
+    "tldr": "本文在随机几何图中证明 Tuza 猜想在很大密度范围内成立，并研究了随机几何图中固定图 $F$ 的几乎完美 packing 问题。",
+    "motivation": "Tuza 猜想（任意图 $G$ 中存在至多 $2\\nu(G)$ 条边覆盖所有三角形）是极值图论中最重要的开放问题之一。在随机模型中验证该猜想是重要的进展方向。",
+    "method": "利用随机几何图的概率和几何结构。通过分析随机几何图中三角形的分布和交叠模式，构造显式的三角形边覆盖。对于几乎完美 packing，利用随机几何图的高规律性和图 $F$ 的嵌入性质。",
+    "result": "(1) Tuza 猜想在随机几何图中对很大范围的密度成立；(2) 对无穷族 $F$ 证明了几乎完美 $F$-packing 的存在性；(3) 给出了一些否定结果。",
+    "conclusion": "该结果在随机几何图模型中提供了 Tuza 猜想的重要证据，并推进了随机几何图的 packing 理论。",
+    "future_work": "缩小密度 gap 以覆盖所有密度区间的 Tuza 猜想。确定哪些 $F$ 允许或不允许几乎完美 packing。"
+  },
+  {
+    "id": "2606.09742",
+    "tldr": "本文证明了连通点传递图中存在长度至少为 $n^{2/3-o(1)}$ 的圈，将之前 $\\Omega(n^{9/14})$ 的界提升到了自然障碍处。",
+    "motivation": "Lovász 的 Hamilton 性猜想（1969）和 Thomassen 加强版是图论中最著名的猜想之一。40 多年来最好的一般下界为 Babai 的 $\\Omega(\\sqrt{n})$，近期才有系列工作逐步提升指数。",
+    "method": "结合 sublinear expander 中的路径嵌入技术、几乎正则图的 sublinear expander 分解以及多个额外组合想法。这些方法触及了现有技术的自然障碍。",
+    "result": "每个 $n$ 阶连通点传递图包含长度至少为 $n^{2/3-o(1)}$ 的圈，将之前 Norin 等人的 $\\Omega(n^{9/14})$ 界显著改进。该界触及了几个已有方法的自然障碍。",
+    "conclusion": "该结果代表了 Lovász 猜想 50 多年来的重要进展，将圈长下界从 $n^{0.643}$ 提升到 $n^{0.667}$，逼近新的方法论障碍。",
+    "future_work": "突破 $n^{2/3}$ 障碍需要全新的方法。证明 $\\Omega(n^{1-o(1)})$ 或最终解决 Lovász 猜想仍是重大开放问题。"
+  },
+  {
+    "id": "2606.09785",
+    "tldr": "本文证明具有 Welzl 序的图允许紧凑的 biclique 分解，由此恢复并推广了 Zarankiewicz 问题、矩阵乘法、量子电路复杂度和最短路径算法中的多个已知结果。",
+    "motivation": "Biclique 分解的大小是衡量图结构复杂度的重要指标。具有低邻域复杂度的图出现在几何、计算和组合等许多领域中，理解其 biclique 分解具有广泛的应用价值。",
+    "method": "利用 Welzl 1988 年证明的低邻域复杂度图的顶点序存在性。将每个顶点的邻域表示为 sublinear 个区间的并，从而每个顶点的邻域可用紧凑的 biclique 分解表示。将多个领域的已知结果统一到此框架中。",
+    "result": "具有 Welzl 序的图（邻域为 sublinear 个区间的并）允许小规模的 biclique 分解（大小以 biclique 顶点数之和衡量）。由此恢复到对数因子的精度：(1) Zarankiewicz 问题上界；(2) 矩阵乘法；(3) 量子电路复杂度；(4) 良好结构图中的最短路径算法。",
+    "conclusion": "Welzl 序与 biclique 分解的联系为多个看似不相关的领域提供了统一的组合视角。",
+    "future_work": "消除对数因子获得精确界，以及探索 Welzl 序在更广泛的图类中的存在性。"
+  },
+  {
+    "id": "2606.09795",
+    "tldr": "本文提出层比 Monte Carlo 方法估计 Dedekind 数，给出 $\\widehat M(10)=(8.9360\\pm0.0010)\\times 10^{78}$ 的估计，并发现 Whitney 数的非单峰特征。",
+    "motivation": "Dedekind 问题（计数单调 Boolean 函数）是组合数学中著名的困难问题。$M(n)$ 的精确值仅知至 $n=9$。新估计方法对于理解和逼近 $M(10)$ 及更大的 $n$ 至关重要。",
+    "method": "将计数转化为理想格 Whitney 数的层比重构问题。相邻层双重计数将每层比表达为局部可加/可移元素数的平均。设计可逆固定层 Markov 链 Monte Carlo 来估计这些平均值。从 $M(8)$ 和 $M(9)$ 回测校准。",
+    "result": "(1) $\\widehat M(10)=(8.9360\\pm0.0010)\\times 10^{78}$；(2) 发现 $n=9$ 的 Whitney 数序列在中心秩附近有浅的双肩特征，与单峰经验描述相反；(3) $n=11$ 和 $n=13$ 的中心窗口估计显示更大对比度的类似模式。",
+    "conclusion": "该方法为 Dedekind 数估计提供了新的数值工具，并揭示了 Whitney 数序列之前未被注意的结构特征。",
+    "future_work": "提高估计精度以尝试确定 $M(10)$ 的整数部分。理解 Whitney 数序列的双肩/非单峰现象的组合根源。"
+  },
+  {
+    "id": "2606.09801",
+    "tldr": "本文证明了广义 Turán 数的重要结果：若 $s\\in\\{2,3\\}$、$s<a\\le b$ 且 $t$ 充分大，则 $\\mathrm{ex}(n,K_{a,b},K_{s,t})=\\Theta(n^s)$，并回答了 Spiro 的两个问题。",
+    "motivation": "广义 Turán 数 $\\mathrm{ex}(n,F,H)$ 研究禁止 $H$ 条件下 $F$ 的最大拷贝数，是经典 Turán 理论的自然推广。Spiro 提出了关于 $K_{a,b}$ 在 $K_{s,t}$-free 图中的广义 Turán 数的具体问题。",
+    "method": "利用极值组合方法和构造性论证。通过平衡二部图构造达到 $\\Omega(n^s)$ 的下界，并通过禁止 $K_{s,t}$ 的结构限制证明 $O(n^s)$ 的上界。对第二个猜想，通过考虑不同稀疏度的图 $H$ 来构造各种增长阶。",
+    "result": "(1) 若 $s\\in\\{2,3\\}$、$s<a\\le b$ 且 $t$ 充分大，则 $\\mathrm{ex}(n,K_{a,b},K_{s,t})=\\Theta(n^s)$；(2) 回答了 Spiro 的 $s=2,a=b=3$ 问题；(3) 证明了 Spiro 的另一猜想：对任意至少有一条边的图 $F$，存在无穷多个实数 $r$ 和对应的图 $H$ 使得 $\\mathrm{ex}(n,F,H)=\\Theta(n^r)$。",
+    "conclusion": "该结果系统推进了广义 Turán 数的理解，揭示了禁止二部图中完全二部图拷贝数的渐进行为。",
+    "future_work": "处理 $s\\ge 4$ 的情形，以及确定 $\\Theta(n^s)$ 中的精确常数。"
+  },
+  {
+    "id": "2606.07735",
+    "tldr": "本文研究了理想 Prouhet-Tarry-Escott 问题中对称解的数量，证明了高度至多 $H$ 的非平凡对称整数解数 $N_{\\mathrm{sym}}(H)=\\frac{4\\log 2}{3\\pi^2}H^3\\log H+O(H^3)$。",
+    "motivation": "Prouhet-Tarry-Escott 问题是多精度恒等式的经典问题。对称解在物理学（手征规范理论中的 anomaly cancellation）中有自然出现，理解其分布有数学和物理双重动机。",
+    "method": "将对称条件约化为两个平方和方程 $x^2+y^2=u^2+v^2$。利用平方和表示函数的二阶矩得到对数增强因子。通过分析和数论工具（Dirichlet 级数、Tauber 型定理）导出渐近公式。",
+    "result": "$N_{\\mathrm{sym}}(H)=\\frac{4\\log 2}{3\\pi^2}H^3\\log H+O(H^3)$。对数增强来自平方和表示函数的二阶矩。对称解的数量比 naive 的 $H^3$ 尺度预期更大。",
+    "conclusion": "该渐近公式揭示对称 PTE 解空间的丰富算术结构，将数论（平方和表示）与物理（anomaly-free 荷谱）联系起来。",
+    "future_work": "研究更高次数理想 PTE 问题的对称解分布。探索与模形式和 L-函数的联系。"
+  },
+  {
+    "id": "2606.07785",
+    "tldr": "本文建立了 Dickman 函数 $\\rho(u)$ 的数值显式上下界，对所有 $u\\ge 5$ 相对误差小于 $0.005/u^2$，使得无需数值求解延迟微分方程即可近似计算。",
+    "motivation": "Dickman 函数在解析数论（光滑数分布）和算法分析中有重要应用。传统上计算 $\\rho(u)$ 需要数值求解延迟微分方程，显式界提供了更高效的近似评估。",
+    "method": "利用 Dickman 函数的积分-微分方程表示和延迟微分方程性质。通过精细的实分析和不等式方法建立上界和下界，得到带有精确误差项的控制结果。",
+    "result": "建立了 $\\rho(u)$ 的数值显式上下界，对所有 $u\\ge 5$ 相对误差小于 $0.005/u^2$。该精度远优于以往结果，且只需要初等函数计算。",
+    "conclusion": "该结果使 Dickman 函数的计算变得非常实用和高效，为需要频繁调用 $\\rho(u)$ 的数值算法（如光滑数计数、因子分解算法分析）提供了工具。",
+    "future_work": "争取更小的误差项（如指数级衰减的误差），以及将方法推广到相关函数（如 Buchstab 函数）。"
+  },
+  {
+    "id": "2606.07885",
+    "tldr": "本文利用 Rankin-Cohen 括号和全纯投影算子，建立了 Andrews 最小部分函数（spt 函数）的多项式加权递推公式。",
+    "motivation": "Andrews 的 spt 函数是划分理论中的重要对象，是权 3/2 的 harmonic Maass 形式。建立其递推关系有助于计算和理解 spt 函数的结构。Rankin-Cohen 括号提供了构造更高权模形式的新途径。",
+    "method": "将 spt 函数的生成级数与 Dedekind eta 函数配对，利用 Rankin-Cohen 括号得到权大于 2 的模形式。引入非平凡的 quasimodular 分量。应用全纯投影算子和低权尖点形式空间的消失性得到递推关系。",
+    "result": "建立了 spt 函数的新多项式加权递推公式，与以往工作不同之处在于使用了 Rankin-Cohen 括号引入的 quasimodular 分量。",
+    "conclusion": "该方法为 spt 函数和其他 harmonic Maass 形式的递推提供了新的系统化途径。",
+    "future_work": "将 Rankin-Cohen 方法应用于其他划分统计量（如 rank、crank 的矩函数），以及探索更高阶递推。"
+  },
+  {
+    "id": "2606.07956",
+    "tldr": "本文研究了纯数域 $K_a=\\mathbb{Q}(\\theta)$（$\\theta^n=a$）的 Minkowski shape，证明了奇偶刚性二分法和显式判别式公式。",
+    "motivation": "Minkowski shape 是数域的算术不变量，编码了单位格和整基的几何信息。纯数域是最简单的非 Galois 数域族，其 shape 的完整描述在此之前不为人知。",
+    "method": "在整除 $n$ 的素数处满足显式局部假设的条件下，证明了 shape 的离散-阿基米德分解。将 shape 分解为由正规单项式产生的对角矩阵部分和由正规整基产生的整数矩阵部分。利用 Galois 理论和格嵌入方法分析奇偶差异。",
+    "result": "(1) 奇偶刚性二分法：对奇数 $n\\ge 3$，Minkowski shape 是可容许纯 $n$ 次数域的完全不变量；对 $n=2r$，shape 确定核心域 $\\mathbb{Q}(|a|^{1/r})$；(2) 显式的判别式绝对值公式，包含指数向量和除子格分解；(3) 纯域 shape 轨迹支持在 shape 空间的有理对角叶上。",
+    "conclusion": "该结果建立了纯数域 shape 的完整算术理论，揭示了奇偶次数之间的本质差异。",
+    "future_work": "研究非纯数域的 shape 理论，以及 shape 在数域的渐近分布和随机矩阵理论中的应用。"
+  },
+  {
+    "id": "2606.07959",
+    "tldr": "本文证明了序列 $g_n=\\gcd(a^n-1,b^n-1)$ 满足常系数线性递推当且仅当 $a$ 和 $b$ 乘法相关，并建立了局部结构和 Ailon-Rudnick 猜想的结构性归约。",
+    "motivation": "序列 $\\gcd(a^n-1,b^n-1)$ 是数论中经典的研究对象，与整除序列理论和 Ailon-Rudnick 猜想（关于 $\\gcd(a^n-1,b^n-1)$ 何时 $>1$ 的问题）密切相关。",
+    "method": "利用整除序列的代数理论和 $p$-adic 赋值分析。通过局部-整体原理和算术级数方法分析 $g_n$ 的支持集。使用 resultant 和素理想分解建立与 Ailon-Rudnick 猜想的联系。",
+    "result": "(1) $(g_n)$ 满足常系数线性递推当且仅当 $a,b$ 乘法相关；(2) 若 $a,b$ 乘法无关，则所有满足 $W_n\\mid a^n-1$ 且 $W_n\\mid b^n-1$ 的整线性整除序列 $(W_n)$ 是周期的；(3) 给出了 $g_n$ 的精确支持和奇素数赋值公式；(4) 建立了 Ailon-Rudnick 整数猜想的多个结构性归约（本原支持、素数幂射线、素数指标、resultant 公式）。",
+    "conclusion": "该结果深刻揭示了 $\\gcd(a^n-1,b^n-1)$ 的结构与乘法相关性之间的关系，为解决 Ailon-Rudnick 猜想提供了系统化的归约路径。",
+    "future_work": "利用这些结构性归约最终解决 Ailon-Rudnick 整数猜想。"
+  },
+  {
+    "id": "2606.08024",
+    "tldr": "本文证明了：对奇数 $n$，Fibonacci 多项式 $F_n(x)$ 的所有不可约因子都是 monogenic 的；对偶数 $n$，Lucas 多项式 $L_n(x)$ 的所有不可约因子都是 monogenic 的。",
+    "motivation": "Monogenity（整基的存在性）是代数数论中的基本概念。Fibonacci 和 Lucas 多项式是经典的正交多项式族，其不可约因子生成的数域的 monogenity 是自然的问题。",
+    "method": "利用 Fibonacci 和 Lucas 多项式的代数性质（递推关系、根的结构、判别式公式）。通过分析多项式的 Newton 多边形和 Dedekind 判别式定理来证明 monogenity。",
+    "result": "(1) 对每个奇正整数 $n$，$F_n(x)$ 的所有不可约因子都是 monogenic 的；(2) 对每个偶正整数 $n$，$L_n(x)$ 的所有不可约因子都是 monogenic 的。",
+    "conclusion": "该结果系统建立了 Fibonacci 和 Lucas 多项式族的 monogenity 性质，为这些经典多项式生成的数域提供了整基存在的保证。",
+    "future_work": "研究 $F_n(x)$ 对偶数 $n$ 和 $L_n(x)$ 对奇数 $n$ 的 monogenity。探索其他正交多项式族的类似性质。"
+  },
+  {
+    "id": "2606.08040",
+    "tldr": "本文给出了 Boshernitzan 定理的新证明，并将其推广到 Hardy 场函数在加权平均下的均匀分布，作为应用证明了 $x^{3/2}$ 的短区间均匀分布。",
+    "motivation": "Boshernitzan 定理是 Hardy 场函数均匀分布的经典结果。推广到加权平均能够处理更广泛的求和方式（如对数平均、Cesàro 平均），且短区间均匀分布在遍历论和数论中有应用。",
+    "method": "使用可和性理论方法给出 Boshernitzan 定理的新证明。将经典准则推广到广泛的加权平均类。作为应用，证明了对 $f(x)=x^{3/2}$ 和任意区间 $(a,b)\\subset[0,1]$，在 $[N-N^{1/4},N]$ 中存在 $n$ 使 $f(n)\\bmod 1\\in(a,b)$。",
+    "result": "(1) Boshernitzan 准则的加权平均版本：$f$ 关于某类加权平均均匀分布模 1 的充要条件；(2) 对 $f(x)=x^{3/2}$ 证明了短区间 $[N-N^{1/4},N]$ 中的均匀分布性质。",
+    "conclusion": "加权平均框架统一了多种求和方式下的均匀分布准则，短区间应用展示了方法的有效性。",
+    "future_work": "推广到更广泛的 Hardy 场函数和更短的区间。探索与其他均匀分布概念（如 well-distribution、完全均匀分布）的联系。"
+  },
+  {
+    "id": "2606.08075",
+    "tldr": "本文证明了若 $S$ 是满足条件 $\\mathcal{G}$ 的 gcd-closed 集且 $a\\mid b$，则 $a$ 次幂 LCM 矩阵整除 $b$ 次幂 LCM 矩阵，确认了 Hong 的猜想。",
+    "motivation": "幂 GCD 矩阵和幂 LCM 矩阵之间的整除关系是矩阵论和数论的交叉问题。Bourque-Ligh（FC 集）、Hong（除子链）已建立部分结果，但 gcd-closed 集的一般条件是开放问题。",
+    "method": "通过分析 GCD 和 LCM 矩阵的结构（以除子格上的算术函数表示），定义覆盖条件 $\\mathcal{G}$（对每个 $x\\in S$，$G_S(x)$ 的元素个数条件），并在此基础上建立整除关系。",
+    "result": "若 $S$ 是满足条件 $\\mathcal{G}$ 的 gcd-closed 集且 $a\\mid b$，则 $[S^b]$ 被 $[S^a]$ 整除（在 $M_n(\\mathbb{Z})$ 中）。这确认了 Hong 2026 年在 Bull. Aust. Math. Soc. 中提出的猜想。",
+    "conclusion": "该结果完整地刻画了 gcd-closed 集上 LCM 幂矩阵整除关系的充分条件，统一了之前分散的结果。",
+    "future_work": "探索条件 $\\mathcal{G}$ 是否也是必要的，以及研究更一般的矩阵类（如 meet 矩阵、join 矩阵）的整除关系。"
+  },
+  {
+    "id": "2606.08085",
+    "tldr": "本文证明了 $P$-adic Carlitz zeta 值、Pellarin $L$-级数和几乎所有的 Dirichlet-Goss $L$-级数在正偶数点的消失阶总是 1。",
+    "motivation": "$P$-adic $L$-函数是函数域算术的核心对象，与 Anderson $t$-模的类数公式密切相关。在正偶数点的消失阶是理解特殊值算术意义的关键。",
+    "method": "利用 Anglès、Ngo Dac 和 Tavares-Ribeiro 2020 年证明的 Anderson $t$-模简化类公式的 $P$-adic 版本。通过将该公式应用于 Carlitz zeta 值、Pellarin $L$-级数和 Dirichlet-Goss $L$-级数的适当扭曲来得到结果。",
+    "result": "$P$-adic Carlitz zeta 值在正偶数点的自然扭曲的消失阶总是 1。对 $P$-adic Pellarin $L$-级数和几乎所有 $P$-adic Dirichlet-Goss $L$-级数同样成立。",
+    "conclusion": "该结果揭示了函数域 $P$-adic $L$-函数的特殊值在偶数点的普遍零行为，与数域情况形成对比。",
+    "future_work": "研究奇数点的消失阶，以及这些 $L$-函数的特殊值与 $t$-模的算术不变量（如类数、regulator）之间的联系。"
+  },
+  {
+    "id": "2606.08089",
+    "tldr": "本文证明了每个充分大的整数（除模 16 同余于 15 或 16 者）可表示为 14 个 D.H. Lehmer 数的四次幂之和，且每个充分大的整数可表示为 16 个四次幂之和。",
+    "motivation": "Waring 问题研究将整数表示为固定数量 $k$ 次幂之和。D.H. Lehmer 数是满足 $2\\nmid a+\\overline{a}$ 的模 $p$ 互素剩余，限制到 Lehmer 数的 Waring 问题是经典 Waring 问题的精细化。",
+    "method": "利用圆法和加性数论的标准技术（指数和估计、奇异级数、主项和误差项分析），附加 Lehmer 数条件的同余限制通过特征和来处理。",
+    "result": "每个充分大的整数（除非同余于 15 或 16 模 16）可表示为 14 个 D.H. Lehmer 数的四次幂之和。每个充分大的整数可表示为 16 个 D.H. Lehmer 数的四次幂之和。",
+    "conclusion": "该结果将经典 Waring 问题推广到了 Lehmer 数约束的情形，得到了接近最优的幂数量。",
+    "future_work": "降低所需四次幂的数量（争取达到经典 Waring 问题的 $g(4)=19$ 对应的量级），以及探索更高次幂和更多变元的情形。"
+  },
+  {
+    "id": "2606.08125",
+    "tldr": "本文证明了与 $A_2$ 根系相关的第二类广义 Chebyshev 多项式不是算术例外的（arithmetically exceptional）。",
+    "motivation": "算术例外多项式是有限域上置换多项式的特殊情况，在密码学和编码理论中有应用。判定特定多项式族是否为算术例外是有限域理论中的重要问题。",
+    "method": "通过研究某些分圆元素的范数来实现有限域的参数化。利用根系 $A_2$ 的组合结构和分圆多项式的算术性质进行分析。",
+    "result": "与 $A_2$ 根系相关的第二类广义 Chebyshev 多项式不是算术例外的。",
+    "conclusion": "该否定结果澄清了 $A_2$ 型 Chebyshev 多项式在有限域上的性质，排除了其作为算术例外多项式的可能性。",
+    "future_work": "研究其他根系类型的广义 Chebyshev 多项式是否可能是算术例外的。"
+  },
+  {
+    "id": "2606.08216",
+    "tldr": "本文解决了 Erdős 问题 684 的密度 1 版本：证明了对几乎所有的 $n$，使 $u(n,k)>n^c$ 的最小 $k$ 满足 $f_c(n)\\sim\\frac{c}{1-\\gamma}\\log n$，特别是 $f_2(n)\\sim 4.73\\log n$。",
+    "motivation": "Erdős 问题 #684 询问二项式系数的小素数部分 $u(n,k)$ 何时超过 $n^2$。原问题是最坏情形问题，密度 1 版本（几乎所有的 $n$）提供了该问题的宏观视角。",
+    "method": "利用 Kummer 定理将 $\\log u(n,k)$ 重写为进位指标之和。通过完全剩余类平均得到 $m(k)=k\\sum_{p\\le k}\\frac{\\log p}{p-1}-\\log k!=(1-\\gamma)k+o(k)$。证明了在除掉零密度例外集后，$k\\le A\\log X$ 范围内的一致集中。还证明了对数范围内的 Gauss 涨落。",
+    "result": "(1) $f_c(n)=(\\frac{c}{1-\\gamma}+o(1))\\log n$ 对几乎所有 $n$ 成立；(2) 特别地 $f_2(n)=(4.7305\\dots+o(1))\\log n$；(3) 在对数范围内证明了 Gauss 涨落：$\\frac{\\log u(n,k)-m(k)}{\\sqrt{V(k)}}\\Rightarrow\\mathcal{N}(0,1)$，其中 $V(k)\\sim(2-\\log(2\\pi))k\\log k$。",
+    "conclusion": "该结果给出了 Erdős 问题 684 的 normal-order 定理，揭示了二项式系数小素数部分的典型渐进行为，常数 $1-\\gamma$ 反映了素数分布的算术本质。",
+    "future_work": "处理 Erdős 问题 684 的最坏情形版本。将方法推广到多项式系数和其他组合数。"
+  },
+  {
+    "id": "2606.08353",
+    "tldr": "本文研究了全纯尖形式和 Maass 形式在深度方向上的 murmuration 密度，对导子 $\\ell^n$ 的尖形式（$n\\to\\infty$ 或 $\\ell\\to\\infty$）导出了统一的密度公式。",
+    "motivation": "Murmuration 现象是尖形式 Fourier 系数的算术平均值与导子之间的统计关联。深度方向（固定素数 $\\ell$，导子指数 $a\\to\\infty$）的研究补充了之前水平方向的成果。",
+    "method": "对 $\\mathrm{GL}_2$ 和在 $\\{\\infty,\\ell\\}$ 处分歧的定四元数代数，利用迹公式和 Petersson 内积的渐近分析。将全纯形式和 Maass 形式统一处理。",
+    "result": "(1) 确定了全纯尖形式（固定权）在导子 $\\ell^{2a}$ 深度方向（$a\\to\\infty$）的 murmuration 密度，与奇数导子指数情形一致；(2) 因此导子 $\\ell^n$（$n\\to\\infty$）有统一的密度公式；(3) 将结果推广到 Maass 形式；(4) 计算了 $\\ell\\to\\infty$（固定 $n\\ge 3$）的 murmuration 密度。",
+    "conclusion": "该结果统一了深度和水平两个方向上的 murmuration 密度，揭示了其普适性。",
+    "future_work": "研究更一般的导子形式（非素数幂）的 murmuration 现象，以及与其他统计现象（如 Sato-Tate、算术量子混沌）的联系。"
+  },
+  {
+    "id": "2606.08640",
+    "tldr": "本文给出了 $\\mathbb{F}_2$ 上特殊完美多项式的一些必要条件。",
+    "motivation": "$\\mathbb{F}_2$ 上的完美多项式是经典完美数的多项式模拟。特殊完美多项式构成重要子类，其结构的完整刻画是开放问题。",
+    "method": "利用 $\\mathbb{F}_2[x]$ 中多项式的因式分解和 Euler 函数的多项式模拟。通过分析特殊完美多项式的度数约束和 Euler 因子的结构来导出必要条件。",
+    "result": "给出了 $\\mathbb{F}_2$ 上特殊完美多项式必须满足的若干结构性必要条件。",
+    "conclusion": "这些必要条件缩小了 $\\mathbb{F}_2$ 上特殊完美多项式的搜索空间。",
+    "future_work": "将必要条件组合以得到分类结果，或构造新的特殊完美多项式族。"
+  },
+  {
+    "id": "2606.08662",
+    "tldr": "本文证明了数论变换（NTT）满足强稀疏权衡不确定性原理：$|\\mathrm{Supp}(f)|+|\\mathrm{Supp}(\\hat f)|\\ge q+1$，并应用于稀疏指数多项式的恒等测试。",
+    "motivation": "受 Li 和 Wu（ITCS'26）的多项式恒等测试工作的启发，NTT 的不确定性原理对密码学（如 FHE 中的编码）和算法（稀疏多项式的黑盒恒等测试）有重要应用。",
+    "method": "利用有限域上群代数的代数结构（$\\mathbb{F}_p^{\\mathbb{Z}_q}$ 与 $\\mathbb{F}_p[x]/(x^q-1)$ 的同构）。通过素数的 Chebotarev 密度定理证明概率意义上的不确定性原理。应用层面使用 Reed-Solomon 解码的类似方法构造黑盒恒等测试。",
+    "result": "(1) 对固定素数 $q$ 和几乎所有满足 $p\\equiv 1\\pmod q$ 的素数 $p$，证明了 $|\\mathrm{Supp}(f)|+|\\mathrm{Supp}(\\hat f)|\\ge q+1$；(2) 作为应用，获得了 $k$-稀疏指数多项式的黑盒恒等测试，当 $q$ 适度大于 $k$ 时具有消失的可靠性误差。",
+    "conclusion": "该不确定性原理是 NTT 的基本性质，为稀疏指数多项式的算法测试提供了理论基础。",
+    "future_work": "消除对 $q$ 必须为素数的限制，以及探索其他有限交换群上变换的不确定性原理。"
+  },
+  {
+    "id": "2606.08665",
+    "tldr": "本文给出了 Raposo 的 Pohst 不等式带符号精细化版本的简短分析证明。",
+    "motivation": "Pohst 不等式是数域判别式下界的经典结果。Raposo 的带符号精细化提供了更精细的信息，简短的证明有助于理解和推广。",
+    "method": "利用凸分析/解析方法给出 Raposo 的 Pohst 不等式带符号版本的简短证明。",
+    "result": "给出了 Pohst 不等式带符号精细化版本的一个简短分析证明。",
+    "conclusion": "该简短证明可能揭示 Pohst 不等式背后的凸性本质。",
+    "future_work": "将该不等式推广到更一般的格或数域设置。"
+  },
+  {
+    "id": "2606.08733",
+    "tldr": "本文从 genus-2 视角研究了秩 48、72、96、120 的极值偶单模格的 2 次 Siegel theta 级数，证明了在秩 48-96 下该级数由极值性唯一确定。",
+    "motivation": "极值偶单模格及其 theta 级数是格理论和模形式的核心对象。Siegel theta 级数（度 2）携带比通常 theta 级数更多的格信息，由极值性唯一确定是自然问题。",
+    "method": "利用 Igusa 结构定理在 genus-2 尖点形式上定义深度滤过（由 $\\chi_{10}$ 和 $\\chi_{12}$ 中的总次数衡量）。将极值性强制产生的低 Fourier-Jacobi 系数的消失与深度联系起来。",
+    "result": "在秩 48、72、96（条件于存在性），度 2 theta 级数由极值性唯一确定。在秩 120，任何两个这种级数相差 $\\chi_{10}^6$ 的整数倍。",
+    "conclusion": "该结果建立了极值偶单模格的高次 theta 级数的刚性定理，揭示了极值条件对 Siegel 模形式的强大约束。",
+    "future_work": "解决秩 96 和 120 的极值偶单模格的存在性问题。将方法推广到更高度的 Siegel theta 级数。"
+  },
+  {
+    "id": "2606.08734",
+    "tldr": "本文证明了秩 72 的极值 Type II 格由其范数 10 的向量生成，利用范数 10 壳层的球面 11-设计性质。",
+    "motivation": "极值 Type II 格是格理论中的核心对象，其生成性质对于理解格的结构至关重要。壳层生成性是格研究中的基本结构问题。",
+    "method": "利用范数 8 和 10 壳层之间内积的完全分布来确定生成关系。关键工具是范数 10 壳层的球面 11-设计性质。",
+    "result": "若 $L$ 是秩 72 的极值 Type II 格，则 $L$ 由其范数 10 的向量生成。",
+    "conclusion": "该结果揭示了秩 72 极值 Type II 格的高度对称结构——第二壳层足以生成整个格。",
+    "future_work": "研究其他秩的极值 Type II 格的壳层生成性质。"
+  },
+  {
+    "id": "2606.08842",
+    "tldr": "本文研究有限模覆盖上的简单测地线，提出猜想：若简单，则端点 $\\xi^+$ 为有理数、二次无理数或超越数，并对极小测地线 lamination 的叶证明了该猜想。",
+    "motivation": "模曲面上的测地线编码了丰富的算术和动力系统信息。简单测地线的算术本质是连接双曲几何与丢番图逼近的核心问题。",
+    "method": "利用模群子群在 $\\mathbb{R}\\mathbf{P}^1$ 上的作用和连分数展开理论。对极小测地线 lamination 的叶，通过分析其动力系统和编码来证明猜想。",
+    "result": "对有限模覆盖上的简单测地线提出端点超越性猜想。对极小测地线 lamination 的叶证明了该猜想。解释了为何该猜想对模环面覆盖（导子子群 $[\\Gamma,\\Gamma]$）的简单测地线已知。",
+    "conclusion": "该猜想如果成立，将建立双曲简单测地线与丢番图逼近基本对象之间的精确对应。",
+    "future_work": "证明或反驳一般简单测地线的猜想。探索与其他超越性结果（如 Margulis 的测地线稠密性定理）的联系。"
+  },
+  {
+    "id": "2606.08848",
+    "tldr": "本文综述了 David Goss 从 1979 年开始建立的函数域正特征 zeta 函数理论，并与曲线上更近代的 zeta 函数理论进行了比较。",
+    "motivation": "Goss 的 zeta 函数理论是函数域算术的核心贡献。近年来出现了以有限域上曲线为定义域的第二种 zeta 函数构造。比较和统一这两种理论是重要的研究方向。",
+    "method": "系统回顾 Goss 在 Carlitz zeta 值周围构建 zeta 函数的方法。介绍 Ferraro 的有理性定理（允许引入类似 Riemann $\\xi$ 函数的对象）。描述第二类 zeta 函数所需的工具：shtuka 除子、特殊函数、Anderson 模体和 Drinfeld 模。用 Goss 方法证明某些相对 zeta 函数的整性。附录中 Ferraro 结合 Anglès-Ngo Dac-Tavares Ribeiro 公式和 Ferraro 有理性公式给出整性的特例证明，并提出了在 $\\Xi$ 点消失阶的猜想。",
+    "result": "综述了 Goss zeta 函数理论及其与曲线上新构造之间的相互关系。用 Goss 方法证明了相对 zeta 函数的整性。附录包含新猜想和数值实验。",
+    "conclusion": "该综述为进入函数域 zeta 函数前沿提供了全面指南，并提出了新的研究方向和猜想。",
+    "future_work": "证明 Ferraro 关于 $\\Xi$ 点消失阶的猜想。深化 Goss 型 zeta 函数与曲线型 zeta 函数之间的联系。"
+  },
+  {
+    "id": "2606.08865",
+    "tldr": "本文证明了一维 Dirichlet 谱（关于 $L_1$ 范数近似）$\\mathbb{D}^{[1]}=[\\frac12,1]$，等价于 Minkowski 谱 $\\mathbb{M}=[\\frac14,\\frac12]$，并计算了水平集的 Hausdorff 维数。",
+    "motivation": "Dirichlet 谱和 Minkowski 谱是丢番图逼近中的基本不变量，描述了用有理数同时逼近实数的精度极限。完整确定这些谱是丢番图几何中的中心问题。",
+    "method": "利用 Minkowski 对角连分数的性质。建立 $L_1$ 范数 Dirichlet 谱与 Minkowski 谱的等价关系。通过连分数分析和构造性方法确定谱的精确范围，并利用 Hausdorff 维数理论分析水平集的维数。",
+    "result": "(1) $\\mathbb{D}^{[1]}=[\\frac12,1]$；(2) 等价地 $\\mathbb{M}=[\\frac14,\\frac12]$；(3) 水平集 $\\Theta_m$ 对 $m\\in(1/4,1/2]$ 有 $\\dim_H>1/2$，而 $\\dim_H\\Theta_{1/4}=1/2$。",
+    "conclusion": "完整确定了一维 $L_1$ Dirichlet 谱和 Minkowski 谱，结束了这些基本丢番图谱的刻画。",
+    "future_work": "研究高维 $L_1$ Dirichlet 谱，以及与其他范数对应的谱。"
+  },
+  {
+    "id": "2606.08890",
+    "tldr": "本文在有限域 $\\mathbb{F}_p^2$ 中证明了多项式 corner 避免集的密度上界，推广并改进了 Kravitz-Kuca-Leng 在整数网格上的结果。",
+    "motivation": "多项式 corner（$(x,y),(x+P(z),y),(x,y+P(z))$）是经典 corner（$P(z)=z$）的自然推广。理解避免多项式模式的集合密度的上界是加性组合和算术组合的核心课题。",
+    "method": "利用有限域上的 Fourier 分析和加性组合方法。通过密度增量论证和多项式在 $\\mathbb{F}_p$ 上的结构性质，将 Kravitz-Kuca-Leng 的论证适应到有限域设置，并获得了更好的界。",
+    "result": "在 $\\mathbb{F}_p^2$ 中，对满足一定条件的 $P\\in\\mathbb{F}_p[z]$，不包含多项式 corner 的集合有比整数网格情形更强的密度上界。",
+    "conclusion": "有限域设置使得多项式 corner 的密度界更为精确，反映了有限域上 Fourier 分析的优越性。",
+    "future_work": "追求多项式 corner 问题的更优界，特别是与经典 corner 定理（Shkredov、Green-Tao）类似的对数节省因子。"
+  },
+  {
+    "id": "2606.09015",
+    "tldr": "本文研究了广义 Heisenberg 代数中退化第一类广义 Stirling 算子，建立了结构性质和正交关系。",
+    "motivation": "退化广义 Stirling 算子是退化演算和广义 Heisenberg 代数（GHA）的桥梁。第一类算子是第二类的逆，对理解量子代数中的单项式算子乘积表达至关重要。",
+    "method": "在 GHA 与退化演算统一的框架中研究第一类退化广义 Stirling 算子。导出显式乘积分解、基本递推关系和算子平移恒等式。建立第一类和第二类算子之间的正交关系。",
+    "result": "(1) 第一类退化广义 Stirling 算子的显式乘积分解、基本递推关系和算子平移恒等式；(2) 第一类和第二类退化广义 Stirling 算子之间的正交关系，提供了泛函量子代数的完整组合框架。",
+    "conclusion": "该工作填补了 GHA 退化演算中第一类 Stirling 算子的理论空白。",
+    "future_work": "将这些算子应用于具体的组合恒等式和特殊函数论。"
+  },
+  {
+    "id": "2606.09096",
+    "tldr": "本文通过 screw 函数建立了 Weil 二次型的统一框架，并提出猜想：存在自伴算子其极限特征值等于 Riemann zeta 函数非平凡零点的虚部。",
+    "motivation": "Weil 二次型是 Riemann zeta 函数理论中与 Hilbert-Pólya 猜想相关的核心对象。Yoshida、Bombieri、Connes-Consani 等人的结果从不同角度触及该对象，缺乏统一视角。",
+    "method": "利用 Suzuki 2023 年引入的 screw 函数，将 Weil 二次型（最初用分布定义）用连续函数方法研究。构造有限区间 $[-a,a]$ 上一阶微分算子的非局部实现，研究其自伴算子极限。所有结果不依赖 Riemann 假设。",
+    "result": "(1) 建立了 Yoshida、Bombieri、Connes-Consani 和 Connes-Consani-Moscovici 关于 Weil 二次型结果的统一 screw 函数框架；(2) 提出猜想：存在自伴算子，其特征值为 Riemann zeta 函数非平凡零点的虚部，可作为 $a\\to\\infty$ 时 $[-a,a]$ 上特定自伴算子的极限。",
+    "conclusion": "该框架为 Riemann zeta 函数零点的谱解释提供了新的视角，不依赖 Riemann 假设。",
+    "future_work": "证明或反驳该猜想，以及探索 screw 函数在其他 $L$-函数零点谱解释中的应用。"
+  },
+  {
+    "id": "2606.09136",
+    "tldr": "本文研究了度数 $2m$、权 $m+1$ 的 Siegel-Eisenstein 级数（$m\\equiv 1\\pmod 4$，$m\\ge 5$）的 Fourier 系数，确定了常数项和例外非零系数。",
+    "motivation": "Siegel-Eisenstein 级数的 Fourier 系数是 Siegel 模形式理论的核心对象。Kohnen 和 Nagaoka 确定了度 2 的公式，更高度的推广是自然的方向。",
+    "method": "利用 Mizumoto 的 Fourier 展开公式，通过分析 Siegel 级数在有限域点上的值来计算 Fourier 系数。确定哪些系数是非零的以及哪些是例外的。",
+    "result": "对 $m\\equiv 1\\pmod 4$、$m\\ge 5$，确定了 $E_{m+1}^{(2m)}(Z)$ 的常数项和例外非零 Fourier 系数。该结果给出了 Kohnen-Nagaoka 和 Haruki 度 2 公式的高维度模拟。",
+    "conclusion": "该结果推进了高次 Siegel-Eisenstein 级数 Fourier 系数的显式理解。",
+    "future_work": "确定一般 Fourier 系数（非例外）的公式，以及推广到其他权和度的情形。"
+  },
+  {
+    "id": "2606.09214",
+    "tldr": "本文构造了 $\\mathrm{SL}_n$ 的齐性空间，具有常数非分歧代数 Brauer 群但无有理点，证明了超越 Brauer-Manin 阻碍的首个例子。",
+    "motivation": "Brauer-Manin 阻碍是有理点障碍理论的核心。对于齐性空间，已知代数 Brauer-Manin 阻碍不足以解释所有违反 Hasse 原理的情况，但需要超越 Brauer-Manin 阻碍的具体例子。",
+    "method": "利用 Borovoi-Kunyavskii 的想法，在包含奇素数阶单位根的数域上构造 $\\mathrm{SL}_n$ 的齐性空间。该空间具有有限 2-幂零几何稳定化子、常数非分歧代数 Brauer 群、处处有局部点但无有理点。",
+    "result": "构造了 $\\mathrm{SL}_n$ 的齐性空间，对连通线性代数群的齐性空间给出了超越 Brauer-Manin 阻碍的首个例子。",
+    "conclusion": "该结果揭示了即使对于高度对称的齐性空间，代数 Brauer-Manin 阻碍也不足以完全解释 Hasse 原理的失败。",
+    "future_work": "理解这些例子中的超越 Brauer-Manin 阻碍的具体来源。探索其他代数群的齐性空间中是否有类似现象。"
+  },
+  {
+    "id": "2606.09512",
+    "tldr": "本文描述了约 50 万个 $\\mathbb{Q}$ 上小导子 Abel 曲面的数据库构造，这些曲面作为 genus 3 曲线到 genus 1 曲线的二重覆盖的 Prym 簇出现。",
+    "motivation": "Abel 曲面的系统性数据对算术几何和 Langlands 纲领至关重要。小导子的 Abel 曲面相对稀少，系统构造和收集对于检验猜想和发现新模式不可或缺。",
+    "method": "通过构造 genus 3 曲线到 genus 1 曲线的二重覆盖，计算相应的 Prym 簇（自然地是 Abel 曲面）。构造方法对坏约化素数有一定程度的控制。",
+    "result": "构造了约 50 万个 $\\mathbb{Q}$ 上小导子 Abel 曲面的数据库，作为 Prym 簇得到。",
+    "conclusion": "该数据库为 Abel 曲面的算术统计研究（如 Sato-Tate 分布、导子分布）提供了重要资源。",
+    "future_work": "扩展数据库以覆盖更大导子范围，以及利用该数据库检验关于 Abel 曲面的各种猜想。"
+  },
+  {
+    "id": "2606.09544",
+    "tldr": "本文给出了固定权、深度和高度且以给定字符串结尾的所有多重 zeta 值之和的生成级数表达式，推广了 Ohno-Zagier 定理。",
+    "motivation": "多重 zeta 值（MZV）是数论和数学物理中的核心对象，其代数结构和组合恒等式是活跃的研究领域。Ohno-Zagier 定理描述了固定权、深度和高度的 MZV 之和。推广到固定结尾字符串提供更精细的信息。",
+    "method": "利用 MZV 的积分表示和 shuffle 关系。在 Ohno-Zagier 定理证明的基础上，引入固定结尾字符串的条件，导出生成级数并分析其深度界限。应用于插值 MZV 的赋值和二重 zeta 值的生成级数。",
+    "result": "(1) 固定权、深度和结尾 $\\vec{\\ell}$ 的 MZV 和的生成级数；(2) 特别地，该和的深度有界 $\\le\\ell_1+\\cdots+\\ell_r$；(3) 对插值 MZV 赋值和二重 zeta 值生成级数的应用。",
+    "conclusion": "该结果细化了 Ohno-Zagier 定理，提供了 MZV 按结尾字符串分类的代数信息。",
+    "future_work": "探索结尾字符串条件与其他 MZV 关系（如双 shuffle 关系、正则化关系）的联系。"
+  },
+  {
+    "id": "2606.09545",
+    "tldr": "本文精化了 D'Arcais 多项式对数凹性的渐近方法，确定了首个反例出现在 $\\lambda=65,214,507,758,400$，并研究了反例的渐近密度。",
+    "motivation": "Starr 最近用渐近方法否证了 Heim-Neuhauser 和 Abdesselam 关于 D'Arcais 多项式对数凹性的猜想，但未给出显式反例。找到第一个显式反例是该问题的重要组成部分。",
+    "method": "精化 Starr 的渐近方法，给出 $\\sigma_{-1}$ 卷积的必要估计。通过数值计算和渐近分析的结合，确定第一个反例的精确指标。分析反例的渐近密度。",
+    "result": "确定了 D'Arcais 多项式对数凹性的首个反例出现在 $\\lambda=65,214,507,758,400$。给出了反例密度的渐近估计。",
+    "conclusion": "该结果完成了对数凹性猜想否证的具体化，提供了第一个显式反例。",
+    "future_work": "研究 D'Arcais 多项式的其他组合性质（如单峰性、实根性），以及第一个反例前后系数的精细行为。"
+  },
+  {
+    "id": "2606.09591",
+    "tldr": "本文研究了 $\\mathbb{R}^n$ 中分母限制在短区间 $[Q-\\Delta,Q]$（$\\Delta/Q\\to 0$）内的有理点分布，将精细尺度统计推广到超越了 Farey 序列的短窗口。",
+    "motivation": "之前的有理点精细统计（Hall 等）局限于 Farey 序列（$\\Delta$ 与 $Q$ 同阶）。短窗口（$\\Delta/Q\\to 0$）代表更精细的尺度，在处理稀疏有理点集时需要全新的技术。",
+    "method": "关键技术是缓慢扩张的 horosphere 的均匀分布定理，出现了新的奇异极限测度。将极限律用仿射格空间上的自然概率测度表示。应用这些技术回答了 Anderson-Boca-Cobeli-Zaharescu 关于格点方向统计的问题。",
+    "result": "(1) 证明了 $\\Delta/Q\\to 0$ 范围内精细尺度统计的收敛性；(2) 极限律用仿射格空间上的测度表示；(3) 回答了 Anderson 等人关于格点方向统计的问题。",
+    "conclusion": "该结果将有理点统计理论推进到了超 Farey 精细尺度，揭示了新的极限测度。",
+    "future_work": "探索不同尺度窗口之间的相变，以及更高维数中的推广。"
+  },
+  {
+    "id": "2606.09739",
+    "tldr": "本文研究了一类特殊复合多项式 $(f\\circ g)(x)=(x^m+c)^n+a(x^m+c)^{n-1}+d(x^m+c)^{n-2}+b$ 的 monogenity，给出了充要条件。",
+    "motivation": "Monogenity（数域有幂整基）是代数数论中的基本问题。复合多项式的 monogenity 具有特殊的算术意义，是理解多项式复合操作下数域算术性质的窗口。",
+    "method": "对满足 $a^2=4d$ 的 $f(x)=x^n+ax^{n-1}+dx^{n-2}+b$ 和 $g(x)=x^m+c$ 的复合，在不可约假设下，通过判别式分析和 Newton 多边形方法导出 monogenity 的充要条件。利用丢番图方程方法给出 monogenic 多项式的计数下界。",
+    "result": "(1) $(f\\circ g)(x)$ monogenic 的充要条件（参数 $a,b,c,d,m,n$ 的条件）；(2) monogenic 多项式的计数下界；(3) 作为应用，给出了一类具有非 square-free 判别式的多项式族。",
+    "conclusion": "该结果系统刻画了一类重要复合多项式的 monogenity，提供了显式的参数条件。",
+    "future_work": "推广到更一般的复合多项式（$f$ 和 $g$ 不满足特殊参数关系），以及研究复合操作对 monogenity 的一般影响。"
+  },
+  {
+    "id": "2606.09818",
+    "tldr": "本文无条件证明了固定阶特征的 Dirichlet $L$-函数在 $\\sigma\\in(1/2,1]$ 上存在猜想性的极大值，之前仅在 GRH 下且仅对阶 2 和 3 已知。",
+    "motivation": "Dirichlet $L$-函数的极值是解析数论中的基本问题，与特征和的估计和 $L$-函数的值分布密切相关。极大值的猜想性下界（与 GRH 下的预测匹配）此前仅在 GRH 的前提下已知。",
+    "method": "使用简单的组合/概率论证（无需 GRH），通过构造具有大 $L$-函数值的特征并控制导子。对 $\\sigma=1$ 和 $1/2<\\sigma<1$ 分别处理，导出显式的常数 $C_g(\\sigma)$。",
+    "result": "(1) $\\sigma=1$：存在本原特征 $\\chi$（阶 $g$，导子 $Q\\asymp x$）使 $|L(1,\\chi)|\\ge e^\\gamma(\\log\\log x+\\log\\log\\log x-\\log(2\\log g)+o(1))$；(2) $1/2<\\sigma<1$：存在本原特征使 $\\log|L(\\sigma,\\chi)|\\ge(C_g(\\sigma)+o(1))(\\log x)^{1-\\sigma}(\\log\\log x)^{-\\sigma}$。之前任意阶的结果仅在 GRH 下已知，且限于 $g=2,3$。",
+    "conclusion": "该结果首次无条件地建立了固定阶 Dirichlet $L$-函数的猜想性极大值，突破了 GRH 的限制。",
+    "future_work": "将方法推广到更一般的 $L$-函数族（如 Hecke 特征、自守 $L$-函数）。"
+  },
+  {
+    "id": "2606.08325",
+    "tldr": "本文证明了随机数的多项式映射下的绝对正规性：若 Bernoulli 数字满足 $p_n(1-p_n)\\ge (\\log n)^{\\Gamma(d)}n^{-(d-1)/d}$，则 $P(X)$ 几乎必然绝对正规。",
+    "motivation": "随机数的数字混合是概率论和遍历论中的基本问题。多项式映射下的绝对正规性（每个有限数字块以正确频率出现）在理论和应用（伪随机数生成）中都很重要。",
+    "method": "利用 Fourier 衰减估计，通过涉及条件化和非共振估计的概率论证结合三角化论证。临界幂律 $n^{-(d-1)/d}$ 由进位相互作用的初等启发式导出。证明了它是充分的（在对数因子下），且纯临界幂律不足，精确定义了过渡区域。",
+    "result": "(1) 对次数 $d\\ge 2$ 的多项式 $P$，在 $p_n(1-p_n)\\ge(\\log n)^{\\Gamma(d)}n^{-(d-1)/d}$ 条件下，$P(X)$ 几乎必然绝对正规；(2) 幂律 $n^{-(d-1)/d}$ 是尖锐的；(3) 纯临界幂律不足（需要对数因子的额外衰减）；(4) 给出了易于使用的可和性准则，对 $X^2$ 是尖锐的。",
+    "conclusion": "该结果是数字混合问题的首个尖锐结果，精确刻画了多项式映射下保持绝对正规性的条件。",
+    "future_work": "确定精确的临界窗口，以及更高次多项式的猜想。"
+  },
+  {
+    "id": "2606.07768",
+    "tldr": "本文建立了群在交叉模中系数的非交换超上同调理论，并应用于定义约化代数群的 Galois 上同调的交换化映射。",
+    "motivation": "交叉模是群同调中的重要代数结构，封装了高阶同伦信息。非交换超上同调统一了多个上同调构造（如非交换 $H^1$ 和 $H^2$），对理解 Galois 上同调和代数群算术有重要意义。",
+    "method": "定义群在交叉模中系数的超上同调群（推广了经典群上同调和非交换 $H^1$/$H^2$）。将该一般理论应用于约化代数群的 Galois 上同调，构造交换化映射。",
+    "result": "建立了群在交叉模中系数的非交换超上同调理论。将该理论应用于约化代数群的 Galois 上同调，定义了交换化映射。",
+    "conclusion": "该理论为约化群的 Galois 上同调提供了新的工具，可能对 Hasse 原理和局部-整体障碍的研究有用。",
+    "future_work": "将交换化映射应用于具体的 Galois 上同调计算，以及与 Brauer-Manin 阻碍的联系。"
+  },
+  {
+    "id": "2606.07824",
+    "tldr": "本文给出了素数特征代数闭域上简单代数群的有理上同调维数的显式线性上界。",
+    "motivation": "正特征代数群的上同调理论是代数群表示论的核心课题。之前的上同调维数界通常是理论性的，显式线性界对于具体计算和应用很重要。",
+    "method": "利用代数群的上同调结构理论和权重论证，结合根系统和表示论数据，导出维数的显式上界。",
+    "result": "建立了素数特征代数闭域上简单代数群有理上同调维数的显式线性上界。",
+    "conclusion": "这些显式界使代数群上同调的计算更具可行性。",
+    "future_work": "确定最优的常数，以及将界推广到非简单代数群。"
+  },
+  {
+    "id": "2606.08007",
+    "tldr": "本文提供了使得性质 $\\mathrm{CS}\\mathfrak{X}$ 蕴含性质 $\\mathfrak{X}\\mathrm{T}$ 的代数和群簇的新例子。",
+    "motivation": "$\\mathrm{CS}\\mathfrak{X}$ 群（极大 $\\mathfrak{X}$-子群均为 malnormal）和 $\\mathfrak{X}\\mathrm{T}$ 群（相交非平凡的 $\\mathfrak{X}$-子群生成 $\\mathfrak{X}$-子群）是群簇理论中两类重要的群。理解何时前者蕴含后者是分类问题。",
+    "method": "通过对特定代数和群簇的结构分析，验证 $\\mathrm{CS}\\mathfrak{X}\\Rightarrow\\mathfrak{X}\\mathrm{T}$ 的蕴含关系。利用 malnormality 和子群生成性质的组合论证。",
+    "result": "提供了使得 $\\mathrm{CS}\\mathfrak{X}$ 蕴含 $\\mathfrak{X}\\mathrm{T}$ 的群簇的新例子，补充了之前工作中建立的例子。",
+    "conclusion": "这些新例子有助于理解 $\\mathrm{CS}\\mathfrak{X}$ 与 $\\mathfrak{X}\\mathrm{T}$ 之间蕴含关系的范围。",
+    "future_work": "刻画使该蕴含关系成立的代数的精确条件。"
+  },
+  {
+    "id": "2606.08101",
+    "tldr": "本文发展了\"自动作用\"理论：半群通过 $\\omega$-正则变换在 $\\omega$-正则语言上作用，证明了对有界作用轨道关系也是 $\\omega$-正则的，从而建立了大量可判定性结果。",
+    "motivation": "自动群和自动半群理论是群论和计算机科学的交汇领域。将作用的概念纳入自动机框架（$\\omega$-正则语言和变换）能够统一处理大量之前不相关的例子。",
+    "method": "定义有界 $\\omega$-正则变换（Büchi 自动机编码中没有两个相连非平凡圈）。对逆半群的有界作用，证明轨道关系是 $\\omega$-正则的。利用自动机可判定性结果推出作用的极小性、拓扑传递性、非周期性、元素阶等性质的可判定性。应用于后临界有限多项式的 Julia 集。",
+    "result": "(1) 对有界作用，轨道关系 $\\omega$-正则；(2) 因此极小性、拓扑传递性、非周期性、元素阶可判定；(3) 每个涉及特定半群元素作用和轨道关系的一阶语句可判定；(4) 应用于 Julia 集：Fatou 分量的编码可计算，关于 Fatou 分量交、不相交等的一阶语句可判定。",
+    "conclusion": "该理论统一了自动机理论和动力系统，为广泛的群作用类提供了算法可判定性。",
+    "future_work": "探索无界作用的理论，以及与其他动力系统对象（如 Mandelbrot 集）的联系。"
+  },
+  {
+    "id": "2606.08591",
+    "tldr": "本文描述了半直积 $G=N\\rtimes Q$（$\\gcd(|N|,|Q|)=1$）的正规子群结构，并给出了 $\\mathfrak{A}_p\\mathfrak{A}_q$ 簇中群的正规子群完整列表。",
+    "motivation": "半直积是最基本的群扩张。在互素条件下描述其正规子群结构是有限群论中的标准问题，对理解群的结构和分类有重要意义。",
+    "method": "通过对 $N$ 和 $Q$ 的正规子群的分类描述 $G$ 的正规子群。利用互素条件的上同调简单性（Schur-Zassenhaus）分析正规子群与 $N$ 和 $Q$ 的子群的关系。对 Sylow 子群循环的有限群给出完整列表。",
+    "result": "(1) 用 $N$ 和 $Q$ 的正规子群描述了 $G=N\\rtimes Q$（互素）的正规子群；(2) 给出了 $\\mathfrak{A}_p\\mathfrak{A}_q$ 簇中群的正规子群的确定方法和完整列表；(3) 给出了 Sylow 子群皆循环的有限群的正规子群完整列表。",
+    "conclusion": "这些结果对理解互素半直积和特定群簇的结构提供了系统的工具。",
+    "future_work": "推广到非互素情形，以及探索 $\\mathfrak{A}_p\\mathfrak{A}_q\\mathfrak{A}_r$ 等更复杂的簇。"
+  },
+  {
+    "id": "2606.09224",
+    "tldr": "本文从右群出发发展了 heap 理论，定义了右 heap 的概念，并将该理论与 Yang-Baxter 方程的左非退化集合解联系起来。",
+    "motivation": "经典 heap 理论从群出发。右群是半群（每个方程 $a\\cdot x=b$ 有唯一解），从右群发展 heap 理论是对经典理论的自然推广。Yang-Baxter 方程的集合解是该理论的主要动机。",
+    "method": "从右群出发定义右 heap，建立其基本性质。进一步从左拟群（右群的非结合类似）出发发展部分理论。将该理论与 Brzeziński 的 skew left truss 联系起来，建立 Yang-Baxter 方程解的类似物。",
+    "result": "(1) 从右群出发建立了 heap 理论和右 heap 的自然定义；(2) 部分理论可进一步从左拟群发展；(3) 建立了与 Yang-Baxter 方程左非退化集合解和 skew left truss 的联系。",
+    "conclusion": "该理论将 heap 概念推广到了非群的情形，并与 Yang-Baxter 方程建立了自然的联系。",
+    "future_work": "利用右 heap 框架构造新的 Yang-Baxter 方程集合解，以及探索右 heap 与 Hopf-Galois 理论的联系。"
+  },
+  {
+    "id": "2606.09524",
+    "tldr": "本文给出了 quartic-free A-群（阶不被任意 $p^4$ 整除且 Sylow 子群皆交换的有限群）的显式结构，并确定了可解 quartic-free A-群的导出长度。",
+    "motivation": "A-群（Sylow 子群皆交换）和 quartic-free 群是有限群论中两个自然的结构条件。两者的交集形成了具有良好结构性质的群类，完整分类有助于理解有限群的体系。",
+    "method": "利用有限群的结构理论，对 Sylow 子群按素数分解并分析其交换性约束。在 quartic-free 条件下（$p^4\\nmid |G|$），Sylow 子群的阶至多 $p^3$，限制了可能的结构。通过逐素数分析和半直积分解导出显式结构。",
+    "result": "给出了 quartic-free A-群的显式结构描述。同时确定了可解 quartic-free A-群的导出长度。",
+    "conclusion": "该结果完整描述了一类具有良好算术和结构性质的有限群，填补了有限群分类体系中的一个具体空白。",
+    "future_work": "探索 quartic-free A-群的其他群论不变量（如共轭类数、特征标表），以及推广到 quintic-free 等更高次无幂条件。"
+  },
+  {
+    "id": "2606.09702",
+    "tldr": "本文开发了计算双曲 3-orbifold 群的第二同调群的有效方法，应用于 Weeks 流形相关格，证明其绝对 profinite 刚性并构造了 Grothendieck 对。",
+    "motivation": "第二同调群在 3-流形群的 profinite 刚性研究中起核心作用。虽然一般理论蕴含双曲 3-orbifold 群的同调理论上可计算，但算法不实际。有效的计算方法对具体的刚性问题至关重要。",
+    "method": "对作为双曲有理同调 3-球面基本群的有限扩张的 orbifold 群，开发计算 $H_2$ 的有效方法。利用群扩张的 Lyndon-Hochschild-Serre 谱序列和拓扑/组合论证。应用于 Weeks 流形 $\\mathcal{W}$ 的具体计算。",
+    "result": "(1) 开发了计算特定 3-orbifold 群 $H_2$ 的有效方法；(2) 对 $\\pi_1(\\mathcal{W})$ 与其在 $\\mathrm{PSL}_2(\\mathbb{C})$ 中正规化子之间的所有余紧格，计算了 $H_2$；(3) 证明了这些格的绝对 profinite 刚性，完成了 Bridson-McReynolds-Reid-Spitler 的工作；(4) 确定了 $H_2(\\Gamma_{\\mathcal{O}},\\mathbb{Z})\\cong\\mathbb{Z}/2\\mathbb{Z}$，回答了 Bridson-Reid 的问题；(5) 在 $\\Gamma_{\\mathcal{O}}^1\\times\\Gamma_{\\mathcal{O}}^1$ 中构造了 Grothendieck 对；(6) 计算了一些 Fibonacci 流形 $M_n$ 的基本群的有限扩张的 $H_2$。",
+    "conclusion": "该结果将 3-orbifold 群的 profinite 刚性研究推进到了具体可计算的阶段，并通过构造 Grothendieck 对连接了群论刚性问题和 3-流形拓扑。",
+    "future_work": "将计算方法推广到更广泛的 3-orbifold 群类，以及利用 Grothendieck 对探索 profinite 刚性的边界。"
+  }
+]

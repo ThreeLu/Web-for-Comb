@@ -1,0 +1,6 @@
+--- PAPER 7/86 ---
+ID: 2606.07990
+Title: On the distributions of the statistics (des, maj, inv) over several classes of permutations
+Authors: Guo-Niu Han, Kathy Q. Ji, Huan Xiong
+Categories: math.CO
+Abstract: We investigate the joint distribution of the trivariate statistics (des, maj, inv) on classical permutations, Andre permutations of the first and second kinds, and Simsun permutations. By decomposing permutations according to the position of the smallest element, we obtain explicit recurrence relations for the generating functions of these statistics. In the classical permutation setting, our recurrence relation yields the generating function for the trivariate statistics (des, maj, inv) due to Gessel, which is typically proved using MacMahon's technique.

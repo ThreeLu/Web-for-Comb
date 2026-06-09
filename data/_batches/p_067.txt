@@ -1,0 +1,6 @@
+--- PAPER 68/86 ---
+ID: 2606.09015
+Title: Degenerate generalized Stirling operators of the first kind arising from generalized Heisenberg algebra
+Authors: Taekyun Kim, Dae San Kim
+Categories: math.NT
+Abstract: This paper investigates the degenerate generalized Stirling operators of the first kind bridging a gap in the operational calculus of the generalized Heisenberg algebra GHA unified with degenerate calculus. As they are the inverse of the degenerate generalized Stirling operators of the second kind, these operators express the monomial operator products in terms of the degenerate factorial operators. We derive key structural and combinatorial properties for these operators, including an explicit product factorization, a fundamental recurrence relation, and an operational shifting identity. Furthermore, we establish the orthogonality relations between the degenerate generalized Stirling operators of the first and second kinds, providing a complete combinatorial framework for functional quantum algebras.

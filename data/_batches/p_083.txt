@@ -1,0 +1,6 @@
+--- PAPER 84/86 ---
+ID: 2606.09224
+Title: Right groups, left quasigroups, and right heaps
+Authors: Andrea Albano, Alberto Facchini, Marzia Mazzotta, Paola Stefanelli
+Categories: math.GR
+Abstract: A right group is a semigroup $(S,\cdot)$ in which, for every $a,b\in S$, there is a unique $x\in S$ such that $a\cdot x=b$. In this article, we develop the theory of heaps starting not from groups, but from right groups. We thus get a natural definition of right heap. It is even possible to develop part of the theory starting from a left quasigroup, which is the non-associative analogue of a right group. Our motivation for this study is the investigation of left non-degenerate set-theoretic solutions of the Yang--Baxter equation. Thus, we are led to an analogue of the skew left trusses introduced by T.~Brzeziński.

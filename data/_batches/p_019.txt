@@ -1,0 +1,6 @@
+--- PAPER 20/86 ---
+ID: 2606.08506
+Title: Almost balanced ordered biclique covering of graphs
+Authors: Anand Babu, Ervin Ranjan, Maddipati Deshith Sai, Jatla Naga Sidhartha, Anagh Indu Suresh, Sreedhara Vishwas
+Categories: math.CO, cs.DM
+Abstract: Let $f(n,k)$ be the minimum size of a collection of bicliques such that (i) every edge of the complete graph $K_n$ is covered by at least one and at most $k$ bicliques in the collection, and (ii) for each edge $\{u,v\}$, the number of bicliques in which $u$ appears in the first class and $v$ in the second class differs by at most one from the number of bicliques in which $u$ appears in the second class and $v$ in the first class. For $k=1$, $f(n,k)$ reduces to the biclique partition number of $K_n$, and the Graham--Pollak theorem gives $f(n,1)=n-1$. For $k=2$, $f(n,k)$ is the ordered biclique partition number of $K_n$, for which it is known that $c_1 n^{1/2} \le f(n,2) \le c_2 n^{1/2+o(1)}$ for some positive constants $c_1$ and $c_2$. In this note, we establish almost tight bounds for $f(n,k)$ for general $k$.

@@ -1,0 +1,6 @@
+--- PAPER 70/86 ---
+ID: 2606.09136
+Title: Fourier Coefficients of Siegel--Eisenstein Series of Degree $2m$ and Weight $m+1$
+Authors: Nobuki Takeda
+Categories: math.NT
+Abstract: We study Fourier coefficients of the Siegel--Eisenstein series $E_{m+1}^{(2m)}(Z)$ for $m\equiv1\pmod4$ and $m\geq5$. Using the Fourier expansion formula due to Mizumoto, we determine the constant term and the exceptional non-zero Fourier coefficients. The result gives a higher-degree analogue of the degree-two formulas of Kohnen and Nagaoka, which were later rederived by Haruki.

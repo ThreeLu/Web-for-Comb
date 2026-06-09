@@ -1,0 +1,6 @@
+--- PAPER 59/86 ---
+ID: 2606.08640
+Title: On special perfect polynomials over $\mathbb{F}_2$
+Authors: O. Rahavandrainy
+Categories: math.NT
+Abstract: We give some necessary conditions satisfied by special perfect polynomials over $\mathbb{F}_2$.

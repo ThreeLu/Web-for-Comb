@@ -1,0 +1,6 @@
+--- PAPER 9/86 ---
+ID: 2606.08058
+Title: Determinant formulas for Ihara zeta functions via simple cycles
+Authors: Kosei Watanabe
+Categories: math.CO
+Abstract: Building upon the algebraic framework of trace monoids introduced by Giscard and Rochet, we establish a new determinant formula for the Ihara zeta functions of certain digraphs. We present our results through two main theorems. First, at the algebraic level, we show a general determinant formula expressed by a Cayley determinant over the hike monoid ring, which provides a unifying perspective on several known determinant expressions. Second, by evaluating the lengths of hikes through a natural ring homomorphism, we prove that the reciprocal of the Ihara zeta function can be explicitly expressed as a determinant whose dimension is equal to the number of simple cycles of the line digraph without backtrack.

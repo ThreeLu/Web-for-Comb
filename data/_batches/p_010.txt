@@ -1,0 +1,6 @@
+--- PAPER 11/86 ---
+ID: 2606.08127
+Title: Palindrome complexity versus factor complexity
+Authors: Jeffrey Shallit
+Categories: math.CO, cs.DM, cs.FL
+Abstract: Let ${\bf x} = (a_i)_{i \geq 0}$ be an infinite word over a finite alphabet $\Sigma$. Let $\rho (n)$ be the factor complexity function for $\bf x$ and ${\rm Pal}(n)$ be the palindrome complexity function for $\bf x$. We give a new relationship between these two quantities; namely, if $\bf x$ is not ultimately periodic, then $$ \lim_{n \rightarrow \infty} {{ {\rm Pal} (n) \log ({\rm Pal} (n) + 1)} \over {\rho (n)}} = 0. $$ Furthermore, we prove that the numerator in this result is essentially optimal.

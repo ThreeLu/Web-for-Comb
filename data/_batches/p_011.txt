@@ -1,0 +1,6 @@
+--- PAPER 12/86 ---
+ID: 2606.08163
+Title: A spectral threshold for triangle counting
+Authors: Yuhan Zhang, Mingqing Zhai
+Categories: math.CO
+Abstract: The 1970 spectral extension of Mantel's theorem, proved by Nosal, states that every graph with $m$ edges and spectral radius $\rho_1>\sqrt{m}$ contains at least one triangle. Its quantitative refinement by Ning and Zhai later established that any graph $G$ with $m$ edges and spectral radius $\rho_1\geq\sqrt{m}$ contains at least $\lfloor\frac{\sqrt{m}-1}{2}\rfloor$ triangles, unless $G$ is a complete bipartite graph. In this paper, we further investigate the minimum number of triangles guaranteed under the strengthened spectral condition $\rho_1\geq\sqrt{m}+c$, where $c$ is a positive constant. We prove that for any constant $c\in (0,\frac{1}{2}]$ and all sufficiently large $m$, if $s=s(m)$ is a real-valued function satisfying $\lim_{m\to\infty} \frac{s}{m}=c$, then every $m$-edge graph $G$ with spectral radius $\rho_1$ satisfying $\rho_1^2\geq m-1+\frac{2s}{\rho_1-1}$ contains at least $s$ triangles. Moreover, we characterize the extremal graph achieving the minimal number of triangles. In particular, when $s=\frac{m-1}2$, our result settles a conjecture proposed by Li, Feng, and Peng.

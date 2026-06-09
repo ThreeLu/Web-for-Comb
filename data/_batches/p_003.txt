@@ -1,0 +1,6 @@
+--- PAPER 4/86 ---
+ID: 2606.07844
+Title: Counting Hamiltonian Paths in 3-Regular Planar Graphs
+Authors: Ira Pohl, Larry Stockmeyer
+Categories: math.CO, cs.DM, cs.DS
+Abstract: We introduce two infinite families of 3-regular planar graphs. Both families are conceptual adversaries to the Pohl-Warnsdorf algorithm for finding Hamiltonians. We provide a closed form calculation of the number of Hamiltonians.

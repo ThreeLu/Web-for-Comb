@@ -1,0 +1,6 @@
+--- PAPER 69/86 ---
+ID: 2606.09096
+Title: Weil's quadratic form via the screw function
+Authors: Masatoshi Suzuki
+Categories: math.NT, math.FA
+Abstract: We establish a unified framework for understanding the results on the Weil quadratic form obtained by Yoshida (1992), Bombieri (2001, 2003), Connes--Consani (2023), and Connes--Consani--Moscovici (2025+) from the perspective of the screw function introduced in Suzuki (2023). An advantage of the approach via the screw function is that it provides a method to study the Weil quadratic form, which is originally defined in terms of distributions, by means of continuous functions. Based on this framework, we formulate a conjecture stating that a self-adjoint operator whose eigenvalues are the imaginary parts of the nontrivial zeros of the Riemann zeta function can be obtained as the limit, as $a \to \infty$, of self-adjoint operators arising from nonlocal realizations of the first-order differential operator on the finite interval $[-a,a]$. All these results are obtained without assuming the Riemann Hypothesis. This conjecture may be compared with the limit formula for the Riemann zeta function expressed in terms of zeta-regularized products proposed by Connes, Consani, and Moscovici, and it sheds new light on the spectral-theoretic interpretation of the nontrivial zeros of the Riemann zeta function.

@@ -1,0 +1,6 @@
+--- PAPER 74/86 ---
+ID: 2606.09545
+Title: On the Smallest Counterexample to the Log-Concavity of the D'Arcais Polynomials
+Authors: Steven Charlton, Bernhard Heim, Johann Stumpenhusen
+Categories: math.NT
+Abstract: Recently, Starr used asymptotic methods to disprove a conjecture by Heim--Neuhauser and Abdesselam about the log-concavity of the D'Arcais polynomials, without giving an explicit counterexample. We refine the asymptotics, to give the necessary estimates on convolutions of $\sigma_{-1}$, and identify the first counterexample at $\lambda = 65\,214\,507\,758\,400$. We also consider the asymptotic density of such counterexamples.

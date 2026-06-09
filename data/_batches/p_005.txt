@@ -1,0 +1,6 @@
+--- PAPER 6/86 ---
+ID: 2606.07946
+Title: Stolarsky-Type Inequalities in a Max-Convolution Problem
+Authors: Johannes Hosle
+Categories: math.CO
+Abstract: For $m \in \mathbb{N}$, let $q_m := \frac{\log(2m+1)}{2\log(m+1)}$. The max-convolution inequality \begin{align*} \sum_{k=0}^{2m}\left(\max_{i+j=k} x_i y_j \right)^{q_m} &\ge \left(\sum_{i=0}^{m} x_i\right)^{q_m} \left(\sum_{j=0}^{m} y_j\right)^{q_m} \end{align*}for arbitrary sequences $x_0 \ge x_1 \ge ... \ge x_m \ge 0, y_0 \ge y_1 \ge ... \ge y_m \ge 0$ implies an affirmative answer to a question of Bourgain, Dilworth, Ford, Konyagin, and Kutzarova \cite{BDFKK} on the sizes of sumsets in product sets. This inequality was proven for $m = 2$ by Becker, Ivanisvili, Krachun, and Madrid \cite{BIKM} by reducing the general case to the geometric block case via a max-tie analysis. We prove the geometric block case $x = (1, t, ..., t^{r}, 0, ..., 0)$ and $y = (1, t, ..., t^s, 0, ..., 0)$, $t \in [0, 1]$, for all $m \in \mathbb{N}$ via a comparison of Stolarsky means. Some perturbations are also verified. Finally, we prove the above inequality when one sequence has only two non-zero terms.

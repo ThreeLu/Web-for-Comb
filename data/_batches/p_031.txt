@@ -1,0 +1,6 @@
+--- PAPER 32/86 ---
+ID: 2606.09045
+Title: Embedding Finite Functions into Low-Degree Polynomial Functions over Commutative Rings
+Authors: Roman Bacik
+Categories: math.CO
+Abstract: A function $f \colon X^k \to X$ on a finite set embeds into a polynomial of total degree $d$ over a commutative ring $R$ if there is an injection $j \colon X \to R$ and a polynomial $g$ of total degree at most $d$ with $j \circ f = g \circ j^k$, where $j^k$ applies $j$ in each coordinate. These are the transition functions of $k$-neighbour cellular automata, and the injection $j$ is an enlargement of the alphabet that preserves the transitions. We prove three results, all verified in Lean~4 with Mathlib~\cite{bacik2026finbin}. Every unary function $f \colon X \to X$ embeds into a polynomial of total degree $1$. Every binary Kronecker delta embeds into a polynomial of total degree $4$. For every $d$ there is a binary function that does not embed into any polynomial of total degree $d$.

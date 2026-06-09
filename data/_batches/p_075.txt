@@ -1,0 +1,6 @@
+--- PAPER 76/86 ---
+ID: 2606.09739
+Title: Power Integral Bases in Polynomial Compositions
+Authors: Aakash Choudhary, Supriya Pisolkar, Prabhakar Yadav
+Categories: math.NT
+Abstract: In this paper, we study the monogeneity of a special class of composed polynomials of the form $ (f \circ g)(x) = (x^m + c)^n + a(x^m + c)^{n-1} + d(x^m + c)^{n-2} + b,$ where \( f(x) = x^n + a x^{n-1} + d x^{n-2} + b \in \mathbb{Z}[x] \) satisfies \( a^2 = 4d \) and \( g(x) = x^m + c \in \mathbb{Z}[x] \). Assuming that \( (f \circ g)(x) \) is irreducible over \( \mathbb{Q} \), we obtain necessary and sufficient conditions on the parameters \( a, b, c, d, m, n \) for the polynomial to be monogenic. These conditions help to identify when the set \( \{1, \theta, \dots, \theta^{mn-1}\} \) forms an integral basis of the number field \( \mathbb{Q}(\theta) \), where \( \theta \) is a root of \( (f \circ g)(x) \). We also provide lower bound for the counting of such monogenic polynomials. Furthermore, we study the behaviour of solutions to certain related differential equations and present a class of polynomials with non-square-free discriminants as an application of the main results.

@@ -1,0 +1,6 @@
+--- PAPER 75/86 ---
+ID: 2606.09591
+Title: Fine-scale statistics for $\mathbb{Q}^n$
+Authors: Gaurav Aggarwal, Anish Ghosh, Jens Marklof
+Categories: math.NT, math.DS, math.PR
+Abstract: We study the distribution of rational points in $\mathbb{R}^n$, with denominators restricted to the interval $[Q-\Delta, Q]$, and $Q,\Delta\to\infty$ such that $\Delta/Q\to 0$. Previous results in the literature, due to Hall and others, were limited to Farey sequences, where the window size $\Delta$ is of the same order as $Q$. We prove the convergence of fine-scale statistics in a range of scaling limits and express the limit laws in terms of natural probability measures on the space of affine lattices. The key technical ingredient of our approach is an equidistribution theorem for slowly expanding horospheres, with some new exotic limit measures. Our techniques furthermore allow us to answer a recent question by Anderson, Boca, Cobeli and Zaharescu concerning the directional statistics of lattice points.

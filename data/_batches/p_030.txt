@@ -1,0 +1,6 @@
+--- PAPER 31/86 ---
+ID: 2606.08991
+Title: Binary necklaces with minimum nontrivial rotational Hamming distance 2
+Authors: Mykola Makhynko
+Categories: math.CO
+Abstract: We classify and count binary necklaces [w] for which the representative-independent minimum nontrivial rotational Hamming distance minDist(w) equals 2, the first positive layer after the periodic case. With a fixed priority convention, the set of nonzero shifts attaining distance 2 determines a classification into half-turn (HT), single-pair (SP), and subgroup-pattern (SUB) classes, while the residual multi-pair (MP) class is empty. We give closed formulas for the HT, SP, and SUB counts and an explicit Mobius-totient divisor-sum formula for |D_2(n)|. We also describe the larger subgroup-shaped branch, which contains the SUB cases together with boundary cases assigned by priority to HT and SP, by a quotient-background normal form and its boundary counts. For odd prime lengths p, every distance-2 necklace is rotation-equivalent to an arithmetic interval on the prime cycle, and |D_2(p)| = (p^2 - 4p + 7)/2.

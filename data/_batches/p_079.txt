@@ -1,0 +1,6 @@
+--- PAPER 80/86 ---
+ID: 2606.07824
+Title: Linear Bounds for Cohomology of Algebraic Groups
+Authors: Christopher P. Bendel, Nham Ngo
+Categories: math.GR
+Abstract: In this note, we establish an explicit upper bound for the dimension of the rational cohomology for a simple algebraic group over an algebraically closed field of prime characteristic.

@@ -1,0 +1,84 @@
+--- PAPER 25/86 ---
+ID: 2606.08762
+Title: Many holes but no large one: maximizing $k$-holes while forbidding $(k+1)$-holes
+Authors: Martin Andričík, Alica Dományová, Adam Džavoronok, Aleksa Džuklevski, Matouš Šafránek
+Categories: math.CO
+Abstract: We study the maximal number $m_{k,\ell,n}$ of empty convex $k$-gons ($k$-holes) determined by an $n$-point set in the plane in general position that contains no empty convex $\ell~$-gon, focusing on the first nontrivial case $\ell=k+1$. Our main result determines the exact value in the small-excess regime: for $n=k+a$ with $a\le k/2-1$, we prove $m_{k,k+1,k+a}=2^a.$ We also describe the extremal configurations attaining equality. Beyond this exact range, we provide upper and lower bounds in the proportional regime $n=\alpha k$ and in the regime where $k$ is fixed and $n$ goes to infinity. In the last mentioned regime we prove that $m_{k,k+1,n}=\Omega_k(n^{\lfloor\frac{k}{3}\rfloor})$ and $m_{k,k+1,n}=O_k(n^{\lceil\frac{k}{2}\rceil+1}).$
+
+--- PAPER 26/86 ---
+ID: 2606.08772
+Title: Pairwise meets of antichains in $\mathbb{Z}^d$
+Authors: Guillermo Rey
+Categories: math.CO
+Abstract: The meet of two points in $\mathbb{Z}^d$ is their coordinatewise minimum. We show that every finite antichain $A$ in $\mathbb{Z}^d$ has at least $c_d |A|^{d/(d-1)}$ distinct pairwise meets, where $c_d > 0$ depends only on $d$, and that the exponent $d/(d-1)$ is best possible. As a corollary we obtain an isoperimetric inequality for downsets: every finite downset $D$ in $\mathbb{Z}^d_{\geq 0}$ satisfies $|D| \geq c_d |\max(D)|^{d/(d-1)}$, where $\max(D)$ is its set of maximal elements. By prime factorization the meet bound also yields a lower bound on greatest common divisors: a primitive set of $N$ integers supported on at most $d$ primes has at least $c_d N^{d/(d-1)}$ distinct pairwise gcds.
+
+--- PAPER 27/86 ---
+ID: 2606.08809
+Title: A complete characterization of a family of permutation trinomials over $\mathbb F_{p^2}$
+Authors: Marco Timpanella
+Categories: math.CO
+Abstract: Let $p>3$ be a prime and let $$f_{\lambda_1,\lambda_2}(x)=x^{p^2-p+1}+\lambda_1x^{p^2}+\lambda_2x^{2p-1}\in\mathbb F_{p^2}[x].$$ We determine all pairs $(\lambda_1,\lambda_2)\in(\mathbb F_{p^2})^2$ for which $f_{\lambda_1,\lambda_2}$ is a permutation polynomial of $\mathbb F_{p^2}$. The final classification consists of three explicit families. The first one is the binomial case $\lambda_1=0$. The other two are obtained from the condition $\lambda_2=c\lambda_1^3$, with $c\in \mathbb F_{p}^{*}$, and are defined by two simple equations involving the norm $\lambda_1^{p+1}$. The proof is based on the AGW criterion and on the study of a quartic curve naturally associated with the rational function induced on the unit circle $\mu_{p+1}$.
+
+--- PAPER 28/86 ---
+ID: 2606.08834
+Title: Area and water-capacity statistics for upper hulls of Dyck paths
+Authors: Aleksander L. Owczarek, Thomas Prellberg
+Categories: math.CO
+Abstract: We study Dyck paths refined simultaneously by proper area and water capacity, where water capacity is measured above the path and below its lattice-path upper hull. The finite-height ingredients used in the enumeration are classical bounded-height area-polynomial and continued-fraction objects. The upper-hull decomposition produces a coupled area--capacity substitution, which gives an exact four-variable height expansion with denominator branches indexed by the height levels. The full generating function is asymmetric in the two weights, while the height summands admit a symmetric unreduced denominator representation under interchange of the area and capacity weights. In the open square $0<p,q<1$, we prove that the length radius of $G(x,1,p,q)$ is the minimum of the positive real denominator branches. The proof combines uniform normal convergence of the height expansion below this first branch with a Perron-root representation of the branch locations and an interval log-submodularity theorem for spectral radii of weighted paths. On the diagonal $p=q=s$, the classical Chebyshev specialisation gives explicit branch crossings and a $(1-s)^{2/3}$ branch-envelope accumulation law at the Dyck critical point.
+
+--- PAPER 29/86 ---
+ID: 2606.08913
+Title: Sharp Bounds for Guiduli-Type Hereditary Spectral Problems
+Authors: Dongxiu Cai, Jiasheng Zeng, Xiao-Dong Zhang
+Categories: math.CO
+Abstract: Guiduli asked in 1996 the following problem concerning the maximum spectral radius of a graph under hereditary density constraints. If an $n$-vertex graph $G$ satisfies $e(H)\le c|V(H)|^2$ for every subgraph $H$ of $G$, must one have $\lambda(G)\le 2cn$? More generally, what remains true when the exponent $2$ is replaced by a constant less than $2$? We study the natural power-law version of this question for all $1<p\le2$. For $1<p\le 2$, define \[ d_p(G)=\max_{\varnothing\ne S\subseteq V(G)}\frac{e(G[S])}{|S|^p}. \] We determine the sharp asymptotic upper bound for $\lambda(G)$ in terms of $d_p(G)$ and $n$. More precisely, every $n$-vertex graph $G$ with at least one edge satisfies \[ \lambda(G)\le \begin{cases} \left(\left(\max_{t\in\mathbb N_{\ge1}}\dfrac{t}{(t+1)^p}\right)^{-1}+o(1)\right)d_p(G)\sqrt n,&1<p<3/2,\\[0.4em] \left(\dfrac{3\sqrt3}{4}+o(1)\right)d_p(G)\sqrt{n\log n},&p=3/2,\\[0.4em] (\mathfrak C_p+o(1))d_p(G)n^{p-1},&3/2<p<2, \end{cases} \] and each constant here is best possible. Here $\mathfrak C_p$ is characterized by an exact variational problem over finite kernels. We apply a sparse graphon operator estimate to convert hereditary $p$-density bounds into sharp spectral bounds, and this estimate also explains the transition at the critical exponent $p=3/2$. For the endpoint $p=2$, Wilf's theorem gives the exact finite-$n$ bound $\lambda(G)\le 2d_2(G)n$, with equality for $K_n$. Thus Guiduli's power-law problem is resolved in its sharp asymptotic form for every $1<p\leq2$, including exact leading constants.
+
+--- PAPER 30/86 ---
+ID: 2606.08958
+Title: A spectral correlation inequality for increasing Boolean functions
+Authors: Fan Chang
+Categories: math.CO, math.PR
+Abstract: Talagrand's correlation inequality provides a quantitative strengthening of the Harris--Kleitman inequality for increasing Boolean functions. Motivated by a Fourier-analytic conjecture of Friedgut, Kahn, Kalai, and Keller, we prove that $$ \mathrm{Cov}(f,g)\ge 2\sum_{S\neq\emptyset}|S|\hat f(S)^2\hat g(S)^2 $$ holds for all increasing Boolean functions $f,g:\{0,1\}^n\to\{0,1\}$. The proof combines the reverse Bonami--Beckner inequality with Young's convolution inequality. We also establish a sharp pointwise inequality: for every $n\ge1$, every $0\le\rho\le1$, and every $f,g:\{0,1\}^n\to[0,1]$, the optimal constant $c_{\rho,n}$ for which $$ \left\langle f,T_\rho g \right\rangle\ge c_{\rho,n}\|f*g\|_2^2 $$ holds for all such $f,g$ is $1$ for $0\le\rho\le1/2$, $(2(1-\rho))^n$ for $1/2<\rho<1$, and $0$ for $\rho=1$. Integrating this pointwise inequality yields, for $n\ge1$, the slightly improved bound $$ \mathrm{Cov}(f,g)\ge 4\cdot\frac{n+1}{2n}\sum_{S\neq\emptyset}|S|\hat f(S)^2\hat g(S)^2. $$
+
+--- PAPER 31/86 ---
+ID: 2606.08991
+Title: Binary necklaces with minimum nontrivial rotational Hamming distance 2
+Authors: Mykola Makhynko
+Categories: math.CO
+Abstract: We classify and count binary necklaces [w] for which the representative-independent minimum nontrivial rotational Hamming distance minDist(w) equals 2, the first positive layer after the periodic case. With a fixed priority convention, the set of nonzero shifts attaining distance 2 determines a classification into half-turn (HT), single-pair (SP), and subgroup-pattern (SUB) classes, while the residual multi-pair (MP) class is empty. We give closed formulas for the HT, SP, and SUB counts and an explicit Mobius-totient divisor-sum formula for |D_2(n)|. We also describe the larger subgroup-shaped branch, which contains the SUB cases together with boundary cases assigned by priority to HT and SP, by a quotient-background normal form and its boundary counts. For odd prime lengths p, every distance-2 necklace is rotation-equivalent to an arithmetic interval on the prime cycle, and |D_2(p)| = (p^2 - 4p + 7)/2.
+
+--- PAPER 32/86 ---
+ID: 2606.09045
+Title: Embedding Finite Functions into Low-Degree Polynomial Functions over Commutative Rings
+Authors: Roman Bacik
+Categories: math.CO
+Abstract: A function $f \colon X^k \to X$ on a finite set embeds into a polynomial of total degree $d$ over a commutative ring $R$ if there is an injection $j \colon X \to R$ and a polynomial $g$ of total degree at most $d$ with $j \circ f = g \circ j^k$, where $j^k$ applies $j$ in each coordinate. These are the transition functions of $k$-neighbour cellular automata, and the injection $j$ is an enlargement of the alphabet that preserves the transitions. We prove three results, all verified in Lean~4 with Mathlib~\cite{bacik2026finbin}. Every unary function $f \colon X \to X$ embeds into a polynomial of total degree $1$. Every binary Kronecker delta embeds into a polynomial of total degree $4$. For every $d$ there is a binary function that does not embed into any polynomial of total degree $d$.
+
+--- PAPER 33/86 ---
+ID: 2606.09066
+Title: Tight Upper Bounds on Color Reversal by Local Inversions
+Authors: Hitendra Kumar, Kumud Singh Porte, R. B. Sandeep
+Categories: math.CO
+Abstract: A bicoloration of a graph $G=(V,E)$ is a map $\beta:V\to\{-1,1\}$. A local inversion at a vertex $v$ complements the subgraph induced by the neighbors of $v$ and simultaneously reverses the colors of all neighbors of $v$. Sabidussi (Discrete Mathematics, 1987) showed that every bicolored graph on $n$ vertices without isolated vertices admits a color reversal using at most $6n+3$ local inversions, and that any two bicolorings of such a graph can be transformed into each other using at most $9n$ local inversions. Recently, Porte, Sandeep, and Santra (CALDAM 2026) improved these bounds to $4n-3$ and $\lfloor(11n-3)/2\rfloor$, respectively. We prove the tight bound $3n$ by showing that, for every graph on $n$ vertices without isolated vertices, any bicoloring can be transformed into any other bicoloring using at most $3n$ local inversions. We also show that this bound is best possible: for complete graphs and stars on $n$ vertices, at least $3n$ local inversions are required to reverse the colors of all vertices. Moreover, the proof of the upper bound is constructive: given two bicolorings, it produces, in polynomial time, a sequence of at most $3n$ local inversions transforming one into the other.
+
+--- PAPER 34/86 ---
+ID: 2606.09158
+Title: The Size of the Intersection of $q$-ary Hamming Balls
+Authors: Ville Junnila, Tero Laihonen, Tuomo Lehtilä, Pavan Padavu Devaraj
+Categories: math.CO, cs.DM
+Abstract: The interest in studying the size of the intersection of multiple $q$-ary Hamming balls has grown due to the recent advances in DNA-based data storage systems. We present an exact formula for the cardinality of the intersection of $s$ Hamming balls of varying radii over a $q$-ary alphabet. It is known that the distances between the center points of the Hamming balls are not enough, in general, to determine the size of the intersection. Based on our formula, we are able to find more refined structural properties of the center points for determining the exact size of the intersection. Moreover, we also analyze the size of the intersection for sufficiently large $n$. When $s=3$, we give the necessary and sufficient conditions (for all $q\ge 2$, $q\neq 6$ and sufficiently large $n$) to obtain the maximum size of the intersection when the center points of the Hamming balls have a given minimum distance and demonstrate how to compute it using our general formula.
+
+--- PAPER 35/86 ---
+ID: 2606.09231
+Title: Constrained homomorphism orders
+Authors: Jiri Fiala, Jan Hubicka, Yangjing Long
+Categories: math.CO
+Abstract: We study partial orders induced by constrained variants of finite graph homomorphisms: monomorphisms, embeddings, full homomorphisms, vertex-surjective, edge-surjective and surjective homomorphisms, and locally injective, locally surjective and locally bijective homomorphisms. For each order we ask for analogues of the standard structural properties of the graph homomorphism order: canonical cores, past- or future-finiteness, universality, gaps and finite dualities. The comparison shows which phenomena are specific to ordinary homomorphisms and which are consequences of simpler order-theoretic mechanisms. We identify cores for full and surjective homomorphisms, relate full-homomorphism cores to point-determining graphs, characterize gaps in the full homomorphism order, and give finite obstruction bounds for several one-sided finite orders. We also analyze locally constrained homomorphisms on connected graphs. In particular, locally injective homomorphisms have all connected graphs as cores, admit infinite-chain density under natural degree-refinement assumptions, have explicit gap witnesses, and are universal already on finite connected bipartite subcubic cactus graphs. The paper reorganizes and extends several earlier arguments into a single framework for constrained homomorphism orders.
+
+--- PAPER 36/86 ---
+ID: 2606.09321
+Title: Proof of Conjecture 19 of Ballantine, Beck, Merca, and Sagan on Elementary Symmetric Partitions
+Authors: Arnav Garg
+Categories: math.CO
+Abstract: Ballantine, Beck, Merca, and Sagan (arXiv:2409.11268) conjectured four identities, collectively Conjecture 19, relating the image of the map pre_k on integer partitions to four OEIS sequences. We prove parts (i) and (iii) unconditionally, prove part (iv) under the assumption that pre_2 is injective on partitions of n (Conjecture 1 of the same paper, and show this assumption is in fact equivalent to (iv)), and for part (ii) we prove the partition-theoretic half unconditionally and reduce the remaining content to a 2006 conjecture of Dean Hickerson on the OEIS concerning Huffman coding. We also correct a sign error in the published statement of part (iii): the correct identity is chi(ImP_3(n)) = A213213(n) - 1, not 1 + A213213(n) as stated.
+

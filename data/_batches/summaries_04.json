@@ -1,0 +1,110 @@
+[
+  {
+    "id": "2606.07956",
+    "tldr": "本文研究了纯数域 $K_a=\\mathbb{Q}(\\theta)$（$\\theta^n=a$）的 Minkowski shape，证明了奇偶刚性二分法和显式判别式公式。",
+    "motivation": "Minkowski shape 是数域的算术不变量，编码了单位格和整基的几何信息。纯数域是最简单的非 Galois 数域族，其 shape 的完整描述在此之前不为人知。",
+    "method": "在整除 $n$ 的素数处满足显式局部假设的条件下，证明了 shape 的离散-阿基米德分解。将 shape 分解为由正规单项式产生的对角矩阵部分和由正规整基产生的整数矩阵部分。利用 Galois 理论和格嵌入方法分析奇偶差异。",
+    "result": "(1) 奇偶刚性二分法：对奇数 $n\\ge 3$，Minkowski shape 是可容许纯 $n$ 次数域的完全不变量；对 $n=2r$，shape 确定核心域 $\\mathbb{Q}(|a|^{1/r})$；(2) 显式的判别式绝对值公式，包含指数向量和除子格分解；(3) 纯域 shape 轨迹支持在 shape 空间的有理对角叶上。",
+    "conclusion": "该结果建立了纯数域 shape 的完整算术理论，揭示了奇偶次数之间的本质差异。",
+    "future_work": "研究非纯数域的 shape 理论，以及 shape 在数域的渐近分布和随机矩阵理论中的应用。"
+  },
+  {
+    "id": "2606.07959",
+    "tldr": "本文证明了序列 $g_n=\\gcd(a^n-1,b^n-1)$ 满足常系数线性递推当且仅当 $a$ 和 $b$ 乘法相关，并建立了局部结构和 Ailon-Rudnick 猜想的结构性归约。",
+    "motivation": "序列 $\\gcd(a^n-1,b^n-1)$ 是数论中经典的研究对象，与整除序列理论和 Ailon-Rudnick 猜想（关于 $\\gcd(a^n-1,b^n-1)$ 何时 $>1$ 的问题）密切相关。",
+    "method": "利用整除序列的代数理论和 $p$-adic 赋值分析。通过局部-整体原理和算术级数方法分析 $g_n$ 的支持集。使用 resultant 和素理想分解建立与 Ailon-Rudnick 猜想的联系。",
+    "result": "(1) $(g_n)$ 满足常系数线性递推当且仅当 $a,b$ 乘法相关；(2) 若 $a,b$ 乘法无关，则所有满足 $W_n\\mid a^n-1$ 且 $W_n\\mid b^n-1$ 的整线性整除序列 $(W_n)$ 是周期的；(3) 给出了 $g_n$ 的精确支持和奇素数赋值公式；(4) 建立了 Ailon-Rudnick 整数猜想的多个结构性归约（本原支持、素数幂射线、素数指标、resultant 公式）。",
+    "conclusion": "该结果深刻揭示了 $\\gcd(a^n-1,b^n-1)$ 的结构与乘法相关性之间的关系，为解决 Ailon-Rudnick 猜想提供了系统化的归约路径。",
+    "future_work": "利用这些结构性归约最终解决 Ailon-Rudnick 整数猜想。"
+  },
+  {
+    "id": "2606.08024",
+    "tldr": "本文证明了：对奇数 $n$，Fibonacci 多项式 $F_n(x)$ 的所有不可约因子都是 monogenic 的；对偶数 $n$，Lucas 多项式 $L_n(x)$ 的所有不可约因子都是 monogenic 的。",
+    "motivation": "Monogenity（整基的存在性）是代数数论中的基本概念。Fibonacci 和 Lucas 多项式是经典的正交多项式族，其不可约因子生成的数域的 monogenity 是自然的问题。",
+    "method": "利用 Fibonacci 和 Lucas 多项式的代数性质（递推关系、根的结构、判别式公式）。通过分析多项式的 Newton 多边形和 Dedekind 判别式定理来证明 monogenity。",
+    "result": "(1) 对每个奇正整数 $n$，$F_n(x)$ 的所有不可约因子都是 monogenic 的；(2) 对每个偶正整数 $n$，$L_n(x)$ 的所有不可约因子都是 monogenic 的。",
+    "conclusion": "该结果系统建立了 Fibonacci 和 Lucas 多项式族的 monogenity 性质，为这些经典多项式生成的数域提供了整基存在的保证。",
+    "future_work": "研究 $F_n(x)$ 对偶数 $n$ 和 $L_n(x)$ 对奇数 $n$ 的 monogenity。探索其他正交多项式族的类似性质。"
+  },
+  {
+    "id": "2606.08040",
+    "tldr": "本文给出了 Boshernitzan 定理的新证明，并将其推广到 Hardy 场函数在加权平均下的均匀分布，作为应用证明了 $x^{3/2}$ 的短区间均匀分布。",
+    "motivation": "Boshernitzan 定理是 Hardy 场函数均匀分布的经典结果。推广到加权平均能够处理更广泛的求和方式（如对数平均、Cesàro 平均），且短区间均匀分布在遍历论和数论中有应用。",
+    "method": "使用可和性理论方法给出 Boshernitzan 定理的新证明。将经典准则推广到广泛的加权平均类。作为应用，证明了对 $f(x)=x^{3/2}$ 和任意区间 $(a,b)\\subset[0,1]$，在 $[N-N^{1/4},N]$ 中存在 $n$ 使 $f(n)\\bmod 1\\in(a,b)$。",
+    "result": "(1) Boshernitzan 准则的加权平均版本：$f$ 关于某类加权平均均匀分布模 1 的充要条件；(2) 对 $f(x)=x^{3/2}$ 证明了短区间 $[N-N^{1/4},N]$ 中的均匀分布性质。",
+    "conclusion": "加权平均框架统一了多种求和方式下的均匀分布准则，短区间应用展示了方法的有效性。",
+    "future_work": "推广到更广泛的 Hardy 场函数和更短的区间。探索与其他均匀分布概念（如 well-distribution、完全均匀分布）的联系。"
+  },
+  {
+    "id": "2606.08075",
+    "tldr": "本文证明了若 $S$ 是满足条件 $\\mathcal{G}$ 的 gcd-closed 集且 $a\\mid b$，则 $a$ 次幂 LCM 矩阵整除 $b$ 次幂 LCM 矩阵，确认了 Hong 的猜想。",
+    "motivation": "幂 GCD 矩阵和幂 LCM 矩阵之间的整除关系是矩阵论和数论的交叉问题。Bourque-Ligh（FC 集）、Hong（除子链）已建立部分结果，但 gcd-closed 集的一般条件是开放问题。",
+    "method": "通过分析 GCD 和 LCM 矩阵的结构（以除子格上的算术函数表示），定义覆盖条件 $\\mathcal{G}$（对每个 $x\\in S$，$G_S(x)$ 的元素个数条件），并在此基础上建立整除关系。",
+    "result": "若 $S$ 是满足条件 $\\mathcal{G}$ 的 gcd-closed 集且 $a\\mid b$，则 $[S^b]$ 被 $[S^a]$ 整除（在 $M_n(\\mathbb{Z})$ 中）。这确认了 Hong 2026 年在 Bull. Aust. Math. Soc. 中提出的猜想。",
+    "conclusion": "该结果完整地刻画了 gcd-closed 集上 LCM 幂矩阵整除关系的充分条件，统一了之前分散的结果。",
+    "future_work": "探索条件 $\\mathcal{G}$ 是否也是必要的，以及研究更一般的矩阵类（如 meet 矩阵、join 矩阵）的整除关系。"
+  },
+  {
+    "id": "2606.08085",
+    "tldr": "本文证明了 $P$-adic Carlitz zeta 值、Pellarin $L$-级数和几乎所有的 Dirichlet-Goss $L$-级数在正偶数点的消失阶总是 1。",
+    "motivation": "$P$-adic $L$-函数是函数域算术的核心对象，与 Anderson $t$-模的类数公式密切相关。在正偶数点的消失阶是理解特殊值算术意义的关键。",
+    "method": "利用 Anglès、Ngo Dac 和 Tavares-Ribeiro 2020 年证明的 Anderson $t$-模简化类公式的 $P$-adic 版本。通过将该公式应用于 Carlitz zeta 值、Pellarin $L$-级数和 Dirichlet-Goss $L$-级数的适当扭曲来得到结果。",
+    "result": "$P$-adic Carlitz zeta 值在正偶数点的自然扭曲的消失阶总是 1。对 $P$-adic Pellarin $L$-级数和几乎所有 $P$-adic Dirichlet-Goss $L$-级数同样成立。",
+    "conclusion": "该结果揭示了函数域 $P$-adic $L$-函数的特殊值在偶数点的普遍零行为，与数域情况形成对比。",
+    "future_work": "研究奇数点的消失阶，以及这些 $L$-函数的特殊值与 $t$-模的算术不变量（如类数、regulator）之间的联系。"
+  },
+  {
+    "id": "2606.08089",
+    "tldr": "本文证明了每个充分大的整数（除模 16 同余于 15 或 16 者）可表示为 14 个 D.H. Lehmer 数的四次幂之和，且每个充分大的整数可表示为 16 个四次幂之和。",
+    "motivation": "Waring 问题研究将整数表示为固定数量 $k$ 次幂之和。D.H. Lehmer 数是满足 $2\\nmid a+\\overline{a}$ 的模 $p$ 互素剩余，限制到 Lehmer 数的 Waring 问题是经典 Waring 问题的精细化。",
+    "method": "利用圆法和加性数论的标准技术（指数和估计、奇异级数、主项和误差项分析），附加 Lehmer 数条件的同余限制通过特征和来处理。",
+    "result": "每个充分大的整数（除非同余于 15 或 16 模 16）可表示为 14 个 D.H. Lehmer 数的四次幂之和。每个充分大的整数可表示为 16 个 D.H. Lehmer 数的四次幂之和。",
+    "conclusion": "该结果将经典 Waring 问题推广到了 Lehmer 数约束的情形，得到了接近最优的幂数量。",
+    "future_work": "降低所需四次幂的数量（争取达到经典 Waring 问题的 $g(4)=19$ 对应的量级），以及探索更高次幂和更多变元的情形。"
+  },
+  {
+    "id": "2606.08125",
+    "tldr": "本文证明了与 $A_2$ 根系相关的第二类广义 Chebyshev 多项式不是算术例外的（arithmetically exceptional）。",
+    "motivation": "算术例外多项式是有限域上置换多项式的特殊情况，在密码学和编码理论中有应用。判定特定多项式族是否为算术例外是有限域理论中的重要问题。",
+    "method": "通过研究某些分圆元素的范数来实现有限域的参数化。利用根系 $A_2$ 的组合结构和分圆多项式的算术性质进行分析。",
+    "result": "与 $A_2$ 根系相关的第二类广义 Chebyshev 多项式不是算术例外的。",
+    "conclusion": "该否定结果澄清了 $A_2$ 型 Chebyshev 多项式在有限域上的性质，排除了其作为算术例外多项式的可能性。",
+    "future_work": "研究其他根系类型的广义 Chebyshev 多项式是否可能是算术例外的。"
+  },
+  {
+    "id": "2606.08216",
+    "tldr": "本文解决了 Erdős 问题 684 的密度 1 版本：证明了对几乎所有的 $n$，使 $u(n,k)>n^c$ 的最小 $k$ 满足 $f_c(n)\\sim\\frac{c}{1-\\gamma}\\log n$，特别是 $f_2(n)\\sim 4.73\\log n$。",
+    "motivation": "Erdős 问题 #684 询问二项式系数的小素数部分 $u(n,k)$ 何时超过 $n^2$。原问题是最坏情形问题，密度 1 版本（几乎所有的 $n$）提供了该问题的宏观视角。",
+    "method": "利用 Kummer 定理将 $\\log u(n,k)$ 重写为进位指标之和。通过完全剩余类平均得到 $m(k)=k\\sum_{p\\le k}\\frac{\\log p}{p-1}-\\log k!=(1-\\gamma)k+o(k)$。证明了在除掉零密度例外集后，$k\\le A\\log X$ 范围内的一致集中。还证明了对数范围内的 Gauss 涨落。",
+    "result": "(1) $f_c(n)=(\\frac{c}{1-\\gamma}+o(1))\\log n$ 对几乎所有 $n$ 成立；(2) 特别地 $f_2(n)=(4.7305\\dots+o(1))\\log n$；(3) 在对数范围内证明了 Gauss 涨落：$\\frac{\\log u(n,k)-m(k)}{\\sqrt{V(k)}}\\Rightarrow\\mathcal{N}(0,1)$，其中 $V(k)\\sim(2-\\log(2\\pi))k\\log k$。",
+    "conclusion": "该结果给出了 Erdős 问题 684 的 normal-order 定理，揭示了二项式系数小素数部分的典型渐进行为，常数 $1-\\gamma$ 反映了素数分布的算术本质。",
+    "future_work": "处理 Erdős 问题 684 的最坏情形版本。将方法推广到多项式系数和其他组合数。"
+  },
+  {
+    "id": "2606.08353",
+    "tldr": "本文研究了全纯尖形式和 Maass 形式在深度方向上的 murmuration 密度，对导子 $\\ell^n$ 的尖形式（$n\\to\\infty$ 或 $\\ell\\to\\infty$）导出了统一的密度公式。",
+    "motivation": "Murmuration 现象是尖形式 Fourier 系数的算术平均值与导子之间的统计关联。深度方向（固定素数 $\\ell$，导子指数 $a\\to\\infty$）的研究补充了之前水平方向的成果。",
+    "method": "对 $\\mathrm{GL}_2$ 和在 $\\{\\infty,\\ell\\}$ 处分歧的定四元数代数，利用迹公式和 Petersson 内积的渐近分析。将全纯形式和 Maass 形式统一处理。",
+    "result": "(1) 确定了全纯尖形式（固定权）在导子 $\\ell^{2a}$ 深度方向（$a\\to\\infty$）的 murmuration 密度，与奇数导子指数情形一致；(2) 因此导子 $\\ell^n$（$n\\to\\infty$）有统一的密度公式；(3) 将结果推广到 Maass 形式；(4) 计算了 $\\ell\\to\\infty$（固定 $n\\ge 3$）的 murmuration 密度。",
+    "conclusion": "该结果统一了深度和水平两个方向上的 murmuration 密度，揭示了其普适性。",
+    "future_work": "研究更一般的导子形式（非素数幂）的 murmuration 现象，以及与其他统计现象（如 Sato-Tate、算术量子混沌）的联系。"
+  },
+  {
+    "id": "2606.08640",
+    "tldr": "本文给出了 $\\mathbb{F}_2$ 上特殊完美多项式的一些必要条件。",
+    "motivation": "$\\mathbb{F}_2$ 上的完美多项式是经典完美数的多项式模拟。特殊完美多项式构成重要子类，其结构的完整刻画是开放问题。",
+    "method": "利用 $\\mathbb{F}_2[x]$ 中多项式的因式分解和 Euler 函数的多项式模拟。通过分析特殊完美多项式的度数约束和 Euler 因子的结构来导出必要条件。",
+    "result": "给出了 $\\mathbb{F}_2$ 上特殊完美多项式必须满足的若干结构性必要条件。",
+    "conclusion": "这些必要条件缩小了 $\\mathbb{F}_2$ 上特殊完美多项式的搜索空间。",
+    "future_work": "将必要条件组合以得到分类结果，或构造新的特殊完美多项式族。"
+  },
+  {
+    "id": "2606.08662",
+    "tldr": "本文证明了数论变换（NTT）满足强稀疏权衡不确定性原理：$|\\mathrm{Supp}(f)|+|\\mathrm{Supp}(\\hat f)|\\ge q+1$，并应用于稀疏指数多项式的恒等测试。",
+    "motivation": "受 Li 和 Wu（ITCS'26）的多项式恒等测试工作的启发，NTT 的不确定性原理对密码学（如 FHE 中的编码）和算法（稀疏多项式的黑盒恒等测试）有重要应用。",
+    "method": "利用有限域上群代数的代数结构（$\\mathbb{F}_p^{\\mathbb{Z}_q}$ 与 $\\mathbb{F}_p[x]/(x^q-1)$ 的同构）。通过素数的 Chebotarev 密度定理证明概率意义上的不确定性原理。应用层面使用 Reed-Solomon 解码的类似方法构造黑盒恒等测试。",
+    "result": "(1) 对固定素数 $q$ 和几乎所有满足 $p\\equiv 1\\pmod q$ 的素数 $p$，证明了 $|\\mathrm{Supp}(f)|+|\\mathrm{Supp}(\\hat f)|\\ge q+1$；(2) 作为应用，获得了 $k$-稀疏指数多项式的黑盒恒等测试，当 $q$ 适度大于 $k$ 时具有消失的可靠性误差。",
+    "conclusion": "该不确定性原理是 NTT 的基本性质，为稀疏指数多项式的算法测试提供了理论基础。",
+    "future_work": "消除对 $q$ 必须为素数的限制，以及探索其他有限交换群上变换的不确定性原理。"
+  }
+]
