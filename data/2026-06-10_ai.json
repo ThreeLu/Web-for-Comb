@@ -1,0 +1,344 @@
+[
+  {
+    "id": "2606.09913",
+    "tldr": "本文证明了 OEIS 中若干关于特殊矩阵的行列式与积和式（permanent）的猜想，并得到了额外的闭式公式。",
+    "motivation": "OEIS 中收录了大量关于整数序列的猜想，其中许多涉及 Toeplitz 矩阵、cross 矩阵、Kronecker 幂矩阵等特殊矩阵的行列式和积和式。这些猜想长期缺乏证明，本文旨在填补这一空白。",
+    "method": "使用行列和列变换、分块行列式公式、Cauchy 行列式、Sylvester 行列式定理以及 $LU$ 分解等线性代数技术。",
+    "result": "证明了 OEIS 中关于特殊矩阵行列式和积和式的多个猜想，并为若干相关整数序列获得了此前未被猜想的闭式公式。",
+    "conclusion": "系统性地解决了一类 OEIS 猜想，所用的方法具有一般性，可能适用于更多特殊矩阵的行列式/积和式计算。",
+    "future_work": "将类似技术应用于其他类型的特殊矩阵序列，或探索这些闭式公式的组合意义。"
+  },
+  {
+    "id": "2606.10035",
+    "tldr": "本文用生成函数方法研究了 Dyck 路径中由棋盘染色定义的 white-height，证明其在两种模型下的渐近均值为 $\\frac12\\sqrt{\\pi n}$。",
+    "motivation": "Dyck 路径是组合数学中的经典对象，其高度等统计量已被广泛研究。通过引入棋盘染色（checkerboard labelling）定义的 white-height 提供了新的组合视角。",
+    "method": "使用 generating functions 和渐近分析的经典技巧，对两种不同的棋盘染色模型分别推导均值渐近公式。",
+    "result": "在半长度为 $n$ 的 Dyck 路径中，两种模型下的平均 white-height 均渐近于 $\\frac12\\sqrt{\\pi n}$。",
+    "conclusion": "结果简洁优美，适合作为教学案例向学生展示生成函数和渐近分析的应用。",
+    "future_work": "可以研究 white-height 的高阶矩、极限分布，或推广到其他类型的格点路径。"
+  },
+  {
+    "id": "2606.10133",
+    "tldr": "本文证明 $k$-anonymity by partitions 在有固定边数的二分图中最大化 perfect matching 数量，为匿名系统中的 partition 设计提供了组合数学理由。",
+    "motivation": "在用户行为二分图中，perfect matching 的数量是匿名性的自然度量：matching 越多，攻击者的不确定性越大。一个基本问题是何种图结构在固定边数下最大化此数量。",
+    "method": "使用 Brègman's Theorem 证明将用户划分成等规模的组并令每组构成完全二分图可以达到 perfect matching 的理论上界。对于无法精确划分的情况，构造了渐近达到上界的图族。",
+    "result": "$k$-anonymity by partitions 在固定边数下最大化 perfect matchings；即使攻击者以最具破坏性的方式去匿名化一个用户后，剩余图仍是最优的 partition 图。",
+    "conclusion": "为 $k$-anonymity by partitions 在匿名系统设计中的广泛使用提供了组合数学支撑，从图论角度解释了这种设计的合理性。",
+    "future_work": "考虑其他匿名性度量（如最大 entropy 或最小互信息）下的最优化图结构问题。"
+  },
+  {
+    "id": "2606.10152",
+    "tldr": "本文研究了选区重划中 ReCom Markov 链的不可约性，在三角格子和 $3 \\times n$ 网格图上证明了若干不可约性结果，并构造了反例展示其脆弱性。",
+    "motivation": "ReCom Markov 链广泛用于选区重划的 MCMC 异常值分析中，其不可约性是保证算法正确性的关键。但目前已知不可约的 ReCom 链类别非常少，急需拓展。",
+    "method": "对三角格子的子集及 $3 \\times n$ 网格图进行图论和组合分析，证明 ReCom moves 的连通性。通过构造细分三角格子的反例展示不可约性的脆弱。",
+    "result": "当底层对偶图为三角格子的三角子集且每个选区由两个合并地理区域构成时，ReCom 链不可约。同时构造了无穷族反例，其中单次 ReCom move 后总是回到原图。在 $3 \\times n$ 网格图划分为三个大小为 $n$ 的选区时也证明了不可约性。",
+    "conclusion": "在非常有限的已知不可约 ReCom 链类中增加了新成员，同时揭示了不可约性的脆弱本质——即使结构上接近三角格子的图也可能不满足不可约性。",
+    "future_work": "寻找更多保证 ReCom 链不可约的图类条件，或研究在实际选区图中不可约性成立的充分条件。"
+  },
+  {
+    "id": "2606.10176",
+    "tldr": "本文证明了在有限图的 chromatic symmetric function 中始终以非负 $e$-系数出现的分拆恰好是 hook partitions。",
+    "motivation": "chromatic symmetric function 是 Stanley 引入的图不变量，其 $e$-正性（e-positivity）与图的组合结构密切相关。理解哪些分拆始终具有非负 $e$-系数是澄清 $e$-正性猜想的关键步骤。",
+    "method": "通过对图和分拆结构的细致组合分析，结合 symmetric function 理论。",
+    "result": "在所有有限图的 chromatic symmetric function 中始终以非负 $e$-系数出现的分拆恰好是 hook partitions（即形如 $(a, 1^b)$ 的分拆）。",
+    "conclusion": "精确刻画了普遍 $e$-正性分拆的范围，为进一步研究特定图类的 $e$-正性提供了基准。",
+    "future_work": "对特定图类（如 claw-free 图、comparability 图）研究哪些额外的分拆具有非负 $e$-系数。"
+  },
+  {
+    "id": "2606.10214",
+    "tldr": "本文证明了随机有向二分图的 sandpile group 的 $p$-Sylow 子群的极限分布猜想，通过限制在高概率的好图集上克服了 surjective moments 发散的技术困难。",
+    "motivation": "Bhargava, DePascale 和 Koenig 对随机有向 Erdős-Rényi 二分图的 sandpile group 的 $p$-Sylow 子群提出了极限分布猜想。此前的工作依赖 surjective moments 方法，但在有向二分图情形下这些矩常常发散。",
+    "method": "将图集划分为高概率的\"好\"子集和稀有的\"坏\"子集：在好子集上计算条件 surjective moments（表现良好），坏子集对分布的贡献可忽略但对 moments 的发散贡献被剔除。最后应用 Wood's universality theorem 得到分布收敛。",
+    "result": "证明了随机有向二分图 $\\vec G(n,\\lceil\\alpha n\\rceil ,v)$ 的 sandpile group 的 $p$-Sylow 子群收敛到猜想的极限分布（其中 $\\frac{1}{p}<\\alpha\\leq 1$）。",
+    "conclusion": "解决了一个关于随机图 sandpile group 的重要猜想，同时开发了处理发散 moments 的新技术——通过限制在高概率子集上计算条件矩。",
+    "future_work": "将该技术应用于其他随机图模型（如随机正则图）的 sandpile group 或 cokernel 分布问题。"
+  },
+  {
+    "id": "2606.10312",
+    "tldr": "本文系统研究了无环有向图的多种 Laplacian 型矩阵的谱性质，包括出/入度 Laplacian、关联 Laplacian 及其对称化/反对称化变体。",
+    "motivation": "有向图的 Laplacian 理论远不如无向图成熟，多种 Laplacian 型矩阵（$\\mathcal L_{\\mathrm{out}}, \\mathcal L_{\\mathrm{in}}, \\mathcal L_{\\mathrm{inc}}, \\mathcal S_{\\mathrm{out}}, \\mathcal K_{\\mathrm{out}}$）之间的关系和谱性质需要系统梳理。",
+    "method": "通过矩阵分析和代数图论方法，研究弧反转、补图操作下的谱和特征多项式关系，推导 join 和 line digraph 的显式公式。",
+    "result": "证明了 $\\mathcal L_{\\mathrm{inc}}(D)$ 与底层无向多重图的 Laplacian 一致；给出弧反转和补图下的谱关系（包括 Eulerian 有向图下 $\\mathcal S_{\\mathrm{out}}$ 的简化）；证明 $\\mathcal L_{\\mathrm{out}}$ 的谱半径不超过有向图阶数并刻画了等式情形；得到了正则有向图与其 line digraph 的出度 Laplacian 特征多项式的行列式恒等式。",
+    "conclusion": "为有向图 Laplacian 理论提供了系统的谱分析框架，建立了多种 Laplacian 之间的桥梁。",
+    "future_work": "将结果推广到加权有向图，研究这些 Laplacian 矩阵的特征值在随机有向图模型中的分布。"
+  },
+  {
+    "id": "2606.10326",
+    "tldr": "本文证明了对于所有奇数 $n \\ge 7$，Johnson 图 $J(n,3)$ 的 domination number $\\gamma(J(n,3)) = \\phi_n$，完成了所有 $n \\ge 6$ 的刻画。",
+    "motivation": "2025 年 Cornet, Dravec 和 Torres 对所有偶数 $n \\ge 6$ 确定了 $\\gamma(J(n,3))$ 并猜想奇数情形也取相同的值 $\\phi_n$。本文旨在完成对全部 $n \\ge 6$ 的完整刻画。",
+    "method": "基于 Fort-Hedlund covering numbers 的构造和对奇数 $n$ 的特殊情况的组合优化分析。",
+    "result": "证明了对每个奇数 $n \\ge 7$，$\\gamma(J(n,3)) = \\phi_n$，从而完成了对所有 $n \\ge 6$ 的 $J(n,3)$ 的 domination number 的确定。",
+    "conclusion": "完全解决了 Johnson 图 $J(n,3)$ 的 domination number 问题，是 domination 理论中一个干净完整的结论。",
+    "future_work": "研究更一般的 $J(n,k)$（$k>3$）的 domination number，或考虑其他 domination 变体（如 total domination、independent domination）在 Johnson 图上的值。"
+  },
+  {
+    "id": "2606.10391",
+    "tldr": "本文证明了 Shapiro 猜想：不存在任何 integral $[10,10,16]$ formula 可以作为 Hurwitz-Radon formula 的限制。",
+    "motivation": "Hurwitz-Radon formula 是平方和恒等式理论的核心对象。Shapiro 猜想断言一个特定的参数组合 $[10,10,16]$ 不能作为其限制出现，该猜想长期未被解决。",
+    "method": "通过对 Hurwitz-Radon formula 的代数结构和限制操作的深入分析。",
+    "result": "证明了不存在 integral $[10,10,16]$ formula 作为任何 Hurwitz-Radon formula 的限制。",
+    "conclusion": "解决了一个关于 Hurwitz-Radon formula 的经典猜想，推进了对平方和恒等式参数限制的理解。",
+    "future_work": "探索其他参数组合是否可能作为 Hurwitz-Radon formula 的限制，发展更系统的分类方法。"
+  },
+  {
+    "id": "2606.10404",
+    "tldr": "本文对 Godsil 和 Sun 关于强正则图的边删除 degree-similarity 问题给出了肯定回答，并加强到正交 degree-similarity。",
+    "motivation": "Godsil 和 Sun 提出：对于强正则图 $X$ 的任意两条不同边 $e,f$，边删除图 $X\\setminus e$ 和 $X\\setminus f$ 是否 degree-similar？这是代数图论中关于图重构和相似性的一个有趣问题。",
+    "method": "基于 orthogonal-intertwiner method 的边版本：通过证明在每个特征空间中投影端点向量的 Gram 矩阵相等，构造一个与邻接矩阵交换的正交矩阵，将一对有序端点向量映射到另一对。",
+    "result": "证明了如果 $X$ 是 $1$-walk-regular 图，则对任意两条边 $e,f$，$X\\setminus e$ 和 $X\\setminus f$ 是 orthogonally degree-similar 的——这比原始的 degree-similarity 问题更强。",
+    "conclusion": "不仅回答了 Godsil 和 Sun 的问题，还将其推广到更广泛的 $1$-walk-regular 图类和更强的正交相似性概念。",
+    "future_work": "研究删除多于一条边或删除顶点时的类似正交相似性问题。"
+  },
+  {
+    "id": "2606.10421",
+    "tldr": "本文从 6 阶 Latin 方阵和 Pasch 构型构造了 $\\mathbb{R}^{18}$ 中新的 57 线 equiangular lines 集合，某些构造仅有 5 个不同的 Seidel 特征值。",
+    "motivation": "在给定维度中寻找最大数量的 equiangular lines 是几何和组合数学中的经典问题。2023 年在 $\\mathbb{R}^{18}$ 中达到了 57 条线的记录，但此后构造的新例子有限。",
+    "method": "利用 6 阶 Latin squares 和 Pasch configurations，在 $A_5^3 \\oplus A_1^4$ 的整 overlattice 中实现为 affine equiangular sets。",
+    "result": "构造了 $\\mathbb{R}^{18}$ 中更多 57 线 equiangular lines 集合。与之前已知的例子不同，这些集合不是 strongly maximal 的，且其中一些仅有 5 个不同的 Seidel 特征值（此前已知的最少数量更少）。",
+    "conclusion": "丰富了 $\\mathbb{R}^{18}$ 中 equiangular lines 的构造，并展示了更低的 Seidel 特征值多样性，为相关问题提供了新的视角。",
+    "future_work": "是否在 $\\mathbb{R}^{18}$ 中存在超过 57 条 equiangular lines？在更高维度或不同 Seidel 特征值约束下做系统搜索。"
+  },
+  {
+    "id": "2606.10503",
+    "tldr": "本文通过 enriched $P$-partitions 推导了排列与其逆排列的 peaks 数量的联合分布的生成函数恒等式，并证明了渐近独立性。",
+    "motivation": "排列统计量的联合分布是计数组合学的重要课题。排列与其逆排列的 peaks 数量这两个统计量之间的关系在多变量组合学中很受关注。",
+    "method": "使用 enriched $P$-partitions 方法推导生成函数恒等式；对应的 peak 多项式系数满足二阶递推；通过 martingale 公式推导二元中心极限定理证明渐近独立性。",
+    "result": "得到排列与其逆的 peaks 数量的联合生成函数恒等式；对应的 peak 多项式 $W_n(s,t)$ 的系数满足二阶递推；证明了这两个统计量渐近独立，并给出其协方差的精确闭式（$O(n^{-1})$ 阶）。",
+    "conclusion": "建立了排列峰值统计量的一个干净的双变量框架，渐近独立性表明随着 $n$ 增大，排列的 peaks 数量与其逆排列的 peaks 数量几乎不相关。",
+    "future_work": "研究其他排列统计量对（如 descents、excedances）在排列-逆排列间的联合分布。"
+  },
+  {
+    "id": "2606.10652",
+    "tldr": "本文用 $\\mathcal Q^+(7,2)$ 的 ovoids 和 spreads 描述了第三个 sporadic 强正则图 $(120,56,28,24)$，等价于用 overlarge sets of Steiner systems $S(3,4,8)$ 描述。",
+    "motivation": "参数为 $(120,56,28,24)$ 且自同构群原始作用于顶点的强正则图恰好有三个同构类。其中两个属于经典族，第三个长期以来未被充分理解。",
+    "method": "利用有限几何和高阶组合设计，将第三个 sporadic 图描述为 $\\mathcal Q^+(7,2)$ 上 ovoids 和 spreads 的结构，等价于 overlarge sets of Steiner systems。",
+    "result": "给出了第三个 sporadic 强正则图 $(120,56,28,24)$ 的显式描述：它可由 $\\mathcal Q^+(7,2)$ 的 ovoids 和 spreads 构造，或等价地由参数为 $(3,4,8)$ 的 Steiner 系的 overlarge sets 构造。",
+    "conclusion": "完成了一个长期未被充分理解的 sporadic 强正则图的刻画，将其纳入已知的几何和设计理论框架。",
+    "future_work": "探索该 sporadic 图的更多性质（如自同构群、子图结构、与其他 sporadic 图的关系）。"
+  },
+  {
+    "id": "2606.10783",
+    "tldr": "本文证明了 signed graph 的最大特征值的扰动上界 $\\lambda_1(\\Gamma) \\le \\sqrt{\\lambda_1^2(\\Gamma - v) + 2d_\\Gamma(v) - 1}$，并刻画了等式成立的极图。",
+    "motivation": "signed graph 的谱理论研究最大特征值在顶点删除下的扰动行为。已有无符号图的类似结果，signed graph 情形下的精确界和极图刻画是自然的延伸。",
+    "method": "通过对 signed graph 邻接矩阵和特征值的分析，推导顶点删除后最大特征值的上界，并给出精细版。利用 switching equivalence 分类等式情形。",
+    "result": "证明了对 connected signed graph $\\Gamma$ 中任意非孤立点 $v$（$d_\\Gamma(v)\\ge 2$），$\\lambda_1(\\Gamma) \\le \\sqrt{\\lambda_1^2(\\Gamma - v) + 2d_\\Gamma(v) - 1}$。等式成立的极图 switching equivalent 于 balanced complete signed graph。",
+    "conclusion": "将经典的无符号图特征值扰动理论推广到 signed graph，极图刻画简洁明确。",
+    "future_work": "研究删除多条边或多个顶点时的谱扰动，或对 signed graph 的其他谱参数（如最小特征值、能量）建立类似界。"
+  },
+  {
+    "id": "2606.10870",
+    "tldr": "本文用 reproducing kernel 内积和 squarefree 代数上的多重线性模型给出了 Marcus-Spielman-Srivastava 有限自由卷积的结构性阐述，并引入一个由高阶累积量非正性刻画的多重线性多项式类 $\\mathcal{LC}_n$。",
+    "motivation": "有限自由卷积（finite free convolution）是自由概率论在多项式根上的类比，由 Marcus, Spielman 和 Srivastava 引入并在谱图论和组合学中有重要应用。但对其结构性的理解仍不充分。",
+    "method": "利用多项式空间上的 reproducing kernel 内积和 squarefree 代数上的多重线性模型：加法卷积变为代数乘法，nilpotent logarithm 线性化后恢复 Arizmendi-Perales 的有限自由累积量。",
+    "result": "引入类 $\\mathcal{LC}_n$：由高阶累积量非正性刻画，在加法卷积下封闭，满足与负相关测度相关的若干关键 permanence 性质。证明每个 graph Laplacian pencil 属于此类，其高阶累积量由诱导子图的 Hamilton 圈计数给出。",
+    "conclusion": "为有限自由卷积提供了一种新的结构性理解，将谱图论（Laplacian pencil）与自由概率论通过累积量联系起来。Hamilton 圈作为累积量的组合解释尤为有趣。",
+    "future_work": "探索 $\\mathcal{LC}_n$ 类在多项式优化、随机矩阵理论中的应用；研究其他组合不变量与高阶累积量的关系。"
+  },
+  {
+    "id": "2606.10885",
+    "tldr": "本文证明了对每个素数幂 $r\\ge 2$，大小至少为 $(r-1)n+1$ 的 Sperner 族包含 $r$ 个两两不交的非空子族，其并全部相同且交全部相同。",
+    "motivation": "Sperner 定理是极值集合论的基础结果。Hegedüs 猜想了 $r=2$ 的情形（阈值为 $n+1$）。将平衡 Sperner 族与拓扑 Tverberg 定理联系起来是全新的视角。",
+    "method": "组合了 multilinear polynomial method、连续性论证和 topological Tverberg theorem，将纯组合问题转化为拓扑框架下的不动点或分割问题。",
+    "result": "对每个素数幂 $r\\ge 2$，任何满足 $|\\mathcal F|\\ge (r-1)n+1$ 的 Sperner 族 $\\mathcal F\\subseteq 2^{[n]}$ 包含 $r$ 个两两不交的非空子族，其并集全部相等且交集全部相等。$r=2$ 的情形确认了 Hegedüs 猜想（阈值 $n+1$ 是紧的）。",
+    "conclusion": "将拓扑方法（Tverberg 定理）巧妙应用于纯组合的 Sperner 族问题，揭示了极值集合论与拓扑组合学之间深层联系。",
+    "future_work": "对非素数幂的 $r$ 是否成立类似的结论？探索更多拓扑方法在极值集合论中的应用。"
+  },
+  {
+    "id": "2606.10954",
+    "tldr": "本文展示了超过 70 个与已知最优图不同构的最优 degree-diameter Cayley 图，表明最优 degree-diameter Cayley 图经常不唯一。",
+    "motivation": "degree-diameter problem 是极值图论和网络设计中的核心问题。已知的最优 Cayley 图目录长期由少量构造主导，是否存在大量非同构的最优图尚不明确。",
+    "method": "使用随机搜索技术发现新的最优 Cayley 图，并系统地比较其参数（girth、algebraic connectivity、domination number、自同构群结构、圈分布、距离性质等）与已知构造的差异。",
+    "result": "展示了 70 多个与已知最优图不同构的最优 degree-diameter Cayley 图，在 girth、代数连通度、domination number、自同构群等结构不变量上有显著差异。",
+    "conclusion": "最优 degree-diameter Cayley 图远非唯一，大大丰富了已知最优图的目录，为极值图论和代数图论提供了新的基准。",
+    "future_work": "系统性搜索更大参数范围的最优 Cayley 图，研究是否存在无穷族非同构的最优 Cayley 图。"
+  },
+  {
+    "id": "2606.11005",
+    "tldr": "本文引入零和 polytope $\\mathcal P_G$ 将零和序列计数实现为 Ehrhart 理论中的格点计数问题，并证明了面分层刚性（face-stratified rigidity）和 cyclic sieving 现象。",
+    "motivation": "有限 Abel 群上的零和序列是加法组合学的核心对象。将零和序列计数与 Ehrhart 理论和多面体的刚性联系起来是全新的视角。",
+    "method": "构造有理多面体 $\\mathcal P_G$，其格点编码零和序列；利用有理 Ehrhart 理论推导组合互反定理；通过面分层分析证明刚性；利用 $\\operatorname{Aut}(G)$-作用研究等变生成函数和 cyclic sieving。",
+    "result": "引入了维度 $n-1$ 的零和 polytope $\\mathcal P_G$，满足 $|\\mathsf M(G,m)|=|m\\mathcal P_G\\cap \\mathbb Z^n|$。证明了面分层刚性：若两个零和 polytope 在特定 dilation 下的总格点数相等，则各维度的开面层计数也相等。还得到了等变生成函数、互反公式和自然循环作用下的 cyclic sieving 现象。",
+    "conclusion": "将零和序列计数自然地嵌入 Ehrhart 理论框架，揭示了多面体的刚性与群结构的深层联系。Cyclic sieving 现象的发现将零和问题与表示论联系起来。",
+    "future_work": "研究其他加法组合学计数问题是否可以纳入类似的 Ehrhart 理论框架，探索零和 polytope 的组合结构和面格。"
+  },
+  {
+    "id": "2606.11014",
+    "tldr": "本文证明了若一个 matroid 包含 Fano plane 或其对偶作为 minor，则其 toric ideal 没有任何 quadratic Gröbner basis，解决了 Herzog 和 Hibi 提出的著名问题。",
+    "motivation": "25 年前 Hibi, Herzog 和 Sturmfels 建立了 quadratic Gröbner bases 与 regular unimodular flag triangulations 的直接联系。Herzog 和 Hibi 提出：对 matroid base polytope 而言，quadratic Gröbner basis 的存在性是否可用多面体语言刻画？",
+    "method": "结合多种新技术：连接格点多面体的 $1$-skeleton 与其 dilation 中格点的引理；用 Boolean formulas 和 SAT solver 编码搜索问题；对称性破缺论证。",
+    "result": "证明了 Fano plane 及其对偶的 base polytope 不具有 regular unimodular flag triangulations，从而推出含有 Fano plane 或其对偶 minor 的 matroid 的 toric ideal 没有 quadratic Gröbner basis。",
+    "conclusion": "解决了一个 25 年的关于 matroid toric ideal 的公开问题，同时展示了 SAT solver 在组合交换代数中的新颖应用。",
+    "future_work": "刻画恰好具有 quadratic Gröbner basis 的 matroid 类（可能与 Fano-free matroids 的某种子类对应）。"
+  },
+  {
+    "id": "2606.11094",
+    "tldr": "本文在 edge-regular 图类中证明了离散 Bakry-Émery 理论中长期存在的猜想：满足 $\\mathrm{CD}(0,\\infty)$ 的有界度图具有多项式增长。",
+    "motivation": "离散 Bakry-Émery 理论将曲率概念引入图论。一个长期猜想断言满足 $\\mathrm{CD}(0,\\infty)$ 的有界度图具有多项式增长。之前缺乏证明该猜想的系统性方法。",
+    "method": "发现了一个自改进（self-improvement）现象：任何满足 $\\mathrm{CD}(\\kappa,\\infty)$ 的 edge-regular 图必然满足 $\\mathrm{CD}(\\kappa,n)$，其中 $n$ 是一个显式、通用且最优的维数参数。这使 volume doubling estimate 成为可能。",
+    "result": "对所有 edge-regular 图证明了 $\\mathrm{CD}(0,\\infty)$ 蕴含多项式增长，并得到了仅依赖于度数的 volume doubling 常数。",
+    "conclusion": "在 edge-regular 图类中完全解决了离散 Bakry-Émery 理论的核心猜想。self-improvement 现象本身也具有重要意义：曲率-维数条件在 edge-regular 图中自动提升。",
+    "future_work": "证明一般有界度图（不限于 edge-regular）的 $\\mathrm{CD}(0,\\infty)$ 蕴含多项式增长的猜想。"
+  },
+  {
+    "id": "2606.11108",
+    "tldr": "本文比较了 signed graph 的全负 signature 的 frustration index 与所有可能 signature 的最大 frustration index，对多类图进行了分类并反驳了 Zaslavsky 的三个猜想。",
+    "motivation": "frustration index 度量 signed graph 的不平衡程度，是 signed graph 理论的核心参数。全负 signature 是否最大化 frustration index 是一个自然的问题，之前没有系统研究。",
+    "method": "对 apex trees、fan graphs、wheel graphs、complete split graphs 等图类进行细致的组合分析，分类三种情形：全负 signature 不最大化、非唯一最大化、唯一最大化 frustration index。",
+    "result": "对 fan graphs 和 wheel graphs 完整刻画并计数了最大化 frustration index 的 signatures。展示了多类 signed graphs 的 frustration index 等于边不交负三角形的数量。反驳了 Zaslavsky 关于 frustration index 的三个猜想。",
+    "conclusion": "系统研究了 frustration index 与 signature 选择的关系，揭示了全负 signature 并不总是最大化 frustration index，并修正了 Zaslavsky 的三个猜想。",
+    "future_work": "对更一般的图类（如平面图、随机图）研究 frustration index 最大化 signature 的结构。"
+  },
+  {
+    "id": "2606.11137",
+    "tldr": "本文对一族从完全二分图中删边得到的图 $G_\\ell$，计算了 uprooted spanning trees 的精确计数和 spherical parking functions 的枚举公式。",
+    "motivation": "spherical $G$-parking functions 是停车函数理论的重要变体，但仅有少数图类有显式枚举公式。本文通过考虑一族新图 $G_\\ell$ 来拓展已知的显式结果。",
+    "method": "结合组合推导和 matrix tree theorem：先用组合方法直接计数 uprooted trees 得到 $|U_n^{F_\\ell}|$，再独立地用矩阵树定理验证，进而获得 spherical parking functions 的公式。",
+    "result": "对从 $K_{n+1}$ 删除连接顶点 1 到集合 $F_\\ell=\\{n-\\ell+1,\\ldots,n\\}$ 的 $\\ell$ 条边得到的图 $G_\\ell$，证明了 $|U_n^{F_\\ell}| = (n-1)^{n-\\ell-2}(n-2)^{\\ell}(n-\\ell-1)$ 和 $|\\mathrm{SPF}(G_\\ell)| = (n-1)^{n-3}(n-\\ell-1)^2$。",
+    "conclusion": "拓展了 spherical parking functions 有显式公式的图类，公式简洁优美，同时展示了组合方法与代数方法的互补。",
+    "future_work": "对更一般的图类（如从完全图中删除更多边）导出 spherical parking functions 的枚举公式。"
+  },
+  {
+    "id": "2606.11139",
+    "tldr": "本文对所有 $\\boldsymbol{\\alpha}\\in\\mathbb{F}_2^k$ 确定了 $\\boldsymbol{\\alpha}$-town 最大大小的精确渐近界，并研究了对称变体 $g_{\\boldsymbol{\\alpha}}(n)$。",
+    "motivation": "经典的 oddtown 和 eventown 问题是极值集合论的基石。其 $k$-wise 推广（$\\boldsymbol{\\alpha}$-town）的一般情形此前缺乏精确渐近界，Johnston-O'Neill 和 Wei-Zhang-Ge 提出了相关问题。",
+    "method": "利用线性代数方法（在 $\\mathbb{F}_2$ 上的内积论证）和组合构造，对每个 $\\boldsymbol{\\alpha}$ 给出上下界匹配的渐近估计。",
+    "result": "对所有 $\\boldsymbol{\\alpha}\\in\\mathbb{F}_2^k$ 确定了 $f_{\\boldsymbol{\\alpha}}(n)$ 的精确渐近界。也研究了对称变体 $g_{\\boldsymbol{\\alpha}}(n)$，其中 $i$-wise 交集大小被替换为交并大小 $|F_1\\cap\\cdots\\cap F_i|+|F_1\\cup\\cdots\\cup F_i|$。",
+    "conclusion": "完成了 oddtown/eventown 问题的 $k$-wise 推广的完整分类，统一了数个之前分散的结果。",
+    "future_work": "研究当 $\\boldsymbol{\\alpha}$ 的元素取自更大的有限域时的推广。"
+  },
+  {
+    "id": "2606.11174",
+    "tldr": "本文证明了对任意 $k$ 和任意有 $m$ 条边且无孤立点的图 $H$，Ramsey 数 $R(C_k,H)\\le (k-1)m+1\\le km$，解决了 Erdős 等人提出的问题。",
+    "motivation": "Ramsey 数 $R(C_k,H)$（圈对一般图的 Ramsey 数）的上界是一个经典问题。Erdős, Faudree, Rousseau 和 Schelp 提出并收录为图论问题集中的第 34 号问题。",
+    "method": "通过构造性论证和对图 $H$ 边数的估计，结合极值图论中关于圈存在性的经典结果。",
+    "result": "证明了 $R(C_k,H)\\le (k-1)m+1\\le km$ 对所有 $k$ 和所有无孤立点且 $m$ 条边的图 $H$ 成立。",
+    "conclusion": "解决了图论经典问题集中一个长期的公开问题，上界简洁且普遍适用。",
+    "future_work": "研究该上界何时是紧的，或对特定 $H$ 族（如完全图、完全二分图）给出更精确的界。"
+  },
+  {
+    "id": "2606.11178",
+    "tldr": "本文完整证明了 Nash-Williams 猜想（1970）：每个充分大的 $n$ 顶点三角形可分的图，若最小度至少为 $0.75n$，则具有三角形分解。",
+    "motivation": "Nash-Williams 猜想是极值设计理论（extremal design theory）中 50 多年的核心公开问题，关于最小度条件下三角分解的存在性。该猜想与许多其他极值设计问题直接相关。",
+    "method": "分三部分：Part I 证明 Fractional Nash-Williams 猜想（最小度 $\\ge 3n/4$ 蕴含分数三角分解）；Part II 证明稳定性定理（无分数 $K_3$-分解的近极值图在编辑距离意义下接近两个 $n/4$-正则图的 join）；Part III 从分数分解和稳定性定理推导完整猜想。",
+    "result": "完整证明了 Nash-Williams 猜想：最小度 $\\ge 3n/4$ 蕴含三角分解。证明首先将分数分解的阈值从约 $0.82733n$ 降低到紧界 $0.75n$，再通过稳定性分析排除近极值反例。",
+    "conclusion": "解决了极值设计理论中最重要的公开问题之一，标志着 triangle decomposition 问题的重大突破。分数分解阈值 $3/4$ 是紧的（两个 $n/4$-正则图的 join 恰好是最小度 $3n/4-1$ 的反例）。",
+    "future_work": "将 Nash-Williams 猜想的证明框架推广到其他图的分解问题（如 $K_4$-分解、$C_k$-分解）。"
+  },
+  {
+    "id": "2606.10041",
+    "tldr": "本文将 Liu-Wan 的 $T$-adic 指数和理论推广到部分 $T$-adic 指数和，证明了相关 $L$-函数的 $T$-adic 亚纯性，并给出了 $p$-adic 有理性和 Newton-over-Hodge 估计。",
+    "motivation": "Liu 和 Wan 引入 $T$-adic 指数和作为插值所有 $p$-power conductor 特征和的方法。将其推广到部分指数和对于理解不完全特征和的结构有重要意义。",
+    "method": "将 $T$-adic 理论框架推广到部分指数和；通过对 $L$-函数的 $T$-adic 分析证明亚纯性，进而推导 $p$-adic 有理性和 Newton-over-Hodge 估计。",
+    "result": "证明了相关 $L$-函数是 $T$-adic 亚纯的；作为推论，给出了所有 $p$-power conductor 特征的部分 $L$-函数的 $p$-adic 有理性的新证明。还获得了 Newton-over-Hodge 估计。",
+    "conclusion": "完善了 $T$-adic 指数和的理论体系，为部分特征和提供了有力的 $p$-adic 分析工具。",
+    "future_work": "将类似技术推广到更高维的部分指数和或更一般代数簇上的特征和。"
+  },
+  {
+    "id": "2606.10149",
+    "tldr": "本文证明了大类拟分裂约化 $p$-adic 群（包括所有拟分裂经典群）的 generic categorical 局部 Langlands 对应，并建立了经典对应提升到 $\\infty$-范畴对应的框架。",
+    "motivation": "局部 Langlands 对应是 Langlands 纲领的核心。Fargues-Scholze 提出了 $\\infty$-范畴对应，但完整证明在许多情形下仍需额外条件。本文旨在为更大类的群建立 categorical 对应。",
+    "method": "构造从自守侧的 generic Bernstein blocks 的稳定 $\\infty$-范畴到（算术）$L$-参数的模叠上的 ind-coherent sheaves 的稳定 $\\infty$-范畴的完全忠实函子。结合 Hansen-Mann 的近期工作和 Fargues-Scholze 构造与谱 Eisenstein 级数的预期相容性。",
+    "result": "为包含所有拟分裂经典群和某些非经典群的大类拟分裂约化 $p$-adic 群证明了 generic categorical 局部 Langlands 猜想；建立了经典对应到 $\\infty$-范畴对应的一般提升框架；在预期相容性假设下得到无 genericity 条件的完整 Fargues-Scholze categorical 等价。",
+    "conclusion": "在 categorical 局部 Langlands 纲领中取得重大进展，将 $\\mathrm{GL}_n$ 的结果推广到更广泛的群类。",
+    "future_work": "去除 genericity 条件并验证 Fargues-Scholze 构造与谱 Eisenstein 级数的相容性假设。"
+  },
+  {
+    "id": "2606.10242",
+    "tldr": "在广义 Riemann 假设下，本文对固定 conductor 的 Dirichlet $L$-函数虚部对数 $\\operatorname{Im}\\log L(\\tfrac12+it,\\chi)$ 证明了 Selberg-Tsang 型高矩界。",
+    "motivation": "Selberg 对 $\\zeta(s)$ 的 $S(t)=\\operatorname{Im}\\log\\zeta(\\tfrac12+it)$ 建立了高矩界；将其推广到固定 conductor 的 Dirichlet $L$-函数在 GRH 下是有待完成的自然延伸。",
+    "method": "将 Selberg 的 $S(t)$ 逐点近似公式移植到固定 conductor 的 $L(s,\\chi)$（在 GRH 下）；将表达式分解为三个 prime-power Dirichlet 多项式；使用 Soundararajan 的均值引理计算各部分的矩。",
+    "result": "在 GRH 下，对固定无平方因子奇 conductor $q\\ge 3$ 和本原非主特征 $\\chi$，证明了 $\\frac{1}{T}\\int_T^{2T} |X_\\chi(t)|^{2k}\\,dt \\le (C_K k L_T)^k$，其中 $L_T=\\log\\log(qT)$。作为推论，得到 Gaussian 尺度的尾部估计。",
+    "conclusion": "将 Selberg 的经典矩方法成功推广到 Dirichlet $L$-函数的虚部对数，填补了 $\\zeta(s)$ 与 $L(s,\\chi)$ 之间的理论空白。",
+    "future_work": "在无 GRH 假设下证明类似界，或研究更高阶的矩。"
+  },
+  {
+    "id": "2606.10331",
+    "tldr": "本文研究了同时满足 $\\varphi(n+12)=\\varphi(n)+12$ 和 $\\sigma(n+12)=\\sigma(n)+12$ 的合数 $n$ 的刻画，在 $n$ 和 $n+12$ 均为无平方因子半素数的情形下证明了猜想的完整性。",
+    "motivation": "素数四元组 $(p,p+2,p+6,p+8)$ 产生解 $n=p(p+8)$，但完整刻画仍为猜想。若能证明该猜想且有无穷多解，则推出有无穷多素数四元组——这是一个著名的开放问题。",
+    "method": "通过对 Euler 函数 $\\varphi$ 和除数和函数 $\\sigma$ 的 jump conditions 进行数论分析；在无平方因子半素数情形下做分类讨论；完成 $10^{12}$ 以内的计算机搜索。",
+    "result": "证明了当 $n$ 和 $n+12$ 均为无平方因子半素数时，猜想的刻画是完整的；不存在由单个素数幂构成的解。在 $10^{12}$ 以内的完全搜索未发现反例。",
+    "conclusion": "向完整刻画 jump conditions 问题的解和素数四元组无穷性猜想迈出了坚实一步。",
+    "future_work": "对更一般的 $n$ 的分解形式（含多个素因子或平方因子）证明猜想的完备性。"
+  },
+  {
+    "id": "2606.10521",
+    "tldr": "本文建立了 order 的唯一分解基本定理（Fundamental Theorem of Orders），将任何数域中的 order 唯一表示为不可约 order 的交。",
+    "motivation": "数域中的 order 是代数数论的基本对象，但缺乏类似整数素因数分解的结构定理。本文旨在建立 order 的唯一分解理论。",
+    "method": "通过分析 order 的 conductor 和 index 的性质，证明指标乘法分配性和 conductor 分解为两两互素理想，进而建立 FTO。",
+    "result": "证明了任何 order 可唯一表示为 irreducible orders 的交；在此分解下，index（在整数环中）乘法分配，conductor 分解为两两互素理想。得到了 Furtwangler 准则的更一般版本。",
+    "conclusion": "为 order 理论建立了类似于算术基本定理的结构框架，将统一和简化许多关于 order 的问题。",
+    "future_work": "将 FTO 应用于数域的加权计数，这一应用已被作者预告。"
+  },
+  {
+    "id": "2606.10523",
+    "tldr": "本文开发了判别式多项式奇异点处 Ekedahl 筛法的专门版本，通过绕开标准归纳框架，将筛法简化为高效的两步或一步过程，获得了改进的误差项。",
+    "motivation": "Ekedahl 筛法是计数算术对象的有力工具，但传统归纳形式应用于高偏斜盒（highly skew boxes）时常产生次优界。需要一种绕开此限制的专门化筛法。",
+    "method": "利用判别式在其两个最极端系数之外的非退化性质，绕开标准归纳框架，设计了二步（有时一步）的高效筛法过程。建立 robust generic tail-end 估计以及无平方因子的 power-saving 界。",
+    "result": "最大化了 sieving modulus 的容许范围，获得了关于某些多项式有界无平方因子值计数的改进误差项，并为按判别式加权计数数域提供了基础的几何筛法估计。",
+    "conclusion": "针对判别式的几何特性开发了专门化的 Ekedahl 筛法，显著提升了效率，为数域计数问题提供了强有力的技术工具。",
+    "future_work": "将专门化筛法应用于其他具有类似退化性质的判别式或多项式族。"
+  },
+  {
+    "id": "2606.10584",
+    "tldr": "本文研究了覆盖曲线 $\\phi: X\\to X_0$ 上代数点纤维可约性的有限性问题，证明了在分岔点数足够大时，低度点上的可约纤维集合是有限的。",
+    "motivation": "Hilbert 不可约定理说明一般有理点上的纤维不可约。将其推广到代数点（给定度数）是对 Hilbert 不可约性的自然延伸，且与 Galois 理论和逆 Galois 问题相关。",
+    "method": "通过对曲线覆盖的分岔分析和 Galois 群论，结合 Faltings 定理等算术几何工具，建立度数阈值条件以保证有限性。",
+    "result": "证明了对于固定的曲线 $X$ 和所有足够高度的不可分解有理函数 $\\phi:X\\to\\mathbb{P}^1$（有 $b$ 个分岔点），度数 $d<b/7-2$ 且不包含 $X$ 的 $d$ 度点的点上的可约纤维集合是有限的。",
+    "conclusion": "将 Hilbert 不可约性从有理点推广到低度代数点，建立了明确的度数阈值条件。",
+    "future_work": "优化阈值条件 $d<b/7-2$ 中的常数 $1/7$，或放宽不可分解假设。"
+  },
+  {
+    "id": "2606.10626",
+    "tldr": "本文将 Kings-Sprang 的 Eisenstein-Kronecker 类构造推广到 Hilbert 模空间上的万有 Abel 概形，并证明了相关的 $p$-adic 测度本质上恢复 Katz 的 $p$-adic Eisenstein 测度。",
+    "motivation": "Kings-Sprang 的 Eisenstein-Kronecker 类为模曲线上的 $p$-adic Eisenstein 级数提供了几何构造。将其推广到 Hilbert 模空间（高维基域）是自然的延伸。",
+    "method": "将构造推广到 $(\\Gamma(l), \\Gamma_{00}(p^\\infty))$-level 的 Hilbert 模空间上的万有 Abel 概形；比较相关的 $p$-adic Hilbert 模形式与 Katz 的 Eisenstein 级数；按 Kings-Sprang 方式构造 $p$-adic 测度。",
+    "result": "成功推广了 Eisenstein-Kronecker 类的构造到 Hilbert 模空间，并证明产生的 $p$-adic 测度本质上恢复 Katz 的 $p$-adic Eisenstein 测度。",
+    "conclusion": "建立了 Hilbert 模情形下几何化的 Eisenstein-Kronecker 类与经典 Katz 测度之间的桥梁，验证了更高维推广的一致性。",
+    "future_work": "研究该构造在非 CM 情形下或更一般的 Shimura 变种上的推广。"
+  },
+  {
+    "id": "2606.10672",
+    "tldr": "本文刻画了所有满足四个不同共轭之间有线性关系 $\\alpha_1=\\alpha_2+\\alpha_3+\\alpha_4$ 或 $\\alpha_1+\\alpha_2+\\alpha_3+\\alpha_4=0$ 的次数为 8 的代数数。",
+    "motivation": "代数数共轭之间的线性关系与 Galois 群结构和多项式的对称性密切相关。次数 8 是首个出现非平凡四元线性关系的低次数，完整刻画具有理论价值。",
+    "method": "通过分析 8 次多项式的 Galois 群和共轭之间的代数关系，分类所有可能满足线性关系的代数数。利用多项式的奇偶性和群的传递性进行细致分类。",
+    "result": "完整刻画了所有满足 $\\alpha_1=\\alpha_2+\\alpha_3+\\alpha_4$ 和 $\\alpha_1+\\alpha_2+\\alpha_3+\\alpha_4=0$ 的次数为 8 的代数数。特别地，当 $\\alpha$ 有非偶极小多项式且恰有六个形如 $\\alpha_{i_1}+\\alpha_{i_2}+\\alpha_{i_3}+\\alpha_{i_4}=0$ 的线性关系时，$\\alpha$ 是一个二次代数数和一个四次代数数之和。",
+    "conclusion": "对低次代数数共轭之间的线性关系提供了完整分类，揭示了共轭关系与代数数可分解性之间的联系。",
+    "future_work": "研究更高次数代数数（如 10 次、12 次）中类似的线性关系，或刻画五个及以上共轭的线性关系。"
+  },
+  {
+    "id": "2606.10922",
+    "tldr": "本文引入一个基于除数的函数 $\\mathrm{fab}(n,a,b)$，证明其容许参数恰好恢复 Erdős-Straus 情形（$m=4$）下 $1/n$ 的分解，并与已知的 Type I/II 描述进行了比较。",
+    "motivation": "Erdős-Straus 猜想（$4/n$ 可分解为三个单位分数之和）是经典丢番图问题。寻找系统的参数化方法有助于理解该猜想的结构。",
+    "method": "将 $m/n$ 的单位分数分解与 $n$ 的因子结构联系起来，引入基于除数的参数化函数 $\\mathrm{fab}(n,a,b)$，通过数论推导证明其完备性。",
+    "result": "定义了函数 $\\mathrm{fab}(n,a,b)$，证明其容许参数恰好覆盖所有三个分母都能被 4 整除的 $1/n$ 的分解。与已知的 Type I/II 描述进行了系统比较。",
+    "conclusion": "提供了 Erdős-Straus 分解的新参数化方法，基于除数的视角可能为证明该猜想提供新思路。",
+    "future_work": "利用该参数化方法研究 Erdős-Straus 猜想的反例可能性，或将类似方法推广到 $m/n$ 的一般情形。"
+  },
+  {
+    "id": "2606.11011",
+    "tldr": "本文证明了区间限制分拆的两个猜想，建立了双变量 master identity $(1+q^2)\\mathcal B(z,q)-(1+q)\\mathcal A(z,q)=-q^4/(1-q^3)$，并获得了 $a_2''(n)$ 的 false theta 公式和 $b_2''(n)$ 的精确系数描述。",
+    "motivation": "Andrews 和 El Bachraoui 引入的带符号 partition 函数 $a_2''(n)$ 和 $b_2''(n)$ 与区间限制分拆有关。两个猜想涉及 $a_2''(n)$ 的生成函数和 $b_2''(n)$ 的取值范围。",
+    "method": "引入辅助变量 $z$ 记录大于 1 的非强制部分数量，推导双变量生成函数的闭式；使用解析和组合两种技术证明 master identity；在 $z=-1$ 时结合 Rogers-Fine 求值得到 false theta 公式。",
+    "result": "证明了 $a_2''(n)$ 的生成函数为初等有理项加一个带周期符号的 false theta 级数；$b_2''(n)$ 仅取值 $-1,0,1,2$。建立了 master identity 并给出了量子模解释。",
+    "conclusion": "解决了 Andrews-El Bachraoui 分拆函数的两个核心猜想，揭示了与 false theta 函数、Rogers-Fine 恒等式和量子模形式的深层联系。",
+    "future_work": "研究更一般的区间限制下类似分拆函数的生成函数结构，探索与其他 mock/false theta 函数的联系。"
+  },
+  {
+    "id": "2606.11069",
+    "tldr": "本文证明了 Ruzsa 数的相邻上界 $|R_{m+1}-R_m|\\le 144$，给出了极值集的大小的非平凡界，并为所有 $m\\le 100$ 提供了 $R_m$ 的精确值。",
+    "motivation": "Ruzsa 数 $R_m$ 度量 $\\mathbb{Z}_m$ 中加性表示的均匀性。Ding 和 Zhao 在 2024 年提出了关于 $R_m$ 的相邻差的有界性猜想，该问题与加法组合学和 coding theory 相关。",
+    "method": "通过对 $\\mathbb{Z}_m$ 中满足 $1\\le\\sigma_{\\mathcal A}(n)\\le R_m$ 的子集 $\\mathcal A$ 进行加性组合分析，建立相邻模数的 Ruzsa 数之间的比较估计。借助计算机搜索扩展 $m\\le 100$ 的精确值表。",
+    "result": "证明了 $|R_{m+1}-R_m|\\le 144$；给出了极值集 $\\mathcal A$ 的大小的非平凡界；将 $R_m$ 的精确值表从 Sándor-Yang（2017）扩展到所有 $m\\le 100$。",
+    "conclusion": "确认了 Ding-Zhao 猜想（相邻 Ruzsa 数差有界），显著扩展了已知数据，并提出了若干新问题。",
+    "future_work": "缩小上界 144 到更小的常数，研究 $R_m$ 在 $m\\to\\infty$ 时的渐近行为。"
+  },
+  {
+    "id": "2606.10168",
+    "tldr": "本文刻画了交换环上上三角矩阵群的广义挠元子集，并确定了这些群何时满足广义恒等式——取决于基环单位群的挠和指数性质。",
+    "motivation": "群论中的广义挠（generalized torsion）概念近年受到关注。上三角矩阵群是群论中重要的基本例子，其广义挠结构之前未被系统研究。",
+    "method": "通过对交换环上上三角矩阵的共轭乘积进行分析，结合基环的单位群的结构性质，刻画广义挠元并推导广义恒等式条件。",
+    "result": "完整刻画了交换环上上三角矩阵群的广义挠子集；以基环单位群的挠和指数性质给出了这些群满足广义恒等式的充要条件。构造了满足指定长度广义恒等式的无穷有限生成可解群的新族，并给出了 Sherman 问题的反例。",
+    "conclusion": "系统建立了上三角矩阵群的广义挠理论，揭示了群论性质与环的单位群结构之间的联系。Sherman 问题的反例修正了已有文献中的错误直觉。",
+    "future_work": "将刻画推广到其他矩阵群（如一般线性群、辛群），或研究更一般的可解群的广义挠性质。"
+  }
+]
