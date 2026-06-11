@@ -10,4 +10,5 @@
 2026-06-09.jsonl
 2026-06-10_ai_enhanced.jsonl
 2026-06-10.jsonl
+2026-06-11_ai_enhanced.jsonl
 2026-06-11.jsonl
