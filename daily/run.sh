@@ -38,15 +38,13 @@ fi
 echo ""
 echo "━━━ Step 2: Deduplication ━━━"
 python3 daily/dedup.py --date "$TODAY" --history-days 7
-DEDUP_COUNT=$(wc -l < "$DATA_FILE" 2>/dev/null | tr -d ' ')
-echo "Papers after dedup: $DEDUP_COUNT"
-
-if [ "$DEDUP_COUNT" -eq 0 ]; then
+if [ ! -f "$DATA_FILE" ]; then
     echo ""
     echo "📋  All $COUNT papers already seen this week. Nothing new. 🌿"
-    rm -f "$DATA_FILE"
     exit 0
 fi
+DEDUP_COUNT=$(wc -l < "$DATA_FILE" 2>/dev/null | tr -d ' ')
+echo "Papers after dedup: $DEDUP_COUNT"
 
 # ── Step 3: AI Summarization ──────────────────────────────
 echo ""
