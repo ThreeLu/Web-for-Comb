@@ -1,0 +1,317 @@
+[
+  {
+    "id": "2606.19473",
+    "tldr": "本文将 median decomposition 理论推广到任意图，证明了由顶点分离系统导出的 median 分解是唯一极小的，并将 Stavropoulos 关于 median-width 等于团数的定理从有限图推广到所有图。",
+    "motivation": "Tree decomposition 是结构图论中的核心工具，但仅适用于 nested 分离系统。Stavropoulos (2015) 引入 median decomposition 作为 tree decomposition 的推广，然而该理论在许多方面尚未充分发展。本文旨在系统性地建立 median decomposition 的一般理论框架，揭示其与 Sageev 对偶 median 图、粗嵌入以及群作用的深刻联系。",
+    "method": "利用 Sageev 构造的 dual median graph 将任意（不必 nested 的）顶点分离系统转化为 median decomposition；通过分析 median 图的组合结构证明唯一极小性；运用 Sageev–Roller 对偶性刻画 median decomposition 的性质；将组合论证与几何群论方法结合。",
+    "result": "证明了任意图的顶点分离系统对应一个 median decomposition，且当分离系统 nested 时退化为经典的 tree decomposition；证明了该分解是\"唯一极小的\"；将 Stavropoulos 关于 median-width 等于团数的定理推广到所有图（不限于有限图）；建立了 canonical median decomposition 与到 median 图的等变粗嵌入/拟等距之间的对应；作为推论，给出了有限生成群 metric-properly/geometrically 作用于 median 图的 Cayley 图刻画。",
+    "conclusion": "本文为 median decomposition 理论奠定了系统性的基础，统一了 tree decomposition 和 median decomposition 的视角，并为结构图论与几何群论的交叉研究提供了新工具。",
+    "future_work": "进一步探索 median decomposition 在其他图类上的应用；研究 median-width 与其它宽度参数（如 tree-width、clique-width）之间的关系；将本文的群作用刻画推广到更一般的群类。"
+  },
+  {
+    "id": "2606.19500",
+    "tldr": "本文研究多重集排列和 parking functions 中的 cycle 结构，揭示了 terminal closers 和 cyclic points 两个统计量之间的 surprising correspondence，给出了精确和渐近结果。",
+    "motivation": "多重集排列是映射和排列的基本构件，而 parking functions 位于映射和排列之间。理解这些组合对象中的 cycle 结构有助于揭示它们之间的深层联系，但此前对多重集排列中 cycle 的系统和渐近分析尚不充分。",
+    "method": "采用代数方法和分析方法相结合的方式：代数角度利用生成函数和组合双射，分析角度使用渐近估计和复分析方法（如鞍点法）推导渐近公式。",
+    "result": "给出了多重集排列和 parking functions 中 cycle 计数的精确公式和渐近结果；发现并证明了 terminal closers 和 cyclic points 两个统计量之间的对应关系，揭示了组合结构的深层联系。",
+    "conclusion": "该对应关系表明多重集排列的组合结构比此前认识的更加丰富，terminal closers 和 cyclic points 的对偶性可能反映了更深层的代数或几何结构，值得进一步探究。",
+    "future_work": "将 terminal closers 与 cyclic points 的对应关系推广到更一般的组合对象；探索其背后的代数或表示论解释；研究其他类型 parking functions 的类似结构。"
+  },
+  {
+    "id": "2606.19573",
+    "tldr": "本文研究 exchange sequences 与 oriented matroid 多面体直径的关系，属于 oriented matroid 理论和组合优化的交叉领域。",
+    "motivation": "多面体直径问题是组合优化中的基本问题（与 Hirsch 猜想相关），而 oriented matroid 提供了研究多面体组合结构的抽象框架。理解 exchange sequences 如何影响 oriented matroid 多面体的直径对于推进该方向的研究至关重要。",
+    "method": "运用 oriented matroid 的公理化框架，结合 exchange sequences 的组合分析方法，研究多面体图的直径上界。",
+    "result": "论文在 oriented matroid 框架下建立了 exchange sequences 与多面体直径之间的联系，相关具体结果详见全文。",
+    "conclusion": "该研究为 oriented matroid 多面体的直径问题提供了新的分析视角，将 exchange sequences 这一组合工具引入该领域。",
+    "future_work": "将结果推广到更一般的 oriented matroid 类；探索与 Hirsch 猜想相关变体的联系。"
+  },
+  {
+    "id": "2606.19577",
+    "tldr": "本文研究凸格点多面体的 summatory Ehrhart 多项式和 summatory Ehrhart 级数，证明了 Ehrhart–Macdonald 互反律的 summatory 类比。",
+    "motivation": "Ehrhart 多项式是计数格点多面体中整点个数的基本工具，Ehrhart–Macdonald 互反律是其最基本的定理之一。考虑 Ehrhart 多项式的求和版本（summatory Ehrhart polynomial）是自然且新颖的推广，但此前缺乏系统研究。",
+    "method": "利用 Ehrhart 理论的标准方法（包括生成函数、有理函数的极点和留数计算），对 convex lattice polytope 的 summatory Ehrhart 多项式进行系统分析，推导其基本性质。",
+    "result": "引入并研究了 summatory Ehrhart 多项式和 summatory Ehrhart 级数；证明了 Ehrhart–Macdonald 互反律的 summatory 类比：通过代换 $t \\mapsto 1-t$ 在多面体与其相对内部之间建立了带符号的函数方程。",
+    "conclusion": "该结果将 Ehrhart 理论中的核心互反律自然地推广到了 summatory 版本，丰富了格点多面体计数理论的内容。",
+    "future_work": "探索 summatory Ehrhart 多项式的其他性质，如与 $h^*$-向量的关系；研究其在不同类型格点多面体上的具体计算公式。"
+  },
+  {
+    "id": "2606.19696",
+    "tldr": "本文用组合方法证明了两类双色 Frobenius 分拆函数与二重分拆的 minimal-excludant (mex) 统计量之间的精确等式，给出了 Frobenius 分拆的组合解释。",
+    "motivation": "Frobenius 分拆是分拆理论中的经典对象，而 minimal-excludant (mex) 是近年来组合数论中受到广泛关注的统计量。将两者联系起来可以为 Frobenius 分拆函数提供新的组合解释，加深对这些经典对象的理解。",
+    "method": "使用组合双射和分拆的双射证明方法（combinatorial proof），直接构造双射建立 $(2,a)$-colored Frobenius partitions 与 bipartition mex 统计量之间的对应关系。",
+    "result": "对于所有 $n\\geq 0$，组合证明了 $\\cpsi_{2,0}(n)=2\\sigma\\mex_2(n)$ 和 $\\cpsi_{2,1}(n)=2\\sigma\\mex_2(n)-E_2(n)$。其中 $\\cpsi_{2,a}(n)$ 是 $(2,a)$-colored Frobenius partitions 的数量，$\\sigma\\mex_2(n)$ 是二重分拆的 mex 和，$E_2(n)$ 是两个分量 mex 相等的二重分拆数。",
+    "conclusion": "这些恒等式给出了双色 Frobenius 分拆函数的直接组合解释，揭示了 Frobenius 分拆与 mex 统计量之间的深层联系，为分拆理论提供了新的研究视角。",
+    "future_work": "将结果推广到更多颜色的 Frobenius 分拆；探索 Frobenius 分拆与其他 mex 类型统计量的关系；研究这些恒等式的代数或解析证明。"
+  },
+  {
+    "id": "2606.19717",
+    "tldr": "本文完全解决了无 $W_{\\ge 4}$（阶至少为 4 的轮图）图中三角形数量的极值问题，确定了最大三角形数并刻画了所有极值图。",
+    "motivation": "给定禁子图条件下最大化三角形数量是极值图论中的经典问题。Gallai 曾提出无 $W_3$ 图的问题（后被否定）。本文研究 $W_{\\ge 4}$-free 图，填补了该禁子图族下三角形极值问题的空白。",
+    "method": "运用极值图论的标准技术，包括结构分析和极值构造，对 $n$ 个顶点的 $W_{\\ge 4}$-free 图中三角形数量进行精确的上界估计，并构造达到上界的极值图。",
+    "result": "对每个整数 $n\\ge 3$，精确确定了 $n$ 个顶点的 $W_{\\ge 4}$-free 图中三角形的最大数量，并完全刻画了所有达到极值的极值图类。",
+    "conclusion": "该结果完整回答了 $W_{\\ge 4}$-free 图中三角形极值问题，与 Gallai 猜想在 $k=3$ 情形被否定的历史形成有趣对比，表明 $k\\ge 4$ 的情形具有更清晰的结构。",
+    "future_work": "研究更一般的 $W_{\\ge k}$（$k\\ge 5$）情形下三角形数量的极值问题；考虑其他子图（如团或圈）的计数极值问题。"
+  },
+  {
+    "id": "2606.19742",
+    "tldr": "本文给出了图的 Helmholtzian（即无符号拉普拉斯矩阵的变体）最大特征值的一个上界。",
+    "motivation": "图的 Helmholtzian 是图拉普拉斯矩阵的变体，其谱性质与图的结构参数密切相关。最大特征值的上界估计是谱图论中的基本问题，可以用于刻画图的极值结构。",
+    "method": "运用谱图论的标准方法，包括 Rayleigh 商技巧和矩阵不等式，对 Helmholtzian 的最大特征值进行上界估计。",
+    "result": "论文建立了图的 Helmholtzian 最大特征值的一个上界，将谱参数与图的组合参数（如度序列）联系起来。",
+    "conclusion": "该上界为 Helmholtzian 谱的进一步研究提供了参考，可能在图的极值谱问题中有应用。",
+    "future_work": "探索该上界是否紧以及等号成立的极值图类；研究 Helmholtzian 其他特征值的界。"
+  },
+  {
+    "id": "2606.19796",
+    "tldr": "本文证明了初等对称分拆函数 $\\mathrm{pre}_k$ 在 $m$-ary 分拆上的单射性（推广了 $k=2$ 的二元情形），并引入 skew Schur 分拆函数，给出了表示论应用。",
+    "motivation": "Ballantine, Beck 和 Merca 引入的初等对称分拆函数 $\\mathrm{pre}_k$ 近期受到关注。此前已知 $\\mathrm{pre}_2$ 在二元分拆上单射，以及 $\\mathrm{pre}_k$（$k\\ge 3$）在长度为 $2k$ 的分拆上不单射。本文填补了 $\\mathrm{pre}_k$ 在 $m$-ary 分拆上（$m\\ge k$）的单射性空白。",
+    "method": "运用组合方法分析 $m$-ary 分拆的结构（$m$-ary 分拆的每个部分都是 $m$ 的幂次），结合对称函数理论中的 Schur 函数和 skew 分拆，引入并研究 skew Schur 分拆函数 $\\mathrm{prs}_{\\lambda'/\\mu'}$。",
+    "result": "证明了 $\\mathrm{pre}_k$ 在 $m$-ary 分拆上（$m\\ge k$）是单射，推广了 Ballantine-Beck-Merca 的 $k=2$ 结果；引入了 skew Schur 分拆函数 $\\mathrm{prs}_{\\lambda'/\\mu'}$，证明了特定 $\\lambda',\\mu'$ 选择的单射性结果，并给出了表示论中的应用。",
+    "conclusion": "该结论完善了 $\\mathrm{pre}_k$ 单射性的理论图景，并建立了与表示论的联系。",
+    "future_work": "刻画使 $\\mathrm{prs}_{\\lambda'/\\mu'}$ 单射的全体 $\\lambda',\\mu'$ 的条件；探索这些分拆函数在对称函数理论中的更广泛应用。"
+  },
+  {
+    "id": "2606.19820",
+    "tldr": "本文将 clique-adjacency polynomial (CAP) 框架从边正则图推广到任意有限图，导出了推广的 CAP 界和团存在多项式 (CEP)，并在多类图上改进了经典的 Delsarte、Hoffman 和 Haemers 界。",
+    "motivation": "Soicher (2015) 引入的 CAP 是界定边正则图团数的有力工具，但其适用范围限于边正则图。将其推广到任意有限图可以大幅扩展 CAP 的应用范围，并与经典谱界和线性规划界进行比较。",
+    "method": "将 CAP 的相关参数用平均顶点度和潜在团上的平均边度表示；引入团存在多项式 (CEP) 消除对辅助整数变量的依赖；使用线性规划方法和组合参数估计建立推广的 CAP 上界；通过构造来自射影几何的图族展示 CAP 的优势。",
+    "result": "将 CAP 框架推广到任意有限图；得到了推广的 CAP 界和 CEP；在多个图族上证明了推广的 CAP 优于 Delsarte 界（来自射影几何的边正则图族）、Hoffman 界和 Haemers 界（正则和非正则图族）；发展了界定可行参数区域的技术。",
+    "conclusion": "该推广使得 CAP 方法可用于更广泛的图类，在多种情形下超越了经典的谱界和线性规划界，为图的团数估计提供了新工具。",
+    "future_work": "探索 CAP 在其他结构化图类上的表现；将 CAP 框架进一步推广到超图；研究 CAP 与有限几何中其他组合结构的联系。"
+  },
+  {
+    "id": "2606.19851",
+    "tldr": "本文精确确定了 $s$-connector 图中多色 Ramsey 匹配数的 exact 值，回答了 Keevash 和 Michaeli 提出的问题，并用全新的直接极小反例方法替代了他们基于 Gallai–Edmonds 分解的压缩算法。",
+    "motivation": "Keevash 和 Michaeli 近期证明了在 robustness 假设（$\\overline G$ 为 $K_{s,s}$-free）下 $G$ 具有与完全图几乎相同的多色 Ramsey 匹配性质（加性误差 $O(qs)$），并问能否消除对颜色数 $q$ 的依赖。本文以更强的 exact 形式回答了该问题。",
+    "method": "采用直接的极小反例论证（minimal-counterexample argument），结合一种新的适用于 $s$-connector 的单色匹配计数方法，避免了 Keevash-Michaeli 证明中基于 Gallai–Edmonds 分解的压缩算法。",
+    "result": "精确确定了 $R_s({\\bf t})$ 的值：$R_s({\\bf t})=\\sum_{j\\in[q]}(t_j-1)+ \\max\\left\\{2s, s+\\max_{j\\in[q]}t_j\\right\\}$，其中 $\\bf t=(t_1,\\ldots,t_q)$ 是颜色类的匹配大小要求。完成了与 $q$ 无关的 exact 形式的证明。",
+    "conclusion": "该 exact 结果完整回答了 Keevash–Michaeli 问题，而且证明方法更简洁直接，新的单色匹配计数方法可能适用于其他 Ramsey 问题。",
+    "future_work": "探索 $s$-connector 在其他 Ramsey 类型问题（如路径、圈、树）中的类似 exact 结果；将计数方法推广到更一般的图类。"
+  },
+  {
+    "id": "2606.19981",
+    "tldr": "本文构造了无穷多个恰有四个不同特征值且 coherent rank 无界的 co-edge-regular 图，否定了\"四个特征值的正则图的 coherent rank 一致有界\"的猜想。",
+    "motivation": "在正则三特征值情形，谱复杂度与 coherent-代数复杂度一致：连通正则图恰有三个不同特征值当且仅当它是强正则图（coherent rank 为 3）。已知存在四个特征值且 coherent rank 大于 4 的正则图，但一直未知 coherent rank 在四个特征值的正则图中是否一致有界。",
+    "method": "对每个素数幂 $q$，利用代数图论中的构造方法（可能与有限几何或结合方案相关），构造无穷多个 co-edge-regular 图，恰有四个不同特征值，最小特征值为 $-2q-1$，且 coherent rank 至少为 $q+4$。",
+    "result": "证明了在恰有四个不同特征值的 co-edge-regular 图中 coherent rank 是无界的，从而否定了\"一致有界\"的猜想。构造了满足该性质的无穷图族。",
+    "conclusion": "该结果揭示了四特征值情形与三特征值情形在代数复杂度上的本质差异，为距离正则图和结合方案的分类提供了新的反例视角。",
+    "future_work": "进一步研究这些四特征值图的结构性质；探索 coherent rank 随参数 $q$ 增长的精确渐近行为；推广到五个及以上特征值的情形。"
+  },
+  {
+    "id": "2606.20043",
+    "tldr": "本文在条件 $n\\ge 60k^{3/2}$ 和 $k\\ge 50$ 下证明了 Frankl–Kiselev–Kupavskii 关于相交族对称差大小的猜想，并确定极值族为某类星族。",
+    "motivation": "Frankl, Kiselev 和 Kupavskii (2023) 猜想：对任意相交族 $\\mathcal{F}\\subseteq\\binom{[n]}{k}$（$n>10k$），有 $|\\mathcal{SD}(\\mathcal{F})|\\le\\sum_{\\ell=0}^{k-1}\\binom{n-1}{2\\ell}$。他们指出 $n>3k^2$ 的范围可能用已有方法证明，但未给出详细推导。本文在更广的条件下严格证明了该猜想。",
+    "method": "核心工具是浓度不等式（concentration inequality），用于控制对称差的分布。结合极值组合的标准移位（shifting）方法和相交族的结构分析，在 $n\\ge 60k^{3/2}$ 和 $k\\ge 50$ 的条件下建立了该上界。",
+    "result": "在条件 $n\\ge 60k^{3/2}$ 和 $k\\ge 50$ 下证明了 Frankl–Kiselev–Kupavskii 猜想；确定了极值族恰好是某类星族（stars）。",
+    "conclusion": "该结果在较广的参数范围内证实了 FKK 猜想，并将极值结构精确刻画为星族，进一步完善了相交族对称差大小的极值理论。",
+    "future_work": "将条件放宽到原来的 $n>10k$ 范围；探索其他极值族（非星族）在高维情形下是否可能成为极值。"
+  },
+  {
+    "id": "2606.20085",
+    "tldr": "本文将 Kupavskii 关于相交族的多样性结构定理推广到 cross-intersecting 家族对，引入了新的 shifting 方法（$S_{U,V}^{Q}$-shift），并推导出多个经典定理的 cross-intersecting 类比。",
+    "motivation": "相交族的研究始于 Erdős–Ko–Rado，是极值组合的核心课题。Hilton–Milner 和后续的 diversity 方法给出了非平凡相交族的结构稳定性结果。然而 cross-intersecting 家族对的结构理论此前缺乏系统性发展。",
+    "method": "引入全新的 shifting 方法——$S_{U,V}^{Q}$-shift，该方法不仅保持全局相交性质，还保持移位后的局部子结构。利用该方法将 Kupavskii 的相交族多样性定理推广到 cross-intersecting 情形，刻画了极大 cross-intersecting 对的 diversity 部分和极大 cross-intersecting 扩张。",
+    "result": "建立了极大 cross-intersecting 家族对的结构定理，推广了 Kupavskii 的相交族定理；作为推论，得到 Han–Kohayakawa 和 Huang–Peng 定理的 cross-intersecting 类比；$S_{U,V}^{Q}$-shift 方法已被用于建立 Hilton–Milner 定理的乘积类比。",
+    "conclusion": "该工作为 cross-intersecting 家族提供了系统的结构理论，新的 shifting 方法具有独立的方法论价值，可应用于其他极值问题。",
+    "future_work": "利用 $S_{U,V}^{Q}$-shift 方法研究其他极值组合问题；将 cross-intersecting 结构定理推广到 $t$-intersecting 情形。"
+  },
+  {
+    "id": "2606.20185",
+    "tldr": "本文研究集合分拆的对称函数的 Schur 正性（Schur-positivity），针对两种不同的下降（descent）概念，给出了 Schur 展开中系数的组合解释，并与 Touchard-Riordan 多项式和 Bell 数建立联系。",
+    "motivation": "Schur 正性是代数组合中的核心概念，反映对称函数在 Schur 基下的展开系数非负。集合分拆自然关联的对称函数是否 Schur-正是一个有意义的问题，两种不同 descent 概念导致的展开结构不同，需要分别研究。",
+    "method": "第一种 descent 概念下，Schur 展开涉及钩形（hook-shaped）Young 图，系数为 Touchard-Riordan 多项式（计数 matchings 的 crossing 数）。第二种 descent 概念下，Schur 函数对应两行 Young 图，系数为关联 Bell 数的部分和。关键技术包括可移除单点（removable singleton）的代数定义及其通过 jeu-de-taquin 矫正 skew tableaux 的组合解释。",
+    "result": "证明了非交叉分拆和具有给定部分数的分拆诱导的多类对称函数的 Schur 正性；给出了 Schur 展开中出现 tableaux 的显式组合刻画；将系数与已知整数序列（Touchard-Riordan 多项式、Bell 数的部分和）联系起来。",
+    "conclusion": "该结果在集合分拆的对称函数与经典组合数列之间建立了新联系，丰富了 Schur 正性理论的应用范围。",
+    "future_work": "研究其他 descent 概念下的 Schur 正性问题；探索 removable singleton 在更一般的代数组合问题中的应用。"
+  },
+  {
+    "id": "2606.20186",
+    "tldr": "本文继续 Janson–Sós (2013) 关于拟随机图与子图计数的研究，引入了新的拟随机性刻画版本，并通过 $L^2([0,1]^m)$ 中对称函数空间的不可约分解给出结构化的新证明。",
+    "motivation": "拟随机图的性质（如子图计数接近随机图的期望值）在极值图论和图极限理论中占有核心地位。许多这样的性质刻画了拟随机图，但也存在例外。理解为何大多数性质是拟随机的以及例外的结构是一个重要问题。",
+    "method": "将 $L^2([0,1]^m)$ 中的对称函数子空间分解为在保测变换作用下不可约的子空间，利用该分解简化了之前分散在各文献中的论证，并给出结构化的理解。这是对图极限（graph limit / graphon）框架的方法论改进。",
+    "result": "引入了若干新的拟随机性刻画版本；通过对称函数空间的不可约分解，系统化地理解了哪些子图计数性质能刻画拟随机图、哪些不能，以及例外情况的结构。",
+    "conclusion": "该分解方法为拟随机图理论提供了统一的视角，将之前零散的判定条件纳入一个系统的代数框架。",
+    "future_work": "将该分解方法应用于其他图极限问题；探索更广泛子图族下的拟随机性等价刻画；研究例外情况的精细分类。"
+  },
+  {
+    "id": "2606.20256",
+    "tldr": "本文研究无 $K_{1,d}$ 诱导子图的图类的 tree-independence number，在 outerstring 图上推进了 Dallard 等人的猜想，并给出了多类图上的线性和二次上界。",
+    "motivation": "Tree-independence number 是 treewidth 和 independence number 的混合参数，在算法图论和图结构理论中受到关注。Dallard 等人猜想：对任意 $d$ 和任意平面图 $H$，所有无 $K_{1,d}$ 且无 $H$ 诱导子式的图类具有有界的 tree-independence number。该猜想是当前活跃的研究方向。",
+    "method": "结合图的结构分析（包括禁止子图/诱导子式的图类刻画）和 tree decomposition 的技术，对不同图类分别给出 tree-independence number 的上界估计。对于 outerstring 图，使用几何与组合结合的方法。",
+    "result": "证明了 Dallard 猜想对 outerstring 图成立；在多类无 $K_{1,d}$ 图类上给出了 tree-independence number 的线性和二次上界，改进了之前的上界；对无 $K_{2,d}$ 且无长度至少为 5 的洞（holes）的图类给出了 tree-independence number 的界。",
+    "conclusion": "该工作在多个具体图类上推进了 tree-independence number 的研究，为 Dallard 猜想的最终解决提供了支持。",
+    "future_work": "进一步尝试完整证明 Dallard 猜想；改进已有界的常数因子；研究 tree-independence number 的算法应用。"
+  },
+  {
+    "id": "2606.20297",
+    "tldr": "本文在 toughness 条件 $\\frac{1}{k}\\le\\tau(G)<\\frac{1}{k-1}$ 下，给出了 toughness 图中存在 spanning $k$-tree 的谱半径、无符号拉普拉斯谱半径以及边数（size）的充分条件。",
+    "motivation": "Toughness 是刻画图结构性质的重要参数。Liu–Fan–Shu 和 Jia–Lu 分别在不同 toughness 范围下建立了 spanning $k$-tree 存在性的谱充分条件。$\\frac{1}{k}\\le\\tau(G)<\\frac{1}{k-1}$ 这一范围尚未被覆盖，本文填补了这一空白。",
+    "method": "运用谱图论方法（谱半径和无符号拉普拉斯谱半径的界），结合 toughness 条件的结构分析，对 $\\frac{t}{t(k-1)+1}$-tough 图（$t\\ge 1$）建立 spanning $k$-tree 的充分条件。同时使用边数（size）下界作为另一种充分条件。",
+    "result": "对于充分大阶数 $n$ 的连通 $\\frac{t}{t(k-1)+1}$-tough 图，建立了基于谱半径和 signless Laplacian 谱半径的 spanning $k$-tree 存在性充分条件；建立了基于边数的 spanning $k$-tree 充分条件。",
+    "conclusion": "该结果覆盖了 toughness 参数的全范围，完善了 spanning $k$-tree 存在性谱充分条件的理论。",
+    "future_work": "探索 toughness 条件在其他 spanning 子图（如 Hamilton 圈、$k$-因子）存在性问题中的应用；研究谱条件是否可以进一步减弱。"
+  },
+  {
+    "id": "2606.20311",
+    "tldr": "本文延续利用分圆多项式进行骰子重新标记的研究，研究了一对正方形面数骰子（square-sided dice）的和频率问题，使两个面数不同的正方形骰子的和频率与两颗标准骰子相同。",
+    "motivation": "Chao, Gabel, Larson 和 Nasr 利用分圆多项式研究了不同面数骰子对保持标准骰子和频率的问题。本文将其推广到面数为完全平方数的骰子对，探索更广泛的参数范围。",
+    "method": "运用分圆多项式（cyclotomic polynomials）的代数性质，构造满足和频率约束的骰子面标签；限制面数为完全平方数（square-sided），分析多项式因子分解与骰子标签的对应关系。",
+    "result": "构造了面数为不同完全平方数的骰子对，使其和频率与两颗标准骰子相同；提出了若干供未来探索的猜想。",
+    "conclusion": "该工作将分圆多项式方法推广到了正方形面数骰子这一新的参数族，丰富了骰子重新标记问题的研究。",
+    "future_work": "证明文中所提出的猜想；研究面数为其他特殊形式（如立方数、素数幂）的骰子对。"
+  },
+  {
+    "id": "2606.20348",
+    "tldr": "本文首次系统研究 $q$-拟阵的计数问题，利用常维数码和熵方法导出了固定秩和基空间的 $q$-拟阵数量的上下界估计。",
+    "motivation": "$q$-拟阵是经典拟阵的 $q$-类比，过去十年受到广泛关注，但其计数问题几乎未被探索。了解 $q$-拟阵的数量和渐近行为有助于理解 $q$-拟阵的\"典型\"结构，类似于经典拟阵理论中的相关工作。",
+    "method": "下界方面：利用常维数码（constant-dimension codes）构造 paving 和 sparse-paving $q$-拟阵。上界方面：发展两种方法——（1）组合方法：控制 paving $q$-拟阵中依赖超平面（dependent hyperplanes）的数量；（2）基于熵的计数论证（entropy-based counting），适用于对 contraction 封闭的 $q$-拟阵类。最后分析这些界的渐近行为。",
+    "result": "对固定秩和基空间的 $q$-拟阵数量导出了新的下界（通过常维数码构造改进已有估计）；给出了 paving $q$-拟阵的显式对数上界；通过基于熵的方法得到了更一般的上界；分析了上下界之间的差距，提出了关于真实渐近增长的猜想。",
+    "conclusion": "该工作开启了 $q$-拟阵的系统计数研究，揭示了 $q$-拟阵数量渐近估计中的开放问题。",
+    "future_work": "缩小上下界之间的差距，确定 $q$-拟阵数量的真实渐近增长阶；研究一般（非 paving）$q$-拟阵的更精确计数。"
+  },
+  {
+    "id": "2606.20367",
+    "tldr": "本文显著改进了 Frankl–Füredi (1984) 关于每 $(r+1)$-集张成 0 或 2 条边的 $r$-图最大密度的下界构造，将密度从 $2^{1-r}$（指数级依赖 $r$）提升到 $\\Omega(r^{-3})$（多项式级依赖 $r$）。",
+    "motivation": "Frankl 和 Füredi (1984) 提出了以下问题：$n$ 个顶点的 $r$-图中，若每 $(r+1)$ 个顶点张成 0 或 2 条边，最大密度是多少？他们给出下界 $2^{1-r}$，该界随 $r$ 指数衰减。将指数依赖改进为多项式依赖是该问题的显著进展。",
+    "method": "构造全新的 $r$-图族，通过精心设计的边分配方案使每 $(r+1)$-集张成恰好 0 或 2 条边，同时保持较高的边密度。构造中可能运用了代数或概率方法来实现多项式级别的密度。",
+    "result": "构造了密度为 $\\Omega(r^{-3})$ 的满足条件的 $r$-图，将对 $r$ 的依赖从指数级改进到多项式级；对于更一般的问题（每 $(r+1)$-集张成 $\\{0,2,\\ldots,2k\\}$ 中的偶数条边），也得到了下界构造。",
+    "conclusion": "该结果是该经典问题上的重大改进，表明多项式级别的密度是可达的，改变了此前对该问题难度和可能界的直观认识。",
+    "future_work": "进一步缩小下界（$\\Omega(r^{-3})$）与可能的上界之间的差距；确定密度的精确渐近阶。"
+  },
+  {
+    "id": "2606.20397",
+    "tldr": "本文证明了每个具有次线性独立数的 $K_5$-free $n$ 顶点图可以通过删除最多 $n^2(1/18+o(1))$ 条边变成二部图，其中常数 $1/18$ 是最优的。",
+    "motivation": "该问题是 Ramsey–Turán 理论与二分切割（bipartite cut）问题的交叉。Ramsey–Turán 理论关注在禁止某子图且限制独立数条件下图的边数；将图变为二部图需要删除的最小边数（Max-Cut 的补）是经典的图论参数。理解两者之间的相互作用提出了新的极值问题。",
+    "method": "运用边加权 Turán 定理的推广方法和 flag algebra 技术。Flag algebra 用于在半定规划的框架下精确计算极值密度，边加权 Turán 定理的推广则用于处理结构分析部分。",
+    "result": "证明了每个具有次线性独立数的 $K_5$-free $n$ 顶点图可通过删除最多 $n^2(1/18+o(1))$ 条边成为二部图；常数 $1/18$ 是最优的（通过某种构造证明其紧性）。",
+    "conclusion": "该结果精确回答了 $K_5$-free 图中 bipartite cut 的 Ramsey–Turán 型极值问题，flag algebra 的应用展示了其在精确极值问题中的强大能力。",
+    "future_work": "将方法推广到 $K_t$-free 图（$t\\ge 6$）的二分切割问题；研究其他禁止子图条件下的类似问题。"
+  },
+  {
+    "id": "2606.20430",
+    "tldr": "本文研究格点多面体的单纯形面（simplex faces）与 toric ideal 的二次生成之间的关系，证明了 clique-face 性质与二次生成在 edge polytope 和 cut polytope 中的等价性。",
+    "motivation": "Toric ideal 的二次生成是代数组合和 Gröbner 基理论中的重要问题，与多面体的组合结构密切相关。理解什么条件下 toric ideal 是二次生成的，以及其时多面体的面结构（特别是团-面性质）如何，是本研究的基本动机。",
+    "method": "对格点多面体的 1-骨架上的团结构进行分析；在温和的边条件下证明 toric ideal 二次生成 ⇒ 1-骨架的每个团都是面的顶点集；对满足条件 (E) 的 $(0,1)$-多面体，通过分析二次二项式中的二次单项式的可除性刻画 clique-face 性质。",
+    "result": "证明了在温和边条件下，若 toric ideal 由二次二项式生成，则 1-骨架的每个团是面的顶点集；对满足 (E) 的 $(0,1)$-多面体，clique-face 性质等价于二次二项式中二次单项式的可除性条件；该条件下 toric ideal 没有 $\\ge 3$ 次的不可缺失单项式；在 edge polytope 和 cut polytope 中，clique-face 性质等价于二次生成；验证了简单多面体、拟阵独立多面体和拟阵基多面体的 clique-face 性质。",
+    "conclusion": "该工作在 toric ideal 的二次生成与多面体的组合面结构之间建立了系统的联系，为多个具体多面体族提供了统一的视角。",
+    "future_work": "关于二次 toric ideal 的猜想（如 stable set polytope）的进一步验证；探索 clique-face 性质在更多多面体族中成立的充分条件。"
+  },
+  {
+    "id": "2606.20452",
+    "tldr": "本文证明了任意图存在显示所有 undominated edge-ends 的 linked, componental, rooted tree-cut decomposition（有限 adhesion），并由此统一推导了 Thomassen 和 Bruhn–Stein 的经典定理。",
+    "motivation": "Tree-cut decomposition 是研究图边分离结构的重要工具（类似于 tree decomposition 对顶点分离的作用）。对于无限图，尤其是局部有限图，edge-ends 的显示和分类是核心问题，但此前缺乏统一的分解框架来显示所有 undominated edge-ends。",
+    "method": "构造 linked, componental, rooted tree-cut decomposition，使其 adhesion 有限并显示所有 undominated edge-ends；对于局部有限图情况（所有 ends 都是 undominated edge-ends），该分解退化为将图分解为有限部分的 linked tree-cut decomposition。",
+    "result": "证明了任意图存在 linked, componental, rooted tree-cut decomposition（有限 adhesion），显示所有 undominated edge-ends；作为第一个应用，该分解也显示所有 undominated edge-ends 的 edge-degrees；作为第二个应用，统一且简洁地推导出 Thomassen 关于 boundary-linked 有限分割的定理和 Bruhn–Stein 关于 Eulerian 局部有限图的偶数 ends 刻画定理。",
+    "conclusion": "该 tree-cut decomposition 框架统一了无限图边分离理论中的多个经典结果，提供了更加系统的视角。",
+    "future_work": "将该分解框架应用于无限图的其他边分离问题；探索 tree-cut decomposition 与 tree decomposition 之间的对偶关系。"
+  },
+  {
+    "id": "2606.20494",
+    "tldr": "本文在正 codegree Turán 密度（positive codegree Turán density）框架下证明了强非主性（strong non-principality）：对每个 $k\\ge 3$，存在两个 $k$-图 $F_1$ 和 $F_2$ 使得 $0<\\gamma^+(F_1,F_2)<\\min\\{\\gamma^+(F_1),\\gamma^+(F_2)\\}$。",
+    "motivation": "在经典的 Turán 密度中，非主性（non-principality）现象已被深入研究：两个图的联合 Turán 密度可以严格小于各自的 Turán 密度。正 codegree Turán 密度是参数 $\\delta^+_{k-1}(G)/n$ 渐近最大值的推广。研究该密度是否也具有非主性是自然的理论问题。",
+    "method": "利用极值组合的构造方法，为每个 $k\\ge 3$ 显式构造两个 $k$-图 $F_1$ 和 $F_2$，使得它们分别具有正的 codegree Turán 密度，但联合密度严格小于两者的最小值；通过精细的密度分析验证构造的正确性。",
+    "result": "证明了对于每个 $k\\ge 3$，存在满足 $0<\\gamma^+(F_1,F_2)<\\min\\{\\gamma^+(F_1),\\gamma^+(F_2)\\}$ 的 $k$-图 $F_1$ 和 $F_2$，建立了正 codegree Turán 密度的强非主性。",
+    "conclusion": "该结果将标准 Turán 密度中的非主性现象推广到了正 codegree 框架，丰富了超图 Turán 理论的结构。",
+    "future_work": "研究正 codegree Turán 密度是否具有更多类似经典 Turán 密度的性质（如跳跃现象）；对更多超图族计算具体的 $\\gamma^+(F)$ 值。"
+  },
+  {
+    "id": "2606.19677",
+    "tldr": "本文建立了随机采样点与有限域上代数超曲面相交的 sharp threshold，给出了需要多少随机点才能几乎必然与每个代数集（由最多 $s$ 个次数最多 $k$ 的多项式定义）相交的精确阈值。",
+    "motivation": "随机点集与代数超曲面的相交问题是加性组合与代数几何交叉的基本问题。例如，随机 Szemerédi 定理的改进需要对随机点集与代数集相交的精细控制。确定使随机集几乎必然击中所有代数集的采样点数的 sharp threshold 是该方向的核心问题。",
+    "method": "运用有限域上的代数几何方法（包括多项式方法的变体）结合概率方法（包括二阶矩方法和 Janson 不等式），分析随机点集与代数集的相交概率，确定 sharp threshold。",
+    "result": "对于 $\\mathbb{F}_p^n$ 上由最多 $s$ 个次数最多 $k$ 的多项式定义的代数集，精确确定了随机采样点数目的 sharp threshold；特别地，随机采样约 $\\frac{\\log p}{2\\log(1+(p-1)^{-1})}n^2$ 个点几乎必然与所有二次超曲面相交，并且该阈值是紧的。作为应用，改进了 $\\mathbb{F}_p^n$ 中随机 Szemerédi 定理的下界，得到的 leading constant 随着 Szemerédi 定理中\"稠密集\"阈值缩小而增长。",
+    "conclusion": "该 sharp threshold 结果在随机代数集相交问题上建立了完整的理论框架，并直接应用于改进随机 Szemerédi 定理。",
+    "future_work": "将该 sharp threshold 结果推广到其他域上的代数集；探索在其他加性组合问题中的应用。"
+  },
+  {
+    "id": "2606.19863",
+    "tldr": "本文证明了 Erdős 关于区间 $(k,2k)$ 中素因子与连续整数乘积的猜想，给出了 $n_k$ 的一个下界 $n_k > e^{\\frac{\\log^2 k}{20\\log\\log k}}$。",
+    "motivation": "Erdős 曾猜想：令 $n_k$ 为最小的整数 $n>2k$ 使得 $(n-k)(n-k+1)\\cdots(n-1)$ 不被 $(k,2k)$ 中的任何素数整除，则 $n_k$ 的增长速度至少为 $\\exp(\\log^2 k/(20\\log\\log k))$。该猜想涉及素因子分布与连续整数乘积的相互作用。",
+    "method": "运用解析数论方法，包括对素数分布的精细估计（如素数定理的显式形式）和筛法技巧，构造性地找到不被特定区间素数整除的连续整数乘积，导出 $n_k$ 的下界。",
+    "result": "对所有充分大的 $k$，证明了 $n_k > e^{\\frac{\\log^2 k}{20\\log\\log k}}$，确认了 Erdős 的猜想。",
+    "conclusion": "该结果解决了 Erdős 提出的一个长期猜想，进一步揭示了素因子在连续整数中的分布规律。",
+    "future_work": "改进下界中的常数因子 $1/20$，可能利用更精细的解析工具；探索 $n_k$ 的上界以确定其精确的增长阶。"
+  },
+  {
+    "id": "2606.19933",
+    "tldr": "本文利用 Aka–Luethi–Michel–Wieser 的 adelic toral-packet 等分布定理，证明了 CM 点的 Galois 轨道在多个非互相同构 Shimura 曲线的乘积上等分布，并以 Linnik 型分裂条件替代 GRH 推导出 André–Oort 猜想。",
+    "motivation": "André–Oort 猜想是算术几何中的核心猜想，关于 Shimura 簇中特殊点（CM 点）的 Zariski 闭包。Edixhoven 和 Yafaev 在假定广义 Riemann 假设 (GRH) 下证明了多个 Shimura 曲线乘积上的 André–Oort。本文用更弱的 Linnik 型条件替代 GRH。",
+    "method": "应用 Aka–Luethi–Michel–Wieser 的 adelic toral-packet 等分布定理，将 Galois 轨道等分布问题约化为线性无关性的验证；通过两个辅助素数的 Linnik 型分裂条件替代 GRH 的角色在等分布论证中起关键作用。",
+    "result": "证明了 $r\\ge 2$ 个非互相同构的 Shimura 曲线乘积上 CM 点的 Galois 轨道等分布；由此推导出该乘积上的 André–Oort 定理，用 Linnik 型分裂条件（在两个辅助素数处）替代了此前证明所需的 GRH。",
+    "conclusion": "该工作在 Shimura 曲线乘积上的 André–Oort 猜想证明中消除了对 GRH 的依赖，是向无条件证明 André–Oort 迈出的重要一步。",
+    "future_work": "尝试进一步消除 Linnik 型条件；将该方法推广到更一般的 Shimura 簇。"
+  },
+  {
+    "id": "2606.19959",
+    "tldr": "本文给出了 $\\mathrm{GL}_3$ 上对称平方 $L$-函数在谱方面的 twisted first moment 的带幂次误差的渐近公式，并应用于非零结果和偶矩下界。",
+    "motivation": "$L$-函数的矩是解析数论中的核心问题，与随机矩阵理论中的普适性猜想密切相关。$\\mathrm{GL}_3$ 上 $L$-函数的矩研究在技术上远比 $\\mathrm{GL}_2$ 困难，关于对称平方 $L$-函数的矩结果非常有限。",
+    "method": "主要工具包括 $\\mathrm{GL}_3$ Kuznetsov 公式（谱求和公式）、非对称近似函数方程（asymmetric approximate functional equation）以及对 Kuznetsov 公式中出现的积分变换的强界估计。",
+    "result": "对 $\\mathrm{GL}_3$ 上对称平方 $L$-函数在谱方面的 twisted first moment 给出了带幂次误差项的渐近公式；作为应用，得到了非零结果（即大量 $L$-函数在中心点非零）和偶矩的期望阶下界，支持了酉系综的随机矩阵模型预测。",
+    "conclusion": "该结果显著推进了 $\\mathrm{GL}_3$ 上对称平方 $L$-函数的矩理论，其技术方法（特别是积分变换的界）对更高阶 $\\mathrm{GL}_n$ 的研究有参考价值。",
+    "future_work": "研究更高阶的对称平方 $L$-函数矩（如 second moment）；将方法推广到 $\\mathrm{GL}_n$（$n\\ge 4$）的对称平方 $L$-函数。"
+  },
+  {
+    "id": "2606.20046",
+    "tldr": "本文研究 twisted Carlitz 型多项式的 arboreal Galois 表示，构造了两族多项式其迭代 Galois 群在每层均为全迭代循环 wreath 积，并证明了 arboreal 极大型与 adelic 满射性在逻辑上独立（除了 $(t)$ 处的单向局部蕴含）。",
+    "motivation": "Arboreal Galois 表示研究多项式迭代下域的扩张结构，是算术动力学与 Galois 理论的交叉领域。Carlitz 模是正特征函数域上 Drinfeld 模的特殊情形，其 twisted 版本提供了丰富的 Galois 表示例子。理解 arboreal 极大型与 adelic 满射性之间的逻辑关系是该方向的重要理论问题。",
+    "method": "利用 twisted Carlitz 模的挠点结构与多项式迭代的 Galois 群之间的对应关系；通过分析迭代 wreath 积的结构和素数处分歧行为，构造具有全 Galois 群的多项式族；比较 arboreal 极大型与 adelic 满射性的不同组合可能性。",
+    "result": "构造了两族显式的 twisted Carlitz 型多项式，其迭代 Galois 群在每层同构于全迭代循环 wreath 积；证明了 arboreal 极大型与 adelic 满射性在逻辑上相互独立（存在四种组合可能），除了在有限位 $(t)$ 处 arboreal 极大蕴含 adelic 满射的单向局部蕴含。",
+    "conclusion": "该结果精确刻画了 arboreal 极大型与 adelic 满射性之间的关系，为理解算术动力学中 Galois 表示的整体与局部行为提供了重要例子。",
+    "future_work": "研究 twisted Carlitz 型多项式在更多素数位的分歧行为；探索 arboreal 极大型与 adelic 满射性在更一般的模形式多項式族中的关系。"
+  },
+  {
+    "id": "2606.20057",
+    "tldr": "本文导出了涉及 $f(a,b)=\\gcd(ab,a+b)/\\gcd(a,b)$ 的和的渐近公式，证明了在 $m=1$ 情况下对应密度为二次类数常数 $C=\\prod_p(1-1/(p^2(p+1)))\\doteq 0.881513$。",
+    "motivation": "算术函数 $f(a,b)=\\gcd(ab,a+b)/\\gcd(a,b)$ 近期由 Thang Pang Ern 和 Malcolm Tan Jun Xi 引入并研究。该函数组合了 gcd 运算，其值分布和渐近行为反映了数论中基本运算的深层结构。",
+    "method": "运用解析数论中的 Dirichlet 级数和 Tauberian 方法，对形式为 $\\sum_{a,b\\le x}h(f(a,b))$ 的和进行渐近分析，其中 $h$ 属于某类算术函数。通过转化为 Dirichlet 卷积和估计，导出渐近主项和误差项。",
+    "result": "对一类算术函数 $h$，导出了 $\\sum_{a,b\\le x}h(f(a,b))$ 的渐近公式；特别地，当 $f(a,b)=m$ 时给出了满足条件的 $(a,b)$ 有序对数量的渐近公式。在 $m=1$ 情形，证明了相应的密度为二次类数常数 $C=\\prod_p(1-1/(p^2(p+1)))\\doteq 0.881513$。",
+    "conclusion": "该结果为 $f(a,b)$ 的值分布提供了精确的渐近描述，自然常数 $C$ 的出现揭示了该问题与二次域的深刻联系。",
+    "future_work": "论文提出了若干相关的开放问题；进一步研究 $f(a,b)$ 的矩和其他统计性质；探索与其他经典算术函数的联系。"
+  },
+  {
+    "id": "2606.20439",
+    "tldr": "本文完全刻画了所有奇基数 $B>3$ 下四位 Kaprekar 映射的动力学结构：最多三步所有非常数轨道进入显式的三角形区域，且在该区域上映射共轭于投射加倍 $\\{[r],[s]\\}\\mapsto\\{[2r],[2s]\\}$。",
+    "motivation": "Kaprekar 例程（将四位数字降序减升序）因在十进制下将所有非常数串送到 $6174$ 而闻名。Schwartz 和 Thakur 提出了奇基数下 Kaprekar 动力学的完整猜想。本文完整证明这些猜想，并作为 AI 辅助形式化数学的测试案例。",
+    "method": "运用数论和动力系统的方法：分析 Kaprekar 映射在四位字符串空间上的作用；通过模运算和线性代数将映射在三角形区域 $\\mathcal{T}_B$ 上的行为与投射加倍联系起来；使用 AxiomProver 进行 Lean/mathlib 形式化验证作为辅助。",
+    "result": "证明了在所有奇基数 $B>3$ 下，四位 Kaprekar 映射具有刚性结构：最多三步迭代后所有非常数轨道进入显式的三角形区域 $\\mathcal{T}_B$，在该区域上映射共轭于 $\\{[r],[s]\\}\\mapsto\\{[2r],[2s]\\}$；给出了所有非常数终端循环的完全有限描述（包括长度和数量的显式公式）。特别是最长终端循环长度最多为 $(B-1)/2$，等号成立仅当 $B$ 为素数；对素数 $p>5$，等号成立当且仅当使 $2^m\\equiv\\pm1\\pmod p$ 的最小正整数 $m$ 为 $(p-1)/2$。",
+    "conclusion": "该结果给出了奇基数 Kaprekar 动力学的完全分类，其简洁的共轭于投射加倍的结构出人意料。同时展示了 AI 辅助形式化在数学研究中的潜力。",
+    "future_work": "研究偶基数或其他位数（三位、五位等）下 Kaprekar 动力学的类似结构；探索 Kaprekar 映射与其他数论动力系统（如 Collatz 映射）的联系。"
+  },
+  {
+    "id": "2606.19606",
+    "tldr": "本文证明了紧曲面基本群、自由群和直角 Artin 群的外自同构群 $\\mathrm{Out}(G)$ 满足强 Atiyah 猜想，并证明其群代数可嵌入除环，从而满足零因子猜想。",
+    "motivation": "Atiyah 猜想关于群作用的 $L^2$-Betti 数是否为有理数，零因子猜想（Kaplansky）关于无挠群的群代数是否无零因子，两者都是群环和算子代数中的核心猜想。证明这些猜想对 $\\mathrm{Out}(G)$ 类群成立具有重要意义。",
+    "method": "首先为 $G$ 的 pro-$p$ 完备化 $\\mathbf G$ 的 $\\mathrm{Out}(\\mathbf G)$ 的一个适当开子群及其完备群代数建立类似结果；然后通过这些结果推导出 $\\mathrm{Out}(G)$ 的相应性质。附录中证明了自由幂零群的自同构是内的当且仅当其诱导的 pro-$p$ 完备化自同构是内的。",
+    "result": "对于 $G$ 为紧曲面基本群、有限生成自由群或有限生成直角 Artin 群，证明了 $\\mathrm{Out}(G)$ 的 von Neumann 维数函数取值为 $\\mathbb Q$ 的离散子群（即强 Atiyah 猜想）；证明了存在 $\\mathrm{Out}(G)$ 的有限指数无挠子群 $H$，使得对任意域 $\\mathbb K$，$\\mathbb K[H]$ 可嵌入除环（从而满足零因子猜想）。",
+    "conclusion": "该结果将 Atiyah 猜想和零因子猜想推广到了一类重要的外自同构群，证明了这些群具有良好的代数和分析性质。",
+    "future_work": "将结果推广到更一般的图群或映射类群的外自同构群；研究 $\\mathrm{Out}(G)$ 的 $L^2$-同调的其他性质。"
+  },
+  {
+    "id": "2606.19880",
+    "tldr": "本文利用 Riesz–Thorin 插值定理给出了自由群 Rapid Decay 性质的一个新证明，通过建立与自由群在 Gromov 边界上拟正规表示相关联算子的 $L^p$ 界实现。",
+    "motivation": "Rapid Decay (RD) 性质是 Haagerup 引入的群性质，在非交换几何和 Baum–Connes 猜想中有重要应用。自由群是 RD 群的典型例子（Haagerup 不等式）。给出 RD 性质的插值理论证明具有方法论意义。",
+    "method": "对自由群在 Gromov 边界上的拟正规表示（quasi-regular representation）相关的算子建立 $L^p$ 估计；$p=2$ 情形恢复经典的 Haagerup 不等式；利用 Riesz–Thorin 插值定理从 $p=2$ 的界出发推导所需的 $L^p$ 界，从而得到 RD 性质的新证明。",
+    "result": "通过 Riesz–Thorin 插值方法给出了自由群 Rapid Decay 性质的新证明；$p=2$ 情形恢复了 Haagerup 不等式，提供了对 RD 性质的插值理论视角。",
+    "conclusion": "该证明为 RD 性质提供了一个更函数分析化的视角，Riesz–Thorin 插值方法可能适用于其他群的 RD 性质研究。",
+    "future_work": "将该插值方法推广到其他具有 RD 性质的群类（如双曲群）；探索该方法在证明其他群的分析性质中的应用。"
+  },
+  {
+    "id": "2606.20379",
+    "tldr": "本文报告了关于有限群的正规子群 $N$ 的极小 $G$-不变特征标及其与 $G$-共轭类之间关系的最新结果。",
+    "motivation": "有限群的特征标理论是群表示论的核心。当 $N$ 是 $G$ 的正规子群时，$G$ 通过共轭作用于 $\\text{Irr}(N)$，极小 $G$-不变特征标（每个轨道上特征标之和）反映了 $N$ 在 $G$ 中的嵌入方式，但此前对其结构影响的系统研究较少。",
+    "method": "运用有限群特征标理论的方法，分析 $G$ 在 $\\text{Irr}(N)$ 上的共轭作用的轨道结构，研究极小 $G$-不变特征标的性质，并建立其与 $N$ 的 $G$-共轭类之间的联系。",
+    "result": "报告了关于极小 $G$-不变特征标对 $N$ 结构的影响的最新结果，以及极小 $G$-不变特征标与 $N$ 的 $G$-共轭类之间的关系。",
+    "conclusion": "这些结果揭示了正规子群的特征标与其群结构之间的新联系，为有限群表示论提供了新的研究视角。",
+    "future_work": "进一步系统化极小 $G$-不变特征标的理论；探索在特定群族（如可解群、单群）中的具体应用。"
+  },
+  {
+    "id": "2606.20456",
+    "tldr": "本文证明了具有充分 generics 且满足 $\\delta_i(\\log r_i)^7=o(r_i)$ 增长条件的 lacunary hyperbolic 群是 selfless 的（包括 $C^*$-selfless），并提供例子区分了 selfless 和 $C^*$-selfless 性质。",
+    "motivation": "Selfless 性质是 Amrutam–Gao–Kunnawalkam Elayavalli–Patchell 近期引入的群性质，与群的 $C^*$-代数结构（如严格比较）密切相关。哪些自然群类是 selfless 的是一个基本问题。Lacunary hyperbolic 群是几何群论中的重要群类，之前未研究其 selfless 性质。",
+    "method": "用 Arzhantseva 的直接测地 $n$-边形准则替代原工作中基于 acylindricity 的 machinery，该准则在任意 $\\delta$-双曲空间中适用；在超双曲常数 $\\delta_i$ 和 injectivity radii $r_i$ 满足 $\\delta_i(\\log r_i)^7=o(r_i)$ 的条件下建立 lacunary hyperbolic 群的 selfless 性质。",
+    "result": "证明了具有充分 generics 且增长条件 $\\delta_i(\\log r_i)^7=o(r_i)$ 成立的 lacunary hyperbolic 群是 selfless 的；结合 rapid decay 性质推出这些群也是 $C^*$-selfless 的；给出了满足 selfless 但不满足 $C^*$-selfless 的可迁群的例子（如 Jacobson 混合-恒等-自由初等可迁群），区分了这两个性质；指出 Gromov monster 群提供了可能产生具有严格比较的非 exact $C^*$-代数的途径。",
+    "conclusion": "该工作将 selfless 性质推广到了一类重要的几何群，并给出了 selfless 和 $C^*$-selfless 之间的明确区分，为 $C^*$-代数分类提供了新的群论来源。",
+    "future_work": "利用 Gromov monster 群构造具有严格比较的非 exact $C^*$-代数；研究更广泛的 lacunary hyperbolic 群族是否 selfless；探索 selfless 性质在算子代数中的进一步应用。"
+  }
+]
