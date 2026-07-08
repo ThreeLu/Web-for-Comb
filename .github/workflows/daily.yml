@@ -1,0 +1,76 @@
+name: Comb-Search daily
+
+on:
+  schedule:
+    # 02:30 UTC, Mon–Fri — a little after arXiv announces new math
+    # submissions. arXiv rarely announces on weekends, so we skip them.
+    - cron: "30 2 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Override date (YYYY-MM-DD, UTC). Leave blank for today."
+        required: false
+        default: ""
+
+# Only one run at a time; let a running job finish rather than cancelling it.
+concurrency:
+  group: daily-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run daily pipeline
+        env:
+          PYTHON: "uv run python"
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_MAX_WORKERS: ${{ vars.LLM_MAX_WORKERS }}
+          MAX_PAPERS: ${{ vars.MAX_PAPERS }}
+          # Optional email digest — only sends if SMTP_HOST is configured.
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: bash pipeline/run.sh ${{ github.event.inputs.date }}
+
+      - name: Push results
+        run: |
+          # Nothing to push if the pipeline made no commit.
+          if git diff --quiet origin/${GITHUB_REF_NAME}..HEAD 2>/dev/null; then
+            echo "No new commit to push."
+            exit 0
+          fi
+          for i in 1 2 3; do
+            if git push origin HEAD:${GITHUB_REF_NAME}; then
+              echo "Pushed."
+              exit 0
+            fi
+            echo "Push failed (attempt $i); rebasing on latest..."
+            git pull --rebase origin ${GITHUB_REF_NAME} || true
+          done
+          echo "Failed to push after 3 attempts." >&2
+          exit 1
