@@ -1,0 +1,300 @@
+{
+  "generated": "2026-07-08T06:23:56+00:00",
+  "total_days": 29,
+  "total_matched": 226,
+  "daily": [
+    {
+      "date": "2026-06-02",
+      "matched": 10,
+      "fetched": 79
+    },
+    {
+      "date": "2026-06-03",
+      "matched": 9,
+      "fetched": 35
+    },
+    {
+      "date": "2026-06-04",
+      "matched": 4,
+      "fetched": 28
+    },
+    {
+      "date": "2026-06-08",
+      "matched": 11,
+      "fetched": 42
+    },
+    {
+      "date": "2026-06-09",
+      "matched": 9,
+      "fetched": 86
+    },
+    {
+      "date": "2026-06-10",
+      "matched": 6,
+      "fetched": 38
+    },
+    {
+      "date": "2026-06-11",
+      "matched": 10,
+      "fetched": 40
+    },
+    {
+      "date": "2026-06-12",
+      "matched": 5,
+      "fetched": 36
+    },
+    {
+      "date": "2026-06-15",
+      "matched": 5,
+      "fetched": 33
+    },
+    {
+      "date": "2026-06-16",
+      "matched": 14,
+      "fetched": 81
+    },
+    {
+      "date": "2026-06-18",
+      "matched": 5,
+      "fetched": 27
+    },
+    {
+      "date": "2026-06-20",
+      "matched": 8,
+      "fetched": 35
+    },
+    {
+      "date": "2026-06-21",
+      "matched": 4,
+      "fetched": 19
+    },
+    {
+      "date": "2026-06-22",
+      "matched": 8,
+      "fetched": 58
+    },
+    {
+      "date": "2026-06-23",
+      "matched": 11,
+      "fetched": 60
+    },
+    {
+      "date": "2026-06-24",
+      "matched": 9,
+      "fetched": 47
+    },
+    {
+      "date": "2026-06-25",
+      "matched": 7,
+      "fetched": 70
+    },
+    {
+      "date": "2026-06-26",
+      "matched": 8,
+      "fetched": 48
+    },
+    {
+      "date": "2026-06-27",
+      "matched": 2,
+      "fetched": 29
+    },
+    {
+      "date": "2026-06-28",
+      "matched": 7,
+      "fetched": 42
+    },
+    {
+      "date": "2026-06-29",
+      "matched": 9,
+      "fetched": 55
+    },
+    {
+      "date": "2026-06-30",
+      "matched": 7,
+      "fetched": 51
+    },
+    {
+      "date": "2026-07-01",
+      "matched": 11,
+      "fetched": 61
+    },
+    {
+      "date": "2026-07-02",
+      "matched": 12,
+      "fetched": 70
+    },
+    {
+      "date": "2026-07-03",
+      "matched": 7,
+      "fetched": 44
+    },
+    {
+      "date": "2026-07-04",
+      "matched": 4,
+      "fetched": 24
+    },
+    {
+      "date": "2026-07-05",
+      "matched": 4,
+      "fetched": 31
+    },
+    {
+      "date": "2026-07-06",
+      "matched": 10,
+      "fetched": 60
+    },
+    {
+      "date": "2026-07-07",
+      "matched": 10,
+      "fetched": 48
+    }
+  ],
+  "keywords": [
+    [
+      "threshold",
+      34
+    ],
+    [
+      "chromatic number",
+      22
+    ],
+    [
+      "Cayley graph",
+      18
+    ],
+    [
+      "extremal graph",
+      12
+    ],
+    [
+      "oriented",
+      9
+    ],
+    [
+      "Latin square",
+      8
+    ],
+    [
+      "random graph",
+      7
+    ],
+    [
+      "transversal",
+      7
+    ],
+    [
+      "Turán number",
+      5
+    ],
+    [
+      "Ramsey number",
+      5
+    ],
+    [
+      "treewidth",
+      4
+    ],
+    [
+      "Hamiltonian cycle",
+      4
+    ],
+    [
+      "oriented graph",
+      3
+    ],
+    [
+      "generalized Turán",
+      3
+    ],
+    [
+      "Hamiltonicity",
+      3
+    ],
+    [
+      "Hamilton path",
+      3
+    ],
+    [
+      "supersaturation",
+      2
+    ],
+    [
+      "Hamilton cycle",
+      2
+    ],
+    [
+      "multicolour Ramsey",
+      1
+    ],
+    [
+      "hypergraph regularity",
+      1
+    ],
+    [
+      "resolvable design",
+      1
+    ],
+    [
+      "combinatorial design",
+      1
+    ],
+    [
+      "induced Ramsey",
+      1
+    ],
+    [
+      "probabilistic method",
+      1
+    ],
+    [
+      "semi-random",
+      1
+    ],
+    [
+      "list coloring",
+      1
+    ]
+  ],
+  "authors": [
+    [
+      "Hong Liu",
+      5
+    ],
+    [
+      "Benny Sudakov",
+      3
+    ],
+    [
+      "Noga Alon",
+      1
+    ],
+    [
+      "Richard Montgomery",
+      1
+    ],
+    [
+      "Andrey Kupavskii",
+      1
+    ],
+    [
+      "Tom Kelly",
+      1
+    ],
+    [
+      "Peter Keevash",
+      1
+    ],
+    [
+      "Matthew Kwan",
+      1
+    ],
+    [
+      "Cosmin Pohoata",
+      1
+    ],
+    [
+      "Zach Hunter",
+      1
+    ]
+  ]
+}

@@ -1,6 +1,0 @@
---- PAPER 43/86 ---
-ID: 2606.09785
-Title: Biclique decompositions from Welzl orders
-Authors: Jean Cardinal, Rose McCarty, Yelena Yuditsky
-Categories: math.CO, cs.DM
-Abstract: A biclique decomposition of a graph is a partition of its edges into complete bipartite subgraphs. We consider graphs whose vertices can be ordered such that the neighborhood of every vertex is the union of a sublinear number of intervals. We observe that these graphs admit compact representations in the form of biclique decompositions of small size. Here, the size of a decomposition is measured as the sum of the number of vertices of its bicliques. Combining this result with the existence of suitable vertex orderings for graphs of low neighborhood complexity, as proven by Welzl in 1988, we recover and extend several known results up to logarithmic factors. These results include upper bounds on the Zarankiewicz problem, matrix multiplication, quantum circuit complexity, and shortest path algorithms in ``well-structured'' instances.

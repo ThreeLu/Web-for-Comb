@@ -1,6 +1,0 @@
---- PAPER 40/86 ---
-ID: 2606.09733
-Title: On saturation problems involving clique number and matching number
-Authors: Zian Chen, Guorong Gao, Jianfeng Hou, Yue Ma
-Categories: math.CO
-Abstract: For a clique $K_r$, a graph is $K_r$-saturated if it contains no copy of $K_r$ and the addition of any edge from its complement creates a $K_r$. A classical result of Erdős-Hajnal-Moon and Zykov shows that the number of edges of an $n$-vertex $K_r$-saturated graph is at least $(r-2)n-\binom{r-1}{2}$. In this paper, we focus on the number of edges of the $K_r$-saturated graphs with a fixed matching number. Let $G$ be an $n$-vertex $K_r$-saturated graph with matching number $\nu(G) = s$. For sufficiently large $n$, we prove that the number of edges \begin{equation*} e(G)\geq \left\{\begin{array}{cl}{(r-1)n-\frac{r}{2}(r-1)-1,}&{\quad\mathrm{if}~s=r-1;}\\{(r-1)n + (s-r)^2 - \frac{1}{2}(r+2)(r-3) - 5,}&{\quad\mathrm{if}~s>r-1.}\\\end{array}\right. \end{equation*} Moreover, we completely characterize the graphs attaining the equality.

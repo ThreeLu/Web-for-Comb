@@ -10,13 +10,24 @@ publications from ~45 leading researchers in the field.
 
 ## Features
 
+- **Fully automated** — Runs every day on GitHub Actions (cron), no manual steps
 - **Daily arXiv crawling** — Automatically fetches new papers in combinatorics
-- **AI summarization** — Each paper gets a structured English summary (TL;DR,
-  Motivation, Method, Result, Conclusion, Future Work)
-- **Personalized filtering** — Keyword and author highlighting on the web interface
+- **AI summarization** — Each matched paper gets a structured Chinese summary
+  (TL;DR, Motivation, Method, Result, Conclusion, Future Work) via an
+  OpenAI-compatible API (DeepSeek by default, configurable)
+- **Personalized filtering** — Keyword/author matching before summarization
 - **LaTeX rendering** — All mathematical notation rendered with KaTeX
 - **Statistics dashboard** — Keyword trends and paper analytics
-- **Local workflow** — Runs via Claude Code (or Codex CLI), no cloud keys needed
+
+## Setup
+
+The daily workflow needs one secret. In the GitHub repo settings:
+
+- **Secrets → Actions**: add `LLM_API_KEY` (your DeepSeek/OpenAI key)
+- **Variables → Actions** (optional): `LLM_BASE_URL`, `LLM_MODEL` to switch
+  providers
+
+See `.env.example` and `CLAUDE.md` for local runs and full config.
 
 ## Live Site
 

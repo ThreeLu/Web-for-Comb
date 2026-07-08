@@ -8,6 +8,7 @@ let currentDate = '';
 let allPapers = [];
 let expandedId = null;
 let flatpickrInstance = null;
+let searchTerm = '';
 
 // ── Init ─────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
@@ -63,6 +64,13 @@ function hideDatePicker() {
     document.getElementById('datePicker').classList.add('hidden');
 }
 
+// ── Search ───────────────────────────────────────────────
+document.getElementById('searchInput').addEventListener('input', (e) => {
+    searchTerm = e.target.value.trim().toLowerCase();
+    expandedId = null;
+    renderPapers();
+});
+
 // ── Data Loading ─────────────────────────────────────────
 async function fetchAvailableDates() {
     try {
@@ -88,6 +96,9 @@ async function fetchAvailableDates() {
 async function loadDate(date) {
     currentDate = date;
     expandedId = null;
+    searchTerm = '';
+    const si = document.getElementById('searchInput');
+    if (si) si.value = '';
     document.getElementById('dateDisplay').textContent = fmtDate(date);
 
     showLoading();
@@ -122,6 +133,8 @@ function parseJSONL(text, date) {
                 summary: p.summary || '',
                 categories: p.categories || [],
                 matched: !!p.matched,
+                matchKeywords: (p.match_reasons && p.match_reasons.keywords) || [],
+                matchAuthors: (p.match_reasons && p.match_reasons.authors) || [],
                 // AI fields (may be nested under 'AI' or flat)
                 tldr: (p.AI && p.AI.tldr) || p.tldr || '',
                 motivation: (p.AI && p.AI.motivation) || p.motivation || '',
@@ -146,33 +159,114 @@ function showLoading() {
     document.getElementById('noMatch').classList.add('hidden');
 }
 
+function paperMatchesSearch(p, term) {
+    if (!term) return true;
+    const hay = [
+        p.title, p.authors, p.tldr,
+        p.matchKeywords.join(' '), p.matchAuthors.join(' ')
+    ].join(' ').toLowerCase();
+    return hay.includes(term);
+}
+
+// Relevance: a watched author is a stronger signal than a keyword hit, and
+// more distinct hits => more relevant. Used to sort the most relevant to top.
+function relevanceScore(p) {
+    return p.matchKeywords.length + p.matchAuthors.length * 3;
+}
+
+// Category color system (D). Each arXiv category maps to a CSS accent var.
+const CAT_INFO = {
+    'math.CO': { zh: '组合', v: '--cat-co' },
+    'math.NT': { zh: '数论', v: '--cat-nt' },
+    'math.PR': { zh: '概率', v: '--cat-pr' },
+    'math.GR': { zh: '群论', v: '--cat-gr' },
+};
+function catVar(cat) {
+    const info = CAT_INFO[cat];
+    return info ? `var(${info.v})` : 'var(--accent)';
+}
+function catTag(cat) {
+    const info = CAT_INFO[cat];
+    const zh = info ? info.zh : '';
+    return `<span class="cat-tag"><span class="cat-dot"></span>${zh}<span class="cat-code">${esc(cat || '')}</span></span>`;
+}
+
+function matchChips(p) {
+    const chips = [];
+    p.matchAuthors.forEach(a => chips.push(`<span class="match-chip match-chip-author">@${esc(a)}</span>`));
+    p.matchKeywords.forEach(k => chips.push(`<span class="match-chip">${esc(k)}</span>`));
+    return chips.length ? `<div class="match-chips">${chips.join('')}</div>` : '';
+}
+
+// Wrap matched keywords in <mark>, without disturbing $…$ math spans.
+function highlightTitle(rawTitle, terms) {
+    let text = esc(rawTitle);
+    if (!terms || !terms.length) return text;
+    const math = [];
+    text = text.replace(/\$\$[^$]*\$\$|\$[^$]*\$/g, m => {
+        math.push(m);
+        return ` ${math.length - 1} `;
+    });
+    terms.forEach(t => {
+        const pat = new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + 's?', 'gi');
+        text = text.replace(pat, m => `<mark>${m}</mark>`);
+    });
+    text = text.replace(/ (\d+) /g, (_, i) => math[+i]);
+    return text;
+}
+
 function renderPapers() {
     document.getElementById('loading').classList.add('hidden');
     const container = document.getElementById('papers');
     const noPapers = document.getElementById('noPapers');
+    const noMatch = document.getElementById('noMatch');
     const summary = document.getElementById('daySummary');
+    const searchBar = document.getElementById('searchBar');
 
     if (allPapers.length === 0) {
         container.innerHTML = '';
         if (summary) summary.classList.add('hidden');
+        if (searchBar) searchBar.classList.add('hidden');
+        noMatch.classList.add('hidden');
         noPapers.classList.remove('hidden');
         return;
     }
     noPapers.classList.add('hidden');
+    if (searchBar) searchBar.classList.remove('hidden');
+
+    const visible = allPapers
+        .filter(p => paperMatchesSearch(p, searchTerm))
+        .map((p, i) => [p, i])                       // decorate with original index
+        .sort((a, b) => relevanceScore(b[0]) - relevanceScore(a[0]) || a[1] - b[1])
+        .map(pair => pair[0]);                        // stable: relevance desc, then original order
     if (summary) {
         summary.classList.remove('hidden');
-        summary.textContent = `${fmtDate(currentDate)} · ${allPapers.length} 篇`;
+        summary.textContent = searchTerm
+            ? `${fmtDate(currentDate)} · ${visible.length}/${allPapers.length} 篇`
+            : `${fmtDate(currentDate)} · ${allPapers.length} 篇`;
     }
 
+    if (visible.length === 0) {
+        container.innerHTML = '';
+        noMatch.classList.remove('hidden');
+        return;
+    }
+    noMatch.classList.add('hidden');
+
     let html = '';
-    allPapers.forEach((p, i) => {
+    visible.forEach((p, i) => {
+        const cat = (p.categories && p.categories[0]) || '';
         html += `
-        <div class="paper-row" data-id="${esc(p.id)}">
+        <div class="paper-row" data-id="${esc(p.id)}" style="--cat:${catVar(cat)}">
             <div class="paper-row-inner">
-                <span class="paper-num">${i + 1}.</span>
+                <span class="paper-num">${i + 1}</span>
                 <div class="paper-content">
-                    <span class="paper-title" onclick="toggleExpand('${esc(p.id)}')">${esc(p.title)}</span>
+                    <span class="paper-title" onclick="toggleExpand('${esc(p.id)}')">${highlightTitle(p.title, p.matchKeywords)}</span>
                     <div class="paper-authors">${esc(p.authors)}</div>
+                    <div class="paper-meta">
+                        ${catTag(cat)}
+                        ${(p.matchKeywords.length || p.matchAuthors.length) ? '<span class="meta-sep"></span>' + matchChips(p) : ''}
+                    </div>
                 </div>
                 <a href="https://arxiv.org/abs/${esc(p.id)}" target="_blank" class="arxiv-link" title="Open on arXiv" onclick="event.stopPropagation()">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -183,7 +277,7 @@ function renderPapers() {
                 </a>
             </div>
             <div class="paper-expand" id="expand-${esc(p.id)}">
-                ${renderExpand(p)}
+                <div class="paper-expand-inner"><div class="expand-card">${renderExpand(p)}</div></div>
             </div>
         </div>`;
     });
@@ -330,33 +424,24 @@ function toggleExpand(id) {
 // ── Trend Bar ────────────────────────────────────────────
 async function fetchTrend() {
     try {
-        const url = DATA_CONFIG.getDataUrl('assets/file-list.txt');
+        const url = DATA_CONFIG.getDataUrl('assets/stats.json');
         const resp = await fetch(url);
         if (!resp.ok) return;
-        const text = await resp.text();
-        const re = /(\d{4}-\d{2}-\d{2})_ai_enhanced\.jsonl/;
-        const dates = [];
-        text.trim().split('\n').forEach(line => {
-            const m = line.match(re);
-            if (m) dates.push(m[1]);
-        });
+        const stats = await resp.json();
+        const daily = (stats.daily || []).slice(-14);   // real matched counts per day
+        if (!daily.length) return;
 
-        // Count papers per date (approximate: count files)
-        const counts = {};
-        dates.forEach(d => { counts[d] = (counts[d] || 0) + 1; });
-
-        const sorted = Object.keys(counts).sort().slice(-10);
-        const maxCount = Math.max(1, ...sorted.map(d => counts[d]));
-
+        const maxCount = Math.max(1, ...daily.map(d => d.matched));
         const bar = document.getElementById('trendBar');
         let barsHTML = '<div class="trend-bars">';
-        sorted.forEach(d => {
-            const h = Math.max(4, (counts[d] / maxCount) * 24);
-            barsHTML += `<div class="trend-bar-item" title="${d}: ${counts[d]}"><div class="trend-bar-fill" style="height:${h}px"></div></div>`;
+        daily.forEach(d => {
+            const h = Math.max(3, (d.matched / maxCount) * 24);
+            barsHTML += `<div class="trend-bar-item" title="${d.date}: ${d.matched} 篇匹配（共抓 ${d.fetched}）"><div class="trend-bar-fill" style="height:${h}px"></div></div>`;
         });
         barsHTML += '</div>';
-        const total = dates.length;
-        bar.innerHTML = `<span>Recent activity</span>${barsHTML}<span>${total} days of data</span>`;
+        bar.innerHTML =
+            `<span>近 ${daily.length} 天匹配</span>${barsHTML}` +
+            `<span>共 ${stats.total_matched} 篇 / ${stats.total_days} 天</span>`;
     } catch (e) {
         console.error('Trend fetch failed:', e);
     }
@@ -395,3 +480,36 @@ document.addEventListener('keydown', (e) => {
         expandedId = null;
     }
 });
+
+// ── Theme toggle + header shadow on scroll ───────────────
+(function () {
+    const root = document.documentElement;
+    const btn = document.getElementById('themeToggle');
+    const sun = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+    const moon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+
+    function isDark() {
+        const t = root.getAttribute('data-theme');
+        if (t) return t === 'dark';
+        return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    function paint() { if (btn) btn.innerHTML = isDark() ? sun : moon; }
+
+    try {
+        const saved = localStorage.getItem('cs-theme');
+        if (saved === 'dark' || saved === 'light') root.setAttribute('data-theme', saved);
+    } catch (e) { /* private mode */ }
+    paint();
+
+    if (btn) btn.addEventListener('click', () => {
+        const next = isDark() ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('cs-theme', next); } catch (e) {}
+        paint();
+    });
+
+    const hdr = document.querySelector('header');
+    if (hdr) window.addEventListener('scroll', () => {
+        hdr.classList.toggle('scrolled', window.scrollY > 4);
+    }, { passive: true });
+})();

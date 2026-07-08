@@ -1,6 +1,0 @@
---- PAPER 52/86 ---
-ID: 2606.08040
-Title: A criterion for weighted uniform distribution along functions from a Hardy field
-Authors: Michael Reilly
-Categories: math.NT, math.DS
-Abstract: A classical theorem of Boshernitzan states that if $f$ is a function which belongs to a Hardy field and which satisfies $|f(x)|\prec x^{\ell}$ for some $\ell\in \mathbb{N}$, then the sequence $(f(n))_{n\in \mathbb{N}}$ is uniformly distributed modulo 1 if and only if $\lim_{x\to\infty}\frac{|f(x)-p(x)|}{\log(x)} = \infty$ for all $p(x)\in \mathbb{Q}[x]$. We provide a new proof of this result using methods from summability theory and we extend Boshernitzan's criterion by obtaining necessary and sufficient conditions for $f$ to be uniformly distributed modulo 1 with respect to a broad class of weighted averages. As an application of our results, we show that for the function $f(x) = x^{3/2}$ and for any $(a,b)\subset [0,1]$, and all sufficiently large $N\in\mathbb{N}$, there is an $n\in [N-N^{\frac{1}{4}},N]$ such that $f(n)\mod 1\in (a,b)$.

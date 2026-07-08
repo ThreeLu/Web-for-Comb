@@ -1,6 +1,0 @@
---- PAPER 85/86 ---
-ID: 2606.09524
-Title: On the Quartic-free A-groups
-Authors: Prashun Kumar
-Categories: math.GR
-Abstract: A finite group is said to be quartic-free if its order is not divisible by $p^4$ of any prime $p$. A finite group is called an $A$-group if all of its Sylow subgroups are abelian. Objective of this paper is to provide explicit structure of a quartic-free $A$-group. Further in the process of providing the explicit structure we also determine the derived length of a solvable quartic-free $A$-group.

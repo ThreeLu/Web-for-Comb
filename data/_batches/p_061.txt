@@ -1,6 +1,0 @@
---- PAPER 62/86 ---
-ID: 2606.08733
-Title: On the degree-$2$ Siegel theta series of extremal even unimodular lattices of ranks $48$, $72$, $96$, and $120$
-Authors: Scott Duke Kominers
-Categories: math.NT, math.CO
-Abstract: We study degree-$2$ Siegel theta series of extremal even unimodular lattices from the genus-$2$ viewpoint initiated by Ozeki. Using Igusa's structure theorem, we define a depth filtration on genus-$2$ cusp forms, measured by the total degree in $\chi_{10}$ and $\chi_{12}$, and relate it to the vanishing of low Fourier--Jacobi coefficients forced by extremality. In ranks $48$, $72$, and $96$, this interaction closes exactly and yields a direct genus-$2$ proof that the degree-$2$ theta series is uniquely determined by extremality (conditional on existence in rank $96$). In rank $120$ (again conditional on existence), the same argument leaves a one-dimensional residual line spanned by $\chi_{10}^6$: with $\chi_{10}$ in the standard integral normalization, any two such degree-$2$ theta series differ by an integer multiple of $\chi_{10}^6$.

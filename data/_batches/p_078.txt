@@ -1,6 +1,0 @@
---- PAPER 79/86 ---
-ID: 2606.07768
-Title: Non-abelian hypercohomology of a group with coefficients in a crossed module, and Galois cohomology
-Authors: Mikhail Borovoi
-Categories: math.GR, math.KT, math.RT
-Abstract: We develop a hypercohomology theory of a group with coefficients in a crossed module, and apply it to define abelianization maps for Galois cohomology of reductive algebraic groups.

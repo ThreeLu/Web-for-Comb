@@ -1,6 +1,0 @@
---- PAPER 54/86 ---
-ID: 2606.08085
-Title: $P$-adic $L$-functions: $t$-modules and Dirichlet-Goss $L$-series
-Authors: Daniel Krell Calvo
-Categories: math.NT
-Abstract: We prove that the order of vanishing of a natural twist of the $P$-adic Carlitz zeta values at the positive &#34;even&#34; integers is always $1$. We also obtain the same result for $P$-adic Pellarin $L$-series, and for almost all $P$-adic Dirichlet-Goss $L$-series. To do so, we demonstrate a $P$-adic version of a reduced variant of the class formula for Anderson $t$-modules proven by Anglès, Ngo Dac and Tavares-Ribeiro in 2020.

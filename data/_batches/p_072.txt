@@ -1,6 +1,0 @@
---- PAPER 73/86 ---
-ID: 2606.09544
-Title: Multiple zeta values ending with a fixed string
-Authors: Steven Charlton
-Categories: math.NT
-Abstract: We give a generating series expression for the sum of all multiple zeta values of a fixed weight, depth, and height, which end with a given string $\vec{\ell} = (\ell_1,\ldots,\ell_r)$; this builds upon the proof of the Ohno-Zagier Theorem. In particular, the sum of all multiple zeta values of fixed weight, depth and ending with $\vec{\ell}$ has bounded depth $\leq \ell_1 + \cdots + \ell_r$. We give some applications to evaluations of interpolated multiple zeta values, and to the generating series of double zeta values.

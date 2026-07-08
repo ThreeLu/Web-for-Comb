@@ -1,6 +1,0 @@
---- PAPER 5/86 ---
-ID: 2606.07918
-Title: Covering $\mathbb{F}_2^n$ with Hamming Balls
-Authors: Michael Jaber, Vinayak M. Kumar
-Categories: math.CO, math.NT
-Abstract: Green asked the following question concerning structures in sumsets: Suppose that $\mathbb{F}_2^n$ is partitioned into sets $A_1, \dots, A_K$. Does $A_i+A_i$ contain a coset of codimension $O_K(1)$ for some $i$? An answer is not known even in the case of $K = 3$. We resolve this question in the affirmative in two special cases: (1) when $A_1, A_2$ are Hamming balls of radius $r < n/2 - 7$ relative to different bases, and (2) when $A_1$ is a Hamming ball of sufficiently small constant density.

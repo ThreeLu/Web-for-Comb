@@ -1,6 +1,0 @@
---- PAPER 61/86 ---
-ID: 2606.08665
-Title: A convexity proof of Pohst's inequality
-Authors: Scott Duke Kominers
-Categories: math.NT, math.CO
-Abstract: We give a short analytic proof of Raposo's signed refinement of Pohst's inequality.

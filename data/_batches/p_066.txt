@@ -1,6 +1,0 @@
---- PAPER 67/86 ---
-ID: 2606.08890
-Title: Polynomial Corners Over finite Fields
-Authors: Laurence P. Wijaya
-Categories: math.NT, math.CO
-Abstract: Recently there has been some progress in understanding the density of a subset of $[N]^2$ that avoids polynomial patterns. Kravitz, Kuca, and Leng showed that if $P\in\mathbb{Z}[z]$ satisfies certain conditions, then any set $A\subseteq[N]^2$ does not contain $(x,y),(x+P(z),y),(x,y+P(z))$, we must have \[ |A|\ll_P\frac{N^2}{(\log\log\log N)^c} \] for some small constant $c$. In this article, we show a similar result in $(\mathbb{F}_p)^2$ where we get a better bound on the density of a set $A\subseteq (\mathbb{F}_p)^2$ not containing $(x,y),(x+P(z),y),(x,y+P(z))$ with some conditions on $P\in \mathbb{F}_p[z]$.

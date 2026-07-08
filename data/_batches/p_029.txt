@@ -1,6 +1,0 @@
---- PAPER 30/86 ---
-ID: 2606.08958
-Title: A spectral correlation inequality for increasing Boolean functions
-Authors: Fan Chang
-Categories: math.CO, math.PR
-Abstract: Talagrand's correlation inequality provides a quantitative strengthening of the Harris--Kleitman inequality for increasing Boolean functions. Motivated by a Fourier-analytic conjecture of Friedgut, Kahn, Kalai, and Keller, we prove that $$ \mathrm{Cov}(f,g)\ge 2\sum_{S\neq\emptyset}|S|\hat f(S)^2\hat g(S)^2 $$ holds for all increasing Boolean functions $f,g:\{0,1\}^n\to\{0,1\}$. The proof combines the reverse Bonami--Beckner inequality with Young's convolution inequality. We also establish a sharp pointwise inequality: for every $n\ge1$, every $0\le\rho\le1$, and every $f,g:\{0,1\}^n\to[0,1]$, the optimal constant $c_{\rho,n}$ for which $$ \left\langle f,T_\rho g \right\rangle\ge c_{\rho,n}\|f*g\|_2^2 $$ holds for all such $f,g$ is $1$ for $0\le\rho\le1/2$, $(2(1-\rho))^n$ for $1/2<\rho<1$, and $0$ for $\rho=1$. Integrating this pointwise inequality yields, for $n\ge1$, the slightly improved bound $$ \mathrm{Cov}(f,g)\ge 4\cdot\frac{n+1}{2n}\sum_{S\neq\emptyset}|S|\hat f(S)^2\hat g(S)^2. $$

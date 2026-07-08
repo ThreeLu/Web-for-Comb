@@ -1,6 +1,0 @@
---- PAPER 39/86 ---
-ID: 2606.09518
-Title: Strong counterexamples to a supersaturation question of Ma-Yuan
-Authors: Wanfang Chen, Long-Tu Yuan
-Categories: math.CO
-Abstract: For a graph $F$, let $h_F(n,q)$ be the minimum number of copies of $F$ in an $n$-vertex graph with $\mathrm{ex}(n,F)+q$ edges, where $\mathrm{ex}(n,F)$ is the maximum number of edges in an $n$-vertex $F$-free graph. Let $c(n,F)$ be the minimum number of copies obtained by adding one edge to an extremal $F$-free graph. Mubayi's supersaturation conjecture predicts, under a stability hypothesis, that $h_F(n,q)\ge q\,c(n,F)$. Ma and Yuan recently constructed stable graph counterexamples for every fixed $q\ge4$; they asked whether the one-edge equality $h_F(n,1)=c(n,F)$ might still hold for every graph $F$ containing a cycle. We give a negative answer to their question. For each integer $t\ge6$, let $H_t$ be obtained from the $t$-vertex path by replacing each edge with a $3t$-page book, using disjoint page vertices for different path edges. Then $h_{H_t}(n,1)<c(n,H_t)$ for infinitely many values of $n$. Moreover, by taking $t$ large, the ratio $h_{H_t}(n,1)/c(n,H_t)$ can be made arbitrarily small along infinitely many values of $n$.

@@ -23,5 +23,8 @@ Thumbs.db
 # Node
 node_modules/
 
+# Pipeline intermediate (matched subset, regenerated each run)
+data/*.matched.jsonl
+
 # Cloned reference project
 /daily-arXiv-ai-enhanced/

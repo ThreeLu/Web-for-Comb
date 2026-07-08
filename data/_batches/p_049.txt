@@ -1,6 +1,0 @@
---- PAPER 50/86 ---
-ID: 2606.07959
-Title: On the sequence $\mathrm{gcd}(a^n-1,b^n-1)$
-Authors: Khai-Hoan Nguyen-Dang
-Categories: math.NT
-Abstract: For integers $a,b\ge 2$, let \[ g_n:=\gcd(a^n-1,b^n-1)\qquad(n\ge 1). \] We study the sequence $(g_n)$ from the perspective of divisibility sequences and the Ailon--Rudnick problem. We prove that $(g_n)$ satisfies a constant-coefficient linear recurrence if and only if $a$ and $b$ are multiplicatively dependent. More generally, if $a$ and $b$ are multiplicatively independent, then every integer linear divisibility sequence $(W_n)$ satisfying \[ W_n\mid a^n-1 \qquad\text{and}\qquad W_n\mid b^n-1 \qquad(n\ge 1) \] is periodic. We also determine the local structure of $(g_n)$ through an exact support formula and an exact odd-prime valuation formula. In the normalized setting $\gcd(a-1,b-1)=1$, these formulas identify the bad set $\{n\ge 1:g_n>1\}$ as an explicit union of arithmetic progressions. Finally, we obtain several structural reductions toward the integer Ailon--Rudnick conjecture, including primitive-support, prime-power-ray, prime-index, and resultant formulations.

@@ -1,6 +1,0 @@
---- PAPER 82/86 ---
-ID: 2606.08101
-Title: Automatic actions I. Bounded automata and orbits
-Authors: Laurent Bartholdi
-Categories: math.GR
-Abstract: We develop the theory of &#34;automatic actions&#34;: (semi)groups acting by $\omega$-regular transformations on an $\omega$-regular language, showing that it covers a large class of heretofore-unrelated examples. We focus on the subclass of actions by &#34;bounded&#34; $\omega$-regular transformations, those for which the Büchi automata encoding the action do not have two connected non-trivial cycles. We show that, for bounded actions of inverse semigroups, the orbit relation is also $\omega$-regular. We deduce a number of corollaries, in particular decidability, for such actions, of minimality, topological transitivity, aperiodicity, and order of elements. More generally, every first-order statement over the space of the action, involving the action of specific semigroup elements as well as the relation &#34;being in the same orbit&#34;, is decidable. We also apply this result to the study of Julia sets of post-critically finite polynomials, and show that the encoding of Fatou components is also computable; thus every first-order statement involving intersection, disjointness etc. of Fatou components or their full orbit under the polynomial, is decidable.

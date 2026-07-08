@@ -1,6 +1,0 @@
---- PAPER 56/86 ---
-ID: 2606.08125
-Title: Arithmetic exceptionality of generalized Chebyshev polynomials of the second kind
-Authors: Derya Acar, Metin Azmaz, Vural Cam, Ömer Küçüksakallı
-Categories: math.NT
-Abstract: In this paper, we show that generalized Chebyshev polynomials of the second kind, associated with the root system $A_2$, are not arithmetically exceptional. We achieve this by studying the norms of certain cyclotomic elements that admit a parametrization of finite fields.

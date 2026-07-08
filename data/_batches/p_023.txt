@@ -1,6 +1,0 @@
---- PAPER 24/86 ---
-ID: 2606.08724
-Title: EL-Shellability of the poset of ranked cactuses
-Authors: Vincent Moulton, Andreas Spillner, Antonia Stavemann
-Categories: math.CO, cs.DM
-Abstract: Recently the poset of ranked cactuses $(\mathfrak{P}(X),\preceq)$ was introduced. For a finite set $X$, this poset consists of a set $\mathfrak{P}(X)$ of certain collections of ordered pairs of subsets of $X$ together with an ordering $\preceq$ that is similar to the refinement ordering of partitions of a finite set. In addition, the maximal chains in this poset correspond to binary ranked cactuses, a fact which can be used to construct the so-called space of equidistant cactuses. In this paper, we show that the poset of ranked cactuses is EL-shellable. As a consequence we also show that the proper part of the link of the origin of the space of equidistant cactuses has the homotopy type of a wedge of spheres.

@@ -1,6 +1,0 @@
---- PAPER 19/86 ---
-ID: 2606.08502
-Title: Sufficient conditions for a special factor in a graph with minimum degree
-Authors: Sizhong Zhou
-Categories: math.CO
-Abstract: Let $G$ be a graph. The size and the signless Laplacian spectral radius of $G$ are denoted by $e(G)$ and $q(G)$, respectively. A spanning subgraph $F$ of $G$ is called an $H_b$-factor of $G$ if $d_F(v)\in\{1,3,5,\ldots,b-1,b\}$ for every $v\in V(G)$, where $b\geq2$ is an even integer. Lu and Wang obtained a sufficient condition according to the number of odd components in $G-S$ for a connected graph $G$ of even order to have an $H_b$-factor, where $S$ is a subset of $V(G)$ [H. Lu, D. Wang, On Cui-Kano's characterization problem on graph factors, J. Graph Theory 74 (2013) 335--343]. In this paper, motivated by Lu and Wang's above result, we establish a lower bound for the size in an $n$-vertex connected graph $G$ with given minimum degree to guarantee that $G$ has an $H_b$-factor. Further, we show a lower bound for the signless Laplacian spectral radius in an $n$-vertex 2-connected graph $G$ with given minimum degree to ensure that $G$ has an $H_b$-factor.

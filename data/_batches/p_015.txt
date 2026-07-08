@@ -1,6 +1,0 @@
---- PAPER 16/86 ---
-ID: 2606.08401
-Title: A cubic refinement of Jackson's Chvátal--Erdős condition for Hamilton cycles in digraphs
-Authors: Jiangdong Ai, Yongtang Shi
-Categories: math.CO
-Abstract: For a digraph $D$, let $\aTwo(D)$ be the largest size of a vertex set no two of whose vertices lie in a common directed $2$-cycle. Let $f_2(a)$ be the least integer $K$ such that every $K$-connected digraph $D$ with $\aTwo(D)\leq a$ has a Hamilton cycle. In 1987, Jackson proved that $f_2(a)\leq 2^a(a+2)!$ and asked for better bounds, noting that a linear bound might be possible. Kühn and Osthus later observed that even a polynomial bound would be interesting. In this short note, we prove the polynomial bound $f_2(a)\leq 2a^3+2$.

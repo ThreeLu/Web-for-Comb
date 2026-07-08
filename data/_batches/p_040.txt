@@ -1,6 +1,0 @@
---- PAPER 41/86 ---
-ID: 2606.09736
-Title: Almost-perfect packings and Tuza's conjecture in the random geometric graph
-Authors: Patrick Bennett, Ryan Cushman, Andrzej Dudek, Xavier Pérez-Giménez
-Categories: math.CO, cs.DM
-Abstract: The triangle packing number $\nu(G)$ of a graph $G$ is the maximum size of a set of edge-disjoint triangles in $G$. Tuza conjectured that in any graph $G$ there exists a set of at most $2\nu(G)$ edges intersecting every triangle in $G$. We show that Tuza's conjecture holds in the random geometric graph for a large range of densities. We also study the problem of covering almost all edges of the random geometric graph with edge-disjoint copies of some fixed graph $F$. In particular, we show the existence of almost-perfect packings for an infinite family of $F$, and state some negative results as well.

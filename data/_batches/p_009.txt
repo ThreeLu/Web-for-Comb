@@ -1,6 +1,0 @@
---- PAPER 10/86 ---
-ID: 2606.08061
-Title: Cheeger-type inequalities for the second largest spectral gap from $1$ of the normalized Laplacian
-Authors: Lies Beers, Raffaella Mulas, Jan Petr
-Categories: math.CO, math.SP
-Abstract: We study the second largest spectral gap from $1$ of the normalized Laplacian of a graph, a quantity that appears in the literature in connection with random walks, expander graphs, and Ramanujan graphs. We relate it to the classical Cheeger and dual Cheeger constants, and we introduce a new Cheeger-type constant admitting a probabilistic interpretation in terms of two-step random walks. For this constant, we establish sharp inequalities analogous to the classical Cheeger inequalities.

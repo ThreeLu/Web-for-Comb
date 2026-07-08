@@ -1,6 +1,0 @@
---- PAPER 64/86 ---
-ID: 2606.08842
-Title: Transcendence of simple geodesics on finite modular covers
-Authors: Christopher-Lloyd Simon
-Categories: math.NT, math.DS
-Abstract: The real projective line $\mathbb{R}\mathbf{P}^1$ is the boundary of $\mathbf{HP}=\{z\in \mathbb{C}\colon \Im(z)>0\}$, a model of the hyperbolic plane whose space of geodesics identifies with $\mathcal{G}(\mathbf{HP})=\mathbb{R}\mathbf{P}^1 \times \mathbb{R}\mathbf{P}^1 \setminus \mathrm{diagonal}$. The modular group $\Gamma=\operatorname{PSL}_2(\mathbb{Z})$ acts on $\mathbf{HP}$ with quotient the modular orbifold $\mathbf{M}=\Gamma\backslash \mathbf{HP}$. Consider a finite-index subgroup of the modular group $\Gamma^\prime \subset \Gamma = \operatorname{PSL}_2(\mathbb{Z})$ corresponding to a finite cover $\mathbf{M} \to \mathbf{M}^\prime$. A geodesic $(\xi^-,\xi^+)\in \mathcal{G}(\mathbf{HP})$ projects $\bmod{\Gamma^\prime}$ to a geodesic $\xi^\prime \subset \mathbf{M}^\prime$. We conjecture that if $\xi^\prime$ is simple, then $\xi^+$ is either rational or quadratic or transcendental. We prove this conjecture for leaves of minimal geodesic laminations. We explain why the conjecture is known for all simple geodesics in the modular torus cover associated to the derived subgroup $\Gamma^\prime = [\Gamma, \Gamma]$.

@@ -1,6 +1,0 @@
---- PAPER 71/86 ---
-ID: 2606.09214
-Title: Insufficiency of the algebraic Brauer--Manin obstruction for homogeneous spaces
-Authors: Nguyen Manh Linh
-Categories: math.NT
-Abstract: Over any number field containing a root of unity of odd prime order, we construct a homogeneous space of $\mathrm{SL}_n$ with finite $2$-nilpotent geometric stabilizers, with a constant unramified algebraic Brauer group, which has no rational point but has local points in every completion of the ground field. This yields the first example of transcendental Brauer--Manin obstruction for homogeneous spaces of connected linear algebraic groups. Our method exploits a previous idea by Borovoi and Kunyavskii.

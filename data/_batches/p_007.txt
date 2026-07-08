@@ -1,6 +1,0 @@
---- PAPER 8/86 ---
-ID: 2606.08054
-Title: A solution to Csikvári's conjecture and the largest matching root of $k$-graphs
-Authors: Jiang-Chao Wan, Yi Wang
-Categories: math.CO
-Abstract: In 2011, Csikvári [Electron. J. Combin. {\bf 18} (2011), $\#$P182] proved that among all graphs with a prescribed number of edges, the largest matching root is attained by a threshold graph, and conjectured that the extremal graph should be `as star-like as possible.' In this paper, we give a complete and affirmative answer to this problem and extend it to the setting of uniform hypergraphs. We prove that for every $k$-graph $\mathcal{H}$ with $m$ edges, its largest matching root satisfies $$\lambda(\mathcal{H})\le m^{1/k},$$ with equality if and only if $\mathcal{H}$ is intersecting. For $k=2$, after deleting all isolated vertices, the resulting graph must be the star $K_{1,m}$ or a triangle, thereby confirming Csikvári's conjecture. Moreover, if the matching number $\nu(\mathcal{H})\ge 2$, then \[ \lambda(\mathcal{H})\le \left(\frac{m+\sqrt{m^2-4(\nu(\mathcal{H})-1)}}{2}\right)^{1/k}, \] with equality if and only if $\nu(\mathcal{H})=2$ and $\mathcal{H}$ has exactly one $2$-matching.

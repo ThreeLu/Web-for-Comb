@@ -100,5 +100,4 @@ keywords:
     - treewidth
 
   algebraic_graph_theory:
-    - Cayley graph
-    - Cayley graphs
+    - Cayley graph  # matching also catches the plural "Cayley graphs"

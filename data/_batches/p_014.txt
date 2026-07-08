@@ -1,6 +1,0 @@
---- PAPER 15/86 ---
-ID: 2606.08396
-Title: Normal Ordering and Stirling-Type Combinatorics for Double Ore Extensions of Type (14641)
-Authors: Andrés Rubiano
-Categories: math.CO, math.QA
-Abstract: We develop an explicit PBW normal ordering theory for the $26$ double extension regular algebras of type $(14641)$ in the Zhang-Zhang classification. With respect to the order $x_1\prec x_2\prec y_1\prec y_2$, we obtain closed two-letter formulas for the internal relations and recursive coefficient systems for mixed words, products of PBW monomials, powers of normal blocks, and noncommutative multinomial expressions. The internal coefficients are mostly quantum or skew-commutative, while the Jordan families produce Lah-Whitney, hence Stirling-type, triangular arrays. The symbolic reductions are supported by a SageMath implementation included as an ancillary file.

@@ -1,6 +1,0 @@
---- PAPER 27/86 ---
-ID: 2606.08809
-Title: A complete characterization of a family of permutation trinomials over $\mathbb F_{p^2}$
-Authors: Marco Timpanella
-Categories: math.CO
-Abstract: Let $p>3$ be a prime and let $$f_{\lambda_1,\lambda_2}(x)=x^{p^2-p+1}+\lambda_1x^{p^2}+\lambda_2x^{2p-1}\in\mathbb F_{p^2}[x].$$ We determine all pairs $(\lambda_1,\lambda_2)\in(\mathbb F_{p^2})^2$ for which $f_{\lambda_1,\lambda_2}$ is a permutation polynomial of $\mathbb F_{p^2}$. The final classification consists of three explicit families. The first one is the binomial case $\lambda_1=0$. The other two are obtained from the condition $\lambda_2=c\lambda_1^3$, with $c\in \mathbb F_{p}^{*}$, and are defined by two simple equations involving the norm $\lambda_1^{p+1}$. The proof is based on the AGW criterion and on the study of a quartic curve naturally associated with the rational function induced on the unit circle $\mu_{p+1}$.

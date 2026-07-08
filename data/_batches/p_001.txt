@@ -1,6 +1,0 @@
---- PAPER 2/86 ---
-ID: 2606.07748
-Title: Decomposing tournaments into comparability graphs
-Authors: Pierre Aboulker, Logan Crew, Julien Duron, Xinyue Fan, Hugo Jacob, Rémy Kimbrough, Hidde Koerts, Benjamin Moore, Sophie Spirkl, Stéphan Thomassé
-Categories: math.CO, cs.DM
-Abstract: In this note, we introduce the \emph{partial order decomposition number} of a digraph $D$, denoted $pod(D)$, defined as the minimum integer $k$ such that $A(D)=A(P_1)\cup\cdots\cup A(P_k)$, where $P_1,\ldots,P_k$ are partial orders on $V(D)$. We prove that $\dic(D)\le \diomega(D)^{pod(D)}$ for every digraph $D$. In particular, every class of digraphs with bounded $pod$ is polynomially $\dic$-bounded. We apply this to tournaments, showing that if $\mathcal C$ is a class of tournaments with bounded dichromatic number, then the closure of $\mathcal C$ under substitution is polynomially $\dic$-bounded, thereby making progress on a question of Aubian, Charbit, Lopes, and the first author. As further applications of $pod$, we prove that poset tournaments of bounded dimension are $\dic$-bounded, derive polynomial lower bounds on the directed clique number of an explicit family of tournaments, thereby answering a conjecture of Gutowski and Rams, and show that tournaments with bounded $pod$ have bounded domination number.

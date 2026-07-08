@@ -1,6 +1,0 @@
---- PAPER 72/86 ---
-ID: 2606.09512
-Title: Abelian surfaces of small conductor from genus 3 double covers
-Authors: Raymond van Bommel, Céline Maistret, Jia Shi, Andrew V. Sutherland
-Categories: math.NT
-Abstract: We describe the construction of a database of roughly half a million abelian surfaces over Q of small conductor arising as Pryms associated to a genus 3 double cover of a genus 1 curve. Our construction uses a method that provides a degree of control over the primes of bad reduction.

@@ -7,12 +7,12 @@
     <title>Comb-Search</title>
     <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+    <!-- Self-hosted vendor assets — no external CDN (reliable in mainland China) -->
+    <link rel="stylesheet" href="assets/vendor/flatpickr/flatpickr.min.css">
+    <link rel="stylesheet" href="assets/vendor/katex/katex.min.css">
+    <script defer src="assets/vendor/flatpickr/flatpickr.min.js"></script>
+    <script defer src="assets/vendor/katex/katex.min.js"></script>
+    <script defer src="assets/vendor/katex/auto-render.min.js"></script>
     <script src="js/data-config.js"></script>
 </head>
 <body>
@@ -21,16 +21,30 @@
     <div class="header-inner">
         <div class="header-left">
             <a href="https://github.com/ThreeLu/Web-for-Comb" class="header-link" target="_blank">Comb-Search</a>
+            <span class="tagline">组合与图论 · arXiv 日报</span>
+            <a href="feed.xml" class="rss-link" title="RSS 订阅" target="_blank" aria-label="RSS feed">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M4 11a9 9 0 0 1 9 9h2.5A11.5 11.5 0 0 0 4 8.5V11zm0 4a5 5 0 0 1 5 5h2.5A7.5 7.5 0 0 0 4 12.5V15zm1.5 2.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/></svg>
+            </a>
         </div>
         <div class="header-right">
+            <button id="themeToggle" class="icon-btn" title="切换主题" aria-label="切换深色/浅色主题"></button>
             <button id="dateBtn" class="date-btn">
                 <span id="dateDisplay">—</span>
                 <span class="date-arrow">▾</span>
             </button>
         </div>
     </div>
+    <div class="legend">
+        <span class="leg leg-co"><span class="sw"></span>组合 <span class="code">math.CO</span></span>
+        <span class="leg leg-nt"><span class="sw"></span>数论 <span class="code">math.NT</span></span>
+        <span class="leg leg-pr"><span class="sw"></span>概率 <span class="code">math.PR</span></span>
+        <span class="leg leg-gr"><span class="sw"></span>群论 <span class="code">math.GR</span></span>
+    </div>
     <div id="datePicker" class="date-picker-popup hidden">
         <input type="text" id="flatpickrInput" data-input>
+    </div>
+    <div id="searchBar" class="search-bar hidden">
+        <input type="text" id="searchInput" placeholder="搜索标题、作者、关键词…" autocomplete="off">
     </div>
 </header>
 <div id="daySummary" class="day-summary hidden"></div>

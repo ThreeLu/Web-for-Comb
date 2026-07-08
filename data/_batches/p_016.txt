@@ -1,6 +1,0 @@
---- PAPER 17/86 ---
-ID: 2606.08429
-Title: A Characterization of the $2m-4$ Case of Highly Sorted Permutations
-Authors: Kai Yi
-Categories: math.CO
-Abstract: Let $s$ denote West's stack-sorting map. In 2020, Defant characterized and enumerated the set $s^{n-m}(S_n)$ for $n \geq 2m-3$. While $|s^{n-m}(S_n)| = B_m$ when $n \geq 2m-2$, where $B_m$ denotes the $m$th Bell number, there are additional permutations when $n = 2m-3$. In this paper, we explore the more complex $n = 2m-4$ case, with several forms of additional permutations. We characterize $s^{m-4}(S_{2m-4})$ and find that its size is \[B_m + \frac{m^2 + 7m - 28}{2}\] for $m \geq 5$. This answers Defant's question about the $2m-4$ case. Furthermore, we find some differences in the behavior of the $2m-5$ case compared to the $2m-3$ and $2m-4$ cases.

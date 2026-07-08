@@ -1,6 +1,0 @@
---- PAPER 47/86 ---
-ID: 2606.07785
-Title: Explicit bounds for Dickman's function
-Authors: Andreas Weingartner
-Categories: math.NT, math.CA
-Abstract: We establish numerically explicit upper and lower bounds for Dickman's function $\rho(u)$, resulting in estimates with a relative error of less than $0.005/u^2$ for all $u\ge 5$. This allows for an approximate evaluation of $\rho(u)$ without the need to solve the delay differential equation numerically.

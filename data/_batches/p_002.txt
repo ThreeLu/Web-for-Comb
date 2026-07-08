@@ -1,6 +1,0 @@
---- PAPER 3/86 ---
-ID: 2606.07806
-Title: Blow-ups of order types of positive density
-Authors: Ruy Fabila-Monroy, Benedikt Hahn, Jesús Leaños
-Categories: math.CO, cs.CG
-Abstract: Order types are an equivalence relation between point configurations that capture their combinatorial and convexity properties. Let $P$ be a $\kappa$-colored sequence of $n \ge d+1$ points in general position in $\mathbb{R}^d$. Let $\rho$ be a $\kappa$-colored order type on $k \le d+1$ points that has positive density on $P$; that is, for some constant $\delta >0$, there are $\delta \cdot \binom{n}{k}$ $k$-point subsequences of $P$ that have the same order type as $\rho$ and the same color pattern. In this paper we show that there exists a constant $c >0$ (depending only on $d, \delta$, $k$ and $\kappa$) and disjoint subsets $X_1,\dots,X_k$ of $P$, each with at least $c \cdot n$ points, such that for every choice of $k$ points $x_i \in X_i$, $(x_1,\dots,x_k)$ has the same order type and color pattern as $\rho$.

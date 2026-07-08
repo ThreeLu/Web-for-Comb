@@ -1,6 +1,0 @@
---- PAPER 58/86 ---
-ID: 2606.08353
-Title: Murmurations in the Depth Aspect for Maass and Modular Forms
-Authors: Leonard Tomczak
-Categories: math.NT
-Abstract: We study murmurations in the depth aspect for holomorphic cusp forms of conductor $\ell^{2a}$ and fixed weight, where $\ell$ is an odd prime. For both $\mathrm{GL}_2$ and the definite quaternion algebra ramified at $\{\infty,\ell\}$, we determine the murmuration density as $a\to\infty$ with $\ell$ fixed. The resulting density agrees with the one previously obtained for odd conductor exponents, and hence gives a uniform density for cusp forms of conductor $\ell^n$ as $n\to\infty$. We also consider the case of Maass forms of conductor $\ell^n$. Finally, we compute the murmuration density in conductor $\ell^n$ as $\ell\to\infty$ with $n\geq3$ fixed.

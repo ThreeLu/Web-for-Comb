@@ -1,6 +1,0 @@
---- PAPER 77/86 ---
-ID: 2606.09818
-Title: A note on large values of Dirichlet $L$-functions for characters of fixed order at $1/2<σ\leq 1$
-Authors: Youness Lamzouri
-Categories: math.NT
-Abstract: In this note, we use a simple argument to show the existence of large values of conjecturally sharp size for Dirichlet $L$-functions attached to primitive characters of fixed order at $\sigma\in (1/2, 1]$. More precisely, for every fixed integer $g\geq 2$ we prove the existence of a primitive character $\chi$ of order $g$ and conductor $Q\asymp x$ such that $|L(1,\chi)| \geq e^\gamma\left(\log\log x+\log\log\log x-\log(2\log g)+o(1)\right). $ We also show that for every fixed $1/2<\sigma<1$ there exists a primitive character $\chi$ of order $g$ and conductor $Q\asymp x$ such that $\log |L(\sigma,\chi)| \geq \left(C_g(\sigma)+o(1)\right) (\log x)^{1-\sigma}(\log\log x)^{-\sigma}, $ for some explicit positive constant $C_g(\sigma).$ Previously, such bounds were known only conditionally on the Generalized Riemann Hypothesis, and even then only in the special cases $g=2$ and $g=3$.

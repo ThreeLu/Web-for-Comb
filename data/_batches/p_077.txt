@@ -1,6 +1,0 @@
---- PAPER 78/86 ---
-ID: 2606.08325
-Title: Digit Mixing under Polynomial Maps
-Authors: Chokri Manai
-Categories: math.PR, math.NT
-Abstract: Let $X=\sum_{n\geq1}\xi_n2^{-n} $ be a random number where we model the digits $\xi_n$ as independent Bernoulli random variables with possibly non-identical parameters $p_n=\mathbb{P}(\xi_n=1)$. For any polynomial $P\in\mathbb{R}[X]$ with degree $d\geq2$, we prove almost sure absolute normality of $P(X)$ under the condition $p_n(1-p_n)\geq (\log n)^{\Gamma(d)} n^{-(d-1)/d}$ for a suitable constant $\Gamma(d)$ depending only on the degree $d$. Our analysis reveals the sharp power law $n^{-(d-1)/d}$, which is suggested by an elementary heuristics regarding carrier interactions. Our results establish a transition as we further show that the pure critical power law is insufficient, but the precise critical window remains an interesting open problem. As far as we know, this is the first sharp result on digit mixing. We complement our main results by structurally convenient summability criteria, which turns out to be sharp at least for $X^2$, and we formulate a more general conjecture for higher degrees. Our proofs rely on Fourier decay estimates which we obtain by probabilistic argument involving conditioning and non-resonancy estimates combined with a subtle triangularization argument.

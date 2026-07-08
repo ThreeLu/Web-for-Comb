@@ -1,6 +1,0 @@
---- PAPER 66/86 ---
-ID: 2606.08865
-Title: The Dirichlet spectrum with respect to $L_1$ norm is $\left[\frac12,1\right]$
-Authors: Nikita Shulga
-Categories: math.NT
-Abstract: We prove that the one-dimensional Dirichlet spectrum with respect to approximation in $L_1$ norm $\mathbb{D}^{[1]}$ satisfies $$ \mathbb{D}^{[1]}=\left[\frac12,1\right]. $$ This is equivalent to the fact that the Minkowski spectrum $\mathbb M$, associated with the Minkowski diagonal continued fraction, satisfies $$ \mathbb M=\left[\frac14,\frac12\right]. $$ Further, we show that level sets $$ \Theta_m=\{\alpha\in(0,1)\setminus\mathbb Q:\mathfrak m(\alpha)=m\}, $$ where $\mathfrak{m}(\alpha)$ is the Minkowski constant of $\alpha$, have Hausdorff dimension strictly greater than $1/2$ for any $m\in(1/4,1/2]$, while $\dim_H \Theta_{1/4}=\frac{1}{2}$.

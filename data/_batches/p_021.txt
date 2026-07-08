@@ -1,6 +1,0 @@
---- PAPER 22/86 ---
-ID: 2606.08624
-Title: Two Families of $q$-Supercongruences from Watson's Transformation
-Authors: Wei-Wei Qi
-Categories: math.CO
-Abstract: In this paper, we establish two families of $q$-supercongruences modulo the third and fourth powers of a cyclotomic polynomial by employing Watson's ${}_{8}\phi_7$ transformation, the creative microscoping method introduced by Guo and Zudilin, and the Chinese remainder theorem for coprime polynomials.
