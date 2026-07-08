@@ -6,10 +6,11 @@ Fully opt-in: if SMTP_HOST is not set, this exits quietly (0) so the pipeline
 runs fine without email configured. To enable, set these env vars (as GitHub
 Secrets for CI):
 
-  SMTP_HOST         e.g. smtp.gmail.com
-  SMTP_PORT         default 587 (STARTTLS)
-  SMTP_USER         login username
-  SMTP_PASSWORD     login password / app password
+  SMTP_HOST         e.g. smtp.163.com, smtp.gmail.com
+  SMTP_PORT         465 for SSL (163/QQ), 587 for STARTTLS (Gmail). default 587
+  SMTP_SSL          set to 1 to force implicit SSL (auto-on when port is 465)
+  SMTP_USER         login username (full email address)
+  SMTP_PASSWORD     login password / app password / 163 授权码
   EMAIL_FROM        default: SMTP_USER
   EMAIL_TO          comma-separated recipients (default: EMAIL_FROM)
 """
@@ -96,11 +97,20 @@ def main():
     msg.set_content(f"{len(papers)} matched papers for {args.date}. View: https://threelu.github.io/Web-for-Comb/")
     msg.add_alternative(render_html(papers, args.date), subtype="html")
 
-    with smtplib.SMTP(host, port, timeout=30) as s:
-        s.starttls()
-        if user:
-            s.login(user, password)
-        s.send_message(msg)
+    # Use implicit SSL for port 465 (163.com, QQ, …) or when SMTP_SSL is set;
+    # otherwise STARTTLS (Gmail 587, etc.).
+    use_ssl = (os.environ.get("SMTP_SSL") or "").lower() in ("1", "true", "yes") or port == 465
+    if use_ssl:
+        with smtplib.SMTP_SSL(host, port, timeout=30) as s:
+            if user:
+                s.login(user, password)
+            s.send_message(msg)
+    else:
+        with smtplib.SMTP(host, port, timeout=30) as s:
+            s.starttls()
+            if user:
+                s.login(user, password)
+            s.send_message(msg)
     print(f"Sent digest to {', '.join(recipients)}", file=sys.stderr)
 
 
