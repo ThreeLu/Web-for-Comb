@@ -143,7 +143,7 @@ def main():
     parser.add_argument(
         "--workers",
         type=int,
-        default=int(os.environ.get("LLM_MAX_WORKERS", "4")),
+        default=int(os.environ.get("LLM_MAX_WORKERS") or "4"),
     )
     parser.add_argument(
         "--limit",
