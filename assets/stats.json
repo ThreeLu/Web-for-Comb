@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-08T06:23:56+00:00",
-  "total_days": 29,
-  "total_matched": 226,
+  "generated": "2026-07-09T06:39:06+00:00",
+  "total_days": 30,
+  "total_matched": 231,
   "daily": [
     {
       "date": "2026-06-02",
@@ -147,12 +147,17 @@
       "date": "2026-07-07",
       "matched": 10,
       "fetched": 48
+    },
+    {
+      "date": "2026-07-09",
+      "matched": 5,
+      "fetched": 55
     }
   ],
   "keywords": [
     [
       "threshold",
-      34
+      35
     ],
     [
       "chromatic number",
@@ -164,7 +169,7 @@
     ],
     [
       "extremal graph",
-      12
+      13
     ],
     [
       "oriented",
@@ -184,18 +189,22 @@
     ],
     [
       "Turán number",
-      5
+      6
     ],
     [
       "Ramsey number",
-      5
+      6
     ],
     [
       "treewidth",
-      4
+      5
     ],
     [
       "Hamiltonian cycle",
+      4
+    ],
+    [
+      "Hamiltonicity",
       4
     ],
     [
@@ -207,7 +216,7 @@
       3
     ],
     [
-      "Hamiltonicity",
+      "Hamilton cycle",
       3
     ],
     [
@@ -216,10 +225,6 @@
     ],
     [
       "supersaturation",
-      2
-    ],
-    [
-      "Hamilton cycle",
       2
     ],
     [
@@ -252,6 +257,10 @@
     ],
     [
       "list coloring",
+      1
+    ],
+    [
+      "additive combinatorics",
       1
     ]
   ],
