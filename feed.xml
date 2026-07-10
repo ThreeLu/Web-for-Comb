@@ -5,8 +5,57 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Jul 2026 06:39:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 06:24:43 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>On the recolorability of $(2K_2, K_4)$-free graphs</title>
+      <link>https://arxiv.org/abs/2607.07860</link>
+      <guid isPermaLink="false">arxiv:2607.07860</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了三个子类中的$(2K_2,K_4)$-free图是可重着色的，为所有色数为4的此类图可重着色提供了证据。<br/><br/>命中: chromatic number<br/><br/>Henry Echeverría, Owen Henderschedt]]></description>
+    </item>
+    <item>
+      <title>Minimal Isometric Embeddings of Graphs into Cayley Graphs of Finite Abelian Groups</title>
+      <link>https://arxiv.org/abs/2607.07920</link>
+      <guid isPermaLink="false">arxiv:2607.07920</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究有限连通图到有限阿贝尔群Cayley图的等距嵌入，引入新的边关系并给出商标号定理，将经典偏立方体理论推广到更一般的阿贝尔Cayley图。<br/><br/>命中: oriented, Cayley graph<br/><br/>Fokam Souop Rigobert, Bitjoka Laurent]]></description>
+    </item>
+    <item>
+      <title>Dimension and Order Bounds for Isometric Embeddings of Graphs into Abelian Cayley Graphs, and the Abelian Dividend</title>
+      <link>https://arxiv.org/abs/2607.07939</link>
+      <guid isPermaLink="false">arxiv:2607.07939</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[研究有限连通图到有限阿贝尔Cayley图的等距嵌入，给出最小维数和阶数的下界，并发现大多数图存在非二进制的更优阿贝尔宿主。<br/><br/>命中: Cayley graph<br/><br/>Fokam Souop Rigobert, Bitjoka Laurent]]></description>
+    </item>
+    <item>
+      <title>Extremal problems on disjoint path covers of graphs</title>
+      <link>https://arxiv.org/abs/2607.08062</link>
+      <guid isPermaLink="false">arxiv:2607.08062</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图中不相交路径覆盖的极值问题，分别基于团数和$\alpha$-谱半径给出了图具有一对一、一对多和多对多$t$-不相交路径覆盖的充分条件，并刻画了达到这些界的极图。<br/><br/>命中: Hamiltonicity, extremal graph<br/><br/>Shujie Chen, Tao Tian]]></description>
+    </item>
+    <item>
+      <title>Sandpile groups of random bipartite graphs and families of distributions with the same moments</title>
+      <link>https://arxiv.org/abs/2607.08607</link>
+      <guid isPermaLink="false">arxiv:2607.08607</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了具有相同矩的分布族，包含随机二部图沙堆群的Sylow $p$-子群分布，并发现$p=2$时的特殊情形与随机$d$-正则图情形有相同矩。<br/><br/>命中: random graph<br/><br/>Jason Fulman, Nathan Kaplan, Deepesh Singhal, S. Ole Warnaar]]></description>
+    </item>
+    <item>
+      <title>Two-block cycles and chromatic number of Hamiltonian digraphs</title>
+      <link>https://arxiv.org/abs/2607.08664</link>
+      <guid isPermaLink="false">arxiv:2607.08664</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于不含 $C(k,\ell)$ 的哈密顿有向图 $D$，其色数 $\chi(D) \le k+\ell-1$（$k+\ell \ge 6$），且该界是紧的，从而解决了 Addario-Berry、Havet 和 Thomassé 关于哈密顿有向图的猜想。<br/><br/>命中: chromatic number<br/><br/>Ruilin Zheng, Junying Lu, Xiaolin Wang, Yaojun Chen]]></description>
+    </item>
+    <item>
+      <title>Gilbreath's conjecture: a Cramér random model and a deterministic analysis</title>
+      <link>https://arxiv.org/abs/2607.08712</link>
+      <guid isPermaLink="false">arxiv:2607.08712</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明Gilbreath猜想在Cramér随机模型下成立，并给出确定性逆定理刻画其障碍。<br/><br/>命中: @Zach Hunter<br/><br/>Zachary Chase, Zach Hunter, Terence Tao]]></description>
+    </item>
     <item>
       <title>Computation of small reflective and dihedral Ramsey numbers</title>
       <link>https://arxiv.org/abs/2607.06817</link>
@@ -678,55 +727,6 @@
       <guid isPermaLink="false">arxiv:2606.28634</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[把 Andersen–Hoffman 的对称 Latin rectangle 扩展定理推广到带规定对角与颜色类大小的 almost-regular 对称补全，统一了 Cruse、Baranyai 等结果。<br/><br/>命中: Latin square<br/><br/>Amin Bahmanian, Anna Johnsen-Yu]]></description>
-    </item>
-    <item>
-      <title>Structural Properties and Applications of the Augmented Sombor Index</title>
-      <link>https://arxiv.org/abs/2606.26509</link>
-      <guid isPermaLink="false">arxiv:2606.26509</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[系统研究了 augmented Sombor index ($ASO$) 的结构性质，给出多类图的 sharp 界与极值图刻画，并做了 QSPR 化学应用分析。<br/><br/>命中: extremal graph<br/><br/>Chunlei Xu, Kinkar Chandra Das, Jayanta Bera]]></description>
-    </item>
-    <item>
-      <title>Strong counterexamples to Mubayi's supersaturation conjecture in every uniformity</title>
-      <link>https://arxiv.org/abs/2606.26735</link>
-      <guid isPermaLink="false">arxiv:2606.26735</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[在每个 uniformity 下构造出 Mubayi supersaturation 猜想的强反例，表明其局部下界即使在 $q=1$ 也可以以任意大的常数因子失败。<br/><br/>命中: supersaturation, @Hong Liu<br/><br/>Heng Li, Hong Liu, Xizhi Liu, Jing Wang]]></description>
-    </item>
-    <item>
-      <title>Proof of the Density Threshold Conjecture for Pinwheel Scheduling</title>
-      <link>https://arxiv.org/abs/2606.27104</link>
-      <guid isPermaLink="false">arxiv:2606.27104</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了 pinwheel scheduling 的 density threshold 猜想：密度不超过 $5/6$ 的所有实例都可调度，解决 Chan–Chin (1993) 猜想。<br/><br/>命中: threshold<br/><br/>Akitoshi Kawamura]]></description>
-    </item>
-    <item>
-      <title>Counting equitable $k$-colorings in graphs of bounded clique-width</title>
-      <link>https://arxiv.org/abs/2606.27159</link>
-      <guid isPermaLink="false">arxiv:2606.27159</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明对每个固定 $k$，bounded clique-width 图上 equitable $k$-coloring 的计数可多项式时间完成，且在 SETH 下对 clique-width 的依赖本质最优。<br/><br/>命中: treewidth<br/><br/>Holger Dell, Thore Husfeldt, Amir Nikabadi]]></description>
-    </item>
-    <item>
-      <title>On the homology groups of clique complexes of strongly regular graphs</title>
-      <link>https://arxiv.org/abs/2606.27328</link>
-      <guid isPermaLink="false">arxiv:2606.27328</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 strongly regular graph 的 clique complex 的第一同调群，证明绝大多数此类图的 first clique homology 平凡，并对 Latin square graph 完全确定其 clique 同调。<br/><br/>命中: Latin square<br/><br/>Sebastian M. Cioabă, Mutasim Mim]]></description>
-    </item>
-    <item>
-      <title>Totally Disjoint Diametral Paths</title>
-      <link>https://arxiv.org/abs/2606.27451</link>
-      <guid isPermaLink="false">arxiv:2606.27451</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 totally disjoint diametral path，证明判定图是否有 $k$ 条 totally disjoint diametral path 是 NP-完全，并对若干图类给出高效算法。<br/><br/>命中: extremal graph, threshold<br/><br/>Tınaz Ekim, Arthur Farley]]></description>
-    </item>
-    <item>
-      <title>Class-uniformly resolvable designs with all but one block having size two</title>
-      <link>https://arxiv.org/abs/2606.27519</link>
-      <guid isPermaLink="false">arxiv:2606.27519</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究每个 parallel class 含一个大小 $m$ 块、其余块大小为 2 的 class-uniformly resolvable design (CURD)，给出必要条件与两种一般构造。<br/><br/>命中: resolvable design<br/><br/>Karen Cordova, Alexander J. Diesl, Micaela Roth, Ann N. Trenk]]></description>
     </item>
   </channel>
 </rss>
