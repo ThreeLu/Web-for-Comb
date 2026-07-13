@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-10T06:24:43+00:00",
-  "total_days": 31,
-  "total_matched": 240,
+  "generated": "2026-07-13T05:51:48+00:00",
+  "total_days": 32,
+  "total_matched": 250,
   "daily": [
     {
       "date": "2026-06-02",
@@ -157,16 +157,21 @@
       "date": "2026-07-10",
       "matched": 9,
       "fetched": 46
+    },
+    {
+      "date": "2026-07-13",
+      "matched": 10,
+      "fetched": 43
     }
   ],
   "keywords": [
     [
       "threshold",
-      35
+      38
     ],
     [
       "chromatic number",
-      25
+      26
     ],
     [
       "Cayley graph",
@@ -178,7 +183,7 @@
     ],
     [
       "oriented",
-      10
+      11
     ],
     [
       "random graph",
@@ -189,15 +194,19 @@
       8
     ],
     [
+      "Turán number",
+      7
+    ],
+    [
       "transversal",
       7
     ],
     [
-      "Turán number",
+      "Ramsey number",
       6
     ],
     [
-      "Ramsey number",
+      "Hamiltonicity",
       6
     ],
     [
@@ -205,23 +214,19 @@
       5
     ],
     [
-      "Hamiltonicity",
-      5
+      "oriented graph",
+      4
     ],
     [
       "Hamiltonian cycle",
       4
     ],
     [
-      "oriented graph",
-      3
+      "Hamilton cycle",
+      4
     ],
     [
       "generalized Turán",
-      3
-    ],
-    [
-      "Hamilton cycle",
       3
     ],
     [
@@ -267,6 +272,10 @@
     [
       "additive combinatorics",
       1
+    ],
+    [
+      "Ramsey theory",
+      1
     ]
   ],
   "authors": [
@@ -308,6 +317,10 @@
     ],
     [
       "Cosmin Pohoata",
+      1
+    ],
+    [
+      "Casey Tompkins",
       1
     ]
   ]

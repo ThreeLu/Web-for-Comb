@@ -5,8 +5,50 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Jul 2026 06:24:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 05:51:48 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Three Results on Generalized Quasikernels in Digraphs</title>
+      <link>https://arxiv.org/abs/2607.09031</link>
+      <guid isPermaLink="false">arxiv:2607.09031</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文在有向图中建立了关于广义拟核的三个结果，包括拟核大小的上界、无源集有向图中不相交$q$-核的存在性以及单圈有向图中$q$-核的计数上界，证实了两个猜想并肯定回答了一个问题。<br/><br/>命中: oriented graph, oriented<br/><br/>Zejun Huang, Chenxi Yang]]></description>
+    </item>
+    <item>
+      <title>A Single-Exponential Erdős--Hajnal Bound for Graphs of Bounded VC-Dimension</title>
+      <link>https://arxiv.org/abs/2607.09049</link>
+      <guid isPermaLink="false">arxiv:2607.09049</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[改进了有界VC维图的Erdős–Hajnal界，将齐次集大小下界从双指数依赖改进为单指数依赖。<br/><br/>命中: threshold<br/><br/>Shuang Sun, Yan Wang, Jiasheng Zeng]]></description>
+    </item>
+    <item>
+      <title>The perfect 1-factorisation conjecture holds asymptotically</title>
+      <link>https://arxiv.org/abs/2607.09459</link>
+      <guid isPermaLink="false">arxiv:2607.09459</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了完全图 $K_n$ 可分解为 $n-1$ 个完美匹配，其中 $(1-o(1))n$ 个匹配的任意一对构成一个 Hamilton 圈，从而渐近地解决了 Kotzig 的完美 1-因子分解猜想。<br/><br/>命中: Hamilton cycle<br/><br/>Yangyang Cheng, Amedeo Sgueglia]]></description>
+    </item>
+    <item>
+      <title>An Improved Lower Bound for Diamond-Free Families</title>
+      <link>https://arxiv.org/abs/2607.09497</link>
+      <guid isPermaLink="false">arxiv:2607.09497</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[构造了一个在布尔格中无钻石子结构的族，其大小渐近大于两个中间层的并，从而否定了钻石猜想。<br/><br/>命中: @Casey Tompkins<br/><br/>Casey Tompkins]]></description>
+    </item>
+    <item>
+      <title>The maximum number of odd cycles in planar graphs forbidding shorter odd cycles</title>
+      <link>https://arxiv.org/abs/2607.09624</link>
+      <guid isPermaLink="false">arxiv:2607.09624</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了平面图中禁止所有更短奇圈时最长奇圈 $C_{2k+1}$ 的最大数目，并证实了关于奇圈可诱导性的一个猜想。<br/><br/>命中: Turán number<br/><br/>Yichen Wang, Ervin Győri, Zhen He]]></description>
+    </item>
+    <item>
+      <title>Cut-homotopies and the complexity of edge-coloring problems</title>
+      <link>https://arxiv.org/abs/2607.09631</link>
+      <guid isPermaLink="false">arxiv:2607.09631</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明，判断给定图是否存在避免某个固定有限族中边染色团的无边染色问题，在多项式时间等价于约束满足问题，从而得到P与NP完全的二分类。<br/><br/>命中: Ramsey theory<br/><br/>Alexey Barsukov, Roman Feller, Maximilian Hadek, Davide Perinti]]></description>
+    </item>
     <item>
       <title>On the recolorability of $(2K_2, K_4)$-free graphs</title>
       <link>https://arxiv.org/abs/2607.07860</link>
@@ -671,62 +713,6 @@
       <guid isPermaLink="false">arxiv:2606.29015</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[用 impartial combinatorial game 建模 Herman Kahn 的核升级阶梯，证明单阶梯稳定性由一个同余控制，多战区联合稳定性在 normal play 下为各战区升级距离的 Nim-sum。<br/><br/>命中: threshold<br/><br/>Arnav Garg]]></description>
-    </item>
-    <item>
-      <title>The Existence of Diagonal Quantum Latin Squares with Maximum Cardinality</title>
-      <link>https://arxiv.org/abs/2606.27758</link>
-      <guid isPermaLink="false">arxiv:2606.27758</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[基本完全确定了最大 cardinality 的 diagonal quantum Latin square ($\mathrm{MCDQLS}(n)$) 的存在性，仅余少数例外。<br/><br/>命中: Latin square<br/><br/>Lin Huang, Yang Li]]></description>
-    </item>
-    <item>
-      <title>Critical percolation on preferential attachment graphs with infinite variance</title>
-      <link>https://arxiv.org/abs/2606.27844</link>
-      <guid isPermaLink="false">arxiv:2606.27844</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[确定了 power-law 指数 $\tau\in(2,3)$（无穷方差）的 preferential attachment 型随机图临界渗流窗口 $p_c\sim\beta n^{(\tau-3)/(2\tau-2)}$ 及各区间最大分量的规模与结构。<br/><br/>命中: random graph<br/><br/>Peter Mörters, Lucas Schätze]]></description>
-    </item>
-    <item>
-      <title>Transversal Difference Numbers in Finite Abelian Quotients</title>
-      <link>https://arxiv.org/abs/2606.27961</link>
-      <guid isPermaLink="false">arxiv:2606.27961</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[引入并研究有限交换商群的 transversal difference number $\delta(G,H)$，给出一般下界并猜想 same-prime square 情形 $\delta((\mathbb Z/p^2)^2,pG)=(2p-1)^2$。<br/><br/>命中: transversal<br/><br/>Mugurel Barcau, Vicenţiu Paşol, George C. Ţurcaş]]></description>
-    </item>
-    <item>
-      <title>A unit-distance graph in the plane with independence ratio below 1/4</title>
-      <link>https://arxiv.org/abs/2606.28157</link>
-      <guid isPermaLink="false">arxiv:2606.28157</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明平面上存在 independence ratio 严格小于 $1/4$ 的有限 unit-distance 图，回答 Erdős 的问题，并推出平面的 fractional chromatic number 严格大于 4。<br/><br/>命中: chromatic number<br/><br/>Ákos Dúcz, Dániel Varga]]></description>
-    </item>
-    <item>
-      <title>Extremal graphs with no subgraph admitting $k+1$ edge-disjoint spanning trees</title>
-      <link>https://arxiv.org/abs/2606.28198</link>
-      <guid isPermaLink="false">arxiv:2606.28198</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明 $\tau_k$-maximal 图（无子图含 $k+1$ 条边不交生成树、但加任一非边即产生）的边数上界 $(k+1)(n-1)-1$ 并给出达到该界的构造。<br/><br/>命中: extremal graph<br/><br/>Qinglin Wang, Yingzhi Tian]]></description>
-    </item>
-    <item>
-      <title>Pairwise Reflection Symmetry in Generalized Latin Rectangles</title>
-      <link>https://arxiv.org/abs/2606.28315</link>
-      <guid isPermaLink="false">arxiv:2606.28315</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 generalized Latin rectangle 的 pairwise reflection symmetry（任意两列上有序符号对 $(p,q)$ 与其反 $(q,p)$ 出现同样多），发现列重数 $\lambda=1$ 可达当且仅当 $n$ 是 2 的幂。<br/><br/>命中: combinatorial design, Latin square<br/><br/>Enrico Iurlano, Günther R. Raidl]]></description>
-    </item>
-    <item>
-      <title>Structure of Cayley Codes</title>
-      <link>https://arxiv.org/abs/2606.28611</link>
-      <guid isPermaLink="false">arxiv:2606.28611</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 Kaufman–Wigderson 的 Cayley code（由 Cayley graph 与较小线性码构造）的一般结构，给出到连通 Cayley graph 的保性质约化与对称嵌入。<br/><br/>命中: Cayley graph<br/><br/>Vishnuram Arumugam, Cheryl E. Praeger, Daniel Rademacher]]></description>
-    </item>
-    <item>
-      <title>The Andersen-Hoffman Theorem for Equitable Rectangles</title>
-      <link>https://arxiv.org/abs/2606.28634</link>
-      <guid isPermaLink="false">arxiv:2606.28634</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[把 Andersen–Hoffman 的对称 Latin rectangle 扩展定理推广到带规定对角与颜色类大小的 almost-regular 对称补全，统一了 Cruse、Baranyai 等结果。<br/><br/>命中: Latin square<br/><br/>Amin Bahmanian, Anna Johnsen-Yu]]></description>
     </item>
   </channel>
 </rss>
