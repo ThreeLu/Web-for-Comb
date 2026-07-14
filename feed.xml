@@ -5,8 +5,78 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 13 Jul 2026 05:51:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 05:12:54 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hypergraph Erdős--Rogers functions with consecutive clique sizes</title>
+      <link>https://arxiv.org/abs/2607.10111</link>
+      <guid isPermaLink="false">arxiv:2607.10111</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于固定的 $s\ge4$，有 $f^{(4)}_{s,s+1}(n)=(\log n)^{o(1)}$，并改进了 Dudek 和 Mubayi 关于 $3$-一致超图的 Erdős--Rogers 函数的上界。<br/><br/>命中: hypergraph container<br/><br/>Qizhong Lin, Lin Niu]]></description>
+    </item>
+    <item>
+      <title>Finite Three-Colourable (0,2)-Graphs Are Bipartite</title>
+      <link>https://arxiv.org/abs/2607.10125</link>
+      <guid isPermaLink="false">arxiv:2607.10125</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明每个有限的三可着色的(0,2)-图都是二部图，从而不存在色数恰好为3的有限(0,2)-图。<br/><br/>命中: chromatic number<br/><br/>Christopher Williamson]]></description>
+    </item>
+    <item>
+      <title>Pulse Graphs: Prime-Activated Boolean Dynamics on Directed Graphs</title>
+      <link>https://arxiv.org/abs/2607.10453</link>
+      <guid isPermaLink="false">arxiv:2607.10453</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究有限无环有向图上的同步布尔动力学，其中顶点在下一时刻活跃当且仅当其活跃入邻居数为素数，称为Pulse Graphs，并确定了最大吸引子周期的指数阶。<br/><br/>命中: threshold<br/><br/>Pakin Methawisal]]></description>
+    </item>
+    <item>
+      <title>Generalizations of nets and Latin squares</title>
+      <link>https://arxiv.org/abs/2607.10890</link>
+      <guid isPermaLink="false">arxiv:2607.10890</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入并研究了推广 $(k,n)$-nets、正交拉丁方和正交阵列的组合结构——reticulation 与合作系统，给出了若干构造方法。<br/><br/>命中: Latin square<br/><br/>Brian Curtin]]></description>
+    </item>
+    <item>
+      <title>Tight lower bound for the spectral radius of connected graphs with given matching number</title>
+      <link>https://arxiv.org/abs/2607.11061</link>
+      <guid isPermaLink="false">arxiv:2607.11061</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了给定匹配数的连通图中谱半径的紧下界，并刻画了极图。<br/><br/>命中: extremal graph<br/><br/>Xinmin Hou, Li Tan]]></description>
+    </item>
+    <item>
+      <title>Any Proof of Polynomial Hirsch Must be Completely Incoherent</title>
+      <link>https://arxiv.org/abs/2607.11628</link>
+      <guid isPermaLink="false">arxiv:2607.11628</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了一族多面体及其线性函数，使得所有coherent monotone paths的长度都是指数级的，从而否定了多项式Hirsch猜想的一个类比。<br/><br/>命中: transversal<br/><br/>Alexander E. Black, Lei Xue]]></description>
+    </item>
+    <item>
+      <title>Magnitude homology of tope graphs</title>
+      <link>https://arxiv.org/abs/2607.11863</link>
+      <guid isPermaLink="false">arxiv:2607.11863</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[完全确定了实超平面排列的tope图的magnitude同调，其秩由Stanley–Reisner环的Hilbert函数给出，并证明了中心排列的同调互反猜想。<br/><br/>命中: Cayley graph<br/><br/>Junnosuke Koizumi]]></description>
+    </item>
+    <item>
+      <title>Orbit Transversality for Abelian Varieties</title>
+      <link>https://arxiv.org/abs/2607.10536</link>
+      <guid isPermaLink="false">arxiv:2607.10536</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了数域上阿贝尔簇的支配自态射具有强稠密轨道横截性。<br/><br/>命中: transversal<br/><br/>Kaiwen Lu]]></description>
+    </item>
+    <item>
+      <title>Kloosterman sign changes with moduli having at most five prime factors</title>
+      <link>https://arxiv.org/abs/2607.10862</link>
+      <guid isPermaLink="false">arxiv:2607.10862</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[在至多含五个素因子的无平方因子模$q\in(X,2X]$上，证明归一化Kloosterman和$\operatorname{Kl}(1;q)$的每个符号出现$\gg X/\log X$次。<br/><br/>命中: threshold<br/><br/>Yixiu Xiao]]></description>
+    </item>
+    <item>
+      <title>Local-to-global fixed point properties for graphical C(4)-T(4) and C(6) small cancellation complexes</title>
+      <link>https://arxiv.org/abs/2607.11360</link>
+      <guid isPermaLink="false">arxiv:2607.11360</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了由C(4)-T(4)和C(6)图式小消解演示定义的群中，挠子群是有限的，并推广到局部到整体的不动点性质。<br/><br/>命中: Cayley graph<br/><br/>Karol Duda, Huaitao Gui]]></description>
+    </item>
     <item>
       <title>Three Results on Generalized Quasikernels in Digraphs</title>
       <link>https://arxiv.org/abs/2607.09031</link>
@@ -699,20 +769,6 @@
       <guid isPermaLink="false">arxiv:2607.05422</guid>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[确定给定边密度下奇阶路 $P_{2r+1}$ 的渐近最大拷贝数，证明转变点 $c_r$ 以下 quasi-star、以上 quasi-clique 渐近极值。<br/><br/>命中: threshold<br/><br/>Yuyao Yang, Jiasheng Zeng]]></description>
-    </item>
-    <item>
-      <title>Logarithmic convergence of finite projective planes</title>
-      <link>https://arxiv.org/abs/2606.28890</link>
-      <guid isPermaLink="false">arxiv:2606.28890</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[肯定回答 Szegedy 的 Question 4：有限域射影平面的关联图序列 log-converges，且极限与某个随机图模型一致。<br/><br/>命中: random graph<br/><br/>Márton Borbényi, Panna Tímea Fekete, Aranka Hrušková, Ander Lamaison]]></description>
-    </item>
-    <item>
-      <title>Impartial Combinatorial Games and the Nuclear Escalation Ladder</title>
-      <link>https://arxiv.org/abs/2606.29015</link>
-      <guid isPermaLink="false">arxiv:2606.29015</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[用 impartial combinatorial game 建模 Herman Kahn 的核升级阶梯，证明单阶梯稳定性由一个同余控制，多战区联合稳定性在 normal play 下为各战区升级距离的 Nim-sum。<br/><br/>命中: threshold<br/><br/>Arnav Garg]]></description>
     </item>
   </channel>
 </rss>
