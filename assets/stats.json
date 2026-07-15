@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-14T05:12:54+00:00",
-  "total_days": 33,
-  "total_matched": 264,
+  "generated": "2026-07-15T05:13:05+00:00",
+  "total_days": 34,
+  "total_matched": 274,
   "daily": [
     {
       "date": "2026-06-02",
@@ -167,16 +167,21 @@
       "date": "2026-07-14",
       "matched": 14,
       "fetched": 92
+    },
+    {
+      "date": "2026-07-15",
+      "matched": 10,
+      "fetched": 33
     }
   ],
   "keywords": [
     [
       "threshold",
-      41
+      42
     ],
     [
       "chromatic number",
-      27
+      30
     ],
     [
       "Cayley graph",
@@ -188,10 +193,14 @@
     ],
     [
       "oriented",
-      11
+      12
     ],
     [
       "Latin square",
+      11
+    ],
+    [
+      "transversal",
       10
     ],
     [
@@ -199,12 +208,8 @@
       9
     ],
     [
-      "transversal",
-      9
-    ],
-    [
       "Turán number",
-      8
+      9
     ],
     [
       "Ramsey number",
@@ -284,6 +289,18 @@
     ],
     [
       "hypergraph container",
+      1
+    ],
+    [
+      "block design",
+      1
+    ],
+    [
+      "Turán problem",
+      1
+    ],
+    [
+      "regularity lemma",
       1
     ]
   ],

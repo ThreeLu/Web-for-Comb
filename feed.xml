@@ -5,8 +5,64 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Jul 2026 05:12:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 05:13:05 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>On strongly regular signed graphs of higher girth</title>
+      <link>https://arxiv.org/abs/2607.12131</link>
+      <guid isPermaLink="false">arxiv:2607.12131</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了高围长强正则符号图的结构，证明了围长4的二部图可由两类设计分类，围长5的图极少且易描述，更高围长的图不存在。<br/><br/>命中: block design<br/><br/>Quaid Iqbal, Thomas Zaslavsky]]></description>
+    </item>
+    <item>
+      <title>Hypergraph Turan with bounded matching number</title>
+      <link>https://arxiv.org/abs/2607.12300</link>
+      <guid isPermaLink="false">arxiv:2607.12300</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[研究了匹配数有界的Berge-$K_3$-free超图的Turán数，确定了$r=3$和$r=4$时的精确极值结构。<br/><br/>命中: Turán problem, Turán number<br/><br/>Yue Xu, Jiasheng Zeng, Xiao-Dong Zhang]]></description>
+    </item>
+    <item>
+      <title>Cover numbers by graph families bounded by certain graph parameters</title>
+      <link>https://arxiv.org/abs/2607.12353</link>
+      <guid isPermaLink="false">arxiv:2607.12353</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[研究用分数色数或局部色数有界的图族覆盖图边的最小数目，给出上下界并讨论渐近问题。<br/><br/>命中: chromatic number<br/><br/>Anna Gujgiczer, Márton Marits, Kenta Ozeki]]></description>
+    </item>
+    <item>
+      <title>Tverberg's theorem for unions of convex sets: Sharp bounds and colored extensions</title>
+      <link>https://arxiv.org/abs/2607.12449</link>
+      <guid isPermaLink="false">arxiv:2607.12449</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了Tverberg定理在凸集并集上的推广，给出了函数$f_r(d,s_1,\ldots,s_r)$的渐近紧界和彩色扩展的完整横贯定理。<br/><br/>命中: transversal<br/><br/>Gennian Ge, Yang Shu, Zixiang Xu]]></description>
+    </item>
+    <item>
+      <title>Counting oriented spanning trees in generalized join digraphs</title>
+      <link>https://arxiv.org/abs/2607.12457</link>
+      <guid isPermaLink="false">arxiv:2607.12457</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文给出了广义并合有向图中定向生成树数量的显式公式，用各子图的Laplacian特征值和原图定向生成树表示。<br/><br/>命中: oriented<br/><br/>Shaohan Xu, Kexiang Xu]]></description>
+    </item>
+    <item>
+      <title>The chromatic number of 3-stable Kneser graphs</title>
+      <link>https://arxiv.org/abs/2607.12912</link>
+      <guid isPermaLink="false">arxiv:2607.12912</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了Meunier关于3-稳定Kneser图染色数的猜想在n足够大或k=s=3时成立。<br/><br/>命中: chromatic number<br/><br/>Wei-Chia Chen, Alex Parker, Shira Zerbib]]></description>
+    </item>
+    <item>
+      <title>Large sets of mutually orthogonal quantum Latin squares</title>
+      <link>https://arxiv.org/abs/2607.12933</link>
+      <guid isPermaLink="false">arxiv:2607.12933</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究相互正交量子拉丁方阵（MOQLS）的最大规模，证明 $n-2$ 个 $n$ 阶 MOQLS 必为经典，并构造了素数幂阶的大规模非经典 MOQLS 集，改进了已知上下界。<br/><br/>命中: Latin square<br/><br/>Simeon Ball, Robin Simoens]]></description>
+    </item>
+    <item>
+      <title>Even smaller universal posets</title>
+      <link>https://arxiv.org/abs/2607.12980</link>
+      <guid isPermaLink="false">arxiv:2607.12980</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[构造了大小为 $2^{(1+\eta)n/2}$ 的泛偏序集，包含所有 $n$ 元偏序集作为诱导子偏序集，改进了 Bastide、Groenland 和 Nenadov 的结果。<br/><br/>命中: regularity lemma<br/><br/>József Balogh, Ramon I. Garcia, Marcelo Sales]]></description>
+    </item>
     <item>
       <title>Hypergraph Erdős--Rogers functions with consecutive clique sizes</title>
       <link>https://arxiv.org/abs/2607.10111</link>
@@ -720,55 +776,6 @@
       <guid isPermaLink="false">arxiv:2606.30767</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[给出若干 Roth 型结果在近最大 $B_h$ 集上的稀疏类比，并证明极值 $B_h$ 集是 Fourier pseudorandom。<br/><br/>命中: threshold, chromatic number, Cayley graph<br/><br/>Nathan Tung]]></description>
-    </item>
-    <item>
-      <title>On Zero-sum Ramsey numbers of complete bipartite graphs</title>
-      <link>https://arxiv.org/abs/2606.29216</link>
-      <guid isPermaLink="false">arxiv:2606.29216</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[确定完全二部图的 zero-sum Ramsey 数：对每个 $q\ge2$ 存在显式阈值 $S(q)$ 使 $R(K_{s,qk},\mathbb Z_q)=s+qk$（$s\ge S(q)$），并完整解出 $\mathbb Z_3$ 上 $K_{s,3k}$ 的情形。<br/><br/>命中: Ramsey number, threshold<br/><br/>Cheng Chi, Jialin He]]></description>
-    </item>
-    <item>
-      <title>A Turán Theorem for Cayley Graphs</title>
-      <link>https://arxiv.org/abs/2606.29284</link>
-      <guid isPermaLink="false">arxiv:2606.29284</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[给出素循环群 Cayley graph 的 Turán 定理：$\exCay(K_{r+1},\mathbb Z_p)=p-1-2\lfloor p/(r+1)\rfloor$，极值构造为 short-difference interval 的补。<br/><br/>命中: Turán number, Cayley graph<br/><br/>Wei Li, Kai Yang]]></description>
-    </item>
-    <item>
-      <title>Popular Differences and the Croot--Lev Half-Threshold Problem</title>
-      <link>https://arxiv.org/abs/2606.29297</link>
-      <guid isPermaLink="false">arxiv:2606.29297</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[解决 Croot–Lev 的 half-threshold 问题的 sharp 一般形式：在 two-torsion-free 交换群中，$r_A(d)\ge|A|/2$（$\forall d\in A-A$）迫使 $A-A$ 为子群或 $A$ 为两个陪集之并。<br/><br/>命中: threshold<br/><br/>Jianfeng Hou Wei Li, Kai Yang]]></description>
-    </item>
-    <item>
-      <title>Minimal Isometric Embeddings of Graphs into Abelian Groups: Theory, Algorithms, and Applications to Signal Processing over Networks</title>
-      <link>https://arxiv.org/abs/2606.29391</link>
-      <guid isPermaLink="false">arxiv:2606.29391</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[发展将任意连通图等距嵌入到交换群 Cayley graph 的框架 (GE-GSP)，证明每个连通图可等距嵌入 $(\mathbb Z_2)^k$ 的 Cayley graph（$k\le n-1$），用于网络上的调和分析。<br/><br/>命中: Cayley graph<br/><br/>Fokam Souop Rigobert, Bitjoka Laurent]]></description>
-    </item>
-    <item>
-      <title>Random homomorphisms and Lipschitz functions on trees</title>
-      <link>https://arxiv.org/abs/2606.29426</link>
-      <guid isPermaLink="false">arxiv:2606.29426</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究一般有限树上、在所有叶取零条件下的均匀随机 graph homomorphism 在根处取值分布，给出由 root–leaf 有效电阻控制的 subgaussian 尾界与方差界。<br/><br/>命中: threshold<br/><br/>Alon Heller, Yinon Spinka]]></description>
-    </item>
-    <item>
-      <title>Chamber geometry and specification numbers of Boolean threshold functions</title>
-      <link>https://arxiv.org/abs/2606.29477</link>
-      <guid isPermaLink="false">arxiv:2606.29477</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[用 Zuev 的几何解释把 Boolean threshold function 的 specification number 等同于其 chamber 的 facet 数，证明平均 specification number $\overline\sigma_n=\Theta(n)$，解决 Gutekunst–Mészáros–Petersen 的问题。<br/><br/>命中: threshold<br/><br/>Martin Anthony]]></description>
-    </item>
-    <item>
-      <title>Paths of Odd Order in Graphs with Given Edge Density</title>
-      <link>https://arxiv.org/abs/2607.05422</link>
-      <guid isPermaLink="false">arxiv:2607.05422</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[确定给定边密度下奇阶路 $P_{2r+1}$ 的渐近最大拷贝数，证明转变点 $c_r$ 以下 quasi-star、以上 quasi-clique 渐近极值。<br/><br/>命中: threshold<br/><br/>Yuyao Yang, Jiasheng Zeng]]></description>
     </item>
   </channel>
 </rss>
