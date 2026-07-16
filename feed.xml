@@ -5,8 +5,36 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Jul 2026 05:13:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 05:23:50 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Spectral extremal problems on planar and outerplanar graphs without $C_{k,l}</title>
+      <link>https://arxiv.org/abs/2607.13538</link>
+      <guid isPermaLink="false">arxiv:2607.13538</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[确定了不含 $C_{k,l}$ 的平面图和外平面图的极大谱半径及其唯一极图。<br/><br/>命中: extremal graph<br/><br/>Jiamin Li, Dan Li, Xilong Yin, Yuanyuan Chen]]></description>
+    </item>
+    <item>
+      <title>Spectral and Additive Combinatorial Methods for Cycles and Absorbing Sets in Lifted-Product Quantum LDPC Codes</title>
+      <link>https://arxiv.org/abs/2607.13666</link>
+      <guid isPermaLink="false">arxiv:2607.13666</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[针对量子LDPC码的lifted-product结构，提出一种基于离散傅里叶变换的谱框架，用于分析短环和吸收集，并导出闭式计数公式与特征刻画。<br/><br/>命中: absorbing set<br/><br/>Aida Abiad, Nichola Castriota]]></description>
+    </item>
+    <item>
+      <title>Clique spectral extremal problem on disjoint color-critical graphs</title>
+      <link>https://arxiv.org/abs/2607.13861</link>
+      <guid isPermaLink="false">arxiv:2607.13861</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[对于给定的若干不相交的颜色临界图，确定了在禁止它们为子图的所有图中，具有最大 $s$-团谱半径的极图。<br/><br/>命中: extremal graph, chromatic number<br/><br/>Changjiang Bu, Peiyan Wei, Haotian Zeng]]></description>
+    </item>
+    <item>
+      <title>Feedback vertex sets in oriented graphs</title>
+      <link>https://arxiv.org/abs/2607.13895</link>
+      <guid isPermaLink="false">arxiv:2607.13895</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究有向图的最小反馈顶点集，给出了一个关于顶点数、弧数和特殊连通分支数的上界，并推导出平面有向图、无三角形平面有向图和最大度6的有向图的新上界。<br/><br/>命中: oriented graph, oriented<br/><br/>Simon Dreyer]]></description>
+    </item>
     <item>
       <title>On strongly regular signed graphs of higher girth</title>
       <link>https://arxiv.org/abs/2607.12131</link>
@@ -713,69 +741,6 @@
       <guid isPermaLink="false">arxiv:2606.32024</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[证明 Friedgut–Kahn–Kalai–Keller 的 sharp diagonal spectral correlation 猜想：递增 Boolean 函数 $f,g$ 满足 $\mathrm{Cov}(f,g)\ge4\sum_{S\ne\varnothing}|S|\hat f(S)^2\hat g(S)^2$。<br/><br/>命中: @Hong Liu<br/><br/>Fan Chang, Hong Liu, Miao Liu]]></description>
-    </item>
-    <item>
-      <title>3-packings in Triangulations: Algorithms, bounds, and Complexity</title>
-      <link>https://arxiv.org/abs/2606.29743</link>
-      <guid isPermaLink="false">arxiv:2606.29743</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究平面三角剖分中三顶点图 $H\in\{P_3,K_3,P_2\cup P_1\}$ 的 $H$-packing，给出 $P_3$-packing 的紧下界 $\lfloor n/5\rfloor$ 与诱导 $P_2\cup P_1$-packing 的下界 $\lfloor n/3\rfloor-2$。<br/><br/>命中: Hamiltonian cycle<br/><br/>Prosenjit Bose, Anil Maheshwari, Bobby Miraftab, Yota Otachi]]></description>
-    </item>
-    <item>
-      <title>A Complete Classification of Discrete $d$-Pseudomanifolds with at Most $2d+7$ Vertices</title>
-      <link>https://arxiv.org/abs/2606.29753</link>
-      <guid isPermaLink="false">arxiv:2606.29753</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[完整分类至多 $2d+6$ 个顶点的 discrete $d$-pseudomanifold，并证明至多 $2d+7$ 顶点的 flag normal $d$-pseudomanifold 要么是 simplicial $d$-sphere 要么是 $\mathbb{RP}^2$ 的 $(d-2)$ 重悬垂的 flag 三角剖分。<br/><br/>命中: extremal graph<br/><br/>Biplab Basak, Debolina Ghosh, Raju Kumar Gupta]]></description>
-    </item>
-    <item>
-      <title>$L^p$-form of the KNRS conjecture</title>
-      <link>https://arxiv.org/abs/2606.30010</link>
-      <guid isPermaLink="false">arxiv:2606.30010</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明 Kohayakawa–Nagle–Rödl–Schacht (KNRS) 猜想的自然 $L^p$ 松弛在 graphon 设置下对每个含边图成立。<br/><br/>命中: random graph<br/><br/>Yuqi Zhao]]></description>
-    </item>
-    <item>
-      <title>The signless Laplacian spectral radius of graphs without disjoint cliques</title>
-      <link>https://arxiv.org/abs/2606.30272</link>
-      <guid isPermaLink="false">arxiv:2606.30272</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明对 $r\ge3$、$t\ge0$，$K_t\vee T_r(n-t)$ 是所有 $(t+1)K_{r+1}$-free 图中 signless Laplacian 谱半径最大的唯一图（$n$ 充分大）。<br/><br/>命中: extremal graph<br/><br/>Xinghui Zhao, Lihua You, Jing Zeng]]></description>
-    </item>
-    <item>
-      <title>On the Probability a Weighted Bernoulli Sum Exceeds Its Mean</title>
-      <link>https://arxiv.org/abs/2606.30287</link>
-      <guid isPermaLink="false">arxiv:2606.30287</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[猜想加权 Bernoulli 和 $X=\sum w_iv_i$（$\sum w_i=1$，$v_i\sim$Bernoulli$(p)$）在 $0\le p\le1/3$ 时 $\mathbb P[X\ge\mathbb E X]\ge p$，并借助 Manickam–Miklós–Singhi 的联系对足够小 $p$ 证明。<br/><br/>命中: @Benny Sudakov<br/><br/>Aleksa Milojevic, Benny Sudakov]]></description>
-    </item>
-    <item>
-      <title>The threshold for the asymmetric vertex-Ramsey property in randomly perturbed graphs</title>
-      <link>https://arxiv.org/abs/2606.30548</link>
-      <guid isPermaLink="false">arxiv:2606.30548</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[确定 randomly perturbed 图中 asymmetric vertex-Ramsey 性质的阈值：对任意 $r\ge2$ 与图组 $(H_1,\ldots,H_r)$，给出使稠密图加随机边后 whp 成为 $(H_1,\ldots,H_r)_v$-Ramsey 所需的随机边数。<br/><br/>命中: random graph, threshold<br/><br/>Asier Calbet, Victor Falgas-Ravry, Joseph Hyde]]></description>
-    </item>
-    <item>
-      <title>A proof of Seymour's second neighborhood conjecture for oriented graphs with minimum out-degree equal to 7</title>
-      <link>https://arxiv.org/abs/2606.30588</link>
-      <guid isPermaLink="false">arxiv:2606.30588</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明 Seymour second neighborhood 猜想对最小出度等于 7 的 oriented graph 成立，二十年来首次推进该最小出度阈值。<br/><br/>命中: oriented graph, oriented, threshold<br/><br/>Arpan Sadhukhan, R. B. Sandeep, Sagnik Sen]]></description>
-    </item>
-    <item>
-      <title>Nearly-uniform degree distributions in spanning subgraphs</title>
-      <link>https://arxiv.org/abs/2606.30612</link>
-      <guid isPermaLink="false">arxiv:2606.30612</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明 $d=o(n)$ 时每个 $d$-regular $n$ 顶点图含度分布近均匀的 spanning subgraph（每个 $0\le i\le d$ 恰有 $(1+o(1))n/(d+1)$ 个度-$i$ 顶点），证实 Alon–Wei 猜想。<br/><br/>命中: @Benny Sudakov, @Richard Montgomery<br/><br/>Richard Montgomery, Alexey Pokrovskiy, Benny Sudakov]]></description>
-    </item>
-    <item>
-      <title>Linear equations and chromatic thresholds in $B_h$ sets</title>
-      <link>https://arxiv.org/abs/2606.30767</link>
-      <guid isPermaLink="false">arxiv:2606.30767</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[给出若干 Roth 型结果在近最大 $B_h$ 集上的稀疏类比，并证明极值 $B_h$ 集是 Fourier pseudorandom。<br/><br/>命中: threshold, chromatic number, Cayley graph<br/><br/>Nathan Tung]]></description>
     </item>
   </channel>
 </rss>
