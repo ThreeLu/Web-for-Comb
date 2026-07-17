@@ -5,8 +5,43 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Jul 2026 05:23:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 05:25:43 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Odd-cycle defects in the Alon-Friedland bound</title>
+      <link>https://arxiv.org/abs/2607.14134</link>
+      <guid isPermaLink="false">arxiv:2607.14134</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[通过奇环缺陷显式分解完美匹配平方与有向圈覆盖，精炼Alon-Friedland度序列界并研究其近等号情形。<br/><br/>命中: extremal graph<br/><br/>Mohsen Aliabadi, Elliot Krop]]></description>
+    </item>
+    <item>
+      <title>The small Davenport constant of the Heisenberg group of order 125</title>
+      <link>https://arxiv.org/abs/2607.14379</link>
+      <guid isPermaLink="false">arxiv:2607.14379</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[确定了阶为125的Heisenberg群的小Davenport常数为12，解决了p=5的开放情形。<br/><br/>命中: additive combinatorics<br/><br/>Patrick White]]></description>
+    </item>
+    <item>
+      <title>Discrete Einstein metrics on unicyclic graphs</title>
+      <link>https://arxiv.org/abs/2607.14748</link>
+      <guid isPermaLink="false">arxiv:2607.14748</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[将Lin-Lu-Yau曲率的离散Einstein度量理论从树扩展到单圈图，刻画了平衡态与非平衡态现象，并给出了裸圈和正则太阳图的闭式解。<br/><br/>命中: threshold<br/><br/>Shuliang Bai]]></description>
+    </item>
+    <item>
+      <title>Erdős-Ko-Rado-type problem for hypergraph matchings</title>
+      <link>https://arxiv.org/abs/2607.14872</link>
+      <guid isPermaLink="false">arxiv:2607.14872</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了完全 $r$-部 $r$-一致超图中 $k$-匹配的 $t$-相交族，确定了最大大小并刻画了极值结构。<br/><br/>命中: threshold<br/><br/>Binwei Zhao, Tao Feng, Xiaomiao Wang, Menglong Zhang]]></description>
+    </item>
+    <item>
+      <title>Asymptotic Brill-Noether Existence at the Half-Canonical Degree: Energy Pairing, Cheeger Inequality and Covering Radii</title>
+      <link>https://arxiv.org/abs/2607.15213</link>
+      <guid isPermaLink="false">arxiv:2607.15213</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[利用数的几何技术，在若干高度连通的图族（包括偶数度展开图、固定度至少5的近拉马努金图及随机图）中，验证了半典范度附近Brill-Noether存在猜想的渐近版本。<br/><br/>命中: random graph, Existence Conjecture<br/><br/>Madhusudan Manjunath]]></description>
+    </item>
     <item>
       <title>Spectral extremal problems on planar and outerplanar graphs without $C_{k,l}</title>
       <link>https://arxiv.org/abs/2607.13538</link>
@@ -692,55 +727,6 @@
       <guid isPermaLink="false">arxiv:2607.02589</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[研究 Frankl–Wang $3/7$ 最大度比猜想的阈值，证明任何线性阈值 $n&gt;Ck$ 都不足够，$k=3$ 无条件成立，并给出 $k\ge4$ 的显式多项式阈值 $n&gt;7k^5$。<br/><br/>命中: threshold<br/><br/>Zejun Huang, Zhiyi Liu, Lu Lu, Tingzeng Wu]]></description>
-    </item>
-    <item>
-      <title>Path-Minimality for Positive $p$-Energies, Laplacian-Type Spectra, and Line Graphs</title>
-      <link>https://arxiv.org/abs/2606.30996</link>
-      <guid isPermaLink="false">arxiv:2606.30996</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[由 companion paper 的 path-minimality 定理导出多个应用，证明路 $P_n$ 在 adjacency $p$-energy、Laplacian 型谱和与 line graph 能量下的 sharp 极小性。<br/><br/>命中: threshold<br/><br/>Yinchen Liu, Quanyu Tang]]></description>
-    </item>
-    <item>
-      <title>On the completion of $ε$-dense partial Latin squares</title>
-      <link>https://arxiv.org/abs/2606.31143</link>
-      <guid isPermaLink="false">arxiv:2606.31143</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明所有充分大 $n$ 的 $\frac{2}{25}$-dense partial Latin square 可补全，向 Daykin–Häggkvist 的 $\frac14$-dense 猜想推进。<br/><br/>命中: Latin square<br/><br/>Shikang Yu, Tao Feng]]></description>
-    </item>
-    <item>
-      <title>The sharp threshold for rainbow stackings of random edge-colourings</title>
-      <link>https://arxiv.org/abs/2606.31376</link>
-      <guid isPermaLink="false">arxiv:2606.31376</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[确定 $m$ 个随机 $r$-边染色 $K_n$ 的 rainbow stacking 存在的 sharp 阈值常数项，解决 Alon–Defant–Kravitz 的问题。<br/><br/>命中: threshold, @Hong Liu<br/><br/>Hong Liu, Guorui Ma, Yangrui Xiang, Zhifei Yan]]></description>
-    </item>
-    <item>
-      <title>Supersingular elliptic curves and twisting endomorphisms</title>
-      <link>https://arxiv.org/abs/2606.31687</link>
-      <guid isPermaLink="false">arxiv:2606.31687</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[将 twisting endomorphism 推广到 $\mathcal O$-oriented supersingular elliptic curve，并给出寻找带素数次 twisting endomorphism 的曲线及计算其全 endomorphism ring 基的算法。<br/><br/>命中: oriented<br/><br/>Sarah Arpin, Josep M. Miret, Jordi Pujolàs, Javier Valera]]></description>
-    </item>
-    <item>
-      <title>List-Coloring and Chromatic-Choosability -- A Dynamic Survey</title>
-      <link>https://arxiv.org/abs/2606.31702</link>
-      <guid isPermaLink="false">arxiv:2606.31702</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[一篇 list-coloring 与 chromatic-choosability 的动态综述，梳理已知相等/存在 gap 的图类与主要证明方法。<br/><br/>命中: chromatic number<br/><br/>Nandana K Vasudevan, K Somasundaram, N Narayanan]]></description>
-    </item>
-    <item>
-      <title>Token sliding independent set reconfiguration on graphs with few $P_4$'s</title>
-      <link>https://arxiv.org/abs/2606.31815</link>
-      <guid isPermaLink="false">arxiv:2606.31815</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[给出 Token Sliding 规则下 Independent Set Reconfiguration 在 $P_4$-tidy 图与 $(q,q-4)$-图上的多项式时间算法。<br/><br/>命中: treewidth<br/><br/>Lucia Busolini, Mario Valencia-Pabon]]></description>
-    </item>
-    <item>
-      <title>The sharp diagonal spectral correlation inequality on the discrete cube</title>
-      <link>https://arxiv.org/abs/2606.32024</link>
-      <guid isPermaLink="false">arxiv:2606.32024</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明 Friedgut–Kahn–Kalai–Keller 的 sharp diagonal spectral correlation 猜想：递增 Boolean 函数 $f,g$ 满足 $\mathrm{Cov}(f,g)\ge4\sum_{S\ne\varnothing}|S|\hat f(S)^2\hat g(S)^2$。<br/><br/>命中: @Hong Liu<br/><br/>Fan Chang, Hong Liu, Miao Liu]]></description>
     </item>
   </channel>
 </rss>
