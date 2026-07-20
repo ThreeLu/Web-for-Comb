@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-17T05:25:43+00:00",
-  "total_days": 36,
-  "total_matched": 288,
+  "generated": "2026-07-20T05:52:39+00:00",
+  "total_days": 37,
+  "total_matched": 297,
   "daily": [
     {
       "date": "2026-06-02",
@@ -182,20 +182,25 @@
       "date": "2026-07-17",
       "matched": 8,
       "fetched": 43
+    },
+    {
+      "date": "2026-07-20",
+      "matched": 9,
+      "fetched": 48
     }
   ],
   "keywords": [
     [
       "threshold",
-      46
+      50
     ],
     [
       "chromatic number",
-      31
+      32
     ],
     [
       "Cayley graph",
-      23
+      24
     ],
     [
       "extremal graph",
@@ -210,16 +215,20 @@
       11
     ],
     [
+      "transversal",
+      11
+    ],
+    [
       "Latin square",
       11
     ],
     [
-      "transversal",
+      "Turán number",
       10
     ],
     [
-      "Turán number",
-      9
+      "Hamilton cycle",
+      7
     ],
     [
       "Hamiltonicity",
@@ -231,10 +240,6 @@
     ],
     [
       "oriented graph",
-      6
-    ],
-    [
-      "Hamilton cycle",
       6
     ],
     [
@@ -377,6 +382,14 @@
     ],
     [
       "Nemanja Draganić",
+      1
+    ],
+    [
+      "Julian Sahasrabudhe",
+      1
+    ],
+    [
+      "Robert Morris",
       1
     ]
   ]

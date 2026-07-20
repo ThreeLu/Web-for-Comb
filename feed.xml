@@ -5,8 +5,57 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 17 Jul 2026 05:25:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 05:52:39 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hitting all maximal independent sets in $c$-hollow graphs</title>
+      <link>https://arxiv.org/abs/2607.15486</link>
+      <guid isPermaLink="false">arxiv:2607.15486</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究 $c$-hollow 图中击中所有极大独立集的最小顶点集 $\tau(G)$，构造了 $\tau(G)=\Omega(n^{1/3}/\log n)$ 的下界，并证明对 cographs 和 split 图类猜想成立。<br/><br/>命中: transversal<br/><br/>Joshua Cooper, Isaiah Hollars]]></description>
+    </item>
+    <item>
+      <title>Edge complexity of graphs</title>
+      <link>https://arxiv.org/abs/2607.15598</link>
+      <guid isPermaLink="false">arxiv:2607.15598</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入图的边复杂度（edge complexity）作为邻接矩阵在所有顶点标号下的最小傅里叶比，刻画了取等条件，并给出了乘积图上的估计、与熵的联系以及随机图上的渐近行为。<br/><br/>命中: Cayley graph<br/><br/>Vishal Gupta, Alex Iosevich, Joshua Iosevich, Benjamin Song, Haoyuan Tian]]></description>
+    </item>
+    <item>
+      <title>A 3-semi-perfect 1-factorization of the six-dimensional hypercube</title>
+      <link>https://arxiv.org/abs/2607.15609</link>
+      <guid isPermaLink="false">arxiv:2607.15609</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[构造了六维超立方体 $Q_6$ 的一个1-因子分解 $F$，使得 $G[F]\cong K_{3,3}$，解决了Behague定理中遗留的 $k=\ell=3$ 例外情形。<br/><br/>命中: Hamilton cycle<br/><br/>Guillaume Lambard]]></description>
+    </item>
+    <item>
+      <title>The minimum surface area of $k$ unequal boxes tiling a cube: sharp thresholds, a fault-free law, and a reduction to two dimensions</title>
+      <link>https://arxiv.org/abs/2607.15894</link>
+      <guid isPermaLink="false">arxiv:2607.15894</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了用 $k$ 个边长整数且维数多重集互异的轴对齐盒子无重叠地拼成 $n^3$ 立方体的最小总表面积 $T(n,k)$，完整解决了 $k=6$ 的情况，并建立了从三维到二维的约化定理及无故障平面定律。<br/><br/>命中: threshold<br/><br/>Diego Lago Gómez]]></description>
+    </item>
+    <item>
+      <title>An improved upper bound for the planar Turán number of $C_8$</title>
+      <link>https://arxiv.org/abs/2607.16103</link>
+      <guid isPermaLink="false">arxiv:2607.16103</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了不含 $C_8$ 的 $n$ 顶点平面图边数上界为 $\frac{69}{25}(n-2)$，改进了此前的结果。<br/><br/>命中: Turán number<br/><br/>Xuqing Bai, Weichan Liu, Xiangxiang Nie, Xin Zhang]]></description>
+    </item>
+    <item>
+      <title>On the Erdős-Rogers function</title>
+      <link>https://arxiv.org/abs/2607.16118</link>
+      <guid isPermaLink="false">arxiv:2607.16118</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了 Erdős-Rogers 函数 $f_{s,s+1}(n) = \Theta(\sqrt{n \log n})$ 对所有 $s \ge 2$ 成立。<br/><br/>命中: chromatic number, @Julian Sahasrabudhe, @Robert Morris<br/><br/>Robert Morris, Julian Sahasrabudhe, Jacques Verstraëte]]></description>
+    </item>
+    <item>
+      <title>A weighted entropy approach for the quadratic inverse large sieve conjecture</title>
+      <link>https://arxiv.org/abs/2607.15311</link>
+      <guid isPermaLink="false">arxiv:2607.15311</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[改进了二次逆大筛猜想的下界，证明若 $A\subseteq[N]$ 满足 $|A|\gg\sqrt N$ 且 $|A_p|\le p/2+O(1)$，则 $A$ 包含 $\exp\left(c\frac{\sqrt{\log N}}{\log\log N}\right)$ 个二次像中的元素。<br/><br/>命中: threshold<br/><br/>Ernie Croot, Chi Hoi Yip]]></description>
+    </item>
     <item>
       <title>Odd-cycle defects in the Alon-Friedland bound</title>
       <link>https://arxiv.org/abs/2607.14134</link>
@@ -650,83 +699,6 @@
       <guid isPermaLink="false">arxiv:2607.02756</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[研究图的 weighted matching polynomial 与顶点删除子图之间实根的严格交错，定义 SRSI 图类并刻画具完美/近完美匹配的图。<br/><br/>命中: Hamilton path<br/><br/>Shaun Fallat, Johnna Parenteau]]></description>
-    </item>
-    <item>
-      <title>A Complete Intersection Theorem for Large Permutation Groups</title>
-      <link>https://arxiv.org/abs/2607.00318</link>
-      <guid isPermaLink="false">arxiv:2607.00318</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明大 $n$ 时对称群 $S_n$ 中 $t$-intersecting 置换族的最大尺寸由 Frankl 型族 $\mathcal F_{n,t,r}$ 达到，即置换群版本的 Complete Intersection Theorem，基本解决 Deza–Frankl (1977) 问题。<br/><br/>命中: @Andrey Kupavskii<br/><br/>Nathan Keller, Andrey Kupavskii, Noam Lifshitz, Ohad Sheinfeld]]></description>
-    </item>
-    <item>
-      <title>The continuous oriented chromatic number of directed Schreier graphs of $\mathbb Z^2$-shift actions</title>
-      <link>https://arxiv.org/abs/2607.00367</link>
-      <guid isPermaLink="false">arxiv:2607.00367</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明 $\mathbb Z^2$-shift 自由部分的有向 Schreier 图 $\vec F(2^{\mathbb Z^2})$ 的连续 oriented chromatic number 恰为 7。<br/><br/>命中: oriented, chromatic number<br/><br/>Ruijun Wang]]></description>
-    </item>
-    <item>
-      <title>Peres--Schlag's nonempty-interior problem and a shifted-product variant for product sets</title>
-      <link>https://arxiv.org/abs/2607.00372</link>
-      <guid isPermaLink="false">arxiv:2607.00372</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 Peres–Schlag nonempty-interior 问题的有限域类比，证明 $n\ge3$、$|A|\gg p^{3/(2n-1)+\eta}$ 时存在系数使 $t_1A+\cdots+t_nA=\mathbb F_p$，改进直接乘积类比的指数 $2/n$。<br/><br/>命中: threshold<br/><br/>Guo-Dong Hong, Chong-Wei Liang, Chun-Yen Shen]]></description>
-    </item>
-    <item>
-      <title>Robust Quantum Memory Advantage from Contextuality</title>
-      <link>https://arxiv.org/abs/2607.00507</link>
-      <guid isPermaLink="false">arxiv:2607.00507</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[从图论 contextuality 出发，证明量子有限自动机 (QFA) 相对经典自动机有指数级、抗噪声的内存优势。<br/><br/>命中: threshold, chromatic number<br/><br/>Shiroman Prakash]]></description>
-    </item>
-    <item>
-      <title>For edge-color-critical graphs, non-$r$-partite spectral extremal graphs are edge extremal</title>
-      <link>https://arxiv.org/abs/2607.00561</link>
-      <guid isPermaLink="false">arxiv:2607.00561</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[对 edge-color-critical 图 $F$，在 Turán 边数近似与可嵌入性假设下证明非 $r$-部谱极值图即为边极值图，验证 Fang–Lin 猜想。<br/><br/>命中: extremal graph, chromatic number<br/><br/>Suil O, Jiadong Wu]]></description>
-    </item>
-    <item>
-      <title>On the number of extension closed additive subcategories for uniformly oriented $A_n$ quivers</title>
-      <link>https://arxiv.org/abs/2607.00651</link>
-      <guid isPermaLink="false">arxiv:2607.00651</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[给出计算 OEIS 序列 A393920（uniformly oriented $A_n$ quiver 的 extension-closed additive 子范畴数）的递推，并揭示其与 Fibonacci 序列的联系。<br/><br/>命中: oriented<br/><br/>Volodymyr Mazorchuk]]></description>
-    </item>
-    <item>
-      <title>Further Results on the Maximum Number of Stars in Graphs with Forbidden Properties</title>
-      <link>https://arxiv.org/abs/2607.00770</link>
-      <guid isPermaLink="false">arxiv:2607.00770</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 $k$-edge-hamiltonian 等性质失败图中 $t$-star 的最大数量，证明 Berikkyzy–Hogenson–Kirsch–McDonald 的猜想在临界值处失败并给出阈值型极值结果。<br/><br/>命中: Hamilton cycle, Hamiltonicity, extremal graph, threshold<br/><br/>Yuxuan Liu, Jia-Bao Yang, Leilei Zhang]]></description>
-    </item>
-    <item>
-      <title>Obstructions to coarse universality for finitely generated groups</title>
-      <link>https://arxiv.org/abs/2607.00963</link>
-      <guid isPermaLink="false">arxiv:2607.00963</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明对每个允许有限余有界 coarse quasi-action 的有界度图 $\Lambda$，存在不 coarsely 嵌入 $\Lambda$ 的有限生成群，从而解决 Simon Thomas 的两个猜想：不存在 universal Cayley graph 也不存在 universal quasi-isometry 类。<br/><br/>命中: Cayley graph<br/><br/>Robin Tucker-Drob]]></description>
-    </item>
-    <item>
-      <title>Fair Allocation under Conflict Constraints via Strong Colorability</title>
-      <link>https://arxiv.org/abs/2607.01059</link>
-      <guid isPermaLink="false">arxiv:2607.01059</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[通过 strong chromatic number 的变体层级，研究 conflict 约束下的公平分配（SD-EF1、EF1、EF[1,1]），并给出用最大度表达的存在性与算法结果。<br/><br/>命中: chromatic number<br/><br/>Ishay Haviv]]></description>
-    </item>
-    <item>
-      <title>An edge-spectral supersaturation of Mubayi's theorem for color-critical graphs</title>
-      <link>https://arxiv.org/abs/2607.01073</link>
-      <guid isPermaLink="false">arxiv:2607.01073</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[以最优常数解决 Fang–Lin–Zhai 猜想，证明当邻接谱半径超过 Nikiforov 阈值 $q$ 时，color-critical 图 $F$ 被强制出现 $\ge(B_F-o(1))q\,m^{(f-2)/2}$ 个拷贝，是 Mubayi 定理的 edge-spectral 对应。<br/><br/>命中: supersaturation, threshold<br/><br/>Hongzhang Chen, Yongtao Li]]></description>
-    </item>
-    <item>
-      <title>Thresholds for the Frankl-Wang $3/7$ conjecture on maximum-degree ratios</title>
-      <link>https://arxiv.org/abs/2607.02589</link>
-      <guid isPermaLink="false">arxiv:2607.02589</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 Frankl–Wang $3/7$ 最大度比猜想的阈值，证明任何线性阈值 $n&gt;Ck$ 都不足够，$k=3$ 无条件成立，并给出 $k\ge4$ 的显式多项式阈值 $n&gt;7k^5$。<br/><br/>命中: threshold<br/><br/>Zejun Huang, Zhiyi Liu, Lu Lu, Tingzeng Wu]]></description>
     </item>
   </channel>
 </rss>
