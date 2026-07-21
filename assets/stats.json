@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-20T05:52:39+00:00",
-  "total_days": 37,
-  "total_matched": 297,
+  "generated": "2026-07-21T05:34:10+00:00",
+  "total_days": 38,
+  "total_matched": 318,
   "daily": [
     {
       "date": "2026-06-02",
@@ -187,47 +187,60 @@
       "date": "2026-07-20",
       "matched": 9,
       "fetched": 48
+    },
+    {
+      "date": "2026-07-21",
+      "matched": 21,
+      "fetched": 87
     }
   ],
   "keywords": [
     [
       "threshold",
-      50
+      56
     ],
     [
       "chromatic number",
-      32
+      33
     ],
     [
       "Cayley graph",
-      24
+      25
     ],
     [
       "extremal graph",
-      18
+      20
     ],
     [
       "oriented",
-      14
+      18
+    ],
+    [
+      "Turán number",
+      13
+    ],
+    [
+      "transversal",
+      13
+    ],
+    [
+      "Latin square",
+      12
     ],
     [
       "random graph",
       11
     ],
     [
-      "transversal",
-      11
-    ],
-    [
-      "Latin square",
-      11
-    ],
-    [
-      "Turán number",
-      10
+      "Ramsey number",
+      8
     ],
     [
       "Hamilton cycle",
+      8
+    ],
+    [
+      "oriented graph",
       7
     ],
     [
@@ -235,15 +248,11 @@
       7
     ],
     [
-      "Ramsey number",
-      6
-    ],
-    [
-      "oriented graph",
-      6
-    ],
-    [
       "treewidth",
+      6
+    ],
+    [
+      "generalized Turán",
       5
     ],
     [
@@ -251,16 +260,12 @@
       5
     ],
     [
-      "generalized Turán",
+      "supersaturation",
       4
     ],
     [
-      "supersaturation",
-      3
-    ],
-    [
       "Hamilton path",
-      3
+      4
     ],
     [
       "additive combinatorics",
@@ -334,7 +339,7 @@
     ],
     [
       "Benny Sudakov",
-      3
+      4
     ],
     [
       "Zach Hunter",
@@ -390,6 +395,10 @@
     ],
     [
       "Robert Morris",
+      1
+    ],
+    [
+      "Patrick Morris",
       1
     ]
   ]

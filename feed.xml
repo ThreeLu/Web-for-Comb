@@ -5,8 +5,134 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 20 Jul 2026 05:52:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 05:34:10 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>An alternative proof of the upper bound for the generalised Erdős box problem</title>
+      <link>https://arxiv.org/abs/2607.16694</link>
+      <guid isPermaLink="false">arxiv:2607.16694</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文给出了Erdős关于完全$r$-部$r$-一致超图Turán数上界定理的一个新证明。<br/><br/>命中: Turán number<br/><br/>Subhankar Dash, Kaushik Majumder]]></description>
+    </item>
+    <item>
+      <title>Supersaturation in Nosal graphs: Triangles and books</title>
+      <link>https://arxiv.org/abs/2607.16746</link>
+      <guid isPermaLink="false">arxiv:2607.16746</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[利用谱盈余 $\lambda(G) - \sqrt{m}$ 度量图在 Nosal 阈值之上的程度，证明了三角形和书的边-谱超饱和结果，包括三角形计数下界、Lovász–Simonovits 定理的边-谱对应、书大小的改进以及风筝 $C_4^+$ 计数的精确渐近常数。<br/><br/>命中: supersaturation, threshold<br/><br/>Hongzhang Chen, Yongtao Li, Quanyu Tang]]></description>
+    </item>
+    <item>
+      <title>Linear Turán Numbers of Uniform Hypertrees</title>
+      <link>https://arxiv.org/abs/2607.16854</link>
+      <guid isPermaLink="false">arxiv:2607.16854</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了均匀线性超图的Turán数，确定了线性星$S_k^r$的精确极值，并给出了线性树$T_k^r$的下界，同时完全解决了四边线性超树（扫帚、皇冠、路径）的极值问题。<br/><br/>命中: Turán number<br/><br/>Rajat Adak, Pragya Verma]]></description>
+    </item>
+    <item>
+      <title>Variations on a circular Hessenberg pair</title>
+      <link>https://arxiv.org/abs/2607.16964</link>
+      <guid isPermaLink="false">arxiv:2607.16964</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究Hessenberg pair和Hessenberg system的各种变体，包括circular、quasi-circular、tridiagonal和irreducible tridiagonal类型，并揭示这些家族之间的关系以及用参数数组描述它们。<br/><br/>命中: oriented<br/><br/>Kazumasa Nomura, Paul Terwilliger]]></description>
+    </item>
+    <item>
+      <title>K-Arc-Strong Orientations Of Semicomplete Digraphs</title>
+      <link>https://arxiv.org/abs/2607.17116</link>
+      <guid isPermaLink="false">arxiv:2607.17116</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了每个 $(2k-1)$-弧强的半完全有向图（顶点数至少 $2k+1$）都包含一个生成 $k$-弧强的竞赛图，且界是最优的。<br/><br/>命中: oriented<br/><br/>Tong Zhou, Jørgen Bang-Jensen, Jia Zhou, Jin Yan]]></description>
+    </item>
+    <item>
+      <title>Highly connected spanning oriented subdigraphs in generalizations of semicomplete digraphs</title>
+      <link>https://arxiv.org/abs/2607.17150</link>
+      <guid isPermaLink="false">arxiv:2607.17150</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在扩展半完全有向图和半完全分裂有向图中存在函数 $f(k)$，使得每个 $f(k)$-强有向图包含一个生成 $k$-强定向子有向图。<br/><br/>命中: oriented<br/><br/>Jia Zhou, Jørgen Bang-Jensen, Tong Zhou, Jin Yan]]></description>
+    </item>
+    <item>
+      <title>Multicolor vector space Ramsey numbers over the binary field</title>
+      <link>https://arxiv.org/abs/2607.17263</link>
+      <guid isPermaLink="false">arxiv:2607.17263</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[通过二进制单纯形码将多色向量空间Ramsey数归约到经典超图Ramsey问题，得到与$k$无关的塔型上界，显著改进了此前随$k$线性增长的塔型上界。<br/><br/>命中: Ramsey number, chromatic number<br/><br/>Anurag Bishnoi, Gaurav Kucheriya]]></description>
+    </item>
+    <item>
+      <title>Characterizing the equality case in Brouwer's inequality for Laplacian eigenvalues</title>
+      <link>https://arxiv.org/abs/2607.17293</link>
+      <guid isPermaLink="false">arxiv:2607.17293</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[刻画了Brouwer不等式取等号的图结构：当且仅当图是团数为$k+1$的threshold graph。<br/><br/>命中: threshold<br/><br/>Yuhang Cui, Xiaodan Chen]]></description>
+    </item>
+    <item>
+      <title>Latin Squares whose transversals intersect in unusual ways</title>
+      <link>https://arxiv.org/abs/2607.17547</link>
+      <guid isPermaLink="false">arxiv:2607.17547</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[对于所有偶数阶 $n\ge 28$ 且 $n\neq 30$，构造了任意两个 transversal 都相交的拉丁方，并研究了 dominant transversal 的存在性。<br/><br/>命中: transversal, Latin square<br/><br/>Afsane Ghafari, Ian M. Wanless]]></description>
+    </item>
+    <item>
+      <title>Counting subsets of integers free of arithmetic configurations</title>
+      <link>https://arxiv.org/abs/2607.17746</link>
+      <guid isPermaLink="false">arxiv:2607.17746</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了对于 $k\geq 5$，无限多个 $n$ 下 $[n]$ 中不含 $k$-AP 的子集数量为 $2^{r_k(n)(1+o(1))}$，并推广到更一般的算术模式排除问题。<br/><br/>命中: threshold, @Patrick Morris<br/><br/>Patrick Morris, Miquel Ortega, Juanjo Rué]]></description>
+    </item>
+    <item>
+      <title>Breaking the Bollobás-Eldridge-Catlin Barrier for Bipartite Graphs</title>
+      <link>https://arxiv.org/abs/2607.17808</link>
+      <guid isPermaLink="false">arxiv:2607.17808</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[改进了Bollobás-Eldridge-Catlin packing猜想中二分图H的度条件，将最小度阈值从(1-1/(Δ+1))n降低到(1-c logΔ/Δ)n，并证明对数因子最优。<br/><br/>命中: threshold, @Benny Sudakov<br/><br/>Peter Allen, Julia Böttcher, Jozef Skokan, Benny Sudakov]]></description>
+    </item>
+    <item>
+      <title>Contributions in Algebraic Graph Theory</title>
+      <link>https://arxiv.org/abs/2607.17829</link>
+      <guid isPermaLink="false">arxiv:2607.17829</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本论文利用谱方法研究图的谱确定性和广义Hamming图的传递性，证明了若干图族由邻接谱唯一确定，并分类了广义Hamming图及其补图的边传递性和距离传递性。<br/><br/>命中: Cayley graph<br/><br/>Noam Krupnik]]></description>
+    </item>
+    <item>
+      <title>A note on tree-cycle Ramsey numbers</title>
+      <link>https://arxiv.org/abs/2607.17831</link>
+      <guid isPermaLink="false">arxiv:2607.17831</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了树-圈Ramsey数 $R(T_n,C_m)$ 中函数 $f(m)$ 的上界，证明 $f(m) \le 2m-4$，并猜想 $f(m)=\lceil (2m-1)/3\rceil$。<br/><br/>命中: Ramsey number<br/><br/>Ting Huang, Yanbo Zhang, Yaojun Chen]]></description>
+    </item>
+    <item>
+      <title>A New Lower Bound on the Spectral Radius of Graphs with Prescribed Average Degree</title>
+      <link>https://arxiv.org/abs/2607.17895</link>
+      <guid isPermaLink="false">arxiv:2607.17895</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[通过分数松弛的精确解，改进了给定平均度的图的谱半径下界，并证实了Hong（1993）关于特定平均度图的猜想。<br/><br/>命中: extremal graph<br/><br/>Sonny Ben-Shimon, Idan Eisner, Shlomo Hoory]]></description>
+    </item>
+    <item>
+      <title>Towards a strengthening of the second neighborhood conjecture</title>
+      <link>https://arxiv.org/abs/2607.18047</link>
+      <guid isPermaLink="false">arxiv:2607.18047</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[提出Seymour第二邻域猜想的加强版本，并证明该加强版本对最小出度至多为5的有向图、5-反传递有向图以及所有有向平面图成立。<br/><br/>命中: oriented graph, oriented<br/><br/>Yandong Bai, Binlong Li, Boram Park]]></description>
+    </item>
+    <item>
+      <title>On modular balanced partition designs</title>
+      <link>https://arxiv.org/abs/2607.18087</link>
+      <guid isPermaLink="false">arxiv:2607.18087</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入并研究了模平衡划分设计（modular balanced partition design），给出了其存在的必要条件，揭示了其与子群魔方阵（subgroup magic rectangle）的联系，并利用阿贝尔群的仿射自同构构造了非同构的实例，最后展示了如何通过该设计构造横截设计（transversal design）。<br/><br/>命中: transversal<br/><br/>S. Karthik, Peter J. Cameron, Krishnan Paramasivam]]></description>
+    </item>
+    <item>
+      <title>Exact generalized Turán number of vertex-disjoint paths of length two</title>
+      <link>https://arxiv.org/abs/2607.18122</link>
+      <guid isPermaLink="false">arxiv:2607.18122</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[确定了顶点不相交的 $P_3$ 的广义 Turán 数，并刻画了所有极图。<br/><br/>命中: extremal graph, Turán number, generalized Turán<br/><br/>Qi Wu, Long-Tu Yuan]]></description>
+    </item>
+    <item>
+      <title>The realization graph of every degree sequence has a Hamilton path</title>
+      <link>https://arxiv.org/abs/2607.18146</link>
+      <guid isPermaLink="false">arxiv:2607.18146</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明每个度序列的实现图都存在哈密顿路径。<br/><br/>命中: Hamilton cycle, Hamilton path<br/><br/>Petr Hladík, Jiří Fink]]></description>
+    </item>
     <item>
       <title>Hitting all maximal independent sets in $c$-hollow graphs</title>
       <link>https://arxiv.org/abs/2607.15486</link>
@@ -615,90 +741,6 @@
       <guid isPermaLink="false">arxiv:2607.03573</guid>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[用概率 nibble 方法改进 $k$-uniform $t$-simple 超图的 chromatic index 界，证明 3-uniform 2-simple/3-simple 超图的 $\chi'$ 分别 $\le2.3581D$、$\le2.6791D$。<br/><br/>命中: @Tom Kelly<br/><br/>Sarah Frederickson, Yanli Hao, Tom Kelly]]></description>
-    </item>
-    <item>
-      <title>The analytic properties of Hoggatt triangles</title>
-      <link>https://arxiv.org/abs/2607.01582</link>
-      <guid isPermaLink="false">arxiv:2607.01582</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 $d$-Hoggatt triangle（Pascal 三角连续 $d$ 行 $d$ 列 minor 构成）的解析性质，证明其行列的无限 log-concavity、transversal log-concavity、行的渐近正态性与 total positivity。<br/><br/>命中: transversal<br/><br/>Jianxi Mao, Wenle Shi]]></description>
-    </item>
-    <item>
-      <title>On the generalized Turán number of the complete bipartite graph $K_{3,b+1}$</title>
-      <link>https://arxiv.org/abs/2607.01680</link>
-      <guid isPermaLink="false">arxiv:2607.01680</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[解决奇 $b$ 情形，证明对 $b\ge5$、$3&lt;a\le b$ 有 $\mathrm{ex}(n,K_{a,b},K_{3,b+1})=\Theta_{a,b}(n^3)$，达到必要阈值 $t=b+1$。<br/><br/>命中: Turán number, generalized Turán, threshold<br/><br/>Jing Wang, Zixuan Yang, Junpeng Zhou]]></description>
-    </item>
-    <item>
-      <title>A note on long nontrivial cycle in Hamiltonian graphs</title>
-      <link>https://arxiv.org/abs/2607.01738</link>
-      <guid isPermaLink="false">arxiv:2607.01738</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[把 Hamiltonian 图（最小度 $\ge3$）中第二长圈的下界从 $n-O(n^{4/5})$ 改进到 $n-O(n^{2/3})$。<br/><br/>命中: Hamiltonian cycle<br/><br/>Xiaolin Wang, Jiabao Yang, Guangmiao Yu, Ruilin Zheng]]></description>
-    </item>
-    <item>
-      <title>AVD Total Coloring of Central Graphs, Subdivision Graphs, and the Join of Graphs</title>
-      <link>https://arxiv.org/abs/2607.01979</link>
-      <guid isPermaLink="false">arxiv:2607.01979</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[验证若干图类的 central graph 满足 AVD-total coloring 猜想，并确定 subdivision 图与图之 join 的 AVD-total chromatic number。<br/><br/>命中: chromatic number<br/><br/>Amitayu Banerjee]]></description>
-    </item>
-    <item>
-      <title>Separating Geodesic Structure and Product Structure</title>
-      <link>https://arxiv.org/abs/2607.02098</link>
-      <guid isPermaLink="false">arxiv:2607.02098</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[分离 geodesic treewidth 与 row treewidth：证明有界 row treewidth 不蕴含有界 geodesic treewidth，并给出 geodesic treewidth 的算法（treewidth XP），而 row treewidth 无此算法（除非 P=NP）。<br/><br/>命中: treewidth<br/><br/>Laura Merker, Lena Scherzer, Samuel Schneider]]></description>
-    </item>
-    <item>
-      <title>From Finite Cayley Graphs to Growth of Infinite Groups</title>
-      <link>https://arxiv.org/abs/2607.02102</link>
-      <guid isPermaLink="false">arxiv:2607.02102</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[探究在有限群 Cayley graph 上训练的 GNN 能否推广到无限有限生成群，实验显示对多族无限群有强泛化，暗示有限 Cayley graph 编码了足够的局部几何以反映群的增长。<br/><br/>命中: Cayley graph<br/><br/>Tal Weissblat]]></description>
-    </item>
-    <item>
-      <title>On the growth spectrum of hyperbolic groups</title>
-      <link>https://arxiv.org/abs/2607.02147</link>
-      <guid isPermaLink="false">arxiv:2607.02147</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究作用在双曲空间上群的 growth spectrum，证明自由群/曲面群 convex-cocompact 作用时谱为整段 $[0,\omega_G]$，一般双曲群含大区间 $[0,\omega_{\mathcal F}]$（$\omega_{\mathcal F}\ge\omega_G/2$）。<br/><br/>命中: random graph, Cayley graph<br/><br/>Rémi Coulon, Michail Louvaris, Daniel T. Wise, Gal Yehuda]]></description>
-    </item>
-    <item>
-      <title>An extremal theorem for positive curvature of graphs</title>
-      <link>https://arxiv.org/abs/2607.02297</link>
-      <guid isPermaLink="false">arxiv:2607.02297</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[给出图正 Ollivier/Lin–Lu–Yau 曲率的极值定理：$n\ge8$ 时边数超过 $T(n)=\frac{n^2-3n}{2}-\lceil n/2\rceil+2$ 即保证正曲率，阈值最优。<br/><br/>命中: extremal graph, threshold<br/><br/>Kaizhe Chen, Shiping Liu, Zhe You]]></description>
-    </item>
-    <item>
-      <title>From Ham-Sandwich to Centerpoints: Semialgebraic Algorithms for Cutting Polytopal Measures</title>
-      <link>https://arxiv.org/abs/2607.02400</link>
-      <guid isPermaLink="false">arxiv:2607.02400</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[为 polytopal measure 设计 ham-sandwich 与 centerpoint 定理的精确算法，关键观察是 cap-volume 函数在有向超平面空间的自然剖分上分片有理。<br/><br/>命中: transversal, oriented<br/><br/>Marie-Charlotte Brandenburg, Jesús A. De Loera, Chiara Meroni]]></description>
-    </item>
-    <item>
-      <title>Robustness and hyperstability for the Erdős-Gallai theorem</title>
-      <link>https://arxiv.org/abs/2607.02483</link>
-      <guid isPermaLink="false">arxiv:2607.02483</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明 Erdős–Gallai 定理的 robust 与 hyperstability 版本：平均度 $d$ 图经概率 $p\ge K/d$ 渗流后 aas 含长 $(1-c)d$ 的圈；无长 $\ge d$ 圈的图离“分量有 $(1+c)d$ 顶点覆盖”至多 $cdn$ 次删边。<br/><br/>命中: random graph<br/><br/>Micha Christoph, Alp Müyesser, Yuval Wigderson]]></description>
-    </item>
-    <item>
-      <title>Polynomial Algorithms for Minimum Degree Partitions in Semicomplete Digraphs</title>
-      <link>https://arxiv.org/abs/2607.02619</link>
-      <guid isPermaLink="false">arxiv:2607.02619</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[给出 semicomplete digraph 上固定度阈值最小度 2-partition 的多项式算法，解决 Bang-Jensen–Christiansen 猜想。<br/><br/>命中: threshold<br/><br/>Hanzhi Bai, Jin Yan]]></description>
-    </item>
-    <item>
-      <title>Strictly Interlaced Spectral Data for the Weighted Matching Polynomial of a Graph</title>
-      <link>https://arxiv.org/abs/2607.02756</link>
-      <guid isPermaLink="false">arxiv:2607.02756</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究图的 weighted matching polynomial 与顶点删除子图之间实根的严格交错，定义 SRSI 图类并刻画具完美/近完美匹配的图。<br/><br/>命中: Hamilton path<br/><br/>Shaun Fallat, Johnna Parenteau]]></description>
     </item>
   </channel>
 </rss>
