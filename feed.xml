@@ -5,8 +5,36 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jul 2026 05:34:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 05:32:38 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Block designs and systems of pairs</title>
+      <link>https://arxiv.org/abs/2607.18499</link>
+      <guid isPermaLink="false">arxiv:2607.18499</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[提出一种从已知区组设计构造新区组设计的方法，并建立区组设计与对子系统之间的联系。<br/><br/>命中: block design<br/><br/>Alexander Shramchenko, Vasilisa Shramchenko]]></description>
+    </item>
+    <item>
+      <title>On the Cores of Uniform and Almost-Uniform $3$-Qualitative Independence Hypergraphs</title>
+      <link>https://arxiv.org/abs/2607.18674</link>
+      <guid isPermaLink="false">arxiv:2607.18674</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[研究均匀和几乎均匀的3-定性独立超图与合并Johnson图的结构对应关系，并确定其核，特别解决了最小未解实例$3\text{-}QI(8,2)$的核性质。<br/><br/>命中: chromatic number<br/><br/>Raina Mary Thomas, Yasmeen Akhtar]]></description>
+    </item>
+    <item>
+      <title>On the Computational Complexity of Local and Global Covering Numbers</title>
+      <link>https://arxiv.org/abs/2607.18833</link>
+      <guid isPermaLink="false">arxiv:2607.18833</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图H被二部图或完全二部图覆盖的全局与局部覆盖数的计算复杂性，给出了局部覆盖数的下界并证明了其NP-hard性。<br/><br/>命中: chromatic number<br/><br/>Miriam Goetze, Lucas Schwebler]]></description>
+    </item>
+    <item>
+      <title>Stretched exponential asymptotics for bases of triangular bootstrap percolation</title>
+      <link>https://arxiv.org/abs/2607.18901</link>
+      <guid isPermaLink="false">arxiv:2607.18901</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了三角形网格上的bootstrap percolation过程，证明了大小为$n$的基数的生成函数满足代数微分方程，并推导出基数$t_n$的渐近行为为拉伸指数形式$t_n \sim c n! e^{\sqrt{12n}} n^{5/12}$。<br/><br/>命中: bootstrap percolation<br/><br/>Andrew Elvey Price, Juliette Schabanel, Paul Thévenin]]></description>
+    </item>
     <item>
       <title>An alternative proof of the upper bound for the generalised Erdős box problem</title>
       <link>https://arxiv.org/abs/2607.16694</link>
@@ -692,55 +720,6 @@
       <guid isPermaLink="false">arxiv:2607.04038</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[证明每个 Higman–Thompson 群 $F_n$（$n\ge2$）都含无限指数、同构于自身的极大子群，并给出一条各同构于 $F_n$、交为平凡的极大子群链。<br/><br/>命中: oriented<br/><br/>Gili Golan]]></description>
-    </item>
-    <item>
-      <title>Finite groups with quadratic splitting fields for all Cayley graphs</title>
-      <link>https://arxiv.org/abs/2607.02973</link>
-      <guid isPermaLink="false">arxiv:2607.02973</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[完整分类了 Cayley 2-integral 有限群（其每个 Cayley graph 的 algebraic degree $\le2$），交换情形与非交换情形均给出。<br/><br/>命中: Cayley graph<br/><br/>Majid Arezoomand, Alireza Abdollahi, Tao Feng, Zeinab Akhlaghi]]></description>
-    </item>
-    <item>
-      <title>On the spectrum and structure of blowup thresholds</title>
-      <link>https://arxiv.org/abs/2607.03035</link>
-      <guid isPermaLink="false">arxiv:2607.03035</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 blowup threshold $\delta_{\mathrm B}(H)$（何时稠密 maximal $H$-free 图必为有界模板的 blowup），证明它与 chromatic threshold 在多个基本方面分离。<br/><br/>命中: threshold, chromatic number, @Hong Liu<br/><br/>Xinqi Huang, Hong Liu, Mingyuan Rong]]></description>
-    </item>
-    <item>
-      <title>Disproof of the tree product conjecture via the Heisenberg group</title>
-      <link>https://arxiv.org/abs/2607.03041</link>
-      <guid isPermaLink="false">arxiv:2607.03041</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[用 Heisenberg 群否证 tree product 猜想：存在 degree-4 多项式增长图不能嵌入 4 棵线性增长树与常数团的 strong product。<br/><br/>命中: Cayley graph<br/><br/>Freddie Illingworth, Sergey Norin, Raphael Steiner]]></description>
-    </item>
-    <item>
-      <title>On Ramsey-type problems for paths and cycles with few colour changes</title>
-      <link>https://arxiv.org/abs/2607.03243</link>
-      <guid isPermaLink="false">arxiv:2607.03243</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究 3-边染色完全图中少变色的路与圈，引入参数 $R_q^k(G)$，证明 $R_3^1(P_n)=\tfrac{3n}2+O(1)$、$R_3^2(C_n)=\tfrac{3n}2+o(n)$。<br/><br/>命中: Hamilton path, Ramsey number<br/><br/>Peter Allen, Julia Böttcher, Dennis Clemens, Fabian Hamann, Jozef Skokan, Anusch Taraz]]></description>
-    </item>
-    <item>
-      <title>On Full Brouwer's Laplacian Conjecture</title>
-      <link>https://arxiv.org/abs/2607.03388</link>
-      <guid isPermaLink="false">arxiv:2607.03388</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[刻画 Brouwer Laplacian 猜想的等号情形：$s_k(G)=m+\binom{k+1}2$ 对某 $1\le k\le n-1$ 成立当且仅当 $G$ 是 clique number $k+1$ 的 threshold graph，确认 full Brouwer 猜想。<br/><br/>命中: threshold<br/><br/>Dongxiu Cai, Zhengbo Chen, Jia Yang, Xiao-Dong Zhang]]></description>
-    </item>
-    <item>
-      <title>The multilinear forms Cayley graph and the eigenvalue method for tensor codes</title>
-      <link>https://arxiv.org/abs/2607.03479</link>
-      <guid isPermaLink="false">arxiv:2607.03479</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究由 rank-one tensor 生成的 multilinear forms Cayley graph 的谱，用 eigenvalue method 给出 tensor-rank 度量下 tensor code 维数的界。<br/><br/>命中: Cayley graph<br/><br/>Eimear Byrne, Lucien François]]></description>
-    </item>
-    <item>
-      <title>Improved bounds for the chromatic index of $k$-uniform hypergraphs</title>
-      <link>https://arxiv.org/abs/2607.03573</link>
-      <guid isPermaLink="false">arxiv:2607.03573</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[用概率 nibble 方法改进 $k$-uniform $t$-simple 超图的 chromatic index 界，证明 3-uniform 2-simple/3-simple 超图的 $\chi'$ 分别 $\le2.3581D$、$\le2.6791D$。<br/><br/>命中: @Tom Kelly<br/><br/>Sarah Frederickson, Yanli Hao, Tom Kelly]]></description>
     </item>
   </channel>
 </rss>
