@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-22T05:32:38+00:00",
-  "total_days": 39,
-  "total_matched": 323,
+  "generated": "2026-07-23T05:38:19+00:00",
+  "total_days": 40,
+  "total_matched": 334,
   "daily": [
     {
       "date": "2026-06-02",
@@ -197,6 +197,11 @@
       "date": "2026-07-22",
       "matched": 5,
       "fetched": 44
+    },
+    {
+      "date": "2026-07-23",
+      "matched": 11,
+      "fetched": 52
     }
   ],
   "keywords": [
@@ -206,11 +211,11 @@
     ],
     [
       "chromatic number",
-      36
+      39
     ],
     [
       "Cayley graph",
-      25
+      28
     ],
     [
       "extremal graph",
@@ -230,7 +235,7 @@
     ],
     [
       "Latin square",
-      12
+      13
     ],
     [
       "random graph",
@@ -238,11 +243,11 @@
     ],
     [
       "Ramsey number",
-      8
+      9
     ],
     [
       "Hamilton cycle",
-      8
+      9
     ],
     [
       "oriented graph",
@@ -257,11 +262,11 @@
       6
     ],
     [
-      "generalized Turán",
-      5
+      "Hamiltonian cycle",
+      6
     ],
     [
-      "Hamiltonian cycle",
+      "generalized Turán",
       5
     ],
     [
@@ -339,6 +344,10 @@
     [
       "bootstrap percolation",
       1
+    ],
+    [
+      "hitting time",
+      1
     ]
   ],
   "authors": [
@@ -349,6 +358,10 @@
     [
       "Benny Sudakov",
       4
+    ],
+    [
+      "Cosmin Pohoata",
+      2
     ],
     [
       "Zach Hunter",
@@ -376,10 +389,6 @@
     ],
     [
       "Matthew Kwan",
-      1
-    ],
-    [
-      "Cosmin Pohoata",
       1
     ],
     [
