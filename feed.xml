@@ -5,8 +5,64 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 23 Jul 2026 05:38:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 05:33:33 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Combinatorial formula for the Moore-Penrose inverse of the complex signless Laplacian of an oriented graph</title>
+      <link>https://arxiv.org/abs/2607.20658</link>
+      <guid isPermaLink="false">arxiv:2607.20658</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[给出了带非零复边权的弱连通有向图的符号关联矩阵的秩的充要条件，并由此推导出复符号Laplacian矩阵的Moore-Penrose逆的组合公式，解决了Barik等人提出的公开问题。<br/><br/>命中: oriented graph, oriented<br/><br/>XiaoYang Liu, Sudipta Mallik, Anh Tang]]></description>
+    </item>
+    <item>
+      <title>Constructions for supersaturation of eventown problems</title>
+      <link>https://arxiv.org/abs/2607.20812</link>
+      <guid isPermaLink="false">arxiv:2607.20812</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[研究eventown问题的超饱和现象，构造了具有指定奇交对数的偶数子集族，扩展了O'Neill猜想中参数s的范围。<br/><br/>命中: supersaturation<br/><br/>Xiaolei Niu, Yinghui Hang, Haitao Cao]]></description>
+    </item>
+    <item>
+      <title>The optimal constant for minimum weight feedback arc sets in oriented graphs</title>
+      <link>https://arxiv.org/abs/2607.20996</link>
+      <guid isPermaLink="false">arxiv:2607.20996</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了有向图中最小权重反馈弧集的最优常数，证明上界为 $\frac{1}{2} - \frac{\sqrt{2}}{6\sqrt{\Delta}}$，并给出一个随机近线性时间算法。<br/><br/>命中: oriented graph, oriented<br/><br/>Yacong Zhou]]></description>
+    </item>
+    <item>
+      <title>A six-neuron counterexample to the target-free clique conjecture</title>
+      <link>https://arxiv.org/abs/2607.21396</link>
+      <guid isPermaLink="false">arxiv:2607.21396</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[构造了一个六神经元反例，否证了无目标团猜想，并证明在特定参数范围内该猜想成立。<br/><br/>命中: threshold<br/><br/>Jesse Geneson]]></description>
+    </item>
+    <item>
+      <title>Fatness and Flatness</title>
+      <link>https://arxiv.org/abs/2607.21474</link>
+      <guid isPermaLink="false">arxiv:2607.21474</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明排除固定胖小子的度量图具有度量平坦性（钻取平坦性），并导出k-中心问题的近似算法。<br/><br/>命中: graph minor<br/><br/>Arnold Filtser, Hung Le, Nikolas Mählmann, Marcin Pilipczuk, Michał Pilipczuk]]></description>
+    </item>
+    <item>
+      <title>Arithmetic progressions in a random set on a budget</title>
+      <link>https://arxiv.org/abs/2607.21565</link>
+      <guid isPermaLink="false">arxiv:2607.21565</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[将随机图过程中的预算限制模型推广到整数随机子集，研究了Builder在线构造$k$项等差数列所需的最优预算阈值。<br/><br/>命中: random graph, threshold<br/><br/>Jan Hladký, Daniel Iľkovič, Jared León, Xichao Shu]]></description>
+    </item>
+    <item>
+      <title>Tight Hamilton Cycles in Linearly Quasirandom 3-Graphs</title>
+      <link>https://arxiv.org/abs/2607.21568</link>
+      <guid isPermaLink="false">arxiv:2607.21568</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[研究了线性拟随机3-图中紧Hamilton圈的存在性，给出了最小度阈值的一个紧界。<br/><br/>命中: Hamilton cycle, tight Hamilton cycle, threshold<br/><br/>Xichao Shu]]></description>
+    </item>
+    <item>
+      <title>The Frankl--Tokushige product conjectures for $r$-cross-intersecting families</title>
+      <link>https://arxiv.org/abs/2607.21589</link>
+      <guid isPermaLink="false">arxiv:2607.21589</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[解决了 Frankl 和 Tokushige 关于 $r$-交叉相交族的均匀和偏斜乘积猜想。<br/><br/>命中: @Hong Liu<br/><br/>Fan Chang, Hong Liu, Miao Liu]]></description>
+    </item>
     <item>
       <title>On the Ramsey number of a graph obtained by attaching a pendant to a path with length 1 modulo 4</title>
       <link>https://arxiv.org/abs/2607.19554</link>
@@ -720,34 +776,6 @@
       <guid isPermaLink="false">arxiv:2607.05374</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[构造 Minkowski grid：存在常数 $\delta&gt;0$ 使每个 $n$ 点集 $P$ 的任意 $\ge2$ 子集 $A$ 都有某距离重复 $\gtrsim|A|^2/n^{1-\delta}$ 次，给出 unit-distance 猜想反例并解决 Erdős 的两个老问题。<br/><br/>命中: @Cosmin Pohoata<br/><br/>Sungchul Lee, Cosmin Pohoata, Daniel G. Zhu]]></description>
-    </item>
-    <item>
-      <title>Chromatic Completeness and the Independence of Geometric Obstruction</title>
-      <link>https://arxiv.org/abs/2607.04289</link>
-      <guid isPermaLink="false">arxiv:2607.04289</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[在 orthogonality hypergraph 中严格分离 chromatic completeness 与 geometric coordinatizability：strong chromatic number 超过 Hilbert 空间维数只阻碍前者，不阻碍 faithful orthogonal representation 的存在。<br/><br/>命中: chromatic number<br/><br/>Karl Svozil]]></description>
-    </item>
-    <item>
-      <title>Connected graphs with a large dissociation numberattaining the minimum spectral radius</title>
-      <link>https://arxiv.org/abs/2607.04324</link>
-      <guid isPermaLink="false">arxiv:2607.04324</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究给定阶 $n$ 与 dissociation number $\psi=n-k$（$k\ge4$ 固定、$n$ 大）的连通图的最小 spectral radius，给出上下界并证明极值图属于特定图类。<br/><br/>命中: extremal graph<br/><br/>Zejun Huang, Chenxi Yang]]></description>
-    </item>
-    <item>
-      <title>The Alon--Tarsi Number of Squares of Subcubic Planar Graphs without Cycles of Lengths $4$ to $8$</title>
-      <link>https://arxiv.org/abs/2607.04494</link>
-      <guid isPermaLink="false">arxiv:2607.04494</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明无 $4$ 到 $8$ 长圈的 subcubic 平面图 $G$ 的平方 $G^2$ 满足 $AT(G^2)\le6$，强化 Kim–Luo 关于 $\chi_\ell(G^2)\le6$ 的结果。<br/><br/>命中: chromatic number<br/><br/>Seog-Jin Kim, Xiaopan Lian, Rong Luo]]></description>
-    </item>
-    <item>
-      <title>Embedding Induced Bounded Degree Graphs</title>
-      <link>https://arxiv.org/abs/2607.04532</link>
-      <guid isPermaLink="false">arxiv:2607.04532</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明有界度图诱导嵌入的稀疏嵌入定理，改进 Conlon–Fox–Zhao 关于有界度 induced Ramsey 数的多项式界指数。<br/><br/>命中: Ramsey number, induced Ramsey<br/><br/>Gaia Carenini]]></description>
     </item>
   </channel>
 </rss>
