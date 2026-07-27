@@ -5,8 +5,15 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 24 Jul 2026 05:33:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 06:03:19 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Distinguishability threshold for random geometric graphs</title>
+      <link>https://arxiv.org/abs/2607.22480</link>
+      <guid isPermaLink="false">arxiv:2607.22480</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[研究了随机几何图中邻域同构的区分性阈值，确定了使图几乎必然可区分的边概率条件。<br/><br/>命中: threshold, @Benny Sudakov, @Zach Hunter<br/><br/>Zach Hunter, Aleksa Milojević, Benny Sudakov]]></description>
+    </item>
     <item>
       <title>Combinatorial formula for the Moore-Penrose inverse of the complex signless Laplacian of an oriented graph</title>
       <link>https://arxiv.org/abs/2607.20658</link>
@@ -706,76 +713,6 @@
       <guid isPermaLink="false">arxiv:2607.06455</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[研究由禁止诱导子图族 $\mathcal F$ 定义的图类的 generalized spectral closedness，引入 patterned closed walk（$\beta$-closed walk）并证明 threshold 图与 chain 图类 generalized spectrally closed。<br/><br/>命中: threshold<br/><br/>Wei Wang, Quanyu Tang]]></description>
-    </item>
-    <item>
-      <title>The Left-Regular Stabilizer of Zaks' Hamiltonian Cycle in the Pancake Graph</title>
-      <link>https://arxiv.org/abs/2607.04658</link>
-      <guid isPermaLink="false">arxiv:2607.04658</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[确定 pancake graph $P_n$ 中 Zaks Hamiltonian cycle $Z_n$ 在 $S_n$ 左正则作用下的 stabilizer 恰为二面体群 $D_n$。<br/><br/>命中: Hamiltonian cycle<br/><br/>Or-Hai Benjo, Yehonathan Sharvit]]></description>
-    </item>
-    <item>
-      <title>Hamilton paths and cycles in flip graphs of (almost-)perfect matchings</title>
-      <link>https://arxiv.org/abs/2607.04687</link>
-      <guid isPermaLink="false">arxiv:2607.04687</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[给出（近）完美匹配 flip graph 的 Hamiltonicity 全景：组合设置下 Hamilton-connected/laceable，几何设置下无 Hamilton path。<br/><br/>命中: Hamiltonicity, Hamilton path<br/><br/>Sofia Brenner, Justin Dallant, Linda Kleist, Robert Lauff, Torsten Mütze, Torben Schürenberg]]></description>
-    </item>
-    <item>
-      <title>Steinerberger Curvature On Digraphs -- Discrete Bonnet-Myers and Lichnerowicz Theorems</title>
-      <link>https://arxiv.org/abs/2607.04878</link>
-      <guid isPermaLink="false">arxiv:2607.04878</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[把 Steinerberger 曲率推广到强连通有向图（in-/out-curvature），建立有向版 Bonnet–Myers、Cheng、Lichnerowicz 定理及 reverse Bonnet–Myers 不等式。<br/><br/>命中: Cayley graph<br/><br/>Kevin Fung, Johnny Lim]]></description>
-    </item>
-    <item>
-      <title>Edge-disjoint Hamilton cycles under a bipartite-hole condition</title>
-      <link>https://arxiv.org/abs/2607.05027</link>
-      <guid isPermaLink="false">arxiv:2607.05027</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[确定 bipartite-hole 条件下打包 $k$ 条边不交 Hamilton cycle 所需最小度 $f(a,k)=\Theta(a+k+\frac{ak}{\log(k+2)})$，回答 McDiarmid–Yolov 的问题。<br/><br/>命中: Hamilton cycle, Hamiltonicity<br/><br/>Yanan Hu, Chengli Li, Feng Liu]]></description>
-    </item>
-    <item>
-      <title>Divisible design graphs obtained by plugging a difference set into a construction for antipodal distance-regular graphs of diameter 3</title>
-      <link>https://arxiv.org/abs/2607.05043</link>
-      <guid isPermaLink="false">arxiv:2607.05043</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[通过把商群的 difference set 代入已知 diameter-3 antipodal distance-regular 图构造，得到新参数的 divisible design graph，并证明特征 2 时为初等交换 2-群上的 Cayley graph。<br/><br/>命中: Cayley graph<br/><br/>Bart De Bruyn, Sergey Goryainov, Ruilin Ma, Ruihan Xie]]></description>
-    </item>
-    <item>
-      <title>Localization and metric dimension for families of highly structured digraphs</title>
-      <link>https://arxiv.org/abs/2607.05152</link>
-      <guid isPermaLink="false">arxiv:2607.05152</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究若干高度结构化有向图族的 metric dimension 与 localization number，对 $n$ 顶点非对称 normally regular digraph 给出 $O(\sqrt n\log n)$ 上界，并对一类 team tournament 改进到 $O(\log n)$。<br/><br/>命中: probabilistic method<br/><br/>Robert F. Bailey, Brittany Pittman]]></description>
-    </item>
-    <item>
-      <title>Counting partial Latin rectangles and tridimensional rook placements with multisymmetric functions</title>
-      <link>https://arxiv.org/abs/2607.05214</link>
-      <guid isPermaLink="false">arxiv:2607.05214</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[用 multisymmetric function 把 Gessel 的 Latin rectangle 计数公式推广到 partial Latin rectangle 与三维棋盘上非攻击 rook placement，并给出 2、3 层的生成级数短公式。<br/><br/>命中: Latin square<br/><br/>Emmanuel Briand]]></description>
-    </item>
-    <item>
-      <title>No-$(k+1)$-in-line problem for $k \geqslant 3$</title>
-      <link>https://arxiv.org/abs/2607.05255</link>
-      <guid isPermaLink="false">arxiv:2607.05255</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[解决 $k\ge3$ 的 no-$(k+1)$-in-line 问题：对充分大 $n$，$n\times n$ 网格中每条直线至多 $k$ 点的最大点数恰为 $kn$；并改进 no-four-on-a-circle 构造到 $2n-o(n)$。<br/><br/>命中: @Peter Keevash, @Matthew Kwan<br/><br/>Anubhab Ghosal, Ritesh Goenka, Alexandr Grebennikov, Peter Keevash, Matthew Kwan, Huy Tuan Pham]]></description>
-    </item>
-    <item>
-      <title>The list coloring number of uncrowded hypergraphs</title>
-      <link>https://arxiv.org/abs/2607.05256</link>
-      <guid isPermaLink="false">arxiv:2607.05256</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明 uncrowded $(r+1)$-uniform 超图的 list chromatic number 至多 $(1+\varepsilon)(r\Delta/\log\Delta)^{1/r}$。<br/><br/>命中: semi-random, chromatic number, list coloring<br/><br/>Jing Yu, Junchi Zhang]]></description>
-    </item>
-    <item>
-      <title>The Minkowski grid has robustly many repeated distances</title>
-      <link>https://arxiv.org/abs/2607.05374</link>
-      <guid isPermaLink="false">arxiv:2607.05374</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[构造 Minkowski grid：存在常数 $\delta&gt;0$ 使每个 $n$ 点集 $P$ 的任意 $\ge2$ 子集 $A$ 都有某距离重复 $\gtrsim|A|^2/n^{1-\delta}$ 次，给出 unit-distance 猜想反例并解决 Erdős 的两个老问题。<br/><br/>命中: @Cosmin Pohoata<br/><br/>Sungchul Lee, Cosmin Pohoata, Daniel G. Zhu]]></description>
     </item>
   </channel>
 </rss>

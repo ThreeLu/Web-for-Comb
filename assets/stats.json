@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-24T05:33:34+00:00",
-  "total_days": 41,
-  "total_matched": 343,
+  "generated": "2026-07-27T06:03:19+00:00",
+  "total_days": 42,
+  "total_matched": 345,
   "daily": [
     {
       "date": "2026-06-02",
@@ -207,12 +207,17 @@
       "date": "2026-07-24",
       "matched": 9,
       "fetched": 54
+    },
+    {
+      "date": "2026-07-27",
+      "matched": 2,
+      "fetched": 36
     }
   ],
   "keywords": [
     [
       "threshold",
-      59
+      60
     ],
     [
       "chromatic number",
@@ -231,6 +236,10 @@
       20
     ],
     [
+      "random graph",
+      13
+    ],
+    [
       "Turán number",
       13
     ],
@@ -241,10 +250,6 @@
     [
       "Latin square",
       13
-    ],
-    [
-      "random graph",
-      12
     ],
     [
       "Hamilton cycle",
@@ -370,14 +375,14 @@
     ],
     [
       "Benny Sudakov",
-      4
-    ],
-    [
-      "Cosmin Pohoata",
-      2
+      5
     ],
     [
       "Zach Hunter",
+      3
+    ],
+    [
+      "Cosmin Pohoata",
       2
     ],
     [
