@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-27T06:03:19+00:00",
-  "total_days": 42,
-  "total_matched": 345,
+  "generated": "2026-07-28T05:28:42+00:00",
+  "total_days": 43,
+  "total_matched": 365,
   "daily": [
     {
       "date": "2026-06-02",
@@ -212,36 +212,41 @@
       "date": "2026-07-27",
       "matched": 2,
       "fetched": 36
+    },
+    {
+      "date": "2026-07-28",
+      "matched": 20,
+      "fetched": 105
     }
   ],
   "keywords": [
     [
       "threshold",
-      60
+      64
     ],
     [
       "chromatic number",
-      39
+      42
     ],
     [
       "Cayley graph",
-      29
+      31
     ],
     [
       "extremal graph",
-      20
+      23
     ],
     [
       "oriented",
-      20
-    ],
-    [
-      "random graph",
-      13
+      23
     ],
     [
       "Turán number",
-      13
+      16
+    ],
+    [
+      "random graph",
+      14
     ],
     [
       "transversal",
@@ -252,20 +257,24 @@
       13
     ],
     [
+      "oriented graph",
+      11
+    ],
+    [
       "Hamilton cycle",
-      10
+      11
     ],
     [
       "Ramsey number",
-      9
-    ],
-    [
-      "oriented graph",
-      9
+      10
     ],
     [
       "Hamiltonicity",
       7
+    ],
+    [
+      "generalized Turán",
+      6
     ],
     [
       "treewidth",
@@ -276,11 +285,11 @@
       6
     ],
     [
-      "generalized Turán",
+      "supersaturation",
       5
     ],
     [
-      "supersaturation",
+      "Turán problem",
       5
     ],
     [
@@ -289,6 +298,14 @@
     ],
     [
       "additive combinatorics",
+      3
+    ],
+    [
+      "block design",
+      3
+    ],
+    [
+      "list coloring",
       2
     ],
     [
@@ -296,11 +313,11 @@
       2
     ],
     [
-      "block design",
+      "regularity lemma",
       2
     ],
     [
-      "Turán problem",
+      "tight Hamilton cycle",
       2
     ],
     [
@@ -332,15 +349,7 @@
       1
     ],
     [
-      "list coloring",
-      1
-    ],
-    [
       "hypergraph container",
-      1
-    ],
-    [
-      "regularity lemma",
       1
     ],
     [
@@ -364,7 +373,7 @@
       1
     ],
     [
-      "tight Hamilton cycle",
+      "absorption method",
       1
     ]
   ],
@@ -435,6 +444,14 @@
     ],
     [
       "Patrick Morris",
+      1
+    ],
+    [
+      "Wojciech Samotij",
+      1
+    ],
+    [
+      "Allan Lo",
       1
     ]
   ]
