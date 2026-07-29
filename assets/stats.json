@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-28T05:28:42+00:00",
-  "total_days": 43,
-  "total_matched": 365,
+  "generated": "2026-07-29T05:35:17+00:00",
+  "total_days": 44,
+  "total_matched": 373,
   "daily": [
     {
       "date": "2026-06-02",
@@ -217,12 +217,17 @@
       "date": "2026-07-28",
       "matched": 20,
       "fetched": 105
+    },
+    {
+      "date": "2026-07-29",
+      "matched": 8,
+      "fetched": 49
     }
   ],
   "keywords": [
     [
       "threshold",
-      64
+      67
     ],
     [
       "chromatic number",
@@ -234,11 +239,11 @@
     ],
     [
       "extremal graph",
-      23
+      24
     ],
     [
       "oriented",
-      23
+      24
     ],
     [
       "Turán number",
@@ -257,16 +262,16 @@
       13
     ],
     [
+      "Ramsey number",
+      11
+    ],
+    [
       "oriented graph",
       11
     ],
     [
       "Hamilton cycle",
       11
-    ],
-    [
-      "Ramsey number",
-      10
     ],
     [
       "Hamiltonicity",
@@ -281,12 +286,12 @@
       6
     ],
     [
-      "Hamiltonian cycle",
+      "supersaturation",
       6
     ],
     [
-      "supersaturation",
-      5
+      "Hamiltonian cycle",
+      6
     ],
     [
       "Turán problem",
@@ -301,15 +306,19 @@
       3
     ],
     [
+      "Ramsey theory",
+      3
+    ],
+    [
       "block design",
       3
     ],
     [
-      "list coloring",
+      "multicolour Ramsey",
       2
     ],
     [
-      "Ramsey theory",
+      "list coloring",
       2
     ],
     [
@@ -319,10 +328,6 @@
     [
       "tight Hamilton cycle",
       2
-    ],
-    [
-      "multicolour Ramsey",
-      1
     ],
     [
       "hypergraph regularity",
@@ -375,6 +380,10 @@
     [
       "absorption method",
       1
+    ],
+    [
+      "book graph",
+      1
     ]
   ],
   "authors": [
@@ -391,15 +400,15 @@
       3
     ],
     [
+      "Richard Montgomery",
+      2
+    ],
+    [
       "Cosmin Pohoata",
       2
     ],
     [
       "Noga Alon",
-      1
-    ],
-    [
-      "Richard Montgomery",
       1
     ],
     [

@@ -5,8 +5,57 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 28 Jul 2026 05:28:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 05:35:17 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Schrijver Number Quasi-Tensorization and Multicolor Ramsey Bounds via Robust OR Polynomials</title>
+      <link>https://arxiv.org/abs/2607.25023</link>
+      <guid isPermaLink="false">arxiv:2607.25023</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[引入鲁棒OR多项式框架，证明Schrijver数的拟张量化结果，并应用于无锐角族和多色Ramsey数上界。<br/><br/>命中: Ramsey number<br/><br/>Ijay Narang, Yukai Tang]]></description>
+    </item>
+    <item>
+      <title>Proper Hat-Guessing on Two-Spine Book Graphs</title>
+      <link>https://arxiv.org/abs/2607.25274</link>
+      <guid isPermaLink="false">arxiv:2607.25274</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了书图 $B_{k,n}=K_k\vee\overline{K_n}$ 上的正确帽子猜测游戏，通过覆盖性刻画确定了固定脊顶点数 $k$ 时的渐近猜测数，并精确计算了 $k=2$ 时的值 $C_2=11$。<br/><br/>命中: book graph, threshold<br/><br/>Yulin Zhai]]></description>
+    </item>
+    <item>
+      <title>Projective Ore-Degree Conditions for Intersection Theorems in Vector Spaces</title>
+      <link>https://arxiv.org/abs/2607.25598</link>
+      <guid isPermaLink="false">arxiv:2607.25598</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文在有限域上向量空间中引入射影Ore度概念，并证明了向量空间版本的Erdős–Ko–Rado和Hilton–Milner定理的射影Ore类比，以及一个强制直接和匹配的阈值。<br/><br/>命中: multicolour Ramsey, threshold<br/><br/>Mengyu Cao, Mei Lu, Xuyang Yan, Haixiang Zhang]]></description>
+    </item>
+    <item>
+      <title>A general-position problem for planar line arrangements</title>
+      <link>https://arxiv.org/abs/2607.25742</link>
+      <guid isPermaLink="false">arxiv:2607.25742</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[构造了平面线排列，其中没有四线共点，但任意大子集必有三线共点，改进了Balogh-Solymosi定理的对偶形式，并给出了Hadwiger-Debrunner数$HD_2(p,3)$的下界；同时构造了点集$S\subset[n]^3$，其共线三元组数量达到最优上界。<br/><br/>命中: supersaturation<br/><br/>Oliver Roche-Newton]]></description>
+    </item>
+    <item>
+      <title>Recent progress in graph theory using expansion</title>
+      <link>https://arxiv.org/abs/2607.26049</link>
+      <guid isPermaLink="false">arxiv:2607.26049</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[综述了利用子线性扩展（sublinear expansion）在极值图论中解决多个长期未解决问题的最新进展。<br/><br/>命中: extremal graph, @Richard Montgomery<br/><br/>Richard Montgomery]]></description>
+    </item>
+    <item>
+      <title>Multiplicative subgroups are not restricted sumsets</title>
+      <link>https://arxiv.org/abs/2607.25711</link>
+      <guid isPermaLink="false">arxiv:2607.25711</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文完全确定了素数域中哪些真乘法子群可以表示为受限和集 $A\mathbin{\widehat{+}} A$，并证明当子群大小 $|H|\ge 7$ 时不可能，阈值是紧的。<br/><br/>命中: threshold<br/><br/>Chi Hoi Yip, Semin Yoo]]></description>
+    </item>
+    <item>
+      <title>Oriented Minimum spanning tree looks like the Uniform spanning tree on the complete graph (at least locally)</title>
+      <link>https://arxiv.org/abs/2607.25428</link>
+      <guid isPermaLink="false">arxiv:2607.25428</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明完全图上的最小生成树（有向版本）的局部极限与面向无穷远的均匀随机树相同，即临界泊松-高尔顿-沃森树条件存活，这与无向最小生成树的局部极限不同。<br/><br/>命中: oriented<br/><br/>Swarnadeep Bagchi, Gourab Ray]]></description>
+    </item>
     <item>
       <title>MAD Phase Transitions in the Oriented Chromatic Number</title>
       <link>https://arxiv.org/abs/2607.22915</link>
@@ -720,41 +769,6 @@
       <guid isPermaLink="false">arxiv:2607.08712</guid>
       <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明Gilbreath猜想在Cramér随机模型下成立，并给出确定性逆定理刻画其障碍。<br/><br/>命中: @Zach Hunter<br/><br/>Zachary Chase, Zach Hunter, Terence Tao]]></description>
-    </item>
-    <item>
-      <title>Computation of small reflective and dihedral Ramsey numbers</title>
-      <link>https://arxiv.org/abs/2607.06817</link>
-      <guid isPermaLink="false">arxiv:2607.06817</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过SAT求解器计算了小反射和双面Ramsey数的精确值及下界，研究对象包括单调路径、交错路径、单调圈、星图、完全图和嵌套匹配等图类。<br/><br/>命中: Ramsey number<br/><br/>Ivan Damnjanović, Irena Đorđević]]></description>
-    </item>
-    <item>
-      <title>An Erdős-Pósa theorem for cycles and faces of distinct lengths</title>
-      <link>https://arxiv.org/abs/2607.06869</link>
-      <guid isPermaLink="false">arxiv:2607.06869</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了图论中关于不同长度圈和面的Erdős-Pósa定理：任意图要么包含k个顶点不交的不同长度圈，要么存在大小为O(k^6 polylog(k))的顶点集覆盖所有但至多k-1种圈长；对嵌入图的面也有类似结果。<br/><br/>命中: additive combinatorics<br/><br/>J. Pascal Gollin, Maximilian Gorsky, Meike Hatzel, Kevin Hendrey, Tony Huynh, Caleb McFarland, Marek Sokołowski, Sebastian Wiederrecht, Paul Wollan]]></description>
-    </item>
-    <item>
-      <title>Sharp spectral Moon--Moser-type theorems in the linear range via feasible graph parameters</title>
-      <link>https://arxiv.org/abs/2607.07064</link>
-      <guid isPermaLink="false">arxiv:2607.07064</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文在最小度至少为$k$的平衡二部图中，将Hamilton性的谱阈值从$n\ge (k+1)^2$改进到线性范围$n\ge 2k$，并类似地改进了可迹性的谱阈值。<br/><br/>命中: Hamilton cycle, Hamiltonicity, extremal graph, threshold<br/><br/>Yang Hu]]></description>
-    </item>
-    <item>
-      <title>On Turán Number of Graphs with Small Minimum Feedback Vertex Numbers</title>
-      <link>https://arxiv.org/abs/2607.07157</link>
-      <guid isPermaLink="false">arxiv:2607.07157</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了具有小最小反馈顶点数的二部图的Turán数，给出了两类图的上界和精确阶。<br/><br/>命中: Turán number<br/><br/>Xiao-Chuan Liu, Xu Yang]]></description>
-    </item>
-    <item>
-      <title>Induced packing treewidth</title>
-      <link>https://arxiv.org/abs/2607.07595</link>
-      <guid isPermaLink="false">arxiv:2607.07595</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[提出诱导-$\mathcal{H}$-打包树宽概念，统一了由禁止诱导子图/诱导子式定义的图类与具有结构化树分解的图类，并证明该参数对多种$\mathcal{H}$选择具有算法意义。<br/><br/>命中: treewidth<br/><br/>Amir Nikabadi, Paweł Rzążewski]]></description>
     </item>
   </channel>
 </rss>
