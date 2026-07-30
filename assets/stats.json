@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-29T05:35:17+00:00",
-  "total_days": 44,
-  "total_matched": 373,
+  "generated": "2026-07-30T05:22:09+00:00",
+  "total_days": 45,
+  "total_matched": 378,
   "daily": [
     {
       "date": "2026-06-02",
@@ -222,20 +222,25 @@
       "date": "2026-07-29",
       "matched": 8,
       "fetched": 49
+    },
+    {
+      "date": "2026-07-30",
+      "matched": 5,
+      "fetched": 44
     }
   ],
   "keywords": [
     [
       "threshold",
-      67
+      68
     ],
     [
       "chromatic number",
-      42
+      44
     ],
     [
       "Cayley graph",
-      31
+      32
     ],
     [
       "extremal graph",
@@ -251,7 +256,7 @@
     ],
     [
       "random graph",
-      14
+      15
     ],
     [
       "transversal",
@@ -263,7 +268,7 @@
     ],
     [
       "Ramsey number",
-      11
+      12
     ],
     [
       "oriented graph",
@@ -272,6 +277,10 @@
     [
       "Hamilton cycle",
       11
+    ],
+    [
+      "supersaturation",
+      7
     ],
     [
       "Hamiltonicity",
@@ -283,10 +292,6 @@
     ],
     [
       "treewidth",
-      6
-    ],
-    [
-      "supersaturation",
       6
     ],
     [
@@ -383,6 +388,10 @@
     ],
     [
       "book graph",
+      1
+    ],
+    [
+      "extremal combinatorics",
       1
     ]
   ],

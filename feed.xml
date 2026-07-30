@@ -5,8 +5,36 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jul 2026 05:35:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 05:22:08 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sharp bounds for the fractional chromatic number of high-girth $d$-degenerate graphs</title>
+      <link>https://arxiv.org/abs/2607.26271</link>
+      <guid isPermaLink="false">arxiv:2607.26271</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了围长至少为5的$d$-退化图的分数色数上界为$(1+o(1))\frac{d}{\log d}$，并给出了一个高效随机算法；同时，对任意围长$g\ge 4$，构造了达到下界$(1-o(1))\frac{d}{\log d}$的图，从而证实了Martinsson和Steiner的猜想。<br/><br/>命中: random graph, chromatic number<br/><br/>Peter Allen, Abhishek Dhawan, Jonathan A. Noel]]></description>
+    </item>
+    <item>
+      <title>Supersaturation in union-closed families of sets</title>
+      <link>https://arxiv.org/abs/2607.26425</link>
+      <guid isPermaLink="false">arxiv:2607.26425</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了在并封闭集族中，$k$-链的数量在成员集尽可能大时最小，且当最小值非零且$m&gt;n$时极小族唯一。<br/><br/>命中: supersaturation<br/><br/>Christopher Bouchard]]></description>
+    </item>
+    <item>
+      <title>An Optimal Bound for Ramsey Goodness of Cycles</title>
+      <link>https://arxiv.org/abs/2607.26956</link>
+      <guid isPermaLink="false">arxiv:2607.26956</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了对于任意非空图 $H$，当 $n\ge C|H|$ 时，Ramsey 数 $R(C_n,H)=(\chi(H)-1)(n-1)+\sigma(H)$，其中 $C$ 是绝对常数，解决了 Pokrovskiy 和 Sudakov 的猜想。<br/><br/>命中: Ramsey number<br/><br/>Peiru Kuang, Yan Wang]]></description>
+    </item>
+    <item>
+      <title>Combinatorial Bounds for Codes over Metric Spaces: Ramsey-Sidorenko Thresholds and Subgraph Counts</title>
+      <link>https://arxiv.org/abs/2607.27098</link>
+      <guid isPermaLink="false">arxiv:2607.27098</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过将一般度量空间中的码表示为邻近图中的独立集，建立了编码理论与极值组合学之间的联系，推广了Gilbert-Varshamov界，并引入Ramsey-Sidorenko图与独立强制图来研究码的全局存在性条件。<br/><br/>命中: extremal combinatorics, threshold<br/><br/>Lucas Waite, Nuh Aydin]]></description>
+    </item>
     <item>
       <title>Schrijver Number Quasi-Tensorization and Multicolor Ramsey Bounds via Robust OR Polynomials</title>
       <link>https://arxiv.org/abs/2607.25023</link>
@@ -720,55 +748,6 @@
       <guid isPermaLink="false">arxiv:2607.09631</guid>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明，判断给定图是否存在避免某个固定有限族中边染色团的无边染色问题，在多项式时间等价于约束满足问题，从而得到P与NP完全的二分类。<br/><br/>命中: Ramsey theory<br/><br/>Alexey Barsukov, Roman Feller, Maximilian Hadek, Davide Perinti]]></description>
-    </item>
-    <item>
-      <title>On the recolorability of $(2K_2, K_4)$-free graphs</title>
-      <link>https://arxiv.org/abs/2607.07860</link>
-      <guid isPermaLink="false">arxiv:2607.07860</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了三个子类中的$(2K_2,K_4)$-free图是可重着色的，为所有色数为4的此类图可重着色提供了证据。<br/><br/>命中: chromatic number<br/><br/>Henry Echeverría, Owen Henderschedt]]></description>
-    </item>
-    <item>
-      <title>Minimal Isometric Embeddings of Graphs into Cayley Graphs of Finite Abelian Groups</title>
-      <link>https://arxiv.org/abs/2607.07920</link>
-      <guid isPermaLink="false">arxiv:2607.07920</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究有限连通图到有限阿贝尔群Cayley图的等距嵌入，引入新的边关系并给出商标号定理，将经典偏立方体理论推广到更一般的阿贝尔Cayley图。<br/><br/>命中: oriented, Cayley graph<br/><br/>Fokam Souop Rigobert, Bitjoka Laurent]]></description>
-    </item>
-    <item>
-      <title>Dimension and Order Bounds for Isometric Embeddings of Graphs into Abelian Cayley Graphs, and the Abelian Dividend</title>
-      <link>https://arxiv.org/abs/2607.07939</link>
-      <guid isPermaLink="false">arxiv:2607.07939</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究有限连通图到有限阿贝尔Cayley图的等距嵌入，给出最小维数和阶数的下界，并发现大多数图存在非二进制的更优阿贝尔宿主。<br/><br/>命中: Cayley graph<br/><br/>Fokam Souop Rigobert, Bitjoka Laurent]]></description>
-    </item>
-    <item>
-      <title>Extremal problems on disjoint path covers of graphs</title>
-      <link>https://arxiv.org/abs/2607.08062</link>
-      <guid isPermaLink="false">arxiv:2607.08062</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了图中不相交路径覆盖的极值问题，分别基于团数和$\alpha$-谱半径给出了图具有一对一、一对多和多对多$t$-不相交路径覆盖的充分条件，并刻画了达到这些界的极图。<br/><br/>命中: Hamiltonicity, extremal graph<br/><br/>Shujie Chen, Tao Tian]]></description>
-    </item>
-    <item>
-      <title>Sandpile groups of random bipartite graphs and families of distributions with the same moments</title>
-      <link>https://arxiv.org/abs/2607.08607</link>
-      <guid isPermaLink="false">arxiv:2607.08607</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了具有相同矩的分布族，包含随机二部图沙堆群的Sylow $p$-子群分布，并发现$p=2$时的特殊情形与随机$d$-正则图情形有相同矩。<br/><br/>命中: random graph<br/><br/>Jason Fulman, Nathan Kaplan, Deepesh Singhal, S. Ole Warnaar]]></description>
-    </item>
-    <item>
-      <title>Two-block cycles and chromatic number of Hamiltonian digraphs</title>
-      <link>https://arxiv.org/abs/2607.08664</link>
-      <guid isPermaLink="false">arxiv:2607.08664</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了对于不含 $C(k,\ell)$ 的哈密顿有向图 $D$，其色数 $\chi(D) \le k+\ell-1$（$k+\ell \ge 6$），且该界是紧的，从而解决了 Addario-Berry、Havet 和 Thomassé 关于哈密顿有向图的猜想。<br/><br/>命中: chromatic number<br/><br/>Ruilin Zheng, Junying Lu, Xiaolin Wang, Yaojun Chen]]></description>
-    </item>
-    <item>
-      <title>Gilbreath's conjecture: a Cramér random model and a deterministic analysis</title>
-      <link>https://arxiv.org/abs/2607.08712</link>
-      <guid isPermaLink="false">arxiv:2607.08712</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明Gilbreath猜想在Cramér随机模型下成立，并给出确定性逆定理刻画其障碍。<br/><br/>命中: @Zach Hunter<br/><br/>Zachary Chase, Zach Hunter, Terence Tao]]></description>
     </item>
   </channel>
 </rss>
