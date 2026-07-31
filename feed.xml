@@ -5,8 +5,43 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 30 Jul 2026 05:22:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 05:48:29 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>On the distinct maximal-clique sizes in $3$-uniform hypergraphs</title>
+      <link>https://arxiv.org/abs/2607.27837</link>
+      <guid isPermaLink="false">arxiv:2607.27837</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在 $3$-一致超图中，$n$ 个顶点上最大团的不同大小数量的最大值 $g(n,3)$ 满足 $f(n,3)=n-g(n,3)=\Theta(\log^* n)$，从而否定了 Gao 关于 $f(n,3)$ 与 $c(n,3)$ 同阶的猜想。<br/><br/>命中: threshold<br/><br/>Jiabao Yang, Leilei Zhang]]></description>
+    </item>
+    <item>
+      <title>Random Turán Theorem for the Fano Plane</title>
+      <link>https://arxiv.org/abs/2607.28071</link>
+      <guid isPermaLink="false">arxiv:2607.28071</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了随机3-一致超图中Fano平面-free子超图最大者为二分图的尖锐阈值，为随机超图Turán型问题提供了首个尖锐阈值结果。<br/><br/>命中: threshold<br/><br/>Ilay Hoshen]]></description>
+    </item>
+    <item>
+      <title>Exact Homomorphism Thresholds Beyond Cliques</title>
+      <link>https://arxiv.org/abs/2607.28241</link>
+      <guid isPermaLink="false">arxiv:2607.28241</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了更大一类禁止图（包括所有非完全图）的同态阈值，将 Goddard 和 Lyle 关于团的结果推广到更广泛的图族。<br/><br/>命中: threshold, chromatic number<br/><br/>Xinqi Huang, Mingyuan Rong, Chong Shangguan]]></description>
+    </item>
+    <item>
+      <title>An improved range for the maximum critically $t$-intersecting hypergraphs</title>
+      <link>https://arxiv.org/abs/2607.28253</link>
+      <guid isPermaLink="false">arxiv:2607.28253</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Frankl 关于最大临界 $t$-相交超图的猜想在 $c=30$ 时成立，即当 $k&gt;30d^2$ 时，$t$-临界 $k$-均匀超图的大小至多为 $\binom{k+d}{d}$，且等号仅出现在完全 $k$-图 $K_{k+d}^{(k)}$ 上。<br/><br/>命中: transversal<br/><br/>Lu Lu, Rongrong Lu, Qifan Wang, Tingzeng Wu]]></description>
+    </item>
+    <item>
+      <title>The Turán number of the Cartesian product of trees via star-flip</title>
+      <link>https://arxiv.org/abs/2607.28295</link>
+      <guid isPermaLink="false">arxiv:2607.28295</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了Bradač等人关于任意两棵非平凡树的笛卡尔积的Turán数的猜想，即$\ex(n,T_1 \Box T_2)=\Theta(n^{3/2})$，并通过引入$r$-star-flip图类，将结果推广到更一般的二分$r$-退化图。<br/><br/>命中: Turán number<br/><br/>Lanchao Wang, Caihong Yang]]></description>
+    </item>
     <item>
       <title>Sharp bounds for the fractional chromatic number of high-girth $d$-degenerate graphs</title>
       <link>https://arxiv.org/abs/2607.26271</link>
@@ -706,48 +741,6 @@
       <guid isPermaLink="false">arxiv:2607.11360</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明了由C(4)-T(4)和C(6)图式小消解演示定义的群中，挠子群是有限的，并推广到局部到整体的不动点性质。<br/><br/>命中: Cayley graph<br/><br/>Karol Duda, Huaitao Gui]]></description>
-    </item>
-    <item>
-      <title>Three Results on Generalized Quasikernels in Digraphs</title>
-      <link>https://arxiv.org/abs/2607.09031</link>
-      <guid isPermaLink="false">arxiv:2607.09031</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文在有向图中建立了关于广义拟核的三个结果，包括拟核大小的上界、无源集有向图中不相交$q$-核的存在性以及单圈有向图中$q$-核的计数上界，证实了两个猜想并肯定回答了一个问题。<br/><br/>命中: oriented graph, oriented<br/><br/>Zejun Huang, Chenxi Yang]]></description>
-    </item>
-    <item>
-      <title>A Single-Exponential Erdős--Hajnal Bound for Graphs of Bounded VC-Dimension</title>
-      <link>https://arxiv.org/abs/2607.09049</link>
-      <guid isPermaLink="false">arxiv:2607.09049</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[改进了有界VC维图的Erdős–Hajnal界，将齐次集大小下界从双指数依赖改进为单指数依赖。<br/><br/>命中: threshold<br/><br/>Shuang Sun, Yan Wang, Jiasheng Zeng]]></description>
-    </item>
-    <item>
-      <title>The perfect 1-factorisation conjecture holds asymptotically</title>
-      <link>https://arxiv.org/abs/2607.09459</link>
-      <guid isPermaLink="false">arxiv:2607.09459</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了完全图 $K_n$ 可分解为 $n-1$ 个完美匹配，其中 $(1-o(1))n$ 个匹配的任意一对构成一个 Hamilton 圈，从而渐近地解决了 Kotzig 的完美 1-因子分解猜想。<br/><br/>命中: Hamilton cycle<br/><br/>Yangyang Cheng, Amedeo Sgueglia]]></description>
-    </item>
-    <item>
-      <title>An Improved Lower Bound for Diamond-Free Families</title>
-      <link>https://arxiv.org/abs/2607.09497</link>
-      <guid isPermaLink="false">arxiv:2607.09497</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[构造了一个在布尔格中无钻石子结构的族，其大小渐近大于两个中间层的并，从而否定了钻石猜想。<br/><br/>命中: @Casey Tompkins<br/><br/>Casey Tompkins]]></description>
-    </item>
-    <item>
-      <title>The maximum number of odd cycles in planar graphs forbidding shorter odd cycles</title>
-      <link>https://arxiv.org/abs/2607.09624</link>
-      <guid isPermaLink="false">arxiv:2607.09624</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了平面图中禁止所有更短奇圈时最长奇圈 $C_{2k+1}$ 的最大数目，并证实了关于奇圈可诱导性的一个猜想。<br/><br/>命中: Turán number<br/><br/>Yichen Wang, Ervin Győri, Zhen He]]></description>
-    </item>
-    <item>
-      <title>Cut-homotopies and the complexity of edge-coloring problems</title>
-      <link>https://arxiv.org/abs/2607.09631</link>
-      <guid isPermaLink="false">arxiv:2607.09631</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明，判断给定图是否存在避免某个固定有限族中边染色团的无边染色问题，在多项式时间等价于约束满足问题，从而得到P与NP完全的二分类。<br/><br/>命中: Ramsey theory<br/><br/>Alexey Barsukov, Roman Feller, Maximilian Hadek, Davide Perinti]]></description>
     </item>
   </channel>
 </rss>
