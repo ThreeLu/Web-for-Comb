@@ -5,8 +5,36 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 31 Jul 2026 05:48:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 05:55:33 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Aldous property for normal Cayley graphs on symmetric groups</title>
+      <link>https://arxiv.org/abs/2607.29018</link>
+      <guid isPermaLink="false">arxiv:2607.29018</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了对称群 $S_n$ 上正规 Cayley 图的 Aldous 性质，证明了对于足够大的 $n$，几乎所有具有 Aldous 性质的正规 Cayley 图都被分类，并解决了 Li, Xia 和 Zhou 在 2023 年提出的一个开放问题。<br/><br/>命中: Cayley graph<br/><br/>Chenhui Lv, Sanming Zhou]]></description>
+    </item>
+    <item>
+      <title>Strong invariants and Tverberg numbers in convexity spaces</title>
+      <link>https://arxiv.org/abs/2607.29403</link>
+      <guid isPermaLink="false">arxiv:2607.29403</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文在一般凸性空间中建立了强Helly数、强Carathéodory数、强Radon数、comatching数与VC维数之间的等价性，并给出了Tverberg型分解、对偶性以及可分凸性空间中Tverberg数的线性上界。<br/><br/>命中: @Hong Liu<br/><br/>Minho Cho, Andreas F. Holmsen, Attila Jung, Hong Liu]]></description>
+    </item>
+    <item>
+      <title>Bipartite Extremal Numbers of Trees</title>
+      <link>https://arxiv.org/abs/2607.29579</link>
+      <guid isPermaLink="false">arxiv:2607.29579</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究二分宿主图上的树极值数（Erdős–Sós 问题的限制），给出自然下界构造并提出线性上界猜想，通过加权 $k$-minimality 方法证明了一类广泛树（包括扫帚树、两部分大小差至多 1 的树以及所有至多 7 个顶点的树）的上界，并解决了 Caro、Patkós 和 Tuza 提出的部分问题（至多差常数）。<br/><br/>命中: oriented<br/><br/>Lucas Waite, Nuh Aydin]]></description>
+    </item>
+    <item>
+      <title>Minimal inversion of a permuton sample</title>
+      <link>https://arxiv.org/abs/2607.28992</link>
+      <guid isPermaLink="false">arxiv:2607.28992</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了由平面分布采样点排序得到的置换的逆序图的最小度（称为 minimal inversion），证明了在正则性条件下其重标度后的尾概率呈指数衰减，并构造了分布使得最小度以任意 $n^\beta$ 阶增长。<br/><br/>命中: threshold<br/><br/>Benoît Corsini]]></description>
+    </item>
     <item>
       <title>On the distinct maximal-clique sizes in $3$-uniform hypergraphs</title>
       <link>https://arxiv.org/abs/2607.27837</link>
@@ -671,76 +699,6 @@
       <guid isPermaLink="false">arxiv:2607.12980</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[构造了大小为 $2^{(1+\eta)n/2}$ 的泛偏序集，包含所有 $n$ 元偏序集作为诱导子偏序集，改进了 Bastide、Groenland 和 Nenadov 的结果。<br/><br/>命中: regularity lemma<br/><br/>József Balogh, Ramon I. Garcia, Marcelo Sales]]></description>
-    </item>
-    <item>
-      <title>Hypergraph Erdős--Rogers functions with consecutive clique sizes</title>
-      <link>https://arxiv.org/abs/2607.10111</link>
-      <guid isPermaLink="false">arxiv:2607.10111</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了对于固定的 $s\ge4$，有 $f^{(4)}_{s,s+1}(n)=(\log n)^{o(1)}$，并改进了 Dudek 和 Mubayi 关于 $3$-一致超图的 Erdős--Rogers 函数的上界。<br/><br/>命中: hypergraph container<br/><br/>Qizhong Lin, Lin Niu]]></description>
-    </item>
-    <item>
-      <title>Finite Three-Colourable (0,2)-Graphs Are Bipartite</title>
-      <link>https://arxiv.org/abs/2607.10125</link>
-      <guid isPermaLink="false">arxiv:2607.10125</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明每个有限的三可着色的(0,2)-图都是二部图，从而不存在色数恰好为3的有限(0,2)-图。<br/><br/>命中: chromatic number<br/><br/>Christopher Williamson]]></description>
-    </item>
-    <item>
-      <title>Pulse Graphs: Prime-Activated Boolean Dynamics on Directed Graphs</title>
-      <link>https://arxiv.org/abs/2607.10453</link>
-      <guid isPermaLink="false">arxiv:2607.10453</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究有限无环有向图上的同步布尔动力学，其中顶点在下一时刻活跃当且仅当其活跃入邻居数为素数，称为Pulse Graphs，并确定了最大吸引子周期的指数阶。<br/><br/>命中: threshold<br/><br/>Pakin Methawisal]]></description>
-    </item>
-    <item>
-      <title>Generalizations of nets and Latin squares</title>
-      <link>https://arxiv.org/abs/2607.10890</link>
-      <guid isPermaLink="false">arxiv:2607.10890</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入并研究了推广 $(k,n)$-nets、正交拉丁方和正交阵列的组合结构——reticulation 与合作系统，给出了若干构造方法。<br/><br/>命中: Latin square<br/><br/>Brian Curtin]]></description>
-    </item>
-    <item>
-      <title>Tight lower bound for the spectral radius of connected graphs with given matching number</title>
-      <link>https://arxiv.org/abs/2607.11061</link>
-      <guid isPermaLink="false">arxiv:2607.11061</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了给定匹配数的连通图中谱半径的紧下界，并刻画了极图。<br/><br/>命中: extremal graph<br/><br/>Xinmin Hou, Li Tan]]></description>
-    </item>
-    <item>
-      <title>Any Proof of Polynomial Hirsch Must be Completely Incoherent</title>
-      <link>https://arxiv.org/abs/2607.11628</link>
-      <guid isPermaLink="false">arxiv:2607.11628</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了一族多面体及其线性函数，使得所有coherent monotone paths的长度都是指数级的，从而否定了多项式Hirsch猜想的一个类比。<br/><br/>命中: transversal<br/><br/>Alexander E. Black, Lei Xue]]></description>
-    </item>
-    <item>
-      <title>Magnitude homology of tope graphs</title>
-      <link>https://arxiv.org/abs/2607.11863</link>
-      <guid isPermaLink="false">arxiv:2607.11863</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[完全确定了实超平面排列的tope图的magnitude同调，其秩由Stanley–Reisner环的Hilbert函数给出，并证明了中心排列的同调互反猜想。<br/><br/>命中: Cayley graph<br/><br/>Junnosuke Koizumi]]></description>
-    </item>
-    <item>
-      <title>Orbit Transversality for Abelian Varieties</title>
-      <link>https://arxiv.org/abs/2607.10536</link>
-      <guid isPermaLink="false">arxiv:2607.10536</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了数域上阿贝尔簇的支配自态射具有强稠密轨道横截性。<br/><br/>命中: transversal<br/><br/>Kaiwen Lu]]></description>
-    </item>
-    <item>
-      <title>Kloosterman sign changes with moduli having at most five prime factors</title>
-      <link>https://arxiv.org/abs/2607.10862</link>
-      <guid isPermaLink="false">arxiv:2607.10862</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[在至多含五个素因子的无平方因子模$q\in(X,2X]$上，证明归一化Kloosterman和$\operatorname{Kl}(1;q)$的每个符号出现$\gg X/\log X$次。<br/><br/>命中: threshold<br/><br/>Yixiu Xiao]]></description>
-    </item>
-    <item>
-      <title>Local-to-global fixed point properties for graphical C(4)-T(4) and C(6) small cancellation complexes</title>
-      <link>https://arxiv.org/abs/2607.11360</link>
-      <guid isPermaLink="false">arxiv:2607.11360</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了由C(4)-T(4)和C(6)图式小消解演示定义的群中，挠子群是有限的，并推广到局部到整体的不动点性质。<br/><br/>命中: Cayley graph<br/><br/>Karol Duda, Huaitao Gui]]></description>
     </item>
   </channel>
 </rss>
