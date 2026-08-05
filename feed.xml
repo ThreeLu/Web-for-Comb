@@ -5,8 +5,57 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 04 Aug 2026 05:28:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 05:27:35 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>On the Spectra of Chromatic Number and Chromatic Index of Cyclic Covers</title>
+      <link>https://arxiv.org/abs/2608.02934</link>
+      <guid isPermaLink="false">arxiv:2608.02934</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了固定整数 $\ell \ge 2$ 时，无环多重图 $G$ 的所有 $\ell$ 重循环覆盖的色指数和色数的可能取值，确定了这些谱的完整或部分区间。<br/><br/>命中: chromatic number<br/><br/>Guantao Chen, Hein van der Holst, Rong Luo, Yuying Ma]]></description>
+    </item>
+    <item>
+      <title>Topological Tverberg theorems for products of polytopes</title>
+      <link>https://arxiv.org/abs/2608.02979</link>
+      <guid isPermaLink="false">arxiv:2608.02979</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了乘积多胞形的拓扑Tverberg定理，将单纯形的经典结果推广到单纯形乘积，并在某些维度上改进了已知阈值。<br/><br/>命中: threshold<br/><br/>Steven Simon]]></description>
+    </item>
+    <item>
+      <title>A directed flat wall theorem excluding a crossrow grid</title>
+      <link>https://arxiv.org/abs/2608.02997</link>
+      <guid isPermaLink="false">arxiv:2608.02997</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文提出了一个新的有向平面墙定理，排除了一个交叉行网格作为蝴蝶子式，该定理介于现有两个版本之间，避免了它们的缺点。<br/><br/>命中: graph minor<br/><br/>Meike Hatzel, Ken-ichi Kawarabayashi, Stephan Kreutzer, Sebastian Wiederrecht]]></description>
+    </item>
+    <item>
+      <title>Extremal graphs for the $k$-th eigenvalue</title>
+      <link>https://arxiv.org/abs/2608.03196</link>
+      <guid isPermaLink="false">arxiv:2608.03196</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文刻画了图的第 $k$ 大邻接特征值 $\lambda_k(G)$ 的 Hong 型上界中等号成立的图的结构，并给出了 $\lambda_3$ 和 $\lambda_4$ 的极值图的显式组合描述。<br/><br/>命中: extremal graph<br/><br/>Hitesh Kumar, Bojan Mohar, Seyed Ahmad Mojallal, Shivaramakrishna Pragada]]></description>
+    </item>
+    <item>
+      <title>Proving a conjecture concerning chromatic number, size and least eigenvalue</title>
+      <link>https://arxiv.org/abs/2608.03271</link>
+      <guid isPermaLink="false">arxiv:2608.03271</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了关于图的色数、边数和最小特征值的一个猜想不等式，并刻画了等号成立的图。<br/><br/>命中: chromatic number<br/><br/>Leyou Xu, Bo Zhou]]></description>
+    </item>
+    <item>
+      <title>An Improved Upper Bound for the Strong Odd Chromatic Number of Planar Graphs</title>
+      <link>https://arxiv.org/abs/2608.03522</link>
+      <guid isPermaLink="false">arxiv:2608.03522</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了平面图的强奇色数上界至 368，并构造了一个强奇色数为 20 的平面图，回答了 Manattu 等人提出的问题。<br/><br/>命中: chromatic number<br/><br/>Kamal Santra]]></description>
+    </item>
+    <item>
+      <title>Expected cost in Combinatorial Optimization under color constraints</title>
+      <link>https://arxiv.org/abs/2608.03608</link>
+      <guid isPermaLink="false">arxiv:2608.03608</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文提出了一个带颜色约束的组合优化问题的平均情形模型，研究了在限制红色边数量的条件下，最小生成树、最短路、完美匹配和非对称旅行商问题的最小期望成本。<br/><br/>命中: @Alan Frieze<br/><br/>Patrick Bennett, Alan Frieze, Wesley Pegden]]></description>
+    </item>
     <item>
       <title>Antimagic orientations of graphs with a dominating clique</title>
       <link>https://arxiv.org/abs/2608.00209</link>
@@ -769,34 +818,6 @@
       <guid isPermaLink="false">arxiv:2607.15213</guid>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[利用数的几何技术，在若干高度连通的图族（包括偶数度展开图、固定度至少5的近拉马努金图及随机图）中，验证了半典范度附近Brill-Noether存在猜想的渐近版本。<br/><br/>命中: random graph, Existence Conjecture<br/><br/>Madhusudan Manjunath]]></description>
-    </item>
-    <item>
-      <title>Spectral extremal problems on planar and outerplanar graphs without $C_{k,l}</title>
-      <link>https://arxiv.org/abs/2607.13538</link>
-      <guid isPermaLink="false">arxiv:2607.13538</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[确定了不含 $C_{k,l}$ 的平面图和外平面图的极大谱半径及其唯一极图。<br/><br/>命中: extremal graph<br/><br/>Jiamin Li, Dan Li, Xilong Yin, Yuanyuan Chen]]></description>
-    </item>
-    <item>
-      <title>Spectral and Additive Combinatorial Methods for Cycles and Absorbing Sets in Lifted-Product Quantum LDPC Codes</title>
-      <link>https://arxiv.org/abs/2607.13666</link>
-      <guid isPermaLink="false">arxiv:2607.13666</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[针对量子LDPC码的lifted-product结构，提出一种基于离散傅里叶变换的谱框架，用于分析短环和吸收集，并导出闭式计数公式与特征刻画。<br/><br/>命中: absorbing set<br/><br/>Aida Abiad, Nichola Castriota]]></description>
-    </item>
-    <item>
-      <title>Clique spectral extremal problem on disjoint color-critical graphs</title>
-      <link>https://arxiv.org/abs/2607.13861</link>
-      <guid isPermaLink="false">arxiv:2607.13861</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[对于给定的若干不相交的颜色临界图，确定了在禁止它们为子图的所有图中，具有最大 $s$-团谱半径的极图。<br/><br/>命中: extremal graph, chromatic number<br/><br/>Changjiang Bu, Peiyan Wei, Haotian Zeng]]></description>
-    </item>
-    <item>
-      <title>Feedback vertex sets in oriented graphs</title>
-      <link>https://arxiv.org/abs/2607.13895</link>
-      <guid isPermaLink="false">arxiv:2607.13895</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究有向图的最小反馈顶点集，给出了一个关于顶点数、弧数和特殊连通分支数的上界，并推导出平面有向图、无三角形平面有向图和最大度6的有向图的新上界。<br/><br/>命中: oriented graph, oriented<br/><br/>Simon Dreyer]]></description>
     </item>
   </channel>
 </rss>
