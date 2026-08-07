@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-06T05:30:04+00:00",
-  "total_days": 50,
-  "total_matched": 426,
+  "generated": "2026-08-07T04:35:11+00:00",
+  "total_days": 51,
+  "total_matched": 434,
   "daily": [
     {
       "date": "2026-06-02",
@@ -252,20 +252,25 @@
       "date": "2026-08-06",
       "matched": 8,
       "fetched": 45
+    },
+    {
+      "date": "2026-08-07",
+      "matched": 8,
+      "fetched": 53
     }
   ],
   "keywords": [
     [
       "threshold",
-      77
+      78
     ],
     [
       "chromatic number",
-      51
+      52
     ],
     [
       "Cayley graph",
-      35
+      36
     ],
     [
       "extremal graph",
@@ -273,7 +278,7 @@
     ],
     [
       "oriented",
-      27
+      28
     ],
     [
       "Turán number",
@@ -285,15 +290,15 @@
     ],
     [
       "random graph",
-      16
+      17
     ],
     [
       "transversal",
-      15
+      16
     ],
     [
       "Latin square",
-      14
+      16
     ],
     [
       "Hamilton cycle",
@@ -352,6 +357,10 @@
       3
     ],
     [
+      "extremal combinatorics",
+      3
+    ],
+    [
       "multicolour Ramsey",
       2
     ],
@@ -364,11 +373,11 @@
       2
     ],
     [
-      "graph minor",
+      "bootstrap percolation",
       2
     ],
     [
-      "extremal combinatorics",
+      "graph minor",
       2
     ],
     [
@@ -401,10 +410,6 @@
     ],
     [
       "Existence Conjecture",
-      1
-    ],
-    [
-      "bootstrap percolation",
       1
     ],
     [
@@ -442,12 +447,12 @@
       5
     ],
     [
-      "Zach Hunter",
+      "Richard Montgomery",
       3
     ],
     [
-      "Richard Montgomery",
-      2
+      "Zach Hunter",
+      3
     ],
     [
       "Cosmin Pohoata",
@@ -511,6 +516,10 @@
     ],
     [
       "Alan Frieze",
+      1
+    ],
+    [
+      "Candida Bowtell",
       1
     ]
   ]

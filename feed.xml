@@ -5,8 +5,64 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 06 Aug 2026 05:30:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 04:35:11 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fuzzy latin squares and balanced permutation pattern statistics</title>
+      <link>https://arxiv.org/abs/2608.05335</link>
+      <guid isPermaLink="false">arxiv:2608.05335</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入模糊拉丁方的概念，将拉丁方分解为置换矩阵和放宽为模糊置换矩阵的线性组合，并研究其存在性、维数及小项数分类。<br/><br/>命中: Latin square<br/><br/>Joy Cooper, Peter J. Dukes]]></description>
+    </item>
+    <item>
+      <title>Erdős--Ko--Rado and Hilton--Milner Theorems in the Partition Lattice</title>
+      <link>https://arxiv.org/abs/2608.05951</link>
+      <guid isPermaLink="false">arxiv:2608.05951</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文在划分格中证明了 Erdős--Ko--Rado 定理和 Hilton--Milner 定理，给出了显式范围并刻画了极值结构。<br/><br/>命中: threshold<br/><br/>Mengyu Cao, Jiaqi Liao, Haixiang Zhang]]></description>
+    </item>
+    <item>
+      <title>3-Neighbor bootstrap percolation on two-dimensional grids</title>
+      <link>https://arxiv.org/abs/2608.06133</link>
+      <guid isPermaLink="false">arxiv:2608.06133</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文精确确定了矩形网格图 $P_m\square P_n$ 上 $3$-邻居 bootstrap percolation 的最小渗透集大小，并给出了环形网格 $C_m\square C_n$ 的紧界。<br/><br/>命中: bootstrap percolation<br/><br/>Neal Bushaw, Alexander Clifton]]></description>
+    </item>
+    <item>
+      <title>Maximizing directed cycles in tournaments</title>
+      <link>https://arxiv.org/abs/2608.06238</link>
+      <guid isPermaLink="false">arxiv:2608.06238</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解决了当长度 $\ell$ 被 4 整除时，$n$ 顶点锦标赛中定向 $\ell$-圈的最大数量问题，证明 carousel tournament 渐近最优，并确认了 Bartley 和 Day 的猜想。<br/><br/>命中: extremal combinatorics<br/><br/>Yijia Fang, Hao Huang]]></description>
+    </item>
+    <item>
+      <title>Minimal Cayley graphs with large chromatic number</title>
+      <link>https://arxiv.org/abs/2608.06254</link>
+      <guid isPermaLink="false">arxiv:2608.06254</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解决了 Babai 的最小 Cayley 图问题，构造了色数任意大的有限最小 Cayley 图。<br/><br/>命中: chromatic number, Cayley graph<br/><br/>James Davies, Meike Hatzel, Liana Yepremyan]]></description>
+    </item>
+    <item>
+      <title>Universality in random graphs via optimal linking systems: trees and beyond</title>
+      <link>https://arxiv.org/abs/2608.06358</link>
+      <guid isPermaLink="false">arxiv:2608.06358</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文开发了一个用于稀疏随机图普适性证明的框架，并首次证明了在 $G(n,C\ln n/n)$ 中，对任意固定最大度 $\Delta$，以高概率包含所有 $n$ 顶点最大度至多 $\Delta$ 的树，回答了 Montgomery 的问题；同时确定了包含所有给定围长循环因子的最小围长（至多常数因子），推广了 Ferber 等人的结果。<br/><br/>命中: random graph<br/><br/>Asaf Cohen Antonir, Lyuben Lichev, Maksim Zhukovskii]]></description>
+    </item>
+    <item>
+      <title>A proof of Andersen's rainbow path conjecture for large $n$</title>
+      <link>https://arxiv.org/abs/2608.06369</link>
+      <guid isPermaLink="false">arxiv:2608.06369</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了对于足够大的 $n$，每个正常边染色的 $n$ 顶点完全图都包含一条使用每种颜色至多一次的 $n-1$ 个顶点的彩虹路径，从而解决了 Andersen 在 1989 年提出的猜想，并推广到拉丁方的无环 transversal。<br/><br/>命中: transversal, Latin square, @Richard Montgomery, @Candida Bowtell<br/><br/>Candida Bowtell, Richard Montgomery, Alp Müyesser, Alexey Pokrovskiy]]></description>
+    </item>
+    <item>
+      <title>Squarefree Matrix Formulas for the CWR Invariant of Alternating Knots and Links</title>
+      <link>https://arxiv.org/abs/2608.06372</link>
+      <guid isPermaLink="false">arxiv:2608.06372</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文为交错链环的 CWR 不变量给出了统一的加权矩阵公式，通过提取迹的平方自由部分来分离简单环，从而得到所有 $k\ge 3$ 的 $CWR_k$ 的显式公式。<br/><br/>命中: oriented<br/><br/>Michal Jablonowski]]></description>
+    </item>
     <item>
       <title>Extremal Graphs for the Energy-Independence Number Inequality</title>
       <link>https://arxiv.org/abs/2608.04367</link>
@@ -790,55 +846,6 @@
       <guid isPermaLink="false">arxiv:2607.18146</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[证明每个度序列的实现图都存在哈密顿路径。<br/><br/>命中: Hamilton cycle, Hamilton path<br/><br/>Petr Hladík, Jiří Fink]]></description>
-    </item>
-    <item>
-      <title>Hitting all maximal independent sets in $c$-hollow graphs</title>
-      <link>https://arxiv.org/abs/2607.15486</link>
-      <guid isPermaLink="false">arxiv:2607.15486</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究 $c$-hollow 图中击中所有极大独立集的最小顶点集 $\tau(G)$，构造了 $\tau(G)=\Omega(n^{1/3}/\log n)$ 的下界，并证明对 cographs 和 split 图类猜想成立。<br/><br/>命中: transversal<br/><br/>Joshua Cooper, Isaiah Hollars]]></description>
-    </item>
-    <item>
-      <title>Edge complexity of graphs</title>
-      <link>https://arxiv.org/abs/2607.15598</link>
-      <guid isPermaLink="false">arxiv:2607.15598</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入图的边复杂度（edge complexity）作为邻接矩阵在所有顶点标号下的最小傅里叶比，刻画了取等条件，并给出了乘积图上的估计、与熵的联系以及随机图上的渐近行为。<br/><br/>命中: Cayley graph<br/><br/>Vishal Gupta, Alex Iosevich, Joshua Iosevich, Benjamin Song, Haoyuan Tian]]></description>
-    </item>
-    <item>
-      <title>A 3-semi-perfect 1-factorization of the six-dimensional hypercube</title>
-      <link>https://arxiv.org/abs/2607.15609</link>
-      <guid isPermaLink="false">arxiv:2607.15609</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[构造了六维超立方体 $Q_6$ 的一个1-因子分解 $F$，使得 $G[F]\cong K_{3,3}$，解决了Behague定理中遗留的 $k=\ell=3$ 例外情形。<br/><br/>命中: Hamilton cycle<br/><br/>Guillaume Lambard]]></description>
-    </item>
-    <item>
-      <title>The minimum surface area of $k$ unequal boxes tiling a cube: sharp thresholds, a fault-free law, and a reduction to two dimensions</title>
-      <link>https://arxiv.org/abs/2607.15894</link>
-      <guid isPermaLink="false">arxiv:2607.15894</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了用 $k$ 个边长整数且维数多重集互异的轴对齐盒子无重叠地拼成 $n^3$ 立方体的最小总表面积 $T(n,k)$，完整解决了 $k=6$ 的情况，并建立了从三维到二维的约化定理及无故障平面定律。<br/><br/>命中: threshold<br/><br/>Diego Lago Gómez]]></description>
-    </item>
-    <item>
-      <title>An improved upper bound for the planar Turán number of $C_8$</title>
-      <link>https://arxiv.org/abs/2607.16103</link>
-      <guid isPermaLink="false">arxiv:2607.16103</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了不含 $C_8$ 的 $n$ 顶点平面图边数上界为 $\frac{69}{25}(n-2)$，改进了此前的结果。<br/><br/>命中: Turán number<br/><br/>Xuqing Bai, Weichan Liu, Xiangxiang Nie, Xin Zhang]]></description>
-    </item>
-    <item>
-      <title>On the Erdős-Rogers function</title>
-      <link>https://arxiv.org/abs/2607.16118</link>
-      <guid isPermaLink="false">arxiv:2607.16118</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了 Erdős-Rogers 函数 $f_{s,s+1}(n) = \Theta(\sqrt{n \log n})$ 对所有 $s \ge 2$ 成立。<br/><br/>命中: chromatic number, @Julian Sahasrabudhe, @Robert Morris<br/><br/>Robert Morris, Julian Sahasrabudhe, Jacques Verstraëte]]></description>
-    </item>
-    <item>
-      <title>A weighted entropy approach for the quadratic inverse large sieve conjecture</title>
-      <link>https://arxiv.org/abs/2607.15311</link>
-      <guid isPermaLink="false">arxiv:2607.15311</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[改进了二次逆大筛猜想的下界，证明若 $A\subseteq[N]$ 满足 $|A|\gg\sqrt N$ 且 $|A_p|\le p/2+O(1)$，则 $A$ 包含 $\exp\left(c\frac{\sqrt{\log N}}{\log\log N}\right)$ 个二次像中的元素。<br/><br/>命中: threshold<br/><br/>Ernie Croot, Chi Hoi Yip]]></description>
     </item>
   </channel>
 </rss>
