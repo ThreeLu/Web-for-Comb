@@ -5,8 +5,78 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Aug 2026 04:11:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 03:58:32 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A congruence obstruction to Roman's bound for Zarankiewicz numbers</title>
+      <link>https://arxiv.org/abs/2608.07607</link>
+      <guid isPermaLink="false">arxiv:2608.07607</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过同余障碍证明了 Roman 关于 Zarankiewicz 数 z(m,n;s,t) 的上界在接近设计阈值时不可达到，并给出了改进的上界。<br/><br/>命中: threshold<br/><br/>Ankan Sadhu]]></description>
+    </item>
+    <item>
+      <title>Sharp asymptotics for regular induced subgraphs of type-based random graphs</title>
+      <link>https://arxiv.org/abs/2608.08169</link>
+      <guid isPermaLink="false">arxiv:2608.08169</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了基于类型的随机图模型中正则诱导子图最大阶数的渐近最优常数，证明上界为 $\sqrt{2e}\sqrt{n}$，并指出任何进一步改进必须来自非类型模型。<br/><br/>命中: random graph<br/><br/>Ariel Edgardo Levy]]></description>
+    </item>
+    <item>
+      <title>Ramsey-Turán Anti-Directed Cycle Factors in Oriented Graphs</title>
+      <link>https://arxiv.org/abs/2608.08591</link>
+      <guid isPermaLink="false">arxiv:2608.08591</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在最小半度至少 $(1/4+\mu)n$ 且独立数 $o(n)$ 的充分大的有向图中，存在反定向偶圈 $C_{2s}^{\mathrm{ad}}$ 的因子，且该半度阈值渐近最优。<br/><br/>命中: oriented graph, oriented, Ramsey-Turán, threshold<br/><br/>Jia Zhou, Yunshu Gao]]></description>
+    </item>
+    <item>
+      <title>On degree powers in the degenerate Turán problem</title>
+      <link>https://arxiv.org/abs/2608.08838</link>
+      <guid isPermaLink="false">arxiv:2608.08838</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文在退化 Turán 问题中研究了度幂和 $e_p(G)$ 的极值，证明了当 $n$ 足够大时，极值图必须包含完全二部图 $K_{\tau(\mathcal F)-1, n-\tau(\mathcal F)+1}$，并给出了稳定性结果及若干新精确结果。<br/><br/>命中: extremal graph, Turán problem, Turán number<br/><br/>Ping Hu, Ting Lan, Henry Liu]]></description>
+    </item>
+    <item>
+      <title>An extremal theorem for graphs with non-negative Bakry--Émery curvature</title>
+      <link>https://arxiv.org/abs/2608.09180</link>
+      <guid isPermaLink="false">arxiv:2608.09180</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了非负 Bakry--Émery 曲率（非规范化 Laplacian）的极值定理：阶数 $n\geq 7$ 且边数超过 $\binom{n}{2}-\lfloor n/2\rfloor-2$ 的图满足 $CD(0,\infty)$，且该阈值是最优的。<br/><br/>命中: threshold<br/><br/>Jiawei Xie, Zhe You]]></description>
+    </item>
+    <item>
+      <title>A sharp extension of Halin's removable-edge theorem to matchings</title>
+      <link>https://arxiv.org/abs/2608.09394</link>
+      <guid isPermaLink="false">arxiv:2608.09394</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个最小度至少为 $\max\{k+1,2m-2\}$ 的 $k$-连通图 $G$ 包含大小为 $m$ 的 $k$-可去匹配，除非 $G\cong K_{2m-1}$ 或 $(k,m)=(1,2)$ 且 $G$ 为圈，从而证实了 Li, Zhou, Fujita, Mao 的猜想。<br/><br/>命中: threshold<br/><br/>Hojin Chu]]></description>
+    </item>
+    <item>
+      <title>A pyramid with a Ramsey base is Ramsey</title>
+      <link>https://arxiv.org/abs/2608.09649</link>
+      <guid isPermaLink="false">arxiv:2608.09649</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了若一个有限点集 $X$ 是 Ramsey 集，则在 $X$ 的仿射包外添加一个点得到的金字塔形集合 $X \cup \{p\}$ 也是 Ramsey 集，从而回答了 Ivan、Leader 和 Walters 提出的一个开放问题。<br/><br/>命中: Ramsey theory<br/><br/>Kenneth Moore]]></description>
+    </item>
+    <item>
+      <title>The Cycle Rank Threshold: Perfect Matchings and Property (P) in Bipartite Graphs</title>
+      <link>https://arxiv.org/abs/2608.09869</link>
+      <guid isPermaLink="false">arxiv:2608.09869</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了在二分图中，性质(P)与完美匹配存在性等价的极大圈秩为4，并证明该界是紧的。<br/><br/>命中: threshold<br/><br/>Puja Samanta]]></description>
+    </item>
+    <item>
+      <title>On the self-intersection time of non-backtracking random walks</title>
+      <link>https://arxiv.org/abs/2608.09729</link>
+      <guid isPermaLink="false">arxiv:2608.09729</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了非回溯随机游走在连通无向图上的自相交时间，证明了在最小度至少3且最大度有界的图上，期望自相交时间为 $O(\sqrt{n} \log n)$，并在具有均匀谱隙的正则图上改进为 $O(\sqrt{n})$，同时给出了正则扩展图上的 $\Omega(\sqrt{n})$ 下界。<br/><br/>命中: threshold<br/><br/>Ferenc Bencs, Leslie Ann Goldberg, Matthew Jenssen, Mark Jerrum, Gabor Pete, Guus Regts, Yitong Yin]]></description>
+    </item>
+    <item>
+      <title>Commuting Graph of Unitriangular Group UT(4; p)</title>
+      <link>https://arxiv.org/abs/2608.09235</link>
+      <guid isPermaLink="false">arxiv:2608.09235</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了有限域上4阶单位三角矩阵群UT(4;p)的交换图，证明了其约化交换图连通且直径为3，并确定了最大团大小、色数、独立数等图参数。<br/><br/>命中: chromatic number<br/><br/>Miseriya Majeed, Ramkumar P. B]]></description>
+    </item>
     <item>
       <title>How many colours to connect cliques?</title>
       <link>https://arxiv.org/abs/2608.06418</link>
@@ -769,34 +839,6 @@
       <guid isPermaLink="false">arxiv:2607.19658</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明了由 $k$-循环生成的对称群上的随机游走（$2\le k=o(n/(\log n)^4)$）在首次触及所有元素时即达到混合，并统一处理了奇偶 $k$ 的情形。<br/><br/>命中: hitting time<br/><br/>Chen Shang, Jiahe Shen, Jiyue Zeng, Xinyi Zhang]]></description>
-    </item>
-    <item>
-      <title>Block designs and systems of pairs</title>
-      <link>https://arxiv.org/abs/2607.18499</link>
-      <guid isPermaLink="false">arxiv:2607.18499</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[提出一种从已知区组设计构造新区组设计的方法，并建立区组设计与对子系统之间的联系。<br/><br/>命中: block design<br/><br/>Alexander Shramchenko, Vasilisa Shramchenko]]></description>
-    </item>
-    <item>
-      <title>On the Cores of Uniform and Almost-Uniform $3$-Qualitative Independence Hypergraphs</title>
-      <link>https://arxiv.org/abs/2607.18674</link>
-      <guid isPermaLink="false">arxiv:2607.18674</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究均匀和几乎均匀的3-定性独立超图与合并Johnson图的结构对应关系，并确定其核，特别解决了最小未解实例$3\text{-}QI(8,2)$的核性质。<br/><br/>命中: chromatic number<br/><br/>Raina Mary Thomas, Yasmeen Akhtar]]></description>
-    </item>
-    <item>
-      <title>On the Computational Complexity of Local and Global Covering Numbers</title>
-      <link>https://arxiv.org/abs/2607.18833</link>
-      <guid isPermaLink="false">arxiv:2607.18833</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了图H被二部图或完全二部图覆盖的全局与局部覆盖数的计算复杂性，给出了局部覆盖数的下界并证明了其NP-hard性。<br/><br/>命中: chromatic number<br/><br/>Miriam Goetze, Lucas Schwebler]]></description>
-    </item>
-    <item>
-      <title>Stretched exponential asymptotics for bases of triangular bootstrap percolation</title>
-      <link>https://arxiv.org/abs/2607.18901</link>
-      <guid isPermaLink="false">arxiv:2607.18901</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了三角形网格上的bootstrap percolation过程，证明了大小为$n$的基数的生成函数满足代数微分方程，并推导出基数$t_n$的渐近行为为拉伸指数形式$t_n \sim c n! e^{\sqrt{12n}} n^{5/12}$。<br/><br/>命中: bootstrap percolation<br/><br/>Andrew Elvey Price, Juliette Schabanel, Paul Thévenin]]></description>
     </item>
   </channel>
 </rss>

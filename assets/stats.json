@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-10T04:11:31+00:00",
-  "total_days": 52,
-  "total_matched": 445,
+  "generated": "2026-08-11T03:58:32+00:00",
+  "total_days": 53,
+  "total_matched": 456,
   "daily": [
     {
       "date": "2026-06-02",
@@ -262,16 +262,21 @@
       "date": "2026-08-10",
       "matched": 11,
       "fetched": 45
+    },
+    {
+      "date": "2026-08-11",
+      "matched": 11,
+      "fetched": 92
     }
   ],
   "keywords": [
     [
       "threshold",
-      81
+      87
     ],
     [
       "chromatic number",
-      53
+      54
     ],
     [
       "Cayley graph",
@@ -279,11 +284,11 @@
     ],
     [
       "extremal graph",
-      32
+      33
     ],
     [
       "oriented",
-      30
+      31
     ],
     [
       "Ramsey number",
@@ -291,15 +296,15 @@
     ],
     [
       "random graph",
-      18
+      19
     ],
     [
       "Turán number",
-      18
+      19
     ],
     [
       "transversal",
-      16
+      17
     ],
     [
       "Latin square",
@@ -311,7 +316,7 @@
     ],
     [
       "oriented graph",
-      12
+      13
     ],
     [
       "supersaturation",
@@ -334,16 +339,16 @@
       6
     ],
     [
+      "Turán problem",
+      6
+    ],
+    [
       "Hamilton path",
       5
     ],
     [
-      "Turán problem",
-      5
-    ],
-    [
       "Ramsey theory",
-      4
+      5
     ],
     [
       "list coloring",
@@ -439,6 +444,10 @@
     ],
     [
       "Ramsey multiplicity",
+      1
+    ],
+    [
+      "Ramsey-Turán",
       1
     ]
   ],
