@@ -5,8 +5,43 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Aug 2026 03:58:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 04:20:38 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A Necessary and Sufficient Hall Condition for Hypergraphs</title>
+      <link>https://arxiv.org/abs/2608.10193</link>
+      <guid isPermaLink="false">arxiv:2608.10193</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了以森林为索引图的超图族存在满足 Hall 条件的充要条件，并应用此结果证明了每个 5-tough 弦图是 Hamilton 连通的。<br/><br/>命中: Hamiltonicity<br/><br/>Xiaoyao Huang]]></description>
+    </item>
+    <item>
+      <title>An Exact Dominant Degree Condition for Transitive Tournament Factors in Digraphs</title>
+      <link>https://arxiv.org/abs/2608.10445</link>
+      <guid isPermaLink="false">arxiv:2608.10445</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了有向图中传递锦标赛因子存在的精确主导度条件，并解决了Treglown猜想和Molla-Treglown问题。<br/><br/>命中: threshold<br/><br/>Yufei Chang, Shuo Wei, Jin Yan]]></description>
+    </item>
+    <item>
+      <title>Chooser-Picker Degree Games for Regular Graphs</title>
+      <link>https://arxiv.org/abs/2608.11035</link>
+      <guid isPermaLink="false">arxiv:2608.11035</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究正则图上的 Chooser-Picker 度游戏，证明 Picker 能保证每个顶点至少获得 $\lfloor d/3 \rfloor$ 度，从而突破经典的 $d/4$ 界限。<br/><br/>命中: threshold<br/><br/>Lajos Győrffy]]></description>
+    </item>
+    <item>
+      <title>Kohayakawa's conjecture and clique coverings of complements of paths and cycles</title>
+      <link>https://arxiv.org/abs/2608.11132</link>
+      <guid isPermaLink="false">arxiv:2608.11132</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了Kohayakawa关于诱导路径长度的猜想，并由此解决了de Caen, Gregory和Pullman关于补路径和补循环的团覆盖数的猜想。<br/><br/>命中: Hamiltonicity, Lovász local lemma<br/><br/>Bo Ning]]></description>
+    </item>
+    <item>
+      <title>A reformulation of the discrete Convexity Conjecture via $k$-thresholds</title>
+      <link>https://arxiv.org/abs/2608.11183</link>
+      <guid isPermaLink="false">arxiv:2608.11183</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入“$k$-thresholds”概念，证明Talagrand离散凸性猜想等价于每个递增族的$k$-threshold至多为其期望阈值的常数倍，并给出图性质的约化定理及若干图包含性质的$k$-threshold界。<br/><br/>命中: threshold<br/><br/>Ruben Ascoli, Xiaoyu He, Jinyoung Park, Michel Talagrand]]></description>
+    </item>
     <item>
       <title>A congruence obstruction to Roman's bound for Zarankiewicz numbers</title>
       <link>https://arxiv.org/abs/2608.07607</link>
@@ -783,62 +818,6 @@
       <guid isPermaLink="false">arxiv:2607.21589</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[解决了 Frankl 和 Tokushige 关于 $r$-交叉相交族的均匀和偏斜乘积猜想。<br/><br/>命中: @Hong Liu<br/><br/>Fan Chang, Hong Liu, Miao Liu]]></description>
-    </item>
-    <item>
-      <title>On the Ramsey number of a graph obtained by attaching a pendant to a path with length 1 modulo 4</title>
-      <link>https://arxiv.org/abs/2607.19554</link>
-      <guid isPermaLink="false">arxiv:2607.19554</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[对于奇数 $n$，证明了将一条长度为 $n-1$ 的路在中间顶点上悬挂一个叶子得到的图 $T_n$ 的 Ramsey 数 $R(T_n,T_n) = (3n+1)/2$，其中 $n \equiv 1 \pmod{4}$。<br/><br/>命中: Ramsey number<br/><br/>Gabriel Razgon]]></description>
-    </item>
-    <item>
-      <title>Classification of two-distance-transitive Cayley graphs of the semi-dihedral groups</title>
-      <link>https://arxiv.org/abs/2607.19668</link>
-      <guid isPermaLink="false">arxiv:2607.19668</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文完全分类了半二面体群上的所有2-距离传递Cayley图。<br/><br/>命中: Cayley graph<br/><br/>Wei Jin, Cai Xia Li, Ping Shan Li]]></description>
-    </item>
-    <item>
-      <title>Hamiltonian cycles in 7-tough $(P_4\cup P_1)$-free graphs</title>
-      <link>https://arxiv.org/abs/2607.19862</link>
-      <guid isPermaLink="false">arxiv:2607.19862</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[将Shan关于$(P_4\cup P_1)$-free图的Hamilton圈存在的韧性下界从23改进到7。<br/><br/>命中: Hamiltonian cycle<br/><br/>Yong Lu, Qi Wu, Qiannan Zhou]]></description>
-    </item>
-    <item>
-      <title>On the possible cardinalities of quantum Latin squares</title>
-      <link>https://arxiv.org/abs/2607.19969</link>
-      <guid isPermaLink="false">arxiv:2607.19969</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了对于几乎所有整数 $v \ge 8$，存在所有基数 $c \in [v, v^2] \setminus \{v+1\}$ 的 $v$ 阶量子拉丁方。<br/><br/>命中: Latin square<br/><br/>Yuyuan Zhang, Mingzhen Lv, Haitao Cao]]></description>
-    </item>
-    <item>
-      <title>Exact certification of the coordinate fields of the triangle-free Exoo-Ismailescu unit-distance graphs EI17 and EI19 (HoG 51375, 51376): a solvable-non-solvable dichotomy (origami vs. S20) and the Laman-number conjecture</title>
-      <link>https://arxiv.org/abs/2607.19995</link>
-      <guid isPermaLink="false">arxiv:2607.19995</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[精确验证了两个无三角形Exoo-Ismailescu单位距离图EI17和EI19的坐标域，分别对应可解（折纸可构造）和不可解（S20 Galois群）的极端情况，并提出了Laman数与Galois群之间的猜想联系。<br/><br/>命中: chromatic number<br/><br/>Haroldo Costa Silva Filho]]></description>
-    </item>
-    <item>
-      <title>Matchings and Near-Optimal 2-Factor Packings in Percolated Vertex-Transitive Graphs</title>
-      <link>https://arxiv.org/abs/2607.20157</link>
-      <guid isPermaLink="false">arxiv:2607.20157</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[在渗滤顶点传递图中，建立了完美匹配和近似最优2-因子打包的存在性，推广了Bedert等人关于Cayley图中Hamilton圈的猜想。<br/><br/>命中: Hamilton cycle, Cayley graph<br/><br/>Mengyu Cao, Mei Lu, Xiamiao Zhao]]></description>
-    </item>
-    <item>
-      <title>The sharp exponent for the minimal distance problem</title>
-      <link>https://arxiv.org/abs/2607.20422</link>
-      <guid isPermaLink="false">arxiv:2607.20422</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了在 $[0,1]^2$ 中存在任意大的点-线对族，使得不同对之间的最小距离至少为 $n^{-2/3-\varepsilon}$，从而解决了最小距离问题。<br/><br/>命中: @Cosmin Pohoata<br/><br/>Cosmin Pohoata]]></description>
-    </item>
-    <item>
-      <title>Hitting time mixing for random $k$-cycles</title>
-      <link>https://arxiv.org/abs/2607.19658</link>
-      <guid isPermaLink="false">arxiv:2607.19658</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了由 $k$-循环生成的对称群上的随机游走（$2\le k=o(n/(\log n)^4)$）在首次触及所有元素时即达到混合，并统一处理了奇偶 $k$ 的情形。<br/><br/>命中: hitting time<br/><br/>Chen Shang, Jiahe Shen, Jiyue Zeng, Xinyi Zhang]]></description>
     </item>
   </channel>
 </rss>
