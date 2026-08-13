@@ -5,8 +5,71 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Aug 2026 04:20:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 04:24:21 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Optimal lower bounds for epsilon-nets for lines in the plane</title>
+      <link>https://arxiv.org/abs/2608.11457</link>
+      <guid isPermaLink="false">arxiv:2608.11457</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了平面上存在任意小的正数 $\varepsilon$ 对应的有限点集 $P$，使得由直线诱导的范围空间的 $\varepsilon$-net 大小达到 $\Omega(1/\varepsilon \cdot \log(1/\varepsilon))$，匹配了 Haussler-Welzl 上界并证实了 Alon 的猜想。<br/><br/>命中: @Wojciech Samotij<br/><br/>Ilay Hoshen, Wojciech Samotij]]></description>
+    </item>
+    <item>
+      <title>A dense-case theorem for Seymour's second neighborhood conjecture</title>
+      <link>https://arxiv.org/abs/2608.11530</link>
+      <guid isPermaLink="false">arxiv:2608.11530</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Seymour 第二邻域猜想对满足 $n \le 2\delta + 2$ 的所有有向图成立，其中 $n$ 为顶点数，$\delta$ 为最小出度，从而将反例的最小阶数下界从 16 提高到 17（若接受 Sadhukhan 等人的预印本，则从 18 提高到 19）。<br/><br/>命中: oriented graph, oriented<br/><br/>Jake Brukhman]]></description>
+    </item>
+    <item>
+      <title>Tripartite Zarankiewicz numbers and norm graphs</title>
+      <link>https://arxiv.org/abs/2608.11554</link>
+      <guid isPermaLink="false">arxiv:2608.11554</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文利用 Alon-Rónyai-Szabó 的 quotient norm graphs 构造了三部 $K_{s,t}$-free 图，并改进了 Tait-Timmons 的上界，从而确定了 $\operatorname{ex}(n,n,n,K_{3,3})$ 的渐近值，并推广到 $k$-部图及多色 Ramsey 数。<br/><br/>命中: Ramsey number<br/><br/>Yantao Tang, Yi Zhao]]></description>
+    </item>
+    <item>
+      <title>Sparse spanning $k$-strong oriented subdigraphs in split digraphs</title>
+      <link>https://arxiv.org/abs/2608.11578</link>
+      <guid isPermaLink="false">arxiv:2608.11578</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个最小半度至少为 $26k+15$ 的 $k$-强 split digraph 都包含一个稀疏的 spanning $k$-strong oriented subdigraph，其弧数至多为 $kn+k|V_1|+98k^2+38k+3$，其中 $kn+k|V_1|$ 是紧的，$k^2$ 项在常数因子内是紧的。<br/><br/>命中: Hamiltonian cycle, oriented<br/><br/>Jia Zhou, Jørgen Bang-Jensen, Jin Yan]]></description>
+    </item>
+    <item>
+      <title>An improved finite bound for oriented trees in tournaments</title>
+      <link>https://arxiv.org/abs/2608.11667</link>
+      <guid isPermaLink="false">arxiv:2608.11667</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了有向树在竞赛图中的嵌入上界，将一般上界从 $\lceil 21n/8 - 47/16 \rceil$ 降至 $\lceil (18n-23)/7 \rceil$，通过细化 median-order 方法并区分 bi-arborescence 与非 bi-arborescence。<br/><br/>命中: oriented<br/><br/>Jiangdong Ai, Xiaopan Lian]]></description>
+    </item>
+    <item>
+      <title>Average hitting times and recurrence structures II: Cartesian products of powers of cycles and regular graphs</title>
+      <link>https://arxiv.org/abs/2608.11734</link>
+      <guid isPermaLink="false">arxiv:2608.11734</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了循环图幂图 $C_N^k$ 与任意连通正则图 $G$ 的笛卡尔积图上的平均命中时间，利用离散傅里叶分析和拉普拉斯谱分解，将平均命中时间分解为 $C_N^k$ 上的分量与 $G$ 的非零拉普拉斯特征空间产生的修正项之和，并在特征值根为单根时给出有限 Green 型求和及二阶线性递推表示。<br/><br/>命中: hitting time<br/><br/>Tsuyoshi Miezaki, Shunya Tamura]]></description>
+    </item>
+    <item>
+      <title>Layer barriers for colour-biased tight Hamilton cycles</title>
+      <link>https://arxiv.org/abs/2608.12013</link>
+      <guid isPermaLink="false">arxiv:2608.12013</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了一族用于颜色偏差紧 Hamilton 圈的层屏障，并证明其内部成员可提供比边界情形更稠密的构造，从而反驳了 Behague 等人提出的高均匀性阈值猜想。<br/><br/>命中: Hamilton cycle, tight Hamilton cycle, threshold<br/><br/>Zijian Deng, Qinfei Tang, Caihong Yang]]></description>
+    </item>
+    <item>
+      <title>On ${\rm b}^{\ast}$-Coloring and $z$-Coloring of graphs with high girth</title>
+      <link>https://arxiv.org/abs/2608.12069</link>
+      <guid isPermaLink="false">arxiv:2608.12069</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了高围长图的 ${\rm b}^{\ast}$-染色和 $z$-染色，证明了围长至少为 7 的图满足 ${\rm b}^{\ast}(G) = {\rm m}^{\ast}(G)+1$，并给出了 $z$-染色数的下界。<br/><br/>命中: chromatic number<br/><br/>Zahra Ahmadidahr, Manouchehr Zaker]]></description>
+    </item>
+    <item>
+      <title>A Multiplicative Fourier Proof of the Length-Four Index Conjecture</title>
+      <link>https://arxiv.org/abs/2608.12310</link>
+      <guid isPermaLink="false">arxiv:2608.12310</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过乘法傅里叶分析证明了长度四的指数猜想：对任意与6互素的$n$，循环群$C_n$上每个长度为4的极小零和序列的指数均为1。<br/><br/>命中: threshold<br/><br/>Hongjian Li, Pingzhi Yuan, Shijie Yuan, Weilin Zhang]]></description>
+    </item>
     <item>
       <title>A Necessary and Sufficient Hall Condition for Hypergraphs</title>
       <link>https://arxiv.org/abs/2608.10193</link>
@@ -762,62 +825,6 @@
       <guid isPermaLink="false">arxiv:2607.22480</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[研究了随机几何图中邻域同构的区分性阈值，确定了使图几乎必然可区分的边概率条件。<br/><br/>命中: threshold, @Benny Sudakov, @Zach Hunter<br/><br/>Zach Hunter, Aleksa Milojević, Benny Sudakov]]></description>
-    </item>
-    <item>
-      <title>Combinatorial formula for the Moore-Penrose inverse of the complex signless Laplacian of an oriented graph</title>
-      <link>https://arxiv.org/abs/2607.20658</link>
-      <guid isPermaLink="false">arxiv:2607.20658</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[给出了带非零复边权的弱连通有向图的符号关联矩阵的秩的充要条件，并由此推导出复符号Laplacian矩阵的Moore-Penrose逆的组合公式，解决了Barik等人提出的公开问题。<br/><br/>命中: oriented graph, oriented<br/><br/>XiaoYang Liu, Sudipta Mallik, Anh Tang]]></description>
-    </item>
-    <item>
-      <title>Constructions for supersaturation of eventown problems</title>
-      <link>https://arxiv.org/abs/2607.20812</link>
-      <guid isPermaLink="false">arxiv:2607.20812</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究eventown问题的超饱和现象，构造了具有指定奇交对数的偶数子集族，扩展了O'Neill猜想中参数s的范围。<br/><br/>命中: supersaturation<br/><br/>Xiaolei Niu, Yinghui Hang, Haitao Cao]]></description>
-    </item>
-    <item>
-      <title>The optimal constant for minimum weight feedback arc sets in oriented graphs</title>
-      <link>https://arxiv.org/abs/2607.20996</link>
-      <guid isPermaLink="false">arxiv:2607.20996</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了有向图中最小权重反馈弧集的最优常数，证明上界为 $\frac{1}{2} - \frac{\sqrt{2}}{6\sqrt{\Delta}}$，并给出一个随机近线性时间算法。<br/><br/>命中: oriented graph, oriented<br/><br/>Yacong Zhou]]></description>
-    </item>
-    <item>
-      <title>A six-neuron counterexample to the target-free clique conjecture</title>
-      <link>https://arxiv.org/abs/2607.21396</link>
-      <guid isPermaLink="false">arxiv:2607.21396</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[构造了一个六神经元反例，否证了无目标团猜想，并证明在特定参数范围内该猜想成立。<br/><br/>命中: threshold<br/><br/>Jesse Geneson]]></description>
-    </item>
-    <item>
-      <title>Fatness and Flatness</title>
-      <link>https://arxiv.org/abs/2607.21474</link>
-      <guid isPermaLink="false">arxiv:2607.21474</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明排除固定胖小子的度量图具有度量平坦性（钻取平坦性），并导出k-中心问题的近似算法。<br/><br/>命中: graph minor<br/><br/>Arnold Filtser, Hung Le, Nikolas Mählmann, Marcin Pilipczuk, Michał Pilipczuk]]></description>
-    </item>
-    <item>
-      <title>Arithmetic progressions in a random set on a budget</title>
-      <link>https://arxiv.org/abs/2607.21565</link>
-      <guid isPermaLink="false">arxiv:2607.21565</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[将随机图过程中的预算限制模型推广到整数随机子集，研究了Builder在线构造$k$项等差数列所需的最优预算阈值。<br/><br/>命中: random graph, threshold<br/><br/>Jan Hladký, Daniel Iľkovič, Jared León, Xichao Shu]]></description>
-    </item>
-    <item>
-      <title>Tight Hamilton Cycles in Linearly Quasirandom 3-Graphs</title>
-      <link>https://arxiv.org/abs/2607.21568</link>
-      <guid isPermaLink="false">arxiv:2607.21568</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究了线性拟随机3-图中紧Hamilton圈的存在性，给出了最小度阈值的一个紧界。<br/><br/>命中: Hamilton cycle, tight Hamilton cycle, threshold<br/><br/>Xichao Shu]]></description>
-    </item>
-    <item>
-      <title>The Frankl--Tokushige product conjectures for $r$-cross-intersecting families</title>
-      <link>https://arxiv.org/abs/2607.21589</link>
-      <guid isPermaLink="false">arxiv:2607.21589</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[解决了 Frankl 和 Tokushige 关于 $r$-交叉相交族的均匀和偏斜乘积猜想。<br/><br/>命中: @Hong Liu<br/><br/>Fan Chang, Hong Liu, Miao Liu]]></description>
     </item>
   </channel>
 </rss>
