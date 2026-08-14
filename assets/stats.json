@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-13T04:24:21+00:00",
-  "total_days": 55,
-  "total_matched": 470,
+  "generated": "2026-08-14T04:21:02+00:00",
+  "total_days": 56,
+  "total_matched": 480,
   "daily": [
     {
       "date": "2026-06-02",
@@ -277,16 +277,21 @@
       "date": "2026-08-13",
       "matched": 9,
       "fetched": 47
+    },
+    {
+      "date": "2026-08-14",
+      "matched": 10,
+      "fetched": 69
     }
   ],
   "keywords": [
     [
       "threshold",
-      92
+      95
     ],
     [
       "chromatic number",
-      55
+      58
     ],
     [
       "Cayley graph",
@@ -302,7 +307,7 @@
     ],
     [
       "Ramsey number",
-      22
+      23
     ],
     [
       "random graph",
@@ -314,11 +319,11 @@
     ],
     [
       "transversal",
-      17
+      18
     ],
     [
       "Latin square",
-      16
+      17
     ],
     [
       "Hamilton cycle",
@@ -405,6 +410,14 @@
       2
     ],
     [
+      "book graph",
+      2
+    ],
+    [
+      "Lovász local lemma",
+      2
+    ],
+    [
       "hypergraph regularity",
       1
     ],
@@ -441,10 +454,6 @@
       1
     ],
     [
-      "book graph",
-      1
-    ],
-    [
       "Steiner triple system",
       1
     ],
@@ -458,10 +467,6 @@
     ],
     [
       "Ramsey-Turán",
-      1
-    ],
-    [
-      "Lovász local lemma",
       1
     ]
   ],

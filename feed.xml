@@ -5,8 +5,71 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 13 Aug 2026 04:24:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 04:21:02 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>On the minimum vertex cover of snarks</title>
+      <link>https://arxiv.org/abs/2608.12491</link>
+      <guid isPermaLink="false">arxiv:2608.12491</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了snark图的最小顶点覆盖问题，证明了判定任意snark是否存在大小不超过$k$的顶点覆盖是NP完全的，并确定了Flower、Goldberg、Generalized Blanuša和Loupekine等snark子类的顶点覆盖数$\tau(G)$。<br/><br/>命中: chromatic number<br/><br/>Gustavo Fernandes, Atílio G. Luiz]]></description>
+    </item>
+    <item>
+      <title>The balanced upper chromatic number of linear hypergraphs and the $n$-cube over $t$ elements</title>
+      <link>https://arxiv.org/abs/2608.12516</link>
+      <guid isPermaLink="false">arxiv:2608.12516</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了线性超图的平衡上色数，给出了任意线性超图的一般上界，并确定了 $t \geq 4n-2$ 时 $n$ 维立方体 $C_t^n$ 的精确平衡上色数，同时在二维和三维情形下给出了几乎完整的确定。<br/><br/>命中: chromatic number<br/><br/>Gabriela Araujo-Pardo, Silvia Fernández-Merchant, Adriana Hansberg, Dolores Lara, Amanda Montejano, Déborah Oliveros]]></description>
+    </item>
+    <item>
+      <title>A Quantum Latin Square of Order Six with Cardinality 29</title>
+      <link>https://arxiv.org/abs/2608.12607</link>
+      <guid isPermaLink="false">arxiv:2608.12607</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了一个基数为29的六阶实量子拉丁方，填补了六阶基数谱中的最后一个未解值。<br/><br/>命中: Latin square<br/><br/>Aishwarya P. Das, Durgesh Kumar]]></description>
+    </item>
+    <item>
+      <title>Weakened Gallai-Ramsey Numbers for Books</title>
+      <link>https://arxiv.org/abs/2608.12673</link>
+      <guid isPermaLink="false">arxiv:2608.12673</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了书图 $B_n$ 在 $t&gt;3$ 种颜色下的弱化 Gallai-Ramsey 数 $gr^t_2(B_n)$，并给出了 $gr^3_2(B_n)$ 在 $5\le n\le 15$ 时的精确值，同时提供了 $gr^t_2(B_n)$ 的一般下界。<br/><br/>命中: Ramsey number, book graph<br/><br/>Mark Budden, Adam Gregory]]></description>
+    </item>
+    <item>
+      <title>Necessary and sufficient conditions of a class of bipartite graphs with local antimagic chromatic number 2 - an algebraic approach</title>
+      <link>https://arxiv.org/abs/2608.12817</link>
+      <guid isPermaLink="false">arxiv:2608.12817</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过代数方法给出了所有顶点度数为2、恰好三个顶点度数至少为3的二部图具有局部反魔法色数2的充要条件。<br/><br/>命中: chromatic number<br/><br/>Gee-Choon Lau, Wai Chee Shiu]]></description>
+    </item>
+    <item>
+      <title>The Erdos-Mullin Five-Edge Intersection Problem</title>
+      <link>https://arxiv.org/abs/2608.13071</link>
+      <guid isPermaLink="false">arxiv:2608.13071</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了 Erdős 提出的关于五边相交问题的猜想：对于充分大的 $n$，$f(n,5)=2n-2$，即每个至多 $2n-3$ 条边的 $n$ 顶点图存在一个重标号使得公共边数至多 4。<br/><br/>命中: Lovász local lemma<br/><br/>Chengrui Fang, Jianfeng Hou]]></description>
+    </item>
+    <item>
+      <title>New Quantitative Bounds for the $(p,q)$-Theorem for Unions of Convex Sets</title>
+      <link>https://arxiv.org/abs/2608.13176</link>
+      <guid isPermaLink="false">arxiv:2608.13176</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了 $(p,q)$-定理对 $s$-凸集族的定量界，给出了新的上下界，特别是一维 $s$-区间的近紧估计和三维下界。<br/><br/>命中: threshold<br/><br/>Chaya Keller, Shakhar Smorodinsky]]></description>
+    </item>
+    <item>
+      <title>The transversal achievement game on a square grid</title>
+      <link>https://arxiv.org/abs/2608.13501</link>
+      <guid isPermaLink="false">arxiv:2608.13501</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文独立证明了在 $n\times n$ 方格棋盘上的 transversal achievement game 中，先手玩家对于所有 $n\ge 4$ 都能获胜，并给出了一个具体的策略，保证在 $2n+3$ 步内获胜。<br/><br/>命中: transversal<br/><br/>Kevin Guan]]></description>
+    </item>
+    <item>
+      <title>Cyclic permutations of large subsets with polynomial values in multiplicative subgroups of finite fields</title>
+      <link>https://arxiv.org/abs/2608.12758</link>
+      <guid isPermaLink="false">arxiv:2608.12758</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于任意非零判别式的非恒定整系数多项式 $f(t)$ 和整数 $k\ge2$，当素数 $p\equiv1\pmod{k}$ 足够大时，任何足够大的子集 $A\subseteq\mathbb{F}_p$ 都存在一个循环排列，使得相邻元素之和的 $f$ 值落在 $k$ 次幂乘法子群中。<br/><br/>命中: threshold<br/><br/>Hai-Liang Wu, He-Xia Ni]]></description>
+    </item>
     <item>
       <title>Optimal lower bounds for epsilon-nets for lines in the plane</title>
       <link>https://arxiv.org/abs/2608.11457</link>
@@ -818,13 +881,6 @@
       <guid isPermaLink="false">arxiv:2607.24464</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[研究了平衡树的悬挂图的谱Turán问题，确定了谱极值族与极值族何时不相交。<br/><br/>命中: Turán problem, Turán number<br/><br/>Yaoxiang Di, Chunyang Dou]]></description>
-    </item>
-    <item>
-      <title>Distinguishability threshold for random geometric graphs</title>
-      <link>https://arxiv.org/abs/2607.22480</link>
-      <guid isPermaLink="false">arxiv:2607.22480</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[研究了随机几何图中邻域同构的区分性阈值，确定了使图几乎必然可区分的边概率条件。<br/><br/>命中: threshold, @Benny Sudakov, @Zach Hunter<br/><br/>Zach Hunter, Aleksa Milojević, Benny Sudakov]]></description>
     </item>
   </channel>
 </rss>
