@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-14T04:21:02+00:00",
-  "total_days": 56,
-  "total_matched": 480,
+  "generated": "2026-08-17T03:25:12+00:00",
+  "total_days": 57,
+  "total_matched": 487,
   "daily": [
     {
       "date": "2026-06-02",
@@ -282,16 +282,21 @@
       "date": "2026-08-14",
       "matched": 10,
       "fetched": 69
+    },
+    {
+      "date": "2026-08-17",
+      "matched": 7,
+      "fetched": 35
     }
   ],
   "keywords": [
     [
       "threshold",
-      95
+      98
     ],
     [
       "chromatic number",
-      58
+      59
     ],
     [
       "Cayley graph",
@@ -338,12 +343,12 @@
       11
     ],
     [
-      "Hamiltonicity",
+      "Hamiltonian cycle",
       10
     ],
     [
-      "Hamiltonian cycle",
-      8
+      "Hamiltonicity",
+      10
     ],
     [
       "generalized Turán",
@@ -394,11 +399,19 @@
       2
     ],
     [
+      "combinatorial design",
+      2
+    ],
+    [
       "hypergraph container",
       2
     ],
     [
       "regularity lemma",
+      2
+    ],
+    [
+      "Existence Conjecture",
       2
     ],
     [
@@ -426,10 +439,6 @@
       1
     ],
     [
-      "combinatorial design",
-      1
-    ],
-    [
       "induced Ramsey",
       1
     ],
@@ -443,10 +452,6 @@
     ],
     [
       "absorbing set",
-      1
-    ],
-    [
-      "Existence Conjecture",
       1
     ],
     [
@@ -467,6 +472,10 @@
     ],
     [
       "Ramsey-Turán",
+      1
+    ],
+    [
+      "Dirac-type",
       1
     ]
   ],
