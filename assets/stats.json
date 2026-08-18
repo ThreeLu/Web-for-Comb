@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-17T03:25:12+00:00",
-  "total_days": 57,
-  "total_matched": 487,
+  "generated": "2026-08-18T03:14:24+00:00",
+  "total_days": 58,
+  "total_matched": 507,
   "daily": [
     {
       "date": "2026-06-02",
@@ -287,12 +287,17 @@
       "date": "2026-08-17",
       "matched": 7,
       "fetched": 35
+    },
+    {
+      "date": "2026-08-18",
+      "matched": 20,
+      "fetched": 110
     }
   ],
   "keywords": [
     [
       "threshold",
-      98
+      101
     ],
     [
       "chromatic number",
@@ -300,35 +305,35 @@
     ],
     [
       "Cayley graph",
+      37
+    ],
+    [
+      "extremal graph",
       36
     ],
     [
       "oriented",
-      34
+      35
     ],
     [
-      "extremal graph",
-      33
+      "random graph",
+      23
     ],
     [
       "Ramsey number",
       23
     ],
     [
-      "random graph",
-      19
+      "transversal",
+      20
     ],
     [
       "Turán number",
       19
     ],
     [
-      "transversal",
-      18
-    ],
-    [
       "Latin square",
-      17
+      18
     ],
     [
       "Hamilton cycle",
@@ -340,15 +345,19 @@
     ],
     [
       "supersaturation",
-      11
+      12
     ],
     [
       "Hamiltonian cycle",
-      10
+      12
     ],
     [
       "Hamiltonicity",
       10
+    ],
+    [
+      "Turán problem",
+      7
     ],
     [
       "generalized Turán",
@@ -356,10 +365,6 @@
     ],
     [
       "treewidth",
-      6
-    ],
-    [
-      "Turán problem",
       6
     ],
     [
@@ -371,15 +376,19 @@
       5
     ],
     [
+      "list coloring",
+      4
+    ],
+    [
       "tight Hamilton cycle",
       4
     ],
     [
-      "list coloring",
+      "additive combinatorics",
       3
     ],
     [
-      "additive combinatorics",
+      "hypergraph container",
       3
     ],
     [
@@ -403,7 +412,7 @@
       2
     ],
     [
-      "hypergraph container",
+      "semi-random",
       2
     ],
     [
@@ -420,6 +429,10 @@
     ],
     [
       "graph minor",
+      2
+    ],
+    [
+      "absorption method",
       2
     ],
     [
@@ -447,15 +460,7 @@
       1
     ],
     [
-      "semi-random",
-      1
-    ],
-    [
       "absorbing set",
-      1
-    ],
-    [
-      "absorption method",
       1
     ],
     [
@@ -476,6 +481,10 @@
     ],
     [
       "Dirac-type",
+      1
+    ],
+    [
+      "container method",
       1
     ]
   ],
