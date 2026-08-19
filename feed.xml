@@ -5,8 +5,50 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 18 Aug 2026 03:14:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 03:23:14 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Eventually Turán good I: Edge-Linear Thresholds and Monotonicity</title>
+      <link>https://arxiv.org/abs/2608.17134</link>
+      <guid isPermaLink="false">arxiv:2608.17134</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个至少含一条边的图 $H$ 在 $r\ge 168e(H)$ 时是严格 $K_{r+1}$-Turán-good 且 $K_{r+1}$-Turán-stable 的，并构造了反例否定 Turán-good 性质关于 $r$ 的单调性，从而部分解决了 Morrison 等人的两个问题。<br/><br/>命中: extremal graph, threshold<br/><br/>Yuanpei Wang, Liying Kang, Xiamiao Zhao]]></description>
+    </item>
+    <item>
+      <title>Extremal graphs for a conjecture on the square energy of graphs</title>
+      <link>https://arxiv.org/abs/2608.17329</link>
+      <guid isPermaLink="false">arxiv:2608.17329</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了 Elphick、Farber、Goldberg 和 Wocjan 关于图的平方能量猜想的所有等号情形：$s^+(G)=n-1$ 当且仅当 $G$ 是树，$s^-(G)=n-1$ 当且仅当 $G$ 是树或完全图。<br/><br/>命中: extremal graph<br/><br/>Fu-Tao Hu, Ya-Yang Liu, Yi Wang]]></description>
+    </item>
+    <item>
+      <title>A novel approach to determining chromatic number induced by labelings</title>
+      <link>https://arxiv.org/abs/2608.17334</link>
+      <guid isPermaLink="false">arxiv:2608.17334</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文提出了一种新的图染色参数——局部全邻域反魔幻色数 $\chi_{ltna}(G)$，并确定了具有不同奇偶阶数的图的联图的该色数。<br/><br/>命中: chromatic number<br/><br/>Gee-Choon Lau, Wai Chee Shiu, Zhen Bin Gao]]></description>
+    </item>
+    <item>
+      <title>Invariant chains of graphs</title>
+      <link>https://arxiv.org/abs/2608.17354</link>
+      <guid isPermaLink="false">arxiv:2608.17354</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文系统研究了Inc-不变图链，证明了其独立数、匹配数等组合不变量具有刚性渐近行为。<br/><br/>命中: chromatic number<br/><br/>Do Trong Hoang, Mitra Koley, Dinh Van Le]]></description>
+    </item>
+    <item>
+      <title>A Counting Lemma for Somewhat Restricted 3-APs</title>
+      <link>https://arxiv.org/abs/2608.17365</link>
+      <guid isPermaLink="false">arxiv:2608.17365</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在有限域 $\mathbb{F}_p^n$ 中，稠密集合包含正比例的“受限 3-AP”（步长分量取自 $\{0,1,2\}$）的计数引理，并引入了针对此类模式的算术正则性引理。<br/><br/>命中: regularity lemma<br/><br/>Amey Bhangale, Subhash Khot, Yang P. Liu, Dor Minzer]]></description>
+    </item>
+    <item>
+      <title>Crown-free families and forbidden subposets with $e(P)\in \{1,2\}$</title>
+      <link>https://arxiv.org/abs/2608.17580</link>
+      <guid isPermaLink="false">arxiv:2608.17580</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了弱 $P$-free 族的大小，构造了多个满足 $e(P)=1&lt;\pi^-(P)$ 的新偏序集，并证明了 $e(P)=1$ 时 $La(n,P)$ 的上界，同时构造了 $e(P)=2$ 但下密度任意大的偏序集。<br/><br/>命中: @Casey Tompkins<br/><br/>Balázs Patkós, Casey Tompkins]]></description>
+    </item>
     <item>
       <title>Triangle-Saturated Graphs in the Semi-Random Graph Process</title>
       <link>https://arxiv.org/abs/2608.14687</link>
@@ -881,34 +923,6 @@
       <guid isPermaLink="false">arxiv:2607.28295</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明了Bradač等人关于任意两棵非平凡树的笛卡尔积的Turán数的猜想，即$\ex(n,T_1 \Box T_2)=\Theta(n^{3/2})$，并通过引入$r$-star-flip图类，将结果推广到更一般的二分$r$-退化图。<br/><br/>命中: Turán number<br/><br/>Lanchao Wang, Caihong Yang]]></description>
-    </item>
-    <item>
-      <title>Sharp bounds for the fractional chromatic number of high-girth $d$-degenerate graphs</title>
-      <link>https://arxiv.org/abs/2607.26271</link>
-      <guid isPermaLink="false">arxiv:2607.26271</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了围长至少为5的$d$-退化图的分数色数上界为$(1+o(1))\frac{d}{\log d}$，并给出了一个高效随机算法；同时，对任意围长$g\ge 4$，构造了达到下界$(1-o(1))\frac{d}{\log d}$的图，从而证实了Martinsson和Steiner的猜想。<br/><br/>命中: random graph, chromatic number<br/><br/>Peter Allen, Abhishek Dhawan, Jonathan A. Noel]]></description>
-    </item>
-    <item>
-      <title>Supersaturation in union-closed families of sets</title>
-      <link>https://arxiv.org/abs/2607.26425</link>
-      <guid isPermaLink="false">arxiv:2607.26425</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了在并封闭集族中，$k$-链的数量在成员集尽可能大时最小，且当最小值非零且$m&gt;n$时极小族唯一。<br/><br/>命中: supersaturation<br/><br/>Christopher Bouchard]]></description>
-    </item>
-    <item>
-      <title>An Optimal Bound for Ramsey Goodness of Cycles</title>
-      <link>https://arxiv.org/abs/2607.26956</link>
-      <guid isPermaLink="false">arxiv:2607.26956</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了对于任意非空图 $H$，当 $n\ge C|H|$ 时，Ramsey 数 $R(C_n,H)=(\chi(H)-1)(n-1)+\sigma(H)$，其中 $C$ 是绝对常数，解决了 Pokrovskiy 和 Sudakov 的猜想。<br/><br/>命中: Ramsey number<br/><br/>Peiru Kuang, Yan Wang]]></description>
-    </item>
-    <item>
-      <title>Combinatorial Bounds for Codes over Metric Spaces: Ramsey-Sidorenko Thresholds and Subgraph Counts</title>
-      <link>https://arxiv.org/abs/2607.27098</link>
-      <guid isPermaLink="false">arxiv:2607.27098</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过将一般度量空间中的码表示为邻近图中的独立集，建立了编码理论与极值组合学之间的联系，推广了Gilbert-Varshamov界，并引入Ramsey-Sidorenko图与独立强制图来研究码的全局存在性条件。<br/><br/>命中: extremal combinatorics, threshold<br/><br/>Lucas Waite, Nuh Aydin]]></description>
     </item>
   </channel>
 </rss>

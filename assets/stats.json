@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-18T03:14:24+00:00",
-  "total_days": 58,
-  "total_matched": 507,
+  "generated": "2026-08-19T03:23:14+00:00",
+  "total_days": 59,
+  "total_matched": 513,
   "daily": [
     {
       "date": "2026-06-02",
@@ -292,24 +292,29 @@
       "date": "2026-08-18",
       "matched": 20,
       "fetched": 110
+    },
+    {
+      "date": "2026-08-19",
+      "matched": 6,
+      "fetched": 56
     }
   ],
   "keywords": [
     [
       "threshold",
-      101
+      102
     ],
     [
       "chromatic number",
-      59
+      61
+    ],
+    [
+      "extremal graph",
+      38
     ],
     [
       "Cayley graph",
       37
-    ],
-    [
-      "extremal graph",
-      36
     ],
     [
       "oriented",
@@ -396,6 +401,10 @@
       3
     ],
     [
+      "regularity lemma",
+      3
+    ],
+    [
       "bootstrap percolation",
       3
     ],
@@ -413,10 +422,6 @@
     ],
     [
       "semi-random",
-      2
-    ],
-    [
-      "regularity lemma",
       2
     ],
     [
@@ -510,6 +515,10 @@
       2
     ],
     [
+      "Casey Tompkins",
+      2
+    ],
+    [
       "David Conlon",
       2
     ],
@@ -535,10 +544,6 @@
     ],
     [
       "Matthew Kwan",
-      1
-    ],
-    [
-      "Casey Tompkins",
       1
     ],
     [
