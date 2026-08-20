@@ -5,8 +5,57 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 19 Aug 2026 03:23:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 03:22:15 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ramsey number $R(4, 20) \ge 252$</title>
+      <link>https://arxiv.org/abs/2608.18169</link>
+      <guid isPermaLink="false">arxiv:2608.18169</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了两个素数阶 $251$ 的显式循环图，它们无 $K_4$ 且独立数为 $19$，从而证明了 Ramsey 数 $R(4,20) \ge 252$，显著改进了已知下界。<br/><br/>命中: Ramsey number<br/><br/>Charlie Yu]]></description>
+    </item>
+    <item>
+      <title>Schur polynomials twisted by roots of unity and reciprocal pairs: torsion filters, fusion quotients, and an equal-rank reduction at odd order</title>
+      <link>https://arxiv.org/abs/2608.18302</link>
+      <guid isPermaLink="false">arxiv:2608.18302</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了Schur多项式在单位根和互反对处的取值，确定了其非零条件，并给出了奇偶两种情形下的显式公式和猜想。<br/><br/>命中: transversal<br/><br/>Carles Marín]]></description>
+    </item>
+    <item>
+      <title>Matchings and product growth in modular abelian independence groups</title>
+      <link>https://arxiv.org/abs/2608.18340</link>
+      <guid isPermaLink="false">arxiv:2608.18340</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过引入独立群的概念，统一了群中有限子集与域扩张中有限维子空间的匹配理论，并在模阿贝尔独立群中建立了匹配的秩判据和乘积增长界，推广了Cauchy–Davenport定理。<br/><br/>命中: transversal<br/><br/>Mohsen Aliabadi, Jozsef Losonczy]]></description>
+    </item>
+    <item>
+      <title>Counterexample to the Bougard-Joret Conjecture</title>
+      <link>https://arxiv.org/abs/2608.18828</link>
+      <guid isPermaLink="false">arxiv:2608.18828</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文否证了Bougard-Joret猜想，确定了边界情形$n=\alpha+k$下$f(n,\alpha,k)$的精确值，并刻画了所有极值图。<br/><br/>命中: extremal graph<br/><br/>Joyentanuj Das, Sayan Gupta]]></description>
+    </item>
+    <item>
+      <title>Inversion Diameter of Planar Graphs</title>
+      <link>https://arxiv.org/abs/2608.18942</link>
+      <guid isPermaLink="false">arxiv:2608.18942</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了任意图 $G$ 的反演直径不超过 $2\chi_a(G)-2$，从而将平面图的反演直径上界从 12 改进到 8，并进一步得到围长至少 4、5、6 的平面图的反演直径上界分别为 7、5、4。<br/><br/>命中: oriented graph, oriented, chromatic number<br/><br/>Yichen Wang, Yuxuan Yang]]></description>
+    </item>
+    <item>
+      <title>Exact random covers of metric trees: balanced rounding, duality, and sharp thresholds</title>
+      <link>https://arxiv.org/abs/2608.18967</link>
+      <guid isPermaLink="false">arxiv:2608.18967</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Norin 和 Turcotte 关于有限度量树的随机覆盖猜想，并建立了任意预算下的对偶准则。<br/><br/>命中: threshold<br/><br/>Qi Wu, Yong Lu]]></description>
+    </item>
+    <item>
+      <title>A Near-Optimal Linear Range for the Erdős Matching Conjecture</title>
+      <link>https://arxiv.org/abs/2608.19118</link>
+      <guid isPermaLink="false">arxiv:2608.19118</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Erdős 匹配猜想在近最优线性范围内成立，即对于固定的 $k\ge2$，存在 $s_0(k)$，使得当 $s\ge s_0(k)$ 且 $n\ge(k+1)s$ 时，所有 $k$-均匀超图若匹配数不超过 $s$，则其边数最多为 $\binom{n}{k}-\binom{n-s}{k}$，且等号仅由覆盖族取得。<br/><br/>命中: @Hong Liu<br/><br/>Mengyu Cao, Hong Liu, Haixiang Zhang]]></description>
+    </item>
     <item>
       <title>Eventually Turán good I: Edge-Linear Thresholds and Monotonicity</title>
       <link>https://arxiv.org/abs/2608.17134</link>
@@ -888,41 +937,6 @@
       <guid isPermaLink="false">arxiv:2607.28992</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文研究了由平面分布采样点排序得到的置换的逆序图的最小度（称为 minimal inversion），证明了在正则性条件下其重标度后的尾概率呈指数衰减，并构造了分布使得最小度以任意 $n^\beta$ 阶增长。<br/><br/>命中: threshold<br/><br/>Benoît Corsini]]></description>
-    </item>
-    <item>
-      <title>On the distinct maximal-clique sizes in $3$-uniform hypergraphs</title>
-      <link>https://arxiv.org/abs/2607.27837</link>
-      <guid isPermaLink="false">arxiv:2607.27837</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了在 $3$-一致超图中，$n$ 个顶点上最大团的不同大小数量的最大值 $g(n,3)$ 满足 $f(n,3)=n-g(n,3)=\Theta(\log^* n)$，从而否定了 Gao 关于 $f(n,3)$ 与 $c(n,3)$ 同阶的猜想。<br/><br/>命中: threshold<br/><br/>Jiabao Yang, Leilei Zhang]]></description>
-    </item>
-    <item>
-      <title>Random Turán Theorem for the Fano Plane</title>
-      <link>https://arxiv.org/abs/2607.28071</link>
-      <guid isPermaLink="false">arxiv:2607.28071</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了随机3-一致超图中Fano平面-free子超图最大者为二分图的尖锐阈值，为随机超图Turán型问题提供了首个尖锐阈值结果。<br/><br/>命中: threshold<br/><br/>Ilay Hoshen]]></description>
-    </item>
-    <item>
-      <title>Exact Homomorphism Thresholds Beyond Cliques</title>
-      <link>https://arxiv.org/abs/2607.28241</link>
-      <guid isPermaLink="false">arxiv:2607.28241</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了更大一类禁止图（包括所有非完全图）的同态阈值，将 Goddard 和 Lyle 关于团的结果推广到更广泛的图族。<br/><br/>命中: threshold, chromatic number<br/><br/>Xinqi Huang, Mingyuan Rong, Chong Shangguan]]></description>
-    </item>
-    <item>
-      <title>An improved range for the maximum critically $t$-intersecting hypergraphs</title>
-      <link>https://arxiv.org/abs/2607.28253</link>
-      <guid isPermaLink="false">arxiv:2607.28253</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Frankl 关于最大临界 $t$-相交超图的猜想在 $c=30$ 时成立，即当 $k&gt;30d^2$ 时，$t$-临界 $k$-均匀超图的大小至多为 $\binom{k+d}{d}$，且等号仅出现在完全 $k$-图 $K_{k+d}^{(k)}$ 上。<br/><br/>命中: transversal<br/><br/>Lu Lu, Rongrong Lu, Qifan Wang, Tingzeng Wu]]></description>
-    </item>
-    <item>
-      <title>The Turán number of the Cartesian product of trees via star-flip</title>
-      <link>https://arxiv.org/abs/2607.28295</link>
-      <guid isPermaLink="false">arxiv:2607.28295</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了Bradač等人关于任意两棵非平凡树的笛卡尔积的Turán数的猜想，即$\ex(n,T_1 \Box T_2)=\Theta(n^{3/2})$，并通过引入$r$-star-flip图类，将结果推广到更一般的二分$r$-退化图。<br/><br/>命中: Turán number<br/><br/>Lanchao Wang, Caihong Yang]]></description>
     </item>
   </channel>
 </rss>
