@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-20T03:22:15+00:00",
-  "total_days": 60,
-  "total_matched": 521,
+  "generated": "2026-08-21T03:27:42+00:00",
+  "total_days": 61,
+  "total_matched": 532,
   "daily": [
     {
       "date": "2026-06-02",
@@ -302,28 +302,33 @@
       "date": "2026-08-20",
       "matched": 8,
       "fetched": 59
+    },
+    {
+      "date": "2026-08-21",
+      "matched": 11,
+      "fetched": 59
     }
   ],
   "keywords": [
     [
       "threshold",
-      103
+      106
     ],
     [
       "chromatic number",
-      62
+      63
+    ],
+    [
+      "Cayley graph",
+      41
     ],
     [
       "extremal graph",
       39
     ],
     [
-      "Cayley graph",
-      37
-    ],
-    [
       "oriented",
-      37
+      39
     ],
     [
       "Ramsey number",
@@ -347,11 +352,11 @@
     ],
     [
       "oriented graph",
-      15
+      17
     ],
     [
       "Hamilton cycle",
-      15
+      16
     ],
     [
       "supersaturation",
@@ -363,19 +368,19 @@
     ],
     [
       "Hamiltonicity",
-      10
+      11
     ],
     [
       "Turán problem",
-      7
+      8
     ],
     [
       "generalized Turán",
-      6
+      7
     ],
     [
       "treewidth",
-      6
+      7
     ],
     [
       "Hamilton path",
@@ -501,7 +506,7 @@
   "authors": [
     [
       "Hong Liu",
-      8
+      9
     ],
     [
       "Benny Sudakov",

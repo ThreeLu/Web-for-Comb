@@ -5,8 +5,85 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Aug 2026 03:22:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 03:27:42 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>On Generalized Total Colourings of Planar Graphs</title>
+      <link>https://arxiv.org/abs/2608.19294</link>
+      <guid isPermaLink="false">arxiv:2608.19294</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究平面图的一种广义全染色，其中顶点和边分别形成的颜色类诱导森林，且关联的边和顶点颜色不同，并证实了 Borowiecki 和 Broere 关于四色足够的猜想对两个无限平面图族成立。<br/><br/>命中: Hamiltonicity<br/><br/>Philippe Cara, Samantha Dorfling]]></description>
+    </item>
+    <item>
+      <title>Counting thresholds for perfect matchings in hypergraphs</title>
+      <link>https://arxiv.org/abs/2608.19345</link>
+      <guid isPermaLink="false">arxiv:2608.19345</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入超图中完美匹配的计数阈值和近似计数阈值，证明其良定义性、非平凡性及渐近关系，并通过降维给出改进的上界。<br/><br/>命中: threshold<br/><br/>Strahinja Gvozdić]]></description>
+    </item>
+    <item>
+      <title>Connective constants of Grigorchuk graphs</title>
+      <link>https://arxiv.org/abs/2608.19349</link>
+      <guid isPermaLink="false">arxiv:2608.19349</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了Grigorchuk群对应的Cayley图$G_\omega$的连通常数$\mu(G_\omega)$的上界和下界，并特别证明了$\mu(G_\omega)&gt;\phi$（黄金比例），推广了作者与李中阳关于三次图连通常数的猜想。<br/><br/>命中: Cayley graph<br/><br/>Geoffrey R. Grimmett]]></description>
+    </item>
+    <item>
+      <title>On the number of solutions of systems of diagonal equations through diagonal GP-graphs: the general and the Hermitian-form cases</title>
+      <link>https://arxiv.org/abs/2608.19507</link>
+      <guid isPermaLink="false">arxiv:2608.19507</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过引入对角GP图（diagonal GP-graphs），将有限域上对角方程组解数的计算转化为图的组合与谱性质，并利用Hermitian型图的谱给出了齐次情形解数的显式公式。<br/><br/>命中: Cayley graph<br/><br/>Ricardo A. Podestá, Denis E. Videla]]></description>
+    </item>
+    <item>
+      <title>Signed list edge coloring in graphs of bounded treewidth</title>
+      <link>https://arxiv.org/abs/2608.19852</link>
+      <guid isPermaLink="false">arxiv:2608.19852</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入带符号图的列表边染色框架，并证明树宽为3的所有带符号图以及最大度至少10的树宽为4的带符号图满足 Vizing 猜想的带符号版本。<br/><br/>命中: chromatic number, treewidth<br/><br/>Li Zhang, You Lu, Zhengke Miao, Yintao Wang]]></description>
+    </item>
+    <item>
+      <title>Ramanujan Cayley Graphs with Normal Connection Sets in Ratio-One Frobenius Groups</title>
+      <link>https://arxiv.org/abs/2608.19905</link>
+      <guid isPermaLink="false">arxiv:2608.19905</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文完全分类了比例为一的 Frobenius 群 $G=N\rtimes H$（其中 $|N|=q$, $|H|=q-1$）上连接集为正规（即共轭类并）的 Ramanujan Cayley 图，并证明此类图必为 $Y[\overline{K_q}]$ 或 $Y[K_q]$ 的形式，其中 $Y$ 是 $H$ 上的连通正则图。<br/><br/>命中: Cayley graph<br/><br/>Ming-Hsuan Kang, Chi-Jung Yang]]></description>
+    </item>
+    <item>
+      <title>On the Generalized Rational Exponents Conjecture</title>
+      <link>https://arxiv.org/abs/2608.19923</link>
+      <guid isPermaLink="false">arxiv:2608.19923</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了广义有理指数猜想，即对任意有理数 $\alpha \ge 1$，存在固定图 $H_\alpha$ 和 $F_\alpha$ 使得 $\ex(n,H_\alpha,F_\alpha)=\Theta(n^\alpha)$，且 $H_\alpha$ 可连通且直径至多 3。<br/><br/>命中: Turán problem, generalized Turán<br/><br/>Jianfeng Hou, Caihong Yang]]></description>
+    </item>
+    <item>
+      <title>Fractional revival on oriented Cayley and semi-Cayley graphs over abelian groups</title>
+      <link>https://arxiv.org/abs/2608.19961</link>
+      <guid isPermaLink="false">arxiv:2608.19961</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文首次研究有向图上的分数恢复（FR），给出了有向图在强余谱顶点间具有真 FR 的充要条件，并证明了阿贝尔群上的有向 Cayley 图没有真 FR，同时刻画了阿贝尔群上的有向半 Cayley 图具有真 FR 的条件。<br/><br/>命中: oriented graph, oriented, Cayley graph<br/><br/>Ming Jiang, Xiaogang Liu, Jing Wang]]></description>
+    </item>
+    <item>
+      <title>The Prescribed-Vertex Semidegree Threshold for Directed $3q$-Cycles in Oriented Graphs</title>
+      <link>https://arxiv.org/abs/2608.20048</link>
+      <guid isPermaLink="false">arxiv:2608.20048</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了最小半度至少为 $\lceil n/3 \rceil$ 的有向图 $G$（$n\ge 45q-8$）中，每个顶点都位于一个长度为 $3q$ 的有向圈上，且该界是紧的，填补了 Kelly、Kühn 和 Osthus 定理在 $3\mid n$ 时的单位间隙。<br/><br/>命中: oriented graph, oriented, threshold<br/><br/>Zhenhua Lyu]]></description>
+    </item>
+    <item>
+      <title>Small circumference in regular sublinear expanders</title>
+      <link>https://arxiv.org/abs/2608.20190</link>
+      <guid isPermaLink="false">arxiv:2608.20190</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过构造反例，否证了 Montgomery 关于足够大的正则次线性扩展图是哈密顿的猜想，并表明存在度约为 $\frac12\log^2 n$ 的正则次线性扩展图，其最长圈仅覆盖 $o(n)$ 个顶点。<br/><br/>命中: Hamilton cycle, @Hong Liu<br/><br/>Yaobin Chen, Hong Liu, Xin Wei, Fan Yang]]></description>
+    </item>
+    <item>
+      <title>Exceptional sets for compositions involving Euler's function,the divisor-sum function and Dedekind's function</title>
+      <link>https://arxiv.org/abs/2608.19972</link>
+      <guid isPermaLink="false">arxiv:2608.19972</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了由欧拉函数、除数和函数与 Dedekind 函数复合而成的四类函数的例外集，给出了其计数函数的定量上界，改进了已有密度结果。<br/><br/>命中: threshold<br/><br/>Aimin Guo]]></description>
+    </item>
     <item>
       <title>Ramsey number $R(4, 20) \ge 252$</title>
       <link>https://arxiv.org/abs/2608.18169</link>
@@ -909,34 +986,6 @@
       <guid isPermaLink="false">arxiv:2608.00755</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明了有界秩的有限单群 $G(p)$（$p$ 为素数）具有一致扩张性，即所有 Cayley 图构成一个（双侧）扩张图族，除非 $p$ 属于一个小的例外素数集合；此外，对于所有素数幂 $q$，$G(q)$ 一致扩张的例外集合具有“零维”性质，并将结果推广到半单和完美代数群。<br/><br/>命中: Cayley graph<br/><br/>Oren Becker, Emmanuel Breuillard]]></description>
-    </item>
-    <item>
-      <title>The Aldous property for normal Cayley graphs on symmetric groups</title>
-      <link>https://arxiv.org/abs/2607.29018</link>
-      <guid isPermaLink="false">arxiv:2607.29018</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了对称群 $S_n$ 上正规 Cayley 图的 Aldous 性质，证明了对于足够大的 $n$，几乎所有具有 Aldous 性质的正规 Cayley 图都被分类，并解决了 Li, Xia 和 Zhou 在 2023 年提出的一个开放问题。<br/><br/>命中: Cayley graph<br/><br/>Chenhui Lv, Sanming Zhou]]></description>
-    </item>
-    <item>
-      <title>Strong invariants and Tverberg numbers in convexity spaces</title>
-      <link>https://arxiv.org/abs/2607.29403</link>
-      <guid isPermaLink="false">arxiv:2607.29403</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文在一般凸性空间中建立了强Helly数、强Carathéodory数、强Radon数、comatching数与VC维数之间的等价性，并给出了Tverberg型分解、对偶性以及可分凸性空间中Tverberg数的线性上界。<br/><br/>命中: @Hong Liu<br/><br/>Minho Cho, Andreas F. Holmsen, Attila Jung, Hong Liu]]></description>
-    </item>
-    <item>
-      <title>Bipartite Extremal Numbers of Trees</title>
-      <link>https://arxiv.org/abs/2607.29579</link>
-      <guid isPermaLink="false">arxiv:2607.29579</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究二分宿主图上的树极值数（Erdős–Sós 问题的限制），给出自然下界构造并提出线性上界猜想，通过加权 $k$-minimality 方法证明了一类广泛树（包括扫帚树、两部分大小差至多 1 的树以及所有至多 7 个顶点的树）的上界，并解决了 Caro、Patkós 和 Tuza 提出的部分问题（至多差常数）。<br/><br/>命中: oriented<br/><br/>Lucas Waite, Nuh Aydin]]></description>
-    </item>
-    <item>
-      <title>Minimal inversion of a permuton sample</title>
-      <link>https://arxiv.org/abs/2607.28992</link>
-      <guid isPermaLink="false">arxiv:2607.28992</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了由平面分布采样点排序得到的置换的逆序图的最小度（称为 minimal inversion），证明了在正则性条件下其重标度后的尾概率呈指数衰减，并构造了分布使得最小度以任意 $n^\beta$ 阶增长。<br/><br/>命中: threshold<br/><br/>Benoît Corsini]]></description>
     </item>
   </channel>
 </rss>
