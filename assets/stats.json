@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-21T03:27:42+00:00",
-  "total_days": 61,
-  "total_matched": 532,
+  "generated": "2026-08-24T03:28:56+00:00",
+  "total_days": 62,
+  "total_matched": 540,
   "daily": [
     {
       "date": "2026-06-02",
@@ -307,12 +307,17 @@
       "date": "2026-08-21",
       "matched": 11,
       "fetched": 59
+    },
+    {
+      "date": "2026-08-24",
+      "matched": 8,
+      "fetched": 39
     }
   ],
   "keywords": [
     [
       "threshold",
-      106
+      109
     ],
     [
       "chromatic number",
@@ -320,7 +325,7 @@
     ],
     [
       "Cayley graph",
-      41
+      42
     ],
     [
       "extremal graph",
@@ -368,7 +373,7 @@
     ],
     [
       "Hamiltonicity",
-      11
+      12
     ],
     [
       "Turán problem",
@@ -395,6 +400,10 @@
       4
     ],
     [
+      "block design",
+      4
+    ],
+    [
       "tight Hamilton cycle",
       4
     ],
@@ -404,10 +413,6 @@
     ],
     [
       "hypergraph container",
-      3
-    ],
-    [
-      "block design",
       3
     ],
     [
@@ -533,7 +538,15 @@
       2
     ],
     [
+      "Michael Krivelevich",
+      2
+    ],
+    [
       "Wojciech Samotij",
+      2
+    ],
+    [
+      "Jacob Fox",
       2
     ],
     [
@@ -554,10 +567,6 @@
     ],
     [
       "Matthew Kwan",
-      1
-    ],
-    [
-      "Michael Krivelevich",
       1
     ],
     [
@@ -586,6 +595,10 @@
     ],
     [
       "Candida Bowtell",
+      1
+    ],
+    [
+      "Marcelo Campos",
       1
     ]
   ]
