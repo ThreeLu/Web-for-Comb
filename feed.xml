@@ -5,8 +5,113 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 24 Aug 2026 03:28:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 03:24:30 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Exact End-Degree Threshold for Finite-Width Directed Hexagonal Grids</title>
+      <link>https://arxiv.org/abs/2608.21650</link>
+      <guid isPermaLink="false">arxiv:2608.21650</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了有限宽度有向六边形网格的精确端度阈值，证明了对每个 $n\geq4$，$k(n)=\lfloor 3n/2\rfloor-1$，并给出了 $k(1),k(2),k(3)$ 的值，同时确定了其对偶极值参数 $W(d)$。<br/><br/>命中: threshold<br/><br/>Dan Zhu, Zhenhua Lyu]]></description>
+    </item>
+    <item>
+      <title>An improved algebraic construction for Ramsey numbers</title>
+      <link>https://arxiv.org/abs/2608.21769</link>
+      <guid isPermaLink="false">arxiv:2608.21769</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文给出一个显式代数构造，统一改进了 Ramsey 数 $R(s,t)$ 的下界，当 $3 \leq s \leq t$ 且 $t \to \infty$ 时，$R(s,t) \geq t^{(1-o(1)) \log s / \log(\log s + 1)}$，特别地，首次显式构造得到 $R(33,t) \geq t^{2.1-o(1)}$。<br/><br/>命中: Ramsey number<br/><br/>Ferdinand Ihringer, Sam Mattheus]]></description>
+    </item>
+    <item>
+      <title>A Sharp Matching-Number Threshold for Spectral-Walk Determination of Trees</title>
+      <link>https://arxiv.org/abs/2608.21851</link>
+      <guid isPermaLink="false">arxiv:2608.21851</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了树在广义谱意义下由邻接谱和总游走序列唯一确定的匹配数精确阈值：匹配数至多为4的树可由其邻接谱和总游走序列唯一确定，且该阈值是紧的。<br/><br/>命中: threshold<br/><br/>Chaochao Zhu]]></description>
+    </item>
+    <item>
+      <title>Infinitesimal finite forcibility and step kernels</title>
+      <link>https://arxiv.org/abs/2608.21992</link>
+      <guid isPermaLink="false">arxiv:2608.21992</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文刻画了有界对称实核的无穷小有限可强迫性，证明其图密度梯度张成有限维空间当且仅当该核是阶梯核，从而肯定回答了Lovász和Szegedy关于无穷小有限可强迫核是否有限可强迫的问题。<br/><br/>命中: book graph<br/><br/>Xichao Shu, Jing Yu, Junchi Zhang]]></description>
+    </item>
+    <item>
+      <title>Almost Every Graph Is Reconstructible from Its Token Graphs</title>
+      <link>https://arxiv.org/abs/2608.22094</link>
+      <guid isPermaLink="false">arxiv:2608.22094</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对固定密度的随机图，几乎所有的图都可以从它们的 token 图重构出来。<br/><br/>命中: random graph<br/><br/>Yuanming Luo]]></description>
+    </item>
+    <item>
+      <title>Rank--Average-Degree Bound for Graph Energy</title>
+      <link>https://arxiv.org/abs/2608.22139</link>
+      <guid isPermaLink="false">arxiv:2608.22139</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了任意 $n\ge5$ 阶简单图 $G$ 的能量满足 ${\mathcal E}(G)\ge r(G)+\bar d(G)-1$，并刻画了极图，从而解决了五个关于非奇异图能量的猜想。<br/><br/>命中: extremal graph<br/><br/>Seyed Ahmad Mojallal]]></description>
+    </item>
+    <item>
+      <title>Schur positivity from signed elementary expansions: clique-spiders and spiders $S(a,b,2)$</title>
+      <link>https://arxiv.org/abs/2608.22184</link>
+      <guid isPermaLink="false">arxiv:2608.22184</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了色对称函数的 Schur alpha-omega 引理，并建立了三个等价的支配匹配准则来判定 Schur 正性，进而完全分类了四类 3-clique-spiders 的 e-正性和 Schur 正性，并证明了蜘蛛图 $S(a,b,2)$ 的 Schur 正性及部分 e-正性分类。<br/><br/>命中: chromatic number<br/><br/>David G. L. Wang, Watson Z. Y. Wang]]></description>
+    </item>
+    <item>
+      <title>Ramsey-type results for threshold graphs and beyond</title>
+      <link>https://arxiv.org/abs/2608.22350</link>
+      <guid isPermaLink="false">arxiv:2608.22350</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了阈值图的诱导 Ramsey 型问题，定义了 $r'_2(s)$ 并建立了指数级上下界，同时确定了 $CR(s,3)$ 的精确值，并推广到一般图 $G$ 和 $H$，给出了完全二部图的渐近结果。<br/><br/>命中: Ramsey number, induced Ramsey, threshold<br/><br/>Xihe Li]]></description>
+    </item>
+    <item>
+      <title>Extremal problems for suspensions of even cycles</title>
+      <link>https://arxiv.org/abs/2608.22414</link>
+      <guid isPermaLink="false">arxiv:2608.22414</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了偶环的k-一致悬挂超图的极值问题，确定了$\mathrm{ex}(n,K^k_{k+1},\mathcal{S}^kC_4)$的渐近值（对无穷多个$n$）以及$\mathrm{ex}(n,\mathcal{S}^kC_{2\ell})$（$\ell\in\{3,5\}$）的数量级。<br/><br/>命中: extremal graph, Turán problem<br/><br/>Dingyuan Liu]]></description>
+    </item>
+    <item>
+      <title>Domination versus edge domination in regular graphs of degree at least seven</title>
+      <link>https://arxiv.org/abs/2608.22498</link>
+      <guid isPermaLink="false">arxiv:2608.22498</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了所有度数至少为7的正则图的支配数不超过其边支配数，解决了Baste等人提出的猜想在度数7和8的情形，并留下度数3到6的开放问题。<br/><br/>命中: Lovász local lemma<br/><br/>Chakshu Gupta]]></description>
+    </item>
+    <item>
+      <title>Counterexamples to a treewidth conjecture on generalized Turán problems</title>
+      <link>https://arxiv.org/abs/2608.22742</link>
+      <guid isPermaLink="false">arxiv:2608.22742</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了反例，否证了 Gao、Wu 和 Xue 关于广义 Turán 数的一个猜想：存在色数和树宽均为 $r$ 的图 $F_r$，使得 ${\rm ex}(n,K_r,F_r)=o(n^{r-1})$。<br/><br/>命中: Turán problem, Turán number, generalized Turán, chromatic number, treewidth<br/><br/>Junpeng Zhou, Xiying Yuan]]></description>
+    </item>
+    <item>
+      <title>A tight bound for affine-linearity, via universal ballot matrices</title>
+      <link>https://arxiv.org/abs/2608.22794</link>
+      <guid isPermaLink="false">arxiv:2608.22794</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在有限域上，若一个函数在坐标轴方向及一个固定非零斜率方向的所有直线上都是仿射线性的，则它在整个空间上是仿射线性的，并给出了所需额外直线数的最优下界 $\binom{n}{\lfloor n/2 \rfloor}$。<br/><br/>命中: @Ashwin Sah<br/><br/>Apoorva Khare, Ashwin Sah]]></description>
+    </item>
+    <item>
+      <title>A subquadratic bound for generalized Turán numbers of odd cycles</title>
+      <link>https://arxiv.org/abs/2608.22893</link>
+      <guid isPermaLink="false">arxiv:2608.22893</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于所有整数 $l&gt;k\ge 2$，不含长度至多 $2k$ 的圈和长度为 $2l+1$ 的奇圈的 $n$ 顶点图中，长度为 $2k+1$ 的圈的数量的上界为 $O_{k,l}(n^{2-\frac{1}{k(k+1)(l-k)}})$，从而证实了 Gerbner 等人的一个猜想。<br/><br/>命中: Turán number, generalized Turán<br/><br/>Zhen Liu, Chuanshu Wu]]></description>
+    </item>
+    <item>
+      <title>An Exact Counting Formula for the Mutual Position of Two Plane Conics</title>
+      <link>https://arxiv.org/abs/2608.22961</link>
+      <guid isPermaLink="false">arxiv:2608.22961</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文给出了两个光滑平面二次曲线在有限域上相交时，内部/外部点数的精确计数公式，将误差项改进为至多 $q+\sqrt{q}+1$，并将其与相关椭圆曲线的 Frobenius 迹及交点个数联系起来。<br/><br/>命中: transversal<br/><br/>Tianhao Wang]]></description>
+    </item>
+    <item>
+      <title>An improved upper bound for Tuza's conjecture via 2-colorable triangle families</title>
+      <link>https://arxiv.org/abs/2608.23010</link>
+      <guid isPermaLink="false">arxiv:2608.23010</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了 Tuza 猜想的已知上界，证明对任意图 $G$，有 $\tau(G) \leq \frac{63}{22}\nu(G)$，优于 Haxell 在 1999 年得到的 $\frac{66}{23}$ 上界。<br/><br/>命中: transversal<br/><br/>Lixing Yi]]></description>
+    </item>
     <item>
       <title>Perfect state transfer and Cayley presentations</title>
       <link>https://arxiv.org/abs/2608.20476</link>
@@ -839,55 +944,6 @@
       <guid isPermaLink="false">arxiv:2608.04985</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明，在局部稀疏图中，若边数足够多，则必然包含大量诱导偶环 $C_{2\ell}$，部分解决了 Ding 等人提出的问题。<br/><br/>命中: supersaturation<br/><br/>Adam Džavoronok, Ole Gabsdil, Alexander Mylet, Maria-Cristina Popa, Yinghan Andie Shao]]></description>
-    </item>
-    <item>
-      <title>On the Spectra of Chromatic Number and Chromatic Index of Cyclic Covers</title>
-      <link>https://arxiv.org/abs/2608.02934</link>
-      <guid isPermaLink="false">arxiv:2608.02934</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了固定整数 $\ell \ge 2$ 时，无环多重图 $G$ 的所有 $\ell$ 重循环覆盖的色指数和色数的可能取值，确定了这些谱的完整或部分区间。<br/><br/>命中: chromatic number<br/><br/>Guantao Chen, Hein van der Holst, Rong Luo, Yuying Ma]]></description>
-    </item>
-    <item>
-      <title>Topological Tverberg theorems for products of polytopes</title>
-      <link>https://arxiv.org/abs/2608.02979</link>
-      <guid isPermaLink="false">arxiv:2608.02979</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了乘积多胞形的拓扑Tverberg定理，将单纯形的经典结果推广到单纯形乘积，并在某些维度上改进了已知阈值。<br/><br/>命中: threshold<br/><br/>Steven Simon]]></description>
-    </item>
-    <item>
-      <title>A directed flat wall theorem excluding a crossrow grid</title>
-      <link>https://arxiv.org/abs/2608.02997</link>
-      <guid isPermaLink="false">arxiv:2608.02997</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文提出了一个新的有向平面墙定理，排除了一个交叉行网格作为蝴蝶子式，该定理介于现有两个版本之间，避免了它们的缺点。<br/><br/>命中: graph minor<br/><br/>Meike Hatzel, Ken-ichi Kawarabayashi, Stephan Kreutzer, Sebastian Wiederrecht]]></description>
-    </item>
-    <item>
-      <title>Extremal graphs for the $k$-th eigenvalue</title>
-      <link>https://arxiv.org/abs/2608.03196</link>
-      <guid isPermaLink="false">arxiv:2608.03196</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文刻画了图的第 $k$ 大邻接特征值 $\lambda_k(G)$ 的 Hong 型上界中等号成立的图的结构，并给出了 $\lambda_3$ 和 $\lambda_4$ 的极值图的显式组合描述。<br/><br/>命中: extremal graph<br/><br/>Hitesh Kumar, Bojan Mohar, Seyed Ahmad Mojallal, Shivaramakrishna Pragada]]></description>
-    </item>
-    <item>
-      <title>Proving a conjecture concerning chromatic number, size and least eigenvalue</title>
-      <link>https://arxiv.org/abs/2608.03271</link>
-      <guid isPermaLink="false">arxiv:2608.03271</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了关于图的色数、边数和最小特征值的一个猜想不等式，并刻画了等号成立的图。<br/><br/>命中: chromatic number<br/><br/>Leyou Xu, Bo Zhou]]></description>
-    </item>
-    <item>
-      <title>An Improved Upper Bound for the Strong Odd Chromatic Number of Planar Graphs</title>
-      <link>https://arxiv.org/abs/2608.03522</link>
-      <guid isPermaLink="false">arxiv:2608.03522</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文改进了平面图的强奇色数上界至 368，并构造了一个强奇色数为 20 的平面图，回答了 Manattu 等人提出的问题。<br/><br/>命中: chromatic number<br/><br/>Kamal Santra]]></description>
-    </item>
-    <item>
-      <title>Expected cost in Combinatorial Optimization under color constraints</title>
-      <link>https://arxiv.org/abs/2608.03608</link>
-      <guid isPermaLink="false">arxiv:2608.03608</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文提出了一个带颜色约束的组合优化问题的平均情形模型，研究了在限制红色边数量的条件下，最小生成树、最短路、完美匹配和非对称旅行商问题的最小期望成本。<br/><br/>命中: @Alan Frieze<br/><br/>Patrick Bennett, Alan Frieze, Wesley Pegden]]></description>
     </item>
   </channel>
 </rss>
