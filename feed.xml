@@ -5,8 +5,71 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Aug 2026 03:24:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 03:30:56 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>2-Distance Coloring of 4-Irregular Planar Graphs</title>
+      <link>https://arxiv.org/abs/2608.23590</link>
+      <guid isPermaLink="false">arxiv:2608.23590</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了最大度为4且度为4的顶点不相邻的平面图（即4-不规则平面图）的2-距离色数至多为10，改进了Zhu关于所有最大度至多4的平面图的2-距离色数至多13的结果。<br/><br/>命中: chromatic number<br/><br/>Sara Al Hajjar]]></description>
+    </item>
+    <item>
+      <title>Improved bounds for the smallest 4-chromatic graph of girth six</title>
+      <link>https://arxiv.org/abs/2608.23652</link>
+      <guid isPermaLink="false">arxiv:2608.23652</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了最小4色围长6图阶数的上下界，证明 $29 \le n_6(4) \le 64$，并给出一个64顶点显式图及严格下界计算。<br/><br/>命中: chromatic number, Cayley graph<br/><br/>Glauco Rampone]]></description>
+    </item>
+    <item>
+      <title>A unified spectral bound for color-critical graphs via a weighted Turán theorem</title>
+      <link>https://arxiv.org/abs/2608.24388</link>
+      <guid isPermaLink="false">arxiv:2608.24388</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过建立熵-Perron桥，将加权Turán定理应用于色临界图，证明了关于谱半径幂次与walks计数的不等式，并推广了Bollobás-Nikiforov和Chao-Yu的结果。<br/><br/>命中: supersaturation, graph removal lemma, chromatic number<br/><br/>Yongtao Li]]></description>
+    </item>
+    <item>
+      <title>Spectral extrema of 1-planar graphs with no short cycles or small cliques</title>
+      <link>https://arxiv.org/abs/2608.24519</link>
+      <guid isPermaLink="false">arxiv:2608.24519</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了 $K_5$-free 1-planar 图的唯一谱极值图，并建立了一个结构约化定理，从而确定了 $C_5$-free 和 $2C_5$-free 1-planar 图的谱极值图。<br/><br/>命中: extremal graph<br/><br/>Shuchao Li, Mingli Wang, Qin Zhao]]></description>
+    </item>
+    <item>
+      <title>Homomorphic-core phase transition threshold in Erdős--Rényi random graphs</title>
+      <link>https://arxiv.org/abs/2608.24520</link>
+      <guid isPermaLink="false">arxiv:2608.24520</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在 Erdős–Rényi 随机图 $\mathcal{G}(n,p)$ 中，当 $p \le 1/2$ 且 $np - \log n - \log\log n \to +\infty$ 时，随机图几乎必然是同态核（homomorphic core），即其自同态均为自同构，并由此推导出子图同构问题在平均度为多项式的模式上的紧下界。<br/><br/>命中: random graph, threshold<br/><br/>Jiaheng Wang]]></description>
+    </item>
+    <item>
+      <title>Homomorphism and VC-dimension thresholds: spectra and separations</title>
+      <link>https://arxiv.org/abs/2608.24623</link>
+      <guid isPermaLink="false">arxiv:2608.24623</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图的最小度阈值，证明了同态阈值和VC维阈值在3色图中具有无限谱且非单调，并给出了完全三部图的具体阈值，揭示了四种全局简单性概念两两不同。<br/><br/>命中: threshold, chromatic number, @Hong Liu<br/><br/>Lior Gishboliner, Xinqi Huang, Hong Liu]]></description>
+    </item>
+    <item>
+      <title>The exact Turán number of the even wheel $W_{2k+2}$ among non-$3$-partite graphs</title>
+      <link>https://arxiv.org/abs/2608.24681</link>
+      <guid isPermaLink="false">arxiv:2608.24681</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了非3-partite图中偶轮图 $W_{2k+2}$ 的精确Turán数，并刻画了所有极值图。<br/><br/>命中: extremal graph, Turán number<br/><br/>Qixuan Yuan, Ruifang Liu, Sanming Zhou]]></description>
+    </item>
+    <item>
+      <title>Regularity method for hypergraphs with $4$-cycle-free links</title>
+      <link>https://arxiv.org/abs/2608.24740</link>
+      <guid isPermaLink="false">arxiv:2608.24740</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文将超图正则性方法推广到链接图为 $C_4$-free 的稀疏 $3$-均匀超图，并证明了关于七顶点紧圈去掉一条边的稀疏移除引理。<br/><br/>命中: hypergraph regularity<br/><br/>Ayush Basu, Christian Reiher, Vojtěch Rödl, Mathias Schacht]]></description>
+    </item>
+    <item>
+      <title>Asymptotic Rounding Laws for Optimal Thresholds in Secretary Problems</title>
+      <link>https://arxiv.org/abs/2608.24552</link>
+      <guid isPermaLink="false">arxiv:2608.24552</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了秘书问题中最优阈值的二阶渐近行为，建立了在单峰性和局部仿射展开条件下，有理逼近可精确给出最优整数阈值的通用原理，并推导了渐近舍入律。<br/><br/>命中: threshold<br/><br/>Raúl Sánchez Galán]]></description>
+    </item>
     <item>
       <title>The Exact End-Degree Threshold for Finite-Width Directed Hexagonal Grids</title>
       <link>https://arxiv.org/abs/2608.21650</link>
@@ -888,62 +951,6 @@
       <guid isPermaLink="false">arxiv:2608.06372</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文为交错链环的 CWR 不变量给出了统一的加权矩阵公式，通过提取迹的平方自由部分来分离简单环，从而得到所有 $k\ge 3$ 的 $CWR_k$ 的显式公式。<br/><br/>命中: oriented<br/><br/>Michal Jablonowski]]></description>
-    </item>
-    <item>
-      <title>Extremal Graphs for the Energy-Independence Number Inequality</title>
-      <link>https://arxiv.org/abs/2608.04367</link>
-      <guid isPermaLink="false">arxiv:2608.04367</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了满足能量-独立数不等式 $\mathcal E(G)\ge 2(n-\alpha(G))$ 等号成立的图的结构，给出了完整的刻画。<br/><br/>命中: extremal graph<br/><br/>Seyed Ahmad Mojallal]]></description>
-    </item>
-    <item>
-      <title>Hamilton cycles of semisymmetric graphs of order $2p^3$</title>
-      <link>https://arxiv.org/abs/2608.04376</link>
-      <guid isPermaLink="false">arxiv:2608.04376</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了对于任意素数 $p$，每个 $2p^3$ 阶连通半对称图都包含 Hamilton 圈，从而推广了 Du 和 Yuan 关于 $2pq$ 阶半对称图的结果。<br/><br/>命中: Hamilton cycle, Hamilton path<br/><br/>Huye Chen]]></description>
-    </item>
-    <item>
-      <title>Edge-spectra supersaturation for tripartite color-critical graphs</title>
-      <link>https://arxiv.org/abs/2608.04485</link>
-      <guid isPermaLink="false">arxiv:2608.04485</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了色数为3的两类color-critical图的边谱超饱和问题，证明了当图的谱半径超过紧的谱Turán阈值$g_r(m)$时，图中必然包含最优多项式数量的$K_{s,t}^+$或$C_{2k+1}$副本。<br/><br/>命中: supersaturation, threshold, chromatic number<br/><br/>Longfei Fang, Huiqiu Lin, Mingqing Zhai]]></description>
-    </item>
-    <item>
-      <title>A stability theorem for Berge Hamiltonian cycles under a minimum degree condition</title>
-      <link>https://arxiv.org/abs/2608.04603</link>
-      <guid isPermaLink="false">arxiv:2608.04603</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文在最小度条件下研究了 $r$-一致超图中 Berge Hamiltonian 圈的极值与稳定性问题，利用 Salia 的 Pósa 型度序列定理证明了超边数的极值上界，并在稠密范围内证明了稳定性定理。<br/><br/>命中: Hamiltonian cycle<br/><br/>Yichen Wang, Dániel Gerbner, Xiamiao Zhao]]></description>
-    </item>
-    <item>
-      <title>Information and Locality in Cayley Graphs</title>
-      <link>https://arxiv.org/abs/2608.04608</link>
-      <guid isPermaLink="false">arxiv:2608.04608</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了Cayley图中通过局部窗口标签确定顶点的问题，提出了三个参数（sep, csep, χ1）来刻画信息与局部性之间的张力，并在碳环、Heawood环面和球面A5等例子中给出了精确值。<br/><br/>命中: Cayley graph<br/><br/>Ming-Hsuan Kang, Yu-Hsuan Hsieh]]></description>
-    </item>
-    <item>
-      <title>Entropy Transference for Rainbow-$H$-Free Colourings of Random Graphs</title>
-      <link>https://arxiv.org/abs/2608.04845</link>
-      <guid isPermaLink="false">arxiv:2608.04845</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文建立了随机图在自然尺度 $p=n^{-1/m_2(H)}$ 下无彩虹 $H$ 边着色的熵转移原理，将指数计数率归结为完全图上的模板熵优化，并推广了随机 Gallai 着色转变到所有固定非匹配图 $H$。<br/><br/>命中: random graph<br/><br/>Mengyu Cao, Mei Lu, Haixiang Zhang]]></description>
-    </item>
-    <item>
-      <title>On the dimensions of correlated equilibrium polytopes of generic games</title>
-      <link>https://arxiv.org/abs/2608.04924</link>
-      <guid isPermaLink="false">arxiv:2608.04924</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了有限博弈的关联均衡多面体的维数，证明在定向拟阵意义下的一般性条件下，若一般博弈的关联均衡多面体不是全维的，则存在一个子博弈，其关联均衡多面体与原博弈的仿射同构，从而解决并推广了Brandenburg、Hollering和Portakal（2024）的猜想。<br/><br/>命中: oriented<br/><br/>Jan Draisma, Linda Hoyer, Irem Portakal]]></description>
-    </item>
-    <item>
-      <title>Supersaturation of induced even cycles in locally sparse graphs</title>
-      <link>https://arxiv.org/abs/2608.04985</link>
-      <guid isPermaLink="false">arxiv:2608.04985</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明，在局部稀疏图中，若边数足够多，则必然包含大量诱导偶环 $C_{2\ell}$，部分解决了 Ding 等人提出的问题。<br/><br/>命中: supersaturation<br/><br/>Adam Džavoronok, Ole Gabsdil, Alexander Mylet, Maria-Cristina Popa, Yinghan Andie Shao]]></description>
     </item>
   </channel>
 </rss>

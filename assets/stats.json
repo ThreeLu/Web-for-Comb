@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-25T03:24:30+00:00",
-  "total_days": 63,
-  "total_matched": 555,
+  "generated": "2026-08-26T03:30:56+00:00",
+  "total_days": 64,
+  "total_matched": 564,
   "daily": [
     {
       "date": "2026-06-02",
@@ -317,24 +317,29 @@
       "date": "2026-08-25",
       "matched": 15,
       "fetched": 114
+    },
+    {
+      "date": "2026-08-26",
+      "matched": 9,
+      "fetched": 57
     }
   ],
   "keywords": [
     [
       "threshold",
-      112
+      115
     ],
     [
       "chromatic number",
-      65
-    ],
-    [
-      "Cayley graph",
-      42
+      69
     ],
     [
       "extremal graph",
-      41
+      43
+    ],
+    [
+      "Cayley graph",
+      43
     ],
     [
       "oriented",
@@ -346,7 +351,7 @@
     ],
     [
       "random graph",
-      24
+      25
     ],
     [
       "transversal",
@@ -354,7 +359,7 @@
     ],
     [
       "Turán number",
-      21
+      22
     ],
     [
       "Latin square",
@@ -370,7 +375,7 @@
     ],
     [
       "supersaturation",
-      12
+      13
     ],
     [
       "Hamiltonian cycle",
@@ -445,6 +450,10 @@
       2
     ],
     [
+      "hypergraph regularity",
+      2
+    ],
+    [
       "combinatorial design",
       2
     ],
@@ -471,10 +480,6 @@
     [
       "absorption method",
       2
-    ],
-    [
-      "hypergraph regularity",
-      1
     ],
     [
       "resolvable design",
@@ -511,12 +516,16 @@
     [
       "container method",
       1
+    ],
+    [
+      "graph removal lemma",
+      1
     ]
   ],
   "authors": [
     [
       "Hong Liu",
-      9
+      10
     ],
     [
       "Benny Sudakov",
