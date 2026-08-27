@@ -5,8 +5,64 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 26 Aug 2026 03:30:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 12:56:49 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Rainbow Turán numbers for paths of length four</title>
+      <link>https://arxiv.org/abs/2608.25079</link>
+      <guid isPermaLink="false">arxiv:2608.25079</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了在避免彩虹 $P_5$ 的条件下，最大化 $k$ 个图的总边数或最小边数的彩虹 Turán 数问题，确定了总边数情形下的精确值，并给出了最小边数情形下的渐近结果和猜想。<br/><br/>命中: rainbow Turán, Turán number<br/><br/>Sylwia Antoniuk, Andrzej Grzesik, Magdalena Prorok, Andrzej Ruciński]]></description>
+    </item>
+    <item>
+      <title>Bounded diameter covering of 2-colored complete bipartite graphs</title>
+      <link>https://arxiv.org/abs/2608.25081</link>
+      <guid isPermaLink="false">arxiv:2608.25081</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个2-边染色的完全二部图的顶点可以被两个单色子图覆盖，且每个子图的直径至多为3，这是最优的。<br/><br/>命中: Ryser conjecture<br/><br/>Louis DeBiasio, András Gyárfás, Gábor N. Sárközy]]></description>
+    </item>
+    <item>
+      <title>Clique decompositions and covers for large graphs</title>
+      <link>https://arxiv.org/abs/2608.25233</link>
+      <guid isPermaLink="false">arxiv:2608.25233</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Erdős 关于边分解为团的最小总代价猜想和 Dau-Milenkovic-Puleo 关于 t-团覆盖的猜想在 n 足够大时成立，并刻画了等号情形。<br/><br/>命中: generalized Turán, graph removal lemma<br/><br/>Wentao Zhang]]></description>
+    </item>
+    <item>
+      <title>Cop numbers for subclasses of partial cubes</title>
+      <link>https://arxiv.org/abs/2608.25416</link>
+      <guid isPermaLink="false">arxiv:2608.25416</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了部分立方体子类（中位数图、单纯形图）的 cop number，给出了中位数图基于 tree-dimension 的上界，以及单纯形图的一般上下界，并确定了若干特殊单纯形图的精确值。<br/><br/>命中: chromatic number<br/><br/>Zhaoman Huang, Yan-Ting Xie, Shou-Jun Xu]]></description>
+    </item>
+    <item>
+      <title>Burning Steiner triple systems</title>
+      <link>https://arxiv.org/abs/2608.25627</link>
+      <guid isPermaLink="false">arxiv:2608.25627</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了Steiner三元系统（STS）中的图燃烧和惰性燃烧过程，给出了任意STS燃烧数的对数界，证明了任意整数ρ≥3存在燃烧数为ρ的STS，并揭示了惰性燃烧与STS维数的等价性。<br/><br/>命中: Steiner triple system, combinatorial design<br/><br/>Andrea C. Burgess, Peter H. Danziger, Caleb W. Jones, Trent G. Marbach, David A. Pike]]></description>
+    </item>
+    <item>
+      <title>On the isolation numbers in graph products</title>
+      <link>https://arxiv.org/abs/2608.25752</link>
+      <guid isPermaLink="false">arxiv:2608.25752</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图的各种乘积（直接、强、字典序和笛卡尔积）中的隔离数，特别是 $\cal F$-隔离数，给出了上下界并确定了若干精确值。<br/><br/>命中: transversal<br/><br/>Boštjan Brešar, Douglas F. Rall]]></description>
+    </item>
+    <item>
+      <title>The neighbourhood convexity</title>
+      <link>https://arxiv.org/abs/2608.25912</link>
+      <guid isPermaLink="false">arxiv:2608.25912</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究图上的邻域凸性（$n$-convexity），一种基于公共闭邻域闭包算子的新有限凸性空间，刻画了其凸几何的结构，并揭示了奇偶性、准星顶点与邻域预序之间的联系。<br/><br/>命中: threshold<br/><br/>Daniela Bubboloni, José Cáceres]]></description>
+    </item>
+    <item>
+      <title>Complete Mappings of Semigroups</title>
+      <link>https://arxiv.org/abs/2608.25092</link>
+      <guid isPermaLink="false">arxiv:2608.25092</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了有限半群上的完全映射，证明了存在完全映射的半群必为正则半群，并将问题归结为对主因子的分析，进而对几类重要半群（如变换半群、线性幺半群、划分幺半群等）给出了完全映射存在的充要条件。<br/><br/>命中: transversal, Latin square<br/><br/>João Araújo, Wolfram Bentz, Peter J. Cameron, Kevin Hendrey, Michael Kinyon]]></description>
+    </item>
     <item>
       <title>2-Distance Coloring of 4-Irregular Planar Graphs</title>
       <link>https://arxiv.org/abs/2608.23590</link>
@@ -895,62 +951,6 @@
       <guid isPermaLink="false">arxiv:2608.07239</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文提出了一个统一框架，用于在局部约束下渐近均匀地构造广义随机图，将半边缘匹配转化为辅助图中的独立集问题，并给出了渐近采样分布与计数公式，误差阶为 $O(d_{\max}^4\log m/m+d_{\max}^2(\log m)^2/m)$，解决了长期存在的 $O(m^{1/4-\tau})$ 界问题。<br/><br/>命中: oriented graph, oriented, random graph<br/><br/>Ivan Kryven, Rik Versendaal, Mike de Vries]]></description>
-    </item>
-    <item>
-      <title>Fuzzy latin squares and balanced permutation pattern statistics</title>
-      <link>https://arxiv.org/abs/2608.05335</link>
-      <guid isPermaLink="false">arxiv:2608.05335</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入模糊拉丁方的概念，将拉丁方分解为置换矩阵和放宽为模糊置换矩阵的线性组合，并研究其存在性、维数及小项数分类。<br/><br/>命中: Latin square<br/><br/>Joy Cooper, Peter J. Dukes]]></description>
-    </item>
-    <item>
-      <title>Erdős--Ko--Rado and Hilton--Milner Theorems in the Partition Lattice</title>
-      <link>https://arxiv.org/abs/2608.05951</link>
-      <guid isPermaLink="false">arxiv:2608.05951</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文在划分格中证明了 Erdős--Ko--Rado 定理和 Hilton--Milner 定理，给出了显式范围并刻画了极值结构。<br/><br/>命中: threshold<br/><br/>Mengyu Cao, Jiaqi Liao, Haixiang Zhang]]></description>
-    </item>
-    <item>
-      <title>3-Neighbor bootstrap percolation on two-dimensional grids</title>
-      <link>https://arxiv.org/abs/2608.06133</link>
-      <guid isPermaLink="false">arxiv:2608.06133</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文精确确定了矩形网格图 $P_m\square P_n$ 上 $3$-邻居 bootstrap percolation 的最小渗透集大小，并给出了环形网格 $C_m\square C_n$ 的紧界。<br/><br/>命中: bootstrap percolation<br/><br/>Neal Bushaw, Alexander Clifton]]></description>
-    </item>
-    <item>
-      <title>Maximizing directed cycles in tournaments</title>
-      <link>https://arxiv.org/abs/2608.06238</link>
-      <guid isPermaLink="false">arxiv:2608.06238</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文解决了当长度 $\ell$ 被 4 整除时，$n$ 顶点锦标赛中定向 $\ell$-圈的最大数量问题，证明 carousel tournament 渐近最优，并确认了 Bartley 和 Day 的猜想。<br/><br/>命中: extremal combinatorics<br/><br/>Yijia Fang, Hao Huang]]></description>
-    </item>
-    <item>
-      <title>Minimal Cayley graphs with large chromatic number</title>
-      <link>https://arxiv.org/abs/2608.06254</link>
-      <guid isPermaLink="false">arxiv:2608.06254</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文解决了 Babai 的最小 Cayley 图问题，构造了色数任意大的有限最小 Cayley 图。<br/><br/>命中: chromatic number, Cayley graph<br/><br/>James Davies, Meike Hatzel, Liana Yepremyan]]></description>
-    </item>
-    <item>
-      <title>Universality in random graphs via optimal linking systems: trees and beyond</title>
-      <link>https://arxiv.org/abs/2608.06358</link>
-      <guid isPermaLink="false">arxiv:2608.06358</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文开发了一个用于稀疏随机图普适性证明的框架，并首次证明了在 $G(n,C\ln n/n)$ 中，对任意固定最大度 $\Delta$，以高概率包含所有 $n$ 顶点最大度至多 $\Delta$ 的树，回答了 Montgomery 的问题；同时确定了包含所有给定围长循环因子的最小围长（至多常数因子），推广了 Ferber 等人的结果。<br/><br/>命中: random graph<br/><br/>Asaf Cohen Antonir, Lyuben Lichev, Maksim Zhukovskii]]></description>
-    </item>
-    <item>
-      <title>A proof of Andersen's rainbow path conjecture for large $n$</title>
-      <link>https://arxiv.org/abs/2608.06369</link>
-      <guid isPermaLink="false">arxiv:2608.06369</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了对于足够大的 $n$，每个正常边染色的 $n$ 顶点完全图都包含一条使用每种颜色至多一次的 $n-1$ 个顶点的彩虹路径，从而解决了 Andersen 在 1989 年提出的猜想，并推广到拉丁方的无环 transversal。<br/><br/>命中: transversal, Latin square, @Richard Montgomery, @Candida Bowtell<br/><br/>Candida Bowtell, Richard Montgomery, Alp Müyesser, Alexey Pokrovskiy]]></description>
-    </item>
-    <item>
-      <title>Squarefree Matrix Formulas for the CWR Invariant of Alternating Knots and Links</title>
-      <link>https://arxiv.org/abs/2608.06372</link>
-      <guid isPermaLink="false">arxiv:2608.06372</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文为交错链环的 CWR 不变量给出了统一的加权矩阵公式，通过提取迹的平方自由部分来分离简单环，从而得到所有 $k\ge 3$ 的 $CWR_k$ 的显式公式。<br/><br/>命中: oriented<br/><br/>Michal Jablonowski]]></description>
     </item>
   </channel>
 </rss>

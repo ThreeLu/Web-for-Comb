@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-26T03:30:56+00:00",
-  "total_days": 64,
-  "total_matched": 564,
+  "generated": "2026-08-27T12:56:49+00:00",
+  "total_days": 65,
+  "total_matched": 572,
   "daily": [
     {
       "date": "2026-06-02",
@@ -322,16 +322,21 @@
       "date": "2026-08-26",
       "matched": 9,
       "fetched": 57
+    },
+    {
+      "date": "2026-08-27",
+      "matched": 8,
+      "fetched": 42
     }
   ],
   "keywords": [
     [
       "threshold",
-      115
+      116
     ],
     [
       "chromatic number",
-      69
+      70
     ],
     [
       "extremal graph",
@@ -346,6 +351,10 @@
       39
     ],
     [
+      "transversal",
+      26
+    ],
+    [
       "Ramsey number",
       26
     ],
@@ -354,16 +363,12 @@
       25
     ],
     [
-      "transversal",
-      24
-    ],
-    [
       "Turán number",
-      22
+      23
     ],
     [
       "Latin square",
-      18
+      19
     ],
     [
       "oriented graph",
@@ -386,12 +391,12 @@
       12
     ],
     [
-      "Turán problem",
+      "generalized Turán",
       10
     ],
     [
-      "generalized Turán",
-      9
+      "Turán problem",
+      10
     ],
     [
       "treewidth",
@@ -416,6 +421,10 @@
     [
       "tight Hamilton cycle",
       4
+    ],
+    [
+      "combinatorial design",
+      3
     ],
     [
       "additive combinatorics",
@@ -454,10 +463,6 @@
       2
     ],
     [
-      "combinatorial design",
-      2
-    ],
-    [
       "induced Ramsey",
       2
     ],
@@ -482,6 +487,14 @@
       2
     ],
     [
+      "Steiner triple system",
+      2
+    ],
+    [
+      "graph removal lemma",
+      2
+    ],
+    [
       "resolvable design",
       1
     ],
@@ -491,10 +504,6 @@
     ],
     [
       "absorbing set",
-      1
-    ],
-    [
-      "Steiner triple system",
       1
     ],
     [
@@ -518,7 +527,7 @@
       1
     ],
     [
-      "graph removal lemma",
+      "rainbow Turán",
       1
     ]
   ],
