@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-27T12:56:49+00:00",
-  "total_days": 65,
-  "total_matched": 572,
+  "generated": "2026-08-28T14:27:38+00:00",
+  "total_days": 66,
+  "total_matched": 587,
   "daily": [
     {
       "date": "2026-06-02",
@@ -327,36 +327,41 @@
       "date": "2026-08-27",
       "matched": 8,
       "fetched": 42
+    },
+    {
+      "date": "2026-08-28",
+      "matched": 15,
+      "fetched": 59
     }
   ],
   "keywords": [
     [
       "threshold",
-      116
+      122
     ],
     [
       "chromatic number",
-      70
+      72
     ],
     [
       "extremal graph",
-      43
+      44
     ],
     [
       "Cayley graph",
-      43
+      44
     ],
     [
       "oriented",
-      39
+      40
     ],
     [
       "transversal",
-      26
+      27
     ],
     [
       "Ramsey number",
-      26
+      27
     ],
     [
       "random graph",
@@ -391,11 +396,11 @@
       12
     ],
     [
-      "generalized Turán",
-      10
+      "Turán problem",
+      11
     ],
     [
-      "Turán problem",
+      "generalized Turán",
       10
     ],
     [
@@ -420,6 +425,10 @@
     ],
     [
       "tight Hamilton cycle",
+      4
+    ],
+    [
+      "Lovász local lemma",
       4
     ],
     [
@@ -451,10 +460,6 @@
       3
     ],
     [
-      "Lovász local lemma",
-      3
-    ],
-    [
       "multicolour Ramsey",
       2
     ],
@@ -464,6 +469,10 @@
     ],
     [
       "induced Ramsey",
+      2
+    ],
+    [
+      "probabilistic method",
       2
     ],
     [
@@ -499,10 +508,6 @@
       1
     ],
     [
-      "probabilistic method",
-      1
-    ],
-    [
       "absorbing set",
       1
     ],
@@ -534,7 +539,7 @@
   "authors": [
     [
       "Hong Liu",
-      10
+      11
     ],
     [
       "Benny Sudakov",
