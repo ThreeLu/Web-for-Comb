@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-31T08:46:10+00:00",
-  "total_days": 67,
-  "total_matched": 591,
+  "generated": "2026-09-01T07:54:56+00:00",
+  "total_days": 68,
+  "total_matched": 603,
   "daily": [
     {
       "date": "2026-06-02",
@@ -337,23 +337,28 @@
       "date": "2026-08-31",
       "matched": 4,
       "fetched": 50
+    },
+    {
+      "date": "2026-09-01",
+      "matched": 12,
+      "fetched": 100
     }
   ],
   "keywords": [
     [
       "threshold",
-      125
+      126
     ],
     [
       "chromatic number",
       72
     ],
     [
-      "extremal graph",
-      44
+      "Cayley graph",
+      46
     ],
     [
-      "Cayley graph",
+      "extremal graph",
       44
     ],
     [
@@ -361,24 +366,24 @@
       41
     ],
     [
-      "transversal",
-      27
+      "random graph",
+      29
     ],
     [
       "Ramsey number",
-      27
+      29
     ],
     [
-      "random graph",
-      25
+      "transversal",
+      28
     ],
     [
       "Turán number",
-      23
+      24
     ],
     [
       "Latin square",
-      19
+      21
     ],
     [
       "oriented graph",
@@ -417,6 +422,10 @@
       5
     ],
     [
+      "list coloring",
+      5
+    ],
+    [
       "Ramsey theory",
       5
     ],
@@ -425,11 +434,11 @@
       5
     ],
     [
-      "list coloring",
+      "tight Hamilton cycle",
       4
     ],
     [
-      "tight Hamilton cycle",
+      "extremal combinatorics",
       4
     ],
     [
@@ -458,10 +467,6 @@
     ],
     [
       "book graph",
-      3
-    ],
-    [
-      "extremal combinatorics",
       3
     ],
     [
