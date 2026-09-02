@@ -5,8 +5,92 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 01 Sep 2026 07:54:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 07:12:08 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The First Two Exceptional Boundaries for Sets with Few Subset Sums</title>
+      <link>https://arxiv.org/abs/2609.00044</link>
+      <guid isPermaLink="false">arxiv:2609.00044</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了具有较少子集和的 $n$ 元正实数集合在 $|\operatorname{FS}(A)|\le T_n+n-3$ 和 $\le T_n+n-2$ 时的完整分类，并给出了所有等号情形。<br/><br/>命中: threshold<br/><br/>Lizhong Chen]]></description>
+    </item>
+    <item>
+      <title>On the gonality of Kneser graphs</title>
+      <link>https://arxiv.org/abs/2609.00258</link>
+      <guid isPermaLink="false">arxiv:2609.00258</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过引入 scramble number 作为下界，证明了 Kneser 图 $\mathrm{KG}(n,k)$ 的 gonality 在 $n\geq \frac{3k^2+k+2}{2}$ 时恰好等于 $\binom{n-1}{k}$，并将结果推广到广义 Kneser 图。<br/><br/>命中: treewidth<br/><br/>Luis A. Ballinas, Willoughby Caine, D. Blake Hopkins, Doel Rivera Laboy]]></description>
+    </item>
+    <item>
+      <title>List coloring $C_3$-free planar graphs with a sparse matching of restricted lists</title>
+      <link>https://arxiv.org/abs/2609.00280</link>
+      <guid isPermaLink="false">arxiv:2609.00280</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Hu 和 Zhu 关于无三角形平面图列表染色的猜想在 $X$ 诱导稀疏匹配时成立，即当 $X$ 中顶点给 3 色列表、其余顶点给 4 色列表时，图存在正常列表染色。<br/><br/>命中: list coloring<br/><br/>Stephen G. Hartke, Yupei Li, Joseph Pappe, Fares Soufan, Lin Tian, Zimu Xiang]]></description>
+    </item>
+    <item>
+      <title>On Unavoidable Faces of High-Dimensional Polytopes</title>
+      <link>https://arxiv.org/abs/2609.00397</link>
+      <guid isPermaLink="false">arxiv:2609.00397</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Kalai 的 cube-simplex 猜想在简单多胞形上的有限性：对所有 $\ell \geq 2$ 和 $k \geq 3$，$f_s(\ell,k)$ 是有限的，并给出了上界；同时改进了关于 3-面大小的一个已知结果。<br/><br/>命中: threshold<br/><br/>Jesús A. De Loera, Ethan X. Fang, Shengtao Guo, Junwei Lu, Hailun Zheng]]></description>
+    </item>
+    <item>
+      <title>Dominant-Degree Conditions for Ramsey--Turán Factors of Non-Directed Cycle Orientations</title>
+      <link>https://arxiv.org/abs/2609.00889</link>
+      <guid isPermaLink="false">arxiv:2609.00889</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在非定向循环方向的支配度条件下，满足最小度条件和独立数条件的定向图包含给定非定向循环方向的因子，并构造了极值例子说明该条件在常数项上是最优的。<br/><br/>命中: oriented graph, oriented<br/><br/>Jia Zhou, Yunshu Gao]]></description>
+    </item>
+    <item>
+      <title>The Ramsey threshold for trees versus odd cycles</title>
+      <link>https://arxiv.org/abs/2609.00944</link>
+      <guid isPermaLink="false">arxiv:2609.00944</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解决了 Burr-Erdős-Faudree-Rousseau-Schelp 提出的关于树与奇圈 Ramsey 数的经典问题，确定了所有足够大的奇数 $m$ 的阈值 $f(m)=\lceil (2m-1)/3 \rceil$。<br/><br/>命中: threshold<br/><br/>Qizhong Lin, Chunlin You]]></description>
+    </item>
+    <item>
+      <title>Unbalanced spectral Turán problem for color-critical graphs with prescribed large maximum degree</title>
+      <link>https://arxiv.org/abs/2609.01114</link>
+      <guid isPermaLink="false">arxiv:2609.01114</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了在给定大最大度条件下，色临界图 $F$ 的 $F$-free 图中邻接谱半径最大的图结构，推广了谱 Turán 定理到非平衡情形。<br/><br/>命中: Turán problem<br/><br/>Chang Liu]]></description>
+    </item>
+    <item>
+      <title>Hamilton Starters and Path Decompositions in Directed Circulants</title>
+      <link>https://arxiv.org/abs/2609.01256</link>
+      <guid isPermaLink="false">arxiv:2609.01256</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了有向循环群上的Cayley有向图的Hamilton分解和路径分解，通过引入q层平衡Hamilton starter和链兼容的概念，给出了q=3,4时无限族的存在性证明。<br/><br/>命中: Hamilton cycle, Hamilton decomposition, Hamilton path, Cayley graph<br/><br/>Jianwei Jiang, Chunhua Yang]]></description>
+    </item>
+    <item>
+      <title>Box-Delaunay graphs of large chromatic number</title>
+      <link>https://arxiv.org/abs/2609.01439</link>
+      <guid isPermaLink="false">arxiv:2609.01439</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了二维偏序集和平面点集，其Hasse图与box-Delaunay图的色数达到$\exp(\Omega(\sqrt{\log n}))$，同时独立数仅为$n\exp(-\Omega(\sqrt{\log n}))$。<br/><br/>命中: chromatic number<br/><br/>István Tomon]]></description>
+    </item>
+    <item>
+      <title>Induced Embeddings of Graphs into Abelian Cayley Graphs</title>
+      <link>https://arxiv.org/abs/2609.01486</link>
+      <guid isPermaLink="false">arxiv:2609.01486</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究有限图 $G$ 的诱导嵌入到阿贝尔 Cayley 图的最小阶数 $\eta(G)$，证明了局部下界、确定了路径和完全二部图的精确值，并计算了若干图的精确值，发现循环群限制有时代价高昂。<br/><br/>命中: Cayley graph<br/><br/>Rigobert Fokam Souop, Laurent Bitjoka]]></description>
+    </item>
+    <item>
+      <title>A Tight Erdős-Stone Bound for All Graph Densities</title>
+      <link>https://arxiv.org/abs/2609.01498</link>
+      <guid isPermaLink="false">arxiv:2609.01498</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了 Erdős–Stone 定理中参数 $b_n(r,\delta)$ 在 $\delta=1/r-\varepsilon$ 情形下的精确阶，从而对所有边密度给出了紧的 Erdős–Stone 界。<br/><br/>命中: random graph<br/><br/>Asaf Shapira, Raphael Yuster]]></description>
+    </item>
+    <item>
+      <title>Sharp Threshold for Universality of Rational Canonical Forms over a Finite Field</title>
+      <link>https://arxiv.org/abs/2609.01413</link>
+      <guid isPermaLink="false">arxiv:2609.01413</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了有限域上稀疏随机矩阵的有理标准型，证明了当 $n\alpha_n/\log n \to \infty$ 时，其主分解的联合分布收敛到与均匀模型相同的独立 Cohen-Lenstra 分布，并确定了尖锐稀疏阈值。<br/><br/>命中: threshold<br/><br/>Jiahe Shen]]></description>
+    </item>
     <item>
       <title>Resolvable quantum Latin squares with maximal cardinality</title>
       <link>https://arxiv.org/abs/2608.29201</link>
@@ -902,69 +986,6 @@
       <guid isPermaLink="false">arxiv:2608.12758</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明了对于任意非零判别式的非恒定整系数多项式 $f(t)$ 和整数 $k\ge2$，当素数 $p\equiv1\pmod{k}$ 足够大时，任何足够大的子集 $A\subseteq\mathbb{F}_p$ 都存在一个循环排列，使得相邻元素之和的 $f$ 值落在 $k$ 次幂乘法子群中。<br/><br/>命中: threshold<br/><br/>Hai-Liang Wu, He-Xia Ni]]></description>
-    </item>
-    <item>
-      <title>Optimal lower bounds for epsilon-nets for lines in the plane</title>
-      <link>https://arxiv.org/abs/2608.11457</link>
-      <guid isPermaLink="false">arxiv:2608.11457</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了平面上存在任意小的正数 $\varepsilon$ 对应的有限点集 $P$，使得由直线诱导的范围空间的 $\varepsilon$-net 大小达到 $\Omega(1/\varepsilon \cdot \log(1/\varepsilon))$，匹配了 Haussler-Welzl 上界并证实了 Alon 的猜想。<br/><br/>命中: @Wojciech Samotij<br/><br/>Ilay Hoshen, Wojciech Samotij]]></description>
-    </item>
-    <item>
-      <title>A dense-case theorem for Seymour's second neighborhood conjecture</title>
-      <link>https://arxiv.org/abs/2608.11530</link>
-      <guid isPermaLink="false">arxiv:2608.11530</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Seymour 第二邻域猜想对满足 $n \le 2\delta + 2$ 的所有有向图成立，其中 $n$ 为顶点数，$\delta$ 为最小出度，从而将反例的最小阶数下界从 16 提高到 17（若接受 Sadhukhan 等人的预印本，则从 18 提高到 19）。<br/><br/>命中: oriented graph, oriented<br/><br/>Jake Brukhman]]></description>
-    </item>
-    <item>
-      <title>Tripartite Zarankiewicz numbers and norm graphs</title>
-      <link>https://arxiv.org/abs/2608.11554</link>
-      <guid isPermaLink="false">arxiv:2608.11554</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文利用 Alon-Rónyai-Szabó 的 quotient norm graphs 构造了三部 $K_{s,t}$-free 图，并改进了 Tait-Timmons 的上界，从而确定了 $\operatorname{ex}(n,n,n,K_{3,3})$ 的渐近值，并推广到 $k$-部图及多色 Ramsey 数。<br/><br/>命中: Ramsey number<br/><br/>Yantao Tang, Yi Zhao]]></description>
-    </item>
-    <item>
-      <title>Sparse spanning $k$-strong oriented subdigraphs in split digraphs</title>
-      <link>https://arxiv.org/abs/2608.11578</link>
-      <guid isPermaLink="false">arxiv:2608.11578</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了每个最小半度至少为 $26k+15$ 的 $k$-强 split digraph 都包含一个稀疏的 spanning $k$-strong oriented subdigraph，其弧数至多为 $kn+k|V_1|+98k^2+38k+3$，其中 $kn+k|V_1|$ 是紧的，$k^2$ 项在常数因子内是紧的。<br/><br/>命中: Hamiltonian cycle, oriented<br/><br/>Jia Zhou, Jørgen Bang-Jensen, Jin Yan]]></description>
-    </item>
-    <item>
-      <title>An improved finite bound for oriented trees in tournaments</title>
-      <link>https://arxiv.org/abs/2608.11667</link>
-      <guid isPermaLink="false">arxiv:2608.11667</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文改进了有向树在竞赛图中的嵌入上界，将一般上界从 $\lceil 21n/8 - 47/16 \rceil$ 降至 $\lceil (18n-23)/7 \rceil$，通过细化 median-order 方法并区分 bi-arborescence 与非 bi-arborescence。<br/><br/>命中: oriented<br/><br/>Jiangdong Ai, Xiaopan Lian]]></description>
-    </item>
-    <item>
-      <title>Average hitting times and recurrence structures II: Cartesian products of powers of cycles and regular graphs</title>
-      <link>https://arxiv.org/abs/2608.11734</link>
-      <guid isPermaLink="false">arxiv:2608.11734</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了循环图幂图 $C_N^k$ 与任意连通正则图 $G$ 的笛卡尔积图上的平均命中时间，利用离散傅里叶分析和拉普拉斯谱分解，将平均命中时间分解为 $C_N^k$ 上的分量与 $G$ 的非零拉普拉斯特征空间产生的修正项之和，并在特征值根为单根时给出有限 Green 型求和及二阶线性递推表示。<br/><br/>命中: hitting time<br/><br/>Tsuyoshi Miezaki, Shunya Tamura]]></description>
-    </item>
-    <item>
-      <title>Layer barriers for colour-biased tight Hamilton cycles</title>
-      <link>https://arxiv.org/abs/2608.12013</link>
-      <guid isPermaLink="false">arxiv:2608.12013</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了一族用于颜色偏差紧 Hamilton 圈的层屏障，并证明其内部成员可提供比边界情形更稠密的构造，从而反驳了 Behague 等人提出的高均匀性阈值猜想。<br/><br/>命中: Hamilton cycle, tight Hamilton cycle, threshold<br/><br/>Zijian Deng, Qinfei Tang, Caihong Yang]]></description>
-    </item>
-    <item>
-      <title>On ${\rm b}^{\ast}$-Coloring and $z$-Coloring of graphs with high girth</title>
-      <link>https://arxiv.org/abs/2608.12069</link>
-      <guid isPermaLink="false">arxiv:2608.12069</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了高围长图的 ${\rm b}^{\ast}$-染色和 $z$-染色，证明了围长至少为 7 的图满足 ${\rm b}^{\ast}(G) = {\rm m}^{\ast}(G)+1$，并给出了 $z$-染色数的下界。<br/><br/>命中: chromatic number<br/><br/>Zahra Ahmadidahr, Manouchehr Zaker]]></description>
-    </item>
-    <item>
-      <title>A Multiplicative Fourier Proof of the Length-Four Index Conjecture</title>
-      <link>https://arxiv.org/abs/2608.12310</link>
-      <guid isPermaLink="false">arxiv:2608.12310</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过乘法傅里叶分析证明了长度四的指数猜想：对任意与6互素的$n$，循环群$C_n$上每个长度为4的极小零和序列的指数均为1。<br/><br/>命中: threshold<br/><br/>Hongjian Li, Pingzhi Yuan, Shijie Yuan, Weilin Zhang]]></description>
     </item>
   </channel>
 </rss>
