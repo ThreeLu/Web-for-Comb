@@ -5,8 +5,106 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 02 Sep 2026 07:12:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:16:53 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Albertson's Conjecture Holds for r at Most 26</title>
+      <link>https://arxiv.org/abs/2609.01682</link>
+      <guid isPermaLink="false">arxiv:2609.01682</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Albertson 猜想对所有 r ≤ 26 成立，通过解决剩余的三个阶数情况，并给出了 19 ≤ r ≤ 24 的完整证明。<br/><br/>命中: chromatic number<br/><br/>Ankan Sadhu]]></description>
+    </item>
+    <item>
+      <title>The directional localization game on graphs</title>
+      <link>https://arxiv.org/abs/2609.01745</link>
+      <guid isPermaLink="false">arxiv:2609.01745</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入并研究了图上的方向定位博弈，其中警察通过询问方向而非距离来定位隐形强盗，并给出了若干图类的方向定位数上界。<br/><br/>命中: treewidth<br/><br/>John Jones, William B. Kinnersley]]></description>
+    </item>
+    <item>
+      <title>Minimum Weakly Saturated Graphs and Bootstrap Percolation in General Host Graphs</title>
+      <link>https://arxiv.org/abs/2609.01851</link>
+      <guid isPermaLink="false">arxiv:2609.01851</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了最小弱饱和图类及其与 $H$-bootstrap percolation 的联系，并在一般宿主图背景下推广了弱饱和数的概念。<br/><br/>命中: bootstrap percolation<br/><br/>Roman Vasquez]]></description>
+    </item>
+    <item>
+      <title>A stronger upper bound on the D-chromatic index</title>
+      <link>https://arxiv.org/abs/2609.01875</link>
+      <guid isPermaLink="false">arxiv:2609.01875</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过概率方法首次改进了图的 D-染色指数 $\chi'_D(G)$ 的 Brooks 型上界，证明了对充分大的最大度 $\Delta$，有 $\chi'_D(G) \le (1-c)\frac{9}{16}\Delta^2$ 对某个常数 $c&gt;0$ 成立。<br/><br/>命中: probabilistic method<br/><br/>Lin Tian, Runze Wang]]></description>
+    </item>
+    <item>
+      <title>Sufficiency of Hall's Condition for Graphic List Coloring</title>
+      <link>https://arxiv.org/abs/2609.01889</link>
+      <guid isPermaLink="false">arxiv:2609.01889</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图列表着色中Hall型条件的充分性，刻画了满足该条件即保证可着色的图对 $(H,G)$，并回答了Johnson提出的问题。<br/><br/>命中: list coloring<br/><br/>Parikshit Chalise]]></description>
+    </item>
+    <item>
+      <title>On the Turán number of the expansion of the book</title>
+      <link>https://arxiv.org/abs/2609.01910</link>
+      <guid isPermaLink="false">arxiv:2609.01910</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了书图的三阶扩张在足够大的顶点数下的 Turán 数。<br/><br/>命中: Turán number, book graph<br/><br/>Xin Cheng, Dániel Gerbner, Hilal Hama Karim]]></description>
+    </item>
+    <item>
+      <title>Rainbow Berge Hamiltonicity in edge-colored random $k$-uniform hypergraphs</title>
+      <link>https://arxiv.org/abs/2609.01989</link>
+      <guid isPermaLink="false">arxiv:2609.01989</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对任意整数 $k \ge 3$，边染色随机 $k$-一致超图 $H \sim H^k_c(n,p)$ 在 $c = (1+o(1))n$ 且 $p = (k-1)! \frac{\log n + \log\log n + \omega(n)}{n^{k-1}}$ 时以高概率包含 rainbow Hamilton Berge cycle，且该条件渐近最优。<br/><br/>命中: Hamiltonicity, rainbow subgraph, random graph, threshold<br/><br/>Liping Zhang, Ailian Chen]]></description>
+    </item>
+    <item>
+      <title>Helly Type Theorems for Splitting Point-Sets</title>
+      <link>https://arxiv.org/abs/2609.02180</link>
+      <guid isPermaLink="false">arxiv:2609.02180</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了关于有限点集被 $k$-flat 分割的 Helly 型定理，将经典结果推广到任意维度的平坦子空间。<br/><br/>命中: transversal<br/><br/>Lidor Portal, Natan Rubin]]></description>
+    </item>
+    <item>
+      <title>Neumaier graphs of coherent rank five</title>
+      <link>https://arxiv.org/abs/2609.02218</link>
+      <guid isPermaLink="false">arxiv:2609.02218</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了一族相干秩为五的Neumaier图，回答了强正则情形之外最小可能相干秩的存在性问题。<br/><br/>命中: Latin square<br/><br/>Gary Greaves, Zhao Kuang Tan]]></description>
+    </item>
+    <item>
+      <title>Hamiltonicity of graphs of acyclic orientations and acyclic polynomials</title>
+      <link>https://arxiv.org/abs/2609.02249</link>
+      <guid isPermaLink="false">arxiv:2609.02249</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图 $G$ 的无环定向图 $\mathcal{AO}(G)$ 的哈密顿性，通过推广 zig-zag 方法的 pattern lacing 技术，刻画了哪些 multipath 是 $\mathcal{AO}$-Hamiltonian，并提出了保持 $\mathcal{AO}$-Hamiltonicity 的粘合准则，同时引入 acyclic polynomials 来关联无环定向数与 Savage-Squire-West 的奇偶性问题。<br/><br/>命中: Hamiltonicity<br/><br/>Leonie Mühlherr, Germain Poullot]]></description>
+    </item>
+    <item>
+      <title>The game chromatic number of generalized Mycielski graphs of paths and cycles</title>
+      <link>https://arxiv.org/abs/2609.02283</link>
+      <guid isPermaLink="false">arxiv:2609.02283</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了路径和循环的广义 Mycielski 图的博弈色数，证明了对于所有 $k\geq2$ 和 $n\geq5$，$M_k(P_n)$ 和 $M_k(C_n)$ 的博弈色数在 4 到 5 之间，并确定了 $M_2(P_5)$ 和 $M_2(P_6)$ 的精确值为 4。<br/><br/>命中: chromatic number<br/><br/>Yushuang Mou, Qiang Sun, Chao Zhang]]></description>
+    </item>
+    <item>
+      <title>Extremal Asymmetric Depth of Planar Graphs and Hidden Near-Mirror Symmetries of IPR Fullerenes</title>
+      <link>https://arxiv.org/abs/2609.02585</link>
+      <guid isPermaLink="false">arxiv:2609.02585</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了平面图及高亏格图的非对称深度，证明了平面图非对称深度的紧上界，并发现达到最大值的极图是 IPR fullerene 的对偶图，同时揭示了非极值 IPR fullerene 中隐藏的近镜像对称性。<br/><br/>命中: extremal graph<br/><br/>Ján Pastorek]]></description>
+    </item>
+    <item>
+      <title>Ramsey-type results for Maker-Breaker games</title>
+      <link>https://arxiv.org/abs/2609.02588</link>
+      <guid isPermaLink="false">arxiv:2609.02588</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入 Maker-Breaker 游戏的极小可赢图概念，刻画了存在无穷多个极小可赢图的图 $H$，并给出了最小度下界的紧致结果。<br/><br/>命中: Ramsey theory<br/><br/>Alexander Allin, Juri Barkey, Dennis Clemens]]></description>
+    </item>
+    <item>
+      <title>Fourteen lonely runners</title>
+      <link>https://arxiv.org/abs/2609.02604</link>
+      <guid isPermaLink="false">arxiv:2609.02604</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过计算机辅助扩展 Sungkawichai 和 Trakulthongchai 的有限检查框架，证明了十四名跑步者的孤独跑步者猜想。<br/><br/>命中: threshold<br/><br/>Jaan Allikvere]]></description>
+    </item>
     <item>
       <title>The First Two Exceptional Boundaries for Sets with Few Subset Sums</title>
       <link>https://arxiv.org/abs/2609.00044</link>
@@ -923,69 +1021,6 @@
       <guid isPermaLink="false">arxiv:2608.14517</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文构造了一族连通块图 $G_{d,k}$，使得 $L(G_{d,k})=k$ 且 $\chi_{=}(G_{d,k})=k+d$，从而否证了 Dybizbański 等人关于块图公平色数的 gap-one 猜想，并表明差距 $\chi_{=}(G)-L(G)$ 在连通块图上无界。<br/><br/>命中: chromatic number<br/><br/>Juho Lauri]]></description>
-    </item>
-    <item>
-      <title>On the minimum vertex cover of snarks</title>
-      <link>https://arxiv.org/abs/2608.12491</link>
-      <guid isPermaLink="false">arxiv:2608.12491</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了snark图的最小顶点覆盖问题，证明了判定任意snark是否存在大小不超过$k$的顶点覆盖是NP完全的，并确定了Flower、Goldberg、Generalized Blanuša和Loupekine等snark子类的顶点覆盖数$\tau(G)$。<br/><br/>命中: chromatic number<br/><br/>Gustavo Fernandes, Atílio G. Luiz]]></description>
-    </item>
-    <item>
-      <title>The balanced upper chromatic number of linear hypergraphs and the $n$-cube over $t$ elements</title>
-      <link>https://arxiv.org/abs/2608.12516</link>
-      <guid isPermaLink="false">arxiv:2608.12516</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了线性超图的平衡上色数，给出了任意线性超图的一般上界，并确定了 $t \geq 4n-2$ 时 $n$ 维立方体 $C_t^n$ 的精确平衡上色数，同时在二维和三维情形下给出了几乎完整的确定。<br/><br/>命中: chromatic number<br/><br/>Gabriela Araujo-Pardo, Silvia Fernández-Merchant, Adriana Hansberg, Dolores Lara, Amanda Montejano, Déborah Oliveros]]></description>
-    </item>
-    <item>
-      <title>A Quantum Latin Square of Order Six with Cardinality 29</title>
-      <link>https://arxiv.org/abs/2608.12607</link>
-      <guid isPermaLink="false">arxiv:2608.12607</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了一个基数为29的六阶实量子拉丁方，填补了六阶基数谱中的最后一个未解值。<br/><br/>命中: Latin square<br/><br/>Aishwarya P. Das, Durgesh Kumar]]></description>
-    </item>
-    <item>
-      <title>Weakened Gallai-Ramsey Numbers for Books</title>
-      <link>https://arxiv.org/abs/2608.12673</link>
-      <guid isPermaLink="false">arxiv:2608.12673</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了书图 $B_n$ 在 $t&gt;3$ 种颜色下的弱化 Gallai-Ramsey 数 $gr^t_2(B_n)$，并给出了 $gr^3_2(B_n)$ 在 $5\le n\le 15$ 时的精确值，同时提供了 $gr^t_2(B_n)$ 的一般下界。<br/><br/>命中: Ramsey number, book graph<br/><br/>Mark Budden, Adam Gregory]]></description>
-    </item>
-    <item>
-      <title>Necessary and sufficient conditions of a class of bipartite graphs with local antimagic chromatic number 2 - an algebraic approach</title>
-      <link>https://arxiv.org/abs/2608.12817</link>
-      <guid isPermaLink="false">arxiv:2608.12817</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过代数方法给出了所有顶点度数为2、恰好三个顶点度数至少为3的二部图具有局部反魔法色数2的充要条件。<br/><br/>命中: chromatic number<br/><br/>Gee-Choon Lau, Wai Chee Shiu]]></description>
-    </item>
-    <item>
-      <title>The Erdos-Mullin Five-Edge Intersection Problem</title>
-      <link>https://arxiv.org/abs/2608.13071</link>
-      <guid isPermaLink="false">arxiv:2608.13071</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了 Erdős 提出的关于五边相交问题的猜想：对于充分大的 $n$，$f(n,5)=2n-2$，即每个至多 $2n-3$ 条边的 $n$ 顶点图存在一个重标号使得公共边数至多 4。<br/><br/>命中: Lovász local lemma<br/><br/>Chengrui Fang, Jianfeng Hou]]></description>
-    </item>
-    <item>
-      <title>New Quantitative Bounds for the $(p,q)$-Theorem for Unions of Convex Sets</title>
-      <link>https://arxiv.org/abs/2608.13176</link>
-      <guid isPermaLink="false">arxiv:2608.13176</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文改进了 $(p,q)$-定理对 $s$-凸集族的定量界，给出了新的上下界，特别是一维 $s$-区间的近紧估计和三维下界。<br/><br/>命中: threshold<br/><br/>Chaya Keller, Shakhar Smorodinsky]]></description>
-    </item>
-    <item>
-      <title>The transversal achievement game on a square grid</title>
-      <link>https://arxiv.org/abs/2608.13501</link>
-      <guid isPermaLink="false">arxiv:2608.13501</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文独立证明了在 $n\times n$ 方格棋盘上的 transversal achievement game 中，先手玩家对于所有 $n\ge 4$ 都能获胜，并给出了一个具体的策略，保证在 $2n+3$ 步内获胜。<br/><br/>命中: transversal<br/><br/>Kevin Guan]]></description>
-    </item>
-    <item>
-      <title>Cyclic permutations of large subsets with polynomial values in multiplicative subgroups of finite fields</title>
-      <link>https://arxiv.org/abs/2608.12758</link>
-      <guid isPermaLink="false">arxiv:2608.12758</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了对于任意非零判别式的非恒定整系数多项式 $f(t)$ 和整数 $k\ge2$，当素数 $p\equiv1\pmod{k}$ 足够大时，任何足够大的子集 $A\subseteq\mathbb{F}_p$ 都存在一个循环排列，使得相邻元素之和的 $f$ 值落在 $k$ 次幂乘法子群中。<br/><br/>命中: threshold<br/><br/>Hai-Liang Wu, He-Xia Ni]]></description>
     </item>
   </channel>
 </rss>
