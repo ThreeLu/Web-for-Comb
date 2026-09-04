@@ -5,8 +5,50 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:16:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 07:19:29 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>On uniquely colorable Cayley graphs</title>
+      <link>https://arxiv.org/abs/2609.03184</link>
+      <guid isPermaLink="false">arxiv:2609.03184</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解决了Klotz和Sander提出的关于唯一可着色Cayley图的两个开放问题，构造了无限族团数为2的唯一3可着色整循环图，并证明了非交换群上存在颜色类为不同子群左陪集的唯一可着色Cayley图。<br/><br/>命中: Cayley graph<br/><br/>Milan Bašić]]></description>
+    </item>
+    <item>
+      <title>Adjacent vertex distinguishing total chromatic number of graph products</title>
+      <link>https://arxiv.org/abs/2609.03411</link>
+      <guid isPermaLink="false">arxiv:2609.03411</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了若干图乘积（包括笛卡尔积、字典积、斜积、覆盖积、梳积和 Indu--Bala 积）满足 AVD-TCC 猜想，即其 AVD-全色数不超过最大度加 3。<br/><br/>命中: chromatic number<br/><br/>Amitayu Banerjee, Jayabalan Geetha, Kanagasabapathi Somasundaram]]></description>
+    </item>
+    <item>
+      <title>Toughness Bounds for Fractional Hamiltonicity and Resistance Positivity</title>
+      <link>https://arxiv.org/abs/2609.03412</link>
+      <guid isPermaLink="false">arxiv:2609.03412</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明每个非分数哈密顿图都有一个非哈密顿弦生成超图，从而推出每个10-坚韧图是分数哈密顿的，并应用于电阻曲率，证实了Devriendt关于RP的猜想。<br/><br/>命中: Hamiltonicity<br/><br/>Zhiyu Wang]]></description>
+    </item>
+    <item>
+      <title>A New Sufficient Condition for Oriented Graphs Determined by Their Generalized Skew Spectra</title>
+      <link>https://arxiv.org/abs/2609.03428</link>
+      <guid isPermaLink="false">arxiv:2609.03428</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文为有向图（oriented graphs）提出一个新的充分条件，用于判断其是否由广义斜谱唯一确定（DGSS），该条件比以往结果适用范围更广，并推广了Qiu-Wang-Wang的平方自由行列式准则。<br/><br/>命中: oriented graph, oriented<br/><br/>Limeng Lin, Wei Wang, Wei Wang, Hao Zhang]]></description>
+    </item>
+    <item>
+      <title>The scramble number of outerplanar graphs</title>
+      <link>https://arxiv.org/abs/2609.03755</link>
+      <guid isPermaLink="false">arxiv:2609.03755</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了简单外平面图和简单近外平面图的 scramble number 有界于 $O(\sqrt{n})$，从而为平面图的 scramble number 猜想提供了部分肯定答案。<br/><br/>命中: treewidth<br/><br/>Doel Rivera Laboy]]></description>
+    </item>
+    <item>
+      <title>Weak rainbow saturation numbers of paths, stars and cycles</title>
+      <link>https://arxiv.org/abs/2609.03823</link>
+      <guid isPermaLink="false">arxiv:2609.03823</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文精确确定了路径和星的弱彩虹饱和数，并构造了比猜想更优的循环弱彩虹饱和数上界，否定了Li-Ma-Xie关于循环的猜想。<br/><br/>命中: rainbow saturation<br/><br/>Jiawen Bo, Xiaopan Lian, Jianing Liu]]></description>
+    </item>
     <item>
       <title>Albertson's Conjecture Holds for r at Most 26</title>
       <link>https://arxiv.org/abs/2609.01682</link>
@@ -972,55 +1014,6 @@
       <guid isPermaLink="false">arxiv:2608.14897</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文从拓扑视角出发，证明了有限单群和有限Coxeter群的Bogomolov乘子消失，为连接该乘子的代数几何与拓扑角色迈出一步。<br/><br/>命中: oriented<br/><br/>Eric Samperton, Carlos Segovia]]></description>
-    </item>
-    <item>
-      <title>An Almost-Covering Threshold for Golomb-Ruler Difference Packings</title>
-      <link>https://arxiv.org/abs/2608.13739</link>
-      <guid isPermaLink="false">arxiv:2608.13739</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了固定标记数 $t$ 的 Golomb 尺差填充族渐近完全覆盖 $[1,U]$ 的阈值：当且仅当 $3\leq t\leq 5$ 时，$P_t(U)=U-o(U)$；对于 $t\geq 6$，给出了覆盖缺失的下界。<br/><br/>命中: threshold<br/><br/>Chaohang Ma, Xiangjie Yi]]></description>
-    </item>
-    <item>
-      <title>Hamiltonian cycles and Hamiltonian paths in $2k$-connected, $1$-tough and $(P_{3}\cup kP_{1})$-free graphs</title>
-      <link>https://arxiv.org/abs/2608.13963</link>
-      <guid isPermaLink="false">arxiv:2608.13963</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了对于整数 $k\ge 2$，每个 $2k$-连通、$1$-tough 且 $(P_3\cup kP_1)$-free 的图都是 Hamiltonian 的，每个 $(2k+1)$-连通、toughness 大于 $1$ 且 $(P_3\cup kP_1)$-free 的图都是 Hamiltonian-connected 的。<br/><br/>命中: Hamiltonian cycle<br/><br/>Hui Liu, Yingzhi Tian]]></description>
-    </item>
-    <item>
-      <title>Tight Hamiltonian Cycles in Uniformly Dense $3$-Graphs</title>
-      <link>https://arxiv.org/abs/2608.14338</link>
-      <guid isPermaLink="false">arxiv:2608.14338</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了均匀稠密 $3$-一致超图中 tight Hamiltonian cycle 的最小度条件，证明了最小 codegree 至少 $(1/3+\alpha)n$ 的充分大 $(\rho,d)$-dense $3$-graph 必含 tight Hamiltonian cycle，并构造反例表明该常数 $1/3$ 渐近最优。<br/><br/>命中: Hamiltonian cycle, threshold<br/><br/>Yaobin Chen, Jie Han, Xizhi Liu]]></description>
-    </item>
-    <item>
-      <title>Nearly balanced spanning subdivisions in dense digraphs</title>
-      <link>https://arxiv.org/abs/2608.14432</link>
-      <guid isPermaLink="false">arxiv:2608.14432</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了在最小半度至少为 (1/2+ε)n 的稠密有向图中，存在任意给定有向图 H 的几乎平衡的生成 H-细分，其中细分路径长度至多相差一，从而解决了 Pavez-Signé 提出的长度控制猜想在有向图中的情形。<br/><br/>命中: Dirac-type, Existence Conjecture<br/><br/>Zhilan Wang, Shuo Wei, Jin Yan]]></description>
-    </item>
-    <item>
-      <title>Intersection numbers for designs in regular semilattices</title>
-      <link>https://arxiv.org/abs/2608.14437</link>
-      <guid isPermaLink="false">arxiv:2608.14437</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文在满足较弱正则条件的有限 meet-半格中推广了组合设计的交点数理论，统一并强化了编码与设计理论中多个经典分布的已知结果。<br/><br/>命中: combinatorial design<br/><br/>Michael Kiermaier, Lukas Klawuhn]]></description>
-    </item>
-    <item>
-      <title>Triangle-Free Graphs of Toughness Approaching Two Without a 2-Factor</title>
-      <link>https://arxiv.org/abs/2608.14500</link>
-      <guid isPermaLink="false">arxiv:2608.14500</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了一族无三角形且无 2-因子、韧度趋于 2 的图，证实了 Bauer, van den Heuvel 和 Schmeichel 在 1996 年提出的猜想。<br/><br/>命中: threshold<br/><br/>Songling Shan]]></description>
-    </item>
-    <item>
-      <title>A disproof of a gap-one conjecture for the equitable chromatic number of block graphs</title>
-      <link>https://arxiv.org/abs/2608.14517</link>
-      <guid isPermaLink="false">arxiv:2608.14517</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了一族连通块图 $G_{d,k}$，使得 $L(G_{d,k})=k$ 且 $\chi_{=}(G_{d,k})=k+d$，从而否证了 Dybizbański 等人关于块图公平色数的 gap-one 猜想，并表明差距 $\chi_{=}(G)-L(G)$ 在连通块图上无界。<br/><br/>命中: chromatic number<br/><br/>Juho Lauri]]></description>
     </item>
   </channel>
 </rss>
