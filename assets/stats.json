@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-04T07:19:29+00:00",
-  "total_days": 71,
-  "total_matched": 635,
+  "generated": "2026-09-07T07:26:01+00:00",
+  "total_days": 72,
+  "total_matched": 647,
   "daily": [
     {
       "date": "2026-06-02",
@@ -357,20 +357,25 @@
       "date": "2026-09-04",
       "matched": 6,
       "fetched": 53
+    },
+    {
+      "date": "2026-09-07",
+      "matched": 12,
+      "fetched": 59
     }
   ],
   "keywords": [
     [
       "threshold",
-      132
+      133
     ],
     [
       "chromatic number",
-      76
+      78
     ],
     [
       "Cayley graph",
-      49
+      50
     ],
     [
       "extremal graph",
@@ -381,15 +386,15 @@
       43
     ],
     [
+      "Ramsey number",
+      33
+    ],
+    [
       "random graph",
       31
     ],
     [
       "transversal",
-      29
-    ],
-    [
-      "Ramsey number",
       29
     ],
     [
@@ -413,16 +418,16 @@
       15
     ],
     [
+      "Turán problem",
+      14
+    ],
+    [
       "supersaturation",
       13
     ],
     [
       "Hamiltonian cycle",
-      12
-    ],
-    [
-      "Turán problem",
-      12
+      13
     ],
     [
       "treewidth",
@@ -437,11 +442,11 @@
       7
     ],
     [
-      "Hamilton path",
-      6
+      "Ramsey theory",
+      7
     ],
     [
-      "Ramsey theory",
+      "Hamilton path",
       6
     ],
     [
@@ -469,6 +474,10 @@
       4
     ],
     [
+      "multicolour Ramsey",
+      3
+    ],
+    [
       "combinatorial design",
       3
     ],
@@ -487,10 +496,6 @@
     [
       "regularity lemma",
       3
-    ],
-    [
-      "multicolour Ramsey",
-      2
     ],
     [
       "hypergraph regularity",
@@ -603,6 +608,10 @@
       2
     ],
     [
+      "Marcelo Campos",
+      2
+    ],
+    [
       "Noga Alon",
       1
     ],
@@ -648,10 +657,6 @@
     ],
     [
       "Candida Bowtell",
-      1
-    ],
-    [
-      "Marcelo Campos",
       1
     ],
     [

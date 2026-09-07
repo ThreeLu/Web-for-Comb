@@ -5,8 +5,78 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Sep 2026 07:19:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 07:26:01 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Turing universality, computability, and incompleteness in hypergraph Turán theory</title>
+      <link>https://arxiv.org/abs/2609.04295</link>
+      <guid isPermaLink="false">arxiv:2609.04295</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明超图 Turán 问题的极值密度和极值结构可以编码任意图灵计算，从而导出 Turán 性质的不可判定性和独立性。<br/><br/>命中: Turán problem<br/><br/>Heng Li, Xizhi Liu]]></description>
+    </item>
+    <item>
+      <title>An Improved Upper Bound for Multicolour Ramsey Numbers</title>
+      <link>https://arxiv.org/abs/2609.04596</link>
+      <guid isPermaLink="false">arxiv:2609.04596</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了多色 Ramsey 数 $R_r(k)$ 的上界，将指数节省因子提高了约 $r\log^2(2r)$ 倍。<br/><br/>命中: Ramsey number, multicolour Ramsey<br/><br/>Sunghyeon Jo]]></description>
+    </item>
+    <item>
+      <title>On the exact quantum chromatic number of generalized Johnson graphs</title>
+      <link>https://arxiv.org/abs/2609.04677</link>
+      <guid isPermaLink="false">arxiv:2609.04677</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过构造模一正交表示和Hoffman型下界，确定了广义Johnson图的两个无限族的精确量子色数，并展示了经典色数与量子色数之间的指数分离。<br/><br/>命中: chromatic number<br/><br/>Gaojun Luo, Xiwang Cao, Shitao Li, Yang Li]]></description>
+    </item>
+    <item>
+      <title>Albertson's Conjecture for Chromatic Numbers at Most 29</title>
+      <link>https://arxiv.org/abs/2609.04771</link>
+      <guid isPermaLink="false">arxiv:2609.04771</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Albertson 猜想在色数至多 29 时的情形，通过消除 Cranston 留下的三个剩余阶数并处理 r=27,28,29 的情况。<br/><br/>命中: chromatic number<br/><br/>Sen Cao, Sanjit Singh Mehat]]></description>
+    </item>
+    <item>
+      <title>Ramsey properties of maximal (outer)planar graphs</title>
+      <link>https://arxiv.org/abs/2609.05268</link>
+      <guid isPermaLink="false">arxiv:2609.05268</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了最大平面图和最大外平面图中的Ramsey性质，完全刻画了MOP类中所有不可避免的图对，并确定了MP类中对角情形下所有不可避免的连通图。<br/><br/>命中: Ramsey number, Ramsey theory<br/><br/>Adriana Baldacchino, Yair Caro, Xandru Mifsud]]></description>
+    </item>
+    <item>
+      <title>Integrality Gap Bounds for the Goemans-Linial SDP on Finite Abelian Cayley Graphs</title>
+      <link>https://arxiv.org/abs/2609.05368</link>
+      <guid isPermaLink="false">arxiv:2609.05368</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了有限阿贝尔Cayley图上的Goemans-Linial SDP松弛，证明了在某些条件下SDP值与谱间隙和均匀稀疏割值相等，并给出了近似比上界，最后构造了积分性间隙为16/15的无限图族。<br/><br/>命中: Cayley graph<br/><br/>Georgios Stamoulis]]></description>
+    </item>
+    <item>
+      <title>Counting sets with given doubling via dimension</title>
+      <link>https://arxiv.org/abs/2609.05384</link>
+      <guid isPermaLink="false">arxiv:2609.05384</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了满足 $|A+A| \leq m$ 的 $k$-子集 $A \subset \{1, \ldots, n\}$ 的数量，精确到 $2^{o(k)}$ 因子，其中 $k = \Theta(\log n)$ 且 $m \leq k^{1+\alpha}$，回答了 Green 和 Morris 的问题。<br/><br/>命中: @Marcelo Campos<br/><br/>Marcelo Campos, Gabriel Dahia, João Pedro Marciano]]></description>
+    </item>
+    <item>
+      <title>Non-Hamiltonian $\frac{3}{2}$-Tough Plane Triangulations</title>
+      <link>https://arxiv.org/abs/2609.05414</link>
+      <guid isPermaLink="false">arxiv:2609.05414</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了一族 3/2-tough 的非哈密顿平面三角剖分，其 3 度顶点两两距离至少为任意给定整数 ℓ，从而否定了 Hao–Ma–Shan–Yang 关于距离条件足以保证哈密顿性的猜想。<br/><br/>命中: Hamiltonian cycle<br/><br/>Songling Shan]]></description>
+    </item>
+    <item>
+      <title>The Erd\H os-Sós conjecture in dense graphs</title>
+      <link>https://arxiv.org/abs/2609.05417</link>
+      <guid isPermaLink="false">arxiv:2609.05417</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Erdős–Sós 猜想在稠密图（即 $k \ge \gamma n$）情形下成立，并由此解决了 Erdős 和 Graham 关于树的多色 Ramsey 数的 51 年之久的猜想。<br/><br/>命中: Ramsey number<br/><br/>Bruce Reed, Maya Stein]]></description>
+    </item>
+    <item>
+      <title>On the Divisibility Relation $σ(n)\midσ(n+h)$ and a Generalized Erdős--Sierpiński Conjecture</title>
+      <link>https://arxiv.org/abs/2609.04980</link>
+      <guid isPermaLink="false">arxiv:2609.04980</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究固定正整数 $h$ 下 $\sigma(n)\mid\sigma(n+h)$ 的整除关系，证明了互补集合具有次指数节省，并推广了 Erdős--Sierpiński 猜想。<br/><br/>命中: threshold<br/><br/>Amirali Fatehizadeh, Florian Luca]]></description>
+    </item>
     <item>
       <title>On uniquely colorable Cayley graphs</title>
       <link>https://arxiv.org/abs/2609.03184</link>
@@ -874,146 +944,6 @@
       <guid isPermaLink="false">arxiv:2608.17580</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文研究了弱 $P$-free 族的大小，构造了多个满足 $e(P)=1&lt;\pi^-(P)$ 的新偏序集，并证明了 $e(P)=1$ 时 $La(n,P)$ 的上界，同时构造了 $e(P)=2$ 但下密度任意大的偏序集。<br/><br/>命中: @Casey Tompkins<br/><br/>Balázs Patkós, Casey Tompkins]]></description>
-    </item>
-    <item>
-      <title>Triangle-Saturated Graphs in the Semi-Random Graph Process</title>
-      <link>https://arxiv.org/abs/2608.14687</link>
-      <guid isPermaLink="false">arxiv:2608.14687</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了半随机图过程中构造三角形饱和图所需的最少轮数，并给出了在线和离线版本的上界和下界。<br/><br/>命中: random graph, semi-random<br/><br/>Felix Christian Clemen, Pawel Pralat]]></description>
-    </item>
-    <item>
-      <title>Spanning Structures in Multipartite Graph Traversals</title>
-      <link>https://arxiv.org/abs/2608.15005</link>
-      <guid isPermaLink="false">arxiv:2608.15005</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了多部图中哈密顿遍历和子图因子遍历存在的临界边密度，证明了临界密度随部数趋于1/2，解决了Badakhshian等人提出的猜想。<br/><br/>命中: absorption method<br/><br/>Isabel McGuigan]]></description>
-    </item>
-    <item>
-      <title>On the damage number of graphs</title>
-      <link>https://arxiv.org/abs/2608.15226</link>
-      <guid isPermaLink="false">arxiv:2608.15226</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究Cops and Robbers游戏的一个变体，其中强盗试图访问尽可能多的顶点而不被捕获，警察则试图将强盗限制在较小的顶点集合内；我们确定了超立方体、Hamming图、Johnson图、射影平面关联图以及Erdős-Rényi随机图$G(n,p)$（当$p \gg \log^{2/5}(n) / n^{1/5}$）的damage number，并证明了确定damage number的问题是PSPACE完全的。<br/><br/>命中: random graph<br/><br/>Valentin Gledel, William B. Kinnersley, Balázs Patkós, Milo\vs Stojaković]]></description>
-    </item>
-    <item>
-      <title>Hamiltonian paths in the permutation digraphs $P(n,n-2)$</title>
-      <link>https://arxiv.org/abs/2608.15287</link>
-      <guid isPermaLink="false">arxiv:2608.15287</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了排列有向图 $P(n,n-2)$ 存在有向哈密顿路径，从而回答了 Isaak 提出的问题。<br/><br/>命中: Hamiltonian cycle<br/><br/>Jiaxin Guo, Ming Duan, Jie Xue]]></description>
-    </item>
-    <item>
-      <title>Stability of Shifted Complexes via the Second-Moment Defect of the Up-Laplacian</title>
-      <link>https://arxiv.org/abs/2608.15358</link>
-      <guid isPermaLink="false">arxiv:2608.15358</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了任意有限纯 $k$ 维单纯复形到某个移位复形的距离可由其 up-Laplacian 特征值平方和与顶点度数平方和的差（即 second-moment defect）来控制，从而给出了移位复形的一个定量稳定性结果。<br/><br/>命中: threshold<br/><br/>Vinayak Gupta]]></description>
-    </item>
-    <item>
-      <title>On the Laplacian spectral gap of generalized pancake graphs</title>
-      <link>https://arxiv.org/abs/2608.15398</link>
-      <guid isPermaLink="false">arxiv:2608.15398</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了广义煎饼图 $P(m,n)$ 的归一化拉普拉斯谱隙满足 $\alpha_m/n \le \gamma(P(m,n)) \le 1/n$，从而否定了 Blanco 和 Buehrle 关于固定 $n$ 时这些图构成 expander 族的猜想。<br/><br/>命中: Cayley graph<br/><br/>Saúl A. Blanco]]></description>
-    </item>
-    <item>
-      <title>Five-Term and Higher Congruences Involving Arbitrary Sets and Short Intervals Modulo a Prime</title>
-      <link>https://arxiv.org/abs/2608.15458</link>
-      <guid isPermaLink="false">arxiv:2608.15458</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了模素数加法同余式中变量取自任意集合与短区间的渐近公式，在五元及更多元情形下获得了次平方根阈值。<br/><br/>命中: threshold<br/><br/>Yao Zhi]]></description>
-    </item>
-    <item>
-      <title>Extremal graphs for disjoint union of stars and paths</title>
-      <link>https://arxiv.org/abs/2608.15513</link>
-      <guid isPermaLink="false">arxiv:2608.15513</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文刻画了当 $F$ 为若干条路径和星的并图时，极大 $F$-free 图的极值结构，推广了已有结果。<br/><br/>命中: extremal graph<br/><br/>Wenqian Zhang]]></description>
-    </item>
-    <item>
-      <title>A method to identify the ordinary edges for symmetric traveling salesman problem based on frequency $K_i$s</title>
-      <link>https://arxiv.org/abs/2608.15724</link>
-      <guid isPermaLink="false">arxiv:2608.15724</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文提出了一种基于频率 $K_i$s 的方法来识别对称旅行商问题（TSP）中最优哈密顿圈（OHC）之外的普通边。<br/><br/>命中: Hamiltonian cycle<br/><br/>Yong Wang]]></description>
-    </item>
-    <item>
-      <title>A finite forbidden family with superlinear surplus and no three-factor product extremizers</title>
-      <link>https://arxiv.org/abs/2608.15777</link>
-      <guid isPermaLink="false">arxiv:2608.15777</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[构造了一个固定的有限禁止子图族 $\mathcal L$，满足 $p(\mathcal L)=3$，其极值数超过 $t_3(n)$ 一个 $cn^{3/2}$ 的超线性项，但所有足够大的极值图都不是三个正阶图的完全连接，从而否定了 Simonovits 乘积猜想的一个存在性版本。<br/><br/>命中: extremal graph<br/><br/>Chuandong Xu]]></description>
-    </item>
-    <item>
-      <title>The Sylvester--Gallai dimension of graphs</title>
-      <link>https://arxiv.org/abs/2608.15967</link>
-      <guid isPermaLink="false">arxiv:2608.15967</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文首次系统研究图的 Sylvester--Gallai 维数 $\text{SGdim}(G)$，并证明若干图族的下界及随机图的上界。<br/><br/>命中: random graph<br/><br/>Zeev Dvir]]></description>
-    </item>
-    <item>
-      <title>Blocking Amalgamations, Maximal Arcs, and Generalized Crowns</title>
-      <link>https://arxiv.org/abs/2608.16035</link>
-      <guid isPermaLink="false">arxiv:2608.16035</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了线性相交超图的覆盖密度 ρ_{r,k}，通过构造模板超图并利用 h-重横贯集，给出了极值数 ex_r^{lin}(n,C_{1,k}^r) 的下界，并利用截断射影平面和极大弧确定了 ρ_{r,k} 的渐近值。<br/><br/>命中: transversal<br/><br/>Mahesh Ramani]]></description>
-    </item>
-    <item>
-      <title>On the saturation number of the kite graph</title>
-      <link>https://arxiv.org/abs/2608.16069</link>
-      <guid isPermaLink="false">arxiv:2608.16069</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了风筝图 $K$ 的饱和数 $\mathrm{sat}(n,K)$ 并完全刻画了极值图，部分回答了 Hua 和 Peng 提出的问题。<br/><br/>命中: extremal graph<br/><br/>Huanying Bian, Qing Cui, Shengjin Ji, Fufong Ma]]></description>
-    </item>
-    <item>
-      <title>Dense-core approach to the Brualdi--Hoffman--Turán problem on odd wheels</title>
-      <link>https://arxiv.org/abs/2608.16127</link>
-      <guid isPermaLink="false">arxiv:2608.16127</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文提出一种统一的稠密核方法，完全解决了关于奇数轮图 $W_{2k+1}$ 的 Brualdi–Hoffman–Turán 问题，确定了极大邻接谱半径的极值图结构。<br/><br/>命中: Turán problem<br/><br/>Longfei Fang, Mingqing Zhai, Yuhan Zhang]]></description>
-    </item>
-    <item>
-      <title>Directed strongly regular graphs from groups, loops and quasigroups</title>
-      <link>https://arxiv.org/abs/2608.16202</link>
-      <guid isPermaLink="false">arxiv:2608.16202</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过群、拟群、环和拉丁方构造了四族新的有向强正则图，阶数分别为 $2n^2$ 和 $3n^2$，并给出了具体参数。<br/><br/>命中: Latin square<br/><br/>Štefan Gyürki, Mikhail Klin]]></description>
-    </item>
-    <item>
-      <title>Supersaturation for Eventown via Generator Switching</title>
-      <link>https://arxiv.org/abs/2608.16321</link>
-      <guid isPermaLink="false">arxiv:2608.16321</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过生成器切换技术，证明了 O'Neill 关于 eventown 超饱和问题的猜想在 $1\le s\le 2^{\lfloor n/2\rfloor}/26$ 范围内成立，并给出了稳定性与移除结果。<br/><br/>命中: supersaturation<br/><br/>Zicheng Han, Xiande Zhang, Yuhao Zhao]]></description>
-    </item>
-    <item>
-      <title>Measurable Matroids: Foundations and Min--Max Theorems</title>
-      <link>https://arxiv.org/abs/2608.16464</link>
-      <guid isPermaLink="false">arxiv:2608.16464</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文在标准原子无测度空间上建立了可测拟阵理论，证明了其多种等价描述，并推广了拟阵交、并定理及Nash-Williams--Tutte定理到可测设置。<br/><br/>命中: transversal<br/><br/>Kristóf Bérczi, András Imolay, Ádám Schweitzer]]></description>
-    </item>
-    <item>
-      <title>Codegree Thresholds for $λ$-Choosability of Graphs</title>
-      <link>https://arxiv.org/abs/2608.16740</link>
-      <guid isPermaLink="false">arxiv:2608.16740</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了图的 $\lambda$-可选择性，证明了最小 $q$-codegree 是决定图是否 $\lambda$-可选择的正确参数，并给出了阈值函数 $f(\lambda)$ 的上下界，特别对均匀划分确定了渐近精确阈值。<br/><br/>命中: container method, hypergraph container, threshold, list coloring<br/><br/>Chunqiu Fang, Rongxing Xu]]></description>
-    </item>
-    <item>
-      <title>A Local Central Limit Theorem for Clique Counts in Sparse Random Graphs</title>
-      <link>https://arxiv.org/abs/2608.16882</link>
-      <guid isPermaLink="false">arxiv:2608.16882</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了稀疏随机图 $G_{n,p}$ 中固定团 $K_r$ 的副本数满足局部中心极限定理，当 $n^{-1/m(K_r)} \ll p \le 1/2$ 时，从而解决了 Gilmer 和 Kopparty 关于团的猜想。<br/><br/>命中: random graph<br/><br/>Asaf Cohen Antonir, Ilay Hoshen, Maksim Zhukovskii]]></description>
-    </item>
-    <item>
-      <title>Topological perspectives on the vanishing of some Bogomolov multipliers</title>
-      <link>https://arxiv.org/abs/2608.14897</link>
-      <guid isPermaLink="false">arxiv:2608.14897</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文从拓扑视角出发，证明了有限单群和有限Coxeter群的Bogomolov乘子消失，为连接该乘子的代数几何与拓扑角色迈出一步。<br/><br/>命中: oriented<br/><br/>Eric Samperton, Carlos Segovia]]></description>
     </item>
   </channel>
 </rss>
