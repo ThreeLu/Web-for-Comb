@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-07T07:26:01+00:00",
-  "total_days": 72,
-  "total_matched": 647,
+  "generated": "2026-09-09T07:29:36+00:00",
+  "total_days": 73,
+  "total_matched": 680,
   "daily": [
     {
       "date": "2026-06-02",
@@ -362,20 +362,25 @@
       "date": "2026-09-07",
       "matched": 12,
       "fetched": 59
+    },
+    {
+      "date": "2026-09-09",
+      "matched": 33,
+      "fetched": 205
     }
   ],
   "keywords": [
     [
       "threshold",
-      133
+      142
     ],
     [
       "chromatic number",
-      78
+      84
     ],
     [
       "Cayley graph",
-      50
+      53
     ],
     [
       "extremal graph",
@@ -383,27 +388,27 @@
     ],
     [
       "oriented",
-      43
+      44
     ],
     [
       "Ramsey number",
-      33
+      36
     ],
     [
       "random graph",
-      31
+      32
     ],
     [
       "transversal",
-      29
+      32
     ],
     [
       "Turán number",
-      25
+      26
     ],
     [
       "Latin square",
-      22
+      23
     ],
     [
       "oriented graph",
@@ -411,23 +416,23 @@
     ],
     [
       "Hamilton cycle",
-      17
+      18
     ],
     [
       "Hamiltonicity",
-      15
+      17
+    ],
+    [
+      "supersaturation",
+      14
+    ],
+    [
+      "Hamiltonian cycle",
+      14
     ],
     [
       "Turán problem",
       14
-    ],
-    [
-      "supersaturation",
-      13
-    ],
-    [
-      "Hamiltonian cycle",
-      13
     ],
     [
       "treewidth",
@@ -451,7 +456,19 @@
     ],
     [
       "block design",
+      6
+    ],
+    [
+      "additive combinatorics",
       5
+    ],
+    [
+      "extremal combinatorics",
+      5
+    ],
+    [
+      "hypergraph container",
+      4
     ],
     [
       "bootstrap percolation",
@@ -463,10 +480,6 @@
     ],
     [
       "book graph",
-      4
-    ],
-    [
-      "extremal combinatorics",
       4
     ],
     [
@@ -483,14 +496,6 @@
     ],
     [
       "probabilistic method",
-      3
-    ],
-    [
-      "additive combinatorics",
-      3
-    ],
-    [
-      "hypergraph container",
       3
     ],
     [
@@ -530,6 +535,14 @@
       2
     ],
     [
+      "Ramsey multiplicity",
+      2
+    ],
+    [
+      "Dirac-type",
+      2
+    ],
+    [
       "graph removal lemma",
       2
     ],
@@ -546,15 +559,7 @@
       1
     ],
     [
-      "Ramsey multiplicity",
-      1
-    ],
-    [
       "Ramsey-Turán",
-      1
-    ],
-    [
-      "Dirac-type",
       1
     ],
     [
@@ -569,7 +574,7 @@
   "authors": [
     [
       "Hong Liu",
-      11
+      12
     ],
     [
       "Benny Sudakov",
@@ -584,6 +589,10 @@
       3
     ],
     [
+      "Michael Krivelevich",
+      3
+    ],
+    [
       "Cosmin Pohoata",
       2
     ],
@@ -593,10 +602,6 @@
     ],
     [
       "David Conlon",
-      2
-    ],
-    [
-      "Michael Krivelevich",
       2
     ],
     [
