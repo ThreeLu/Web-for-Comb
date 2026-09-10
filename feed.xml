@@ -5,8 +5,92 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Sep 2026 07:29:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 07:24:29 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Regular sets of circulant quartic graphs</title>
+      <link>https://arxiv.org/abs/2609.09414</link>
+      <guid isPermaLink="false">arxiv:2609.09414</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了连通循环四次图 $\operatorname{Cay}(\mathbb{Z}_n, S)$ 中 $(a,b)$-regular set 的存在性，并完全确定了所有可能的 $a$ 和 $b$ 值下的存在与否。<br/><br/>命中: Cayley graph<br/><br/>A. Abdollahi, J. Bagherian, F. Jafari, M. Khatami, Z. Shokoohi, R. Sobhani]]></description>
+    </item>
+    <item>
+      <title>Isomorphisms of abelian Cayley graphs with their natural edge-colouring</title>
+      <link>https://arxiv.org/abs/2609.09563</link>
+      <guid isPermaLink="false">arxiv:2609.09563</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了交换群 Cayley 图之间的保边着色同构可分解为群同构与保色图自同构的复合，并刻画了所有保色自同构均为仿射映射的充要条件。<br/><br/>命中: Cayley graph<br/><br/>Shirin Alimirzaei, Dave Witte Morris]]></description>
+    </item>
+    <item>
+      <title>Composing group automorphisms with colour-preserving automorphisms of Cayley graphs</title>
+      <link>https://arxiv.org/abs/2609.09580</link>
+      <guid isPermaLink="false">arxiv:2609.09580</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了在连通有限 Cayley 图中，若图的阶为奇数或无平方因子，则任何保色置换自同构可分解为群自同构与保色图自同构的复合，并给出了不同 Cayley 图之间同构的类似结果。<br/><br/>命中: Cayley graph<br/><br/>Dave Witte Morris]]></description>
+    </item>
+    <item>
+      <title>Quantum Latin Hypercubes with Maximal Cardinality</title>
+      <link>https://arxiv.org/abs/2609.09695</link>
+      <guid isPermaLink="false">arxiv:2609.09695</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文在实数域上构造了具有最大基数的 quantum Latin squares 和 quantum Latin hypercubes。<br/><br/>命中: Latin square<br/><br/>Mingzhen Lv, Haitao Cao]]></description>
+    </item>
+    <item>
+      <title>Boundedness and Separation Between Induced and Non-Induced Covering Numbers</title>
+      <link>https://arxiv.org/abs/2609.09873</link>
+      <guid isPermaLink="false">arxiv:2609.09873</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图的诱导覆盖数与非诱导覆盖数之间的有界性与分离性，针对客人类 $\mathcal{G}$ 和宿主类 $\mathcal{H}$ 的各种结构性质，确定了绑定函数存在的条件，并解决了 240 种可能的三元组中的 219 种。<br/><br/>命中: chromatic number, treewidth<br/><br/>Miriam Goetze, Yidi Zang]]></description>
+    </item>
+    <item>
+      <title>Oriented paths with two blocks in bipartite oriented graphs</title>
+      <link>https://arxiv.org/abs/2609.09935</link>
+      <guid isPermaLink="false">arxiv:2609.09935</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个最小半度至少为 $3k/8+2$ 的二部定向图包含所有长度为 $k$ 的两块定向路径，其中 $k\ge 2$。<br/><br/>命中: oriented graph, oriented, threshold<br/><br/>Bin Chen, Meishuang Chen, Xinmin Hou, Xinyu Zhou]]></description>
+    </item>
+    <item>
+      <title>An Improved Upper Bound for the Turán Number of the Hexagon</title>
+      <link>https://arxiv.org/abs/2609.10003</link>
+      <guid isPermaLink="false">arxiv:2609.10003</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了六边形 $C_6$ 的 Turán 数上界，证明对于充分大的 $n$，$\operatorname{ex}(n,C_6) \leq \alpha n^{4/3}+O(n) &lt; 0.6144 n^{4/3}$，其中 $\alpha$ 是方程 $4 \alpha^{3} (3/2)^{1-1/(2\alpha)} =1$ 在 $(1/2,2/3)$ 内的唯一实根。<br/><br/>命中: extremal graph, Turán number<br/><br/>Sandip Das, Sk Samim Islam, Aashirwad Mohapatra, Saumya Sen]]></description>
+    </item>
+    <item>
+      <title>On $S$-packing total colorings</title>
+      <link>https://arxiv.org/abs/2609.10107</link>
+      <guid isPermaLink="false">arxiv:2609.10107</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入了 $S$-packing total coloring 的新概念，推广了 packing total coloring，并给出了 $\chi_S^{''}(G)$ 的一般上下界、小值刻画以及若干特殊图类的精确值。<br/><br/>命中: chromatic number<br/><br/>Jasmina Ferme, Jaka Hedžet, Petra Melicharova, Daša Mesarič Štesl]]></description>
+    </item>
+    <item>
+      <title>The VC-dimension of strongly regular graphs</title>
+      <link>https://arxiv.org/abs/2609.10330</link>
+      <guid isPermaLink="false">arxiv:2609.10330</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了 $n$-existentially closed 图的最小边数 $m(v,n)$，并系统研究了 strongly regular graphs (SRGs) 的 VC-dimension，刻画了 VC-dimension 为 2 的充分大 SRGs，确定了充分大 Latin square graphs 及所有阶至多 28 的 SRGs 的 VC-dimension，并证明了最小特征值为给定整数的 SRGs 具有有界 VC-dimension。<br/><br/>命中: Latin square<br/><br/>Isabel Byrne, John Byrne, Sebastian M. Cioabă]]></description>
+    </item>
+    <item>
+      <title>The density of long runs of non-$r$-free integers</title>
+      <link>https://arxiv.org/abs/2609.09221</link>
+      <guid isPermaLink="false">arxiv:2609.09221</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了非 $r$-free 整数长串的密度 $D_k$ 的渐近展开，并由此精确得到 Mirsky 常数 $\alpha(h)$ 的渐近式，改进了此前仅有的单侧估计。<br/><br/>命中: threshold<br/><br/>Xinyang Jiang]]></description>
+    </item>
+    <item>
+      <title>Spectral Algebras of Abelian Cayley Graphs</title>
+      <link>https://arxiv.org/abs/2609.09222</link>
+      <guid isPermaLink="false">arxiv:2609.09222</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了有限阿贝尔群 Cayley 图的谱代数在特征不整除群阶的域上通过特征轨道分解为半单的域扩张乘积，并给出了维数、幂等元计数及显式计算。<br/><br/>命中: Cayley graph<br/><br/>Deep Bhattacharjee, Priyabrata Mandal, Ushashi Bhattacharya]]></description>
+    </item>
+    <item>
+      <title>On the Hamiltonicity of generating graphs of almost simple groups</title>
+      <link>https://arxiv.org/abs/2609.09391</link>
+      <guid isPermaLink="false">arxiv:2609.09391</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于足够大的、socle 为 Lie type 的几乎单群，其生成图 $\Gamma(G)$ 包含 Hamiltonian cycle，从而完成了 Breuer 等人猜想在几乎单群情形下的渐近证明。<br/><br/>命中: Hamiltonian cycle, Hamiltonicity<br/><br/>Luigi Iorio]]></description>
+    </item>
     <item>
       <title>Algebraic characterizations of generating and affinely generating $Γ$-magic maps and $Γ$-distance magic labelings on regular graphs</title>
       <link>https://arxiv.org/abs/2609.05934</link>
@@ -1063,55 +1147,6 @@
       <guid isPermaLink="false">arxiv:2608.19972</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文研究了由欧拉函数、除数和函数与 Dedekind 函数复合而成的四类函数的例外集，给出了其计数函数的定量上界，改进了已有密度结果。<br/><br/>命中: threshold<br/><br/>Aimin Guo]]></description>
-    </item>
-    <item>
-      <title>Ramsey number $R(4, 20) \ge 252$</title>
-      <link>https://arxiv.org/abs/2608.18169</link>
-      <guid isPermaLink="false">arxiv:2608.18169</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了两个素数阶 $251$ 的显式循环图，它们无 $K_4$ 且独立数为 $19$，从而证明了 Ramsey 数 $R(4,20) \ge 252$，显著改进了已知下界。<br/><br/>命中: Ramsey number<br/><br/>Charlie Yu]]></description>
-    </item>
-    <item>
-      <title>Schur polynomials twisted by roots of unity and reciprocal pairs: torsion filters, fusion quotients, and an equal-rank reduction at odd order</title>
-      <link>https://arxiv.org/abs/2608.18302</link>
-      <guid isPermaLink="false">arxiv:2608.18302</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了Schur多项式在单位根和互反对处的取值，确定了其非零条件，并给出了奇偶两种情形下的显式公式和猜想。<br/><br/>命中: transversal<br/><br/>Carles Marín]]></description>
-    </item>
-    <item>
-      <title>Matchings and product growth in modular abelian independence groups</title>
-      <link>https://arxiv.org/abs/2608.18340</link>
-      <guid isPermaLink="false">arxiv:2608.18340</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过引入独立群的概念，统一了群中有限子集与域扩张中有限维子空间的匹配理论，并在模阿贝尔独立群中建立了匹配的秩判据和乘积增长界，推广了Cauchy–Davenport定理。<br/><br/>命中: transversal<br/><br/>Mohsen Aliabadi, Jozsef Losonczy]]></description>
-    </item>
-    <item>
-      <title>Counterexample to the Bougard-Joret Conjecture</title>
-      <link>https://arxiv.org/abs/2608.18828</link>
-      <guid isPermaLink="false">arxiv:2608.18828</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文否证了Bougard-Joret猜想，确定了边界情形$n=\alpha+k$下$f(n,\alpha,k)$的精确值，并刻画了所有极值图。<br/><br/>命中: extremal graph<br/><br/>Joyentanuj Das, Sayan Gupta]]></description>
-    </item>
-    <item>
-      <title>Inversion Diameter of Planar Graphs</title>
-      <link>https://arxiv.org/abs/2608.18942</link>
-      <guid isPermaLink="false">arxiv:2608.18942</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了任意图 $G$ 的反演直径不超过 $2\chi_a(G)-2$，从而将平面图的反演直径上界从 12 改进到 8，并进一步得到围长至少 4、5、6 的平面图的反演直径上界分别为 7、5、4。<br/><br/>命中: oriented graph, oriented, chromatic number<br/><br/>Yichen Wang, Yuxuan Yang]]></description>
-    </item>
-    <item>
-      <title>Exact random covers of metric trees: balanced rounding, duality, and sharp thresholds</title>
-      <link>https://arxiv.org/abs/2608.18967</link>
-      <guid isPermaLink="false">arxiv:2608.18967</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Norin 和 Turcotte 关于有限度量树的随机覆盖猜想，并建立了任意预算下的对偶准则。<br/><br/>命中: threshold<br/><br/>Qi Wu, Yong Lu]]></description>
-    </item>
-    <item>
-      <title>A Near-Optimal Linear Range for the Erdős Matching Conjecture</title>
-      <link>https://arxiv.org/abs/2608.19118</link>
-      <guid isPermaLink="false">arxiv:2608.19118</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Erdős 匹配猜想在近最优线性范围内成立，即对于固定的 $k\ge2$，存在 $s_0(k)$，使得当 $s\ge s_0(k)$ 且 $n\ge(k+1)s$ 时，所有 $k$-均匀超图若匹配数不超过 $s$，则其边数最多为 $\binom{n}{k}-\binom{n-s}{k}$，且等号仅由覆盖族取得。<br/><br/>命中: @Hong Liu<br/><br/>Mengyu Cao, Hong Liu, Haixiang Zhang]]></description>
     </item>
   </channel>
 </rss>
