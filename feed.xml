@@ -5,8 +5,29 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 11 Sep 2026 07:22:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 08:00:05 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Exponential tails for factors and the chromatic number of random graphs</title>
+      <link>https://arxiv.org/abs/2609.12700</link>
+      <guid isPermaLink="false">arxiv:2609.12700</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了随机图 $G(n,p)$ 中因子（factors）存在性的指数尾界，并由此给出了随机图 chromatic number 的指数集中性。<br/><br/>命中: random graph, chromatic number<br/><br/>Zhifei Yan]]></description>
+    </item>
+    <item>
+      <title>Spanning subhypergraphs with degree constraints</title>
+      <link>https://arxiv.org/abs/2609.13002</link>
+      <guid isPermaLink="false">arxiv:2609.13002</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在 $r$-uniform 超图中，当最小度条件满足时，存在具有给定度约束的生成子超图，推广了经典的图论结果。<br/><br/>命中: @Noga Alon<br/><br/>Noga Alon, Penny Haxell, Aleksa Milojević, Jacques Verstraëte]]></description>
+    </item>
+    <item>
+      <title>Local Search for Almost-Spanning Square Grids in Erdős--Rényi Random Graphs</title>
+      <link>https://arxiv.org/abs/2609.12647</link>
+      <guid isPermaLink="false">arxiv:2609.12647</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文利用 local search 算法研究 Erdős--Rényi 随机图 $G(n,p)$ 中几乎生成的正方形网格（square grid）的嵌入问题，确定了相应的阈值概率。<br/><br/>命中: random graph<br/><br/>Dávid Ferenczi, Alexander Grigoriev]]></description>
+    </item>
     <item>
       <title>Threshold Graphs Allow Few Distinct Eigenvalues: A New Approach</title>
       <link>https://arxiv.org/abs/2609.10623</link>
@@ -1028,62 +1049,6 @@
       <guid isPermaLink="false">arxiv:2608.23010</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文改进了 Tuza 猜想的已知上界，证明对任意图 $G$，有 $\tau(G) \leq \frac{63}{22}\nu(G)$，优于 Haxell 在 1999 年得到的 $\frac{66}{23}$ 上界。<br/><br/>命中: transversal<br/><br/>Lixing Yi]]></description>
-    </item>
-    <item>
-      <title>Perfect state transfer and Cayley presentations</title>
-      <link>https://arxiv.org/abs/2608.20476</link>
-      <guid isPermaLink="false">arxiv:2608.20476</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文从图而非群的角度研究Cayley图上的完美态转移，证明了在若干条件下，具有指数二阿贝尔子群的群或超特殊$p$-群的Cayley图实际上是阿贝尔群的Cayley图，从而表明许多已知的完美态转移构造本质上是阿贝尔的，但同时也构造了第一个无限族非阿贝尔Cayley图（$SL(2,q)$图）具有完美态转移。<br/><br/>命中: Cayley graph<br/><br/>Arnbjörg Soffía Árnadóttir, Krystal Guo]]></description>
-    </item>
-    <item>
-      <title>On nearly consecutive sequences without long arithmetic progressions</title>
-      <link>https://arxiv.org/abs/2608.20533</link>
-      <guid isPermaLink="false">arxiv:2608.20533</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了存在长度至少为 $\Omega(2^k/k^2)$ 的 nearly consecutive 序列，其中不含 $k$-term arithmetic progression，改进了 Alon 和 Zaks 在 1998 年的结果，并推广到有界间隙的序列。<br/><br/>命中: @Jacob Fox<br/><br/>Jacob Fox, Carl Schildkraut]]></description>
-    </item>
-    <item>
-      <title>Ptolemaic negative type and the values q(6) and q(7)</title>
-      <link>https://arxiv.org/abs/2608.20606</link>
-      <guid isPermaLink="false">arxiv:2608.20606</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了三角超域阈值 q(6)=log_2(9/4) 和 q(7)=1，从而验证了 Baker、Huh、Kummer 和 Lorscheid 关于 q(n) 的猜想在 n=6,7 时的情形。<br/><br/>命中: threshold<br/><br/>Eren Ercan]]></description>
-    </item>
-    <item>
-      <title>A new lower bound for two-color van der Waerden numbers</title>
-      <link>https://arxiv.org/abs/2608.20824</link>
-      <guid isPermaLink="false">arxiv:2608.20824</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 van der Waerden 数 $w(k)$ 满足 $w(k) \geq (1-o(1))k2^{k-1}$，从而验证了 Erdős 的猜想。<br/><br/>命中: @Jacob Fox, @Marcelo Campos<br/><br/>Marcelo Campos, Jacob Fox, Carl Schildkraut]]></description>
-    </item>
-    <item>
-      <title>A cube-root phase transition in tree-child networks and the enumeration threshold for galled networks</title>
-      <link>https://arxiv.org/abs/2608.20860</link>
-      <guid isPermaLink="false">arxiv:2608.20860</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了树状儿童网络在叶数 $n$ 和网状节点数 $k$ 满足 $k=o(n^{1/3})$ 时几乎必然是半单纯树状儿童网络，而当 $k/n^{1/3}\to\infty$ 且 $k=o(n^{1/2})$ 时则几乎必然不是，并由此得出带固定 $k$ 的 galled 网络的渐近计数公式仅在 $k=o(n^{1/3})$ 范围内有效。<br/><br/>命中: threshold<br/><br/>Michael Fuchs, Hao Yu]]></description>
-    </item>
-    <item>
-      <title>A Method of Construction of Pairwise Additive Balanced Incomplete Block Designs</title>
-      <link>https://arxiv.org/abs/2608.21048</link>
-      <guid isPermaLink="false">arxiv:2608.21048</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文提出一种从仿射可解半正则群可除设计（ARSRGD）构造两两可加平衡不完全区组设计（BIB）的新方法，并利用广义Hadamard矩阵得到若干新的无穷系列。<br/><br/>命中: block design<br/><br/>Kazuki Matsubara, Satoru Kadowaki]]></description>
-    </item>
-    <item>
-      <title>Rigidity of expanders and pseudorandom graphs</title>
-      <link>https://arxiv.org/abs/2608.21058</link>
-      <guid isPermaLink="false">arxiv:2608.21058</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了伪随机图（包括 C-expander 和 (n,r,λ)-图）在满足一定参数条件下是刚性的，推广了作者之前关于随机图刚性的结果。<br/><br/>命中: Hamiltonicity, @Michael Krivelevich<br/><br/>Michael Krivelevich, Alan Lew, Peleg Michaeli]]></description>
-    </item>
-    <item>
-      <title>Exact Minimum $d$-Degree Thresholds for Hypergraph Perfect Matchings</title>
-      <link>https://arxiv.org/abs/2608.21347</link>
-      <guid isPermaLink="false">arxiv:2608.21347</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了足够大的 $n$ 下，$k$-一致超图中强制出现完美匹配的最小 $d$-度阈值，解决了 Treglown 和 Zhao 提出的猜想。<br/><br/>命中: threshold<br/><br/>Jie Han, Hongliang Lu, Bin Wang, Feihong Yuan]]></description>
     </item>
   </channel>
 </rss>
