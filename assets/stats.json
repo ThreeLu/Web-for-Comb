@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-15T07:55:19+00:00",
-  "total_days": 77,
-  "total_matched": 709,
+  "generated": "2026-09-16T07:48:10+00:00",
+  "total_days": 78,
+  "total_matched": 720,
   "daily": [
     {
       "date": "2026-06-02",
@@ -387,20 +387,25 @@
       "date": "2026-09-15",
       "matched": 12,
       "fetched": 152
+    },
+    {
+      "date": "2026-09-16",
+      "matched": 11,
+      "fetched": 84
     }
   ],
   "keywords": [
     [
       "threshold",
-      149
+      152
     ],
     [
       "chromatic number",
-      87
+      88
     ],
     [
       "Cayley graph",
-      57
+      58
     ],
     [
       "oriented",
@@ -408,11 +413,11 @@
     ],
     [
       "extremal graph",
-      46
+      47
     ],
     [
       "Ramsey number",
-      37
+      38
     ],
     [
       "random graph",
@@ -420,7 +425,7 @@
     ],
     [
       "transversal",
-      32
+      33
     ],
     [
       "Turán number",
@@ -471,11 +476,11 @@
       7
     ],
     [
-      "Hamilton path",
-      6
+      "block design",
+      7
     ],
     [
-      "block design",
+      "Hamilton path",
       6
     ],
     [
@@ -483,12 +488,12 @@
       5
     ],
     [
-      "extremal combinatorics",
+      "hypergraph container",
       5
     ],
     [
-      "hypergraph container",
-      4
+      "extremal combinatorics",
+      5
     ],
     [
       "bootstrap percolation",
@@ -563,6 +568,10 @@
       2
     ],
     [
+      "container method",
+      2
+    ],
+    [
       "graph removal lemma",
       2
     ],
@@ -583,10 +592,6 @@
       1
     ],
     [
-      "container method",
-      1
-    ],
-    [
       "rainbow Turán",
       1
     ]
@@ -602,7 +607,7 @@
     ],
     [
       "Richard Montgomery",
-      3
+      4
     ],
     [
       "Zach Hunter",
@@ -690,6 +695,10 @@
     ],
     [
       "Oliver Riordan",
+      1
+    ],
+    [
+      "Rajko Nenadov",
       1
     ]
   ]
