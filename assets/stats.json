@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-16T07:48:10+00:00",
-  "total_days": 78,
-  "total_matched": 720,
+  "generated": "2026-09-17T07:52:01+00:00",
+  "total_days": 79,
+  "total_matched": 724,
   "daily": [
     {
       "date": "2026-06-02",
@@ -392,6 +392,11 @@
       "date": "2026-09-16",
       "matched": 11,
       "fetched": 84
+    },
+    {
+      "date": "2026-09-17",
+      "matched": 4,
+      "fetched": 77
     }
   ],
   "keywords": [
@@ -440,16 +445,20 @@
       20
     ],
     [
-      "Hamilton cycle",
-      18
+      "Hamiltonicity",
+      19
     ],
     [
-      "Hamiltonicity",
+      "Hamilton cycle",
       18
     ],
     [
       "Hamiltonian cycle",
       15
+    ],
+    [
+      "treewidth",
+      14
     ],
     [
       "supersaturation",
@@ -458,10 +467,6 @@
     [
       "Turán problem",
       14
-    ],
-    [
-      "treewidth",
-      13
     ],
     [
       "generalized Turán",
@@ -599,7 +604,7 @@
   "authors": [
     [
       "Hong Liu",
-      12
+      13
     ],
     [
       "Benny Sudakov",
@@ -619,6 +624,10 @@
     ],
     [
       "Noga Alon",
+      2
+    ],
+    [
+      "Peter Keevash",
       2
     ],
     [
@@ -655,10 +664,6 @@
     ],
     [
       "Tom Kelly",
-      1
-    ],
-    [
-      "Peter Keevash",
       1
     ],
     [

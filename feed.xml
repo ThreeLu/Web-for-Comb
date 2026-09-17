@@ -5,8 +5,36 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Sep 2026 07:48:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 07:52:01 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sim-Width, Induced Matching Treewidth, and Tree-Independence Number in Induced $K_{t,t}$-Free Graphs</title>
+      <link>https://arxiv.org/abs/2609.18648</link>
+      <guid isPermaLink="false">arxiv:2609.18648</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了在无诱导 $K_{t,t}$ 的图中，sim-width、induced matching treewidth 和 tree-independence number 这三个图参数之间的关系，并给出了它们之间的等价性刻画。<br/><br/>命中: treewidth<br/><br/>Mengyuan Niu, Xiumei Wang]]></description>
+    </item>
+    <item>
+      <title>A non-trivial bound for 3AP-intersecting families</title>
+      <link>https://arxiv.org/abs/2609.18870</link>
+      <guid isPermaLink="false">arxiv:2609.18870</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 3AP-intersecting families 的一个非平凡上界，改进了此前仅有的平凡界。<br/><br/>命中: @Peter Keevash<br/><br/>Peter Keevash]]></description>
+    </item>
+    <item>
+      <title>Hamiltonicity in graphs defined by primes and primitive elements</title>
+      <link>https://arxiv.org/abs/2609.19114</link>
+      <guid isPermaLink="false">arxiv:2609.19114</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了由素数图和本原元素图定义的图类，证明了这些图在特定条件下具有 Hamilton 圈。<br/><br/>命中: Hamiltonicity<br/><br/>Yue-Feng She]]></description>
+    </item>
+    <item>
+      <title>A proof of Chvátal's conjecture via a sharp correlation inequality</title>
+      <link>https://arxiv.org/abs/2609.19123</link>
+      <guid isPermaLink="false">arxiv:2609.19123</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过证明一个尖锐的相关不等式，解决了 Chvátal 关于图的独立数的猜想。<br/><br/>命中: @Hong Liu<br/><br/>Fan Chang, Hong Liu, Miao Liu]]></description>
+    </item>
     <item>
       <title>Density and separation for augmented Zarankiewicz numbers</title>
       <link>https://arxiv.org/abs/2609.16555</link>
@@ -986,62 +1014,6 @@
       <guid isPermaLink="false">arxiv:2608.27285</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明，在特征大于次数且常数域足够大的有理函数域上，光滑超曲面的 Birch 定理所需的变量数可从次数的指数函数改进为二次函数，与无条件存在有理点的尖锐二次阈值一致。<br/><br/>命中: threshold<br/><br/>Matthew Hase-Liu]]></description>
-    </item>
-    <item>
-      <title>Rainbow Turán numbers for paths of length four</title>
-      <link>https://arxiv.org/abs/2608.25079</link>
-      <guid isPermaLink="false">arxiv:2608.25079</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了在避免彩虹 $P_5$ 的条件下，最大化 $k$ 个图的总边数或最小边数的彩虹 Turán 数问题，确定了总边数情形下的精确值，并给出了最小边数情形下的渐近结果和猜想。<br/><br/>命中: rainbow Turán, Turán number<br/><br/>Sylwia Antoniuk, Andrzej Grzesik, Magdalena Prorok, Andrzej Ruciński]]></description>
-    </item>
-    <item>
-      <title>Bounded diameter covering of 2-colored complete bipartite graphs</title>
-      <link>https://arxiv.org/abs/2608.25081</link>
-      <guid isPermaLink="false">arxiv:2608.25081</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了每个2-边染色的完全二部图的顶点可以被两个单色子图覆盖，且每个子图的直径至多为3，这是最优的。<br/><br/>命中: Ryser conjecture<br/><br/>Louis DeBiasio, András Gyárfás, Gábor N. Sárközy]]></description>
-    </item>
-    <item>
-      <title>Clique decompositions and covers for large graphs</title>
-      <link>https://arxiv.org/abs/2608.25233</link>
-      <guid isPermaLink="false">arxiv:2608.25233</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Erdős 关于边分解为团的最小总代价猜想和 Dau-Milenkovic-Puleo 关于 t-团覆盖的猜想在 n 足够大时成立，并刻画了等号情形。<br/><br/>命中: generalized Turán, graph removal lemma<br/><br/>Wentao Zhang]]></description>
-    </item>
-    <item>
-      <title>Cop numbers for subclasses of partial cubes</title>
-      <link>https://arxiv.org/abs/2608.25416</link>
-      <guid isPermaLink="false">arxiv:2608.25416</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了部分立方体子类（中位数图、单纯形图）的 cop number，给出了中位数图基于 tree-dimension 的上界，以及单纯形图的一般上下界，并确定了若干特殊单纯形图的精确值。<br/><br/>命中: chromatic number<br/><br/>Zhaoman Huang, Yan-Ting Xie, Shou-Jun Xu]]></description>
-    </item>
-    <item>
-      <title>Burning Steiner triple systems</title>
-      <link>https://arxiv.org/abs/2608.25627</link>
-      <guid isPermaLink="false">arxiv:2608.25627</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了Steiner三元系统（STS）中的图燃烧和惰性燃烧过程，给出了任意STS燃烧数的对数界，证明了任意整数ρ≥3存在燃烧数为ρ的STS，并揭示了惰性燃烧与STS维数的等价性。<br/><br/>命中: Steiner triple system, combinatorial design<br/><br/>Andrea C. Burgess, Peter H. Danziger, Caleb W. Jones, Trent G. Marbach, David A. Pike]]></description>
-    </item>
-    <item>
-      <title>On the isolation numbers in graph products</title>
-      <link>https://arxiv.org/abs/2608.25752</link>
-      <guid isPermaLink="false">arxiv:2608.25752</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了图的各种乘积（直接、强、字典序和笛卡尔积）中的隔离数，特别是 $\cal F$-隔离数，给出了上下界并确定了若干精确值。<br/><br/>命中: transversal<br/><br/>Boštjan Brešar, Douglas F. Rall]]></description>
-    </item>
-    <item>
-      <title>The neighbourhood convexity</title>
-      <link>https://arxiv.org/abs/2608.25912</link>
-      <guid isPermaLink="false">arxiv:2608.25912</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究图上的邻域凸性（$n$-convexity），一种基于公共闭邻域闭包算子的新有限凸性空间，刻画了其凸几何的结构，并揭示了奇偶性、准星顶点与邻域预序之间的联系。<br/><br/>命中: threshold<br/><br/>Daniela Bubboloni, José Cáceres]]></description>
-    </item>
-    <item>
-      <title>Complete Mappings of Semigroups</title>
-      <link>https://arxiv.org/abs/2608.25092</link>
-      <guid isPermaLink="false">arxiv:2608.25092</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了有限半群上的完全映射，证明了存在完全映射的半群必为正则半群，并将问题归结为对主因子的分析，进而对几类重要半群（如变换半群、线性幺半群、划分幺半群等）给出了完全映射存在的充要条件。<br/><br/>命中: transversal, Latin square<br/><br/>João Araújo, Wolfram Bentz, Peter J. Cameron, Kevin Hendrey, Michael Kinyon]]></description>
     </item>
   </channel>
 </rss>
