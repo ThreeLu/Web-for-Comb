@@ -5,8 +5,29 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 17 Sep 2026 07:52:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 07:30:21 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The homomorphism threshold of odd cycle $C_{2k-1}$ is below $\frac{1}{2k-1}$</title>
+      <link>https://arxiv.org/abs/2609.20237</link>
+      <guid isPermaLink="false">arxiv:2609.20237</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了奇圈 $C_{2k-1}$ 的同态阈值严格小于 $\frac{1}{2k-1}$，给出了首个低于该平凡下界的界。<br/><br/>命中: threshold<br/><br/>Jian Wang, Shipeng Wang, Zixiang Xu]]></description>
+    </item>
+    <item>
+      <title>New upper bounds for the chromatic numbers of Euclidean spaces</title>
+      <link>https://arxiv.org/abs/2609.20436</link>
+      <guid isPermaLink="false">arxiv:2609.20436</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了欧几里得空间 $\mathbb{R}^n$ 的色数上界，通过构造新的有限单位距离图，给出了 $n=5,6,7,8$ 等维度的更优上界。<br/><br/>命中: chromatic number<br/><br/>Leonid Ivanov, Nadezhda Glushkova]]></description>
+    </item>
+    <item>
+      <title>Fractional expectation thresholds and the &amp;#34;second&amp;#34; Kahn-Kalai conjecture</title>
+      <link>https://arxiv.org/abs/2609.20546</link>
+      <guid isPermaLink="false">arxiv:2609.20546</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了关于分数期望阈值的“第二”Kahn-Kalai 猜想，给出了一个上界，表明分数期望阈值与期望阈值在常数因子内等价。<br/><br/>命中: Kahn-Kalai, threshold<br/><br/>Tuan Tran]]></description>
+    </item>
     <item>
       <title>Sim-Width, Induced Matching Treewidth, and Tree-Independence Number in Induced $K_{t,t}$-Free Graphs</title>
       <link>https://arxiv.org/abs/2609.18648</link>
@@ -923,97 +944,6 @@
       <guid isPermaLink="false">arxiv:2608.27908</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文改进了线性 Khintchine 不等式，揭示了高维下下界改善的相变现象，并由此得到线性阈值函数一阶 Fourier 权重的更优下界 $\mathbf{W}^{\leq 1}[\mathrm{LTF}] \geq 0.53317$。<br/><br/>命中: threshold<br/><br/>Xuan Fang, Tianyu Wang]]></description>
-    </item>
-    <item>
-      <title>Signless Laplacian spectral conditions for rainbow matchings in a collection of bipartite graphs</title>
-      <link>https://arxiv.org/abs/2608.26712</link>
-      <guid isPermaLink="false">arxiv:2608.26712</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文利用 shifting technique 证明了：若一组二分图 $\mathcal{G}=\{G_1,\ldots,G_k\}$ 中每个图的 signless Laplacian 谱半径满足 $q(G_i)\ge b+k-1+\sqrt{(k-1)b}$，则 $\mathcal{G}$ 存在大小为 $k$ 的 rainbow matching，除非所有图都同构于 $K_{k-1,b}\cup\overline{K_{a-k+1}}$。<br/><br/>命中: rainbow matching<br/><br/>Zhiwei Guo, Nanxi Pan, Li Li, Yangyang Chen]]></description>
-    </item>
-    <item>
-      <title>Packing and Covering Cycles Through Prescribed Vertices</title>
-      <link>https://arxiv.org/abs/2608.26772</link>
-      <guid isPermaLink="false">arxiv:2608.26772</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了一个关于通过指定顶点集的环的 packing 与 covering 对偶定理，回答了 Bowler 等人提出的一个公开问题。<br/><br/>命中: transversal<br/><br/>Hanzhi Bai, Jin Yan]]></description>
-    </item>
-    <item>
-      <title>The Bounded-VC chromatic thresholds of graphs</title>
-      <link>https://arxiv.org/abs/2608.27068</link>
-      <guid isPermaLink="false">arxiv:2608.27068</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了所有色数至少为3的图$H$的有界VC维色阈值$\text{VC}(H)$，给出了一个基于分解族是否含森林的二分判定公式。<br/><br/>命中: threshold, chromatic number<br/><br/>Jinze Hu, Qinghai Liu, Liping Zhang, Yanmei Hong]]></description>
-    </item>
-    <item>
-      <title>Counting Successor-Closed Subsets of Functional Digraphs</title>
-      <link>https://arxiv.org/abs/2608.27145</link>
-      <guid isPermaLink="false">arxiv:2608.27145</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究 functional digraph 中 successor-closed subsets 的计数，给出生成函数的递归公式，并确定在固定顶点数和边数下同时最大化所有大小 successor-closed subsets 数量的极值图，由此得到 Bollobas 集合对不等式的一个定量概率加强。<br/><br/>命中: threshold<br/><br/>Mathias Marty]]></description>
-    </item>
-    <item>
-      <title>On Eigenvalue Bounds for Bounded Genus Graphs and Minor-Free Graphs</title>
-      <link>https://arxiv.org/abs/2608.27179</link>
-      <guid isPermaLink="false">arxiv:2608.27179</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文解决了 Spielman 和 Teng 关于可嵌入亏格 $g$ 曲面的图的谱划分方法性能的 30 年猜想，并给出了 $K_h$-minor-free 图的改进特征值界。<br/><br/>命中: Lovász local lemma<br/><br/>Benedikt Kolbe, Jack Spalding-Jamieson]]></description>
-    </item>
-    <item>
-      <title>On di-Cayley graphs and their spectrum</title>
-      <link>https://arxiv.org/abs/2608.27231</link>
-      <guid isPermaLink="false">arxiv:2608.27231</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入了有向Cayley图（di-Cayley graphs）及其和图的推广，并利用邻接矩阵和不可约特征两种方法，将其谱用相关Cayley图的谱表示。<br/><br/>命中: Cayley graph<br/><br/>Paula M. Chiapparoli, Ricardo A. Podesta]]></description>
-    </item>
-    <item>
-      <title>An Extremal Spectral Problem for Triangle-Free Graphs Arising from Quantum Transport</title>
-      <link>https://arxiv.org/abs/2608.27235</link>
-      <guid isPermaLink="false">arxiv:2608.27235</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了量子输运问题中三角-free图上的谱图泛函 $\Phi_\tau$ 在 $\tau \le \tau_c$ 时的精确最大值，并证明平衡完全二部图 $B_1$ 是唯一达到最大值的图，同时给出了稳定性结果和有限图收敛性。<br/><br/>命中: threshold<br/><br/>Xingkun Song]]></description>
-    </item>
-    <item>
-      <title>Almost factorial many facets for 0/1-polytopes</title>
-      <link>https://arxiv.org/abs/2608.27247</link>
-      <guid isPermaLink="false">arxiv:2608.27247</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过构造具有至少 $(n-\lceil 2\log_2 n\rceil -1)!$ 个面的 $0/1$-多胞体，大幅改进了 $g(n)$ 的下界，并确定了 $\log g(n)$ 的渐近行为（误差为 $O((\log n)^2)$）。<br/><br/>命中: probabilistic method<br/><br/>Federico Castillo, Luis Ferroni]]></description>
-    </item>
-    <item>
-      <title>Boxicity and Threshold Dimension of Zero Divisor Graphs</title>
-      <link>https://arxiv.org/abs/2608.27381</link>
-      <guid isPermaLink="false">arxiv:2608.27381</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了有限交换环的零因子图的 boxicity 和 threshold dimension，针对约化环和主理想整环的商环两类环，并回答了 Chandran 和 Sahoo 提出的两个问题。<br/><br/>命中: threshold<br/><br/>Marco Caoduro, Meike Neuwohner]]></description>
-    </item>
-    <item>
-      <title>The Erdos--Gallai bound for consecutive even cycle lengths</title>
-      <link>https://arxiv.org/abs/2608.27404</link>
-      <guid isPermaLink="false">arxiv:2608.27404</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Erdős–Gallai 界同样适用于禁止 $t$ 个连续偶数圈长，解决了 Verstraëte 的猜想，并确定了强制 $0 \bmod k$ 或 $2 \bmod k$ 圈的边数阈值。<br/><br/>命中: threshold, @Hong Liu<br/><br/>Yaobin Chen, Hong Liu, Xia Wang, Xin Wei, Fan Yang]]></description>
-    </item>
-    <item>
-      <title>Asymptotic Bounds for Online Ramsey Numbers of Stars versus Long Paths and Cycles</title>
-      <link>https://arxiv.org/abs/2608.27405</link>
-      <guid isPermaLink="false">arxiv:2608.27405</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文改进了在线 Ramsey 游戏中星图 $K_{1,k}$ 与长路径 $P_n$ 和长圈 $C_n$ 的在线 Ramsey 数的渐近上界，从 $(k+o(1))n$ 降至 $\left(\frac{2k+4}{5}+o(1)\right)n$。<br/><br/>命中: Ramsey number<br/><br/>Sam Beilis, Israel R. Curbelo, Elizabeth R. Koizumi]]></description>
-    </item>
-    <item>
-      <title>Leading term strandings for webs</title>
-      <link>https://arxiv.org/abs/2608.27425</link>
-      <guid isPermaLink="false">arxiv:2608.27425</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了 $\mathfrak{sl}_n$ webs 的 leading term strandings，证明了其开弦均为顺时针方向，并利用行严格 tableau 构造了具有指定 leading term 的 webs，从而给出了 Fontaine 的 $\mathfrak{sl}_n$ web bases 的非递归构造，同时为 $\mathfrak{sl}_3$ webs 提供了基于面深度的 leading term stranding 识别方法及 strand reversal 可达性结果。<br/><br/>命中: oriented<br/><br/>Michael Bo, Madelyn Burns, Junyang Chen, Blaise Marsho, Jacob Martin, Jade Mawn, Bella Mohren, Heather M. Russell, Caitlin Sales, Lance Wong]]></description>
-    </item>
-    <item>
-      <title>Birch's theorem over function fields with quadratically many variables</title>
-      <link>https://arxiv.org/abs/2608.27285</link>
-      <guid isPermaLink="false">arxiv:2608.27285</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明，在特征大于次数且常数域足够大的有理函数域上，光滑超曲面的 Birch 定理所需的变量数可从次数的指数函数改进为二次函数，与无条件存在有理点的尖锐二次阈值一致。<br/><br/>命中: threshold<br/><br/>Matthew Hase-Liu]]></description>
     </item>
   </channel>
 </rss>
