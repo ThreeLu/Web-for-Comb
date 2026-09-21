@@ -5,8 +5,43 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 18 Sep 2026 07:30:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 08:05:07 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Graph Decompositions at the Expectation Threshold</title>
+      <link>https://arxiv.org/abs/2609.20864</link>
+      <guid isPermaLink="false">arxiv:2609.20864</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了随机图 $G(n,p)$ 在期望阈值处的图分解问题，证明了当 $p$ 略高于使 $G(n,p)$ 包含给定图 $H$ 的副本的期望阈值时，$G(n,p)$ 可以几乎必然地被 $H$ 的副本分解。<br/><br/>命中: threshold<br/><br/>Jia-Qi Yang]]></description>
+    </item>
+    <item>
+      <title>Spectral Extremal Graphs without a $K_k$-Factor</title>
+      <link>https://arxiv.org/abs/2609.21529</link>
+      <guid isPermaLink="false">arxiv:2609.21529</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了在给定边数或谱半径条件下，不含 $K_k$-factor 的图的谱极值图，并给出了相应的谱 Turán 型定理。<br/><br/>命中: extremal graph<br/><br/>Cunxiang Duan, Tingting Han, Lin-Peng Zhang]]></description>
+    </item>
+    <item>
+      <title>Induced packing treewidth II. Excluding a clique or a biclique</title>
+      <link>https://arxiv.org/abs/2609.21615</link>
+      <guid isPermaLink="false">arxiv:2609.21615</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了诱导 packing treewidth 在排除 clique 或 biclique 作为诱导子图时的行为，给出了其与树宽、团大小等参数之间的精确关系。<br/><br/>命中: treewidth<br/><br/>Amir Nikabadi, Paweł Rzążewski]]></description>
+    </item>
+    <item>
+      <title>Local large deviations for triangles in sparse random graphs</title>
+      <link>https://arxiv.org/abs/2609.21890</link>
+      <guid isPermaLink="false">arxiv:2609.21890</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了稀疏随机图 $G(n,p)$ 中三角形数量的局部大偏差，给出了当三角形数量偏离其均值时概率的精确渐近估计。<br/><br/>命中: random graph<br/><br/>Jade Lintott, Will Perkins, Corrine Yap]]></description>
+    </item>
+    <item>
+      <title>Automorphism groups of Cayley graphs on almost simple groups with normal connection sets</title>
+      <link>https://arxiv.org/abs/2609.21679</link>
+      <guid isPermaLink="false">arxiv:2609.21679</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了几乎单群上具有正规连接集的 Cayley 图的自同构群，并给出了其自同构群的一个刻画。<br/><br/>命中: Cayley graph<br/><br/>Mengyu Cao, Benjian Lv, Binzhou Xia]]></description>
+    </item>
     <item>
       <title>The homomorphism threshold of odd cycle $C_{2k-1}$ is below $\frac{1}{2k-1}$</title>
       <link>https://arxiv.org/abs/2609.20237</link>
@@ -923,27 +958,6 @@
       <guid isPermaLink="false">arxiv:2608.31130</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文首次系统研究了彩色指数随机图模型（colored ERGMs），利用概率图限（graphons）推导了自由能的变分表示，并揭示了复制对称性、高温唯一性、零温选择原理及有限温对称破缺等关键现象。<br/><br/>命中: extremal combinatorics, random graph<br/><br/>Bhaswar B. Bhattacharya, Pierfrancesco Dionigi, Ankan Ganguly, Giulio Zucal]]></description>
-    </item>
-    <item>
-      <title>Uniformly Weighted Graphical Designs</title>
-      <link>https://arxiv.org/abs/2608.27624</link>
-      <guid isPermaLink="false">arxiv:2608.27624</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文刻画了均匀加权图设计存在的条件，并利用该结果给出了若干具有或不具有此类设计的图族，包括阈值图、线性码与线性正交阵列的对偶性，以及通过构造几乎不可约的Laplacian特征多项式来产生无均匀加权设计的图族。<br/><br/>命中: threshold, block design<br/><br/>Zawad Chowdhury, Rekha R. Thomas]]></description>
-    </item>
-    <item>
-      <title>Analysis of Polynomial Threshold Functions on Random Regular Graphs: Computational Complexity of Detecting Noisy Random Lift</title>
-      <link>https://arxiv.org/abs/2608.28539</link>
-      <guid isPermaLink="false">arxiv:2608.28539</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文首次分析了低次多项式阈值函数在检测带噪随机提升图与均匀随机正则图之间的假设检验问题中的计算复杂度，并推广了短环计数分布的结果。<br/><br/>命中: threshold<br/><br/>Xifan Yu]]></description>
-    </item>
-    <item>
-      <title>A Two-regime Khintchine Inequality and an Improved Bound on the Degree-1 Fourier Weight for Linear Threshold Functions</title>
-      <link>https://arxiv.org/abs/2608.27908</link>
-      <guid isPermaLink="false">arxiv:2608.27908</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文改进了线性 Khintchine 不等式，揭示了高维下下界改善的相变现象，并由此得到线性阈值函数一阶 Fourier 权重的更优下界 $\mathbf{W}^{\leq 1}[\mathrm{LTF}] \geq 0.53317$。<br/><br/>命中: threshold<br/><br/>Xuan Fang, Tianyu Wang]]></description>
     </item>
   </channel>
 </rss>
