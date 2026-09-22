@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-21T08:05:07+00:00",
-  "total_days": 81,
-  "total_matched": 732,
+  "generated": "2026-09-22T07:49:46+00:00",
+  "total_days": 82,
+  "total_matched": 742,
   "daily": [
     {
       "date": "2026-06-02",
@@ -407,27 +407,32 @@
       "date": "2026-09-21",
       "matched": 5,
       "fetched": 59
+    },
+    {
+      "date": "2026-09-22",
+      "matched": 10,
+      "fetched": 154
     }
   ],
   "keywords": [
     [
       "threshold",
-      155
+      157
     ],
     [
       "chromatic number",
-      89
+      91
     ],
     [
       "Cayley graph",
       59
     ],
     [
-      "extremal graph",
-      48
+      "oriented",
+      49
     ],
     [
-      "oriented",
+      "extremal graph",
       48
     ],
     [
@@ -436,7 +441,7 @@
     ],
     [
       "random graph",
-      36
+      37
     ],
     [
       "transversal",
@@ -448,11 +453,11 @@
     ],
     [
       "Latin square",
-      26
+      27
     ],
     [
       "oriented graph",
-      20
+      21
     ],
     [
       "Hamiltonicity",
@@ -464,18 +469,18 @@
     ],
     [
       "treewidth",
-      15
+      16
     ],
     [
       "Hamiltonian cycle",
       15
     ],
     [
-      "supersaturation",
-      14
+      "Turán problem",
+      15
     ],
     [
-      "Turán problem",
+      "supersaturation",
       14
     ],
     [
@@ -625,6 +630,10 @@
       4
     ],
     [
+      "Peter Keevash",
+      3
+    ],
+    [
       "Zach Hunter",
       3
     ],
@@ -634,10 +643,6 @@
     ],
     [
       "Noga Alon",
-      2
-    ],
-    [
-      "Peter Keevash",
       2
     ],
     [

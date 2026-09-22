@@ -5,8 +5,78 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 21 Sep 2026 08:05:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 07:49:46 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Acyclic Dicolourings of Oriented Graphs: Paths, Random Tournaments, and Critical Orders</title>
+      <link>https://arxiv.org/abs/2609.22931</link>
+      <guid isPermaLink="false">arxiv:2609.22931</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了有向图的 acyclic dicolouring 问题，证明了有向路径的 acyclic dichromatic number 为 2，并给出了随机竞赛图和高临界阶数的相关结果。<br/><br/>命中: oriented graph, oriented<br/><br/>Yihang Liu, Zhenyu Yang, Yuwan Zhang]]></description>
+    </item>
+    <item>
+      <title>The satisfiability threshold of random linear equations over finite commutative rings</title>
+      <link>https://arxiv.org/abs/2609.23282</link>
+      <guid isPermaLink="false">arxiv:2609.23282</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了有限交换环上随机线性方程组可满足性阈值，并给出了阈值常数的显式公式。<br/><br/>命中: threshold<br/><br/>Pu Gao, Theodore Morrison]]></description>
+    </item>
+    <item>
+      <title>Multiset Colorings of Random Graphs Across Density Regimes</title>
+      <link>https://arxiv.org/abs/2609.23362</link>
+      <guid isPermaLink="false">arxiv:2609.23362</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了随机图 $G(n,p)$ 在稀疏、临界和稠密三种密度区域下的 multiset coloring 问题，确定了其 multiset chromatic number 的渐近值。<br/><br/>命中: random graph<br/><br/>Arash Ahadi, Sharareh Alipour]]></description>
+    </item>
+    <item>
+      <title>On Kahn's flow conjecture</title>
+      <link>https://arxiv.org/abs/2609.23595</link>
+      <guid isPermaLink="false">arxiv:2609.23595</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Kahn 关于有向图无处为零流的猜想，即每个无桥有向图都存在一个无处为零的整数流，其值在 $\{-k,\dots,k\}$ 中，其中 $k$ 仅依赖于最大度。<br/><br/>命中: @Peter Keevash<br/><br/>Peter Keevash]]></description>
+    </item>
+    <item>
+      <title>On the majority game chromatic number of forests and other graphs</title>
+      <link>https://arxiv.org/abs/2609.23803</link>
+      <guid isPermaLink="false">arxiv:2609.23803</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图的 majority game chromatic number，证明了森林的该参数至多为 4，并给出了若干图类的上界与下界。<br/><br/>命中: chromatic number<br/><br/>Yash Chawda, Saraswati Girish Nanoti, Brahadeesh Sankarnarayanan]]></description>
+    </item>
+    <item>
+      <title>Bounded chromatic number of graphs with small clique number and large minimum degree</title>
+      <link>https://arxiv.org/abs/2609.24097</link>
+      <guid isPermaLink="false">arxiv:2609.24097</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在无三角形（或 clique number 较小）且最小度足够大的图中，chromatic number 可以被一个绝对常数界住，从而改进了 Erdős 关于高 girth 高 chromatic number 的经典构造所引发的下界问题。<br/><br/>命中: chromatic number<br/><br/>Jiaao Li, Xinyuan Li]]></description>
+    </item>
+    <item>
+      <title>Turán problems with bounded matching number in $k$-uniform hypergraphs</title>
+      <link>https://arxiv.org/abs/2609.24353</link>
+      <guid isPermaLink="false">arxiv:2609.24353</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了在匹配数至多为 $s$ 的 $k$-uniform hypergraph 中，边数的最大值，即 Turán 数 $\mathrm{ex}(n, k, s)$，并刻画了极值结构。<br/><br/>命中: Turán problem<br/><br/>Jialin Liu, Mingyang Guo, Xiumei Wang]]></description>
+    </item>
+    <item>
+      <title>Sharp connectivity thresholds for mixed rigidity packings and improved bounds for highly connected orientations of graphs</title>
+      <link>https://arxiv.org/abs/2609.24463</link>
+      <guid isPermaLink="false">arxiv:2609.24463</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了混合 rigidity matroid 打包的 sharp connectivity 阈值，并改进了高度连通图的定向中弧连通性的界。<br/><br/>命中: threshold<br/><br/>Hanzhi Bai, Jørgen Bang-Jensen, Jin Yan]]></description>
+    </item>
+    <item>
+      <title>Symmetric Quantum Latin Squares with Maximal Cardinality</title>
+      <link>https://arxiv.org/abs/2609.24653</link>
+      <guid isPermaLink="false">arxiv:2609.24653</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了具有最大基数 $n^2$ 的对称 quantum Latin squares（SQLS），并给出了其存在性的完整刻画。<br/><br/>命中: Latin square<br/><br/>Yiwen Zhang, Haitao Cao]]></description>
+    </item>
+    <item>
+      <title>Clique-dependent strongly sublinear treewidth and strongly sublinear tree-independence number</title>
+      <link>https://arxiv.org/abs/2609.24684</link>
+      <guid isPermaLink="false">arxiv:2609.24684</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入了依赖于团数的强次线性树宽（clique-dependent strongly sublinear treewidth）和强次线性树独立数（strongly sublinear tree-independence number）两个新概念，并研究了它们的性质与关系。<br/><br/>命中: treewidth<br/><br/>Andrea Munaro]]></description>
+    </item>
     <item>
       <title>Graph Decompositions at the Expectation Threshold</title>
       <link>https://arxiv.org/abs/2609.20864</link>
@@ -874,90 +944,6 @@
       <guid isPermaLink="false">arxiv:2609.01413</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文研究了有限域上稀疏随机矩阵的有理标准型，证明了当 $n\alpha_n/\log n \to \infty$ 时，其主分解的联合分布收敛到与均匀模型相同的独立 Cohen-Lenstra 分布，并确定了尖锐稀疏阈值。<br/><br/>命中: threshold<br/><br/>Jiahe Shen]]></description>
-    </item>
-    <item>
-      <title>Resolvable quantum Latin squares with maximal cardinality</title>
-      <link>https://arxiv.org/abs/2608.29201</link>
-      <guid isPermaLink="false">arxiv:2608.29201</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过完全映射和奇异直积构造的量子推广，确定了具有最大基数的可分解量子拉丁方 $	ext{RQLS}(n)$ 的存在性，仅剩 17 个例外阶数未解决。<br/><br/>命中: transversal, Latin square<br/><br/>Yuyuan Zhang, Haitao Cao]]></description>
-    </item>
-    <item>
-      <title>Proper Conflict-Free Choosability for Graphs with Bounded Average Degree</title>
-      <link>https://arxiv.org/abs/2608.29375</link>
-      <guid isPermaLink="false">arxiv:2608.29375</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了Kashima, Škrekovski和Xu提出的关于proper conflict-free list coloring的猜想在两类有界平均度图类中成立：即最大平均度小于12/5的连通图（除C5外）和最大度至多3的连通图（除C5外）都是proper conflict-free κ_G-choosable。<br/><br/>命中: list coloring<br/><br/>Zhijun Lu, Qirui Ying, Huimin Song]]></description>
-    </item>
-    <item>
-      <title>Anti-Ramsey Number for Suspension of Edge-Critical Graphs</title>
-      <link>https://arxiv.org/abs/2608.29525</link>
-      <guid isPermaLink="false">arxiv:2608.29525</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了悬挂在边临界图上的图的 anti-Ramsey 数 $\ar(n,\mathcal{H}_{k+1})$，其中 $\mathcal{H}_{k+1}$ 由 $k+1$ 个两两不相交的边临界图悬挂一个公共顶点构成，统一并推广了 Liu 等人关于友谊图和 Lu 等人关于相交团的结果。<br/><br/>命中: Turán number, Ramsey number<br/><br/>Shuchao Li, Haojie Zheng]]></description>
-    </item>
-    <item>
-      <title>Mutually orthogonal anti-Latin squares</title>
-      <link>https://arxiv.org/abs/2608.30082</link>
-      <guid isPermaLink="false">arxiv:2608.30082</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了互斥正交anti-Latin方阵的最大族大小 $N_A(d)$，证明了对所有 $d\ge 3$ 有 $N_L(d)+1\le N_A(d)\le N_L(d)+2$，并确定了 $d=3$ 时取较小值，$d\ge 4$ 时取较大值，从而完全解决了该极值问题。<br/><br/>命中: Latin square<br/><br/>Eishiro Aoyama, So Hasegawa, Masahito Hayashi, Tomoki Sagara]]></description>
-    </item>
-    <item>
-      <title>Perfect state transfer on Cayley graphs over dihedral groups: A complete and practical characterization</title>
-      <link>https://arxiv.org/abs/2608.30347</link>
-      <guid isPermaLink="false">arxiv:2608.30347</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文给出了二面体群上连通Cayley图在共轭闭连接集下具有完美态转移的完整且实用的刻画，并确定了最小完美态转移时间。<br/><br/>命中: Cayley graph<br/><br/>Shixin Wang]]></description>
-    </item>
-    <item>
-      <title>Fast robbers on abelian Cayley graphs and digraphs</title>
-      <link>https://arxiv.org/abs/2608.30474</link>
-      <guid isPermaLink="false">arxiv:2608.30474</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了有限强连通阿贝尔Cayley有向图（包括无向Cayley图）上的快速强盗版本的Cops and Robbers游戏，证明了在有界出度$D$下，$c_{1,\infty}(\Gamma)=O_D(n^{1-1/D})$，无向情形改进为$O_D(n^{1-2/D})$，并在更广泛的缓慢增长度条件下给出统一次线性界。<br/><br/>命中: Cayley graph<br/><br/>Arindam Biswas]]></description>
-    </item>
-    <item>
-      <title>The Multicolour Size--Ramsey Number of an Even Cycle</title>
-      <link>https://arxiv.org/abs/2608.30481</link>
-      <guid isPermaLink="false">arxiv:2608.30481</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了偶数环的 $k$-色 size--Ramsey 数，证明对于所有 $k\ge2$ 和偶数 $n\ge100\log k$，$\widehat R_k(C_n)=\Theta(k^2\log k)n$，从而将上界从 $O(k^{34}n)$ 改进到最优阶。<br/><br/>命中: Ramsey number<br/><br/>Lanchao Wang, Xiaolin Wang]]></description>
-    </item>
-    <item>
-      <title>A Full-Sequence Quantitative Gap Between the Chromatic and Cochromatic Numbers of a Random Graph</title>
-      <link>https://arxiv.org/abs/2608.30604</link>
-      <guid isPermaLink="false">arxiv:2608.30604</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文解决了 Erdős 和 Gimbel 关于随机图 $G(n,1/2)$ 的色数 $\chi(G_n)$ 与共色数 $\zeta(G_n)$ 之差是否趋向无穷的问题，证明了该差以高概率至少为 $((\log 2)^2/4)\log(200/153)\, n/(\log n)^3$，并给出了依赖于 $\delta_n$ 的相变精化。<br/><br/>命中: random graph<br/><br/>Samuil Petkov]]></description>
-    </item>
-    <item>
-      <title>Exponential random graph models with soft clique constraints</title>
-      <link>https://arxiv.org/abs/2608.30869</link>
-      <guid isPermaLink="false">arxiv:2608.30869</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究带软团约束的指数随机图模型，证明当 $n$ 趋于无穷时，随机图几乎必然具有一个近似等分的 $r-1$ 部划分，部间边密度接近 $1/2$，部内边密度任意小，且该结构不依赖于正权重 $w$。<br/><br/>命中: random graph<br/><br/>Yasmin Tousinejad, Vera Koponen]]></description>
-    </item>
-    <item>
-      <title>The toughness of random graphs</title>
-      <link>https://arxiv.org/abs/2608.31056</link>
-      <guid isPermaLink="false">arxiv:2608.31056</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了二项随机图 $G(n,p)$ 的韧度 $\tau(G(n,p))$ 以高概率等于 $(n-a)/a+o(1)$，其中 $a$ 为独立数，并构造了使韧度严格低于该上界的无穷序列。<br/><br/>命中: random graph<br/><br/>Guang Li, Wenqian Zhang]]></description>
-    </item>
-    <item>
-      <title>Reduced polynomial lifts of APN permutations over Galois rings and effective non-APN bounds</title>
-      <link>https://arxiv.org/abs/2608.30808</link>
-      <guid isPermaLink="false">arxiv:2608.30808</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文澄清并修正了Rønjom和Sandrib关于Galois环上APN置换的提升猜想，证明其等价于有限域临界点猜想，并利用Janwa-Wilson-Rodier曲面给出了显式的非APN界。<br/><br/>命中: threshold<br/><br/>Daniele Bartoli, Pantelimon Stanica]]></description>
-    </item>
-    <item>
-      <title>Colorful Exponential Random Graph Models</title>
-      <link>https://arxiv.org/abs/2608.31130</link>
-      <guid isPermaLink="false">arxiv:2608.31130</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文首次系统研究了彩色指数随机图模型（colored ERGMs），利用概率图限（graphons）推导了自由能的变分表示，并揭示了复制对称性、高温唯一性、零温选择原理及有限温对称破缺等关键现象。<br/><br/>命中: extremal combinatorics, random graph<br/><br/>Bhaswar B. Bhattacharya, Pierfrancesco Dionigi, Ankan Ganguly, Giulio Zucal]]></description>
     </item>
   </channel>
 </rss>
