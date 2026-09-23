@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-22T07:49:46+00:00",
-  "total_days": 82,
-  "total_matched": 742,
+  "generated": "2026-09-23T07:52:18+00:00",
+  "total_days": 83,
+  "total_matched": 749,
   "daily": [
     {
       "date": "2026-06-02",
@@ -412,12 +412,17 @@
       "date": "2026-09-22",
       "matched": 10,
       "fetched": 154
+    },
+    {
+      "date": "2026-09-23",
+      "matched": 7,
+      "fetched": 112
     }
   ],
   "keywords": [
     [
       "threshold",
-      157
+      160
     ],
     [
       "chromatic number",
@@ -460,12 +465,12 @@
       21
     ],
     [
-      "Hamiltonicity",
+      "Hamilton cycle",
       19
     ],
     [
-      "Hamilton cycle",
-      18
+      "Hamiltonicity",
+      19
     ],
     [
       "treewidth",
@@ -516,6 +521,10 @@
       5
     ],
     [
+      "regularity lemma",
+      4
+    ],
+    [
       "bootstrap percolation",
       4
     ],
@@ -541,10 +550,6 @@
     ],
     [
       "probabilistic method",
-      3
-    ],
-    [
-      "regularity lemma",
       3
     ],
     [
@@ -596,6 +601,10 @@
       2
     ],
     [
+      "resilience",
+      2
+    ],
+    [
       "resolvable design",
       1
     ],
@@ -610,10 +619,6 @@
     [
       "Ramsey-Turán",
       1
-    ],
-    [
-      "rainbow Turán",
-      1
     ]
   ],
   "authors": [
@@ -623,11 +628,11 @@
     ],
     [
       "Benny Sudakov",
-      5
+      6
     ],
     [
       "Richard Montgomery",
-      4
+      5
     ],
     [
       "Peter Keevash",
