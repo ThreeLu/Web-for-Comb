@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-23T07:52:18+00:00",
-  "total_days": 83,
-  "total_matched": 749,
+  "generated": "2026-09-24T07:42:09+00:00",
+  "total_days": 84,
+  "total_matched": 757,
   "daily": [
     {
       "date": "2026-06-02",
@@ -417,12 +417,17 @@
       "date": "2026-09-23",
       "matched": 7,
       "fetched": 112
+    },
+    {
+      "date": "2026-09-24",
+      "matched": 8,
+      "fetched": 91
     }
   ],
   "keywords": [
     [
       "threshold",
-      160
+      162
     ],
     [
       "chromatic number",
@@ -430,7 +435,7 @@
     ],
     [
       "Cayley graph",
-      59
+      60
     ],
     [
       "oriented",
@@ -442,7 +447,7 @@
     ],
     [
       "Ramsey number",
-      38
+      42
     ],
     [
       "random graph",
@@ -510,7 +515,7 @@
     ],
     [
       "additive combinatorics",
-      5
+      6
     ],
     [
       "hypergraph container",
@@ -519,6 +524,10 @@
     [
       "extremal combinatorics",
       5
+    ],
+    [
+      "multicolour Ramsey",
+      4
     ],
     [
       "regularity lemma",
@@ -539,10 +548,6 @@
     [
       "Lovász local lemma",
       4
-    ],
-    [
-      "multicolour Ramsey",
-      3
     ],
     [
       "combinatorial design",
@@ -647,6 +652,10 @@
       3
     ],
     [
+      "Marcelo Campos",
+      3
+    ],
+    [
       "Noga Alon",
       2
     ],
@@ -663,15 +672,15 @@
       2
     ],
     [
+      "Robert Morris",
+      2
+    ],
+    [
       "Wojciech Samotij",
       2
     ],
     [
       "Jacob Fox",
-      2
-    ],
-    [
-      "Marcelo Campos",
       2
     ],
     [
@@ -696,10 +705,6 @@
     ],
     [
       "Julian Sahasrabudhe",
-      1
-    ],
-    [
-      "Robert Morris",
       1
     ],
     [
