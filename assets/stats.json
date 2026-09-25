@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-24T07:42:09+00:00",
-  "total_days": 84,
-  "total_matched": 757,
+  "generated": "2026-09-25T08:01:38+00:00",
+  "total_days": 85,
+  "total_matched": 769,
   "daily": [
     {
       "date": "2026-06-02",
@@ -422,12 +422,17 @@
       "date": "2026-09-24",
       "matched": 8,
       "fetched": 91
+    },
+    {
+      "date": "2026-09-25",
+      "matched": 12,
+      "fetched": 98
     }
   ],
   "keywords": [
     [
       "threshold",
-      162
+      164
     ],
     [
       "chromatic number",
@@ -435,15 +440,15 @@
     ],
     [
       "Cayley graph",
-      60
+      62
     ],
     [
       "oriented",
-      49
+      50
     ],
     [
       "extremal graph",
-      48
+      49
     ],
     [
       "Ramsey number",
@@ -459,22 +464,22 @@
     ],
     [
       "Turán number",
-      27
+      29
     ],
     [
       "Latin square",
-      27
+      28
     ],
     [
       "oriented graph",
       21
     ],
     [
-      "Hamilton cycle",
-      19
+      "Hamiltonicity",
+      20
     ],
     [
-      "Hamiltonicity",
+      "Hamilton cycle",
       19
     ],
     [
@@ -498,11 +503,11 @@
       10
     ],
     [
-      "list coloring",
-      7
+      "Ramsey theory",
+      8
     ],
     [
-      "Ramsey theory",
+      "list coloring",
       7
     ],
     [
@@ -633,18 +638,18 @@
     ],
     [
       "Benny Sudakov",
-      6
+      7
     ],
     [
       "Richard Montgomery",
       5
     ],
     [
-      "Peter Keevash",
-      3
+      "Zach Hunter",
+      4
     ],
     [
-      "Zach Hunter",
+      "Peter Keevash",
       3
     ],
     [
@@ -729,6 +734,10 @@
     ],
     [
       "Rajko Nenadov",
+      1
+    ],
+    [
+      "Luke Postle",
       1
     ]
   ]

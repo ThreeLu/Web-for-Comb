@@ -5,8 +5,92 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 24 Sep 2026 07:42:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 08:01:37 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Spectral extremal graphs for $W_5$-free graphs with odd size</title>
+      <link>https://arxiv.org/abs/2609.28556</link>
+      <guid isPermaLink="false">arxiv:2609.28556</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了在边数为奇数且不包含 $W_5$（5-轮图）的图中，谱半径最大的图。<br/><br/>命中: extremal graph<br/><br/>Jing Gao, Xianya Geng, Shuchao Li]]></description>
+    </item>
+    <item>
+      <title>Exact Diameter Windows for Random Cayley Graphs on Odd-Order Abelian Groups</title>
+      <link>https://arxiv.org/abs/2609.28573</link>
+      <guid isPermaLink="false">arxiv:2609.28573</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了奇数阶阿贝尔群上随机 Cayley 图直径的精确窗口，证明了直径以高概率落在 $\lceil \log_{|S|} |G| \rceil$ 附近的一个宽度为 $O(1)$ 的区间内。<br/><br/>命中: Cayley graph<br/><br/>Yao Zhi]]></description>
+    </item>
+    <item>
+      <title>Ramsey Theory for Product Trees</title>
+      <link>https://arxiv.org/abs/2609.28898</link>
+      <guid isPermaLink="false">arxiv:2609.28898</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了乘积树（product trees）上的 Ramsey 理论，证明了乘积树的边着色 Ramsey 数由各因子树的相应 Ramsey 数决定。<br/><br/>命中: Ramsey theory<br/><br/>Alexander Fish, Sean Skinner]]></description>
+    </item>
+    <item>
+      <title>A Combinatorial Proof of Hilton's Conjecture and Beyond</title>
+      <link>https://arxiv.org/abs/2609.28966</link>
+      <guid isPermaLink="false">arxiv:2609.28966</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文用组合方法证明了 Hilton 关于边着色的猜想，并给出了更一般的结论。<br/><br/>命中: @Luke Postle<br/><br/>Thomas Lesgourgues, Luke Postle]]></description>
+    </item>
+    <item>
+      <title>Orthogonal Quantum Latin Squares with Maximal Cardinality from Full-Rank Factorizations</title>
+      <link>https://arxiv.org/abs/2609.29070</link>
+      <guid isPermaLink="false">arxiv:2609.29070</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文利用 full-rank factorizations 构造了具有最大基数 $n$ 的 orthogonal quantum Latin squares 集合，其中 $n$ 为任意正整数。<br/><br/>命中: Latin square<br/><br/>Mingzhen Lv, Yuyuan Zhang, Haitao Cao]]></description>
+    </item>
+    <item>
+      <title>The strong (non-induced) Turán numbers</title>
+      <link>https://arxiv.org/abs/2609.29304</link>
+      <guid isPermaLink="false">arxiv:2609.29304</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入了强（非诱导）Turán数 $T_s(n,F)$，并确定了若干图类（如完全图、完全二部图、匹配、星、路径等）的精确值或渐近值。<br/><br/>命中: Turán number<br/><br/>Yair Caro, Zsolt Tuza]]></description>
+    </item>
+    <item>
+      <title>An improved upper bound for oriented diameter of graphs with diameter $4$</title>
+      <link>https://arxiv.org/abs/2609.29526</link>
+      <guid isPermaLink="false">arxiv:2609.29526</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了直径为 $4$ 的有向图（oriented graph）的有向直径（oriented diameter）上界为 $8$，改进了之前已知的上界 $9$。<br/><br/>命中: oriented<br/><br/>Yaokun Feng, Hui Lei, Xiaopan Lian, Zijian Ren]]></description>
+    </item>
+    <item>
+      <title>On the Exact Turán Number of $F^-_{4,3}$</title>
+      <link>https://arxiv.org/abs/2609.29903</link>
+      <guid isPermaLink="false">arxiv:2609.29903</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了图 $F^-_{4,3}$ 的精确 Turán 数，即 $\mathrm{ex}(n, F^-_{4,3})$ 的精确值。<br/><br/>命中: Turán number<br/><br/>Chun-Qiu Fang]]></description>
+    </item>
+    <item>
+      <title>Thinning and sprinkling: from robust sampling to almost Hamiltonicity</title>
+      <link>https://arxiv.org/abs/2609.30165</link>
+      <guid isPermaLink="false">arxiv:2609.30165</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在 $G(n,p)$ 随机图中，通过稀疏化（thinning）和撒点（sprinkling）操作，可以从一个鲁棒采样的子图出发，以高概率得到几乎 Hamilton 的图，从而在随机图框架下建立了鲁棒采样与 Hamiltonicity 之间的联系。<br/><br/>命中: Hamiltonicity, @Benny Sudakov, @Zach Hunter<br/><br/>Micha Christoph, Zach Hunter, Benny Sudakov]]></description>
+    </item>
+    <item>
+      <title>Thresholds and spread in set systems of bounded VC-dimension</title>
+      <link>https://arxiv.org/abs/2609.30263</link>
+      <guid isPermaLink="false">arxiv:2609.30263</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了有界 VC-dimension 的集合系统中的阈值（thresholds）和 spread 性质，给出了新的界和结构结果。<br/><br/>命中: threshold<br/><br/>Chong Shangguan]]></description>
+    </item>
+    <item>
+      <title>Boolean threshold functions, neuron capacity, and memory retrieval</title>
+      <link>https://arxiv.org/abs/2609.29756</link>
+      <guid isPermaLink="false">arxiv:2609.29756</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了布尔阈值函数（Boolean threshold functions）的计数与神经元容量（neuron capacity）之间的关系，并探讨了其在记忆检索（memory retrieval）中的应用。<br/><br/>命中: threshold<br/><br/>Xinyuan Xie]]></description>
+    </item>
+    <item>
+      <title>Heat kernels on Cayley graphs of free products of finite groups</title>
+      <link>https://arxiv.org/abs/2609.28774</link>
+      <guid isPermaLink="false">arxiv:2609.28774</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了有限群自由积的 Cayley 图上随机游走的热核，并给出了其渐近行为的精确估计。<br/><br/>命中: Cayley graph<br/><br/>Kamila Kashaeva]]></description>
+    </item>
     <item>
       <title>Exact local spectral thresholds for perfect matchings in $3$-graphs and $3$-partite $3$-graphs</title>
       <link>https://arxiv.org/abs/2609.26832</link>
@@ -825,48 +909,6 @@
       <guid isPermaLink="false">arxiv:2609.04980</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文研究固定正整数 $h$ 下 $\sigma(n)\mid\sigma(n+h)$ 的整除关系，证明了互补集合具有次指数节省，并推广了 Erdős--Sierpiński 猜想。<br/><br/>命中: threshold<br/><br/>Amirali Fatehizadeh, Florian Luca]]></description>
-    </item>
-    <item>
-      <title>On uniquely colorable Cayley graphs</title>
-      <link>https://arxiv.org/abs/2609.03184</link>
-      <guid isPermaLink="false">arxiv:2609.03184</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文解决了Klotz和Sander提出的关于唯一可着色Cayley图的两个开放问题，构造了无限族团数为2的唯一3可着色整循环图，并证明了非交换群上存在颜色类为不同子群左陪集的唯一可着色Cayley图。<br/><br/>命中: Cayley graph<br/><br/>Milan Bašić]]></description>
-    </item>
-    <item>
-      <title>Adjacent vertex distinguishing total chromatic number of graph products</title>
-      <link>https://arxiv.org/abs/2609.03411</link>
-      <guid isPermaLink="false">arxiv:2609.03411</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了若干图乘积（包括笛卡尔积、字典积、斜积、覆盖积、梳积和 Indu--Bala 积）满足 AVD-TCC 猜想，即其 AVD-全色数不超过最大度加 3。<br/><br/>命中: chromatic number<br/><br/>Amitayu Banerjee, Jayabalan Geetha, Kanagasabapathi Somasundaram]]></description>
-    </item>
-    <item>
-      <title>Toughness Bounds for Fractional Hamiltonicity and Resistance Positivity</title>
-      <link>https://arxiv.org/abs/2609.03412</link>
-      <guid isPermaLink="false">arxiv:2609.03412</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明每个非分数哈密顿图都有一个非哈密顿弦生成超图，从而推出每个10-坚韧图是分数哈密顿的，并应用于电阻曲率，证实了Devriendt关于RP的猜想。<br/><br/>命中: Hamiltonicity<br/><br/>Zhiyu Wang]]></description>
-    </item>
-    <item>
-      <title>A New Sufficient Condition for Oriented Graphs Determined by Their Generalized Skew Spectra</title>
-      <link>https://arxiv.org/abs/2609.03428</link>
-      <guid isPermaLink="false">arxiv:2609.03428</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文为有向图（oriented graphs）提出一个新的充分条件，用于判断其是否由广义斜谱唯一确定（DGSS），该条件比以往结果适用范围更广，并推广了Qiu-Wang-Wang的平方自由行列式准则。<br/><br/>命中: oriented graph, oriented<br/><br/>Limeng Lin, Wei Wang, Wei Wang, Hao Zhang]]></description>
-    </item>
-    <item>
-      <title>The scramble number of outerplanar graphs</title>
-      <link>https://arxiv.org/abs/2609.03755</link>
-      <guid isPermaLink="false">arxiv:2609.03755</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了简单外平面图和简单近外平面图的 scramble number 有界于 $O(\sqrt{n})$，从而为平面图的 scramble number 猜想提供了部分肯定答案。<br/><br/>命中: treewidth<br/><br/>Doel Rivera Laboy]]></description>
-    </item>
-    <item>
-      <title>Weak rainbow saturation numbers of paths, stars and cycles</title>
-      <link>https://arxiv.org/abs/2609.03823</link>
-      <guid isPermaLink="false">arxiv:2609.03823</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文精确确定了路径和星的弱彩虹饱和数，并构造了比猜想更优的循环弱彩虹饱和数上界，否定了Li-Ma-Xie关于循环的猜想。<br/><br/>命中: rainbow saturation<br/><br/>Jiawen Bo, Xiaopan Lian, Jianing Liu]]></description>
     </item>
   </channel>
 </rss>
