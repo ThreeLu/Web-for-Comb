@@ -5,8 +5,22 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 25 Sep 2026 08:01:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 08:49:50 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Extremal Graphs with Prescribed Parameters for the Spectral Radius of Weighted Adjacency Matrices with Property $P^{\ast}$</title>
+      <link>https://arxiv.org/abs/2609.30303</link>
+      <guid isPermaLink="false">arxiv:2609.30303</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了具有性质 $P^{\ast}$ 的加权邻接矩阵的谱半径的极值图，并刻画了在给定参数下达到最大谱半径的图。<br/><br/>命中: extremal graph<br/><br/>Swathi Shetty, B.R. Rakshith, Sayinath Udupa N.V]]></description>
+    </item>
+    <item>
+      <title>A Log-Star Comparison Between Expectation Threshold and Fractional Expectation Threshold</title>
+      <link>https://arxiv.org/abs/2609.30680</link>
+      <guid isPermaLink="false">arxiv:2609.30680</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文比较了随机图 $G(n,p)$ 的 expectation threshold 与 fractional expectation threshold，证明两者在 log-star 因子内等价。<br/><br/>命中: threshold<br/><br/>Xuan Fang, Tianyu Wang]]></description>
+    </item>
     <item>
       <title>Spectral extremal graphs for $W_5$-free graphs with odd size</title>
       <link>https://arxiv.org/abs/2609.28556</link>
@@ -839,76 +853,6 @@
       <guid isPermaLink="false">arxiv:2609.08519</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明了双曲群Cayley图上Bernoulli键渗流无限簇上简单随机游走的漂移和渐近熵在超临界相中关于渗流参数连续，进而由维数公式推出Gromov边界上调和测度的Hausdorff维数连续。<br/><br/>命中: Cayley graph<br/><br/>Kohki Sakamoto]]></description>
-    </item>
-    <item>
-      <title>Turing universality, computability, and incompleteness in hypergraph Turán theory</title>
-      <link>https://arxiv.org/abs/2609.04295</link>
-      <guid isPermaLink="false">arxiv:2609.04295</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明超图 Turán 问题的极值密度和极值结构可以编码任意图灵计算，从而导出 Turán 性质的不可判定性和独立性。<br/><br/>命中: Turán problem<br/><br/>Heng Li, Xizhi Liu]]></description>
-    </item>
-    <item>
-      <title>An Improved Upper Bound for Multicolour Ramsey Numbers</title>
-      <link>https://arxiv.org/abs/2609.04596</link>
-      <guid isPermaLink="false">arxiv:2609.04596</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文改进了多色 Ramsey 数 $R_r(k)$ 的上界，将指数节省因子提高了约 $r\log^2(2r)$ 倍。<br/><br/>命中: Ramsey number, multicolour Ramsey<br/><br/>Sunghyeon Jo]]></description>
-    </item>
-    <item>
-      <title>On the exact quantum chromatic number of generalized Johnson graphs</title>
-      <link>https://arxiv.org/abs/2609.04677</link>
-      <guid isPermaLink="false">arxiv:2609.04677</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过构造模一正交表示和Hoffman型下界，确定了广义Johnson图的两个无限族的精确量子色数，并展示了经典色数与量子色数之间的指数分离。<br/><br/>命中: chromatic number<br/><br/>Gaojun Luo, Xiwang Cao, Shitao Li, Yang Li]]></description>
-    </item>
-    <item>
-      <title>Albertson's Conjecture for Chromatic Numbers at Most 29</title>
-      <link>https://arxiv.org/abs/2609.04771</link>
-      <guid isPermaLink="false">arxiv:2609.04771</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Albertson 猜想在色数至多 29 时的情形，通过消除 Cranston 留下的三个剩余阶数并处理 r=27,28,29 的情况。<br/><br/>命中: chromatic number<br/><br/>Sen Cao, Sanjit Singh Mehat]]></description>
-    </item>
-    <item>
-      <title>Ramsey properties of maximal (outer)planar graphs</title>
-      <link>https://arxiv.org/abs/2609.05268</link>
-      <guid isPermaLink="false">arxiv:2609.05268</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了最大平面图和最大外平面图中的Ramsey性质，完全刻画了MOP类中所有不可避免的图对，并确定了MP类中对角情形下所有不可避免的连通图。<br/><br/>命中: Ramsey number, Ramsey theory<br/><br/>Adriana Baldacchino, Yair Caro, Xandru Mifsud]]></description>
-    </item>
-    <item>
-      <title>Integrality Gap Bounds for the Goemans-Linial SDP on Finite Abelian Cayley Graphs</title>
-      <link>https://arxiv.org/abs/2609.05368</link>
-      <guid isPermaLink="false">arxiv:2609.05368</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了有限阿贝尔Cayley图上的Goemans-Linial SDP松弛，证明了在某些条件下SDP值与谱间隙和均匀稀疏割值相等，并给出了近似比上界，最后构造了积分性间隙为16/15的无限图族。<br/><br/>命中: Cayley graph<br/><br/>Georgios Stamoulis]]></description>
-    </item>
-    <item>
-      <title>Counting sets with given doubling via dimension</title>
-      <link>https://arxiv.org/abs/2609.05384</link>
-      <guid isPermaLink="false">arxiv:2609.05384</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了满足 $|A+A| \leq m$ 的 $k$-子集 $A \subset \{1, \ldots, n\}$ 的数量，精确到 $2^{o(k)}$ 因子，其中 $k = \Theta(\log n)$ 且 $m \leq k^{1+\alpha}$，回答了 Green 和 Morris 的问题。<br/><br/>命中: @Marcelo Campos<br/><br/>Marcelo Campos, Gabriel Dahia, João Pedro Marciano]]></description>
-    </item>
-    <item>
-      <title>Non-Hamiltonian $\frac{3}{2}$-Tough Plane Triangulations</title>
-      <link>https://arxiv.org/abs/2609.05414</link>
-      <guid isPermaLink="false">arxiv:2609.05414</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了一族 3/2-tough 的非哈密顿平面三角剖分，其 3 度顶点两两距离至少为任意给定整数 ℓ，从而否定了 Hao–Ma–Shan–Yang 关于距离条件足以保证哈密顿性的猜想。<br/><br/>命中: Hamiltonian cycle<br/><br/>Songling Shan]]></description>
-    </item>
-    <item>
-      <title>The Erd\H os-Sós conjecture in dense graphs</title>
-      <link>https://arxiv.org/abs/2609.05417</link>
-      <guid isPermaLink="false">arxiv:2609.05417</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Erdős–Sós 猜想在稠密图（即 $k \ge \gamma n$）情形下成立，并由此解决了 Erdős 和 Graham 关于树的多色 Ramsey 数的 51 年之久的猜想。<br/><br/>命中: Ramsey number<br/><br/>Bruce Reed, Maya Stein]]></description>
-    </item>
-    <item>
-      <title>On the Divisibility Relation $σ(n)\midσ(n+h)$ and a Generalized Erdős--Sierpiński Conjecture</title>
-      <link>https://arxiv.org/abs/2609.04980</link>
-      <guid isPermaLink="false">arxiv:2609.04980</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究固定正整数 $h$ 下 $\sigma(n)\mid\sigma(n+h)$ 的整除关系，证明了互补集合具有次指数节省，并推广了 Erdős--Sierpiński 猜想。<br/><br/>命中: threshold<br/><br/>Amirali Fatehizadeh, Florian Luca]]></description>
     </item>
   </channel>
 </rss>

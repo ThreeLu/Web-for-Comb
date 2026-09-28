@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-25T08:01:38+00:00",
-  "total_days": 85,
-  "total_matched": 769,
+  "generated": "2026-09-28T08:49:50+00:00",
+  "total_days": 86,
+  "total_matched": 771,
   "daily": [
     {
       "date": "2026-06-02",
@@ -427,12 +427,17 @@
       "date": "2026-09-25",
       "matched": 12,
       "fetched": 98
+    },
+    {
+      "date": "2026-09-28",
+      "matched": 2,
+      "fetched": 62
     }
   ],
   "keywords": [
     [
       "threshold",
-      164
+      165
     ],
     [
       "chromatic number",
@@ -443,12 +448,12 @@
       62
     ],
     [
-      "oriented",
+      "extremal graph",
       50
     ],
     [
-      "extremal graph",
-      49
+      "oriented",
+      50
     ],
     [
       "Ramsey number",
