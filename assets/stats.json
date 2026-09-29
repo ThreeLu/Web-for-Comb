@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-28T08:49:50+00:00",
-  "total_days": 86,
-  "total_matched": 771,
+  "generated": "2026-09-29T08:47:38+00:00",
+  "total_days": 87,
+  "total_matched": 791,
   "daily": [
     {
       "date": "2026-06-02",
@@ -432,60 +432,65 @@
       "date": "2026-09-28",
       "matched": 2,
       "fetched": 62
+    },
+    {
+      "date": "2026-09-29",
+      "matched": 20,
+      "fetched": 159
     }
   ],
   "keywords": [
     [
       "threshold",
-      165
+      169
     ],
     [
       "chromatic number",
-      91
+      94
     ],
     [
       "Cayley graph",
-      62
-    ],
-    [
-      "extremal graph",
-      50
+      63
     ],
     [
       "oriented",
-      50
+      53
+    ],
+    [
+      "extremal graph",
+      52
     ],
     [
       "Ramsey number",
-      42
+      47
     ],
     [
       "random graph",
-      37
+      38
     ],
     [
       "transversal",
-      33
+      34
     ],
     [
       "Turán number",
-      29
+      30
     ],
     [
       "Latin square",
-      28
+      29
     ],
     [
       "oriented graph",
-      21
+      22
     ],
     [
       "Hamiltonicity",
-      20
+      21
     ],
     [
       "Hamilton cycle",
-      19
+      20
     ],
     [
       "treewidth",
@@ -508,12 +513,12 @@
       10
     ],
     [
-      "Ramsey theory",
+      "list coloring",
       8
     ],
     [
-      "list coloring",
-      7
+      "Ramsey theory",
+      8
     ],
     [
       "block design",
@@ -528,11 +533,11 @@
       6
     ],
     [
-      "hypergraph container",
-      5
+      "extremal combinatorics",
+      6
     ],
     [
-      "extremal combinatorics",
+      "hypergraph container",
       5
     ],
     [
@@ -616,6 +621,10 @@
       2
     ],
     [
+      "rainbow saturation",
+      2
+    ],
+    [
       "resilience",
       2
     ],
@@ -629,10 +638,6 @@
     ],
     [
       "random perturbation",
-      1
-    ],
-    [
-      "Ramsey-Turán",
       1
     ]
   ],
