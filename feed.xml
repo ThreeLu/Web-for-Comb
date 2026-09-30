@@ -5,8 +5,120 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Sep 2026 08:47:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 08:47:18 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sharp Thresholds for Distance Patterns in Random Subsets of $\mathbb Z^d$</title>
+      <link>https://arxiv.org/abs/2609.36022</link>
+      <guid isPermaLink="false">arxiv:2609.36022</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文证明了在 $\mathbb Z^d$ 的随机子集中，距离模式出现的尖锐阈值，并利用有限多重伸缩超饱和定理和 Schacht 转移定理。<br/><br/>命中: supersaturation, threshold<br/><br/>Christina Giannitsi, Eyvindur Ari Palsson]]></description>
+    </item>
+    <item>
+      <title>Additive Quasi-isometry via rooted graph partitions and layering partition</title>
+      <link>https://arxiv.org/abs/2609.36186</link>
+      <guid isPermaLink="false">arxiv:2609.36186</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了若图 $G$ 和 $H$ 的所有细分图都具有有界的强等距路径复杂度，且 $G$ 允许一个诚实的、良好根植的 $R$-有界 $H$-划分，则 $G$ 与某个树宽不超过 $tw(H)$ 的图 $F$ 之间存在加性拟等距，并由此解决了关于 $K_{2,t}$-渐近无 minor 图的公开问题。<br/><br/>命中: treewidth<br/><br/>Dibyayan Chakraborty, Yann Vaxès]]></description>
+    </item>
+    <item>
+      <title>Hadwiger--Nelson Problem for Typical Norms</title>
+      <link>https://arxiv.org/abs/2609.36220</link>
+      <guid isPermaLink="false">arxiv:2609.36220</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于 $\mathbb{R}^d$ 上的典型范数，单位距离图的色数至多为 $2d$ 且该界是紧的，从而将 Alon、Bucić 和 Sauermann 的指数上界 $2^d$ 改进为线性上界，并解决了 Schoenberg 的 view-obstruction 猜想和 Henze-Malikiosis 的覆盖半径猜想。<br/><br/>命中: chromatic number, @Noga Alon<br/><br/>Noga Alon, Matija Bucić, James Davies]]></description>
+    </item>
+    <item>
+      <title>Degree conditions for $k$-strong orientations of digraphs</title>
+      <link>https://arxiv.org/abs/2609.36551</link>
+      <guid isPermaLink="false">arxiv:2609.36551</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了有向图中存在生成 $k$-强定向子图的尖锐度条件，验证了 Jackson 和 Thomassen 的猜想在度条件下的情形。<br/><br/>命中: oriented, threshold<br/><br/>Jørgen Bang-Jensen, Shuo Wei]]></description>
+    </item>
+    <item>
+      <title>Perfect Matching in $k$-Partite $k$-Uniform Hypergraphs</title>
+      <link>https://arxiv.org/abs/2609.37290</link>
+      <guid isPermaLink="false">arxiv:2609.37290</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了所有固定 $k\ge5$ 的平衡 $k$-部 $k$-一致超图中完美匹配的最小顶点度阈值，推广了 $k=3$ 和 $k=4$ 的已知结果。<br/><br/>命中: threshold<br/><br/>Jie Han, Hongliang Lu, Bin Wang, Feihong Yuan]]></description>
+    </item>
+    <item>
+      <title>Generalized Turán problems for shorter even cycles</title>
+      <link>https://arxiv.org/abs/2609.37376</link>
+      <guid isPermaLink="false">arxiv:2609.37376</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解决了 Gerbner 等人提出的关于短偶圈计数的广义 Turán 问题，确定了 $\text{ex}(n,C_{2\ell},C_{2k})$ 的精确渐近值，对任意 $k&gt;\ell\ge2$ 给出了主导项系数。<br/><br/>命中: Turán problem, generalized Turán<br/><br/>Zhen Liu, Chuanshu Wu]]></description>
+    </item>
+    <item>
+      <title>Forbidden subposet problems in the linear lattice</title>
+      <link>https://arxiv.org/abs/2609.37748</link>
+      <guid isPermaLink="false">arxiv:2609.37748</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了线性格 $L_n(q)$ 中的弱和强 forbidden subposet 问题，否定了 Bukh--Griggs--Lu 猜想的 $q$-模拟，并确定了若干 forbidden 子偏序集的最大族大小。<br/><br/>命中: @Casey Tompkins<br/><br/>Balázs Patkós, Casey Tompkins]]></description>
+    </item>
+    <item>
+      <title>Structural and computational aspects of majority coloring games</title>
+      <link>https://arxiv.org/abs/2609.37796</link>
+      <guid isPermaLink="false">arxiv:2609.37796</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了 majority coloring game 的结构与计算复杂性，证明了在 $2$-caterpillar、所有叶子深度不超过 $4$ 的 rooted tree 以及任意图的 subdivision 上 $\mu_g(G) \le 3$，精确计算了强版本在 cycle 上的值，并证明了强 majority game chromatic number 的判定问题是 PSPACE-complete 以及强 majority 2-coloring 在 Eulerian 图上是 NP-complete。<br/><br/>命中: chromatic number<br/><br/>Yash Chawda, Saraswati Girish Nanoti, Brahadeesh Sankarnarayanan, Eshwar Srinivasan]]></description>
+    </item>
+    <item>
+      <title>Improved bounds on completion of partial Latin squares</title>
+      <link>https://arxiv.org/abs/2609.37877</link>
+      <guid isPermaLink="false">arxiv:2609.37877</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个行、列和符号出现次数均不超过 $0.231n$ 的部分拉丁方都可以完成，显著改进了之前 $0.08n$ 的界。<br/><br/>命中: Latin square, @Candida Bowtell<br/><br/>Jack Allsop, Candida Bowtell, Thomas Lesgourgues, Kalina Petrova]]></description>
+    </item>
+    <item>
+      <title>Low discrepancy and spectral gap for directed hypergraphs via spectral regularity lemma for tensors</title>
+      <link>https://arxiv.org/abs/2609.37912</link>
+      <guid isPermaLink="false">arxiv:2609.37912</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了有向 $k$-一致超图中低 discrepancy 等价于 spectral gap，并为此建立了基于张量的 Frieze--Kannan 型谱正则引理。<br/><br/>命中: regularity lemma<br/><br/>Hiep Han]]></description>
+    </item>
+    <item>
+      <title>Independence number, essential connectivity and the distance spectral radius of graphs</title>
+      <link>https://arxiv.org/abs/2609.37981</link>
+      <guid isPermaLink="false">arxiv:2609.37981</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了给定独立数 $\alpha(G)$ 和本质连通度 $\kappa'(G)$ 的 $n$ 个顶点的连通图中，距离谱半径最小的图，并完整刻画了相应的极图。<br/><br/>命中: extremal graph<br/><br/>Shuang Ding, Dan Li, Yuanyuan Chen]]></description>
+    </item>
+    <item>
+      <title>On the asymptotics of the Erdős-Rogers function</title>
+      <link>https://arxiv.org/abs/2609.37987</link>
+      <guid isPermaLink="false">arxiv:2609.37987</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Erdős-Rogers 函数 $f_{\ell,s}(n)$ 的渐近阶为 $n^{\frac{\ell}{2s}+O_\ell(s^{-2})}$，从而解决了该函数在 $s \gg \ell$ 情形下的长期未决问题。<br/><br/>命中: Ramsey number, diagonal Ramsey, @Domagoj Bradač<br/><br/>Domagoj Bradač, Oliver Janzer, Rik Sarkar]]></description>
+    </item>
+    <item>
+      <title>Asymptotics of the Brown--Erdős--Sós problem at integer exponents</title>
+      <link>https://arxiv.org/abs/2609.38115</link>
+      <guid isPermaLink="false">arxiv:2609.38115</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了 Brown–Erdős–Sós 问题中 $f^{(r)}(n;(r-t)k+t,k)$ 的渐近系数 $\pi(r,t,k)$，除 $(r,t)=(3,2)$ 且 $k\ge 4$ 为偶数外，并证明该例外情形下 $\pi(3,2,k)&gt;1/6$。<br/><br/>命中: @Hong Liu<br/><br/>Ting-Wei Chao, Xinqi Huang, Hong Liu]]></description>
+    </item>
+    <item>
+      <title>A nearly linear bound for the Lovász conjecture</title>
+      <link>https://arxiv.org/abs/2609.38135</link>
+      <guid isPermaLink="false">arxiv:2609.38135</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个 $n$ 个顶点的连通 vertex-transitive 图包含长度为 $n^{1-o(1)}$ 的圈，从而将 Bucić 等人之前的 $n^{2/3-o(1)}$ 界改进到接近线性。<br/><br/>命中: Lovász local lemma, Cayley graph<br/><br/>Bowen Li, Abhishek Methuku]]></description>
+    </item>
+    <item>
+      <title>Maker Breaker Games on a Budget</title>
+      <link>https://arxiv.org/abs/2609.38138</link>
+      <guid isPermaLink="false">arxiv:2609.38138</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入预算版 Maker-Breaker 游戏，其中 Breaker 每轮可少取边以积累预算，从而精确确定了三角形游戏的阈值偏差为 $\lceil\sqrt{2n-2}-\frac{3}{2}\rceil$，并给出了 $K_4$ 游戏的首个显式上下界。<br/><br/>命中: threshold<br/><br/>Sebastian Lüderssen, Fabien Nießen, Silas Rathke]]></description>
+    </item>
+    <item>
+      <title>Uniform Estimates for Integers with a Large Smooth Part</title>
+      <link>https://arxiv.org/abs/2609.37507</link>
+      <guid isPermaLink="false">arxiv:2609.37507</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了具有大光滑部分的整数的分布，得到了在范围 $\log z \le y \le z \le x/2$ 内，$y$-光滑部分超过阈值 $z$ 的整数个数的均匀估计，其指数阶由 Dickman 函数控制。<br/><br/>命中: threshold<br/><br/>Xiangyu Wang]]></description>
+    </item>
     <item>
       <title>Fractional Triangle Decompositions at Partite Minimum Degree $4n/5$</title>
       <link>https://arxiv.org/abs/2609.31758</link>
@@ -699,90 +811,6 @@
       <guid isPermaLink="false">arxiv:2609.11006</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明了在 $n$ 阶 Latin square 和 $n$ 阶 Steiner triple system 中，接近完美匹配（near-spanning matching）的数量至少为 $n^{n-o(n)}$，并给出了相应的上界。<br/><br/>命中: Steiner triple system, Latin square<br/><br/>Yantao Tang, Yi Zhao]]></description>
-    </item>
-    <item>
-      <title>Regular sets of circulant quartic graphs</title>
-      <link>https://arxiv.org/abs/2609.09414</link>
-      <guid isPermaLink="false">arxiv:2609.09414</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了连通循环四次图 $\operatorname{Cay}(\mathbb{Z}_n, S)$ 中 $(a,b)$-regular set 的存在性，并完全确定了所有可能的 $a$ 和 $b$ 值下的存在与否。<br/><br/>命中: Cayley graph<br/><br/>A. Abdollahi, J. Bagherian, F. Jafari, M. Khatami, Z. Shokoohi, R. Sobhani]]></description>
-    </item>
-    <item>
-      <title>Isomorphisms of abelian Cayley graphs with their natural edge-colouring</title>
-      <link>https://arxiv.org/abs/2609.09563</link>
-      <guid isPermaLink="false">arxiv:2609.09563</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了交换群 Cayley 图之间的保边着色同构可分解为群同构与保色图自同构的复合，并刻画了所有保色自同构均为仿射映射的充要条件。<br/><br/>命中: Cayley graph<br/><br/>Shirin Alimirzaei, Dave Witte Morris]]></description>
-    </item>
-    <item>
-      <title>Composing group automorphisms with colour-preserving automorphisms of Cayley graphs</title>
-      <link>https://arxiv.org/abs/2609.09580</link>
-      <guid isPermaLink="false">arxiv:2609.09580</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明了在连通有限 Cayley 图中，若图的阶为奇数或无平方因子，则任何保色置换自同构可分解为群自同构与保色图自同构的复合，并给出了不同 Cayley 图之间同构的类似结果。<br/><br/>命中: Cayley graph<br/><br/>Dave Witte Morris]]></description>
-    </item>
-    <item>
-      <title>Quantum Latin Hypercubes with Maximal Cardinality</title>
-      <link>https://arxiv.org/abs/2609.09695</link>
-      <guid isPermaLink="false">arxiv:2609.09695</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文在实数域上构造了具有最大基数的 quantum Latin squares 和 quantum Latin hypercubes。<br/><br/>命中: Latin square<br/><br/>Mingzhen Lv, Haitao Cao]]></description>
-    </item>
-    <item>
-      <title>Boundedness and Separation Between Induced and Non-Induced Covering Numbers</title>
-      <link>https://arxiv.org/abs/2609.09873</link>
-      <guid isPermaLink="false">arxiv:2609.09873</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了图的诱导覆盖数与非诱导覆盖数之间的有界性与分离性，针对客人类 $\mathcal{G}$ 和宿主类 $\mathcal{H}$ 的各种结构性质，确定了绑定函数存在的条件，并解决了 240 种可能的三元组中的 219 种。<br/><br/>命中: chromatic number, treewidth<br/><br/>Miriam Goetze, Yidi Zang]]></description>
-    </item>
-    <item>
-      <title>Oriented paths with two blocks in bipartite oriented graphs</title>
-      <link>https://arxiv.org/abs/2609.09935</link>
-      <guid isPermaLink="false">arxiv:2609.09935</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了每个最小半度至少为 $3k/8+2$ 的二部定向图包含所有长度为 $k$ 的两块定向路径，其中 $k\ge 2$。<br/><br/>命中: oriented graph, oriented, threshold<br/><br/>Bin Chen, Meishuang Chen, Xinmin Hou, Xinyu Zhou]]></description>
-    </item>
-    <item>
-      <title>An Improved Upper Bound for the Turán Number of the Hexagon</title>
-      <link>https://arxiv.org/abs/2609.10003</link>
-      <guid isPermaLink="false">arxiv:2609.10003</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文改进了六边形 $C_6$ 的 Turán 数上界，证明对于充分大的 $n$，$\operatorname{ex}(n,C_6) \leq \alpha n^{4/3}+O(n) &lt; 0.6144 n^{4/3}$，其中 $\alpha$ 是方程 $4 \alpha^{3} (3/2)^{1-1/(2\alpha)} =1$ 在 $(1/2,2/3)$ 内的唯一实根。<br/><br/>命中: extremal graph, Turán number<br/><br/>Sandip Das, Sk Samim Islam, Aashirwad Mohapatra, Saumya Sen]]></description>
-    </item>
-    <item>
-      <title>On $S$-packing total colorings</title>
-      <link>https://arxiv.org/abs/2609.10107</link>
-      <guid isPermaLink="false">arxiv:2609.10107</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入了 $S$-packing total coloring 的新概念，推广了 packing total coloring，并给出了 $\chi_S^{''}(G)$ 的一般上下界、小值刻画以及若干特殊图类的精确值。<br/><br/>命中: chromatic number<br/><br/>Jasmina Ferme, Jaka Hedžet, Petra Melicharova, Daša Mesarič Štesl]]></description>
-    </item>
-    <item>
-      <title>The VC-dimension of strongly regular graphs</title>
-      <link>https://arxiv.org/abs/2609.10330</link>
-      <guid isPermaLink="false">arxiv:2609.10330</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了 $n$-existentially closed 图的最小边数 $m(v,n)$，并系统研究了 strongly regular graphs (SRGs) 的 VC-dimension，刻画了 VC-dimension 为 2 的充分大 SRGs，确定了充分大 Latin square graphs 及所有阶至多 28 的 SRGs 的 VC-dimension，并证明了最小特征值为给定整数的 SRGs 具有有界 VC-dimension。<br/><br/>命中: Latin square<br/><br/>Isabel Byrne, John Byrne, Sebastian M. Cioabă]]></description>
-    </item>
-    <item>
-      <title>The density of long runs of non-$r$-free integers</title>
-      <link>https://arxiv.org/abs/2609.09221</link>
-      <guid isPermaLink="false">arxiv:2609.09221</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了非 $r$-free 整数长串的密度 $D_k$ 的渐近展开，并由此精确得到 Mirsky 常数 $\alpha(h)$ 的渐近式，改进了此前仅有的单侧估计。<br/><br/>命中: threshold<br/><br/>Xinyang Jiang]]></description>
-    </item>
-    <item>
-      <title>Spectral Algebras of Abelian Cayley Graphs</title>
-      <link>https://arxiv.org/abs/2609.09222</link>
-      <guid isPermaLink="false">arxiv:2609.09222</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了有限阿贝尔群 Cayley 图的谱代数在特征不整除群阶的域上通过特征轨道分解为半单的域扩张乘积，并给出了维数、幂等元计数及显式计算。<br/><br/>命中: Cayley graph<br/><br/>Deep Bhattacharjee, Priyabrata Mandal, Ushashi Bhattacharya]]></description>
-    </item>
-    <item>
-      <title>On the Hamiltonicity of generating graphs of almost simple groups</title>
-      <link>https://arxiv.org/abs/2609.09391</link>
-      <guid isPermaLink="false">arxiv:2609.09391</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了对于足够大的、socle 为 Lie type 的几乎单群，其生成图 $\Gamma(G)$ 包含 Hamiltonian cycle，从而完成了 Breuer 等人猜想在几乎单群情形下的渐近证明。<br/><br/>命中: Hamiltonian cycle, Hamiltonicity<br/><br/>Luigi Iorio]]></description>
     </item>
   </channel>
 </rss>

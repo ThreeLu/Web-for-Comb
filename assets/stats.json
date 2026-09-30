@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-29T08:47:38+00:00",
-  "total_days": 87,
-  "total_matched": 791,
+  "generated": "2026-09-30T08:47:18+00:00",
+  "total_days": 88,
+  "total_matched": 807,
   "daily": [
     {
       "date": "2026-06-02",
@@ -437,32 +437,37 @@
       "date": "2026-09-29",
       "matched": 20,
       "fetched": 159
+    },
+    {
+      "date": "2026-09-30",
+      "matched": 16,
+      "fetched": 95
     }
   ],
   "keywords": [
     [
       "threshold",
-      169
+      174
     ],
     [
       "chromatic number",
-      94
+      96
     ],
     [
       "Cayley graph",
-      63
+      64
     ],
     [
       "oriented",
-      53
+      54
     ],
     [
       "extremal graph",
-      52
+      53
     ],
     [
       "Ramsey number",
-      47
+      48
     ],
     [
       "random graph",
@@ -478,7 +483,7 @@
     ],
     [
       "Latin square",
-      29
+      30
     ],
     [
       "oriented graph",
@@ -494,23 +499,23 @@
     ],
     [
       "treewidth",
+      17
+    ],
+    [
+      "Turán problem",
       16
+    ],
+    [
+      "supersaturation",
+      15
     ],
     [
       "Hamiltonian cycle",
       15
     ],
     [
-      "Turán problem",
-      15
-    ],
-    [
-      "supersaturation",
-      14
-    ],
-    [
       "generalized Turán",
-      10
+      11
     ],
     [
       "list coloring",
@@ -541,11 +546,15 @@
       5
     ],
     [
-      "multicolour Ramsey",
-      4
+      "regularity lemma",
+      5
     ],
     [
-      "regularity lemma",
+      "Lovász local lemma",
+      5
+    ],
+    [
+      "multicolour Ramsey",
       4
     ],
     [
@@ -558,10 +567,6 @@
     ],
     [
       "book graph",
-      4
-    ],
-    [
-      "Lovász local lemma",
       4
     ],
     [
@@ -625,6 +630,10 @@
       2
     ],
     [
+      "diagonal Ramsey",
+      2
+    ],
+    [
       "resilience",
       2
     ],
@@ -635,16 +644,12 @@
     [
       "absorbing set",
       1
-    ],
-    [
-      "random perturbation",
-      1
     ]
   ],
   "authors": [
     [
       "Hong Liu",
-      13
+      14
     ],
     [
       "Benny Sudakov",
@@ -659,7 +664,15 @@
       4
     ],
     [
+      "Noga Alon",
+      3
+    ],
+    [
       "Peter Keevash",
+      3
+    ],
+    [
+      "Casey Tompkins",
       3
     ],
     [
@@ -671,15 +684,7 @@
       3
     ],
     [
-      "Noga Alon",
-      2
-    ],
-    [
       "Cosmin Pohoata",
-      2
-    ],
-    [
-      "Casey Tompkins",
       2
     ],
     [
@@ -692,6 +697,10 @@
     ],
     [
       "Wojciech Samotij",
+      2
+    ],
+    [
+      "Candida Bowtell",
       2
     ],
     [
@@ -735,10 +744,6 @@
       1
     ],
     [
-      "Candida Bowtell",
-      1
-    ],
-    [
       "Oliver Riordan",
       1
     ],
@@ -748,6 +753,10 @@
     ],
     [
       "Luke Postle",
+      1
+    ],
+    [
+      "Domagoj Bradač",
       1
     ]
   ]
