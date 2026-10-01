@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-30T08:47:18+00:00",
-  "total_days": 88,
-  "total_matched": 807,
+  "generated": "2026-10-01T09:10:38+00:00",
+  "total_days": 89,
+  "total_matched": 818,
   "daily": [
     {
       "date": "2026-06-02",
@@ -442,6 +442,11 @@
       "date": "2026-09-30",
       "matched": 16,
       "fetched": 95
+    },
+    {
+      "date": "2026-10-01",
+      "matched": 11,
+      "fetched": 67
     }
   ],
   "keywords": [
@@ -451,7 +456,7 @@
     ],
     [
       "chromatic number",
-      96
+      102
     ],
     [
       "Cayley graph",
@@ -459,7 +464,7 @@
     ],
     [
       "oriented",
-      54
+      55
     ],
     [
       "extremal graph",
@@ -467,11 +472,11 @@
     ],
     [
       "Ramsey number",
-      48
+      51
     ],
     [
       "random graph",
-      38
+      39
     ],
     [
       "transversal",
@@ -502,12 +507,12 @@
       17
     ],
     [
-      "Turán problem",
+      "supersaturation",
       16
     ],
     [
-      "supersaturation",
-      15
+      "Turán problem",
+      16
     ],
     [
       "Hamiltonian cycle",
@@ -538,12 +543,12 @@
       6
     ],
     [
-      "extremal combinatorics",
+      "hypergraph container",
       6
     ],
     [
-      "hypergraph container",
-      5
+      "extremal combinatorics",
+      6
     ],
     [
       "regularity lemma",
@@ -582,6 +587,10 @@
       3
     ],
     [
+      "container method",
+      3
+    ],
+    [
       "hypergraph regularity",
       2
     ],
@@ -615,10 +624,6 @@
     ],
     [
       "Dirac-type",
-      2
-    ],
-    [
-      "container method",
       2
     ],
     [

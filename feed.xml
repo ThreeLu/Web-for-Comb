@@ -5,8 +5,78 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 30 Sep 2026 08:47:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 09:10:38 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The List Total Colouring Conjecture is False</title>
+      <link>https://arxiv.org/abs/2609.38417</link>
+      <guid isPermaLink="false">arxiv:2609.38417</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了一个三次图，其 total chromatic number 为 4 而 list total chromatic number 为 5，从而否定了 List Total Colouring Conjecture。<br/><br/>命中: chromatic number<br/><br/>Jonathan A. Noel]]></description>
+    </item>
+    <item>
+      <title>Counting hypergraphs without linear cycles of fixed length</title>
+      <link>https://arxiv.org/abs/2609.38772</link>
+      <guid isPermaLink="false">arxiv:2609.38772</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于所有 $r,k \geq 3$，$n$ 个标号顶点上的 $C_k^{(r)}$-free $r$-图的数目为 $2^{(1+o(1))\operatorname{ex}_r(n,C_k^{(r)})}$，从而完全解决了 Balogh、Narayanan 和 Skokan 提出的问题。<br/><br/>命中: supersaturation, container method, hypergraph container<br/><br/>József Balogh, Ramon I. Garcia, Abhishek Methuku]]></description>
+    </item>
+    <item>
+      <title>Upper bounds for ordered Ramsey numbers of forests and bounded-degree graphs</title>
+      <link>https://arxiv.org/abs/2609.38828</link>
+      <guid isPermaLink="false">arxiv:2609.38828</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了有序森林 $F$ 的有序 Ramsey 数 $R_{&lt;}(F,F)=O(n^{1+\lceil\log\chi_{&lt;}(F)\rceil})$，并给出了最大度至多 $\Delta$、区间色数至多 $k$ 的固定有序图 $H$ 与完全图 $K_n$ 的有序 Ramsey 数多项式上界 $R_{&lt;}(H,K_n)=O_H(n^{f(\Delta,k)})$。<br/><br/>命中: Ramsey number, chromatic number<br/><br/>Lior Gishboliner, Xiangyu Li]]></description>
+    </item>
+    <item>
+      <title>A double-logarithmic upper bound on the chromatic number of the associahedron</title>
+      <link>https://arxiv.org/abs/2609.39015</link>
+      <guid isPermaLink="false">arxiv:2609.39015</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 associahedron $\mathcal{A}_n$ 的 chromatic number 为 $O(\log\log n)$，改进了之前已知的 $O(\log n)$ 上界。<br/><br/>命中: chromatic number<br/><br/>Sang-il Oum, David R. Wood]]></description>
+    </item>
+    <item>
+      <title>Hamilton-connected cores and five cycle--wheel Ramsey numbers</title>
+      <link>https://arxiv.org/abs/2609.39508</link>
+      <guid isPermaLink="false">arxiv:2609.39508</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过结构证明确定了五个 cycle-wheel Ramsey 数：$R(C_{14},W_{11})=27$，$R(C_{15},W_{11})=29$，$R(C_8,W_7)=15$，$R(C_9,W_7)=17$，$R(C_8,W_9)=15$，并给出了 $(C_8,C_6)$- 和 $(C_9,C_6)$-critical colorings 的完整结构分类。<br/><br/>命中: Ramsey number<br/><br/>Zehui Shao, Hanxin Jiang]]></description>
+    </item>
+    <item>
+      <title>On the chromatic number of pseudohemisphere hypergraphs</title>
+      <link>https://arxiv.org/abs/2609.39538</link>
+      <guid isPermaLink="false">arxiv:2609.39538</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了伪半球超图的色数至多为 4。<br/><br/>命中: chromatic number<br/><br/>Balázs István Szabó]]></description>
+    </item>
+    <item>
+      <title>Additive codes arising from hypergraphs</title>
+      <link>https://arxiv.org/abs/2609.39680</link>
+      <guid isPermaLink="false">arxiv:2609.39680</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过整数多拟阵研究加法码的临界指数，并针对多拟阵为超图多拟阵的加法码，建立了临界指数与弱色数、最小距离与边连通性等联系，给出了达到 Singleton 界的码的完整刻画。<br/><br/>命中: chromatic number<br/><br/>Gianira N. Alfarano]]></description>
+    </item>
+    <item>
+      <title>On the solution to the Erdős-Hajnal problem on high-girth high-chromatic subgraphs</title>
+      <link>https://arxiv.org/abs/2609.40192</link>
+      <guid isPermaLink="false">arxiv:2609.40192</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解释了 Kohlmeyer 和 Kruer 关于 Erdős-Hajnal 问题的反例构造，并将无四圈子图的色数上界从 $6$ 优化到 $3$。<br/><br/>命中: chromatic number<br/><br/>Tung Nguyen, Bartosz Walczak]]></description>
+    </item>
+    <item>
+      <title>Another proof that the two color bipartite Ramsey number is $O(2^t)$</title>
+      <link>https://arxiv.org/abs/2609.40288</link>
+      <guid isPermaLink="false">arxiv:2609.40288</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文给出了二色二分 Ramsey 数 $b_2(t) \le 128 \cdot 2^t$ 的一个独立证明，并推广到任意 $q$ 色和边密度至少为 $p$ 的二分图，得到 $b_q(t) \le 128 \cdot q^t$。<br/><br/>命中: Ramsey number<br/><br/>Yury Person]]></description>
+    </item>
+    <item>
+      <title>Central Limit Theorem of Maximum Weight Matching on Random Graphs with Prescribed Degrees</title>
+      <link>https://arxiv.org/abs/2609.39219</link>
+      <guid isPermaLink="false">arxiv:2609.39219</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在给定度序列（一致有界）的均匀随机简单图上，边权为 i.i.d. 指数分布时，最大权匹配（maximum weight matching）的权值满足退火（annealed）中心极限定理，特别适用于每个固定 $d \ge 2$ 的随机 $d$-正则图。<br/><br/>命中: random graph<br/><br/>Shichen Jing, Wai-Kit Lam, Arnab Sen]]></description>
+    </item>
     <item>
       <title>Sharp Thresholds for Distance Patterns in Random Subsets of $\mathbb Z^d$</title>
       <link>https://arxiv.org/abs/2609.36022</link>
@@ -797,20 +867,6 @@
       <guid isPermaLink="false">arxiv:2609.12647</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文利用 local search 算法研究 Erdős--Rényi 随机图 $G(n,p)$ 中几乎生成的正方形网格（square grid）的嵌入问题，确定了相应的阈值概率。<br/><br/>命中: random graph<br/><br/>Dávid Ferenczi, Alexander Grigoriev]]></description>
-    </item>
-    <item>
-      <title>Threshold Graphs Allow Few Distinct Eigenvalues: A New Approach</title>
-      <link>https://arxiv.org/abs/2609.10623</link>
-      <guid isPermaLink="false">arxiv:2609.10623</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明 threshold graph 的邻接矩阵或 Laplacian 矩阵的不同特征值个数至多为 $\lceil n/2 \rceil$，并给出达到该上界的构造。<br/><br/>命中: threshold<br/><br/>Jane Breen, Shaun Fallat, Johnna Parenteau]]></description>
-    </item>
-    <item>
-      <title>Counting Near-Spanning Matchings in Latin Squares and Steiner Triple Systems</title>
-      <link>https://arxiv.org/abs/2609.11006</link>
-      <guid isPermaLink="false">arxiv:2609.11006</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了在 $n$ 阶 Latin square 和 $n$ 阶 Steiner triple system 中，接近完美匹配（near-spanning matching）的数量至少为 $n^{n-o(n)}$，并给出了相应的上界。<br/><br/>命中: Steiner triple system, Latin square<br/><br/>Yantao Tang, Yi Zhao]]></description>
     </item>
   </channel>
 </rss>
