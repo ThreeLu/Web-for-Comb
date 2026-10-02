@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-01T09:10:38+00:00",
-  "total_days": 89,
-  "total_matched": 818,
+  "generated": "2026-10-02T08:44:04+00:00",
+  "total_days": 90,
+  "total_matched": 830,
   "daily": [
     {
       "date": "2026-06-02",
@@ -447,24 +447,29 @@
       "date": "2026-10-01",
       "matched": 11,
       "fetched": 67
+    },
+    {
+      "date": "2026-10-02",
+      "matched": 12,
+      "fetched": 95
     }
   ],
   "keywords": [
     [
       "threshold",
-      174
+      177
     ],
     [
       "chromatic number",
-      102
+      103
     ],
     [
       "Cayley graph",
-      64
+      65
     ],
     [
       "oriented",
-      55
+      56
     ],
     [
       "extremal graph",
@@ -480,7 +485,7 @@
     ],
     [
       "transversal",
-      34
+      35
     ],
     [
       "Turán number",
@@ -491,12 +496,12 @@
       30
     ],
     [
-      "oriented graph",
-      22
+      "Hamiltonicity",
+      23
     ],
     [
-      "Hamiltonicity",
-      21
+      "oriented graph",
+      22
     ],
     [
       "Hamilton cycle",
@@ -508,15 +513,15 @@
     ],
     [
       "supersaturation",
-      16
+      17
     ],
     [
       "Turán problem",
-      16
+      17
     ],
     [
       "Hamiltonian cycle",
-      15
+      16
     ],
     [
       "generalized Turán",
@@ -575,6 +580,10 @@
       4
     ],
     [
+      "container method",
+      4
+    ],
+    [
       "combinatorial design",
       3
     ],
@@ -584,10 +593,6 @@
     ],
     [
       "Steiner triple system",
-      3
-    ],
-    [
-      "container method",
       3
     ],
     [

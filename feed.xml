@@ -5,8 +5,92 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Oct 2026 09:10:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 08:44:04 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Probability threshold for the stability of $α(G(n,r,s))$</title>
+      <link>https://arxiv.org/abs/2610.00144</link>
+      <guid isPermaLink="false">arxiv:2610.00144</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图 $G(n,r,s)$ 的独立数在随机删除边模型下的精确稳定性概率阈值，其中 $r &gt; 2s+2$，改进了 Pyaderkin 的渐近稳定性结果。<br/><br/>命中: threshold<br/><br/>M. M. Koshelev, A. M. Raigorodskii]]></description>
+    </item>
+    <item>
+      <title>Stability conditions and subdivisions of Lawrence polytopes</title>
+      <link>https://arxiv.org/abs/2610.00591</link>
+      <guid isPermaLink="false">arxiv:2610.00591</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文建立了图 $G$ 的 degeneracy sets 与 graphic matroid $M(G)$ 的单元素扩张之间的对应关系，并通过 Lawrence polytope 的细分构造了稳定性条件。<br/><br/>命中: oriented<br/><br/>Natasha Crepeau]]></description>
+    </item>
+    <item>
+      <title>The threshold for fractional clique decompositions of random hypergraphs, via matrix scaling</title>
+      <link>https://arxiv.org/abs/2610.00924</link>
+      <guid isPermaLink="false">arxiv:2610.00924</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在最小余度超过分数 $K_r^{(k)}$-分解阈值 $\delta^*_{k,r}$ 的 $k$-一致超图中，以概率 $p \ge C(\log n/n^{r-k})^{1/(\binom{r}{k}-1)}$ 独立保留边后，高概率存在分数 $K_r^{(k)}$-分解，且该 $p$ 的阶是紧的。<br/><br/>命中: threshold<br/><br/>Tuan Tran]]></description>
+    </item>
+    <item>
+      <title>Degree-square Turán problem for two self-converse tournaments</title>
+      <link>https://arxiv.org/abs/2610.01047</link>
+      <guid isPermaLink="false">arxiv:2610.01047</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了当 $F$ 为传递竞赛图 $TT_r$ 或 5 顶点正则竞赛图 $\text{RT}_5$ 时，度平方 Turán 数 $\operatorname{ex}_2^+(n,F)$ 的精确值，其中 $\text{RT}_5$ 的情形证实了 Iľkovič 的猜想。<br/><br/>命中: Turán problem<br/><br/>Zhuoran Han, Yaojun Chen]]></description>
+    </item>
+    <item>
+      <title>A proof of Lehmer's permutation conjecture for neighbor-swap graphs</title>
+      <link>https://arxiv.org/abs/2610.01240</link>
+      <guid isPermaLink="false">arxiv:2610.01240</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Lehmer 关于多重集排列的邻位交换图存在非完美 Hamilton 遍历的猜想，通过将非 stutter 词图 $N(S)$ 的 Hamiltonicity 问题归约到超立方体粘合与少量有限验证，并在 Lean 4 中形式化。<br/><br/>命中: Hamiltonian cycle, Hamiltonicity<br/><br/>Tom Verhoeff]]></description>
+    </item>
+    <item>
+      <title>Improved upper bounds on the list chromatic number of $K_t$-minor-free graphs</title>
+      <link>https://arxiv.org/abs/2610.01946</link>
+      <guid isPermaLink="false">arxiv:2610.01946</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个 $K_t$-minor-free 图是 $O(t\log\log t)$-choosable 的，改进了 Postle 的 $O(t(\log\log t)^6)$ 上界。<br/><br/>命中: chromatic number<br/><br/>Yangyan Gu, Rongxing Xu]]></description>
+    </item>
+    <item>
+      <title>Matchings and shape-Wilf-Equivalence of sets of patterns of length three II: Quadruples and Quintuples</title>
+      <link>https://arxiv.org/abs/2610.01996</link>
+      <guid isPermaLink="false">arxiv:2610.01996</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文完成了长度三的模式集合在四元组和五元组下的 shape-Wilf-等价分类，并利用 Dyck 路径方法给出了避免横截的显式公式及匹配计数的双射解释。<br/><br/>命中: transversal<br/><br/>Sucharita Biswas, Umesh Shankar, Sivaramakrishnan Sivasubramanian]]></description>
+    </item>
+    <item>
+      <title>Linear circumference in vertex-transitive graphs</title>
+      <link>https://arxiv.org/abs/2610.02053</link>
+      <guid isPermaLink="false">arxiv:2610.02053</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[我们证明了每个连通顶点传递图包含长度至少为 $cn$ 的环，其中 $c&gt;0$ 是绝对常数，且对于度足够大的图，环长可达 $(1-d^{-1/100})n$，这是向 Lovász 的 Hamiltonicity 猜想迈出的第一个线性界。<br/><br/>命中: Hamiltonicity<br/><br/>Jie Ma, Ziyuan Zhao]]></description>
+    </item>
+    <item>
+      <title>Typical intersecting families at $n=2k+1$ and $n=2k+2$</title>
+      <link>https://arxiv.org/abs/2610.02119</link>
+      <guid isPermaLink="false">arxiv:2610.02119</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了当 $n=2k+1$ 和 $n=2k+2$ 时，$k$-均匀相交族在 $k\to\infty$ 时的典型结构，并给出了相交族数量的渐近公式。<br/><br/>命中: container method<br/><br/>Lina Li]]></description>
+    </item>
+    <item>
+      <title>Generic solutions to symmetric linear equations</title>
+      <link>https://arxiv.org/abs/2610.02177</link>
+      <guid isPermaLink="false">arxiv:2610.02177</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文加强了 Ruzsa 关于对称线性方程 $a_1+\cdots+a_k=b_1+\cdots+b_k$ 的结果，证明解可以具有 $2^{2k}-1$ 个不同子集和，并给出了有限阿贝尔群中的超饱和版本以及 Bondy-Simonovits 定理的 $\mathbb{F}_q$-模拟。<br/><br/>命中: supersaturation<br/><br/>Bryce Frederickson, Liana Yepremyan]]></description>
+    </item>
+    <item>
+      <title>Uniform estimate of Lang-Weil type for counting points of schemes over finite rings</title>
+      <link>https://arxiv.org/abs/2610.01748</link>
+      <guid isPermaLink="false">arxiv:2610.01748</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文对有限环 $\mathbb{Z}/p^m\mathbb{Z}$ 上有限型 $\mathbb{Z}$-概形的点计数建立了 Lang-Weil 型一致估计，并应用于 Igusa 指数和猜想。<br/><br/>命中: threshold<br/><br/>Kien Huu Nguyen]]></description>
+    </item>
+    <item>
+      <title>Watkins's conjecture holds for all infinite groups</title>
+      <link>https://arxiv.org/abs/2610.01049</link>
+      <guid isPermaLink="false">arxiv:2610.01049</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了 Watkins 猜想对无限群成立：每个无限群（除 abelian of exponent &gt;2 和 generalized dicyclic 外）都有 graphical regular representation，并确定了所有无限群的 Cayley index 为 1、2 或 8。<br/><br/>命中: Cayley graph<br/><br/>Alex J. Sutherland]]></description>
+    </item>
     <item>
       <title>The List Total Colouring Conjecture is False</title>
       <link>https://arxiv.org/abs/2609.38417</link>
@@ -846,27 +930,6 @@
       <guid isPermaLink="false">arxiv:2609.14975</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文确定了 i.i.d. 二元向量在线平衡问题的精确阈值，即当向量长度 $n$ 与向量个数 $m$ 满足何种关系时，存在在线算法使所有坐标的累积和保持 $O(1)$ 偏差。<br/><br/>命中: threshold<br/><br/>Dylan J. Altschuler, Konstantin Tikhomirov]]></description>
-    </item>
-    <item>
-      <title>Exponential tails for factors and the chromatic number of random graphs</title>
-      <link>https://arxiv.org/abs/2609.12700</link>
-      <guid isPermaLink="false">arxiv:2609.12700</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了随机图 $G(n,p)$ 中因子（factors）存在性的指数尾界，并由此给出了随机图 chromatic number 的指数集中性。<br/><br/>命中: random graph, chromatic number<br/><br/>Zhifei Yan]]></description>
-    </item>
-    <item>
-      <title>Spanning subhypergraphs with degree constraints</title>
-      <link>https://arxiv.org/abs/2609.13002</link>
-      <guid isPermaLink="false">arxiv:2609.13002</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了在 $r$-uniform 超图中，当最小度条件满足时，存在具有给定度约束的生成子超图，推广了经典的图论结果。<br/><br/>命中: @Noga Alon<br/><br/>Noga Alon, Penny Haxell, Aleksa Milojević, Jacques Verstraëte]]></description>
-    </item>
-    <item>
-      <title>Local Search for Almost-Spanning Square Grids in Erdős--Rényi Random Graphs</title>
-      <link>https://arxiv.org/abs/2609.12647</link>
-      <guid isPermaLink="false">arxiv:2609.12647</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文利用 local search 算法研究 Erdős--Rényi 随机图 $G(n,p)$ 中几乎生成的正方形网格（square grid）的嵌入问题，确定了相应的阈值概率。<br/><br/>命中: random graph<br/><br/>Dávid Ferenczi, Alexander Grigoriev]]></description>
     </item>
   </channel>
 </rss>
