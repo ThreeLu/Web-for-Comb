@@ -5,8 +5,92 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 02 Oct 2026 08:44:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 09:18:45 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Local Shellings of Broken-Circuit Complexes via Boundary States and the Chromatic Specialization of the Negami Polynomial</title>
+      <link>https://arxiv.org/abs/2610.02279</link>
+      <guid isPermaLink="false">arxiv:2610.02279</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过边界状态构造了 broken-circuit complexes 的相对 shellings，并实现了 Negami 分裂恒等式的 chromatic specialization，同时给出了 graphic Orlik–Terao Gröbner 基的路径公式和虚拟团消去公式。<br/><br/>命中: treewidth<br/><br/>Iwao Mizukai]]></description>
+    </item>
+    <item>
+      <title>Beyond Liu's 0.382709 threshold for the union-closed sets conjecture</title>
+      <link>https://arxiv.org/abs/2610.02295</link>
+      <guid isPermaLink="false">arxiv:2610.02295</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过结合独立协议与 Liu 的 Example 5，证明了 union-closed sets conjecture 中比例下界 $c_{\mathrm{UC}} \ge c_{\mathrm L} &gt; 0.382709087918735$，并进一步优化得到 $c_{\mathrm{UC}} \ge 0.3828852549667978$。<br/><br/>命中: threshold<br/><br/>Simone Costa, Ankan Sadhu]]></description>
+    </item>
+    <item>
+      <title>Note on near-spanning balanced antidirected trees missing from regular tournaments</title>
+      <link>https://arxiv.org/abs/2610.02390</link>
+      <guid isPermaLink="false">arxiv:2610.02390</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[我们构造了近生成平衡反有向树，它们无法嵌入到高度对称的正则竞赛图中，尽管满足半度猜想条件，从而否定了Stein综述中猜想6.8和7.6的均匀亚线性度解释。<br/><br/>命中: threshold<br/><br/>Gregory Gutin, Yiming Hao]]></description>
+    </item>
+    <item>
+      <title>A finite threshold for the double-comet conjecture</title>
+      <link>https://arxiv.org/abs/2610.02913</link>
+      <guid isPermaLink="false">arxiv:2610.02913</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[我们证明了对于 $n\ge200$ 的树，最小化邻接谱间隙 $g(T)=\lambda_1(T)-\lambda_2(T)$ 的树必为平衡双彗星，从而在有限阈值下解决了 double-comet 猜想。<br/><br/>命中: threshold<br/><br/>Dongxiu Cai, Zhenbo Chen, Xiao-Dong Zhang]]></description>
+    </item>
+    <item>
+      <title>Series-parallel extensions and Ehrhart positivity</title>
+      <link>https://arxiv.org/abs/2610.03122</link>
+      <guid isPermaLink="false">arxiv:2610.03122</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 series-parallel matroids 的 Ehrhart 正性，并将其推广到 multi-path matroids 的 series-parallel extensions，同时构造了一个具有负 Ehrhart 系数的连通 transversal matroid，从而否定了 Ferroni、Morales 和 Panova 的猜想。<br/><br/>命中: transversal<br/><br/>Yao Li, Sihong Shao]]></description>
+    </item>
+    <item>
+      <title>Strict spectral supersaturation for cliques: extremal graphs and sharp thresholds</title>
+      <link>https://arxiv.org/abs/2610.03337</link>
+      <guid isPermaLink="false">arxiv:2610.03337</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了在 $n$ 个顶点的图中，当 $K_{r+1}$ 的副本数少于 $q c_r(n)$ 时，邻接谱半径的最大值，并刻画了所有极图，同时给出了严格与非严格约束下谱半径的差以及匹配的 sharp threshold。<br/><br/>命中: extremal graph, supersaturation, threshold<br/><br/>Qi Wu, Yong Lu]]></description>
+    </item>
+    <item>
+      <title>Endomorphisms of Total Kneser Graphs</title>
+      <link>https://arxiv.org/abs/2610.03350</link>
+      <guid isPermaLink="false">arxiv:2610.03350</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 total Kneser graph 的每个 endomorphism 都是 automorphism，并确定了其 automorphism group 是一对 permutation groups 的乘积。<br/><br/>命中: chromatic number<br/><br/>Esmaeil Alhaj Mostafa Abdan, Jacob Russell, Sophia Ulvestad]]></description>
+    </item>
+    <item>
+      <title>Sharp bounds for off-diagonal and tripartite canonical Ramsey numbers</title>
+      <link>https://arxiv.org/abs/2610.03358</link>
+      <guid isPermaLink="false">arxiv:2610.03358</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了 canonical Ramsey 定理的两个变体：在三部 3-一致超图中证明了 canonically coloured $K_{t,t,t}^{(3)}$ 的 sharp 界，并给出了 off-diagonal canonical Ramsey 数 $ER(a,b,c)$ 在不同参数区域下的 sharp 估计。<br/><br/>命中: Ramsey number, @Benny Sudakov, @Zach Hunter<br/><br/>Strahinja Gvozdić, Zach Hunter, Aleksa Milojević, Benny Sudakov]]></description>
+    </item>
+    <item>
+      <title>Partitioning an $S$-packing coloring into broadcast dominating sets</title>
+      <link>https://arxiv.org/abs/2610.03477</link>
+      <guid isPermaLink="false">arxiv:2610.03477</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入了 packing $k$-domatic coloring 的概念，将 packing coloring 与 domatic number 相结合，并研究了其与 packing chromatic number 的关系，给出了在最小度至少为 2 的连通图中 $\chi_{\rho,3}(G)=\chi_\rho(G)$ 等结果。<br/><br/>命中: chromatic number<br/><br/>Boštjan Brešar, Jasmina Ferme, Wenjie Hu]]></description>
+    </item>
+    <item>
+      <title>Geometric triangle-free graphs of large chromatic number</title>
+      <link>https://arxiv.org/abs/2610.03517</link>
+      <guid isPermaLink="false">arxiv:2610.03517</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过多种几何构造，给出了无三角形且色数快速增长的图族，包括 $\mathbb{R}^3$ 中盒子的相交图、单位距离图、直线相交图、圆相切图以及有序图，显著改进了多个经典下界。<br/><br/>命中: chromatic number<br/><br/>István Tomon]]></description>
+    </item>
+    <item>
+      <title>Telescopic Structure of Numerical Semigroups Generated by Unsigned Stirling Numbers of the First Kind</title>
+      <link>https://arxiv.org/abs/2610.03070</link>
+      <guid isPermaLink="false">arxiv:2610.03070</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了由第 $n$ 行非平凡无符号第一类 Stirling 数生成的数值半群 $S_n$ 的 gcd 过滤，并证明其生成序列在移除不活跃生成元后是 telescopic 的，从而得到矩形 Apéry 集、Frobenius 公式以及自由、对称等性质。<br/><br/>命中: threshold<br/><br/>Takao Komatsu, Kyunghwan Song]]></description>
+    </item>
+    <item>
+      <title>The quality plane of $abc$-triples and the decomposition into gains</title>
+      <link>https://arxiv.org/abs/2610.03212</link>
+      <guid isPermaLink="false">arxiv:2610.03212</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入 quality $X$ 和 logarithmic mass $Y$ 坐标，将 $abc$ 猜想和 Szpiro 猜想转化为渐近界，并通过 gains 的分解研究其关系，在特定 gain 界下得到 $\limsup X\le 9/2$ 和 $\limsup Y\le 27/2$。<br/><br/>命中: threshold<br/><br/>R. Laniewski, K. Müller]]></description>
+    </item>
     <item>
       <title>Probability threshold for the stability of $α(G(n,r,s))$</title>
       <link>https://arxiv.org/abs/2610.00144</link>
@@ -846,90 +930,6 @@
       <guid isPermaLink="false">arxiv:2609.17129</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[我们证明了自由且余紧作用在（可能 exotic）$\tilde{A}_2$ 和 $\tilde{C}_2$ 型仿射 building 上的群是 mixed-identity free 且具有 selfless reduced $C^*$-代数，这源于一种称为 transversal contractivity 的强 ping-pong 动力学。<br/><br/>命中: transversal<br/><br/>Corentin Le Bars, Elyasheev Leibtag, Itamar Vigdorovich]]></description>
-    </item>
-    <item>
-      <title>Oriented and Valuated Delta Matroids from Stable Polynomials</title>
-      <link>https://arxiv.org/abs/2609.13501</link>
-      <guid isPermaLink="false">arxiv:2609.13501</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文利用稳定多项式（stable polynomials）构造有向和赋值 delta matroid，推广了 delta matroid 的定向与赋值理论。<br/><br/>命中: oriented<br/><br/>Tracy Chin]]></description>
-    </item>
-    <item>
-      <title>Retained-Set Descent for Diagonal Ramsey Numbers</title>
-      <link>https://arxiv.org/abs/2609.14525</link>
-      <guid isPermaLink="false">arxiv:2609.14525</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文提出 retained-set descent 方法，通过保留部分顶点集并迭代下降，改进了对角 Ramsey 数 $R(k,k)$ 的若干小 $k$ 值的下界。<br/><br/>命中: Ramsey number, diagonal Ramsey<br/><br/>Zhipeng Lu, Sichen Wang]]></description>
-    </item>
-    <item>
-      <title>Oriented Paths with Few Direction Flips Are Tournament Anti-Sidorenko</title>
-      <link>https://arxiv.org/abs/2609.14655</link>
-      <guid isPermaLink="false">arxiv:2609.14655</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了含有少量方向翻转的定向路径是 tournament anti-Sidorenko 的，即其 tournament 同态密度不能由随机 tournament 最小化。<br/><br/>命中: oriented<br/><br/>Hao Chen, Yupeng Lin]]></description>
-    </item>
-    <item>
-      <title>A dimension-free comparison between expectation thresholds and fractional expectation thresholds</title>
-      <link>https://arxiv.org/abs/2609.14681</link>
-      <guid isPermaLink="false">arxiv:2609.14681</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 expectation threshold 与 fractional expectation threshold 之间的差距可以被一个绝对常数控制，从而给出了两者之间的 dimension-free 比较。<br/><br/>命中: threshold<br/><br/>Jinyoung Park]]></description>
-    </item>
-    <item>
-      <title>Local Resilience for Containment of Bounded Degree Spanning Subgraphs</title>
-      <link>https://arxiv.org/abs/2609.14834</link>
-      <guid isPermaLink="false">arxiv:2609.14834</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了在随机图 $G(n,p)$ 中，对于有界度生成子图 $H$，局部 resilience 的阈值，即删除多少条与任意顶点关联的边后，仍能保证 $H$ 的包含。<br/><br/>命中: resilience<br/><br/>Peter Allen, Julia Böttcher, Yoshiharu Kohayakawa, Mihir Neve]]></description>
-    </item>
-    <item>
-      <title>Thresholds and Fluctuations for Colorful Arithmetic Progressions in Sparse Random Colorings</title>
-      <link>https://arxiv.org/abs/2609.15086</link>
-      <guid isPermaLink="false">arxiv:2609.15086</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了稀疏随机着色下 $\mathbb{Z}_n$ 中彩色算术级数的阈值与涨落，确定了出现彩虹 $k$-项算术级数（rainbow $k$-AP）的精确阈值及临界窗口内的极限分布。<br/><br/>命中: threshold<br/><br/>Bhaswar B. Bhattacharya, Sanchayan Bhowal, Atmadeep Sengupta]]></description>
-    </item>
-    <item>
-      <title>An improved bound on the treewidth of planar graphs excluding a grid minor</title>
-      <link>https://arxiv.org/abs/2609.15596</link>
-      <guid isPermaLink="false">arxiv:2609.15596</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文改进了排除 $k \times k$ grid minor 的平面图的 treewidth 上界，证明其 treewidth 至多 $O(k^2 \log k)$，改进了之前的 $O(k^3)$ 界。<br/><br/>命中: treewidth<br/><br/>Wouter Cames van Batenburg, Quentin Claus, Gwenaël Joret, Robin Petit, Jean-Florent Raymond, Eileen Robinson]]></description>
-    </item>
-    <item>
-      <title>A short proof of the Erd\H os--Sós Conjecture</title>
-      <link>https://arxiv.org/abs/2609.15893</link>
-      <guid isPermaLink="false">arxiv:2609.15893</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文给出了 Erdős–Sós 猜想的一个简短证明，该猜想断言每个平均度大于 $k-1$ 的图都包含所有 $k$ 个顶点的树。<br/><br/>命中: @Oliver Riordan<br/><br/>Oliver Riordan, Alex Scott]]></description>
-    </item>
-    <item>
-      <title>Prime and Nonprime Totatives: A Sharp Construction and Exact Thresholds</title>
-      <link>https://arxiv.org/abs/2609.13852</link>
-      <guid isPermaLink="false">arxiv:2609.13852</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究整数 $n$ 的既约剩余系（totatives）中素数与合数的分布，构造了一个使素数 totatives 数量极少的尖锐例子，并给出了精确的阈值。<br/><br/>命中: threshold<br/><br/>Amirali Fatehizadeh]]></description>
-    </item>
-    <item>
-      <title>Character sums on an oriented singer conic and explicit Ramanujan double covers</title>
-      <link>https://arxiv.org/abs/2609.14332</link>
-      <guid isPermaLink="false">arxiv:2609.14332</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了基于有向 Singer 二次曲线上的特征和，并显式给出了具有 Ramanujan 性质的二重覆盖图。<br/><br/>命中: oriented<br/><br/>Pin-Chi Hung, Ming-Hsuan Kang]]></description>
-    </item>
-    <item>
-      <title>Majority dynamics on sparse random graphs</title>
-      <link>https://arxiv.org/abs/2609.14957</link>
-      <guid isPermaLink="false">arxiv:2609.14957</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了稀疏随机图 $G(n,p)$ 上多数动力学的收敛行为，确定了在 $p = \frac{c}{n}$ 且 $c &gt; 1$ 时，初始意见为独立同分布随机变量时，系统最终收敛到一致意见的概率及收敛时间。<br/><br/>命中: random graph, @Ashwin Sah<br/><br/>Gopal Goel, Ashwin Sah]]></description>
-    </item>
-    <item>
-      <title>The threshold for online balancing of i.i.d. binary vectors</title>
-      <link>https://arxiv.org/abs/2609.14975</link>
-      <guid isPermaLink="false">arxiv:2609.14975</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了 i.i.d. 二元向量在线平衡问题的精确阈值，即当向量长度 $n$ 与向量个数 $m$ 满足何种关系时，存在在线算法使所有坐标的累积和保持 $O(1)$ 偏差。<br/><br/>命中: threshold<br/><br/>Dylan J. Altschuler, Konstantin Tikhomirov]]></description>
     </item>
   </channel>
 </rss>

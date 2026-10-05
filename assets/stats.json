@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-02T08:44:04+00:00",
-  "total_days": 90,
-  "total_matched": 830,
+  "generated": "2026-10-05T09:18:45+00:00",
+  "total_days": 91,
+  "total_matched": 842,
   "daily": [
     {
       "date": "2026-06-02",
@@ -452,16 +452,21 @@
       "date": "2026-10-02",
       "matched": 12,
       "fetched": 95
+    },
+    {
+      "date": "2026-10-05",
+      "matched": 12,
+      "fetched": 81
     }
   ],
   "keywords": [
     [
       "threshold",
-      177
+      183
     ],
     [
       "chromatic number",
-      103
+      106
     ],
     [
       "Cayley graph",
@@ -473,11 +478,11 @@
     ],
     [
       "extremal graph",
-      53
+      54
     ],
     [
       "Ramsey number",
-      51
+      52
     ],
     [
       "random graph",
@@ -485,7 +490,7 @@
     ],
     [
       "transversal",
-      35
+      36
     ],
     [
       "Turán number",
@@ -509,11 +514,11 @@
     ],
     [
       "treewidth",
-      17
+      18
     ],
     [
       "supersaturation",
-      17
+      18
     ],
     [
       "Turán problem",
@@ -663,7 +668,7 @@
     ],
     [
       "Benny Sudakov",
-      7
+      8
     ],
     [
       "Richard Montgomery",
@@ -671,7 +676,7 @@
     ],
     [
       "Zach Hunter",
-      4
+      5
     ],
     [
       "Noga Alon",
