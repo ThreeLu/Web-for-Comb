@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-05T09:18:45+00:00",
-  "total_days": 91,
-  "total_matched": 842,
+  "generated": "2026-10-06T09:09:38+00:00",
+  "total_days": 92,
+  "total_matched": 860,
   "daily": [
     {
       "date": "2026-06-02",
@@ -457,24 +457,29 @@
       "date": "2026-10-05",
       "matched": 12,
       "fetched": 81
+    },
+    {
+      "date": "2026-10-06",
+      "matched": 18,
+      "fetched": 122
     }
   ],
   "keywords": [
     [
       "threshold",
-      183
+      189
     ],
     [
       "chromatic number",
-      106
+      107
     ],
     [
       "Cayley graph",
-      65
+      66
     ],
     [
       "oriented",
-      56
+      59
     ],
     [
       "extremal graph",
@@ -486,7 +491,7 @@
     ],
     [
       "random graph",
-      39
+      41
     ],
     [
       "transversal",
@@ -510,27 +515,27 @@
     ],
     [
       "Hamilton cycle",
-      20
+      21
+    ],
+    [
+      "supersaturation",
+      19
     ],
     [
       "treewidth",
       18
     ],
     [
-      "supersaturation",
-      18
+      "Hamiltonian cycle",
+      17
     ],
     [
       "Turán problem",
       17
     ],
     [
-      "Hamiltonian cycle",
-      16
-    ],
-    [
       "generalized Turán",
-      11
+      12
     ],
     [
       "list coloring",
@@ -565,15 +570,15 @@
       5
     ],
     [
+      "bootstrap percolation",
+      5
+    ],
+    [
       "Lovász local lemma",
       5
     ],
     [
       "multicolour Ramsey",
-      4
-    ],
-    [
-      "bootstrap percolation",
       4
     ],
     [
@@ -597,7 +602,15 @@
       3
     ],
     [
+      "hitting time",
+      3
+    ],
+    [
       "Steiner triple system",
+      3
+    ],
+    [
+      "diagonal Ramsey",
       3
     ],
     [
@@ -614,10 +627,6 @@
     ],
     [
       "Existence Conjecture",
-      2
-    ],
-    [
-      "hitting time",
       2
     ],
     [
@@ -642,10 +651,6 @@
     ],
     [
       "rainbow saturation",
-      2
-    ],
-    [
-      "diagonal Ramsey",
       2
     ],
     [

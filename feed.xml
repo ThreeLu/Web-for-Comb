@@ -5,8 +5,134 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 05 Oct 2026 09:18:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 09:09:38 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>An upper bound on the proper hat guessing number of graphs</title>
+      <link>https://arxiv.org/abs/2610.04124</link>
+      <guid isPermaLink="false">arxiv:2610.04124</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图的 proper hat guessing game，给出了当最大度 $\Delta \geq \frac{n}{e+1}$ 时 proper hat guessing number $\operatorname{HG}_{P}(G)$ 的上界，并应用于随机图 $G_{n,1/2}$ 和高最大度图。<br/><br/>命中: random graph<br/><br/>Ioannis Kakatelis]]></description>
+    </item>
+    <item>
+      <title>Hurwitz Stability of Generalized Turán Expressions of Polynomial Sequences</title>
+      <link>https://arxiv.org/abs/2610.04150</link>
+      <guid isPermaLink="false">arxiv:2610.04150</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Liu 和 Yan 关于 Eulerian 多项式和 Narayana 多项式的强 Turán 表达式的弱 Hurwitz 稳定性猜想，并推广了 Turán 表达式的概念，给出了广义稳定性的判别准则。<br/><br/>命中: generalized Turán<br/><br/>Huihua Gao, Xin-Bei Liu]]></description>
+    </item>
+    <item>
+      <title>Proof of the mad conjecture and its coloring applications</title>
+      <link>https://arxiv.org/abs/2610.04645</link>
+      <guid isPermaLink="false">arxiv:2610.04645</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 mad 猜想：最大平均度是可分拆的，并推广到任意多类分拆，进而确定了 $\mathrm{mad}(G)\leq m$ 图类的 clustered chromatic number 为 $\lfloor m/2\rfloor+1$，并给出了 relaxed coloring 的新界。<br/><br/>命中: chromatic number<br/><br/>Andrzej Grzesik, Lenka Kopfová, Gaurav Kucheriya, Binlong Li, Magdalena Prorok]]></description>
+    </item>
+    <item>
+      <title>The asymptotic maximum oriented diameter of graphs</title>
+      <link>https://arxiv.org/abs/2610.04660</link>
+      <guid isPermaLink="false">arxiv:2610.04660</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个直径 $d$ 的无桥连通图都有一个直径至多 $\frac12 d^2 + 7d$ 的强定向，从而确定了最优二次系数 $\frac12$，即 $f(d) = \frac12 d^2 + O(d)$。<br/><br/>命中: oriented<br/><br/>Jiangdong Ai, Yaokun Feng, Hui Lei, Zijian Ren]]></description>
+    </item>
+    <item>
+      <title>Even cycle decomposition thresholds for dense multipartite graphs</title>
+      <link>https://arxiv.org/abs/2610.04890</link>
+      <guid isPermaLink="false">arxiv:2610.04890</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了稠密多部图中偶圈分解的阈值：对于 $2$-balanced $r$-部图，$C_4$-分解阈值为 $\frac{2}{3}$，而 $C_{2k}$（$k\geq3$）的分解阈值为 $\frac{1}{2}$。<br/><br/>命中: threshold<br/><br/>Weiyi Sun, Tao Feng, Shikang Yu]]></description>
+    </item>
+    <item>
+      <title>An asymptotically tight bound on oriented diameter</title>
+      <link>https://arxiv.org/abs/2610.05061</link>
+      <guid isPermaLink="false">arxiv:2610.05061</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个直径 $d$ 的无桥连通图都有一个定向，其有向直径至多 $\lceil d^2/2\rceil+6d$，从而确定了 $f(d)$ 的二次主项系数为 $1/2$。<br/><br/>命中: oriented<br/><br/>Yaojun Chen, Jifu Lin, Xiaolin Wang, Ruilin Zheng]]></description>
+    </item>
+    <item>
+      <title>Connectivity of the reconfiguration graph of Hamiltonian paths</title>
+      <link>https://arxiv.org/abs/2610.05068</link>
+      <guid isPermaLink="false">arxiv:2610.05068</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[论文研究了 Hamiltonian path 的重配置图 $R(G)$ 的连通性，证明了当 $G$ 包含 Hamiltonian path 的平方作为生成子图时 $R(G)$ 连通，并给出了最小度、circulant 和随机图上的推论，同时构造了高连通但重配置图不连通的例子。<br/><br/>命中: random graph<br/><br/>Albi Kazazi]]></description>
+    </item>
+    <item>
+      <title>A Decomposition of the Hitting Time Index Using the Kirchhoff Index and an Asymmetry Term</title>
+      <link>https://arxiv.org/abs/2610.05663</link>
+      <guid isPermaLink="false">arxiv:2610.05663</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文利用 commute time identity 和 Tetali 公式，将 hitting time index 分解为 Kirchhoff index 项和一个非负 asymmetry 项，并给出了 asymmetry 项的上下界及其等号条件，特别地对树、完全二部图、路径等图类得到了精确结果。<br/><br/>命中: hitting time<br/><br/>Shunya Tamura, José Luis Palacios, Aleksandar Petojević]]></description>
+    </item>
+    <item>
+      <title>Optimal spectral supersaturation for cliques and odd cycles</title>
+      <link>https://arxiv.org/abs/2610.06038</link>
+      <guid isPermaLink="false">arxiv:2610.06038</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了在谱超饱和问题中，对于团 $K_{r+1}$ 和奇圈 $C_{2k+1}$，参数 $q$ 的最优阈值分别为 $(1-1/r)\sqrt{2}$ 和 $1/\sqrt{2}$，并给出了精确的副本计数。<br/><br/>命中: supersaturation, threshold<br/><br/>Hongzhang Chen, Yongtao Li]]></description>
+    </item>
+    <item>
+      <title>Polynomial families of incident flags and explicit off-diagonal Ramsey graphs</title>
+      <link>https://arxiv.org/abs/2610.06081</link>
+      <guid isPermaLink="false">arxiv:2610.06081</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过入射点-超平面旗的多项式族构造显式 off-diagonal Ramsey 图，得到固定 $s$ 时 $R(s,t)$ 的下界指数 $s/(2\log_2 s)$，并给出显式例子 $R(16,t)\ge\Omega(t^{2.0539221767\ldots})$。<br/><br/>命中: diagonal Ramsey<br/><br/>Brecht Verbeken]]></description>
+    </item>
+    <item>
+      <title>A Conjecture on Circular Permutations over Finite Fields</title>
+      <link>https://arxiv.org/abs/2610.06289</link>
+      <guid isPermaLink="false">arxiv:2610.06289</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了Zhi-Wei Sun关于有限域上循环排列的猜想：对于 $q&gt;18\,888\,871$ 的有限域 $\mathbb{F}_q$ 和任意 $a_0\in\mathbb{F}_q$，存在非零元素的循环排列 $(a_1,\dots,a_{q-1})$ 使得 $a_0+a_i a_{i+1}$ 均为原根。<br/><br/>命中: Hamilton cycle<br/><br/>Xin-Qi Luo, Yue-Feng She]]></description>
+    </item>
+    <item>
+      <title>Descartes' rule of signs for arbitrary fewnomial systems</title>
+      <link>https://arxiv.org/abs/2610.06435</link>
+      <guid isPermaLink="false">arxiv:2610.06435</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文利用 Gale 对偶和 Khovanskii--Rolle 方法，对具有 $n+k+1$ 个单项式的 $n$ 元实多项式系统的正解个数给出了仅依赖于系数矩阵和指数矩阵的 oriented matroid 的上界，并递归地推广了 Descartes 符号法则。<br/><br/>命中: oriented<br/><br/>Frédéric Bihan]]></description>
+    </item>
+    <item>
+      <title>Random independent sets in triangle-free and linear Berge-$C_4$-free hypergraphs</title>
+      <link>https://arxiv.org/abs/2610.06499</link>
+      <guid isPermaLink="false">arxiv:2610.06499</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究无三角形和线性无 Berge-$C_4$ 的超图中独立集的概率分布，利用有序随机选取过程，给出了顶点被选入随机独立集的概率下界，并由此推导出分数色数的上界。<br/><br/>命中: threshold<br/><br/>Jing Yu, Junchi Zhang]]></description>
+    </item>
+    <item>
+      <title>Enumerating Hamiltonian Paths and Cycles</title>
+      <link>https://arxiv.org/abs/2610.06644</link>
+      <guid isPermaLink="false">arxiv:2610.06644</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了任意完全多部图中有向 Hamiltonian path 和有向 Hamiltonian cycle 的计数公式，方法基于一种将一般路径图与有色顶点路径图关联的坍缩技术。<br/><br/>命中: Hamiltonian cycle<br/><br/>Harry Hylock, Karl Michael Schmidt, Matthew C. Lettington]]></description>
+    </item>
+    <item>
+      <title>Error Term Estimates for Sets of Remainders</title>
+      <link>https://arxiv.org/abs/2610.04993</link>
+      <guid isPermaLink="false">arxiv:2610.04993</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了集合 $S_1(n)=\{n\bmod k:1\leq k\leq\lfloor n/2\rfloor\}$ 的大小 $s_1(n)$ 的误差项，证明了 $s_1(n)=\Xi n+O(n\exp\{-\alpha\sqrt{\log n\log\log n}\})$ 对于 $\alpha&lt;\sqrt{2}$ 成立，且对于 $\alpha&gt;\sqrt{2}$ 误差项无界，从而确定 $\sqrt{2}$ 是此类误差项的阈值。<br/><br/>命中: threshold<br/><br/>Omkar Baraskar, Prashant Gokhale, Sarvagya Jain, Adam Kieżun]]></description>
+    </item>
+    <item>
+      <title>Seed thresholds and degree variance in heterogeneous bootstrap percolation with growing degrees</title>
+      <link>https://arxiv.org/abs/2610.04420</link>
+      <guid isPermaLink="false">arxiv:2610.04420</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了异质 bootstrap percolation 模型，其中顶点阈值独立取 1 或 2，阈值 1 的概率为 $(1-c/d)/d$，种子集大小固定。对于给定度序列的均匀简单图（度在 $d$ 附近波动）和 $G(n,d/n)$，确定了种子规模的阈值，并给出了最终活跃集大小的上下界。<br/><br/>命中: threshold, bootstrap percolation<br/><br/>Aleksandr Rodionov]]></description>
+    </item>
+    <item>
+      <title>A non-plain virtually free group with a strictly 2-geodetic Cayley graph</title>
+      <link>https://arxiv.org/abs/2610.04491</link>
+      <guid isPermaLink="false">arxiv:2610.04491</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[构造了一个显式的无限 virtually free 群 $G=C_4\ast_{C_2}D_3$，其某个有限生成集的 Cayley 图是 $2$-geodetic 但不是 geodetic，从而否定了关于 $k$-geodetic Cayley 图的一个猜想。<br/><br/>命中: Cayley graph<br/><br/>André Carvalho]]></description>
+    </item>
+    <item>
+      <title>Uniquely Ergodic Branching Subset Currents on Free and Surface Groups</title>
+      <link>https://arxiv.org/abs/2610.05581</link>
+      <guid isPermaLink="false">arxiv:2610.05581</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文在自由群和曲面群上构造了具有真正分支支撑的非有理 subset currents，其支撑为 Cantor 集且不包含两点边界子集，并证明任意可度量化 Choquet 单形都可作为由极小分支子集叶状结构承载的 current 锥的紧凸基，同时研究了有限模式复杂度与锥维数的关系。<br/><br/>命中: threshold<br/><br/>Ilya Kapovich]]></description>
+    </item>
     <item>
       <title>Local Shellings of Broken-Circuit Complexes via Boundary States and the Chromatic Specialization of the Negami Polynomial</title>
       <link>https://arxiv.org/abs/2610.02279</link>
@@ -853,83 +979,6 @@
       <guid isPermaLink="false">arxiv:2609.19123</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文通过证明一个尖锐的相关不等式，解决了 Chvátal 关于图的独立数的猜想。<br/><br/>命中: @Hong Liu<br/><br/>Fan Chang, Hong Liu, Miao Liu]]></description>
-    </item>
-    <item>
-      <title>Density and separation for augmented Zarankiewicz numbers</title>
-      <link>https://arxiv.org/abs/2609.16555</link>
-      <guid isPermaLink="false">arxiv:2609.16555</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了增广 Zarankiewicz 问题，证明了从最大 $C_4$-free 矩阵出发可能降低最终最优值，并给出了 ${z_A}(m,n)$ 的精确二阶渐近项和密度阈值。<br/><br/>命中: threshold<br/><br/>Nikita Lebedev]]></description>
-    </item>
-    <item>
-      <title>Mathieu groups as flag-transitive automorphism groups of block designs</title>
-      <link>https://arxiv.org/abs/2609.16756</link>
-      <guid isPermaLink="false">arxiv:2609.16756</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文分类了以 Mathieu 群为基座的旗传递几乎单自同构群的 $2$-$(v,k,\lambda)$ 设计，并显式构造了 101 个新的旗传递 $2$-设计。<br/><br/>命中: block design<br/><br/>Fatemeh Bakhtiari, Ashraf Daneshkhah]]></description>
-    </item>
-    <item>
-      <title>Ordered Ramsey numbers of 3-uniform hypergraphs with bounded weak degeneracy</title>
-      <link>https://arxiv.org/abs/2609.16767</link>
-      <guid isPermaLink="false">arxiv:2609.16767</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了弱 $d$-退化有序 $3$-一致超图 $H$ 与完全 $3$-一致超图 $K_3^{(3)}(n)$ 的有序 Ramsey 数上界为 $t\,2^{C_d n^{2-c/d}}$，并构造反例说明弱退化条件不能替换为标准退化。<br/><br/>命中: Ramsey number<br/><br/>Wen Chen, Zihan He, Qizhong Lin, Meng Liu]]></description>
-    </item>
-    <item>
-      <title>Characterization of graphs attaining the maximum signless Laplacian spectral radius under forbidden cycles and theta graphs</title>
-      <link>https://arxiv.org/abs/2609.17154</link>
-      <guid isPermaLink="false">arxiv:2609.17154</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了在无悬挂点的 $\{C_3,C_4\}$-free 图中最大化 signless Laplacian spectral radius 的极图，并刻画了在无悬挂点的 $\{\theta(1,2,2),\theta(1,2,3)\}$-free 图中固定边数且边数模 $3$ 余 $1$ 或 $2$ 时的极图。<br/><br/>命中: extremal graph<br/><br/>Mainak Basunia, Pratima Panigrahi]]></description>
-    </item>
-    <item>
-      <title>Generating Functions and the Entropy Hierarchy of Strongly Connected Digraphs</title>
-      <link>https://arxiv.org/abs/2609.17334</link>
-      <guid isPermaLink="false">arxiv:2609.17334</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文利用生成函数方法研究有限强连通有向图的拓扑熵，通过路径生成函数的支配奇点恢复并扩展了已知的熵最小化结果，并引入 $(t,k_1,k_2)$-butterfly 参数化来刻画 $\mathcal{SC}_{m+1}(m)$ 中的熵层级。<br/><br/>命中: threshold<br/><br/>Rostislav Klech]]></description>
-    </item>
-    <item>
-      <title>Poset dimension and maximum comparability degree</title>
-      <link>https://arxiv.org/abs/2609.17344</link>
-      <guid isPermaLink="false">arxiv:2609.17344</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了任意有限 poset $P$ 的维数满足 $\dim(P) = O(d \log d)$，其中 $d$ 是其 comparability graph 的最大度，从而确认了 Erdős、Kierstead 和 Trotter 的下界在常数因子意义下是紧的。<br/><br/>命中: @Richard Montgomery, @Rajko Nenadov<br/><br/>Carla Groenland, Richard Montgomery, Rajko Nenadov, Lisa Sauermann]]></description>
-    </item>
-    <item>
-      <title>On Counting Independent Sets in Regular Hypergraphs</title>
-      <link>https://arxiv.org/abs/2609.17468</link>
-      <guid isPermaLink="false">arxiv:2609.17468</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文为 Balogh、Bollobás 和 Narayanan 关于 $r$-一致 $d$-正则超图中弱独立集数量最大化的猜想提供了三类证据，包括渐近指数率、精确结果以及一个反例。<br/><br/>命中: container method, hypergraph container<br/><br/>Michail Sarantis, Prasad Tetali, Zeyu Zheng]]></description>
-    </item>
-    <item>
-      <title>Kemeny's constant via matrix compression and eigenvalue interlacing</title>
-      <link>https://arxiv.org/abs/2609.17481</link>
-      <guid isPermaLink="false">arxiv:2609.17481</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文利用度加权压缩、pinching 不等式和特征值交错，为有限连通加权图的 Kemeny 常数建立了矩阵分析框架，并给出了基于压缩谱的下界及等号刻画，应用于染色划分得到 $K(G) \ge n-2+1/\chi(G)$ 等结果。<br/><br/>命中: chromatic number<br/><br/>A. Abiad, Á. Carmona, A. M. Encinas, E. Ghorbani, M. J. Jiménez, Á. Samperio]]></description>
-    </item>
-    <item>
-      <title>Iwasawa theory of (directe) Cayley graphs</title>
-      <link>https://arxiv.org/abs/2609.16702</link>
-      <guid isPermaLink="false">arxiv:2609.16702</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了交换群、二面体群以及形如 $\mathbb{Z}/p\mathbb{Z} \rtimes \mathbb{Z}/(p-1)\mathbb{Z}$ 的群的 Cayley 图的 Defect Conjecture，并计算了相关 Bowen--Franks 群的 Iwasawa 不变量。<br/><br/>命中: Cayley graph<br/><br/>Debanjana Kundu, Katharina Müller, Alexis newton, Chloe Stewart, Yidi Wang]]></description>
-    </item>
-    <item>
-      <title>Extreme values of quadratic Hecke $L$-functions</title>
-      <link>https://arxiv.org/abs/2609.16807</link>
-      <guid isPermaLink="false">arxiv:2609.16807</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[在 conductor aspect 下，假设 GRH，证明了 quadratic Hecke $L$-函数在临界线附近的大值下界，并给出了达到该下界的字符数量估计。<br/><br/>命中: threshold<br/><br/>Zikang Dong, Long Liu]]></description>
-    </item>
-    <item>
-      <title>Selflessness, MIF and opposition in groups acting on exotic buildings</title>
-      <link>https://arxiv.org/abs/2609.17129</link>
-      <guid isPermaLink="false">arxiv:2609.17129</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[我们证明了自由且余紧作用在（可能 exotic）$\tilde{A}_2$ 和 $\tilde{C}_2$ 型仿射 building 上的群是 mixed-identity free 且具有 selfless reduced $C^*$-代数，这源于一种称为 transversal contractivity 的强 ping-pong 动力学。<br/><br/>命中: transversal<br/><br/>Corentin Le Bars, Elyasheev Leibtag, Itamar Vigdorovich]]></description>
     </item>
   </channel>
 </rss>
