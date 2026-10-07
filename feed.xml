@@ -5,8 +5,99 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 06 Oct 2026 09:09:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 08:58:53 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sparse Moore-local realisations of binary irreducible polynomials on near-square lattice regions</title>
+      <link>https://arxiv.org/abs/2610.06983</link>
+      <guid isPermaLink="false">arxiv:2610.06983</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文证明了对于每个 $N\ge36$，任意 $N$ 次首一不可约二元多项式都可在近方形区域上实现为 Moore-local 线性混合元胞自动机的特征多项式，并给出了依赖数的上界和下界。<br/><br/>命中: Hamilton path<br/><br/>Lizhong Chen]]></description>
+    </item>
+    <item>
+      <title>On the structure of uniform Turán densities</title>
+      <link>https://arxiv.org/abs/2610.07049</link>
+      <guid isPermaLink="false">arxiv:2610.07049</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了 $r$-一致超图的 $(r-2)$-uniform Turán 密度集合，证明了对于充分大的 $r$，密度在 $4r^{-r}$ 处发生相变：低于该阈值时密度为可数的代数集，高于时覆盖整个区间 $[4r^{-r},1]$。<br/><br/>命中: Turán problem, threshold<br/><br/>Heng Li, Xizhi Liu]]></description>
+    </item>
+    <item>
+      <title>Cyclic Hamilton Cycle Decompositions of Carousel Tournaments of Order $pq$</title>
+      <link>https://arxiv.org/abs/2610.07102</link>
+      <guid isPermaLink="false">arxiv:2610.07102</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于素数 $7\le p&lt;q$，阶为 $pq$ 的 carousel tournament $T_{pq}$ 存在循环 Hamilton 圈分解，从而为 Kelly 猜想的对称保持扩展提供了无限族支持。<br/><br/>命中: Hamilton cycle, Hamilton decomposition<br/><br/>Hongci Liao, Yongju Peng, Guang Li, Yingbin Ma]]></description>
+    </item>
+    <item>
+      <title>Connected Fair Detachments of Hypergraphs II</title>
+      <link>https://arxiv.org/abs/2610.07287</link>
+      <guid isPermaLink="false">arxiv:2610.07287</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了 $\lambda$-重完全 $h$-一致超图 $\lambda K_m^h$ 的因子分解在 $\lambda K_n^h$ 的因子分解中的嵌入，并给出了 $h=2,3$ 时的精确存在性准则以及 $h\ge4$ 时改进的阈值条件。<br/><br/>命中: threshold<br/><br/>Amin Bahmanian]]></description>
+    </item>
+    <item>
+      <title>A note on the list chromatic number of two matroids</title>
+      <link>https://arxiv.org/abs/2610.07318</link>
+      <guid isPermaLink="false">arxiv:2610.07318</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了一个图拟阵 $M_1$ 与一个划分拟阵 $M_2$，其公共色数为 $2$ 但公共列表色数为 $3$，从而否定了 Aharoni、Berger、Guo 和 Kotlar 提出的猜想，并证明了两个强基序拟阵若各自 $2$-可着色则其交是 $2$-列表可着色的。<br/><br/>命中: chromatic number, list coloring<br/><br/>Bence Garami]]></description>
+    </item>
+    <item>
+      <title>Spectral extremal problems on 1-planar graphs without Friendship graph</title>
+      <link>https://arxiv.org/abs/2610.07805</link>
+      <guid isPermaLink="false">arxiv:2610.07805</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了不含 friendship graph $F_t$ 的 $1$-planar 图的谱极值问题，确定了其最大谱半径 $\textit{spex}_{\mathcal{P}_1}(n,F_t)$ 并刻画了唯一极值图。<br/><br/>命中: extremal graph<br/><br/>Jiamin Li, Dan Li, Yuanyuan Chen]]></description>
+    </item>
+    <item>
+      <title>Shuffle Squares in Differentiable Words</title>
+      <link>https://arxiv.org/abs/2610.07828</link>
+      <guid isPermaLink="false">arxiv:2610.07828</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过计算机辅助方法研究了不同可微性类（$C^1, C^2, C^3$）下二进制游程可微词中的 shuffle square 判定问题，给出了尖锐的奇偶性阈值和例外结构，并应用于 Kolakoski 序列。<br/><br/>命中: threshold<br/><br/>Michał Zwierzyński]]></description>
+    </item>
+    <item>
+      <title>A proof of the Erdős--Gallai cycle decomposition conjecture</title>
+      <link>https://arxiv.org/abs/2610.07840</link>
+      <guid isPermaLink="false">arxiv:2610.07840</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了 Erdős--Gallai 猜想：任意 $n$ 个顶点的图的边集可分解为 $O(n)$ 个圈和边，等价地，任意 $n$ 个顶点的 Eulerian 图可分解为 $O(n)$ 个圈。<br/><br/>命中: @Jaehoon Kim<br/><br/>Jaehoon Kim]]></description>
+    </item>
+    <item>
+      <title>On the number of cokernel-closed additive subcategories for uniformly oriented $A_n$ quivers</title>
+      <link>https://arxiv.org/abs/2610.07999</link>
+      <guid isPermaLink="false">arxiv:2610.07999</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了均匀定向的 $A_n$ quiver 的有限维复表示范畴中余核闭、幂等分裂、满、加法子范畴的计数序列，通过组合模型揭示了该序列与 Catalan 数的非平凡联系，并给出了隐式递推关系。<br/><br/>命中: oriented<br/><br/>Volodymyr Mazorchuk, Shuoyang Xu]]></description>
+    </item>
+    <item>
+      <title>Perfect state transfer on mixed graphs: complete classes and transfer times</title>
+      <link>https://arxiv.org/abs/2610.08333</link>
+      <guid isPermaLink="false">arxiv:2610.08333</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文对无权重混合图上完美状态转移（PST）的完全类进行了分类，确定了归一化转移时间的特征，并构造了任意有限大小的完全类。<br/><br/>命中: oriented graph, oriented<br/><br/>Xingkun Song]]></description>
+    </item>
+    <item>
+      <title>Regular $K_3$-Irregular Graphs of Every Regularity at Least Nine</title>
+      <link>https://arxiv.org/abs/2610.08478</link>
+      <guid isPermaLink="false">arxiv:2610.08478</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于每个正则度 $r \ge 9$，都存在正则的 $K_3$-irregular 图，即所有顶点的 triangle-degree 两两不同。<br/><br/>命中: threshold<br/><br/>Zhanhe Zhang]]></description>
+    </item>
+    <item>
+      <title>Random independent sets in uncrowded hypergraphs</title>
+      <link>https://arxiv.org/abs/2610.08707</link>
+      <guid isPermaLink="false">arxiv:2610.08707</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了 $k$-一致 $d$-退化且围长至少为 $5$ 的超图的最大分数色数的渐近值，并推广到围长至少为 $g$ 的情形，同时验证了 Yu 和 Zhang 的猜想。<br/><br/>命中: threshold, chromatic number<br/><br/>Abhishek Dhawan, Lina Li, Abhishek Methuku, Minh-Quan Vo, Kewen Yuan]]></description>
+    </item>
+    <item>
+      <title>Cayley graph diameters for fixed cycle types are eventually quasipolynomial</title>
+      <link>https://arxiv.org/abs/2610.08385</link>
+      <guid isPermaLink="false">arxiv:2610.08385</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[对于固定的 cycle type，$S_n$ 中对应共轭类生成的 Cayley 图的直径序列最终在模某个整数下是多项式，并推广到共轭类的有限并。<br/><br/>命中: Cayley graph<br/><br/>Andrei Smolensky]]></description>
+    </item>
     <item>
       <title>An upper bound on the proper hat guessing number of graphs</title>
       <link>https://arxiv.org/abs/2610.04124</link>
@@ -951,34 +1042,6 @@
       <guid isPermaLink="false">arxiv:2609.20546</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明了关于分数期望阈值的“第二”Kahn-Kalai 猜想，给出了一个上界，表明分数期望阈值与期望阈值在常数因子内等价。<br/><br/>命中: Kahn-Kalai, threshold<br/><br/>Tuan Tran]]></description>
-    </item>
-    <item>
-      <title>Sim-Width, Induced Matching Treewidth, and Tree-Independence Number in Induced $K_{t,t}$-Free Graphs</title>
-      <link>https://arxiv.org/abs/2609.18648</link>
-      <guid isPermaLink="false">arxiv:2609.18648</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了在无诱导 $K_{t,t}$ 的图中，sim-width、induced matching treewidth 和 tree-independence number 这三个图参数之间的关系，并给出了它们之间的等价性刻画。<br/><br/>命中: treewidth<br/><br/>Mengyuan Niu, Xiumei Wang]]></description>
-    </item>
-    <item>
-      <title>A non-trivial bound for 3AP-intersecting families</title>
-      <link>https://arxiv.org/abs/2609.18870</link>
-      <guid isPermaLink="false">arxiv:2609.18870</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 3AP-intersecting families 的一个非平凡上界，改进了此前仅有的平凡界。<br/><br/>命中: @Peter Keevash<br/><br/>Peter Keevash]]></description>
-    </item>
-    <item>
-      <title>Hamiltonicity in graphs defined by primes and primitive elements</title>
-      <link>https://arxiv.org/abs/2609.19114</link>
-      <guid isPermaLink="false">arxiv:2609.19114</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了由素数图和本原元素图定义的图类，证明了这些图在特定条件下具有 Hamilton 圈。<br/><br/>命中: Hamiltonicity<br/><br/>Yue-Feng She]]></description>
-    </item>
-    <item>
-      <title>A proof of Chvátal's conjecture via a sharp correlation inequality</title>
-      <link>https://arxiv.org/abs/2609.19123</link>
-      <guid isPermaLink="false">arxiv:2609.19123</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过证明一个尖锐的相关不等式，解决了 Chvátal 关于图的独立数的猜想。<br/><br/>命中: @Hong Liu<br/><br/>Fan Chang, Hong Liu, Miao Liu]]></description>
     </item>
   </channel>
 </rss>
