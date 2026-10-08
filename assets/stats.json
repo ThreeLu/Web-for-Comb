@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-07T08:58:54+00:00",
-  "total_days": 93,
-  "total_matched": 873,
+  "generated": "2026-10-08T09:13:17+00:00",
+  "total_days": 94,
+  "total_matched": 888,
   "daily": [
     {
       "date": "2026-06-02",
@@ -467,24 +467,29 @@
       "date": "2026-10-07",
       "matched": 13,
       "fetched": 86
+    },
+    {
+      "date": "2026-10-08",
+      "matched": 15,
+      "fetched": 78
     }
   ],
   "keywords": [
     [
       "threshold",
-      194
+      195
     ],
     [
       "chromatic number",
-      109
+      112
     ],
     [
       "Cayley graph",
-      67
+      68
     ],
     [
       "oriented",
-      61
+      63
     ],
     [
       "extremal graph",
@@ -496,39 +501,39 @@
     ],
     [
       "random graph",
-      41
+      44
     ],
     [
       "transversal",
       36
     ],
     [
+      "Latin square",
+      31
+    ],
+    [
       "Turán number",
       30
     ],
     [
-      "Latin square",
-      30
-    ],
-    [
       "oriented graph",
-      23
-    ],
-    [
-      "Hamiltonicity",
-      23
+      24
     ],
     [
       "Hamilton cycle",
-      22
+      24
+    ],
+    [
+      "Hamiltonicity",
+      24
+    ],
+    [
+      "treewidth",
+      19
     ],
     [
       "supersaturation",
       19
-    ],
-    [
-      "treewidth",
-      18
     ],
     [
       "Turán problem",
@@ -544,10 +549,18 @@
     ],
     [
       "list coloring",
-      9
+      10
     ],
     [
       "Ramsey theory",
+      8
+    ],
+    [
+      "hypergraph container",
+      8
+    ],
+    [
+      "block design",
       8
     ],
     [
@@ -555,24 +568,16 @@
       7
     ],
     [
-      "block design",
-      7
-    ],
-    [
       "additive combinatorics",
       6
     ],
     [
-      "hypergraph container",
+      "regularity lemma",
       6
     ],
     [
       "extremal combinatorics",
       6
-    ],
-    [
-      "regularity lemma",
-      5
     ],
     [
       "bootstrap percolation",
@@ -583,7 +588,15 @@
       5
     ],
     [
+      "container method",
+      5
+    ],
+    [
       "multicolour Ramsey",
+      4
+    ],
+    [
+      "combinatorial design",
       4
     ],
     [
@@ -595,12 +608,8 @@
       4
     ],
     [
-      "container method",
+      "Steiner triple system",
       4
-    ],
-    [
-      "combinatorial design",
-      3
     ],
     [
       "probabilistic method",
@@ -608,10 +617,6 @@
     ],
     [
       "hitting time",
-      3
-    ],
-    [
-      "Steiner triple system",
       3
     ],
     [
@@ -678,7 +683,7 @@
     ],
     [
       "Benny Sudakov",
-      8
+      9
     ],
     [
       "Richard Montgomery",
@@ -707,6 +712,10 @@
     [
       "Marcelo Campos",
       3
+    ],
+    [
+      "Matthew Kwan",
+      2
     ],
     [
       "Cosmin Pohoata",
@@ -742,10 +751,6 @@
     ],
     [
       "Tom Kelly",
-      1
-    ],
-    [
-      "Matthew Kwan",
       1
     ],
     [

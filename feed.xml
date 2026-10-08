@@ -5,8 +5,113 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 07 Oct 2026 08:58:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 09:13:17 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Distinguishing graphs with simple spectrum by homomorphism counts</title>
+      <link>https://arxiv.org/abs/2610.09042</link>
+      <guid isPermaLink="false">arxiv:2610.09042</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了哪些图类通过同态计数能够区分所有具有简单谱的图，并证明了此类图类必须具有无界树宽和欧拉亏格，且包含 $K_7$ 作为子式；同时给出了子三次同态计数区分核维数至多为一的图的刻画。<br/><br/>命中: treewidth<br/><br/>Takanori Maehara]]></description>
+    </item>
+    <item>
+      <title>Inheritance of expansion and oriented Hamilton cycles in robust expanders: a regularity-free proof</title>
+      <link>https://arxiv.org/abs/2610.09072</link>
+      <guid isPermaLink="false">arxiv:2610.09072</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文给出了 Taylor 关于 robust outexpander 中 Hamilton 圈定向的定理的一个无 regularity 证明，并推广到 Hamilton-连通性和 linkage 等相关结果。<br/><br/>命中: Hamilton cycle, container method, oriented graph, oriented, regularity lemma<br/><br/>Louis DeBiasio]]></description>
+    </item>
+    <item>
+      <title>Double-Partition Coloring problem: a unified approach for conflict-free coloring of hypergraphs and other coloring problems in graphs</title>
+      <link>https://arxiv.org/abs/2610.09154</link>
+      <guid isPermaLink="false">arxiv:2610.09154</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了 Double-Partition Coloring Problem (DPCP)，给出了结构性质、启发式算法和基于 set covering 的 branch-and-price 精确算法，并在 Conflict-Free Coloring Problem (CFCP) 等实例上进行了计算评估。<br/><br/>命中: list coloring<br/><br/>Mauro Lucci, Graciela Nasini, Paola Tolomei, Luis Miguel Torres]]></description>
+    </item>
+    <item>
+      <title>Coloring Monomial Cayley Graphs: The One-Parameter Case</title>
+      <link>https://arxiv.org/abs/2610.09474</link>
+      <guid isPermaLink="false">arxiv:2610.09474</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入单项式 Cayley 图（monomial Cayley graphs）作为研究代数关系如何影响平面染色数（chromatic number of the plane）的框架，并确定了一类由单个复参数的有符号幂生成的图的染色数与圆染色数。<br/><br/>命中: chromatic number, Cayley graph<br/><br/>Jonathan Davidson]]></description>
+    </item>
+    <item>
+      <title>Dynamic Coloring and Graph Squares of Regular Graphs</title>
+      <link>https://arxiv.org/abs/2610.09565</link>
+      <guid isPermaLink="false">arxiv:2610.09565</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了正则图的 $r$-dynamic coloring，证明了无爪三次图的 $\chi_3(G) = \chi(G^2) \le 6$ 且界是紧的，并对哈密顿无爪三次图改进了界，同时确定了 $4$-正则循环图 $C_p(1,3)$ 的 $r$-dynamic 色数。<br/><br/>命中: chromatic number<br/><br/>Juan Gutierrez, Grover Ugarte]]></description>
+    </item>
+    <item>
+      <title>An asymptotically tight bound on oriented diameter</title>
+      <link>https://arxiv.org/abs/2610.09648</link>
+      <guid isPermaLink="false">arxiv:2610.09648</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个有限连通无桥简单图若直径为 $d$，则存在强定向使其直径至多 $\lceil d^2/2\rceil+d+18$，从而确定 $f(d)=\lceil d^2/2\rceil+d+O(1)$。<br/><br/>命中: oriented<br/><br/>Jiangdong Ai, Yaojun Chen, Yaokun Feng, Hui Lei, Jifu Lin, Zijian Ren, Xiaolin Wang, Ruilin Zheng]]></description>
+    </item>
+    <item>
+      <title>Melnikov's Valency Variety Problem</title>
+      <link>https://arxiv.org/abs/2610.09649</link>
+      <guid isPermaLink="false">arxiv:2610.09649</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解决了 Melnikov 的 valency variety 问题，给出了用顶点数 $|V(G)|$ 和不同顶点度个数 $w(G)$ 表示的色数 $\chi(G)$ 的精确下界，并构造了达到等号的无限图族。<br/><br/>命中: chromatic number<br/><br/>Zhanping Yang, Qinghou Zeng]]></description>
+    </item>
+    <item>
+      <title>The Almost Stacked Hypothesis: A Conjectural Analogue of Sjöstrand's Cover Pebbling Theorem</title>
+      <link>https://arxiv.org/abs/2610.09650</link>
+      <guid isPermaLink="false">arxiv:2610.09650</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文提出 Almost Stacked Hypothesis (ASH)，并证明在 ASH 下确定了偶数圈 $C_{2n}$ 的 stacking number 和奇数圈 $C_{2n+1}$ 的 clearing number，同时引入树的不变量 $\operatorname{estim}(T)$ 并证明 ASH 下 $\operatorname{stack}(T)=\operatorname{estim}(T)$，最后构造了边密度趋于零的 perfectly pebblable 图族。<br/><br/>命中: threshold<br/><br/>Tamás Csernák, Lajos Soukup]]></description>
+    </item>
+    <item>
+      <title>Quantizing Delsarte Theory</title>
+      <link>https://arxiv.org/abs/2610.09900</link>
+      <guid isPermaLink="false">arxiv:2610.09900</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文发展了量子结合方案的 Delsarte 理论，允许复合与量子 Schur 积非交换，并证明了 MacWilliams 恒等式以及内分布和对偶分布的正性，从而得到码的锥上界和设计的锥下界。<br/><br/>命中: block design<br/><br/>Ryutaro Misawa]]></description>
+    </item>
+    <item>
+      <title>Asymptotic connectivity, hamiltonicity and toughness</title>
+      <link>https://arxiv.org/abs/2610.09992</link>
+      <guid isPermaLink="false">arxiv:2610.09992</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文定义了连通性、Hamiltonicity、toughness 和生成树的粗变体，这些变体在拟等距下不变，并满足与经典概念相同的关系，同时提出了若干关于 Hamiltonicity 的粗版本公开问题。<br/><br/>命中: Hamiltonicity<br/><br/>Agelos Georgakopoulos]]></description>
+    </item>
+    <item>
+      <title>Nonlinear lower-tail large deviations at criticality</title>
+      <link>https://arxiv.org/abs/2610.10233</link>
+      <guid isPermaLink="false">arxiv:2610.10233</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入一般方法推导非线性问题的下尾大偏差原理，特别适用于临界区域，并应用于随机图中无三角形、无偶环的概率以及组合设计中的计数问题。<br/><br/>命中: hypergraph container, random graph, Steiner triple system, combinatorial design, Latin square, @Matthew Kwan<br/><br/>Matthew Kwan, Huy Tuan Pham]]></description>
+    </item>
+    <item>
+      <title>A near-linear Chvátal--Erdős condition for Hamilton cycles in digraphs</title>
+      <link>https://arxiv.org/abs/2610.10292</link>
+      <guid isPermaLink="false">arxiv:2610.10292</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了有向图中 Hamilton cycle 的 Chvátal--Erdős 型条件的近线性上界：$f_2(a)=O\left(\frac{a(\log a)^4}{(\log\log a)^2}\right)$，并否定了 Jackson 和 Ordaz 的 pancyclicity 猜想。<br/><br/>命中: Hamilton cycle<br/><br/>Chengli Li, Bo Ning]]></description>
+    </item>
+    <item>
+      <title>Perfect matchings in hypergraphs and Feige's inequality</title>
+      <link>https://arxiv.org/abs/2610.10380</link>
+      <guid isPermaLink="false">arxiv:2610.10380</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文是一篇教学性短文，阐述了超图中完美匹配的最小度条件如何推广 Dirac 定理，并揭示了分数完美匹配与 Feige 关于非负随机变量的概率不等式之间的优雅联系，同时给出了 Feige 猜想的简短自包含证明。<br/><br/>命中: @Benny Sudakov<br/><br/>Aleksa Milojević, Benny Sudakov]]></description>
+    </item>
+    <item>
+      <title>The replica symmetric solution for hypergraph independent sets in the critical regime</title>
+      <link>https://arxiv.org/abs/2610.10433</link>
+      <guid isPermaLink="false">arxiv:2610.10433</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了局部稀疏超图中二项随机子集为独立集的概率的变分公式，该公式在整个临界区域成立，并插值了 Janson 不等式和超图容器方法的结果。<br/><br/>命中: hypergraph container, random graph<br/><br/>Matthew Jenssen, Will Perkins, Aditya Potukuchi, Michael Simkin]]></description>
+    </item>
+    <item>
+      <title>Universality for the extreme eigenvalues of Laplacian random matrices</title>
+      <link>https://arxiv.org/abs/2610.09076</link>
+      <guid isPermaLink="false">arxiv:2610.09076</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了具有 sub-Gaussian 元素的 Wigner 矩阵对应的 Laplacian 随机矩阵 $D-A$ 的极端特征值服从 Poisson 统计，最大特征值经中心化和缩放后收敛到 Gumbel 分布，并应用于 Erdős--Rényi 随机图的代数连通度。<br/><br/>命中: random graph<br/><br/>Andrew Campbell, Kyle Luh, Sean O'Rourke]]></description>
+    </item>
     <item>
       <title>Sparse Moore-local realisations of binary irreducible polynomials on near-square lattice regions</title>
       <link>https://arxiv.org/abs/2610.06983</link>
@@ -1021,27 +1126,6 @@
       <guid isPermaLink="false">arxiv:2609.21679</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文研究了几乎单群上具有正规连接集的 Cayley 图的自同构群，并给出了其自同构群的一个刻画。<br/><br/>命中: Cayley graph<br/><br/>Mengyu Cao, Benjian Lv, Binzhou Xia]]></description>
-    </item>
-    <item>
-      <title>The homomorphism threshold of odd cycle $C_{2k-1}$ is below $\frac{1}{2k-1}$</title>
-      <link>https://arxiv.org/abs/2609.20237</link>
-      <guid isPermaLink="false">arxiv:2609.20237</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了奇圈 $C_{2k-1}$ 的同态阈值严格小于 $\frac{1}{2k-1}$，给出了首个低于该平凡下界的界。<br/><br/>命中: threshold<br/><br/>Jian Wang, Shipeng Wang, Zixiang Xu]]></description>
-    </item>
-    <item>
-      <title>New upper bounds for the chromatic numbers of Euclidean spaces</title>
-      <link>https://arxiv.org/abs/2609.20436</link>
-      <guid isPermaLink="false">arxiv:2609.20436</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文改进了欧几里得空间 $\mathbb{R}^n$ 的色数上界，通过构造新的有限单位距离图，给出了 $n=5,6,7,8$ 等维度的更优上界。<br/><br/>命中: chromatic number<br/><br/>Leonid Ivanov, Nadezhda Glushkova]]></description>
-    </item>
-    <item>
-      <title>Fractional expectation thresholds and the &amp;#34;second&amp;#34; Kahn-Kalai conjecture</title>
-      <link>https://arxiv.org/abs/2609.20546</link>
-      <guid isPermaLink="false">arxiv:2609.20546</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了关于分数期望阈值的“第二”Kahn-Kalai 猜想，给出了一个上界，表明分数期望阈值与期望阈值在常数因子内等价。<br/><br/>命中: Kahn-Kalai, threshold<br/><br/>Tuan Tran]]></description>
     </item>
   </channel>
 </rss>
