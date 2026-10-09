@@ -5,8 +5,99 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 08 Oct 2026 09:13:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 09:22:15 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Tweaking the constant in the Linear Hadwiger Theorem</title>
+      <link>https://arxiv.org/abs/2610.10831</link>
+      <guid isPermaLink="false">arxiv:2610.10831</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过基于AI的优化方法，将Linear Hadwiger Conjecture中的常数从Norin和Steiner证明的约$10^{100}$改进到$19{,}885{,}160$，证明了每个图$G$满足$\chi(G) \leqslant 19{,}885{,}160\,\text{had}(G)$。<br/><br/>命中: chromatic number<br/><br/>David R. Wood]]></description>
+    </item>
+    <item>
+      <title>Almost all graphs are determined by their generalized spectrum</title>
+      <link>https://arxiv.org/abs/2610.11047</link>
+      <guid isPermaLink="false">arxiv:2610.11047</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了 Haemers 关于广义谱的猜想：几乎所有的图都由其广义谱决定，即随机图 $G(n,1/2)$ 以概率 $1-o(1)$ 由其广义谱唯一确定。<br/><br/>命中: random graph<br/><br/>Ziqing Xiang]]></description>
+    </item>
+    <item>
+      <title>Star-critical Ramsey numbers involving large generalized books</title>
+      <link>https://arxiv.org/abs/2610.11151</link>
+      <guid isPermaLink="false">arxiv:2610.11151</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于充分大的 $n$，广义书图 $H = K_k + nK_h$ 与完全多部图 $G = K_{p+1}(a_1,\dots,a_{p+1})$ 的 star-critical Ramsey 数 $r_*(G,H) = (p-1)(nh + a_2k - 1) + a_2(k + h - 2) + 1$，并给出了相应的临界图构造。<br/><br/>命中: Ramsey number, book graph, regularity lemma<br/><br/>Peiyu Huang, Qizhong Lin, Lin Niu]]></description>
+    </item>
+    <item>
+      <title>The chromatic number of the associahedron: simple and logarithmic</title>
+      <link>https://arxiv.org/abs/2610.11426</link>
+      <guid isPermaLink="false">arxiv:2610.11426</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文给出了 $n-1$ 维 associahedron 的色数上界 $6 \log_2 n + 18$ 的一个更简单的证明，改进了 Addario-Berry 等人之前的 $22500 \log_3 n + O(1)$ 界。<br/><br/>命中: chromatic number<br/><br/>Benjamin Aram Berendsohn, Jean Cardinal, John Iacono, László Kozma]]></description>
+    </item>
+    <item>
+      <title>Spanning Even Linear Forests with Isolated Edges Share the Anti-Ramsey Numbers of Perfect Matchings</title>
+      <link>https://arxiv.org/abs/2610.11441</link>
+      <guid isPermaLink="false">arxiv:2610.11441</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了每个具有孤立边的偶数阶生成线性森林与完美匹配具有相同的 anti-Ramsey 数。<br/><br/>命中: Ramsey number<br/><br/>Ali Ghalavand]]></description>
+    </item>
+    <item>
+      <title>On the Number of Hamiltonian Cycles in a Boolean Cube</title>
+      <link>https://arxiv.org/abs/2610.11941</link>
+      <guid isPermaLink="false">arxiv:2610.11941</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了 $n$ 维 Boolean cube $E^n$ 中 Hamiltonian cycle 的数量，给出了 cycle decomposition 数量的渐近对数，并证明了每个方向数受限的完美匹配可扩展为 Hamiltonian cycle。<br/><br/>命中: Hamiltonian cycle<br/><br/>A. L. Perezhogin, V. N. Potapov]]></description>
+    </item>
+    <item>
+      <title>Fractional majority coloring of digraphs: bounds and inapproximability</title>
+      <link>https://arxiv.org/abs/2610.11997</link>
+      <guid isPermaLink="false">arxiv:2610.11997</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个有限无环有向图的分数多数染色数至多为 $523/140 &lt; 3.736$，改进了 Anastos 等人的 $3.9602$ 上界，并给出了随机近似算法以及 NP-难与不可近似性结果。<br/><br/>命中: oriented, threshold<br/><br/>Walid Ben-Ameur, Alessandro Maddaloni]]></description>
+    </item>
+    <item>
+      <title>Sharp linear Turán remainders for cycle and edge extremality</title>
+      <link>https://arxiv.org/abs/2610.12109</link>
+      <guid isPermaLink="false">arxiv:2610.12109</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文否定了 Morrison、Roberts 和 Scott 关于同时最大化边数和圈数的猜想，并给出了线性 Turán 余项的最佳可能常数。<br/><br/>命中: chromatic number<br/><br/>Jifu Lin, Xiaolin Wang, Guangmiao Yu]]></description>
+    </item>
+    <item>
+      <title>Lower bounds for Ramsey numbers: $\mathrm{R}(6,8)\ge 135$ and $\mathrm{R}(8,10)\ge 345$</title>
+      <link>https://arxiv.org/abs/2610.12122</link>
+      <guid isPermaLink="false">arxiv:2610.12122</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过局部搜索方法构造了 $K_{134}$ 和 $K_{344}$ 的显式红蓝着色，证明了下界 $\mathrm{R}(6,8) \ge 135$ 和 $\mathrm{R}(8,10) \ge 345$，改进了 Radziszowski 动态综述中的已知下界。<br/><br/>命中: Ramsey number<br/><br/>Fritz Cremer]]></description>
+    </item>
+    <item>
+      <title>Measurable obstructions for unmeasurable colourings</title>
+      <link>https://arxiv.org/abs/2610.12301</link>
+      <guid isPermaLink="false">arxiv:2610.12301</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于 $d\ge 4$，欧几里得空间 $\mathbb{R}^d$ 的普通染色数与可测染色数相等，并由此将大量可测染色数的下界提升到普通情形，同时改进了多个距离的染色数下界。<br/><br/>命中: chromatic number<br/><br/>James Davies]]></description>
+    </item>
+    <item>
+      <title>On the asymptotic behavior of the number variance of random points on the unit torus</title>
+      <link>https://arxiv.org/abs/2610.11687</link>
+      <guid isPermaLink="false">arxiv:2610.11687</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文精确计算了单位环面上独立均匀随机点的 number variance $V_N(s)$ 的分布，并确定了其几乎必然渐近行为中 Poissonian 渐近 $V_N(s) \sim N s$ 失效的阈值。<br/><br/>命中: threshold<br/><br/>Christoph Aistleitner, Siegfried Hörmann, Maryna Manskova]]></description>
+    </item>
+    <item>
+      <title>Subspace Uncertainty and Sharp Sampling Thresholds on the Boolean Cube</title>
+      <link>https://arxiv.org/abs/2610.12358</link>
+      <guid isPermaLink="false">arxiv:2610.12358</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了在 $d$ 维布尔立方体上已知的 $m$ 维、次数至多 $k$ 的函数子空间中的高斯回归问题，确定了最坏情况下子空间的样本阈值，并改进了 Polyanskiy--Samorodnitsky 不确定性原理。<br/><br/>命中: threshold<br/><br/>Thomas Weinberger]]></description>
+    </item>
+    <item>
+      <title>A generalization of the sum of element orders function</title>
+      <link>https://arxiv.org/abs/2610.11804</link>
+      <guid isPermaLink="false">arxiv:2610.11804</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入了有限群元素阶和函数的一个 $k$ 次推广 $\psi''_k(G) = \psi_k(G)/|G|^{k+1}$，其中 $\psi_k(G)=\sum_{g\in G} o(g)^k$，并研究了其性质，得到了循环、交换、幂零和（超）可解群的阈值，并探讨了该函数的单射性、满射性和密度。<br/><br/>命中: threshold<br/><br/>Sayanta Chatterjee, Angsuman Das, Sauvik Poddar]]></description>
+    </item>
     <item>
       <title>Distinguishing graphs with simple spectrum by homomorphism counts</title>
       <link>https://arxiv.org/abs/2610.09042</link>
@@ -1091,41 +1182,6 @@
       <guid isPermaLink="false">arxiv:2609.24684</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文引入了依赖于团数的强次线性树宽（clique-dependent strongly sublinear treewidth）和强次线性树独立数（strongly sublinear tree-independence number）两个新概念，并研究了它们的性质与关系。<br/><br/>命中: treewidth<br/><br/>Andrea Munaro]]></description>
-    </item>
-    <item>
-      <title>Graph Decompositions at the Expectation Threshold</title>
-      <link>https://arxiv.org/abs/2609.20864</link>
-      <guid isPermaLink="false">arxiv:2609.20864</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了随机图 $G(n,p)$ 在期望阈值处的图分解问题，证明了当 $p$ 略高于使 $G(n,p)$ 包含给定图 $H$ 的副本的期望阈值时，$G(n,p)$ 可以几乎必然地被 $H$ 的副本分解。<br/><br/>命中: threshold<br/><br/>Jia-Qi Yang]]></description>
-    </item>
-    <item>
-      <title>Spectral Extremal Graphs without a $K_k$-Factor</title>
-      <link>https://arxiv.org/abs/2609.21529</link>
-      <guid isPermaLink="false">arxiv:2609.21529</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了在给定边数或谱半径条件下，不含 $K_k$-factor 的图的谱极值图，并给出了相应的谱 Turán 型定理。<br/><br/>命中: extremal graph<br/><br/>Cunxiang Duan, Tingting Han, Lin-Peng Zhang]]></description>
-    </item>
-    <item>
-      <title>Induced packing treewidth II. Excluding a clique or a biclique</title>
-      <link>https://arxiv.org/abs/2609.21615</link>
-      <guid isPermaLink="false">arxiv:2609.21615</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了诱导 packing treewidth 在排除 clique 或 biclique 作为诱导子图时的行为，给出了其与树宽、团大小等参数之间的精确关系。<br/><br/>命中: treewidth<br/><br/>Amir Nikabadi, Paweł Rzążewski]]></description>
-    </item>
-    <item>
-      <title>Local large deviations for triangles in sparse random graphs</title>
-      <link>https://arxiv.org/abs/2609.21890</link>
-      <guid isPermaLink="false">arxiv:2609.21890</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了稀疏随机图 $G(n,p)$ 中三角形数量的局部大偏差，给出了当三角形数量偏离其均值时概率的精确渐近估计。<br/><br/>命中: random graph<br/><br/>Jade Lintott, Will Perkins, Corrine Yap]]></description>
-    </item>
-    <item>
-      <title>Automorphism groups of Cayley graphs on almost simple groups with normal connection sets</title>
-      <link>https://arxiv.org/abs/2609.21679</link>
-      <guid isPermaLink="false">arxiv:2609.21679</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了几乎单群上具有正规连接集的 Cayley 图的自同构群，并给出了其自同构群的一个刻画。<br/><br/>命中: Cayley graph<br/><br/>Mengyu Cao, Benjian Lv, Binzhou Xia]]></description>
     </item>
   </channel>
 </rss>
