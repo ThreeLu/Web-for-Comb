@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-09T09:22:15+00:00",
-  "total_days": 95,
-  "total_matched": 901,
+  "generated": "2026-10-12T09:30:17+00:00",
+  "total_days": 96,
+  "total_matched": 912,
   "daily": [
     {
       "date": "2026-06-02",
@@ -477,24 +477,29 @@
       "date": "2026-10-09",
       "matched": 13,
       "fetched": 96
+    },
+    {
+      "date": "2026-10-12",
+      "matched": 11,
+      "fetched": 69
     }
   ],
   "keywords": [
     [
       "threshold",
-      199
+      200
     ],
     [
       "chromatic number",
-      116
+      120
     ],
     [
       "Cayley graph",
-      68
+      70
     ],
     [
       "oriented",
-      64
+      65
     ],
     [
       "extremal graph",
@@ -514,7 +519,7 @@
     ],
     [
       "Latin square",
-      31
+      32
     ],
     [
       "Turán number",
@@ -522,14 +527,14 @@
     ],
     [
       "oriented graph",
-      24
-    ],
-    [
-      "Hamilton cycle",
-      24
+      25
     ],
     [
       "Hamiltonicity",
+      25
+    ],
+    [
+      "Hamilton cycle",
       24
     ],
     [
@@ -541,11 +546,11 @@
       19
     ],
     [
-      "Hamiltonian cycle",
-      18
+      "Turán problem",
+      19
     ],
     [
-      "Turán problem",
+      "Hamiltonian cycle",
       18
     ],
     [
@@ -707,6 +712,10 @@
       3
     ],
     [
+      "Matthew Kwan",
+      3
+    ],
+    [
       "Casey Tompkins",
       3
     ],
@@ -717,10 +726,6 @@
     [
       "Marcelo Campos",
       3
-    ],
-    [
-      "Matthew Kwan",
-      2
     ],
     [
       "Cosmin Pohoata",

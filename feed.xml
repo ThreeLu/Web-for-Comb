@@ -5,8 +5,85 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 09 Oct 2026 09:22:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 09:30:17 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Game Chromatic Number of Complete Multipartite Graphs with Singletons and Large Parts</title>
+      <link>https://arxiv.org/abs/2610.12508</link>
+      <guid isPermaLink="false">arxiv:2610.12508</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了部分为单点集或大小至少为4的完全多部图的游戏色数，给出了一个基于有序部分大小和单点集数量的公式。<br/><br/>命中: chromatic number<br/><br/>Lasitha Jayasinghe]]></description>
+    </item>
+    <item>
+      <title>Frugal coloring in planar graphs with maximum degree 4 and 5</title>
+      <link>https://arxiv.org/abs/2610.12640</link>
+      <guid isPermaLink="false">arxiv:2610.12640</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了最大度为 $4$ 的平面图存在使用 $7$ 种颜色的 $2$-frugal coloring，最大度为 $5$ 的平面图存在使用 $10$ 种颜色的 $2$-frugal coloring。<br/><br/>命中: chromatic number<br/><br/>Boštjan Brešar, Přemysl Holub, Marko Jakovac, Petra Melicharová]]></description>
+    </item>
+    <item>
+      <title>Connectivity, toughness, and hamiltonicity of simplicial polytopes</title>
+      <link>https://arxiv.org/abs/2610.12836</link>
+      <guid isPermaLink="false">arxiv:2610.12836</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[对于每个 $d\ge4$、连通度 $r\ge d$ 和 $\varepsilon&gt;0$，构造了一个单纯 $d$-多面体，其图的连通度恰为 $r$，不可迹，且 toughness 小于 $\varepsilon$，从而表明 Whitney 和 Tutte 关于高连通度保证 Hamilton 性的定理在更高维没有对应。<br/><br/>命中: Hamiltonicity<br/><br/>Guillermo Pineda-Villavicencio]]></description>
+    </item>
+    <item>
+      <title>Codegree-Constrained Turán Problems for $F_5$ and Its Blow-ups</title>
+      <link>https://arxiv.org/abs/2610.12905</link>
+      <guid isPermaLink="false">arxiv:2610.12905</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了在最大对码度 $\Delta_2(H) \ge m$ 约束下，$F_5$ 及其 blow-ups $F_5^t$ 的 Turán 数 $ex_{\Delta_2\ge m}(n,F_5)$ 的精确值，并刻画了唯一的极值超图。<br/><br/>命中: Turán problem<br/><br/>Yupei Li, Linyuan Lu]]></description>
+    </item>
+    <item>
+      <title>On the probability that a random Latin square is all-even</title>
+      <link>https://arxiv.org/abs/2610.13487</link>
+      <guid isPermaLink="false">arxiv:2610.13487</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[我们证明了均匀随机 $n\times n$ Latin square 的所有行均为偶排列的概率为 $2^{-n+o(n)}$，并推广到任意行、列、符号奇偶性指定的概率。<br/><br/>命中: Latin square, @Matthew Kwan<br/><br/>Catherine Greenhill, Lenka Kopfová, Matthew Kwan, Kalina Petrova]]></description>
+    </item>
+    <item>
+      <title>Disjoint unions and fixed-parameter algorithms for chromatic villainy</title>
+      <link>https://arxiv.org/abs/2610.13556</link>
+      <guid isPermaLink="false">arxiv:2610.13556</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图的染色恶行（chromatic villainy）在不相交并下的精确组合律，给出了重复并的渐近增长公式，并设计了固定参数算法计算其精确值。<br/><br/>命中: threshold<br/><br/>Jiang Jiang, Yuhan Jiang, Yiyang Li, Lujia Wang, Aitao Zhang]]></description>
+    </item>
+    <item>
+      <title>List chromatic number of $G(n,r,s)$ graphs</title>
+      <link>https://arxiv.org/abs/2610.13723</link>
+      <guid isPermaLink="false">arxiv:2610.13723</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了广义 Johnson 图 $G(n,r,s)$ 的 list chromatic number，证明了当 $s \geq 1$ 且 $r \geq 2s+2$ 时 $\chi_L(G(n,r,s)) = \Theta(n^{s+1}\ln n)$，并给出了 $s=0$ 时的下界，从而确定了 $\chi_L(G(n,r,0))$ 在 $2 \leq r \leq (1/2-\varepsilon)n$ 范围内的渐近阶。<br/><br/>命中: chromatic number<br/><br/>M. Koshelev]]></description>
+    </item>
+    <item>
+      <title>On the failure of additivity of inversion numbers for dijoins</title>
+      <link>https://arxiv.org/abs/2610.13798</link>
+      <guid isPermaLink="false">arxiv:2610.13798</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于有向图的反转数，dijoin 操作下的可加性可以严重失败，构造了使 $\operatorname{inv}(D_1 \to D_2) \leq (1/2+\varepsilon)(\operatorname{inv}(D_1)+\operatorname{inv}(D_2))$ 的竞赛图。<br/><br/>命中: oriented graph, oriented<br/><br/>Natalie Behague, Jack Cromwell]]></description>
+    </item>
+    <item>
+      <title>Clique and chromatic numbers of graph powers: spectral bounds and anticodes</title>
+      <link>https://arxiv.org/abs/2610.13852</link>
+      <guid isPermaLink="false">arxiv:2610.13852</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[利用谱方法和多项式方法，我们为图幂的团数和色数建立了若干尖锐的谱界，并提出了Wegner猜想的谱类似物，同时将谱多项式方法与编码理论中的反码联系起来。<br/><br/>命中: chromatic number<br/><br/>Aida Abiad, Gabriel Coutinho, Hitesh Kumar, Emanuel Juliano, Michael Tait]]></description>
+    </item>
+    <item>
+      <title>Minor exclusion and planar rigidity</title>
+      <link>https://arxiv.org/abs/2610.12576</link>
+      <guid isPermaLink="false">arxiv:2610.12576</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了与排除可数团作为 minor 的图 quasi-isometric 的连通、局部有限、quasi-transitive 图必 quasi-isometric 于平面图，并由此推出相应有限生成群是 virtually planar。<br/><br/>命中: Cayley graph<br/><br/>Joseph Paul MacManus]]></description>
+    </item>
+    <item>
+      <title>$D^L$, $D^Q$ Spectrum and Eigenvalue-free Interval of Cayley Graphs over Finite Nilpotent Groups</title>
+      <link>https://arxiv.org/abs/2610.13429</link>
+      <guid isPermaLink="false">arxiv:2610.13429</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文利用有限幂零群的Sylow分解和表示论，给出了幂零群上Cayley图的距离矩阵、距离Laplacian和距离无符号Laplacian的完整谱公式，并确定了$D^L$和$D^Q$的无特征值区间。<br/><br/>命中: Cayley graph<br/><br/>Pallabi Manna, Santanu Mandal]]></description>
+    </item>
     <item>
       <title>Tweaking the constant in the Linear Hadwiger Theorem</title>
       <link>https://arxiv.org/abs/2610.10831</link>
@@ -1112,76 +1189,6 @@
       <guid isPermaLink="false">arxiv:2609.26655</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文研究了伪随机图中 rainbow Hamilton cycle 的 resilience，证明了在满足一定伪随机条件的图 $G$ 中，即使删除少量边或顶点，仍能保证存在 rainbow Hamilton cycle。<br/><br/>命中: Hamilton cycle, resilience<br/><br/>Elad Aigner-Horev, Dan Hefetz, Yury Person]]></description>
-    </item>
-    <item>
-      <title>Acyclic Dicolourings of Oriented Graphs: Paths, Random Tournaments, and Critical Orders</title>
-      <link>https://arxiv.org/abs/2609.22931</link>
-      <guid isPermaLink="false">arxiv:2609.22931</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了有向图的 acyclic dicolouring 问题，证明了有向路径的 acyclic dichromatic number 为 2，并给出了随机竞赛图和高临界阶数的相关结果。<br/><br/>命中: oriented graph, oriented<br/><br/>Yihang Liu, Zhenyu Yang, Yuwan Zhang]]></description>
-    </item>
-    <item>
-      <title>The satisfiability threshold of random linear equations over finite commutative rings</title>
-      <link>https://arxiv.org/abs/2609.23282</link>
-      <guid isPermaLink="false">arxiv:2609.23282</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了有限交换环上随机线性方程组可满足性阈值，并给出了阈值常数的显式公式。<br/><br/>命中: threshold<br/><br/>Pu Gao, Theodore Morrison]]></description>
-    </item>
-    <item>
-      <title>Multiset Colorings of Random Graphs Across Density Regimes</title>
-      <link>https://arxiv.org/abs/2609.23362</link>
-      <guid isPermaLink="false">arxiv:2609.23362</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了随机图 $G(n,p)$ 在稀疏、临界和稠密三种密度区域下的 multiset coloring 问题，确定了其 multiset chromatic number 的渐近值。<br/><br/>命中: random graph<br/><br/>Arash Ahadi, Sharareh Alipour]]></description>
-    </item>
-    <item>
-      <title>On Kahn's flow conjecture</title>
-      <link>https://arxiv.org/abs/2609.23595</link>
-      <guid isPermaLink="false">arxiv:2609.23595</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Kahn 关于有向图无处为零流的猜想，即每个无桥有向图都存在一个无处为零的整数流，其值在 $\{-k,\dots,k\}$ 中，其中 $k$ 仅依赖于最大度。<br/><br/>命中: @Peter Keevash<br/><br/>Peter Keevash]]></description>
-    </item>
-    <item>
-      <title>On the majority game chromatic number of forests and other graphs</title>
-      <link>https://arxiv.org/abs/2609.23803</link>
-      <guid isPermaLink="false">arxiv:2609.23803</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了图的 majority game chromatic number，证明了森林的该参数至多为 4，并给出了若干图类的上界与下界。<br/><br/>命中: chromatic number<br/><br/>Yash Chawda, Saraswati Girish Nanoti, Brahadeesh Sankarnarayanan]]></description>
-    </item>
-    <item>
-      <title>Bounded chromatic number of graphs with small clique number and large minimum degree</title>
-      <link>https://arxiv.org/abs/2609.24097</link>
-      <guid isPermaLink="false">arxiv:2609.24097</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了在无三角形（或 clique number 较小）且最小度足够大的图中，chromatic number 可以被一个绝对常数界住，从而改进了 Erdős 关于高 girth 高 chromatic number 的经典构造所引发的下界问题。<br/><br/>命中: chromatic number<br/><br/>Jiaao Li, Xinyuan Li]]></description>
-    </item>
-    <item>
-      <title>Turán problems with bounded matching number in $k$-uniform hypergraphs</title>
-      <link>https://arxiv.org/abs/2609.24353</link>
-      <guid isPermaLink="false">arxiv:2609.24353</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了在匹配数至多为 $s$ 的 $k$-uniform hypergraph 中，边数的最大值，即 Turán 数 $\mathrm{ex}(n, k, s)$，并刻画了极值结构。<br/><br/>命中: Turán problem<br/><br/>Jialin Liu, Mingyang Guo, Xiumei Wang]]></description>
-    </item>
-    <item>
-      <title>Sharp connectivity thresholds for mixed rigidity packings and improved bounds for highly connected orientations of graphs</title>
-      <link>https://arxiv.org/abs/2609.24463</link>
-      <guid isPermaLink="false">arxiv:2609.24463</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了混合 rigidity matroid 打包的 sharp connectivity 阈值，并改进了高度连通图的定向中弧连通性的界。<br/><br/>命中: threshold<br/><br/>Hanzhi Bai, Jørgen Bang-Jensen, Jin Yan]]></description>
-    </item>
-    <item>
-      <title>Symmetric Quantum Latin Squares with Maximal Cardinality</title>
-      <link>https://arxiv.org/abs/2609.24653</link>
-      <guid isPermaLink="false">arxiv:2609.24653</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了具有最大基数 $n^2$ 的对称 quantum Latin squares（SQLS），并给出了其存在性的完整刻画。<br/><br/>命中: Latin square<br/><br/>Yiwen Zhang, Haitao Cao]]></description>
-    </item>
-    <item>
-      <title>Clique-dependent strongly sublinear treewidth and strongly sublinear tree-independence number</title>
-      <link>https://arxiv.org/abs/2609.24684</link>
-      <guid isPermaLink="false">arxiv:2609.24684</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入了依赖于团数的强次线性树宽（clique-dependent strongly sublinear treewidth）和强次线性树独立数（strongly sublinear tree-independence number）两个新概念，并研究了它们的性质与关系。<br/><br/>命中: treewidth<br/><br/>Andrea Munaro]]></description>
     </item>
   </channel>
 </rss>
