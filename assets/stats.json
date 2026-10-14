@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-12T09:30:17+00:00",
-  "total_days": 96,
-  "total_matched": 912,
+  "generated": "2026-10-14T07:50:57+00:00",
+  "total_days": 97,
+  "total_matched": 956,
   "daily": [
     {
       "date": "2026-06-02",
@@ -482,32 +482,37 @@
       "date": "2026-10-12",
       "matched": 11,
       "fetched": 69
+    },
+    {
+      "date": "2026-10-14",
+      "matched": 44,
+      "fetched": 234
     }
   ],
   "keywords": [
     [
       "threshold",
-      200
+      213
     ],
     [
       "chromatic number",
-      120
+      126
     ],
     [
       "Cayley graph",
-      70
+      74
     ],
     [
       "oriented",
-      65
+      66
     ],
     [
       "extremal graph",
-      55
+      61
     ],
     [
       "Ramsey number",
-      55
+      58
     ],
     [
       "random graph",
@@ -515,35 +520,35 @@
     ],
     [
       "transversal",
-      36
-    ],
-    [
-      "Latin square",
-      32
+      37
     ],
     [
       "Turán number",
-      30
+      33
     ],
     [
-      "oriented graph",
-      25
-    ],
-    [
-      "Hamiltonicity",
-      25
+      "Latin square",
+      33
     ],
     [
       "Hamilton cycle",
-      24
+      27
+    ],
+    [
+      "Hamiltonicity",
+      27
+    ],
+    [
+      "oriented graph",
+      26
     ],
     [
       "treewidth",
-      19
+      20
     ],
     [
       "supersaturation",
-      19
+      20
     ],
     [
       "Turán problem",
@@ -555,15 +560,19 @@
     ],
     [
       "generalized Turán",
-      12
+      13
     ],
     [
       "list coloring",
+      13
+    ],
+    [
+      "Hamilton path",
       10
     ],
     [
       "Ramsey theory",
-      8
+      9
     ],
     [
       "hypergraph container",
@@ -572,10 +581,6 @@
     [
       "block design",
       8
-    ],
-    [
-      "Hamilton path",
-      7
     ],
     [
       "regularity lemma",
@@ -588,6 +593,10 @@
     [
       "extremal combinatorics",
       6
+    ],
+    [
+      "combinatorial design",
+      5
     ],
     [
       "bootstrap percolation",
@@ -606,11 +615,11 @@
       5
     ],
     [
-      "multicolour Ramsey",
-      4
+      "diagonal Ramsey",
+      5
     ],
     [
-      "combinatorial design",
+      "multicolour Ramsey",
       4
     ],
     [
@@ -627,10 +636,6 @@
     ],
     [
       "hitting time",
-      3
-    ],
-    [
-      "diagonal Ramsey",
       3
     ],
     [
@@ -689,7 +694,7 @@
   "authors": [
     [
       "Hong Liu",
-      14
+      16
     ],
     [
       "Benny Sudakov",
@@ -702,6 +707,10 @@
     [
       "Zach Hunter",
       5
+    ],
+    [
+      "David Conlon",
+      4
     ],
     [
       "Noga Alon",
@@ -732,7 +741,7 @@
       2
     ],
     [
-      "David Conlon",
+      "Nemanja Draganić",
       2
     ],
     [
@@ -756,15 +765,15 @@
       2
     ],
     [
+      "Jaehoon Kim",
+      2
+    ],
+    [
       "Andrey Kupavskii",
       1
     ],
     [
       "Tom Kelly",
-      1
-    ],
-    [
-      "Nemanja Draganić",
       1
     ],
     [
@@ -797,10 +806,6 @@
     ],
     [
       "Domagoj Bradač",
-      1
-    ],
-    [
-      "Jaehoon Kim",
       1
     ]
   ]
