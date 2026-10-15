@@ -5,8 +5,36 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 14 Oct 2026 07:50:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 07:36:12 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Complete counterexamples to Mubayi's supersaturation conjecture for graphs</title>
+      <link>https://arxiv.org/abs/2610.18876</link>
+      <guid isPermaLink="false">arxiv:2610.18876</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了一类非 $d$-部稳定图 $F$，使得对于所有 $1\le q\le O(n^{4/3})$，有 $h_F(n,q) &lt; q\cdot t_F(n,1)$，从而完全否定了 Mubayi 的超饱和猜想。<br/><br/>命中: extremal graph, supersaturation, chromatic number<br/><br/>Liping Zhang, Qinghai Liu]]></description>
+    </item>
+    <item>
+      <title>Ordinary and measurable colorings of Euclidean three-space</title>
+      <link>https://arxiv.org/abs/2610.18907</link>
+      <guid isPermaLink="false">arxiv:2610.18907</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[利用 OpenAI 的平面 character-law 刚性定理，证明 $\mathbb{R}^3$ 的任意有限正常染色可替换为相同色数的 Lebesgue 可测正常染色，从而得到 $\mathbb{R}^3$ 的普通色数与可测色数相等，且均介于 $7$ 与 $15$ 之间。<br/><br/>命中: chromatic number, @Andrey Kupavskii<br/><br/>Mikhail Koshelev, Andrey Kupavskii, Vsevolod Voronov]]></description>
+    </item>
+    <item>
+      <title>Improved Sidorenko bound for hypergraph Turan densities</title>
+      <link>https://arxiv.org/abs/2610.18944</link>
+      <guid isPermaLink="false">arxiv:2610.18944</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个 $r$-一致超图 $F$ 的 Turán 密度满足 $\pi(F) \le 1 - c_r m^{-(r-1)/r}$，改进了 Sidorenko 的 $1 - \Omega(m^{-1})$ 界，并证明指数 $(r-1)/r$ 是最优的。<br/><br/>命中: Lovász local lemma<br/><br/>Shuyan Chen, Xinmin Hou, Xizhi Liu]]></description>
+    </item>
+    <item>
+      <title>Every cubic graph has four total dominating sets covering each vertex at most twice</title>
+      <link>https://arxiv.org/abs/2610.19450</link>
+      <guid isPermaLink="false">arxiv:2610.19450</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明每个三次图都有四个 total dominating sets 使得每个顶点至多被覆盖两次，并肯定地回答了关于 $3$-uniform $3$-regular hypergraphs 的 transversals 的类似问题。<br/><br/>命中: transversal<br/><br/>Hyemin Kwon, Boram Park, Yoshio Sano]]></description>
+    </item>
     <item>
       <title>Local Fan-type obstructions and Ore-type conditions for rainbow Hamiltonicity in graph systems</title>
       <link>https://arxiv.org/abs/2610.13977</link>
@@ -1378,34 +1406,6 @@
       <guid isPermaLink="false">arxiv:2609.30263</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文研究了有界 VC-dimension 的集合系统中的阈值（thresholds）和 spread 性质，给出了新的界和结构结果。<br/><br/>命中: threshold<br/><br/>Chong Shangguan]]></description>
-    </item>
-    <item>
-      <title>Boolean threshold functions, neuron capacity, and memory retrieval</title>
-      <link>https://arxiv.org/abs/2609.29756</link>
-      <guid isPermaLink="false">arxiv:2609.29756</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了布尔阈值函数（Boolean threshold functions）的计数与神经元容量（neuron capacity）之间的关系，并探讨了其在记忆检索（memory retrieval）中的应用。<br/><br/>命中: threshold<br/><br/>Xinyuan Xie]]></description>
-    </item>
-    <item>
-      <title>Heat kernels on Cayley graphs of free products of finite groups</title>
-      <link>https://arxiv.org/abs/2609.28774</link>
-      <guid isPermaLink="false">arxiv:2609.28774</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了有限群自由积的 Cayley 图上随机游走的热核，并给出了其渐近行为的精确估计。<br/><br/>命中: Cayley graph<br/><br/>Kamila Kashaeva]]></description>
-    </item>
-    <item>
-      <title>Exact local spectral thresholds for perfect matchings in $3$-graphs and $3$-partite $3$-graphs</title>
-      <link>https://arxiv.org/abs/2609.26832</link>
-      <guid isPermaLink="false">arxiv:2609.26832</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了 $3$-graphs 和 $3$-partite $3$-graphs 中完美匹配存在性的精确局部谱阈值。<br/><br/>命中: threshold<br/><br/>Pei Liu, Suil O]]></description>
-    </item>
-    <item>
-      <title>Limitations of the slice rank method in additive combinatorics</title>
-      <link>https://arxiv.org/abs/2609.27044</link>
-      <guid isPermaLink="false">arxiv:2609.27044</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 slice rank method 在 additive combinatorics 中的若干局限性，构造了 slice rank 远大于其实际 combinatorial 复杂度的张量，并给出了 slice rank 与 partition rank 之间的分离。<br/><br/>命中: additive combinatorics<br/><br/>Sankeerth Rao Karingula, Shachar Lovett]]></description>
     </item>
   </channel>
 </rss>
