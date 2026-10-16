@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-15T07:36:13+00:00",
-  "total_days": 98,
-  "total_matched": 960,
+  "generated": "2026-10-16T07:23:03+00:00",
+  "total_days": 99,
+  "total_matched": 969,
   "daily": [
     {
       "date": "2026-06-02",
@@ -492,28 +492,33 @@
       "date": "2026-10-15",
       "matched": 4,
       "fetched": 58
+    },
+    {
+      "date": "2026-10-16",
+      "matched": 9,
+      "fetched": 81
     }
   ],
   "keywords": [
     [
       "threshold",
-      213
+      217
     ],
     [
       "chromatic number",
-      128
+      129
     ],
     [
       "Cayley graph",
-      74
+      76
     ],
     [
       "oriented",
-      66
+      67
     ],
     [
       "extremal graph",
-      62
+      63
     ],
     [
       "Ramsey number",
@@ -521,18 +526,18 @@
     ],
     [
       "random graph",
-      45
+      46
     ],
     [
       "transversal",
-      38
-    ],
-    [
-      "Turán number",
-      33
+      39
     ],
     [
       "Latin square",
+      34
+    ],
+    [
+      "Turán number",
       33
     ],
     [
@@ -699,7 +704,7 @@
   "authors": [
     [
       "Hong Liu",
-      16
+      17
     ],
     [
       "Benny Sudakov",

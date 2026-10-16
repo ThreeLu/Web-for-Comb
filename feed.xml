@@ -5,8 +5,71 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 15 Oct 2026 07:36:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 07:23:03 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Crossing numbers of simplicial complexes</title>
+      <link>https://arxiv.org/abs/2610.21017</link>
+      <guid isPermaLink="false">arxiv:2610.21017</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了 $d$ 维单纯复形在 $\mathbb R^{2d}$ 或 $\mathbb S^{2d}$ 中的交叉数，将图情形下的若干已知结果和猜想推广到高维，并给出了新的构造和证明。<br/><br/>命中: random graph, threshold<br/><br/>Alfredo Hubard, Cheikh Saliou Ndiaye, Oriol Solé-Pi]]></description>
+    </item>
+    <item>
+      <title>Optimally large cuts in both directions</title>
+      <link>https://arxiv.org/abs/2610.21381</link>
+      <guid isPermaLink="false">arxiv:2610.21381</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了对于最小出度至少为 $d$ 的有向图，存在顶点二划分使得两个方向的 directed cut 都至少为 $\left\lceil\frac{d-1}{2(2d-1)}m+\frac{d^2}{2(2d-1)}\right\rceil$，并刻画了近极值图的结构。<br/><br/>命中: extremal graph<br/><br/>Frederic Folz, Mykhaylo Tyomkyn]]></description>
+    </item>
+    <item>
+      <title>Cayley graphs of abelian groups, circular colorings and discrete fundamental groups</title>
+      <link>https://arxiv.org/abs/2610.21940</link>
+      <guid isPermaLink="false">arxiv:2610.21940</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[我们证明了对于每个整数 $k \ge 2$，一个 abelian group $\Gamma$ 满足 $\exp(\Gamma) \in \{1,\dots,k\} \cup \{2,4,\dots,2k\}$ 当且仅当它不存在 circular chromatic number 严格小于 $2 + \frac{2}{k-1}$ 的非二部 Cayley graph。<br/><br/>命中: chromatic number, Cayley graph<br/><br/>Kengo Enami, Takahiro Matsushita]]></description>
+    </item>
+    <item>
+      <title>A complete classification of perfect state transfer in Grover walks on abelian Cayley graphs</title>
+      <link>https://arxiv.org/abs/2610.21946</link>
+      <guid isPermaLink="false">arxiv:2610.21946</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文完全分类了有限阿贝尔群上的连通 Cayley 图在 Grover 游走中具有完美状态转移的情形，证明了此类图的度只能为 1、2 或 4，并显式给出了所有满足条件的 $(\Gamma, S)$ 对。<br/><br/>命中: Cayley graph<br/><br/>Koushik Bhakta, Bikash Bhattacharjya]]></description>
+    </item>
+    <item>
+      <title>The asymptotic Erd{ő}s--Frankl--Füredi cover-free conjecture</title>
+      <link>https://arxiv.org/abs/2610.22021</link>
+      <guid isPermaLink="false">arxiv:2610.22021</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Erdős–Frankl–Füredi 覆盖自由族阈值猜想的渐近形式，即 $T(r) = (1+o(1))r^2$，具体给出 $T(r) \ge r^2 + r + 2$。<br/><br/>命中: threshold, @Hong Liu<br/><br/>Xinqi Huang, Hong Liu]]></description>
+    </item>
+    <item>
+      <title>Barrier Log-Concavity of Large Forests</title>
+      <link>https://arxiv.org/abs/2610.22098</link>
+      <guid isPermaLink="false">arxiv:2610.22098</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文证明了每个充分大的森林的独立集序列是严格 barrier log-concave 的，即当 $i_{k+1}&gt;i_k$ 时，有 $i_k^2&gt;i_{k-1}i_{k+1}$，并由此推导出 well-covered 树和森林的独立多项式的严格 log-凹性。<br/><br/>命中: threshold<br/><br/>Vadim E. Levit]]></description>
+    </item>
+    <item>
+      <title>A New Bound for the Gauss Circle Problem</title>
+      <link>https://arxiv.org/abs/2610.21730</link>
+      <guid isPermaLink="false">arxiv:2610.21730</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Gauss 圆问题中误差项 $E(X)=O_\varepsilon(X^{209/670+\varepsilon})$，打破了 Huxley 提出的 $5/16$ 阈值。<br/><br/>命中: threshold<br/><br/>Xi Cen, Xitao Gao, Cheng Zhang, Junyong Zhang]]></description>
+    </item>
+    <item>
+      <title>Canonical Kummerian Kernels in 1-Smooth Pro-$p$ Poincaré Duality Groups of Dimension Three</title>
+      <link>https://arxiv.org/abs/2610.20915</link>
+      <guid isPermaLink="false">arxiv:2610.20915</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[论文证明了对于1-smooth的pro-$p$ Poincaré对偶群（维数3），若其典范核$K_\theta(G)$有限生成，则$K_\theta(G)=1$，从而非$\theta$-abelian群必有无限生成的核，并给出了核的上同调描述。<br/><br/>命中: oriented<br/><br/>Marina Palaisti]]></description>
+    </item>
+    <item>
+      <title>A simultaneous variant of the Hall-Paige theorem and applications</title>
+      <link>https://arxiv.org/abs/2610.21600</link>
+      <guid isPermaLink="false">arxiv:2610.21600</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入了 Hall-Paige 定理的同时变体性质 $\mathcal P_k$，证明了若 $p$ 是 $|G|$ 的最小素因子，则 $G$ 对每个 $k &lt; p-1$ 满足 $\mathcal P_k$，且该界是紧的，并给出了在有限交换 $p$-群及非循环同循环 $p$-群中的加强结果以及用拉丁方的公共横截和公共正交配偶的解释。<br/><br/>命中: transversal, Latin square<br/><br/>Maria Loukaki]]></description>
+    </item>
     <item>
       <title>Complete counterexamples to Mubayi's supersaturation conjecture for graphs</title>
       <link>https://arxiv.org/abs/2610.18876</link>
@@ -1336,76 +1399,6 @@
       <guid isPermaLink="false">arxiv:2609.30680</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文比较了随机图 $G(n,p)$ 的 expectation threshold 与 fractional expectation threshold，证明两者在 log-star 因子内等价。<br/><br/>命中: threshold<br/><br/>Xuan Fang, Tianyu Wang]]></description>
-    </item>
-    <item>
-      <title>Spectral extremal graphs for $W_5$-free graphs with odd size</title>
-      <link>https://arxiv.org/abs/2609.28556</link>
-      <guid isPermaLink="false">arxiv:2609.28556</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了在边数为奇数且不包含 $W_5$（5-轮图）的图中，谱半径最大的图。<br/><br/>命中: extremal graph<br/><br/>Jing Gao, Xianya Geng, Shuchao Li]]></description>
-    </item>
-    <item>
-      <title>Exact Diameter Windows for Random Cayley Graphs on Odd-Order Abelian Groups</title>
-      <link>https://arxiv.org/abs/2609.28573</link>
-      <guid isPermaLink="false">arxiv:2609.28573</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了奇数阶阿贝尔群上随机 Cayley 图直径的精确窗口，证明了直径以高概率落在 $\lceil \log_{|S|} |G| \rceil$ 附近的一个宽度为 $O(1)$ 的区间内。<br/><br/>命中: Cayley graph<br/><br/>Yao Zhi]]></description>
-    </item>
-    <item>
-      <title>Ramsey Theory for Product Trees</title>
-      <link>https://arxiv.org/abs/2609.28898</link>
-      <guid isPermaLink="false">arxiv:2609.28898</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了乘积树（product trees）上的 Ramsey 理论，证明了乘积树的边着色 Ramsey 数由各因子树的相应 Ramsey 数决定。<br/><br/>命中: Ramsey theory<br/><br/>Alexander Fish, Sean Skinner]]></description>
-    </item>
-    <item>
-      <title>A Combinatorial Proof of Hilton's Conjecture and Beyond</title>
-      <link>https://arxiv.org/abs/2609.28966</link>
-      <guid isPermaLink="false">arxiv:2609.28966</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文用组合方法证明了 Hilton 关于边着色的猜想，并给出了更一般的结论。<br/><br/>命中: @Luke Postle<br/><br/>Thomas Lesgourgues, Luke Postle]]></description>
-    </item>
-    <item>
-      <title>Orthogonal Quantum Latin Squares with Maximal Cardinality from Full-Rank Factorizations</title>
-      <link>https://arxiv.org/abs/2609.29070</link>
-      <guid isPermaLink="false">arxiv:2609.29070</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文利用 full-rank factorizations 构造了具有最大基数 $n$ 的 orthogonal quantum Latin squares 集合，其中 $n$ 为任意正整数。<br/><br/>命中: Latin square<br/><br/>Mingzhen Lv, Yuyuan Zhang, Haitao Cao]]></description>
-    </item>
-    <item>
-      <title>The strong (non-induced) Turán numbers</title>
-      <link>https://arxiv.org/abs/2609.29304</link>
-      <guid isPermaLink="false">arxiv:2609.29304</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入了强（非诱导）Turán数 $T_s(n,F)$，并确定了若干图类（如完全图、完全二部图、匹配、星、路径等）的精确值或渐近值。<br/><br/>命中: Turán number<br/><br/>Yair Caro, Zsolt Tuza]]></description>
-    </item>
-    <item>
-      <title>An improved upper bound for oriented diameter of graphs with diameter $4$</title>
-      <link>https://arxiv.org/abs/2609.29526</link>
-      <guid isPermaLink="false">arxiv:2609.29526</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了直径为 $4$ 的有向图（oriented graph）的有向直径（oriented diameter）上界为 $8$，改进了之前已知的上界 $9$。<br/><br/>命中: oriented<br/><br/>Yaokun Feng, Hui Lei, Xiaopan Lian, Zijian Ren]]></description>
-    </item>
-    <item>
-      <title>On the Exact Turán Number of $F^-_{4,3}$</title>
-      <link>https://arxiv.org/abs/2609.29903</link>
-      <guid isPermaLink="false">arxiv:2609.29903</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了图 $F^-_{4,3}$ 的精确 Turán 数，即 $\mathrm{ex}(n, F^-_{4,3})$ 的精确值。<br/><br/>命中: Turán number<br/><br/>Chun-Qiu Fang]]></description>
-    </item>
-    <item>
-      <title>Thinning and sprinkling: from robust sampling to almost Hamiltonicity</title>
-      <link>https://arxiv.org/abs/2609.30165</link>
-      <guid isPermaLink="false">arxiv:2609.30165</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了在 $G(n,p)$ 随机图中，通过稀疏化（thinning）和撒点（sprinkling）操作，可以从一个鲁棒采样的子图出发，以高概率得到几乎 Hamilton 的图，从而在随机图框架下建立了鲁棒采样与 Hamiltonicity 之间的联系。<br/><br/>命中: Hamiltonicity, @Benny Sudakov, @Zach Hunter<br/><br/>Micha Christoph, Zach Hunter, Benny Sudakov]]></description>
-    </item>
-    <item>
-      <title>Thresholds and spread in set systems of bounded VC-dimension</title>
-      <link>https://arxiv.org/abs/2609.30263</link>
-      <guid isPermaLink="false">arxiv:2609.30263</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了有界 VC-dimension 的集合系统中的阈值（thresholds）和 spread 性质，给出了新的界和结构结果。<br/><br/>命中: threshold<br/><br/>Chong Shangguan]]></description>
     </item>
   </channel>
 </rss>
