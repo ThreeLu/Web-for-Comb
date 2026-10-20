@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-19T07:57:48+00:00",
-  "total_days": 100,
-  "total_matched": 985,
+  "generated": "2026-10-20T07:48:08+00:00",
+  "total_days": 101,
+  "total_matched": 1007,
   "daily": [
     {
       "date": "2026-06-02",
@@ -502,12 +502,17 @@
       "date": "2026-10-19",
       "matched": 16,
       "fetched": 66
+    },
+    {
+      "date": "2026-10-20",
+      "matched": 22,
+      "fetched": 141
     }
   ],
   "keywords": [
     [
       "threshold",
-      222
+      231
     ],
     [
       "chromatic number",
@@ -515,23 +520,23 @@
     ],
     [
       "Cayley graph",
-      76
+      78
     ],
     [
       "oriented",
-      68
+      69
     ],
     [
       "extremal graph",
-      64
+      66
     ],
     [
       "Ramsey number",
-      58
+      61
     ],
     [
       "random graph",
-      48
+      49
     ],
     [
       "transversal",
@@ -547,7 +552,7 @@
     ],
     [
       "Hamilton cycle",
-      27
+      28
     ],
     [
       "Hamiltonicity",
@@ -559,7 +564,7 @@
     ],
     [
       "treewidth",
-      21
+      22
     ],
     [
       "supersaturation",
@@ -587,7 +592,7 @@
     ],
     [
       "Ramsey theory",
-      9
+      10
     ],
     [
       "hypergraph container",
@@ -610,6 +615,10 @@
       6
     ],
     [
+      "bootstrap percolation",
+      6
+    ],
+    [
       "extremal combinatorics",
       6
     ],
@@ -618,7 +627,7 @@
       6
     ],
     [
-      "bootstrap percolation",
+      "multicolour Ramsey",
       5
     ],
     [
@@ -632,10 +641,6 @@
     [
       "diagonal Ramsey",
       5
-    ],
-    [
-      "multicolour Ramsey",
-      4
     ],
     [
       "tight Hamilton cycle",
@@ -713,14 +718,14 @@
     ],
     [
       "Benny Sudakov",
-      9
-    ],
-    [
-      "Richard Montgomery",
-      5
+      10
     ],
     [
       "Zach Hunter",
+      6
+    ],
+    [
+      "Richard Montgomery",
       5
     ],
     [
@@ -729,6 +734,10 @@
     ],
     [
       "Noga Alon",
+      3
+    ],
+    [
+      "Andrey Kupavskii",
       3
     ],
     [
@@ -750,10 +759,6 @@
     [
       "Marcelo Campos",
       3
-    ],
-    [
-      "Andrey Kupavskii",
-      2
     ],
     [
       "Cosmin Pohoata",
