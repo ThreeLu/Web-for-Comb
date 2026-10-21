@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-20T07:48:08+00:00",
-  "total_days": 101,
-  "total_matched": 1007,
+  "generated": "2026-10-21T07:51:45+00:00",
+  "total_days": 102,
+  "total_matched": 1020,
   "daily": [
     {
       "date": "2026-06-02",
@@ -507,12 +507,17 @@
       "date": "2026-10-20",
       "matched": 22,
       "fetched": 141
+    },
+    {
+      "date": "2026-10-21",
+      "matched": 13,
+      "fetched": 85
     }
   ],
   "keywords": [
     [
       "threshold",
-      231
+      233
     ],
     [
       "chromatic number",
@@ -520,27 +525,27 @@
     ],
     [
       "Cayley graph",
-      78
+      80
     ],
     [
       "oriented",
-      69
+      71
     ],
     [
       "extremal graph",
-      66
+      67
     ],
     [
       "Ramsey number",
-      61
+      63
     ],
     [
       "random graph",
-      49
+      51
     ],
     [
       "transversal",
-      41
+      42
     ],
     [
       "Latin square",
@@ -568,7 +573,7 @@
     ],
     [
       "supersaturation",
-      21
+      22
     ],
     [
       "Hamiltonian cycle",
@@ -627,6 +632,10 @@
       6
     ],
     [
+      "diagonal Ramsey",
+      6
+    ],
+    [
       "multicolour Ramsey",
       5
     ],
@@ -639,16 +648,16 @@
       5
     ],
     [
-      "diagonal Ramsey",
-      5
-    ],
-    [
       "tight Hamilton cycle",
       4
     ],
     [
       "Steiner triple system",
       4
+    ],
+    [
+      "induced Ramsey",
+      3
     ],
     [
       "probabilistic method",
@@ -660,10 +669,6 @@
     ],
     [
       "hypergraph regularity",
-      2
-    ],
-    [
-      "induced Ramsey",
       2
     ],
     [
@@ -729,15 +734,15 @@
       5
     ],
     [
+      "Andrey Kupavskii",
+      4
+    ],
+    [
       "David Conlon",
       4
     ],
     [
       "Noga Alon",
-      3
-    ],
-    [
-      "Andrey Kupavskii",
       3
     ],
     [
