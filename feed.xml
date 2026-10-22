@@ -5,8 +5,64 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 21 Oct 2026 07:51:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 07:47:28 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Non-trivial intersecting families for direct products</title>
+      <link>https://arxiv.org/abs/2610.29044</link>
+      <guid isPermaLink="false">arxiv:2610.29044</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解决了 Kwan、Sudakov 和 Vieira 提出的两个问题：在 direct product 设定下，当每个部分的大小仅依赖于其对应的集合大小时，确定了非平凡相交族的最大规模，并刻画了极值族，且所得各部分大小的界是最优的。<br/><br/>命中: extremal combinatorics<br/><br/>Jian Wang, Biao Wu, Huajun Zhang]]></description>
+    </item>
+    <item>
+      <title>Counting and constructing Latin tableaux</title>
+      <link>https://arxiv.org/abs/2610.29291</link>
+      <guid isPermaLink="false">arxiv:2610.29291</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了若干类 wide partitions 存在 Latin tableaux，并给出了 Latin tableaux 数量的显式公式，该公式涉及 (0,1)-矩阵和矩阵 permanent。<br/><br/>命中: Latin square<br/><br/>Spencer Daugherty, Michaela Fahnesock, Shawn Huxtable, Michael Larson, Nourah Al Munayes, Storey Peacock]]></description>
+    </item>
+    <item>
+      <title>A Computer-Assisted Proof that R(5,10;5,8)=21 for the Generalized Threshold Ramsey Number</title>
+      <link>https://arxiv.org/abs/2610.29584</link>
+      <guid isPermaLink="false">arxiv:2610.29584</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过计算机辅助证明广义阈值 Ramsey 数 $R(5,10;5,8)=21$，等价于 Harborth 引入的集合 Ramsey 数 $r_5(10,8)=21$。<br/><br/>命中: Ramsey number, threshold<br/><br/>Wancai Guo, Min Wan]]></description>
+    </item>
+    <item>
+      <title>Connected Coloring Games on Corona Products of Graphs</title>
+      <link>https://arxiv.org/abs/2610.29650</link>
+      <guid isPermaLink="false">arxiv:2610.29650</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图的 corona product $G\circ H$ 上的 connected coloring game，给出了 $\chi_{cg}(G\circ H)$ 的尖锐上界，并构造了多种反例说明该参数与相关图参数之间的不可控关系。<br/><br/>命中: chromatic number<br/><br/>Daša Mesarič Štesl]]></description>
+    </item>
+    <item>
+      <title>Topological degree of fewnomial maps</title>
+      <link>https://arxiv.org/abs/2610.29808</link>
+      <guid isPermaLink="false">arxiv:2610.29808</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[论文研究了具有相同支撑 $\mathcal{A}$（$N=n+k+1$ 个单项式）的 fewnomial 映射 $F:\mathbb{R}^n_{&gt;0}\to\mathbb{R}^n$ 在正象限上的拓扑度，给出了三种基于极大子式符号的公式，并导出了符号法则与上界。<br/><br/>命中: oriented<br/><br/>Frédéric Bihan]]></description>
+    </item>
+    <item>
+      <title>The three-colour bipartite Ramsey number of sufficiently long even cycles</title>
+      <link>https://arxiv.org/abs/2610.29813</link>
+      <guid isPermaLink="false">arxiv:2610.29813</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于充分大的 $n$，三部二部 Ramsey 数 $\operatorname{br}_3(C_{2n}) = 3n$，并对所有 $n \ge 2$ 给出了下界。<br/><br/>命中: Ramsey number<br/><br/>Jiangdong Ai, Yihan Yin]]></description>
+    </item>
+    <item>
+      <title>Hitting time for loose Hamilton cycles in the random hypergraph process</title>
+      <link>https://arxiv.org/abs/2610.29894</link>
+      <guid isPermaLink="false">arxiv:2610.29894</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在随机超图过程中，当最后一个孤立顶点消失时，3-一致松散 Hamilton 环以高概率出现，并将结果推广到 r=2 和满足 (r-1)|n 的固定 r≥4，同时估计了这些击中时刻的松散 Hamilton 环数量。<br/><br/>命中: Hamilton cycle, loose Hamilton cycle, hitting time<br/><br/>Jared León, Xizhi Liu]]></description>
+    </item>
+    <item>
+      <title>Short sums of the Möbius function over function fields</title>
+      <link>https://arxiv.org/abs/2610.28822</link>
+      <guid isPermaLink="false">arxiv:2610.28822</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文发展了一种新方法，在函数域 $\mathbb{F}_p(X)$ 上对 Möbius 函数在短区间（长度低于 Pólya–Vinogradov 阈值 $p^{1/2}$）上的和进行幂次节省估计。<br/><br/>命中: threshold<br/><br/>Etienne Fouvry, Igor E. Shparlinski, Ping Xi]]></description>
+    </item>
     <item>
       <title>A Pittel-type limit law for the largest component of random $d$-uniform hypergraphs: enumeration and excursions</title>
       <link>https://arxiv.org/abs/2610.27276</link>
@@ -1350,62 +1406,6 @@
       <guid isPermaLink="false">arxiv:2610.00591</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文建立了图 $G$ 的 degeneracy sets 与 graphic matroid $M(G)$ 的单元素扩张之间的对应关系，并通过 Lawrence polytope 的细分构造了稳定性条件。<br/><br/>命中: oriented<br/><br/>Natasha Crepeau]]></description>
-    </item>
-    <item>
-      <title>The threshold for fractional clique decompositions of random hypergraphs, via matrix scaling</title>
-      <link>https://arxiv.org/abs/2610.00924</link>
-      <guid isPermaLink="false">arxiv:2610.00924</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了在最小余度超过分数 $K_r^{(k)}$-分解阈值 $\delta^*_{k,r}$ 的 $k$-一致超图中，以概率 $p \ge C(\log n/n^{r-k})^{1/(\binom{r}{k}-1)}$ 独立保留边后，高概率存在分数 $K_r^{(k)}$-分解，且该 $p$ 的阶是紧的。<br/><br/>命中: threshold<br/><br/>Tuan Tran]]></description>
-    </item>
-    <item>
-      <title>Degree-square Turán problem for two self-converse tournaments</title>
-      <link>https://arxiv.org/abs/2610.01047</link>
-      <guid isPermaLink="false">arxiv:2610.01047</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了当 $F$ 为传递竞赛图 $TT_r$ 或 5 顶点正则竞赛图 $\text{RT}_5$ 时，度平方 Turán 数 $\operatorname{ex}_2^+(n,F)$ 的精确值，其中 $\text{RT}_5$ 的情形证实了 Iľkovič 的猜想。<br/><br/>命中: Turán problem<br/><br/>Zhuoran Han, Yaojun Chen]]></description>
-    </item>
-    <item>
-      <title>A proof of Lehmer's permutation conjecture for neighbor-swap graphs</title>
-      <link>https://arxiv.org/abs/2610.01240</link>
-      <guid isPermaLink="false">arxiv:2610.01240</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 Lehmer 关于多重集排列的邻位交换图存在非完美 Hamilton 遍历的猜想，通过将非 stutter 词图 $N(S)$ 的 Hamiltonicity 问题归约到超立方体粘合与少量有限验证，并在 Lean 4 中形式化。<br/><br/>命中: Hamiltonian cycle, Hamiltonicity<br/><br/>Tom Verhoeff]]></description>
-    </item>
-    <item>
-      <title>Improved upper bounds on the list chromatic number of $K_t$-minor-free graphs</title>
-      <link>https://arxiv.org/abs/2610.01946</link>
-      <guid isPermaLink="false">arxiv:2610.01946</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了每个 $K_t$-minor-free 图是 $O(t\log\log t)$-choosable 的，改进了 Postle 的 $O(t(\log\log t)^6)$ 上界。<br/><br/>命中: chromatic number<br/><br/>Yangyan Gu, Rongxing Xu]]></description>
-    </item>
-    <item>
-      <title>Matchings and shape-Wilf-Equivalence of sets of patterns of length three II: Quadruples and Quintuples</title>
-      <link>https://arxiv.org/abs/2610.01996</link>
-      <guid isPermaLink="false">arxiv:2610.01996</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文完成了长度三的模式集合在四元组和五元组下的 shape-Wilf-等价分类，并利用 Dyck 路径方法给出了避免横截的显式公式及匹配计数的双射解释。<br/><br/>命中: transversal<br/><br/>Sucharita Biswas, Umesh Shankar, Sivaramakrishnan Sivasubramanian]]></description>
-    </item>
-    <item>
-      <title>Linear circumference in vertex-transitive graphs</title>
-      <link>https://arxiv.org/abs/2610.02053</link>
-      <guid isPermaLink="false">arxiv:2610.02053</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[我们证明了每个连通顶点传递图包含长度至少为 $cn$ 的环，其中 $c&gt;0$ 是绝对常数，且对于度足够大的图，环长可达 $(1-d^{-1/100})n$，这是向 Lovász 的 Hamiltonicity 猜想迈出的第一个线性界。<br/><br/>命中: Hamiltonicity<br/><br/>Jie Ma, Ziyuan Zhao]]></description>
-    </item>
-    <item>
-      <title>Typical intersecting families at $n=2k+1$ and $n=2k+2$</title>
-      <link>https://arxiv.org/abs/2610.02119</link>
-      <guid isPermaLink="false">arxiv:2610.02119</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了当 $n=2k+1$ 和 $n=2k+2$ 时，$k$-均匀相交族在 $k\to\infty$ 时的典型结构，并给出了相交族数量的渐近公式。<br/><br/>命中: container method<br/><br/>Lina Li]]></description>
-    </item>
-    <item>
-      <title>Generic solutions to symmetric linear equations</title>
-      <link>https://arxiv.org/abs/2610.02177</link>
-      <guid isPermaLink="false">arxiv:2610.02177</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文加强了 Ruzsa 关于对称线性方程 $a_1+\cdots+a_k=b_1+\cdots+b_k$ 的结果，证明解可以具有 $2^{2k}-1$ 个不同子集和，并给出了有限阿贝尔群中的超饱和版本以及 Bondy-Simonovits 定理的 $\mathbb{F}_q$-模拟。<br/><br/>命中: supersaturation<br/><br/>Bryce Frederickson, Liana Yepremyan]]></description>
     </item>
   </channel>
 </rss>

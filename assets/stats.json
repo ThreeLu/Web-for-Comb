@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-21T07:51:45+00:00",
-  "total_days": 102,
-  "total_matched": 1020,
+  "generated": "2026-10-22T07:47:28+00:00",
+  "total_days": 103,
+  "total_matched": 1028,
   "daily": [
     {
       "date": "2026-06-02",
@@ -512,16 +512,21 @@
       "date": "2026-10-21",
       "matched": 13,
       "fetched": 85
+    },
+    {
+      "date": "2026-10-22",
+      "matched": 8,
+      "fetched": 72
     }
   ],
   "keywords": [
     [
       "threshold",
-      233
+      235
     ],
     [
       "chromatic number",
-      133
+      134
     ],
     [
       "Cayley graph",
@@ -529,7 +534,7 @@
     ],
     [
       "oriented",
-      71
+      72
     ],
     [
       "extremal graph",
@@ -537,7 +542,7 @@
     ],
     [
       "Ramsey number",
-      63
+      65
     ],
     [
       "random graph",
@@ -549,7 +554,7 @@
     ],
     [
       "Latin square",
-      35
+      36
     ],
     [
       "Turán number",
@@ -557,7 +562,7 @@
     ],
     [
       "Hamilton cycle",
-      28
+      29
     ],
     [
       "Hamiltonicity",
@@ -612,6 +617,10 @@
       7
     ],
     [
+      "extremal combinatorics",
+      7
+    ],
+    [
       "combinatorial design",
       6
     ],
@@ -621,10 +630,6 @@
     ],
     [
       "bootstrap percolation",
-      6
-    ],
-    [
-      "extremal combinatorics",
       6
     ],
     [
@@ -648,6 +653,10 @@
       5
     ],
     [
+      "hitting time",
+      4
+    ],
+    [
       "tight Hamilton cycle",
       4
     ],
@@ -661,10 +670,6 @@
     ],
     [
       "probabilistic method",
-      3
-    ],
-    [
-      "hitting time",
       3
     ],
     [
