@@ -5,8 +5,78 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 22 Oct 2026 07:47:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 07:46:45 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Connected graphs with equal independence number and radius</title>
+      <link>https://arxiv.org/abs/2610.30165</link>
+      <guid isPermaLink="false">arxiv:2610.30165</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文给出了连通图中独立数等于半径时图可迹的简短新证明，并证明了2-连通时图是Hamiltonian、3-连通时图是Hamiltonian-connected且pancyclic。<br/><br/>命中: pancyclic<br/><br/>Xingzhi Zhan]]></description>
+    </item>
+    <item>
+      <title>An elementary proof of a tight $Δ+1$ bound for the additive chromatic number</title>
+      <link>https://arxiv.org/abs/2610.30174</link>
+      <guid isPermaLink="false">arxiv:2610.30174</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文给出了一个初等的定向论证，证明了每个有限简单图 $G$ 的 additive chromatic number 满足 $\eta(G) \leq \Delta(G) + 1$，并给出了多项式时间算法。<br/><br/>命中: chromatic number<br/><br/>Alex Koutsoutis, Joseph Koutsoutis]]></description>
+    </item>
+    <item>
+      <title>A note on the proof of Barnette's conjecture</title>
+      <link>https://arxiv.org/abs/2610.30490</link>
+      <guid isPermaLink="false">arxiv:2610.30490</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文对 OpenAI 生成的 Barnette 猜想证明进行了精简阐释，该猜想断言每个立方 3-连通二部平面图都有 Hamilton cycle。<br/><br/>命中: Hamiltonian cycle<br/><br/>Zhentao Li]]></description>
+    </item>
+    <item>
+      <title>Asymptotically Sharp Length Thresholds for \texorpdfstring{$q$}{q}-ary Codes with Distances \texorpdfstring{$2$}{2} and \texorpdfstring{$4$}{4}</title>
+      <link>https://arxiv.org/abs/2610.30613</link>
+      <guid isPermaLink="false">arxiv:2610.30613</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文证明了对于 $q\ge 5$，$q$-ary Hamming 空间中距离集为 $\{2,4\}$ 的码的最大基数在 $n\ge N(q)$ 时恰为 $1+\binom n2$，并给出了 $N(q)$ 的渐近尖锐阈值。<br/><br/>命中: threshold<br/><br/>Valjakas Djaljapayan, Yen-Chi Roger Lin, Wei-Hsuan Yu]]></description>
+    </item>
+    <item>
+      <title>Weighted odd-cycle transversals and fractional colorings of planar graphs</title>
+      <link>https://arxiv.org/abs/2610.30719</link>
+      <guid isPermaLink="false">arxiv:2610.30719</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文通过建立低权重奇圈横截（odd-cycle transversal）与分数色数之间的联系，给出了平面图分数色数的新上界，并证明了 Naserasr 分数着色猜想在围长版本下的严格不等式形式。<br/><br/>命中: transversal, chromatic number<br/><br/>Xiaolan Hu, Jiaao Li, Zhouningxin Wang]]></description>
+    </item>
+    <item>
+      <title>Probabilistic and game thresholds</title>
+      <link>https://arxiv.org/abs/2610.30730</link>
+      <guid isPermaLink="false">arxiv:2610.30730</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[论文证明了 Picker-Chooser $\mathcal{F}$-game 的 bias-threshold $b(\mathcal{F})$ 满足 $b(\mathcal{F}) \ge \alpha/p_c(\mathcal{F})$，其中 $p_c(\mathcal{F})$ 是性质 $\mathcal{F}$ 的概率阈值，$\alpha&gt;0$ 为绝对常数，从而验证了 Picker-Chooser 游戏满足单侧“概率直觉”。<br/><br/>命中: threshold, @Rajko Nenadov<br/><br/>Rajko Nenadov]]></description>
+    </item>
+    <item>
+      <title>The signless Laplacian spectral Turán problems for disjoint triangles</title>
+      <link>https://arxiv.org/abs/2610.30859</link>
+      <guid isPermaLink="false">arxiv:2610.30859</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了所有 $kK_3$-free 的 $n$ 阶图中无符号 Laplacian 谱半径的最大值，并刻画了唯一的谱极图 $K_{k-1}\vee T_{2}(n-k+1)$。<br/><br/>命中: extremal graph, Turán problem<br/><br/>Ming-Zhu Chen, Ya-Lei Jin, Peng-Li Zhang]]></description>
+    </item>
+    <item>
+      <title>Spectral and edge conditions for negative Hamiltonian cycles in unbalanced signed graphs</title>
+      <link>https://arxiv.org/abs/2610.30883</link>
+      <guid isPermaLink="false">arxiv:2610.30883</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了不含 negative Hamiltonian cycle 的 $n$ 阶 unbalanced signed graph 的最大谱半径，刻画了极图，并给出了 frustration index 为 1 时边数的上界及极图分类。<br/><br/>命中: Hamiltonian cycle, extremal graph<br/><br/>Zihao Zha]]></description>
+    </item>
+    <item>
+      <title>Upper tail large deviations of regular subgraph counts in sparse random regular graphs</title>
+      <link>https://arxiv.org/abs/2610.31590</link>
+      <guid isPermaLink="false">arxiv:2610.31590</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文确定了在稀疏随机 $d$-正则图 $\mathbb{G}_n^d$ 中，$\Delta$-正则连通图 $H$ 的副本数的上尾大偏差速度与速率函数，并刻画了条件于上尾事件时图的典型结构。<br/><br/>命中: random graph<br/><br/>Anirban Basak, Shaibal Karmakar]]></description>
+    </item>
+    <item>
+      <title>On the generation of the symmetric group by index relations of three prefix reversals</title>
+      <link>https://arxiv.org/abs/2610.30892</link>
+      <guid isPermaLink="false">arxiv:2610.30892</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究三个前缀反转生成的对称群 $S_n$ 的条件，给出了若干使三元组不生成 $S_n$ 的充分条件，并利用已知可生成的三元组推导出递推条件。<br/><br/>命中: Cayley graph<br/><br/>Yexiao Lei, Jinxing Zhao, Ziyu Zhu, Yang Wu]]></description>
+    </item>
     <item>
       <title>Non-trivial intersecting families for direct products</title>
       <link>https://arxiv.org/abs/2610.29044</link>
@@ -1336,76 +1406,6 @@
       <guid isPermaLink="false">arxiv:2610.02913</guid>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[我们证明了对于 $n\ge200$ 的树，最小化邻接谱间隙 $g(T)=\lambda_1(T)-\lambda_2(T)$ 的树必为平衡双彗星，从而在有限阈值下解决了 double-comet 猜想。<br/><br/>命中: threshold<br/><br/>Dongxiu Cai, Zhenbo Chen, Xiao-Dong Zhang]]></description>
-    </item>
-    <item>
-      <title>Series-parallel extensions and Ehrhart positivity</title>
-      <link>https://arxiv.org/abs/2610.03122</link>
-      <guid isPermaLink="false">arxiv:2610.03122</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 series-parallel matroids 的 Ehrhart 正性，并将其推广到 multi-path matroids 的 series-parallel extensions，同时构造了一个具有负 Ehrhart 系数的连通 transversal matroid，从而否定了 Ferroni、Morales 和 Panova 的猜想。<br/><br/>命中: transversal<br/><br/>Yao Li, Sihong Shao]]></description>
-    </item>
-    <item>
-      <title>Strict spectral supersaturation for cliques: extremal graphs and sharp thresholds</title>
-      <link>https://arxiv.org/abs/2610.03337</link>
-      <guid isPermaLink="false">arxiv:2610.03337</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了在 $n$ 个顶点的图中，当 $K_{r+1}$ 的副本数少于 $q c_r(n)$ 时，邻接谱半径的最大值，并刻画了所有极图，同时给出了严格与非严格约束下谱半径的差以及匹配的 sharp threshold。<br/><br/>命中: extremal graph, supersaturation, threshold<br/><br/>Qi Wu, Yong Lu]]></description>
-    </item>
-    <item>
-      <title>Endomorphisms of Total Kneser Graphs</title>
-      <link>https://arxiv.org/abs/2610.03350</link>
-      <guid isPermaLink="false">arxiv:2610.03350</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 total Kneser graph 的每个 endomorphism 都是 automorphism，并确定了其 automorphism group 是一对 permutation groups 的乘积。<br/><br/>命中: chromatic number<br/><br/>Esmaeil Alhaj Mostafa Abdan, Jacob Russell, Sophia Ulvestad]]></description>
-    </item>
-    <item>
-      <title>Sharp bounds for off-diagonal and tripartite canonical Ramsey numbers</title>
-      <link>https://arxiv.org/abs/2610.03358</link>
-      <guid isPermaLink="false">arxiv:2610.03358</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了 canonical Ramsey 定理的两个变体：在三部 3-一致超图中证明了 canonically coloured $K_{t,t,t}^{(3)}$ 的 sharp 界，并给出了 off-diagonal canonical Ramsey 数 $ER(a,b,c)$ 在不同参数区域下的 sharp 估计。<br/><br/>命中: Ramsey number, @Benny Sudakov, @Zach Hunter<br/><br/>Strahinja Gvozdić, Zach Hunter, Aleksa Milojević, Benny Sudakov]]></description>
-    </item>
-    <item>
-      <title>Partitioning an $S$-packing coloring into broadcast dominating sets</title>
-      <link>https://arxiv.org/abs/2610.03477</link>
-      <guid isPermaLink="false">arxiv:2610.03477</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入了 packing $k$-domatic coloring 的概念，将 packing coloring 与 domatic number 相结合，并研究了其与 packing chromatic number 的关系，给出了在最小度至少为 2 的连通图中 $\chi_{\rho,3}(G)=\chi_\rho(G)$ 等结果。<br/><br/>命中: chromatic number<br/><br/>Boštjan Brešar, Jasmina Ferme, Wenjie Hu]]></description>
-    </item>
-    <item>
-      <title>Geometric triangle-free graphs of large chromatic number</title>
-      <link>https://arxiv.org/abs/2610.03517</link>
-      <guid isPermaLink="false">arxiv:2610.03517</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过多种几何构造，给出了无三角形且色数快速增长的图族，包括 $\mathbb{R}^3$ 中盒子的相交图、单位距离图、直线相交图、圆相切图以及有序图，显著改进了多个经典下界。<br/><br/>命中: chromatic number<br/><br/>István Tomon]]></description>
-    </item>
-    <item>
-      <title>Telescopic Structure of Numerical Semigroups Generated by Unsigned Stirling Numbers of the First Kind</title>
-      <link>https://arxiv.org/abs/2610.03070</link>
-      <guid isPermaLink="false">arxiv:2610.03070</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了由第 $n$ 行非平凡无符号第一类 Stirling 数生成的数值半群 $S_n$ 的 gcd 过滤，并证明其生成序列在移除不活跃生成元后是 telescopic 的，从而得到矩形 Apéry 集、Frobenius 公式以及自由、对称等性质。<br/><br/>命中: threshold<br/><br/>Takao Komatsu, Kyunghwan Song]]></description>
-    </item>
-    <item>
-      <title>The quality plane of $abc$-triples and the decomposition into gains</title>
-      <link>https://arxiv.org/abs/2610.03212</link>
-      <guid isPermaLink="false">arxiv:2610.03212</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入 quality $X$ 和 logarithmic mass $Y$ 坐标，将 $abc$ 猜想和 Szpiro 猜想转化为渐近界，并通过 gains 的分解研究其关系，在特定 gain 界下得到 $\limsup X\le 9/2$ 和 $\limsup Y\le 27/2$。<br/><br/>命中: threshold<br/><br/>R. Laniewski, K. Müller]]></description>
-    </item>
-    <item>
-      <title>Probability threshold for the stability of $α(G(n,r,s))$</title>
-      <link>https://arxiv.org/abs/2610.00144</link>
-      <guid isPermaLink="false">arxiv:2610.00144</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了图 $G(n,r,s)$ 的独立数在随机删除边模型下的精确稳定性概率阈值，其中 $r &gt; 2s+2$，改进了 Pyaderkin 的渐近稳定性结果。<br/><br/>命中: threshold<br/><br/>M. M. Koshelev, A. M. Raigorodskii]]></description>
-    </item>
-    <item>
-      <title>Stability conditions and subdivisions of Lawrence polytopes</title>
-      <link>https://arxiv.org/abs/2610.00591</link>
-      <guid isPermaLink="false">arxiv:2610.00591</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文建立了图 $G$ 的 degeneracy sets 与 graphic matroid $M(G)$ 的单元素扩张之间的对应关系，并通过 Lawrence polytope 的细分构造了稳定性条件。<br/><br/>命中: oriented<br/><br/>Natasha Crepeau]]></description>
     </item>
   </channel>
 </rss>

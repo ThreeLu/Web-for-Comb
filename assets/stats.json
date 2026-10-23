@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-22T07:47:28+00:00",
-  "total_days": 103,
-  "total_matched": 1028,
+  "generated": "2026-10-23T07:46:45+00:00",
+  "total_days": 104,
+  "total_matched": 1038,
   "daily": [
     {
       "date": "2026-06-02",
@@ -517,20 +517,25 @@
       "date": "2026-10-22",
       "matched": 8,
       "fetched": 72
+    },
+    {
+      "date": "2026-10-23",
+      "matched": 10,
+      "fetched": 58
     }
   ],
   "keywords": [
     [
       "threshold",
-      235
+      237
     ],
     [
       "chromatic number",
-      134
+      136
     ],
     [
       "Cayley graph",
-      80
+      81
     ],
     [
       "oriented",
@@ -538,7 +543,7 @@
     ],
     [
       "extremal graph",
-      67
+      69
     ],
     [
       "Ramsey number",
@@ -546,11 +551,11 @@
     ],
     [
       "random graph",
-      51
+      52
     ],
     [
       "transversal",
-      42
+      43
     ],
     [
       "Latin square",
@@ -582,11 +587,11 @@
     ],
     [
       "Hamiltonian cycle",
-      19
+      21
     ],
     [
       "Turán problem",
-      19
+      20
     ],
     [
       "generalized Turán",
@@ -717,8 +722,8 @@
       2
     ],
     [
-      "resolvable design",
-      1
+      "pancyclic",
+      2
     ]
   ],
   "authors": [
@@ -799,6 +804,10 @@
       2
     ],
     [
+      "Rajko Nenadov",
+      2
+    ],
+    [
       "Jaehoon Kim",
       2
     ],
@@ -824,10 +833,6 @@
     ],
     [
       "Oliver Riordan",
-      1
-    ],
-    [
-      "Rajko Nenadov",
       1
     ],
     [
