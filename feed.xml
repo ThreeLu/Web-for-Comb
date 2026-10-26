@@ -5,8 +5,78 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 23 Oct 2026 07:46:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 07:58:01 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Additive energy and Fourier complexity of graphs</title>
+      <link>https://arxiv.org/abs/2610.31807</link>
+      <guid isPermaLink="false">arxiv:2610.31807</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了以循环群标记的图邻接矩阵的加性能量与Fourier复杂度，给出了加性能量的上界、等号成立条件，并构造了具有渐近最大加性能量的正则图族。<br/><br/>命中: Cayley graph<br/><br/>Vishal Gupta, Sam Ferguson, Alex Iosevich, Joshua Iosevich, Haoyuan Tian, Ben Song]]></description>
+    </item>
+    <item>
+      <title>The chromatic number of $\{\mathrm{ISK}_4, \textup{diamond}\}$-free graphs</title>
+      <link>https://arxiv.org/abs/2610.32404</link>
+      <guid isPermaLink="false">arxiv:2610.32404</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了每个无 diamond 的 ISK_4-free 图都是 4-可着色的，从而在 diamond-free 情形下解决了 Lévêque-Maffray-Trotignon 猜想，且该界是紧的。<br/><br/>命中: chromatic number<br/><br/>Qing Cui, Kaiyang Lan]]></description>
+    </item>
+    <item>
+      <title>An improved upper bound on the chromatic number of the n-dimensional sphere</title>
+      <link>https://arxiv.org/abs/2610.32408</link>
+      <guid isPermaLink="false">arxiv:2610.32408</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文利用 Euclidean 空间色数上界的最新改进，给出了固定半径 $R$ 的 $n$ 维球面 $S^n_R$ 的色数上界 $\chi(S^n_R) \leq (\xi_R + o(1))^n$，其中 $\xi_R = \frac{3\sqrt 3}{2}(1-1/(4R^2))$。<br/><br/>命中: chromatic number<br/><br/>A. I. Bikeev, V. A. Voronov, A. M. Raigorodskii]]></description>
+    </item>
+    <item>
+      <title>The upper bounds on occupancy fraction and variance fraction for linear regular uniform hypergraphs</title>
+      <link>https://arxiv.org/abs/2610.32527</link>
+      <guid isPermaLink="false">arxiv:2610.32527</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文利用 cluster expansion 和 abstract polymer models 给出了线性 $d$-正则 $r$-一致超图在小的正 fugacity 下 occupancy fraction 和 variance fraction 的上界。<br/><br/>命中: extremal graph<br/><br/>Weiyuan Zhang, Kexiang Xu]]></description>
+    </item>
+    <item>
+      <title>Off-diagonal Ramsey numbers of 3-graphs</title>
+      <link>https://arxiv.org/abs/2610.32644</link>
+      <guid isPermaLink="false">arxiv:2610.32644</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Conlon 等人提出的猜想：对于 3-graph $H$，off-diagonal Ramsey number $R(H,n)$ 是 $n$ 的多项式当且仅当 $H$ 同构于某个整数 $t\geq 0$ 的 depth-$t$ iterated blowup $\textsf{B}_t$ 的子图。<br/><br/>命中: transversal, Ramsey number, diagonal Ramsey<br/><br/>Lior Gishboliner, Sepehr Hajebi, Xiangyu Li]]></description>
+    </item>
+    <item>
+      <title>Sharp asymmetric vertex-Ramsey properties of graphs</title>
+      <link>https://arxiv.org/abs/2610.32677</link>
+      <guid isPermaLink="false">arxiv:2610.32677</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在满足自然平衡性条件下，随机图 $G(n,p)$ 继承非对称 vertex-Ramsey 性质的阈值是 sharp 的，并推广到超图情形。<br/><br/>命中: random graph, threshold<br/><br/>Robert Hancock, Joseph Hyde, Mael Kupperschmitt]]></description>
+    </item>
+    <item>
+      <title>Triangle-Free Sets in Exact-Distance Hamming Graphs</title>
+      <link>https://arxiv.org/abs/2610.32789</link>
+      <guid isPermaLink="false">arxiv:2610.32789</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究精确距离 Hamming 图 $H_q(n,r)$ 中无三角形顶点集的最大规模 $T_q(n,r)$，给出了若干精确公式、阶估计以及下界构造，并证明了三元情形下 $T_3(n,3)$ 的上下界。<br/><br/>命中: @Padmini Mukkamala<br/><br/>Bence Csajbók, Padmini Mukkamala, Zoltán Lóránt Nagy]]></description>
+    </item>
+    <item>
+      <title>The Turán number of Berge paths in connected hypergraphs</title>
+      <link>https://arxiv.org/abs/2610.32875</link>
+      <guid isPermaLink="false">arxiv:2610.32875</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了当 $n$ 充分大时，$r+3 \leq k \leq 2r+1$ 范围内连通 $r$-一致超图中不含 $k$ 个顶点的 Berge path 的最大边数 $\operatorname{ex}^{\mathrm{conn}}_r(n,\mathcal{BP}_k)$，从而证实了 Zhang 等人的猜想。<br/><br/>命中: Turán number<br/><br/>Yupei Li, Ruth Luo]]></description>
+    </item>
+    <item>
+      <title>Divisor Sums with Spacing Constraints</title>
+      <link>https://arxiv.org/abs/2610.31832</link>
+      <guid isPermaLink="false">arxiv:2610.31832</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[论文确定了在元素两两间隔大于 $y$ 的约束下，$[1,x]$ 中除数函数之和的最大值 $S(x,y)$ 在 $y$ 取多对数尺度时的阶，并在子区间给出精确渐近。<br/><br/>命中: threshold<br/><br/>Aahan Chatterjee]]></description>
+    </item>
+    <item>
+      <title>The lower tail of triangle counts in sparse random graphs</title>
+      <link>https://arxiv.org/abs/2610.32879</link>
+      <guid isPermaLink="false">arxiv:2610.32879</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文求解了稀疏 Erdős-Rényi 随机图 $G(n,p)$（$n^{-1/2}\ll p\ll1$）中三角形数量下尾大偏差的变分问题，证明极小元要么是常数 graphon，要么是两块等大的阶梯 graphon，并在 $\eta_*=0.009217\ldots$ 处发生一阶相变。<br/><br/>命中: random graph, threshold<br/><br/>Dong Huang, Shuangping Li]]></description>
+    </item>
     <item>
       <title>Connected graphs with equal independence number and radius</title>
       <link>https://arxiv.org/abs/2610.30165</link>
@@ -1336,76 +1406,6 @@
       <guid isPermaLink="false">arxiv:2610.06435</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文利用 Gale 对偶和 Khovanskii--Rolle 方法，对具有 $n+k+1$ 个单项式的 $n$ 元实多项式系统的正解个数给出了仅依赖于系数矩阵和指数矩阵的 oriented matroid 的上界，并递归地推广了 Descartes 符号法则。<br/><br/>命中: oriented<br/><br/>Frédéric Bihan]]></description>
-    </item>
-    <item>
-      <title>Random independent sets in triangle-free and linear Berge-$C_4$-free hypergraphs</title>
-      <link>https://arxiv.org/abs/2610.06499</link>
-      <guid isPermaLink="false">arxiv:2610.06499</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究无三角形和线性无 Berge-$C_4$ 的超图中独立集的概率分布，利用有序随机选取过程，给出了顶点被选入随机独立集的概率下界，并由此推导出分数色数的上界。<br/><br/>命中: threshold<br/><br/>Jing Yu, Junchi Zhang]]></description>
-    </item>
-    <item>
-      <title>Enumerating Hamiltonian Paths and Cycles</title>
-      <link>https://arxiv.org/abs/2610.06644</link>
-      <guid isPermaLink="false">arxiv:2610.06644</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了任意完全多部图中有向 Hamiltonian path 和有向 Hamiltonian cycle 的计数公式，方法基于一种将一般路径图与有色顶点路径图关联的坍缩技术。<br/><br/>命中: Hamiltonian cycle<br/><br/>Harry Hylock, Karl Michael Schmidt, Matthew C. Lettington]]></description>
-    </item>
-    <item>
-      <title>Error Term Estimates for Sets of Remainders</title>
-      <link>https://arxiv.org/abs/2610.04993</link>
-      <guid isPermaLink="false">arxiv:2610.04993</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了集合 $S_1(n)=\{n\bmod k:1\leq k\leq\lfloor n/2\rfloor\}$ 的大小 $s_1(n)$ 的误差项，证明了 $s_1(n)=\Xi n+O(n\exp\{-\alpha\sqrt{\log n\log\log n}\})$ 对于 $\alpha&lt;\sqrt{2}$ 成立，且对于 $\alpha&gt;\sqrt{2}$ 误差项无界，从而确定 $\sqrt{2}$ 是此类误差项的阈值。<br/><br/>命中: threshold<br/><br/>Omkar Baraskar, Prashant Gokhale, Sarvagya Jain, Adam Kieżun]]></description>
-    </item>
-    <item>
-      <title>Seed thresholds and degree variance in heterogeneous bootstrap percolation with growing degrees</title>
-      <link>https://arxiv.org/abs/2610.04420</link>
-      <guid isPermaLink="false">arxiv:2610.04420</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了异质 bootstrap percolation 模型，其中顶点阈值独立取 1 或 2，阈值 1 的概率为 $(1-c/d)/d$，种子集大小固定。对于给定度序列的均匀简单图（度在 $d$ 附近波动）和 $G(n,d/n)$，确定了种子规模的阈值，并给出了最终活跃集大小的上下界。<br/><br/>命中: threshold, bootstrap percolation<br/><br/>Aleksandr Rodionov]]></description>
-    </item>
-    <item>
-      <title>A non-plain virtually free group with a strictly 2-geodetic Cayley graph</title>
-      <link>https://arxiv.org/abs/2610.04491</link>
-      <guid isPermaLink="false">arxiv:2610.04491</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[构造了一个显式的无限 virtually free 群 $G=C_4\ast_{C_2}D_3$，其某个有限生成集的 Cayley 图是 $2$-geodetic 但不是 geodetic，从而否定了关于 $k$-geodetic Cayley 图的一个猜想。<br/><br/>命中: Cayley graph<br/><br/>André Carvalho]]></description>
-    </item>
-    <item>
-      <title>Uniquely Ergodic Branching Subset Currents on Free and Surface Groups</title>
-      <link>https://arxiv.org/abs/2610.05581</link>
-      <guid isPermaLink="false">arxiv:2610.05581</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文在自由群和曲面群上构造了具有真正分支支撑的非有理 subset currents，其支撑为 Cantor 集且不包含两点边界子集，并证明任意可度量化 Choquet 单形都可作为由极小分支子集叶状结构承载的 current 锥的紧凸基，同时研究了有限模式复杂度与锥维数的关系。<br/><br/>命中: threshold<br/><br/>Ilya Kapovich]]></description>
-    </item>
-    <item>
-      <title>Local Shellings of Broken-Circuit Complexes via Boundary States and the Chromatic Specialization of the Negami Polynomial</title>
-      <link>https://arxiv.org/abs/2610.02279</link>
-      <guid isPermaLink="false">arxiv:2610.02279</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过边界状态构造了 broken-circuit complexes 的相对 shellings，并实现了 Negami 分裂恒等式的 chromatic specialization，同时给出了 graphic Orlik–Terao Gröbner 基的路径公式和虚拟团消去公式。<br/><br/>命中: treewidth<br/><br/>Iwao Mizukai]]></description>
-    </item>
-    <item>
-      <title>Beyond Liu's 0.382709 threshold for the union-closed sets conjecture</title>
-      <link>https://arxiv.org/abs/2610.02295</link>
-      <guid isPermaLink="false">arxiv:2610.02295</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过结合独立协议与 Liu 的 Example 5，证明了 union-closed sets conjecture 中比例下界 $c_{\mathrm{UC}} \ge c_{\mathrm L} &gt; 0.382709087918735$，并进一步优化得到 $c_{\mathrm{UC}} \ge 0.3828852549667978$。<br/><br/>命中: threshold<br/><br/>Simone Costa, Ankan Sadhu]]></description>
-    </item>
-    <item>
-      <title>Note on near-spanning balanced antidirected trees missing from regular tournaments</title>
-      <link>https://arxiv.org/abs/2610.02390</link>
-      <guid isPermaLink="false">arxiv:2610.02390</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[我们构造了近生成平衡反有向树，它们无法嵌入到高度对称的正则竞赛图中，尽管满足半度猜想条件，从而否定了Stein综述中猜想6.8和7.6的均匀亚线性度解释。<br/><br/>命中: threshold<br/><br/>Gregory Gutin, Yiming Hao]]></description>
-    </item>
-    <item>
-      <title>A finite threshold for the double-comet conjecture</title>
-      <link>https://arxiv.org/abs/2610.02913</link>
-      <guid isPermaLink="false">arxiv:2610.02913</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[我们证明了对于 $n\ge200$ 的树，最小化邻接谱间隙 $g(T)=\lambda_1(T)-\lambda_2(T)$ 的树必为平衡双彗星，从而在有限阈值下解决了 double-comet 猜想。<br/><br/>命中: threshold<br/><br/>Dongxiu Cai, Zhenbo Chen, Xiao-Dong Zhang]]></description>
     </item>
   </channel>
 </rss>

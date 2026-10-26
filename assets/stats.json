@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-23T07:46:45+00:00",
-  "total_days": 104,
-  "total_matched": 1038,
+  "generated": "2026-10-26T07:58:01+00:00",
+  "total_days": 105,
+  "total_matched": 1048,
   "daily": [
     {
       "date": "2026-06-02",
@@ -522,20 +522,25 @@
       "date": "2026-10-23",
       "matched": 10,
       "fetched": 58
+    },
+    {
+      "date": "2026-10-26",
+      "matched": 10,
+      "fetched": 53
     }
   ],
   "keywords": [
     [
       "threshold",
-      237
+      240
     ],
     [
       "chromatic number",
-      136
+      138
     ],
     [
       "Cayley graph",
-      81
+      82
     ],
     [
       "oriented",
@@ -543,19 +548,19 @@
     ],
     [
       "extremal graph",
-      69
+      70
     ],
     [
       "Ramsey number",
-      65
+      66
     ],
     [
       "random graph",
-      52
+      54
     ],
     [
       "transversal",
-      43
+      44
     ],
     [
       "Latin square",
@@ -563,7 +568,7 @@
     ],
     [
       "Turán number",
-      33
+      34
     ],
     [
       "Hamilton cycle",
@@ -626,6 +631,10 @@
       7
     ],
     [
+      "diagonal Ramsey",
+      7
+    ],
+    [
       "combinatorial design",
       6
     ],
@@ -639,10 +648,6 @@
     ],
     [
       "Lovász local lemma",
-      6
-    ],
-    [
-      "diagonal Ramsey",
       6
     ],
     [
@@ -841,6 +846,10 @@
     ],
     [
       "Domagoj Bradač",
+      1
+    ],
+    [
+      "Padmini Mukkamala",
       1
     ]
   ]
