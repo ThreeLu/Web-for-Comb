@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-26T07:58:01+00:00",
-  "total_days": 105,
-  "total_matched": 1048,
+  "generated": "2026-10-27T08:07:17+00:00",
+  "total_days": 106,
+  "total_matched": 1074,
   "daily": [
     {
       "date": "2026-06-02",
@@ -527,28 +527,33 @@
       "date": "2026-10-26",
       "matched": 10,
       "fetched": 53
+    },
+    {
+      "date": "2026-10-27",
+      "matched": 26,
+      "fetched": 137
     }
   ],
   "keywords": [
     [
       "threshold",
-      240
+      246
     ],
     [
       "chromatic number",
-      138
+      142
     ],
     [
       "Cayley graph",
-      82
-    ],
-    [
-      "oriented",
-      72
+      86
     ],
     [
       "extremal graph",
-      70
+      74
+    ],
+    [
+      "oriented",
+      73
     ],
     [
       "Ramsey number",
@@ -556,15 +561,15 @@
     ],
     [
       "random graph",
-      54
+      58
     ],
     [
       "transversal",
-      44
+      46
     ],
     [
       "Latin square",
-      36
+      37
     ],
     [
       "Turán number",
@@ -575,12 +580,16 @@
       29
     ],
     [
+      "oriented graph",
+      27
+    ],
+    [
       "Hamiltonicity",
       27
     ],
     [
-      "oriented graph",
-      26
+      "Turán problem",
+      23
     ],
     [
       "treewidth",
@@ -592,18 +601,14 @@
     ],
     [
       "Hamiltonian cycle",
-      21
-    ],
-    [
-      "Turán problem",
-      20
-    ],
-    [
-      "generalized Turán",
-      13
+      22
     ],
     [
       "list coloring",
+      14
+    ],
+    [
+      "generalized Turán",
       13
     ],
     [
@@ -623,11 +628,11 @@
       8
     ],
     [
-      "regularity lemma",
-      7
+      "extremal combinatorics",
+      8
     ],
     [
-      "extremal combinatorics",
+      "regularity lemma",
       7
     ],
     [
@@ -655,16 +660,16 @@
       5
     ],
     [
+      "hitting time",
+      5
+    ],
+    [
       "book graph",
       5
     ],
     [
       "container method",
       5
-    ],
-    [
-      "hitting time",
-      4
     ],
     [
       "tight Hamilton cycle",
@@ -683,11 +688,15 @@
       3
     ],
     [
-      "hypergraph regularity",
-      2
+      "semi-random",
+      3
     ],
     [
-      "semi-random",
+      "pancyclic",
+      3
+    ],
+    [
+      "hypergraph regularity",
       2
     ],
     [
@@ -725,10 +734,6 @@
     [
       "resilience",
       2
-    ],
-    [
-      "pancyclic",
-      2
     ]
   ],
   "authors": [
@@ -750,7 +755,7 @@
     ],
     [
       "Andrey Kupavskii",
-      4
+      5
     ],
     [
       "David Conlon",
