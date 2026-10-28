@@ -5,8 +5,50 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 27 Oct 2026 08:07:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:46:54 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>On Hamilton cycles in quasiprimitive graphs of order $2pq$</title>
+      <link>https://arxiv.org/abs/2610.35976</link>
+      <guid isPermaLink="false">arxiv:2610.35976</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文分类了 $2pq$ 阶的 quasiprimitive 图，并证明除少数例外情形外，这类图都是 Hamiltonian 的。<br/><br/>命中: Hamilton cycle<br/><br/>Hao Yu, Tianlei Zhou]]></description>
+    </item>
+    <item>
+      <title>Constructions for Nearly Diagonal Book Ramsey Numbers</title>
+      <link>https://arxiv.org/abs/2610.36522</link>
+      <guid isPermaLink="false">arxiv:2610.36522</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了几乎对角情形下 book Ramsey number $r(B_{p}, B_{q})$ 的新下界，其中 $p$ 与 $q$ 接近相等。<br/><br/>命中: Ramsey number<br/><br/>Stephen Chung, William J. Wesley]]></description>
+    </item>
+    <item>
+      <title>An upper bound of 61 for the Ramsey number $R(3,3,3,3)$</title>
+      <link>https://arxiv.org/abs/2610.36648</link>
+      <guid isPermaLink="false">arxiv:2610.36648</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了多色 Ramsey 数 $R(3,3,3,3) \le 61$，改进了此前已知的上界。<br/><br/>命中: Ramsey number<br/><br/>Milos Tatarevic]]></description>
+    </item>
+    <item>
+      <title>The Edge Geodesic Transversal Problem</title>
+      <link>https://arxiv.org/abs/2610.36821</link>
+      <guid isPermaLink="false">arxiv:2610.36821</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入并研究了边测地横截问题（edge geodesic transversal problem），即寻找最小的边集，使其与图中每条测地线（最短路径）都相交，并给出该参数在若干图类中的精确值与界。<br/><br/>命中: transversal<br/><br/>R. Prabha, B. Sandhiya, Paul Manuel]]></description>
+    </item>
+    <item>
+      <title>Optimal path decompositions of sparse random graphs</title>
+      <link>https://arxiv.org/abs/2610.37173</link>
+      <guid isPermaLink="false">arxiv:2610.37173</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了稀疏随机图 $G(n,p)$ 在 $p$ 略高于连通性阈值时，其边集可以被最优地分解为长度几乎任意的路径，从而解决了稀疏随机图上路径分解的最优性问题。<br/><br/>命中: random graph<br/><br/>Jifu Lin, Heng Yang]]></description>
+    </item>
+    <item>
+      <title>High powers of grids in random geometric graphs and thresholds for wide spanning structures</title>
+      <link>https://arxiv.org/abs/2610.37408</link>
+      <guid isPermaLink="false">arxiv:2610.37408</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文研究了随机几何图 $G(n,r)$ 中网格图的高次幂，并给出了宽生成结构的阈值。<br/><br/>命中: threshold<br/><br/>Alberto Espuny Díaz]]></description>
+    </item>
     <item>
       <title>The minimum number of wheel-saturating edges</title>
       <link>https://arxiv.org/abs/2610.33041</link>
@@ -1364,48 +1406,6 @@
       <guid isPermaLink="false">arxiv:2610.09650</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文提出 Almost Stacked Hypothesis (ASH)，并证明在 ASH 下确定了偶数圈 $C_{2n}$ 的 stacking number 和奇数圈 $C_{2n+1}$ 的 clearing number，同时引入树的不变量 $\operatorname{estim}(T)$ 并证明 ASH 下 $\operatorname{stack}(T)=\operatorname{estim}(T)$，最后构造了边密度趋于零的 perfectly pebblable 图族。<br/><br/>命中: threshold<br/><br/>Tamás Csernák, Lajos Soukup]]></description>
-    </item>
-    <item>
-      <title>Quantizing Delsarte Theory</title>
-      <link>https://arxiv.org/abs/2610.09900</link>
-      <guid isPermaLink="false">arxiv:2610.09900</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文发展了量子结合方案的 Delsarte 理论，允许复合与量子 Schur 积非交换，并证明了 MacWilliams 恒等式以及内分布和对偶分布的正性，从而得到码的锥上界和设计的锥下界。<br/><br/>命中: block design<br/><br/>Ryutaro Misawa]]></description>
-    </item>
-    <item>
-      <title>Asymptotic connectivity, hamiltonicity and toughness</title>
-      <link>https://arxiv.org/abs/2610.09992</link>
-      <guid isPermaLink="false">arxiv:2610.09992</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文定义了连通性、Hamiltonicity、toughness 和生成树的粗变体，这些变体在拟等距下不变，并满足与经典概念相同的关系，同时提出了若干关于 Hamiltonicity 的粗版本公开问题。<br/><br/>命中: Hamiltonicity<br/><br/>Agelos Georgakopoulos]]></description>
-    </item>
-    <item>
-      <title>Nonlinear lower-tail large deviations at criticality</title>
-      <link>https://arxiv.org/abs/2610.10233</link>
-      <guid isPermaLink="false">arxiv:2610.10233</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入一般方法推导非线性问题的下尾大偏差原理，特别适用于临界区域，并应用于随机图中无三角形、无偶环的概率以及组合设计中的计数问题。<br/><br/>命中: hypergraph container, random graph, Steiner triple system, combinatorial design, Latin square, @Matthew Kwan<br/><br/>Matthew Kwan, Huy Tuan Pham]]></description>
-    </item>
-    <item>
-      <title>A near-linear Chvátal--Erdős condition for Hamilton cycles in digraphs</title>
-      <link>https://arxiv.org/abs/2610.10292</link>
-      <guid isPermaLink="false">arxiv:2610.10292</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了有向图中 Hamilton cycle 的 Chvátal--Erdős 型条件的近线性上界：$f_2(a)=O\left(\frac{a(\log a)^4}{(\log\log a)^2}\right)$，并否定了 Jackson 和 Ordaz 的 pancyclicity 猜想。<br/><br/>命中: Hamilton cycle<br/><br/>Chengli Li, Bo Ning]]></description>
-    </item>
-    <item>
-      <title>Perfect matchings in hypergraphs and Feige's inequality</title>
-      <link>https://arxiv.org/abs/2610.10380</link>
-      <guid isPermaLink="false">arxiv:2610.10380</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文是一篇教学性短文，阐述了超图中完美匹配的最小度条件如何推广 Dirac 定理，并揭示了分数完美匹配与 Feige 关于非负随机变量的概率不等式之间的优雅联系，同时给出了 Feige 猜想的简短自包含证明。<br/><br/>命中: @Benny Sudakov<br/><br/>Aleksa Milojević, Benny Sudakov]]></description>
-    </item>
-    <item>
-      <title>The replica symmetric solution for hypergraph independent sets in the critical regime</title>
-      <link>https://arxiv.org/abs/2610.10433</link>
-      <guid isPermaLink="false">arxiv:2610.10433</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了局部稀疏超图中二项随机子集为独立集的概率的变分公式，该公式在整个临界区域成立，并插值了 Janson 不等式和超图容器方法的结果。<br/><br/>命中: hypergraph container, random graph<br/><br/>Matthew Jenssen, Will Perkins, Aditya Potukuchi, Michael Simkin]]></description>
     </item>
   </channel>
 </rss>
