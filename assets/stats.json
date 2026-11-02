@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-30T08:49:03+00:00",
-  "total_days": 108,
-  "total_matched": 1099,
+  "generated": "2026-11-02T09:43:43+00:00",
+  "total_days": 109,
+  "total_matched": 1123,
   "daily": [
     {
       "date": "2026-06-02",
@@ -542,36 +542,41 @@
       "date": "2026-10-30",
       "matched": 19,
       "fetched": 137
+    },
+    {
+      "date": "2026-11-02",
+      "matched": 24,
+      "fetched": 84
     }
   ],
   "keywords": [
     [
       "threshold",
-      250
+      259
     ],
     [
       "chromatic number",
-      143
+      145
     ],
     [
       "Cayley graph",
-      87
+      91
     ],
     [
       "extremal graph",
-      74
+      75
+    ],
+    [
+      "Ramsey number",
+      73
     ],
     [
       "oriented",
       73
     ],
     [
-      "Ramsey number",
-      71
-    ],
-    [
       "random graph",
-      61
+      64
     ],
     [
       "transversal",
@@ -579,7 +584,7 @@
     ],
     [
       "Turán number",
-      37
+      39
     ],
     [
       "Latin square",
@@ -587,14 +592,14 @@
     ],
     [
       "Hamilton cycle",
-      31
-    ],
-    [
-      "oriented graph",
-      27
+      32
     ],
     [
       "Hamiltonicity",
+      29
+    ],
+    [
+      "oriented graph",
       27
     ],
     [
@@ -662,15 +667,15 @@
       6
     ],
     [
+      "hitting time",
+      6
+    ],
+    [
       "Lovász local lemma",
       6
     ],
     [
       "multicolour Ramsey",
-      5
-    ],
-    [
-      "hitting time",
       5
     ],
     [
@@ -702,6 +707,18 @@
       3
     ],
     [
+      "graph minor",
+      3
+    ],
+    [
+      "absorption method",
+      3
+    ],
+    [
+      "Hamilton decomposition",
+      3
+    ],
+    [
       "pancyclic",
       3
     ],
@@ -714,14 +731,6 @@
       2
     ],
     [
-      "graph minor",
-      2
-    ],
-    [
-      "absorption method",
-      2
-    ],
-    [
       "Ramsey multiplicity",
       2
     ],
@@ -731,10 +740,6 @@
     ],
     [
       "graph removal lemma",
-      2
-    ],
-    [
-      "Hamilton decomposition",
       2
     ],
     [
@@ -816,6 +821,10 @@
       2
     ],
     [
+      "Patrick Morris",
+      2
+    ],
+    [
       "Wojciech Samotij",
       2
     ],
@@ -837,10 +846,6 @@
     ],
     [
       "Julian Sahasrabudhe",
-      1
-    ],
-    [
-      "Patrick Morris",
       1
     ],
     [
