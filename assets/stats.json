@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-02T09:43:43+00:00",
-  "total_days": 109,
-  "total_matched": 1123,
+  "generated": "2026-11-03T09:51:35+00:00",
+  "total_days": 110,
+  "total_matched": 1134,
   "daily": [
     {
       "date": "2026-06-02",
@@ -547,12 +547,17 @@
       "date": "2026-11-02",
       "matched": 24,
       "fetched": 84
+    },
+    {
+      "date": "2026-11-03",
+      "matched": 11,
+      "fetched": 187
     }
   ],
   "keywords": [
     [
       "threshold",
-      259
+      260
     ],
     [
       "chromatic number",
@@ -560,10 +565,14 @@
     ],
     [
       "Cayley graph",
-      91
+      93
     ],
     [
       "extremal graph",
+      75
+    ],
+    [
+      "oriented",
       75
     ],
     [
@@ -571,16 +580,12 @@
       73
     ],
     [
-      "oriented",
-      73
-    ],
-    [
       "random graph",
-      64
+      66
     ],
     [
       "transversal",
-      48
+      49
     ],
     [
       "Turán number",
@@ -588,7 +593,7 @@
     ],
     [
       "Latin square",
-      37
+      38
     ],
     [
       "Hamilton cycle",
@@ -600,7 +605,7 @@
     ],
     [
       "oriented graph",
-      27
+      28
     ],
     [
       "supersaturation",
@@ -620,7 +625,7 @@
     ],
     [
       "list coloring",
-      14
+      15
     ],
     [
       "generalized Turán",
@@ -789,6 +794,10 @@
       3
     ],
     [
+      "Cosmin Pohoata",
+      3
+    ],
+    [
       "Casey Tompkins",
       3
     ],
@@ -807,10 +816,6 @@
     [
       "Rajko Nenadov",
       3
-    ],
-    [
-      "Cosmin Pohoata",
-      2
     ],
     [
       "Nemanja Draganić",
@@ -870,6 +875,10 @@
     ],
     [
       "Padmini Mukkamala",
+      1
+    ],
+    [
+      "Stefan Glock",
       1
     ]
   ]
