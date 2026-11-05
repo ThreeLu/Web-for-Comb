@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-04T09:33:29+00:00",
-  "total_days": 111,
-  "total_matched": 1148,
+  "generated": "2026-11-05T09:41:09+00:00",
+  "total_days": 112,
+  "total_matched": 1160,
   "daily": [
     {
       "date": "2026-06-02",
@@ -557,20 +557,25 @@
       "date": "2026-11-04",
       "matched": 14,
       "fetched": 56
+    },
+    {
+      "date": "2026-11-05",
+      "matched": 12,
+      "fetched": 68
     }
   ],
   "keywords": [
     [
       "threshold",
-      263
+      264
     ],
     [
       "chromatic number",
-      147
+      150
     ],
     [
       "Cayley graph",
-      96
+      98
     ],
     [
       "oriented",
@@ -578,11 +583,11 @@
     ],
     [
       "extremal graph",
-      75
+      76
     ],
     [
       "Ramsey number",
-      74
+      75
     ],
     [
       "random graph",
@@ -590,11 +595,11 @@
     ],
     [
       "transversal",
-      49
+      51
     ],
     [
       "Turán number",
-      39
+      40
     ],
     [
       "Latin square",
@@ -602,7 +607,7 @@
     ],
     [
       "Hamilton cycle",
-      32
+      33
     ],
     [
       "oriented graph",
@@ -610,7 +615,7 @@
     ],
     [
       "Hamiltonicity",
-      29
+      30
     ],
     [
       "treewidth",
@@ -634,7 +639,7 @@
     ],
     [
       "generalized Turán",
-      13
+      14
     ],
     [
       "Hamilton path",
@@ -646,7 +651,7 @@
     ],
     [
       "hypergraph container",
-      8
+      9
     ],
     [
       "block design",
@@ -685,6 +690,10 @@
       6
     ],
     [
+      "container method",
+      6
+    ],
+    [
       "multicolour Ramsey",
       5
     ],
@@ -697,16 +706,12 @@
       5
     ],
     [
-      "container method",
-      5
+      "induced Ramsey",
+      4
     ],
     [
       "Steiner triple system",
       4
-    ],
-    [
-      "induced Ramsey",
-      3
     ],
     [
       "probabilistic method",
@@ -787,6 +792,10 @@
       4
     ],
     [
+      "Marcelo Campos",
+      4
+    ],
+    [
       "Noga Alon",
       3
     ],
@@ -812,10 +821,6 @@
     ],
     [
       "Jacob Fox",
-      3
-    ],
-    [
-      "Marcelo Campos",
       3
     ],
     [

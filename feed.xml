@@ -5,8 +5,85 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Nov 2026 09:33:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 09:41:09 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Extremal even-cycle-free subgraphs of the $k$-ary $n$-cube</title>
+      <link>https://arxiv.org/abs/2611.05433</link>
+      <guid isPermaLink="false">arxiv:2611.05433</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了所有偶数 $k\geq 4$ 与整数 $\ell\geq 2$ 下 $k$-ary $n$-cube $Q^{k}_{n}$ 中无 $C_{2\ell}$ 的生成子图的最大边数，即广义 Turán 数 $\mathrm{ex}(Q^{k}_{n}, C_{2\ell})$，将超立方体 $Q_n$ 的经典结果从 $k=2$ 推广到 $k\geq 4$。<br/><br/>命中: Turán number, generalized Turán<br/><br/>Shu-Li Zhao, Yu-Qi Li]]></description>
+    </item>
+    <item>
+      <title>Hamilton cycles in bicirculants with non-coprime connection sets</title>
+      <link>https://arxiv.org/abs/2611.05531</link>
+      <guid isPermaLink="false">arxiv:2611.05531</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在连接集 $S$ 满足 $|S|\geq 4$ 且 $\gcd(m,S)&gt;1$ 的特定条件下，所有连通正则二循环图（bicirculant）都是哈密顿的，从而推进了关于非哈密顿二循环图唯一例外的猜想。<br/><br/>命中: Hamilton cycle, Cayley graph<br/><br/>Simona Bonvicini, Tomaž Pisanski, Arjana Žitnik]]></description>
+    </item>
+    <item>
+      <title>Geodesic Transversal of Hypercube and Butterfly networks</title>
+      <link>https://arxiv.org/abs/2611.06107</link>
+      <guid isPermaLink="false">arxiv:2611.06107</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文提出 Geodesic Transversal lemma，给出任意图 $G$ 的 gt-number 与其诱导子图 gt-number 之间的下界关系，并据此确定 Butterfly 网络和 Hypercube 网络的 gt-number。<br/><br/>命中: transversal<br/><br/>R. Prabha, B. Sandhiya, Paul Manuel]]></description>
+    </item>
+    <item>
+      <title>Small 5-chromatic unit-distance graphs in disks of radius 3/2, 5/4 and 23/20</title>
+      <link>https://arxiv.org/abs/2611.06269</link>
+      <guid isPermaLink="false">arxiv:2611.06269</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了三个顶点数分别为 773、5713 和 8168 的 5-色单位距离图，其顶点分别位于半径 3/2、5/4 和 23/20 的开圆盘内，显著改进了此前已知的最小例子。<br/><br/>命中: chromatic number<br/><br/>Chandan Shukla]]></description>
+    </item>
+    <item>
+      <title>On generalized $k$-token graphs with distinguishable tokens and a maximum capacity of $s$ tokens per vertex</title>
+      <link>https://arxiv.org/abs/2611.06275</link>
+      <guid isPermaLink="false">arxiv:2611.06275</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了广义 token 图（supertoken 图）$F^s_{k\times1}(G)$ 的结构与度量性质，其中 $k$ 个可区分 token 在 $G$ 上移动且每个顶点至多容纳 $s$ 个 token，并给出了正则性、二部性、连通性、直径、团数、色数和平面性的刻画。<br/><br/>命中: chromatic number<br/><br/>Yiting Cai, Cristina Dalfó, Blas Fernández, Miquel Àngel Fiol]]></description>
+    </item>
+    <item>
+      <title>Hamiltonicity and cycle factors in k-quasi-transitive digraphs of large diameter</title>
+      <link>https://arxiv.org/abs/2611.06310</link>
+      <guid isPermaLink="false">arxiv:2611.06310</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了当 $k\ge 7$ 为奇数时，每个直径至少为 $k+2$ 的强非二部 $k$-quasi-transitive digraph 都是 Hamiltonian 的，并结合已知的偶数情形，刻画了 $k\ge6$ 时强二部 $k$-quasi-transitive digraph 的 Hamiltonicity 等价于存在 cycle factor。<br/><br/>命中: Hamiltonicity<br/><br/>Hao Zhang, Panpan Cheng]]></description>
+    </item>
+    <item>
+      <title>A characterization of a family of integral Cayley graphs</title>
+      <link>https://arxiv.org/abs/2611.06581</link>
+      <guid isPermaLink="false">arxiv:2611.06581</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Cayley 图 $\Gamma_H(G)$ 是 integral 的当且仅当 $H\lhd G$，从而回答了作者此前提出的逆命题问题。<br/><br/>命中: Cayley graph<br/><br/>Sauvik Poddar, Sucharita Biswas]]></description>
+    </item>
+    <item>
+      <title>Polylogarithmic bound for the Gyárfás-Sumner conjecture</title>
+      <link>https://arxiv.org/abs/2611.06699</link>
+      <guid isPermaLink="false">arxiv:2611.06699</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于任意固定森林 $F$，若图 $G$ 不包含 $F$ 作为诱导子图且团数 $\omega(G)$ 有界，则其色数 $\chi(G)$ 至多为 $(\log |G|)^{O(1)}$，改进了 Nguyen-Scott-Seymour 的 $|G|^{o(1)}$ 上界。<br/><br/>命中: chromatic number<br/><br/>Martin Bierbaumer, Matija Bucić]]></description>
+    </item>
+    <item>
+      <title>The Exact Number of Pentagons in Book-Free Graphs</title>
+      <link>https://arxiv.org/abs/2611.06753</link>
+      <guid isPermaLink="false">arxiv:2611.06753</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于 $n\ge N$ 且 $2\le k\le \rho n$，无书图 $B_k$ 的图中五边形 $C_5$ 的最大数量恰好为 $q^{5-r}(q+1)^r$，其中 $n=5q+r$，且极图是平衡完全 $C_5$-blow-ups。<br/><br/>命中: extremal graph<br/><br/>Wentao Hu]]></description>
+    </item>
+    <item>
+      <title>Off-Diagonal Induced Ramsey Numbers</title>
+      <link>https://arxiv.org/abs/2611.06886</link>
+      <guid isPermaLink="false">arxiv:2611.06886</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Kohayakawa、Prömel 和 Rödl 关于 off-diagonal induced Ramsey 数的猜想：对任意固定图 $F$，$r_{\mathrm{ind}}(F,H)$ 关于 $v(H)$ 是多项式的，具体给出上界 $r_{\mathrm{ind}}(F,H) \leq v(H)^{C v(F)^2}$。<br/><br/>命中: container method, hypergraph container, Ramsey number, induced Ramsey, @Marcelo Campos<br/><br/>Bruno Andrades, Marcelo Campos, Rafael Filipe, Anastasiia Kats]]></description>
+    </item>
+    <item>
+      <title>Shotgun Assembly of the Non-Uniform Labeled Lattice Model</title>
+      <link>https://arxiv.org/abs/2611.05532</link>
+      <guid isPermaLink="false">arxiv:2611.05532</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了非均匀标记格点模型下的图 shotgun assembly 问题，证明了当 $d \geq 2$ 时重构不可能性的一个充分条件，该条件在均匀情形下与已知阈值一致。<br/><br/>命中: threshold<br/><br/>Julia Gaudio, Charlie K. Guan, Andrew Jin]]></description>
+    </item>
     <item>
       <title>Circular flows and bisections of random regular graphs</title>
       <link>https://arxiv.org/abs/2611.03763</link>
@@ -1322,34 +1399,6 @@
       <guid isPermaLink="false">arxiv:2610.21600</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文引入了 Hall-Paige 定理的同时变体性质 $\mathcal P_k$，证明了若 $p$ 是 $|G|$ 的最小素因子，则 $G$ 对每个 $k &lt; p-1$ 满足 $\mathcal P_k$，且该界是紧的，并给出了在有限交换 $p$-群及非循环同循环 $p$-群中的加强结果以及用拉丁方的公共横截和公共正交配偶的解释。<br/><br/>命中: transversal, Latin square<br/><br/>Maria Loukaki]]></description>
-    </item>
-    <item>
-      <title>Complete counterexamples to Mubayi's supersaturation conjecture for graphs</title>
-      <link>https://arxiv.org/abs/2610.18876</link>
-      <guid isPermaLink="false">arxiv:2610.18876</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了一类非 $d$-部稳定图 $F$，使得对于所有 $1\le q\le O(n^{4/3})$，有 $h_F(n,q) &lt; q\cdot t_F(n,1)$，从而完全否定了 Mubayi 的超饱和猜想。<br/><br/>命中: extremal graph, supersaturation, chromatic number<br/><br/>Liping Zhang, Qinghai Liu]]></description>
-    </item>
-    <item>
-      <title>Ordinary and measurable colorings of Euclidean three-space</title>
-      <link>https://arxiv.org/abs/2610.18907</link>
-      <guid isPermaLink="false">arxiv:2610.18907</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[利用 OpenAI 的平面 character-law 刚性定理，证明 $\mathbb{R}^3$ 的任意有限正常染色可替换为相同色数的 Lebesgue 可测正常染色，从而得到 $\mathbb{R}^3$ 的普通色数与可测色数相等，且均介于 $7$ 与 $15$ 之间。<br/><br/>命中: chromatic number, @Andrey Kupavskii<br/><br/>Mikhail Koshelev, Andrey Kupavskii, Vsevolod Voronov]]></description>
-    </item>
-    <item>
-      <title>Improved Sidorenko bound for hypergraph Turan densities</title>
-      <link>https://arxiv.org/abs/2610.18944</link>
-      <guid isPermaLink="false">arxiv:2610.18944</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了每个 $r$-一致超图 $F$ 的 Turán 密度满足 $\pi(F) \le 1 - c_r m^{-(r-1)/r}$，改进了 Sidorenko 的 $1 - \Omega(m^{-1})$ 界，并证明指数 $(r-1)/r$ 是最优的。<br/><br/>命中: Lovász local lemma<br/><br/>Shuyan Chen, Xinmin Hou, Xizhi Liu]]></description>
-    </item>
-    <item>
-      <title>Every cubic graph has four total dominating sets covering each vertex at most twice</title>
-      <link>https://arxiv.org/abs/2610.19450</link>
-      <guid isPermaLink="false">arxiv:2610.19450</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[证明每个三次图都有四个 total dominating sets 使得每个顶点至多被覆盖两次，并肯定地回答了关于 $3$-uniform $3$-regular hypergraphs 的 transversals 的类似问题。<br/><br/>命中: transversal<br/><br/>Hyemin Kwon, Boram Park, Yoshio Sano]]></description>
     </item>
   </channel>
 </rss>
