@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-05T09:41:09+00:00",
-  "total_days": 112,
-  "total_matched": 1160,
+  "generated": "2026-11-06T09:35:16+00:00",
+  "total_days": 113,
+  "total_matched": 1174,
   "daily": [
     {
       "date": "2026-06-02",
@@ -562,20 +562,25 @@
       "date": "2026-11-05",
       "matched": 12,
       "fetched": 68
+    },
+    {
+      "date": "2026-11-06",
+      "matched": 14,
+      "fetched": 71
     }
   ],
   "keywords": [
     [
       "threshold",
-      264
+      269
     ],
     [
       "chromatic number",
-      150
+      152
     ],
     [
       "Cayley graph",
-      98
+      100
     ],
     [
       "oriented",
@@ -587,7 +592,7 @@
     ],
     [
       "Ramsey number",
-      75
+      76
     ],
     [
       "random graph",
@@ -595,7 +600,7 @@
     ],
     [
       "transversal",
-      51
+      54
     ],
     [
       "Turán number",
@@ -603,11 +608,11 @@
     ],
     [
       "Latin square",
-      38
+      39
     ],
     [
       "Hamilton cycle",
-      33
+      35
     ],
     [
       "oriented graph",
@@ -635,7 +640,7 @@
     ],
     [
       "list coloring",
-      15
+      16
     ],
     [
       "generalized Turán",
@@ -690,15 +695,15 @@
       6
     ],
     [
+      "tight Hamilton cycle",
+      6
+    ],
+    [
       "container method",
       6
     ],
     [
       "multicolour Ramsey",
-      5
-    ],
-    [
-      "tight Hamilton cycle",
       5
     ],
     [
@@ -712,6 +717,10 @@
     [
       "Steiner triple system",
       4
+    ],
+    [
+      "hypergraph regularity",
+      3
     ],
     [
       "probabilistic method",
@@ -730,6 +739,10 @@
       3
     ],
     [
+      "Dirac-type",
+      3
+    ],
+    [
       "Hamilton decomposition",
       3
     ],
@@ -738,19 +751,11 @@
       3
     ],
     [
-      "hypergraph regularity",
-      2
-    ],
-    [
       "Existence Conjecture",
       2
     ],
     [
       "Ramsey multiplicity",
-      2
-    ],
-    [
-      "Dirac-type",
       2
     ],
     [
