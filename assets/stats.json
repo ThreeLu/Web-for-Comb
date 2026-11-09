@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-06T09:35:16+00:00",
-  "total_days": 113,
-  "total_matched": 1174,
+  "generated": "2026-11-09T09:59:01+00:00",
+  "total_days": 114,
+  "total_matched": 1181,
   "daily": [
     {
       "date": "2026-06-02",
@@ -567,12 +567,17 @@
       "date": "2026-11-06",
       "matched": 14,
       "fetched": 71
+    },
+    {
+      "date": "2026-11-09",
+      "matched": 7,
+      "fetched": 41
     }
   ],
   "keywords": [
     [
       "threshold",
-      269
+      273
     ],
     [
       "chromatic number",
@@ -587,16 +592,16 @@
       78
     ],
     [
+      "Ramsey number",
+      77
+    ],
+    [
       "extremal graph",
       76
     ],
     [
-      "Ramsey number",
-      76
-    ],
-    [
       "random graph",
-      67
+      68
     ],
     [
       "transversal",
@@ -604,7 +609,7 @@
     ],
     [
       "Turán number",
-      40
+      41
     ],
     [
       "Latin square",
@@ -644,7 +649,7 @@
     ],
     [
       "generalized Turán",
-      14
+      15
     ],
     [
       "Hamilton path",
@@ -659,15 +664,15 @@
       9
     ],
     [
+      "diagonal Ramsey",
+      9
+    ],
+    [
       "block design",
       8
     ],
     [
       "extremal combinatorics",
-      8
-    ],
-    [
-      "diagonal Ramsey",
       8
     ],
     [
@@ -719,6 +724,10 @@
       4
     ],
     [
+      "Dirac-type",
+      4
+    ],
+    [
       "hypergraph regularity",
       3
     ],
@@ -739,11 +748,11 @@
       3
     ],
     [
-      "Dirac-type",
+      "Hamilton decomposition",
       3
     ],
     [
-      "Hamilton decomposition",
+      "resilience",
       3
     ],
     [
@@ -764,10 +773,6 @@
     ],
     [
       "rainbow saturation",
-      2
-    ],
-    [
-      "resilience",
       2
     ]
   ],

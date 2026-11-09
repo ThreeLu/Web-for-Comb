@@ -5,8 +5,57 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Nov 2026 09:35:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 09:59:01 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Pósa-type resilience for Hamilton Berge cycles in random hypergraphs</title>
+      <link>https://arxiv.org/abs/2611.08525</link>
+      <guid isPermaLink="false">arxiv:2611.08525</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了随机一致超图 $H^{(k)}(n,p)$ 中关于 Hamilton Berge cycle 的度序列 resilience 定理，给出了与 Salia 确定性 Pósa 型定理中归一化渐近度界 $(i/n)^{k-1}$ 一致的阈值。<br/><br/>命中: Dirac-type, resilience<br/><br/>Liping Zhang, Ailian Chen, Qinghai Liu]]></description>
+    </item>
+    <item>
+      <title>Upper bound on the size of subgraphs avoiding cycles of girth length in graphs</title>
+      <link>https://arxiv.org/abs/2611.08547</link>
+      <guid isPermaLink="false">arxiv:2611.08547</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了每个边都包含在固定数量 $g$-圈中的图 $G$ 的广义 Turán 数 $\mathrm{ex}(G, C_{g})$，并给出了一个统一的上界，推广了超立方体上的经典结果。<br/><br/>命中: Turán number, generalized Turán<br/><br/>Shu-Li Zhao, Yu-Qi Li]]></description>
+    </item>
+    <item>
+      <title>Evasive subspaces, minimal rank-metric codes and subspace designs via auxiliary fields</title>
+      <link>https://arxiv.org/abs/2611.08627</link>
+      <guid isPermaLink="false">arxiv:2611.08627</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过辅助域方法构造了evasive子空间、最小rank-metric码和子空间设计，证明了在充分大的环境维数下存在达到最大维数的evasive子空间，并由此得到最优长度和广义权重的最小rank-metric码以及最大h-设计。<br/><br/>命中: threshold<br/><br/>Alessandro Giannoni]]></description>
+    </item>
+    <item>
+      <title>A Structural Lower Bound for the Ramsey Number of the Petersen Graph</title>
+      <link>https://arxiv.org/abs/2611.09347</link>
+      <guid isPermaLink="false">arxiv:2611.09347</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过在 $K_{20}$ 上构造一个避免单色 Petersen graph 的 2-着色，将 Petersen graph 的对角 Ramsey 数下界从 19 改进到 $R(\mathcal{P}, \mathcal{P}) \ge 21$。<br/><br/>命中: Ramsey number, diagonal Ramsey<br/><br/>Yuan Si]]></description>
+    </item>
+    <item>
+      <title>The maximum size of $3$-distance binary codes</title>
+      <link>https://arxiv.org/abs/2611.09675</link>
+      <guid isPermaLink="false">arxiv:2611.09675</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于所有 $n \ge 24$，在 $\{-1,1\}^n$ 中至多取三个不同 Hamming 距离的向量族的最大大小为 $\binom{n}{3}+n$，且阈值 $n=24$ 是最优的。<br/><br/>命中: threshold<br/><br/>Valjakas Djaljapayan, Hao Huang, Wei-Hsuan Yu]]></description>
+    </item>
+    <item>
+      <title>Sharp universality thresholds for random profinite groups</title>
+      <link>https://arxiv.org/abs/2611.09477</link>
+      <guid isPermaLink="false">arxiv:2611.09477</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了自由 profinite 群 $\widehat F_n$ 由 $n+u$ 个独立随机关系生成的商群的尖锐普适性阈值，其中 $u$ 为固定非负整数。<br/><br/>命中: threshold<br/><br/>Jiwan Jung, Jungin Lee]]></description>
+    </item>
+    <item>
+      <title>Strong Convergence for Zig-Zag Products and Typical Spectra of Irregular Graphs</title>
+      <link>https://arxiv.org/abs/2611.09732</link>
+      <guid isPermaLink="false">arxiv:2611.09732</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究由 interlacing 方法得到的谱界是否描述了典型随机图的谱，对 zig-zag product 的随机正则图给出了 Friedman 型强收敛定理，并证明不规则 configuration model 中 interlacing 界是非典型的。<br/><br/>命中: random graph, threshold<br/><br/>Alon Dogon, Gal Maor]]></description>
+    </item>
     <item>
       <title>Hypergraphs with zero uniform Turán density at intermediate levels</title>
       <link>https://arxiv.org/abs/2611.06964</link>
@@ -1322,90 +1371,6 @@
       <guid isPermaLink="false">arxiv:2610.25022</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[论文证明了局部四元数群 $\mathrm{Dic}(C_{2^\infty},c)$ 是一个可数无限 $B$-群，从而回答了 Kourovka Notebook 中的 Problem 13.30。<br/><br/>命中: Cayley graph<br/><br/>Alex J. Sutherland]]></description>
-    </item>
-    <item>
-      <title>Asymptotic dimension of graphs excluding an induced or fat minor</title>
-      <link>https://arxiv.org/abs/2610.22495</link>
-      <guid isPermaLink="false">arxiv:2610.22495</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了排除固定平面图作为 fat minor 的图类以及排除固定 string graph 作为 induced minor 的图类具有有界的渐近维数（甚至 Assouad--Nagata 维数），从而显著扩展了这两个猜想已知成立的图 $H$ 的范围。<br/><br/>命中: treewidth<br/><br/>Robert Hickingbotham, Freddie Illingworth, Piotr Micek, Bartosz Walczak]]></description>
-    </item>
-    <item>
-      <title>Four colours are needed for closed-neighbourhood conflict-free colouring of all planar graphs</title>
-      <link>https://arxiv.org/abs/2610.22559</link>
-      <guid isPermaLink="false">arxiv:2610.22559</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文否定了 Fabrici 等人关于平面图的 closed-neighbourhood conflict-free colouring 三色足够的猜想，证明了四色是必要的，并给出了一个 25 个顶点的平面图需要四色以及 NP-完全性结果。<br/><br/>命中: chromatic number<br/><br/>Jelena Sedlar, Riste Škrekovsk]]></description>
-    </item>
-    <item>
-      <title>On the existence of mixed orthogonal arrays of strength two with six factors</title>
-      <link>https://arxiv.org/abs/2610.22775</link>
-      <guid isPermaLink="false">arxiv:2610.22775</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了强度为2、含六个因子的混合正交阵列的存在性，基于不完全正交拉丁方、不完全横截设计和$\Sigma$-可分解横截设计提出了新构造，证明了必要性条件除少数已知例外和九个未定情形外也是充分的。<br/><br/>命中: transversal, combinatorial design, Latin square<br/><br/>Xiuling Shan, Guangzhou Chen, Xiangrong Sun]]></description>
-    </item>
-    <item>
-      <title>Counterexamples to the local antimagic leaf conjecture</title>
-      <link>https://arxiv.org/abs/2610.22783</link>
-      <guid isPermaLink="false">arxiv:2610.22783</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文否定了树 $T$ 的 local antimagic chromatic number 满足 $\chi_{\mathrm{la}}(T)\leq\ell(T)+2$ 的猜想，并证明不存在绝对常数 $C$ 使 $\chi_{\mathrm{la}}(T)\leq\ell(T)+C$ 对所有树成立。<br/><br/>命中: chromatic number<br/><br/>André Ebling Brondani, Francisca Andrea Macedo França]]></description>
-    </item>
-    <item>
-      <title>Complete characterization of disconnected one-point unions of cycles with local antimagic chromatic number 2</title>
-      <link>https://arxiv.org/abs/2610.22808</link>
-      <guid isPermaLink="false">arxiv:2610.22808</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文完全刻画了具有局部反魔术色数 2 的不连通单点并图（由至多 3 个圈组成），并指出该方法可通过逐例分析推广到至少 4 个分支的情形。<br/><br/>命中: chromatic number<br/><br/>Gee-Choon Lau, Wai Chee Shiu]]></description>
-    </item>
-    <item>
-      <title>The Spectral Theory of Threshold Graphs: A Survey</title>
-      <link>https://arxiv.org/abs/2610.22838</link>
-      <guid isPermaLink="false">arxiv:2610.22838</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文系统综述了阈值图（threshold graphs）在邻接、Laplacian、距离、离心率、Seidel 等多种矩阵下的谱理论，并研究了整谱阈值图及若干推广。<br/><br/>命中: threshold<br/><br/>Pallabi Manna, Santanu Mandal, Fernando C. Tura]]></description>
-    </item>
-    <item>
-      <title>Overtake and the recursive-line equality for second-order Zarankiewicz numbers</title>
-      <link>https://arxiv.org/abs/2610.22875</link>
-      <guid isPermaLink="false">arxiv:2610.22875</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究二阶 Zarankiewicz 数的两个问题：递归线等式 $z_2(m,n)=z_{RL}(m,n)$ 与超越现象 $z_{2A}(m,n)&gt;z_2(m,n)$，通过受限极值构型中的未占据格数 $H_{\mathrm{limited}}(m,n)$ 来刻画二者。<br/><br/>命中: threshold<br/><br/>Chen Ouyang, Liqun Qi]]></description>
-    </item>
-    <item>
-      <title>Triangle-free Rank--Ramsey graphs from ordered incidence lifts</title>
-      <link>https://arxiv.org/abs/2610.22902</link>
-      <guid isPermaLink="false">arxiv:2610.22902</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了无三角形图 $H_n$，使得对所有系数域 $\mathbb{K}$，$\rho_{\mathbb{K}}(H_n) = (4(2/3)^{3/4}+o(1))n^{3/4}$，从而解决了 Beniamini、Linial 和 Shraibman 提出的无三角形 Rank–Ramsey 存在性问题。<br/><br/>命中: chromatic number<br/><br/>Yong Lu, Qi Wu, Qiannan Zhou]]></description>
-    </item>
-    <item>
-      <title>Hypergraphs of Low Degree Without Independent Transversals</title>
-      <link>https://arxiv.org/abs/2610.22993</link>
-      <guid isPermaLink="false">arxiv:2610.22993</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了低度、无 independent transversal 的顶点划分 $k$-uniform hypergraph，证明已知的边数上界渐近紧，并否定 Haxell–Wdowinski 关于度阈值的问题。<br/><br/>命中: transversal<br/><br/>Xinzhe Song, Xia Wang]]></description>
-    </item>
-    <item>
-      <title>Odd Cycle Decompositions</title>
-      <link>https://arxiv.org/abs/2610.23471</link>
-      <guid isPermaLink="false">arxiv:2610.23471</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了所有固定奇数长度循环分解的渐近最小度阈值，证明对于每个奇数 $\ell\ge3$，最小度至少为 $(\ell/(2\ell-2)+\eps)n$ 的 $C_\ell$-可除图都有 $C_\ell$-分解，且常数是最优的。<br/><br/>命中: threshold<br/><br/>Jianfeng Hou, Caiyun Hu, Hezhi Wang]]></description>
-    </item>
-    <item>
-      <title>Visibility Sets, Empty Pentagons, and Sufficient Conditions for Hexagons</title>
-      <link>https://arxiv.org/abs/2610.23553</link>
-      <guid isPermaLink="false">arxiv:2610.23553</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入并研究有向边 $(p,q)$ 的 $C$-set，即可见集 $V(p,q)$ 面向 $(p,q)$ 的极值点集合，用以刻画空凸五边形与六边形，并证明 $C$-set 的交与并的紧界以及空五边形数的 $\Omega(n^{3/2})$ 下界。<br/><br/>命中: oriented<br/><br/>Carlos M. Nicolas]]></description>
-    </item>
-    <item>
-      <title>The maximum number of Hamiltonian cycles in tournaments</title>
-      <link>https://arxiv.org/abs/2610.23755</link>
-      <guid isPermaLink="false">arxiv:2610.23755</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了 $n$ 个顶点的 tournament 中 directed Hamiltonian cycle 的最大数量 $C(n)$ 渐近等于 $(\cosh 1/\cos 1 \pm o(1))\frac{(n-1)!}{2^n}$，由 regular tournament 渐近达到。<br/><br/>命中: Hamiltonian cycle<br/><br/>Alexander Divoux, Shouda Wang]]></description>
     </item>
   </channel>
 </rss>
