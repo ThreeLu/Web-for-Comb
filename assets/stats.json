@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-09T09:59:01+00:00",
-  "total_days": 114,
-  "total_matched": 1181,
+  "generated": "2026-11-10T10:09:06+00:00",
+  "total_days": 115,
+  "total_matched": 1200,
   "daily": [
     {
       "date": "2026-06-02",
@@ -572,16 +572,21 @@
       "date": "2026-11-09",
       "matched": 7,
       "fetched": 41
+    },
+    {
+      "date": "2026-11-10",
+      "matched": 19,
+      "fetched": 125
     }
   ],
   "keywords": [
     [
       "threshold",
-      273
+      280
     ],
     [
       "chromatic number",
-      152
+      154
     ],
     [
       "Cayley graph",
@@ -589,23 +594,23 @@
     ],
     [
       "oriented",
-      78
+      81
     ],
     [
       "Ramsey number",
-      77
+      78
     ],
     [
       "extremal graph",
-      76
+      77
     ],
     [
       "random graph",
-      68
+      71
     ],
     [
       "transversal",
-      54
+      55
     ],
     [
       "Turán number",
@@ -617,11 +622,11 @@
     ],
     [
       "Hamilton cycle",
-      35
+      37
     ],
     [
       "oriented graph",
-      30
+      31
     ],
     [
       "Hamiltonicity",
@@ -629,19 +634,19 @@
     ],
     [
       "treewidth",
-      23
+      24
     ],
     [
       "supersaturation",
       23
     ],
     [
-      "Turán problem",
+      "Hamiltonian cycle",
       23
     ],
     [
-      "Hamiltonian cycle",
-      22
+      "Turán problem",
+      23
     ],
     [
       "list coloring",
@@ -652,11 +657,11 @@
       15
     ],
     [
-      "Hamilton path",
-      10
+      "Ramsey theory",
+      11
     ],
     [
-      "Ramsey theory",
+      "Hamilton path",
       10
     ],
     [
@@ -676,6 +681,10 @@
       8
     ],
     [
+      "Lovász local lemma",
+      8
+    ],
+    [
       "combinatorial design",
       7
     ],
@@ -684,7 +693,7 @@
       7
     ],
     [
-      "Lovász local lemma",
+      "tight Hamilton cycle",
       7
     ],
     [
@@ -697,10 +706,6 @@
     ],
     [
       "hitting time",
-      6
-    ],
-    [
-      "tight Hamilton cycle",
       6
     ],
     [
@@ -720,6 +725,10 @@
       4
     ],
     [
+      "probabilistic method",
+      4
+    ],
+    [
       "Steiner triple system",
       4
     ],
@@ -728,11 +737,11 @@
       4
     ],
     [
-      "hypergraph regularity",
-      3
+      "resilience",
+      4
     ],
     [
-      "probabilistic method",
+      "hypergraph regularity",
       3
     ],
     [
@@ -749,10 +758,6 @@
     ],
     [
       "Hamilton decomposition",
-      3
-    ],
-    [
-      "resilience",
       3
     ],
     [
