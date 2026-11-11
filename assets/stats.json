@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-10T10:09:06+00:00",
-  "total_days": 115,
-  "total_matched": 1200,
+  "generated": "2026-11-11T09:39:51+00:00",
+  "total_days": 116,
+  "total_matched": 1219,
   "daily": [
     {
       "date": "2026-06-02",
@@ -577,36 +577,41 @@
       "date": "2026-11-10",
       "matched": 19,
       "fetched": 125
+    },
+    {
+      "date": "2026-11-11",
+      "matched": 19,
+      "fetched": 88
     }
   ],
   "keywords": [
     [
       "threshold",
-      280
+      287
     ],
     [
       "chromatic number",
-      154
+      155
     ],
     [
       "Cayley graph",
-      100
+      101
     ],
     [
       "oriented",
-      81
+      82
     ],
     [
       "Ramsey number",
-      78
+      79
     ],
     [
       "extremal graph",
-      77
+      78
     ],
     [
       "random graph",
-      71
+      73
     ],
     [
       "transversal",
@@ -618,11 +623,11 @@
     ],
     [
       "Latin square",
-      39
+      41
     ],
     [
       "Hamilton cycle",
-      37
+      38
     ],
     [
       "oriented graph",
@@ -634,14 +639,14 @@
     ],
     [
       "treewidth",
+      26
+    ],
+    [
+      "Hamiltonian cycle",
       24
     ],
     [
       "supersaturation",
-      23
-    ],
-    [
-      "Hamiltonian cycle",
       23
     ],
     [
@@ -658,7 +663,7 @@
     ],
     [
       "Ramsey theory",
-      11
+      12
     ],
     [
       "Hamilton path",
@@ -717,6 +722,10 @@
       5
     ],
     [
+      "probabilistic method",
+      5
+    ],
+    [
       "book graph",
       5
     ],
@@ -725,7 +734,7 @@
       4
     ],
     [
-      "probabilistic method",
+      "semi-random",
       4
     ],
     [
@@ -742,10 +751,6 @@
     ],
     [
       "hypergraph regularity",
-      3
-    ],
-    [
-      "semi-random",
       3
     ],
     [
@@ -769,15 +774,15 @@
       2
     ],
     [
+      "random perturbation",
+      2
+    ],
+    [
       "Ramsey multiplicity",
       2
     ],
     [
       "graph removal lemma",
-      2
-    ],
-    [
-      "rainbow saturation",
       2
     ]
   ],
