@@ -5,8 +5,148 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 11 Nov 2026 09:39:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 09:48:03 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sidorenko inequalities and symmetry-forcing for graph orientations</title>
+      <link>https://arxiv.org/abs/2611.15027</link>
+      <guid isPermaLink="false">arxiv:2611.15027</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了有向图的同态密度在宿主边方向随机化时的不增或不减性质，分别称为 oriented Sidorenko (OS) 和 oriented anti-Sidorenko (OAS)，并刻画了连通 OS 有向图与 weakly norming 图的关系，证明了其对称强制性的充要条件，同时给出了 strict convexity 的刻画，并构造了 OAS 侧的无限对称强制族。<br/><br/>命中: oriented<br/><br/>Jiaxi Nie, Fan Wei]]></description>
+    </item>
+    <item>
+      <title>Domination in token graphs of graphs with domination number two</title>
+      <link>https://arxiv.org/abs/2611.15124</link>
+      <guid isPermaLink="false">arxiv:2611.15124</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了支配数至少为2的图 $G$ 的 $k$-token 图 $F_k(G)$ 的支配数，重点刻画了 $\gamma(G)=2$ 的情形，给出了双星图、完全二部图等精确结果和一般下界。<br/><br/>命中: Turán number<br/><br/>Germán Benítez-Bobadilla, Fernando Esteban Contreras-Mendoza, Sergio Gerardo Gómez-Galicia, Ana Trujillo-Negrete]]></description>
+    </item>
+    <item>
+      <title>The maximum product of nontrivial cross $t$-intersecting families</title>
+      <link>https://arxiv.org/abs/2611.15327</link>
+      <guid isPermaLink="false">arxiv:2611.15327</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了在 Erdős--Ko--Rado 范围内非平凡 cross $t$-intersecting 的 $k$-一致族乘积的精确上界，并刻画了所有极值对。<br/><br/>命中: threshold<br/><br/>Biao Wu, Huajun Zhang]]></description>
+    </item>
+    <item>
+      <title>Set-coloring Ramsey numbers with multiple intersections</title>
+      <link>https://arxiv.org/abs/2611.15376</link>
+      <guid isPermaLink="false">arxiv:2611.15376</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入了多重交集集合染色 Ramsey 数 $R(G;r,s,t)$，推广了经典的集合染色 Ramsey 数，并研究了树、星、路径、偶环和团等图类的界与精确值。<br/><br/>命中: Ramsey number, threshold<br/><br/>Guantao Chen, Laihao Ding, Qiong Fan, Xiaolan Hu, Suyun Jiang, Chunxiang Wang]]></description>
+    </item>
+    <item>
+      <title>Counterexample to Flow-Transfer Conjectures</title>
+      <link>https://arxiv.org/abs/2611.16055</link>
+      <guid isPermaLink="false">arxiv:2611.16055</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明 Šámal 和 DeVos 的两个 flow-transfer 猜想等价，并用 Petersen 图构造反例推翻它们。<br/><br/>命中: Cayley graph<br/><br/>Nicolas Arnold]]></description>
+    </item>
+    <item>
+      <title>Contiguity of unions of perfect matchings and random regular uniform hypergraphs</title>
+      <link>https://arxiv.org/abs/2611.16160</link>
+      <guid isPermaLink="false">arxiv:2611.16160</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[论文证明了当 $r$ 满足 $\log(r!)&gt;\frac{r(s-1)}s\log r$ 时，完全 $s$-uniform 超图中 $r$ 个独立均匀完美匹配的并，与均匀简单 $r$-正则 $s$-uniform 超图在 $n\to\infty$（$n$ 为 $s$ 的倍数）时相互 contiguous；特别地 $r=\lceil e^s\rceil$ 即足够。<br/><br/>命中: @Alan Frieze<br/><br/>Alan Frieze, Xavier Pérez-Giménez]]></description>
+    </item>
+    <item>
+      <title>On subgroup regular sets in generalized Cayley graphs</title>
+      <link>https://arxiv.org/abs/2611.16226</link>
+      <guid isPermaLink="false">arxiv:2611.16226</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了广义 Cayley 图 $GC(G,S,\alpha)$ 中的子群 $(0,b)$-regular set，给出了其存在的充要条件，并刻画了其与 perfect code 及 equitable partition 的关系。<br/><br/>命中: Cayley graph<br/><br/>Qianfen Liao, Weijun Liu, Peng-Li Zhang]]></description>
+    </item>
+    <item>
+      <title>$(r,s)$-Designs in the Nonbinary Johnson Scheme: Constructions and Linear Codes</title>
+      <link>https://arxiv.org/abs/2611.16256</link>
+      <guid isPermaLink="false">arxiv:2611.16256</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[利用完全图分解确定非二元 Johnson 方案中 $(2,1)$-design 的存在条件，并借助 Steiner triple systems 的大集构造新 design；同时给出线性码的码字集构成 $(r,s)$-design 的充分条件，并否定 Wu--Zhou 问题的一个情形。<br/><br/>命中: Steiner triple system, block design<br/><br/>Ryutaro Misawa, Yuuho Tanaka]]></description>
+    </item>
+    <item>
+      <title>The graph $a$-Turán theorem</title>
+      <link>https://arxiv.org/abs/2611.16262</link>
+      <guid isPermaLink="false">arxiv:2611.16262</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了图 $a$-数的 Turán 定理和 Erdős--Stone 定理的类比：Turán 图 $T_r(n)$ 在 $K_{r+1}$-free 图中最大化所有 $a$-数，且第 $i$ 个 $a$-数的极限极值密度仅依赖于禁用图 $H$ 的色数。<br/><br/>命中: chromatic number<br/><br/>Suyoung Choi, Younghan Yoon]]></description>
+    </item>
+    <item>
+      <title>Improved Lower Bounds for Mutually Orthogonal Latin Squares (MOLS) at 33 Orders</title>
+      <link>https://arxiv.org/abs/2611.16299</link>
+      <guid isPermaLink="false">arxiv:2611.16299</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文通过 GPT-6 Astra 构造新的 MOLS，改进了 33 个阶数（$22$ 到 $494$）的 $N(n)$ 下界，并证明对所有 $n&gt;10$ 有 $N(n)\geq 4$。<br/><br/>命中: Latin square<br/><br/>Christopher D. Rosin]]></description>
+    </item>
+    <item>
+      <title>The External Path Length and Terminal Wiener Index in Random Trees</title>
+      <link>https://arxiv.org/abs/2611.16674</link>
+      <guid isPermaLink="false">arxiv:2611.16674</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了随机树中外部路径长度与终端 Wiener 指数，并证明它们与路径长度和 Wiener 指数在平均意义下几乎相同，从而将后者的收敛结果转移到前者。<br/><br/>命中: oriented<br/><br/>Jacob Lundblad, Stephan Wagner]]></description>
+    </item>
+    <item>
+      <title>Gamma-positivity of support enumerators of preorders</title>
+      <link>https://arxiv.org/abs/2611.16858</link>
+      <guid isPermaLink="false">arxiv:2611.16858</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了有限预序的支持枚举多项式是 $\gamma$-正的，从而解决了 Athanasiadis 和 Chapoton 的猜想。<br/><br/>命中: transversal<br/><br/>Yueming Zhong]]></description>
+    </item>
+    <item>
+      <title>Incidence Geometry with Polarity and Tiled Surfaces</title>
+      <link>https://arxiv.org/abs/2611.16862</link>
+      <guid isPermaLink="false">arxiv:2611.16862</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文扩展了 Fomin 和 Pylyavskyy 的 master theorem，通过将 polarity 融入 coherence 条件并允许非 orientable 曲面，证明了新的 incidence 定理，并刻画了哪些 incidence presentations 可用 tiling 证明。<br/><br/>命中: oriented<br/><br/>Peixuan Liu, Zhiyuan Liu, Yuanqi Jiang]]></description>
+    </item>
+    <item>
+      <title>Ramsey numbers of loose triangles versus cliques</title>
+      <link>https://arxiv.org/abs/2611.16957</link>
+      <guid isPermaLink="false">arxiv:2611.16957</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于每个固定的 $r\ge3$，松三角形 $C_3$ 与完全 $r$-一致超图 $K_t^{(r)}$ 的 Ramsey 数满足 $R(C_3,K_t^{(r)}) = O_r\left(\frac{t^{3/2}}{\sqrt{\log\log t}}\right)$，从而解决了 Kostochka、Mubayi 和 Verstraëte 在 2013 年提出的猜想。<br/><br/>命中: Ramsey number<br/><br/>Ayush Basu, Abhishek Dhawan, Abhishek Methuku]]></description>
+    </item>
+    <item>
+      <title>Rainbow matchings in non-uniform hypergraph systems</title>
+      <link>https://arxiv.org/abs/2611.16970</link>
+      <guid isPermaLink="false">arxiv:2611.16970</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文证明了非一致超图系统中 rainbow matching 存在性的改进阈值，并给出了保证 rainbow matching 的 Ore-degree 型最优条件。<br/><br/>命中: rainbow matching<br/><br/>Ghaffar Raeisi]]></description>
+    </item>
+    <item>
+      <title>Integer Decomposition Property of Edge Polytopes of Weighted Oriented Graphs</title>
+      <link>https://arxiv.org/abs/2611.17047</link>
+      <guid isPermaLink="false">arxiv:2611.17047</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文分类了由顶点加权有向图产生的格多面体具有整数分解性质 (IDP) 的情形，并给出了禁止诱导子图以及若干满足 IDP 的图族。<br/><br/>命中: oriented graph, oriented<br/><br/>Jennifer Biermann, Kuei-Nuan Lin, Augustine O'Keefe]]></description>
+    </item>
+    <item>
+      <title>New bounds on the boxicity of Kneser graphs</title>
+      <link>https://arxiv.org/abs/2611.17183</link>
+      <guid isPermaLink="false">arxiv:2611.17183</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文改进了 Kneser 图 $K(n,k)$ 的 boxicity 的上下界：下界为 $n-2k$，上界为 $O(t^3\log(2k+t))$（其中 $n=2k+t$），并给出了 $K(2k+1,k)$ 的一个更精细的上界。<br/><br/>命中: chromatic number<br/><br/>L. Sunil Chandran, Suraj Kumar Sahoo]]></description>
+    </item>
+    <item>
+      <title>Matching statistics in regular hypergraphs and applications</title>
+      <link>https://arxiv.org/abs/2611.17197</link>
+      <guid isPermaLink="false">arxiv:2611.17197</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了正则$k$-一致超图匹配配分函数对数的首个次线性修正，并给出了Kahn猜想的一个平均版本以及若干应用。<br/><br/>命中: transversal, Latin square<br/><br/>Hyunwoo Lee]]></description>
+    </item>
+    <item>
+      <title>Triameter, distance packings, and vertex connectivity</title>
+      <link>https://arxiv.org/abs/2611.17259</link>
+      <guid isPermaLink="false">arxiv:2611.17259</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了连通图的 triameter 的上界，用距离 packing 数和顶点连通度来界定，并证明了这些界是紧的，从而解决了 Das 和 Abdioğlu 的猜想。<br/><br/>命中: extremal graph<br/><br/>Artem Hak, Sergiy Kozerenko]]></description>
+    </item>
+    <item>
+      <title>Uniform Hyperbolicity of Automorphism Orbit Graphs in Rank Two</title>
+      <link>https://arxiv.org/abs/2611.14566</link>
+      <guid isPermaLink="false">arxiv:2611.14566</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文研究了秩为2的自由群中定向共轭类的自同构轨道图，在单位代价的Whitehead移动下，通过坍缩基的带符号置换，将每个轨道连通分支简化为由边和三角形构成的树，并计算了其薄三角形常数。<br/><br/>命中: oriented<br/><br/>Bilal Khan]]></description>
+    </item>
     <item>
       <title>Koszul duality and determinant formulas for affine hyperplane arrangements</title>
       <link>https://arxiv.org/abs/2611.13050</link>
@@ -1266,132 +1406,6 @@
       <guid isPermaLink="false">arxiv:2610.32879</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文求解了稀疏 Erdős-Rényi 随机图 $G(n,p)$（$n^{-1/2}\ll p\ll1$）中三角形数量下尾大偏差的变分问题，证明极小元要么是常数 graphon，要么是两块等大的阶梯 graphon，并在 $\eta_*=0.009217\ldots$ 处发生一阶相变。<br/><br/>命中: random graph, threshold<br/><br/>Dong Huang, Shuangping Li]]></description>
-    </item>
-    <item>
-      <title>Connected graphs with equal independence number and radius</title>
-      <link>https://arxiv.org/abs/2610.30165</link>
-      <guid isPermaLink="false">arxiv:2610.30165</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文给出了连通图中独立数等于半径时图可迹的简短新证明，并证明了2-连通时图是Hamiltonian、3-连通时图是Hamiltonian-connected且pancyclic。<br/><br/>命中: pancyclic<br/><br/>Xingzhi Zhan]]></description>
-    </item>
-    <item>
-      <title>An elementary proof of a tight $Δ+1$ bound for the additive chromatic number</title>
-      <link>https://arxiv.org/abs/2610.30174</link>
-      <guid isPermaLink="false">arxiv:2610.30174</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文给出了一个初等的定向论证，证明了每个有限简单图 $G$ 的 additive chromatic number 满足 $\eta(G) \leq \Delta(G) + 1$，并给出了多项式时间算法。<br/><br/>命中: chromatic number<br/><br/>Alex Koutsoutis, Joseph Koutsoutis]]></description>
-    </item>
-    <item>
-      <title>A note on the proof of Barnette's conjecture</title>
-      <link>https://arxiv.org/abs/2610.30490</link>
-      <guid isPermaLink="false">arxiv:2610.30490</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文对 OpenAI 生成的 Barnette 猜想证明进行了精简阐释，该猜想断言每个立方 3-连通二部平面图都有 Hamilton cycle。<br/><br/>命中: Hamiltonian cycle<br/><br/>Zhentao Li]]></description>
-    </item>
-    <item>
-      <title>Asymptotically Sharp Length Thresholds for \texorpdfstring{$q$}{q}-ary Codes with Distances \texorpdfstring{$2$}{2} and \texorpdfstring{$4$}{4}</title>
-      <link>https://arxiv.org/abs/2610.30613</link>
-      <guid isPermaLink="false">arxiv:2610.30613</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[该论文证明了对于 $q\ge 5$，$q$-ary Hamming 空间中距离集为 $\{2,4\}$ 的码的最大基数在 $n\ge N(q)$ 时恰为 $1+\binom n2$，并给出了 $N(q)$ 的渐近尖锐阈值。<br/><br/>命中: threshold<br/><br/>Valjakas Djaljapayan, Yen-Chi Roger Lin, Wei-Hsuan Yu]]></description>
-    </item>
-    <item>
-      <title>Weighted odd-cycle transversals and fractional colorings of planar graphs</title>
-      <link>https://arxiv.org/abs/2610.30719</link>
-      <guid isPermaLink="false">arxiv:2610.30719</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[该论文通过建立低权重奇圈横截（odd-cycle transversal）与分数色数之间的联系，给出了平面图分数色数的新上界，并证明了 Naserasr 分数着色猜想在围长版本下的严格不等式形式。<br/><br/>命中: transversal, chromatic number<br/><br/>Xiaolan Hu, Jiaao Li, Zhouningxin Wang]]></description>
-    </item>
-    <item>
-      <title>Probabilistic and game thresholds</title>
-      <link>https://arxiv.org/abs/2610.30730</link>
-      <guid isPermaLink="false">arxiv:2610.30730</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[论文证明了 Picker-Chooser $\mathcal{F}$-game 的 bias-threshold $b(\mathcal{F})$ 满足 $b(\mathcal{F}) \ge \alpha/p_c(\mathcal{F})$，其中 $p_c(\mathcal{F})$ 是性质 $\mathcal{F}$ 的概率阈值，$\alpha&gt;0$ 为绝对常数，从而验证了 Picker-Chooser 游戏满足单侧“概率直觉”。<br/><br/>命中: threshold, @Rajko Nenadov<br/><br/>Rajko Nenadov]]></description>
-    </item>
-    <item>
-      <title>The signless Laplacian spectral Turán problems for disjoint triangles</title>
-      <link>https://arxiv.org/abs/2610.30859</link>
-      <guid isPermaLink="false">arxiv:2610.30859</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了所有 $kK_3$-free 的 $n$ 阶图中无符号 Laplacian 谱半径的最大值，并刻画了唯一的谱极图 $K_{k-1}\vee T_{2}(n-k+1)$。<br/><br/>命中: extremal graph, Turán problem<br/><br/>Ming-Zhu Chen, Ya-Lei Jin, Peng-Li Zhang]]></description>
-    </item>
-    <item>
-      <title>Spectral and edge conditions for negative Hamiltonian cycles in unbalanced signed graphs</title>
-      <link>https://arxiv.org/abs/2610.30883</link>
-      <guid isPermaLink="false">arxiv:2610.30883</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了不含 negative Hamiltonian cycle 的 $n$ 阶 unbalanced signed graph 的最大谱半径，刻画了极图，并给出了 frustration index 为 1 时边数的上界及极图分类。<br/><br/>命中: Hamiltonian cycle, extremal graph<br/><br/>Zihao Zha]]></description>
-    </item>
-    <item>
-      <title>Upper tail large deviations of regular subgraph counts in sparse random regular graphs</title>
-      <link>https://arxiv.org/abs/2610.31590</link>
-      <guid isPermaLink="false">arxiv:2610.31590</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[该论文确定了在稀疏随机 $d$-正则图 $\mathbb{G}_n^d$ 中，$\Delta$-正则连通图 $H$ 的副本数的上尾大偏差速度与速率函数，并刻画了条件于上尾事件时图的典型结构。<br/><br/>命中: random graph<br/><br/>Anirban Basak, Shaibal Karmakar]]></description>
-    </item>
-    <item>
-      <title>On the generation of the symmetric group by index relations of three prefix reversals</title>
-      <link>https://arxiv.org/abs/2610.30892</link>
-      <guid isPermaLink="false">arxiv:2610.30892</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究三个前缀反转生成的对称群 $S_n$ 的条件，给出了若干使三元组不生成 $S_n$ 的充分条件，并利用已知可生成的三元组推导出递推条件。<br/><br/>命中: Cayley graph<br/><br/>Yexiao Lei, Jinxing Zhao, Ziyu Zhu, Yang Wu]]></description>
-    </item>
-    <item>
-      <title>Non-trivial intersecting families for direct products</title>
-      <link>https://arxiv.org/abs/2610.29044</link>
-      <guid isPermaLink="false">arxiv:2610.29044</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文解决了 Kwan、Sudakov 和 Vieira 提出的两个问题：在 direct product 设定下，当每个部分的大小仅依赖于其对应的集合大小时，确定了非平凡相交族的最大规模，并刻画了极值族，且所得各部分大小的界是最优的。<br/><br/>命中: extremal combinatorics<br/><br/>Jian Wang, Biao Wu, Huajun Zhang]]></description>
-    </item>
-    <item>
-      <title>Counting and constructing Latin tableaux</title>
-      <link>https://arxiv.org/abs/2610.29291</link>
-      <guid isPermaLink="false">arxiv:2610.29291</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了若干类 wide partitions 存在 Latin tableaux，并给出了 Latin tableaux 数量的显式公式，该公式涉及 (0,1)-矩阵和矩阵 permanent。<br/><br/>命中: Latin square<br/><br/>Spencer Daugherty, Michaela Fahnesock, Shawn Huxtable, Michael Larson, Nourah Al Munayes, Storey Peacock]]></description>
-    </item>
-    <item>
-      <title>A Computer-Assisted Proof that R(5,10;5,8)=21 for the Generalized Threshold Ramsey Number</title>
-      <link>https://arxiv.org/abs/2610.29584</link>
-      <guid isPermaLink="false">arxiv:2610.29584</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文通过计算机辅助证明广义阈值 Ramsey 数 $R(5,10;5,8)=21$，等价于 Harborth 引入的集合 Ramsey 数 $r_5(10,8)=21$。<br/><br/>命中: Ramsey number, threshold<br/><br/>Wancai Guo, Min Wan]]></description>
-    </item>
-    <item>
-      <title>Connected Coloring Games on Corona Products of Graphs</title>
-      <link>https://arxiv.org/abs/2610.29650</link>
-      <guid isPermaLink="false">arxiv:2610.29650</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了图的 corona product $G\circ H$ 上的 connected coloring game，给出了 $\chi_{cg}(G\circ H)$ 的尖锐上界，并构造了多种反例说明该参数与相关图参数之间的不可控关系。<br/><br/>命中: chromatic number<br/><br/>Daša Mesarič Štesl]]></description>
-    </item>
-    <item>
-      <title>Topological degree of fewnomial maps</title>
-      <link>https://arxiv.org/abs/2610.29808</link>
-      <guid isPermaLink="false">arxiv:2610.29808</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[论文研究了具有相同支撑 $\mathcal{A}$（$N=n+k+1$ 个单项式）的 fewnomial 映射 $F:\mathbb{R}^n_{&gt;0}\to\mathbb{R}^n$ 在正象限上的拓扑度，给出了三种基于极大子式符号的公式，并导出了符号法则与上界。<br/><br/>命中: oriented<br/><br/>Frédéric Bihan]]></description>
-    </item>
-    <item>
-      <title>The three-colour bipartite Ramsey number of sufficiently long even cycles</title>
-      <link>https://arxiv.org/abs/2610.29813</link>
-      <guid isPermaLink="false">arxiv:2610.29813</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了对于充分大的 $n$，三部二部 Ramsey 数 $\operatorname{br}_3(C_{2n}) = 3n$，并对所有 $n \ge 2$ 给出了下界。<br/><br/>命中: Ramsey number<br/><br/>Jiangdong Ai, Yihan Yin]]></description>
-    </item>
-    <item>
-      <title>Hitting time for loose Hamilton cycles in the random hypergraph process</title>
-      <link>https://arxiv.org/abs/2610.29894</link>
-      <guid isPermaLink="false">arxiv:2610.29894</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了在随机超图过程中，当最后一个孤立顶点消失时，3-一致松散 Hamilton 环以高概率出现，并将结果推广到 r=2 和满足 (r-1)|n 的固定 r≥4，同时估计了这些击中时刻的松散 Hamilton 环数量。<br/><br/>命中: Hamilton cycle, loose Hamilton cycle, hitting time<br/><br/>Jared León, Xizhi Liu]]></description>
-    </item>
-    <item>
-      <title>Short sums of the Möbius function over function fields</title>
-      <link>https://arxiv.org/abs/2610.28822</link>
-      <guid isPermaLink="false">arxiv:2610.28822</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文发展了一种新方法，在函数域 $\mathbb{F}_p(X)$ 上对 Möbius 函数在短区间（长度低于 Pólya–Vinogradov 阈值 $p^{1/2}$）上的和进行幂次节省估计。<br/><br/>命中: threshold<br/><br/>Etienne Fouvry, Igor E. Shparlinski, Ping Xi]]></description>
     </item>
   </channel>
 </rss>

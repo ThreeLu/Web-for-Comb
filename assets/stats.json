@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-11T09:39:51+00:00",
-  "total_days": 116,
-  "total_matched": 1219,
+  "generated": "2026-11-13T09:48:03+00:00",
+  "total_days": 117,
+  "total_matched": 1239,
   "daily": [
     {
       "date": "2026-06-02",
@@ -582,32 +582,37 @@
       "date": "2026-11-11",
       "matched": 19,
       "fetched": 88
+    },
+    {
+      "date": "2026-11-13",
+      "matched": 20,
+      "fetched": 129
     }
   ],
   "keywords": [
     [
       "threshold",
-      287
+      289
     ],
     [
       "chromatic number",
-      155
+      157
     ],
     [
       "Cayley graph",
-      101
+      103
     ],
     [
       "oriented",
-      82
+      87
     ],
     [
       "Ramsey number",
-      79
+      81
     ],
     [
       "extremal graph",
-      78
+      79
     ],
     [
       "random graph",
@@ -615,15 +620,15 @@
     ],
     [
       "transversal",
-      55
-    ],
-    [
-      "Turán number",
-      41
+      57
     ],
     [
       "Latin square",
-      41
+      43
+    ],
+    [
+      "Turán number",
+      42
     ],
     [
       "Hamilton cycle",
@@ -631,7 +636,7 @@
     ],
     [
       "oriented graph",
-      31
+      32
     ],
     [
       "Hamiltonicity",
@@ -674,12 +679,12 @@
       9
     ],
     [
-      "diagonal Ramsey",
+      "block design",
       9
     ],
     [
-      "block design",
-      8
+      "diagonal Ramsey",
+      9
     ],
     [
       "extremal combinatorics",
@@ -730,15 +735,15 @@
       5
     ],
     [
+      "Steiner triple system",
+      5
+    ],
+    [
       "induced Ramsey",
       4
     ],
     [
       "semi-random",
-      4
-    ],
-    [
-      "Steiner triple system",
       4
     ],
     [
@@ -864,6 +869,10 @@
       2
     ],
     [
+      "Alan Frieze",
+      2
+    ],
+    [
       "Candida Bowtell",
       2
     ],
@@ -885,10 +894,6 @@
     ],
     [
       "Allan Lo",
-      1
-    ],
-    [
-      "Alan Frieze",
       1
     ],
     [
