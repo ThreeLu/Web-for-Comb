@@ -5,8 +5,36 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 13 Nov 2026 09:48:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 09:57:57 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Goodman-type lower bounds for graph homomorphism densities</title>
+      <link>https://arxiv.org/abs/2611.17885</link>
+      <guid isPermaLink="false">arxiv:2611.17885</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图同态密度 $t(H,W)$ 在边密度 $p$ 下的下界 $\Phi_H(p)$，证明了该不等式对若干图类成立，并给出了非二部图满足该界的充要条件，部分结果在 Lean 4 中形式化验证。<br/><br/>命中: chromatic number<br/><br/>Taeyoung Kim]]></description>
+    </item>
+    <item>
+      <title>Upper bounds for the number of spanning forests of a graph</title>
+      <link>https://arxiv.org/abs/2611.18076</link>
+      <guid isPermaLink="false">arxiv:2611.18076</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图的生成森林数量 $F(G)$ 的上界，证明了最小度至少为 $n/3$ 的图满足 Bencs-Csikvári 猜想，并构造了反例，进而给出了基于度序列和代数连通度的上界及极图刻画。<br/><br/>命中: extremal graph<br/><br/>Tingzeng Wu, Shuxin Lu, Xiangshuai Dong]]></description>
+    </item>
+    <item>
+      <title>From Diagonal Coloring to Proper Vertex Labelings Distinguishing Adjacent Facial Sums</title>
+      <link>https://arxiv.org/abs/2611.18384</link>
+      <guid isPermaLink="false">arxiv:2611.18384</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究 3-连通平面图的 proper vertex labeling，使得共享一条边的两个面具有不同的边界顶点标号和，证明了 fullerenes 的八元列表定理以及所有 3-连通平面图的通用上界 $\lambda(G)\le708587$。<br/><br/>命中: threshold, chromatic number<br/><br/>Zhou Guofei]]></description>
+    </item>
+    <item>
+      <title>Efficient Reconfiguration of Independent Transversals</title>
+      <link>https://arxiv.org/abs/2611.18474</link>
+      <guid isPermaLink="false">arxiv:2611.18474</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文针对带顶点划分的 $r$-claw-free 图，给出了独立横截（independent transversal）之间高效重配置的多项式时间算法，并应用于 $r$-一致二部超图的完美匹配重配置。<br/><br/>命中: transversal<br/><br/>Sahab Hajebi, Penny Haxell]]></description>
+    </item>
     <item>
       <title>Sidorenko inequalities and symmetry-forcing for graph orientations</title>
       <link>https://arxiv.org/abs/2611.15027</link>
@@ -1378,34 +1406,6 @@
       <guid isPermaLink="false">arxiv:2610.32677</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文证明了在满足自然平衡性条件下，随机图 $G(n,p)$ 继承非对称 vertex-Ramsey 性质的阈值是 sharp 的，并推广到超图情形。<br/><br/>命中: random graph, threshold<br/><br/>Robert Hancock, Joseph Hyde, Mael Kupperschmitt]]></description>
-    </item>
-    <item>
-      <title>Triangle-Free Sets in Exact-Distance Hamming Graphs</title>
-      <link>https://arxiv.org/abs/2610.32789</link>
-      <guid isPermaLink="false">arxiv:2610.32789</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究精确距离 Hamming 图 $H_q(n,r)$ 中无三角形顶点集的最大规模 $T_q(n,r)$，给出了若干精确公式、阶估计以及下界构造，并证明了三元情形下 $T_3(n,3)$ 的上下界。<br/><br/>命中: @Padmini Mukkamala<br/><br/>Bence Csajbók, Padmini Mukkamala, Zoltán Lóránt Nagy]]></description>
-    </item>
-    <item>
-      <title>The Turán number of Berge paths in connected hypergraphs</title>
-      <link>https://arxiv.org/abs/2610.32875</link>
-      <guid isPermaLink="false">arxiv:2610.32875</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了当 $n$ 充分大时，$r+3 \leq k \leq 2r+1$ 范围内连通 $r$-一致超图中不含 $k$ 个顶点的 Berge path 的最大边数 $\operatorname{ex}^{\mathrm{conn}}_r(n,\mathcal{BP}_k)$，从而证实了 Zhang 等人的猜想。<br/><br/>命中: Turán number<br/><br/>Yupei Li, Ruth Luo]]></description>
-    </item>
-    <item>
-      <title>Divisor Sums with Spacing Constraints</title>
-      <link>https://arxiv.org/abs/2610.31832</link>
-      <guid isPermaLink="false">arxiv:2610.31832</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[论文确定了在元素两两间隔大于 $y$ 的约束下，$[1,x]$ 中除数函数之和的最大值 $S(x,y)$ 在 $y$ 取多对数尺度时的阶，并在子区间给出精确渐近。<br/><br/>命中: threshold<br/><br/>Aahan Chatterjee]]></description>
-    </item>
-    <item>
-      <title>The lower tail of triangle counts in sparse random graphs</title>
-      <link>https://arxiv.org/abs/2610.32879</link>
-      <guid isPermaLink="false">arxiv:2610.32879</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文求解了稀疏 Erdős-Rényi 随机图 $G(n,p)$（$n^{-1/2}\ll p\ll1$）中三角形数量下尾大偏差的变分问题，证明极小元要么是常数 graphon，要么是两块等大的阶梯 graphon，并在 $\eta_*=0.009217\ldots$ 处发生一阶相变。<br/><br/>命中: random graph, threshold<br/><br/>Dong Huang, Shuangping Li]]></description>
     </item>
   </channel>
 </rss>
