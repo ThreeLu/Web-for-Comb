@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-16T09:57:57+00:00",
-  "total_days": 118,
-  "total_matched": 1243,
+  "generated": "2026-11-17T10:54:32+00:00",
+  "total_days": 119,
+  "total_matched": 1261,
   "daily": [
     {
       "date": "2026-06-02",
@@ -592,20 +592,25 @@
       "date": "2026-11-16",
       "matched": 4,
       "fetched": 53
+    },
+    {
+      "date": "2026-11-17",
+      "matched": 18,
+      "fetched": 117
     }
   ],
   "keywords": [
     [
       "threshold",
-      290
+      293
     ],
     [
       "chromatic number",
-      159
+      162
     ],
     [
       "Cayley graph",
-      103
+      104
     ],
     [
       "oriented",
@@ -613,11 +618,11 @@
     ],
     [
       "Ramsey number",
-      81
+      85
     ],
     [
       "extremal graph",
-      80
+      82
     ],
     [
       "random graph",
@@ -625,19 +630,19 @@
     ],
     [
       "transversal",
-      58
+      59
+    ],
+    [
+      "Turán number",
+      43
     ],
     [
       "Latin square",
       43
     ],
     [
-      "Turán number",
-      42
-    ],
-    [
       "Hamilton cycle",
-      38
+      39
     ],
     [
       "oriented graph",
@@ -649,7 +654,7 @@
     ],
     [
       "treewidth",
-      26
+      27
     ],
     [
       "Hamiltonian cycle",
@@ -681,7 +686,7 @@
     ],
     [
       "hypergraph container",
-      9
+      10
     ],
     [
       "block design",
@@ -692,16 +697,16 @@
       9
     ],
     [
+      "combinatorial design",
+      8
+    ],
+    [
       "extremal combinatorics",
       8
     ],
     [
       "Lovász local lemma",
       8
-    ],
-    [
-      "combinatorial design",
-      7
     ],
     [
       "regularity lemma",
@@ -803,7 +808,7 @@
     ],
     [
       "Benny Sudakov",
-      11
+      12
     ],
     [
       "Andrey Kupavskii",
