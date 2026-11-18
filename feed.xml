@@ -5,8 +5,92 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 17 Nov 2026 10:54:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 10:25:26 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Supersaturation and reconfiguration diameter of independent transversals</title>
+      <link>https://arxiv.org/abs/2611.21966</link>
+      <guid isPermaLink="false">arxiv:2611.21966</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了当顶点划分的每个部分大小至少为 $2\Delta$ 时，独立横截（independent transversals）的数量呈指数级多；并且当部分大小至少为 $4\Delta$ 时，独立横截之间的重配置直径（reconfiguration diameter）至多与部分数成线性关系。<br/><br/>命中: transversal, supersaturation<br/><br/>Wouter Cames van Batenburg, Penny Haxell, Ross J. Kang, Ronen Wdowinski]]></description>
+    </item>
+    <item>
+      <title>Directed triangles in oriented graphs without a directed cycle of length $3t$</title>
+      <link>https://arxiv.org/abs/2611.22104</link>
+      <guid isPermaLink="false">arxiv:2611.22104</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于每个固定整数 $t\ge 3$，有 $\operatorname{ex}(n,\Cdir_3,\Cdir_{3t})=\frac{t-1}{4}n^2+o(n^2)$，从而完全证实了 Grzesik 等人关于有向图中无 $\Cdir_{3t}$ 时 $\Cdir_3$ 最大数目的猜想。<br/><br/>命中: Turán problem, generalized Turán, oriented graph, oriented<br/><br/>Shuchao Li, Mingli Wang]]></description>
+    </item>
+    <item>
+      <title>On Threshold Probabilities for the Stability of the Independence Number of a Random Subgraph</title>
+      <link>https://arxiv.org/abs/2611.22185</link>
+      <guid isPermaLink="false">arxiv:2611.22185</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文对任意图序列 $G_n$ 的随机子图 $G_{n,p}$，给出了独立数 $\alpha(G_{n,p})$ 的一般上界，并由此推导出 $\alpha(G_{n,p})=(1+o(1))\alpha(G_n)$ 渐近稳定性的充分条件以及阈值概率的常数因子估计。<br/><br/>命中: threshold<br/><br/>Vsevolod A. Pokhachevskiy, Andrei Raigorodskii]]></description>
+    </item>
+    <item>
+      <title>Minimum degree thresholds for even cycle residues</title>
+      <link>https://arxiv.org/abs/2611.22346</link>
+      <guid isPermaLink="false">arxiv:2611.22346</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于每个整数 $k\ge2$，最小度至少为 $2k-1$ 的图包含长度模 $2k$ 同余于任意偶数 $r\not\equiv2\pmod{2k}$ 的圈，从而 $2k-1$ 是圈长被 $2k$ 整除的尖锐最小度阈值；对于二部图，最小度至少为 $k$ 时也保证了相同的剩余类（$k\ge4$），并刻画了不存在长度模 $2k$ 同余于 $2$ 的圈时的端块结构。<br/><br/>命中: threshold<br/><br/>Hojin Chu, Masaki Kashima, Shun-ichi Maezawa, Boram Park]]></description>
+    </item>
+    <item>
+      <title>A sharp minimum degree condition for Hamiltonicity in line graphs of 3-hypergraphs</title>
+      <link>https://arxiv.org/abs/2611.22507</link>
+      <guid isPermaLink="false">arxiv:2611.22507</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[论文证明了 $3$-hypergraph 的 line graph 在 $3$-connected、$n\ge4936$ 且 $\delta(G)\ge(n+5)/10$ 时，除显式描述的一族例外图外均为 Hamiltonian，且该界是 sharp 的。<br/><br/>命中: Hamiltonicity<br/><br/>Kenta Ozeki, Leilei Zhang]]></description>
+    </item>
+    <item>
+      <title>Asymptotic enumeration of histories and limit laws in two random graph evolution models</title>
+      <link>https://arxiv.org/abs/2611.22535</link>
+      <guid isPermaLink="false">arxiv:2611.22535</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了两种随机图演化模型（UIG 和 DIG）中历史计数的渐近枚举，并证明了随机历史中顶点数的中心极限定理，同时给出了基于 Boltzmann 采样的均匀生成算法。<br/><br/>命中: random graph<br/><br/>Nadja Azzouz, Olivier Bodini, Francis Durand, Bernhard Gittenberger]]></description>
+    </item>
+    <item>
+      <title>An extremal question of Erdős et al. on cycles</title>
+      <link>https://arxiv.org/abs/2611.22824</link>
+      <guid isPermaLink="false">arxiv:2611.22824</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解决了 Erdős 等人于 1989 年提出的关于长圈与高度数顶点数的极值问题，给出了一个统一且紧的充分条件。<br/><br/>命中: threshold<br/><br/>Zhiyong Gan, Zhiliang Tan, Yi Huang]]></description>
+    </item>
+    <item>
+      <title>Minimum outdegree forcing directed cycles</title>
+      <link>https://arxiv.org/abs/2611.22909</link>
+      <guid isPermaLink="false">arxiv:2611.22909</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了对于所有充分大的 $\ell$ 和 $n$，强制有向图包含长度恰好为 $\ell$ 的有向圈所需的最小出度，从而在出度版本上解决了 Kelly-Kühn-Osthus 猜想（允许一个小的加性修正）。<br/><br/>命中: oriented graph, oriented<br/><br/>Andrzej Grzesik, Justyna Jaworska, Piotr Kuc]]></description>
+    </item>
+    <item>
+      <title>New bounds on simplex-avoiding sets in two dimensions</title>
+      <link>https://arxiv.org/abs/2611.23097</link>
+      <guid isPermaLink="false">arxiv:2611.23097</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文利用几何分数色数方法，证明了球面 $S^2$ 中避免正交基的可测集归一化球面测度至多 $7/11$，以及平面 $\mathbb{R}^2$ 中避免单位等边三角形的可测集上 Banach 密度至多 $9/16$。<br/><br/>命中: chromatic number<br/><br/>Domonkos Czifra, Ákos Dúcz, Péter Madarasi, Dániel Varga, Pál Zsámboki]]></description>
+    </item>
+    <item>
+      <title>Sidorenko Inequalities in Oriented Graphs</title>
+      <link>https://arxiv.org/abs/2611.23222</link>
+      <guid isPermaLink="false">arxiv:2611.23222</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文为有向图引入了 relative Sidorenko 与 relative anti-Sidorenko 不等式，将原本针对 tournament 的概念推广到任意宿主图，并给出了连通 relatively Sidorenko 图的完整刻画以及若干构造族。<br/><br/>命中: oriented graph, oriented<br/><br/>Veronica Bitonti, Emma Hogan, Jonathan A. Noel, Dmitry Tsarev]]></description>
+    </item>
+    <item>
+      <title>A Proof of the Achlioptas-Friedgut Convergence Conjecture</title>
+      <link>https://arxiv.org/abs/2611.21665</link>
+      <guid isPermaLink="false">arxiv:2611.21665</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了 Achlioptas-Friedgut 收敛猜想：对于每个固定的整数 $q\ge3$，稀疏随机图中的 $q$-可着色相变发生在某个极限边密度处。<br/><br/>命中: random graph<br/><br/>Gaia Carenini]]></description>
+    </item>
+    <item>
+      <title>Finitely generated groups with arbitrarily fast MIF growth</title>
+      <link>https://arxiv.org/abs/2611.21886</link>
+      <guid isPermaLink="false">arxiv:2611.21886</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文证明了对于任意函数 $f:\mathbf{N}\to\mathbf{N}$，存在一个有限生成群 $G$，其 MIF 增长函数比 $f$ 增长更快，从而回答了 Bradford 的问题，并首次给出了非 selfless 的有限生成 MIF 群的例子。<br/><br/>命中: Cayley graph<br/><br/>Yash Lodha]]></description>
+    </item>
     <item>
       <title>Independent Sets in $C_4$-Free Planar Graphs: Sharp Claw-Free Bounds and Structural Reductions</title>
       <link>https://arxiv.org/abs/2611.19256</link>
@@ -1308,104 +1392,6 @@
       <guid isPermaLink="false">arxiv:2610.37408</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[该论文研究了随机几何图 $G(n,r)$ 中网格图的高次幂，并给出了宽生成结构的阈值。<br/><br/>命中: threshold<br/><br/>Alberto Espuny Díaz]]></description>
-    </item>
-    <item>
-      <title>The minimum number of wheel-saturating edges</title>
-      <link>https://arxiv.org/abs/2610.33041</link>
-      <guid isPermaLink="false">arxiv:2610.33041</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文确定了当边数比 Turán 数多 1 时，无轮图（wheel）图中 wheel-saturating edges 的最小数量，并刻画了相应的极值图。<br/><br/>命中: extremal graph<br/><br/>Xianglei Chen, Changxiang He]]></description>
-    </item>
-    <item>
-      <title>Second largest eigenvalue thresholds for the vertex-connectivity of regular graphs</title>
-      <link>https://arxiv.org/abs/2610.33064</link>
-      <guid isPermaLink="false">arxiv:2610.33064</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[该论文对每个 $r\ge3$ 和 $2\le t\le r-1$，给出了一个使 $r$-正则图 $G$ 满足 $\kappa(G)\ge t+1$ 的 $\lambda_2(G)$ 上界，并精确刻画了该界何时可达。<br/><br/>命中: extremal graph, threshold<br/><br/>Suil O, Lukai Sui]]></description>
-    </item>
-    <item>
-      <title>A quasi-polynomial $χ$-bound for $P_6$-free graphs</title>
-      <link>https://arxiv.org/abs/2610.33407</link>
-      <guid isPermaLink="false">arxiv:2610.33407</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[论文证明了每个无诱导六顶点路径 $P_6$ 的图 $G$ 满足 $\chi(G)\le \omega(G)^{c\log_2\omega(G)}$（其中 $c=45/\log_2(4/3)&lt;109$），这是 $P_6$-free graphs 的首个拟多项式 $\chi$-bound。<br/><br/>命中: chromatic number<br/><br/>Shenwei Huang, Yidong Zhou, Yuwen Zhou]]></description>
-    </item>
-    <item>
-      <title>The chromatic number of a random graph with $o(n^{3/2})$ edges</title>
-      <link>https://arxiv.org/abs/2610.33678</link>
-      <guid isPermaLink="false">arxiv:2610.33678</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文给出了稀疏 Erdős–Rényi 随机图 $G(n,m)$（$m=o(n^{3/2})$）的 chromatic number 的显式公式 $q(n)$，并证明其以高概率等于 $q$ 或 $q+1$，且对绝大多数 $m$ 值等于 $q$。<br/><br/>命中: random graph, chromatic number<br/><br/>Amin Coja-Oghlan, Mikhail Isaev, Mihyun Kang, Pavel Zakharov]]></description>
-    </item>
-    <item>
-      <title>Packing colourings of claw-free subcubic graphs</title>
-      <link>https://arxiv.org/abs/2610.33803</link>
-      <guid isPermaLink="false">arxiv:2610.33803</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了每个无爪 subcubic 图都存在 \packA-packing colouring，从而证实了 Mortada 等人的猜想；同时构造了无限族反例否定了他们关于 \packB-packing colouring 的问题，并给出了简单 cubic 图的 triangle expansion 存在 \packB-packing colouring 的刻画。<br/><br/>命中: transversal<br/><br/>Federico Romaniello]]></description>
-    </item>
-    <item>
-      <title>Solving Large SDPs from Flag Algebra Problems</title>
-      <link>https://arxiv.org/abs/2610.33850</link>
-      <guid isPermaLink="false">arxiv:2610.33850</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文提出一种基于线性规划与割平面法的方法，用于求解 flag algebra 方法中产生的大规模半定规划（SDP），从而绕过内存限制，获得 3-一致超图 Turán 密度的改进上界。<br/><br/>命中: extremal combinatorics, Turán problem<br/><br/>Bernard Lidický, Jan Volec]]></description>
-    </item>
-    <item>
-      <title>Between the Semi-Random Process and G(n,p)</title>
-      <link>https://arxiv.org/abs/2610.33854</link>
-      <guid isPermaLink="false">arxiv:2610.33854</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了一个介于 Erdős–Rényi 随机图与 semi-random process 之间的随机图过程：每轮揭示一个均匀随机顶点及其 $s$ 个候选邻居，Builder 从中选择一个，并分析有限适应性 $s$ 如何改变单调图性质的 hitting time 以及 coupon-collector 型对数延迟。<br/><br/>命中: random graph, semi-random, hitting time, @Andrey Kupavskii<br/><br/>Margarita Akhmejanova, Andrey Kupavskii]]></description>
-    </item>
-    <item>
-      <title>Spectral Turán problems for complete bipartite expansions in linear hypergraphs</title>
-      <link>https://arxiv.org/abs/2610.34065</link>
-      <guid isPermaLink="false">arxiv:2610.34065</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了线性 $r$-一致超图中禁止 $K_{s,t}^{+}$ 的谱 Turán 型上界，并由此改进了相应的边数上界。<br/><br/>命中: Turán problem<br/><br/>Lusheng Fang, Guorong Gao]]></description>
-    </item>
-    <item>
-      <title>A planar signed graph with circular chromatic number five</title>
-      <link>https://arxiv.org/abs/2610.34118</link>
-      <guid isPermaLink="false">arxiv:2610.34118</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了一个85个顶点的简单平面符号三角剖分，其循环色数恰好为5，从而将简单平面符号图的循环色数上确界的下界从14/3提高到5。<br/><br/>命中: chromatic number<br/><br/>Lujia Wang, Huan Zhou]]></description>
-    </item>
-    <item>
-      <title>The \(\mathcal A_α\)-Spectral Turán Problem for \(s\)-Clique Tensors of \(K_{r+1}\)-Free Graphs</title>
-      <link>https://arxiv.org/abs/2610.34196</link>
-      <guid isPermaLink="false">arxiv:2610.34196</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了 $n$ 个顶点的 $K_{r+1}$-free 图中 $\alpha$-$s$-clique 谱半径的最大值，并确定了当 $s=r$ 且 $n$ 充分大时，极图在阈值 $\alpha=c_r$ 两侧分别为 Turán 图 $T_r(n)$ 和 $K_1\vee T_{r-1}(n-1)$。<br/><br/>命中: extremal graph, Turán problem<br/><br/>Xiaoqi Liu, Haiying Shan]]></description>
-    </item>
-    <item>
-      <title>The Golomb--Welch conjecture for arbitrary centre sets</title>
-      <link>https://arxiv.org/abs/2610.34291</link>
-      <guid isPermaLink="false">arxiv:2610.34291</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[论文证明了对于所有 $n\ge3$ 和 $r\ge2$，Lee 球 $B_n(r)$ 不能通过平移铺砌 $\Z^n$，从而对任意中心集解决了 Golomb--Welch 猜想，并完成了 $\Z^n$ 中完美 Lee 码的存在性分类。<br/><br/>命中: Cayley graph<br/><br/>Bocong Chen, Jing Huang, Gaojun Luo]]></description>
-    </item>
-    <item>
-      <title>Sharp bounds for Duke--Erdős--Rödl problems on cycle-connected subgraphs</title>
-      <link>https://arxiv.org/abs/2610.34307</link>
-      <guid isPermaLink="false">arxiv:2610.34307</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文解决了 Duke–Erdős–Rödl 提出的两个 cycle-connected 子图问题：确定 $f_3(n,\lfloor n^{2-\beta}\rfloor)$ 的最优 $\beta$ 范围为 $(0,2/3]$，并给出 $f_2(n,\binom n2-s)$ 的精确主常数 $1/(2e)$。<br/><br/>命中: random graph<br/><br/>Guorong Gao, Run Zhao]]></description>
-    </item>
-    <item>
-      <title>A general algebraic characterization of extremal $Δ$-trees and $k$-cyclic graphs for degree-homogeneous VDB indices</title>
-      <link>https://arxiv.org/abs/2610.34361</link>
-      <guid isPermaLink="false">arxiv:2610.34361</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文提出一种一般代数方法，通过将 VDB 指数在 $n$ 顶点、最大度为 $\Delta$ 的树类上的最大化问题归约为离散惩罚函数 $G(x,y)$ 的最小化，完整刻画了极值 $\Delta$-树，并推广到连通 $k$-cyclic 图。<br/><br/>命中: threshold<br/><br/>Milan Bašić]]></description>
-    </item>
-    <item>
-      <title>On strong odd colorings of sparse graphs</title>
-      <link>https://arxiv.org/abs/2610.34874</link>
-      <guid isPermaLink="false">arxiv:2610.34874</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了稀疏图的 strong odd coloring，证明了保证 strong odd $c$-coloring 的最大平均度最优阈值是 $4-\Theta(\frac{1}{c})$，并确定了 $c=5$ 时的精确阈值 $\frac{7}{3}$。<br/><br/>命中: threshold<br/><br/>Ilkyoo Choi, Hojin Chu]]></description>
     </item>
   </channel>
 </rss>
