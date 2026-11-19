@@ -5,8 +5,113 @@
     <link>https://threelu.github.io/Web-for-Comb/</link>
     <description>每日匹配的组合数学与图论 arXiv 新论文（含中文 TL;DR）。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Nov 2026 10:25:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 10:33:09 +0000</lastBuildDate>
     <atom:link href="https://threelu.github.io/Web-for-Comb/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Longitudinal Subdivision Invariance of Periodic Directed Strips and Its Application to Elongated Octagonal Strips</title>
+      <link>https://arxiv.org/abs/2611.23301</link>
+      <guid isPermaLink="false">arxiv:2611.23301</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文证明了有限宽度周期有向条带的纵向细分保持细分包含关系，并将其应用于构造细长八边形条带 $O_n$，证明其与有向六边形条带 $H_n$ 细分等价，从而继承 $H_n$ 的端入度阈值与强制宽度公式。<br/><br/>命中: threshold<br/><br/>Dan Zhu]]></description>
+    </item>
+    <item>
+      <title>Almost all vertex-transitive graphs and digraphs are Cayley</title>
+      <link>https://arxiv.org/abs/2611.23641</link>
+      <guid isPermaLink="false">arxiv:2611.23641</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了当顶点数趋于无穷时，几乎所有顶点传递有向图都是 Cayley 有向图，几乎所有顶点传递图都是 Cayley 图，从而解决了 McKay--Praeger 猜想及其有向图版本。<br/><br/>命中: Cayley graph<br/><br/>Ning Su, Binzhou Xia]]></description>
+    </item>
+    <item>
+      <title>A Lower Bound for the Chromatic Number of Ball-Packing Graphs</title>
+      <link>https://arxiv.org/abs/2611.23767</link>
+      <guid isPermaLink="false">arxiv:2611.23767</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文构造了一类球堆积，其接触图的色数至少为 $2d$，从而给出了球堆积色数 $\chiball(d)$ 在维度 $d=q^2-q+1$ 上的下界 $2(q^2-q+1)$，其中 $q$ 为奇素数幂。<br/><br/>命中: chromatic number<br/><br/>Dan Ismailescu, Sunwoo Lee, Terry Lee]]></description>
+    </item>
+    <item>
+      <title>Turán number of the odd-ballooning of odd prisms</title>
+      <link>https://arxiv.org/abs/2611.24048</link>
+      <guid isPermaLink="false">arxiv:2611.24048</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了奇数棱柱 $C_{2k+1}\square K_2$ 的任意指定 odd-ballooning $F^o$ 的 Turán 数，并刻画了其唯一极图。<br/><br/>命中: extremal graph, Turán problem, Turán number<br/><br/>Wenwen Chen, Longfei Fang, Yuke Zhang]]></description>
+    </item>
+    <item>
+      <title>Non-bipartite spectral extremal graphs forbidding a three-chromatic color-critical graph</title>
+      <link>https://arxiv.org/abs/2611.24131</link>
+      <guid isPermaLink="false">arxiv:2611.24131</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了对于每个固定的三色临界图 $H$，$n$ 个顶点的非二部 $H$-free 图的最大谱半径，并刻画了唯一极图。<br/><br/>命中: extremal graph<br/><br/>Bo Dong, Cunxiang Duan, Attila Sali, Ligong Wang]]></description>
+    </item>
+    <item>
+      <title>Critical spectral weights on triangulated disk</title>
+      <link>https://arxiv.org/abs/2611.24199</link>
+      <guid isPermaLink="false">arxiv:2611.24199</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文解决了局部谱阈值 $1/2$ 下相对三角剖分圆盘的共同正权支撑问题，针对内部度数至多五且五度核心为空或连通的圆盘，给出了可行性由三块基本分解和边界标记条件刻画的有限组合判据。<br/><br/>命中: threshold<br/><br/>Enqiang Zhu]]></description>
+    </item>
+    <item>
+      <title>Counting shorter even cycles in graphs forbidding an even cycle</title>
+      <link>https://arxiv.org/abs/2611.24238</link>
+      <guid isPermaLink="false">arxiv:2611.24238</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文确定了当 $n$ 充分大时，不含 $C_{2k}$ 的 $n$ 顶点图中 $C_{2\ell}$ 的精确最大数量 $\operatorname{ex}(n,C_{2\ell},C_{2k})$，并刻画了唯一的 extremal graph。<br/><br/>命中: extremal graph, Turán number, generalized Turán<br/><br/>Zhuoran Han, Yaojun Chen]]></description>
+    </item>
+    <item>
+      <title>Induced matching treewidth in classes with a forbidden structure</title>
+      <link>https://arxiv.org/abs/2611.24432</link>
+      <guid isPermaLink="false">arxiv:2611.24432</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文对由排除单个图（在六种包含关系下）定义的图类，给出了 induced matching treewidth 是否有界的二分定理，并研究了最小度至少为 2 和 2-连通图的情形。<br/><br/>命中: treewidth<br/><br/>Valia Mitsou, Paweł Rzążewski, Giannos Stamoulis]]></description>
+    </item>
+    <item>
+      <title>Treewidth 3 in the Product Structure Theorem for Bounded Degree Graphs in Minor-Closed Classes</title>
+      <link>https://arxiv.org/abs/2611.24544</link>
+      <guid isPermaLink="false">arxiv:2611.24544</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[证明了对于所有正整数 $t$ 和 $\Delta$，存在整数 $c$，使得每个最大度至多 $\Delta$ 的 $K_t$-minor-free 图 $G$ 都同构于强乘积 $H \boxtimes P \boxtimes K_c$ 的子图，其中 $H$ 的 treewidth 至多 $3$，$P$ 是一条路径。<br/><br/>命中: treewidth<br/><br/>Vida Dujmović, Robert Hickingbotham, Pat Morin, David R. Wood]]></description>
+    </item>
+    <item>
+      <title>Asymptotic probabilities in random Latin squares</title>
+      <link>https://arxiv.org/abs/2611.24564</link>
+      <guid isPermaLink="false">arxiv:2611.24564</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文引入了研究随机 Latin square 中渐近概率的新技术，给出了给定小 partial Latin square $H$ 出现在均匀随机 $n\times n$ Latin square 中的概率的渐近公式，并解决了多个相关猜想。<br/><br/>命中: Latin square, @Richard Montgomery, @Matthew Kwan<br/><br/>Lenka Kopfová, Matthew Kwan, Richard Montgomery, Kalina Petrova]]></description>
+    </item>
+    <item>
+      <title>The number of cycles in a random 2-factor of a random regular graph</title>
+      <link>https://arxiv.org/abs/2611.24574</link>
+      <guid isPermaLink="false">arxiv:2611.24574</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[该论文研究了随机 $d$-正则图（配对模型）的均匀随机 2-因子中环的个数 $X$，得到了其概率生成函数的精确表达式，并证明了中心极限定理以及 $F$ 为 Hamilton 圈的概率为 $\Theta(n^{-1/2})$。<br/><br/>命中: Hamilton cycle<br/><br/>Katerina Adler, Simi Haber]]></description>
+    </item>
+    <item>
+      <title>Combinatorial Properties of The Giant Under Supercritical Percolation</title>
+      <link>https://arxiv.org/abs/2611.24606</link>
+      <guid isPermaLink="false">arxiv:2611.24606</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了超临界渗流下巨连通分支的组合性质，如直径和长路径/圈，针对具有扩展性质的 $d$-正则图，证明了巨分支中典型的顶点扩展因子为 $1/(d\log d)$，并由此得到直径的上界 $O(d\log^2 d+\log n)$，同时构造了具有良好扩展性但直径较大的图，表明渗流子图的直径不一定是对数级的。<br/><br/>命中: random graph, @Michael Krivelevich<br/><br/>Sahar Diskin, Mihyun Kang, Michael Krivelevich, Itay Markbreit]]></description>
+    </item>
+    <item>
+      <title>Efficient orders for reciprocal matrices with block structure</title>
+      <link>https://arxiv.org/abs/2611.24704</link>
+      <guid isPermaLink="false">arxiv:2611.24704</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了具有块结构的互反矩阵，刻画了其有效向量（efficient vectors）在块子向量为给定有效向量正倍数时的结构，并给出了保持序关系与序传递性的条件，以及部分互反矩阵存在对所有完成都有效的正向量的图论刻画。<br/><br/>命中: oriented<br/><br/>S. Furtado, C. Johnson]]></description>
+    </item>
+    <item>
+      <title>A disproof of the El-Zahar--Erdős conjecture</title>
+      <link>https://arxiv.org/abs/2611.24735</link>
+      <guid isPermaLink="false">arxiv:2611.24735</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文否定了 El-Zahar--Erdős 猜想，通过概率方法构造了围长至少为 $g$ 且色数任意大的图，其中任意两个不相交的、色数至少为 7 的诱导子图之间都有边相连。<br/><br/>命中: chromatic number<br/><br/>Chenghua Liu, Boning Meng]]></description>
+    </item>
+    <item>
+      <title>The limits of inertia bounds on graph powers</title>
+      <link>https://arxiv.org/abs/2611.24865</link>
+      <guid isPermaLink="false">arxiv:2611.24865</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[本文研究了图幂（graph powers）的惯性界（inertia bounds）的紧性，通过随机图和随机 Cayley 图构造，证明了惯性界与独立数之间可以存在很大差距，且对于基于多项式的惯性型界，差距更大。<br/><br/>命中: random graph, probabilistic method, additive combinatorics, Cayley graph<br/><br/>Aida Abiad, Nils Van de Berg, Sam Mattheus]]></description>
+    </item>
     <item>
       <title>Supersaturation and reconfiguration diameter of independent transversals</title>
       <link>https://arxiv.org/abs/2611.21966</link>
@@ -1301,97 +1406,6 @@
       <guid isPermaLink="false">arxiv:2610.39578</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[本文确定了 3-一致 tight hypergraph cycle 的 off-diagonal Ramsey number $r(C_{3n}^{(3)}, C_{3m}^{(3)})$ 的渐近阶，证明其与 $n$ 和 $m$ 的某个显式函数同阶。<br/><br/>命中: Ramsey number, diagonal Ramsey<br/><br/>Eng Keat Hng]]></description>
-    </item>
-    <item>
-      <title>On edge-ordered Ramsey numbers of hypergraphs</title>
-      <link>https://arxiv.org/abs/2610.39653</link>
-      <guid isPermaLink="false">arxiv:2610.39653</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了超图的 edge-ordered Ramsey number，建立了与 edge-ordered 完全图边数相关的上界，并给出了若干超图类的精确值或渐近估计。<br/><br/>命中: Ramsey number<br/><br/>Martin Balko, Jelena Glišić]]></description>
-    </item>
-    <item>
-      <title>Minimum-degree thresholds beyond bounded colourability</title>
-      <link>https://arxiv.org/abs/2610.39759</link>
-      <guid isPermaLink="false">arxiv:2610.39759</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究随机图中超越有界可着色性的最小度阈值，确定了随机图过程在最小度约束下达到非有界着色数（如高色数）的精确阈值。<br/><br/>命中: threshold, @Hong Liu<br/><br/>Xinqi Huang, Hong Liu]]></description>
-    </item>
-    <item>
-      <title>EPPA for Reducts of the Random Graph</title>
-      <link>https://arxiv.org/abs/2610.39760</link>
-      <guid isPermaLink="false">arxiv:2610.39760</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了随机图 $R$ 的若干归约（reducts）满足 EPPA（每个有限部分同构都扩张为整个结构的自同构），从而将 EPPA 从随机图本身推广到其保持某些结构的子结构。<br/><br/>命中: random graph<br/><br/>Sofia Brenner, Jan Hubička, Matěj Konečný]]></description>
-    </item>
-    <item>
-      <title>Supersaturation: Cliques and Positive Square Energy</title>
-      <link>https://arxiv.org/abs/2610.40570</link>
-      <guid isPermaLink="false">arxiv:2610.40570</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了图的 clique 数量与 positive square energy 之间的 supersaturation 关系，证明了当图含有足够多的 $K_r$ 时，其 positive square energy 的下界。<br/><br/>命中: supersaturation<br/><br/>Abhay Jayarajan, M. Rajesh Kannan, Shivaramakrishna Pragada]]></description>
-    </item>
-    <item>
-      <title>Anchored isoperimetry in percolation</title>
-      <link>https://arxiv.org/abs/2610.38941</link>
-      <guid isPermaLink="false">arxiv:2610.38941</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究渗流（percolation）中锚定等周问题，证明在超临界 Bernoulli 渗流中，给定锚点集合的最小边界大小由锚点数量与体积之间的最优权衡决定。<br/><br/>命中: @Benny Sudakov<br/><br/>Sahar Diskin, Lyuben Lichev, Ritvik Ramanan Radhakrishnan, Benny Sudakov, Laury Verhoeven]]></description>
-    </item>
-    <item>
-      <title>Local Convergence of Triadic Closures of Sparse Random Graphs</title>
-      <link>https://arxiv.org/abs/2610.39535</link>
-      <guid isPermaLink="false">arxiv:2610.39535</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文研究了稀疏随机图（如 $G(n,p)$ 与 $G(n,m)$）的 triadic closure 过程，证明了在局部弱收敛意义下，其局部极限可由一个带标记的随机图刻画。<br/><br/>命中: random graph<br/><br/>Himasish Talukdar]]></description>
-    </item>
-    <item>
-      <title>On isomorphisms of tetravalent Cayley graphs over generalized quaternion groups</title>
-      <link>https://arxiv.org/abs/2610.38470</link>
-      <guid isPermaLink="false">arxiv:2610.38470</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文分类了广义四元数群 $Q_{4n}$ 上 4 度 Cayley 图之间的同构，给出了在特定条件下同构的充要条件。<br/><br/>命中: Cayley graph<br/><br/>Lele Jin, Li Ma, Wei Meng]]></description>
-    </item>
-    <item>
-      <title>On Hamilton cycles in quasiprimitive graphs of order $2pq$</title>
-      <link>https://arxiv.org/abs/2610.35976</link>
-      <guid isPermaLink="false">arxiv:2610.35976</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文分类了 $2pq$ 阶的 quasiprimitive 图，并证明除少数例外情形外，这类图都是 Hamiltonian 的。<br/><br/>命中: Hamilton cycle<br/><br/>Hao Yu, Tianlei Zhou]]></description>
-    </item>
-    <item>
-      <title>Constructions for Nearly Diagonal Book Ramsey Numbers</title>
-      <link>https://arxiv.org/abs/2610.36522</link>
-      <guid isPermaLink="false">arxiv:2610.36522</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文构造了几乎对角情形下 book Ramsey number $r(B_{p}, B_{q})$ 的新下界，其中 $p$ 与 $q$ 接近相等。<br/><br/>命中: Ramsey number<br/><br/>Stephen Chung, William J. Wesley]]></description>
-    </item>
-    <item>
-      <title>An upper bound of 61 for the Ramsey number $R(3,3,3,3)$</title>
-      <link>https://arxiv.org/abs/2610.36648</link>
-      <guid isPermaLink="false">arxiv:2610.36648</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了多色 Ramsey 数 $R(3,3,3,3) \le 61$，改进了此前已知的上界。<br/><br/>命中: Ramsey number<br/><br/>Milos Tatarevic]]></description>
-    </item>
-    <item>
-      <title>The Edge Geodesic Transversal Problem</title>
-      <link>https://arxiv.org/abs/2610.36821</link>
-      <guid isPermaLink="false">arxiv:2610.36821</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文引入并研究了边测地横截问题（edge geodesic transversal problem），即寻找最小的边集，使其与图中每条测地线（最短路径）都相交，并给出该参数在若干图类中的精确值与界。<br/><br/>命中: transversal<br/><br/>R. Prabha, B. Sandhiya, Paul Manuel]]></description>
-    </item>
-    <item>
-      <title>Optimal path decompositions of sparse random graphs</title>
-      <link>https://arxiv.org/abs/2610.37173</link>
-      <guid isPermaLink="false">arxiv:2610.37173</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[本文证明了稀疏随机图 $G(n,p)$ 在 $p$ 略高于连通性阈值时，其边集可以被最优地分解为长度几乎任意的路径，从而解决了稀疏随机图上路径分解的最优性问题。<br/><br/>命中: random graph<br/><br/>Jifu Lin, Heng Yang]]></description>
-    </item>
-    <item>
-      <title>High powers of grids in random geometric graphs and thresholds for wide spanning structures</title>
-      <link>https://arxiv.org/abs/2610.37408</link>
-      <guid isPermaLink="false">arxiv:2610.37408</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[该论文研究了随机几何图 $G(n,r)$ 中网格图的高次幂，并给出了宽生成结构的阈值。<br/><br/>命中: threshold<br/><br/>Alberto Espuny Díaz]]></description>
     </item>
   </channel>
 </rss>

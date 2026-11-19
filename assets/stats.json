@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-18T10:25:26+00:00",
-  "total_days": 120,
-  "total_matched": 1273,
+  "generated": "2026-11-19T10:33:10+00:00",
+  "total_days": 121,
+  "total_matched": 1288,
   "daily": [
     {
       "date": "2026-06-02",
@@ -602,36 +602,41 @@
       "date": "2026-11-18",
       "matched": 12,
       "fetched": 65
+    },
+    {
+      "date": "2026-11-19",
+      "matched": 15,
+      "fetched": 88
     }
   ],
   "keywords": [
     [
       "threshold",
-      296
+      298
     ],
     [
       "chromatic number",
-      163
+      165
     ],
     [
       "Cayley graph",
-      105
+      107
     ],
     [
       "oriented",
-      90
+      91
+    ],
+    [
+      "extremal graph",
+      85
     ],
     [
       "Ramsey number",
       85
     ],
     [
-      "extremal graph",
-      82
-    ],
-    [
       "random graph",
-      75
+      77
     ],
     [
       "transversal",
@@ -639,15 +644,15 @@
     ],
     [
       "Turán number",
-      43
+      45
     ],
     [
       "Latin square",
-      43
+      44
     ],
     [
       "Hamilton cycle",
-      39
+      40
     ],
     [
       "oriented graph",
@@ -659,7 +664,11 @@
     ],
     [
       "treewidth",
-      27
+      29
+    ],
+    [
+      "Turán problem",
+      25
     ],
     [
       "supersaturation",
@@ -670,12 +679,8 @@
       24
     ],
     [
-      "Turán problem",
-      24
-    ],
-    [
       "generalized Turán",
-      16
+      17
     ],
     [
       "list coloring",
@@ -714,6 +719,10 @@
       8
     ],
     [
+      "additive combinatorics",
+      7
+    ],
+    [
       "regularity lemma",
       7
     ],
@@ -722,7 +731,7 @@
       7
     ],
     [
-      "additive combinatorics",
+      "probabilistic method",
       6
     ],
     [
@@ -739,10 +748,6 @@
     ],
     [
       "multicolour Ramsey",
-      5
-    ],
-    [
-      "probabilistic method",
       5
     ],
     [
@@ -816,6 +821,10 @@
       12
     ],
     [
+      "Richard Montgomery",
+      6
+    ],
+    [
       "Andrey Kupavskii",
       6
     ],
@@ -824,11 +833,15 @@
       6
     ],
     [
-      "Richard Montgomery",
-      5
+      "Matthew Kwan",
+      4
     ],
     [
       "David Conlon",
+      4
+    ],
+    [
+      "Michael Krivelevich",
       4
     ],
     [
@@ -844,19 +857,11 @@
       3
     ],
     [
-      "Matthew Kwan",
-      3
-    ],
-    [
       "Cosmin Pohoata",
       3
     ],
     [
       "Casey Tompkins",
-      3
-    ],
-    [
-      "Michael Krivelevich",
       3
     ],
     [
