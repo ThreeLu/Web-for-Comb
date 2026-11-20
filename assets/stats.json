@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-19T10:33:10+00:00",
-  "total_days": 121,
-  "total_matched": 1288,
+  "generated": "2026-11-20T10:13:56+00:00",
+  "total_days": 122,
+  "total_matched": 1306,
   "daily": [
     {
       "date": "2026-06-02",
@@ -607,16 +607,21 @@
       "date": "2026-11-19",
       "matched": 15,
       "fetched": 88
+    },
+    {
+      "date": "2026-11-20",
+      "matched": 18,
+      "fetched": 80
     }
   ],
   "keywords": [
     [
       "threshold",
-      298
+      305
     ],
     [
       "chromatic number",
-      165
+      167
     ],
     [
       "Cayley graph",
@@ -624,15 +629,15 @@
     ],
     [
       "oriented",
-      91
+      92
     ],
     [
       "extremal graph",
-      85
+      87
     ],
     [
       "Ramsey number",
-      85
+      87
     ],
     [
       "random graph",
@@ -640,11 +645,11 @@
     ],
     [
       "transversal",
-      60
+      61
     ],
     [
       "Turán number",
-      45
+      46
     ],
     [
       "Latin square",
@@ -656,7 +661,7 @@
     ],
     [
       "oriented graph",
-      35
+      36
     ],
     [
       "Hamiltonicity",
@@ -667,12 +672,12 @@
       29
     ],
     [
-      "Turán problem",
+      "supersaturation",
       25
     ],
     [
-      "supersaturation",
-      24
+      "Turán problem",
+      25
     ],
     [
       "Hamiltonian cycle",
@@ -688,7 +693,7 @@
     ],
     [
       "Ramsey theory",
-      12
+      13
     ],
     [
       "Hamilton path",
@@ -719,6 +724,10 @@
       8
     ],
     [
+      "probabilistic method",
+      7
+    ],
+    [
       "additive combinatorics",
       7
     ],
@@ -727,19 +736,19 @@
       7
     ],
     [
-      "tight Hamilton cycle",
+      "hitting time",
       7
     ],
     [
-      "probabilistic method",
-      6
+      "tight Hamilton cycle",
+      7
     ],
     [
       "bootstrap percolation",
       6
     ],
     [
-      "hitting time",
+      "book graph",
       6
     ],
     [
@@ -748,10 +757,6 @@
     ],
     [
       "multicolour Ramsey",
-      5
-    ],
-    [
-      "book graph",
       5
     ],
     [
@@ -787,6 +792,10 @@
       3
     ],
     [
+      "rainbow matching",
+      3
+    ],
+    [
       "Hamilton decomposition",
       3
     ],
@@ -804,10 +813,6 @@
     ],
     [
       "Ramsey multiplicity",
-      2
-    ],
-    [
-      "graph removal lemma",
       2
     ]
   ],
@@ -833,6 +838,10 @@
       6
     ],
     [
+      "Peter Keevash",
+      4
+    ],
+    [
       "Matthew Kwan",
       4
     ],
@@ -849,11 +858,11 @@
       4
     ],
     [
-      "Noga Alon",
-      3
+      "Rajko Nenadov",
+      4
     ],
     [
-      "Peter Keevash",
+      "Noga Alon",
       3
     ],
     [
@@ -866,10 +875,6 @@
     ],
     [
       "Jacob Fox",
-      3
-    ],
-    [
-      "Rajko Nenadov",
       3
     ],
     [
@@ -901,6 +906,10 @@
       2
     ],
     [
+      "Luke Postle",
+      2
+    ],
+    [
       "Jaehoon Kim",
       2
     ],
@@ -921,10 +930,6 @@
       1
     ],
     [
-      "Luke Postle",
-      1
-    ],
-    [
       "Domagoj Bradač",
       1
     ],
@@ -934,6 +939,10 @@
     ],
     [
       "Stefan Glock",
+      1
+    ],
+    [
+      "Michelle Delcourt",
       1
     ]
   ]
